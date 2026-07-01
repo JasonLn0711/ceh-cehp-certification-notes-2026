@@ -1,0 +1,5 @@
+.local/
+private/
+*.log
+*.tmp
+.DS_Store
