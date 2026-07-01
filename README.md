@@ -8,8 +8,12 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
   Monday to Friday, `09:00-18:00`.
 - CEHP: registered for UCOM / UUU 台北 `26408`, `2026-09-06` and
   `2026-09-13`, Sundays, `09:00-17:00`.
-- Payment / bundle gate: waiting for UCOM / UUU staff to confirm CEH + CEHP
-  promotion handling and final payment terms.
+- Registration evidence: UCOM / UUU confirmation call and successful
+  registration email are preserved under
+  `source/2026-07-01-ucom-registration/`.
+- Package / payment gate: CEH + CEHP package is recorded at `NT$65,000`; UCOM /
+  UUU payment and card-flow details are expected around two weeks before CEH
+  class.
 
 ## FIRST PRINCIPLE
 
@@ -18,7 +22,7 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
   topics, practice notes, and exam-readiness checks.
 - Planning connection:
   `../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md`.
-- Scope control: all notes stay educational, defensive, lawful, and
+- Scope control: all notes stay educational, lawful, authorized, and
   certification-focused.
 
 ## How To Use This Repo
@@ -41,6 +45,7 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 - `assessments/`: baseline pretest, answer key, and posttest templates.
 - `study-plan/`: pre-course plan and weak-topic repair.
 - `notes/`: chapter previews and class notes.
+- `source/`: privacy-controlled source copies and registration analysis.
 - `docs/ownership-and-planning-bridge.md`: boundary between this repo,
   planning, and private reflection.
 

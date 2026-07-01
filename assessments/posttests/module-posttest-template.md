@@ -13,7 +13,7 @@
 2. What are the main terms I must recognize?
 3. What evidence would show this risk in a real environment?
 4. What is the safest defensive control or mitigation?
-5. What did I still not understand?
+5. Which concept needs the next repair pass?
 
 ## Five-Minute Application
 
@@ -27,6 +27,6 @@ Use a toy or authorized training scenario only.
 
 ## Outcome
 
-- Result: pass / review / blocked
+- Result: pass / review / activation_needed
 - Weak topic:
 - Next action:

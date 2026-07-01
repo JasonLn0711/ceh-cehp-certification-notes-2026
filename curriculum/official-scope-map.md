@@ -47,5 +47,5 @@ For each module:
 1. Read one short official or reputable overview.
 2. Write a `10` line summary in `notes/`.
 3. Answer the module posttest.
-4. Mark outcome: `pass`, `review`, or `blocked`.
+4. Mark outcome: `pass`, `review`, or `activation_needed`.
 5. Add only failed topics to the weak-topic list.

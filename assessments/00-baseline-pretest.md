@@ -2,8 +2,8 @@
 
 ## Instructions
 
-Take this before studying. Do not use notes. The goal is to locate weak topics,
-not to prove readiness.
+Take this before studying with a closed-book setup. The goal is to locate weak
+topics and choose the first repair modules.
 
 - Timebox: `45` minutes.
 - Answer format: choose one answer for multiple-choice questions; write short

@@ -17,9 +17,21 @@ into a reusable cybersecurity learning asset.
   repair, practice logs, and exam-readiness rubrics.
 - Planning role: `planning-everything-track` owns calendar capacity, registration
   status, payment / discount gates, and thin locator/status mirrors only.
-- Scope control: keep this repo educational, defensive, lawful, and
-  certification-focused. Do not store private registration identifiers, payment
-  data, credentials, target systems, or instructions for unauthorized activity.
+- Scope control: keep this repo educational, lawful, authorized, and
+  certification-focused. Private registration identifiers, payment data,
+  credentials, target-system details, and activity outside the authorized
+  training scope stay in their protected homes outside this learning workspace.
+
+## Writing Voice
+
+- Write durable notes, source analyses, planning bridges, and study docs in a
+  confident, generous, positive-scope voice.
+- Start from purpose, capability, evidence, ownership, scope control, and next
+  action.
+- Convert 否定語氣、防守語氣、防衛語氣 into affirmative capability,
+  boundary, activation, and stewardship language before publication.
+- Preserve exact source wording in transcripts, emails, quoted material, legal
+  status, safety language, and credential controls when precision requires it.
 
 ## Working Rules
 
@@ -27,23 +39,25 @@ into a reusable cybersecurity learning asset.
 2. Use official course scope as the backbone before adding outside resources.
 3. Every quick chapter preview should end with a short posttest.
 4. Every posttest should produce one of three outcomes: `pass`, `review`, or
-   `blocked`.
-5. Keep lab notes defensive and local-only. Use toy examples, authorized labs,
-   or official training environments only.
-6. Do not expand into a full cybersecurity knowledge base. This repo exists to
-   get Jason from zero baseline to CEH + CEHP course readiness.
+   `activation_needed`.
+5. Keep lab notes local, lawful, and training-focused. Use toy examples,
+   authorized labs, or official training environments only.
+6. Keep the knowledge surface focused on CEH + CEHP course readiness; broader
+   cybersecurity topics enter only when they support the official course scope.
 
 ## Evidence Boundary
 
-Allowed:
+Active evidence:
+
 - official course links;
 - redacted registration facts;
 - personal study notes;
 - pretest / posttest answers;
 - authorized lab observations.
 
-Not allowed:
+Protected boundaries:
+
 - national ID, birthday, phone, email, card data;
 - passwords, API keys, private tokens;
-- unauthorized target details;
-- exploit walkthroughs against real systems.
+- authorized training targets and local toy examples;
+- lawful lab procedures aligned with official training environments.

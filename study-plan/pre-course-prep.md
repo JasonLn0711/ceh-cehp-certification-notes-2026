@@ -11,13 +11,16 @@ first time.
 - Keep each preview module to `25-40` minutes.
 - End every preview with a posttest.
 - Study only weak topics after the baseline pretest.
-- Do not build a large note system before class.
+- Keep the note system compact before class and expand only from official
+  course needs.
 
 ## Phase 0: Baseline
 
 - [ ] Take `assessments/00-baseline-pretest.md`.
 - [ ] Score with `assessments/00-baseline-pretest-answer-key.md`.
 - [ ] Pick the first `5` weak modules.
+- [ ] Use `source/2026-07-01-ucom-registration/analysis-and-study-bridge.md`
+  as the registration gate and exam-rights reference.
 
 ## Phase 1: CEH Zero-To-Ready Preview
 
@@ -35,8 +38,17 @@ first time.
 - [ ] Preview P4: system attack analysis.
 - [ ] Preview P5: website attack analysis.
 
+## Administrative Gates
+
+| Gate | Target date | Owner | Activation | Next action |
+| --- | --- | --- | --- | --- |
+| UCOM / UUU payment and class reminder | around `2026-07-20` | Jason | waiting for provider notice | confirm payment/card flow and class-opening notice |
+| CEH voucher and lab activation | after `2026-08-07` | Jason | opens after CEH class | record voucher, lab start date, retake rules, and booking flow |
+| CEH exam date | after CEH weak-topic review | Jason | opens after pass/review evidence | book after high-risk modules have pass/review evidence |
+| CEHP exam logistics | before `2026-09-13` | Jason | opens before Practical booking | confirm Practical booking, proctoring, and environment checks |
+
 ## Weak Topic List
 
 | Topic | Source | Status | Next action |
 | --- | --- | --- | --- |
-| TBD | baseline pretest | pending | take pretest first |
+| TBD | baseline pretest | activation after scoring | take pretest first |

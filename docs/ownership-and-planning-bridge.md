@@ -21,6 +21,8 @@
   `assessments/posttests/module-posttest-template.md`
 - Pre-course study plan and weak-topic repair:
   `study-plan/pre-course-prep.md`
+- Privacy-controlled registration source archive and analysis:
+  `source/2026-07-01-ucom-registration/`
 - Future chapter previews, class notes, practice logs, and exam-readiness
   checks:
   `notes/`
@@ -44,18 +46,27 @@ Planning keeps thin, durable coordination records:
 - Cross-repo routing rule:
   `../planning-everything-track/docs/11-cross-repo-first-principles-routing.md`
 
-## What Stays Out Of This Repo
+## Protected Boundaries
 
-- National ID, birthday, phone, email, card data, and payment account details.
-- Raw private reflection about identity pressure and family/work/doctoral load.
-- Weekly planning details beyond links and status.
-- Unauthorized target details or exploit instructions against real systems.
+This repo protects the learning scope by routing sensitive or adjacent material
+to the right home:
+
+- National ID, birthday, phone, email, card data, and payment account details
+  stay in protected private records.
+- Raw unredacted registration exports with direct-contact identifiers stay
+  outside the learning repo.
+- Raw private reflection about identity pressure and family/work/doctoral load
+  stays in `../inner-archive/`.
+- Weekly planning detail stays in `../planning-everything-track/`.
+- Authorized, local-only lab learning stays here; real-system security material
+  uses approved training environments, toy examples, or official labs.
 
 ## Bridge Rule
 
 When a CEH / CEHP item appears:
 
 - technical learning content goes here;
+- redacted registration evidence and exam-rights analysis go here;
 - schedule, capacity, and registration gate go to planning;
 - personal meaning goes to `inner-archive`;
 - each repo links to the others by locator only.
