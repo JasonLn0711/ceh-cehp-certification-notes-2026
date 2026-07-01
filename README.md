@@ -8,8 +8,8 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
   Monday to Friday, `09:00-18:00`.
 - CEHP: registered for UCOM / UUU 台北 `26408`, `2026-09-06` and
   `2026-09-13`, Sundays, `09:00-17:00`.
-- Registration evidence: UCOM / UUU confirmation call and successful
-  registration email are preserved under
+- Registration evidence: UCOM / UUU confirmation call raw transcript,
+  corrected transcript, and successful registration email are preserved under
   `source/2026-07-01-ucom-registration/`.
 - Package / payment gate: CEH + CEHP package is recorded at `NT$65,000`; UCOM /
   UUU payment and card-flow details are expected around two weeks before CEH

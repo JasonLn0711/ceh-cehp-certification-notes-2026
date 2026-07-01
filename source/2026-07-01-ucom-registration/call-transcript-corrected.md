@@ -5,6 +5,7 @@ language: zh-Hant-TW
 locale: Taiwan
 topic: UUU 恆逸訓練中心 CEH + CEHP 雙認證方案報名電話
 conversation_date: 2026-07-01
+source_layer: call-transcript-user-provided-raw.md
 participants:
   - speaker_id: course_consultant
     display_name: 課程顧問

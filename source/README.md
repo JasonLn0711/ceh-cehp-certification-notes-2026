@@ -6,8 +6,9 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 
 - Folder: `2026-07-01-ucom-registration/`
 - Status: `source preserved`
-- Scope: UCOM / UUU registration confirmation, corrected phone transcript,
-  package terms, course dates, payment gate, and exam-rights reminders.
+- Scope: UCOM / UUU registration confirmation, user-provided raw transcript,
+  corrected phone transcript, package terms, course dates, payment gate, invoice
+  path, seat request, and exam-rights reminders.
 - Privacy control: email addresses, phone numbers, card/payment details, and
   private account identifiers stay out of this repo.
 

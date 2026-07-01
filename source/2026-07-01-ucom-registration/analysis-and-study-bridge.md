@@ -6,6 +6,8 @@ Status: `source preserved`
 
 Preserved copies:
 
+- `call-transcript-user-provided-raw.md`: user-provided raw transcript for the
+  UUU CEH + CEHP registration confirmation call.
 - `call-transcript-corrected.md`: corrected phone transcript for the UUU
   CEH + CEHP registration confirmation call.
 - `registration-confirmation-ai-agent-readable-redacted.md`: redacted
@@ -16,6 +18,10 @@ Preserved copies:
 Privacy control: this archive keeps course, schedule, fee, exam, and next-action
 facts. It redacts email addresses, phone numbers, private payment details, and
 other direct-contact identifiers required to stay out of this learning repo.
+
+Source relationship: `call-transcript-user-provided-raw.md` preserves the
+verbatim user-provided call record; `call-transcript-corrected.md` standardizes
+course names, exam labels, and publicly checked facts for downstream use.
 
 ## Accepted Interpretation
 
@@ -47,6 +53,7 @@ The practical learning path is:
 | Original combined price | `NT$105,000` | registration email and phone transcript |
 | Payment gate | UCOM / UUU will provide payment / card information about two weeks before class | registration email and phone transcript |
 | Seat request | UUU consultant said Jason and 杜承諺 can be seated together | phone transcript |
+| Invoice path | Jason currently plans personal payment and personal invoice handling | phone transcript |
 
 ## Exam And Rights Map
 
@@ -90,5 +97,8 @@ from exploratory interest into a time-boxed readiness lane:
 - Add the first five failed or low-confidence modules to
   `../../study-plan/pre-course-prep.md`.
 - Around `2026-07-20`, check for UCOM / UUU payment and class-reminder email.
+- Before payment, keep the invoice path aligned with the current personal
+  payment plan; activate company invoice handling only if Jason requests it
+  before UCOM / UUU issues the invoice.
 - After CEH class, record voucher, lab, retake, and exam-booking details in this
   source folder or a dated class-note folder.
