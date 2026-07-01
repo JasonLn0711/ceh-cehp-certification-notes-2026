@@ -11,9 +11,9 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 - Registration evidence: UCOM / UUU confirmation call raw transcript,
   corrected transcript, and successful registration email are preserved under
   `source/2026-07-01-ucom-registration/`.
-- Package / payment gate: CEH + CEHP package is recorded at `NT$65,000`; UCOM /
-  UUU payment and card-flow details are expected around two weeks before CEH
-  class.
+- Package / payment gate: CEH + CEHP package discount is confirmed at
+  `NT$65,000`; UCOM / UUU payment, card-flow, and class-opening details are
+  expected by later notice.
 
 ## FIRST PRINCIPLE
 

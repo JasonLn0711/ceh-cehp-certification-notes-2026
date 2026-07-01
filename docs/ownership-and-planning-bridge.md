@@ -5,7 +5,8 @@
 - Scarce resource: Jason's pre-course study capacity and exam-readiness signal.
 - Canonical learning home: this repo owns CEH / CEHP technical preparation.
 - Planning home: `../planning-everything-track/` owns calendar capacity,
-  registration status, payment / discount gates, and next-action mirrors.
+  registration status, confirmed discount, payment / opening notice gates, and
+  next-action mirrors.
 - Private meaning home: `../inner-archive/` owns private reflection about
   probation pressure, family / work / doctoral load, and personal meaning.
 

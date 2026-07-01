@@ -25,10 +25,11 @@ course names, exam labels, and publicly checked facts for downstream use.
 
 ## Accepted Interpretation
 
-Jason is registered for the UCOM / UUU CEH + CEHP dual-certification package.
-The learning repo can now treat the August CEH course and September CEHP review
-course as fixed preparation anchors, while keeping final payment and official
-course-opening confirmation as an administrative gate.
+Jason is registered for the UCOM / UUU CEH + CEHP dual-certification package at
+the confirmed `NT$65,000` package discount. The learning repo can now treat the
+August CEH course and September CEHP review course as fixed preparation
+anchors, while keeping final payment and official course-opening confirmation
+as an administrative gate.
 
 The practical learning path is:
 
@@ -51,7 +52,7 @@ The practical learning path is:
 | CEHP class | 台北 `26408`, `2026-09-06` and `2026-09-13`, `09:00-17:00` | registration email |
 | Package price | `NT$65,000` dual-certification package | registration email and phone transcript |
 | Original combined price | `NT$105,000` | registration email and phone transcript |
-| Payment gate | UCOM / UUU will provide payment / card information about two weeks before class | registration email and phone transcript |
+| Payment / opening gate | UCOM / UUU will provide payment / card information and final class-opening notice later | registration email and phone transcript |
 | Seat request | UUU consultant said Jason and 杜承諺 can be seated together | phone transcript |
 | Invoice path | Jason currently plans personal payment and personal invoice handling | phone transcript |
 
@@ -96,7 +97,7 @@ from exploratory interest into a time-boxed readiness lane:
 - Take and score `../../assessments/00-baseline-pretest.md`.
 - Add the first five failed or low-confidence modules to
   `../../study-plan/pre-course-prep.md`.
-- Around `2026-07-20`, check for UCOM / UUU payment and class-reminder email.
+- Around `2026-07-20`, check for UCOM / UUU payment and class-opening notice.
 - Before payment, keep the invoice path aligned with the current personal
   payment plan; activate company invoice handling only if Jason requests it
   before UCOM / UUU issues the invoice.

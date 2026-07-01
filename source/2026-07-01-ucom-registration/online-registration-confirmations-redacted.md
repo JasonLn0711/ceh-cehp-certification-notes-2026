@@ -18,8 +18,8 @@ related:
 
 ## Source Boundary
 
-This file preserves the course, schedule, fee, registration, and discount-gate
-information from the user-provided UCOM / UUU registration emails.
+This file preserves the course, schedule, fee, registration, and confirmed
+discount information from the user-provided UCOM / UUU registration emails.
 
 Privacy control: this repo preserves course, schedule, fee, and next-gate
 evidence. National ID, birthday, phone number, email address, and payment
@@ -41,7 +41,7 @@ account details remain in protected private records.
   `99` 號 `14` 樓
 - Payment note: credit-card payment selected in registration.
 - Discount / correction note:
-  - Jason requested CEH + CEHP bundle discount handling.
+  - CEH + CEHP bundle discount is confirmed at `NT$65,000`.
   - Jason clarified that the correct CEH class is `2026-08-03` to
     `2026-08-07`, Monday to Friday.
 - Refund rule: registration email says the refund rule was acknowledged; final
@@ -62,15 +62,14 @@ account details remain in protected private records.
 - Location: 恆逸教育訓練中心 / 優勢數位設計學苑，台北中心，台北市復興北路
   `99` 號 `14` 樓
 - Payment note: credit-card payment selected in registration.
-- Discount note: Jason requested CEH + CEHP bundle discount handling.
+- Discount note: CEH + CEHP bundle discount is confirmed at `NT$65,000`.
 - Refund rule: registration email says the refund rule was acknowledged; final
   policy still belongs to UCOM / UUU and local regulations.
 
 ## Next Gate
 
-Wait for UCOM / UUU staff to confirm:
+Wait for UCOM / UUU staff to notify:
 
-- whether both online registrations are combined under the CEH + CEHP promotion;
-- final payment amount;
+- final payment flow;
 - refund terms;
 - final class-opening status.

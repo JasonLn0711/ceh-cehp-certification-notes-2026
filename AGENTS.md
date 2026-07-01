@@ -15,8 +15,9 @@ into a reusable cybersecurity learning asset.
   August / September classes.
 - Canonical home: this repo owns technical study notes, assessments, weak-topic
   repair, practice logs, and exam-readiness rubrics.
-- Planning role: `planning-everything-track` owns calendar capacity, registration
-  status, payment / discount gates, and thin locator/status mirrors only.
+- Planning role: `planning-everything-track` owns calendar capacity,
+  registration status, confirmed discount, payment / opening notice gates, and
+  thin locator/status mirrors only.
 - Scope control: keep this repo educational, lawful, authorized, and
   certification-focused. Private registration identifiers, payment data,
   credentials, target-system details, and activity outside the authorized
