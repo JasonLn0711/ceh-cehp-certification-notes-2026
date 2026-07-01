@@ -1,0 +1,1 @@
+attempt_id,date,form_id,form_version,score,max_score,percent,confidence_avg,critical_safety_errors,decision,weak_modules,remediation_assigned,retest_due,retest_result

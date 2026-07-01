@@ -1,0 +1,5 @@
+form_id,version,status,purpose,item_count,time_limit_minutes,anchor_item_count,decision_rule,scheduled_window
+baseline_form_a,0.1.0,draft,formal no-study baseline and weak-module map,50,60,0,score creates weak-module map,2026-07-01 to 2026-07-03
+pre_august_form_b,0.1.0,draft,parallel pre-August readiness gate,50,60,8,>=75 percent and 16 of 20 modules at review/pass,2026-08-01 to 2026-08-02
+module_mini_posttest,0.1.0,draft,CEH module preview check,8,12,0,>=75 percent and critical safety clear,after each module preview
+cehp_readiness_gate,0.1.0,draft,CEHP practical bridge readiness,5 scenarios,60,0,4 of 5 scenario classes at pass,2026-09-05
