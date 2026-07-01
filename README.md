@@ -41,6 +41,17 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 - `assessments/`: baseline pretest, answer key, and posttest templates.
 - `study-plan/`: pre-course plan and weak-topic repair.
 - `notes/`: chapter previews and class notes.
+- `docs/ownership-and-planning-bridge.md`: boundary between this repo,
+  planning, and private reflection.
+
+## Planning Bridge
+
+Planning stays thin. Use:
+
+- `docs/ownership-and-planning-bridge.md` for the repo boundary.
+- `../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md`
+  for registration status, course dates, and capacity gates.
+- `../inner-archive/` for private meaning and pressure reflection.
 
 ## Official Course Links
 
