@@ -21,6 +21,15 @@ first time.
 - [ ] Pick the first `5` weak modules.
 - [ ] Use `source/2026-07-01-ucom-registration/analysis-and-study-bridge.md`
   as the registration gate and exam-rights reference.
+- [ ] Share `docs/expert-assessment-packet.md` / Downloads packet with the
+  expert for question-bank and readiness-gate review.
+- [ ] Use `docs/assessment-governance-system.md` and
+  `assessment-governance/` as the v0.2 Assessment Governance System before
+  drafting formal form A and parallel form B.
+- [ ] Follow `docs/daily-closed-loop-plan.md`: one primary task, one visible
+  output, and one record update per day.
+- [ ] Use `docs/daily-closed-loop-calendar-plan.md` as the detailed daily
+  execution calendar through `2026-08-02`.
 
 ## Phase 1: CEH Zero-To-Ready Preview
 

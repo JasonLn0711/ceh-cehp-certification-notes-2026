@@ -43,9 +43,19 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
 - `curriculum/`: official course scope and module order.
 - `assessments/`: baseline pretest, answer key, and posttest templates.
+- `assessment-governance/`: minimum viable Assessment Governance System:
+  competency map, item bank, forms, attempt log, rubric, traceability matrix,
+  and readiness dashboard.
 - `study-plan/`: pre-course plan and weak-topic repair.
 - `notes/`: chapter previews and class notes.
 - `source/`: privacy-controlled source copies and registration analysis.
+- `docs/assessment-governance-system.md`: v0.2 traceable assessment design.
+- `docs/daily-closed-loop-plan.md`: daily July-to-August task calendar and
+  minimum CEH readiness standard.
+- `docs/daily-closed-loop-calendar-plan.md`: captured detailed calendar plan
+  with time blocks, ten-layer mapping, and daily outputs.
+- `docs/expert-assessment-packet.md`: Downloads packet locator for expert
+  question-writing, pretest/posttest design, and July preview planning.
 - `docs/ownership-and-planning-bridge.md`: boundary between this repo,
   planning, and private reflection.
 
