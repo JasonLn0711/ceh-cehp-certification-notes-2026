@@ -24,6 +24,8 @@
   `study-plan/pre-course-prep.md`
 - Privacy-controlled registration source archive and analysis:
   `source/2026-07-01-ucom-registration/`
+- Course-change decision gate:
+  `source/2026-07-08-course-change-decision-gate/decision-record.md`
 - Future chapter previews, class notes, practice logs, and exam-readiness
   checks:
   `notes/`

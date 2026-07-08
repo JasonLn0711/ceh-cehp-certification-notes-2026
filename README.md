@@ -11,6 +11,12 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 - Registration evidence: UCOM / UUU confirmation call raw transcript,
   corrected transcript, and successful registration email are preserved under
   `source/2026-07-01-ucom-registration/`.
+- Schedule decision gate: if VOISS AI / Max provides a formal written offer and
+  work-flow confirmation, Jason may request a move to CEH 台北 `2053`
+  (`2026-09-20` to `2026-11-01`) and CEHP 台北 `26416` (`2026-11-19` to
+  `2026-11-20`); until UCOM / UUU confirms the change, the current registered
+  classes remain the baseline. See
+  `source/2026-07-08-course-change-decision-gate/decision-record.md`.
 - Package / payment gate: CEH + CEHP package discount is confirmed at
   `NT$65,000`; UCOM / UUU payment, card-flow, and class-opening details are
   expected by later notice.

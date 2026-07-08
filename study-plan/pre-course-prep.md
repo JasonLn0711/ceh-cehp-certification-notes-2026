@@ -51,6 +51,7 @@ first time.
 
 | Gate | Target date | Owner | Activation | Next action |
 | --- | --- | --- | --- | --- |
+| VOISS AI / Max written offer and work-flow confirmation | before requesting class change | Jason | activates CEH 台北 `2053` and CEHP 台北 `26416` class-change request | use `source/2026-07-08-course-change-decision-gate/decision-record.md`; keep current classes until UCOM / UUU confirms the change |
 | UCOM / UUU payment and class reminder | around `2026-07-20` | Jason | waiting for provider notice | confirm payment/card flow and class-opening notice |
 | CEH voucher and lab activation | after `2026-08-07` | Jason | opens after CEH class | record voucher, lab start date, retake rules, and booking flow |
 | CEH exam date | after CEH weak-topic review | Jason | opens after pass/review evidence | book after high-risk modules have pass/review evidence |

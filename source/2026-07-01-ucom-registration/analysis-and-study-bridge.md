@@ -31,6 +31,12 @@ August CEH course and September CEHP review course as fixed preparation
 anchors, while keeping final payment and official course-opening confirmation
 as an administrative gate.
 
+Scope change recorded on `2026-07-08`: if VOISS AI / Max provides a formal
+written offer and work-flow confirmation, Jason may ask UCOM / UUU to move CEH
+to 台北 `2053` and CEHP to 台北 `26416`. The full decision gate is preserved in
+`../2026-07-08-course-change-decision-gate/decision-record.md`; the current
+registered classes remain the baseline until UCOM / UUU confirms the change.
+
 The practical learning path is:
 
 1. Use July for baseline testing and weak-topic repair.
@@ -88,6 +94,8 @@ from exploratory interest into a time-boxed readiness lane:
 - Official scope map: `../../curriculum/official-scope-map.md`
 - Pre-course plan: `../../study-plan/pre-course-prep.md`
 - Ownership bridge: `../../docs/ownership-and-planning-bridge.md`
+- Course-change decision gate:
+  `../2026-07-08-course-change-decision-gate/decision-record.md`
 - Baseline pretest: `../../assessments/00-baseline-pretest.md`
 - Planning locator:
   `../../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md`
