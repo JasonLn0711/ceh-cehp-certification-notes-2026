@@ -27,3 +27,11 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 - Status: `source preserved`
 - Scope: low-friction daily task calendar from `2026-07-01` to `2026-08-02`,
   daily closeout template, and minimum CEH Day 1 readiness standard.
+
+## 2026-07-08 Course Change Decision Gate
+
+- Folder: `2026-07-08-course-change-decision-gate/`
+- Status: `source preserved`
+- Scope: decision gate for keeping the current CEH / CEHP schedule or changing
+  to CEH 台北 `2053` and CEHP 台北 `26416` after VOISS AI / Max provides a
+  formal written offer and work-flow confirmation.
