@@ -20,6 +20,10 @@ Detailed calendar plan:
 
 - `../docs/daily-closed-loop-calendar-plan.md`
 
+Learning packet rule:
+
+- `../docs/day-01-03-learning-package-rule.md`
+
 ## Operating Rule
 
 Use these files before building any larger LMS or custom app. The first useful

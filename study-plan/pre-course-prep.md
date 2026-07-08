@@ -30,6 +30,8 @@ first time.
   output, and one record update per day.
 - [ ] Use `docs/daily-closed-loop-calendar-plan.md` as the detailed daily
   execution calendar through `2026-08-02`.
+- [ ] Use `docs/day-01-03-learning-package-rule.md` as the package rule for
+  Day 1-3 and later compact module packets.
 
 ## Phase 1: CEH Zero-To-Ready Preview
 

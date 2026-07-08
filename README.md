@@ -60,6 +60,8 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
   minimum CEH readiness standard.
 - `docs/daily-closed-loop-calendar-plan.md`: captured detailed calendar plan
   with time blocks, ten-layer mapping, and daily outputs.
+- `docs/day-01-03-learning-package-rule.md`: standard package shape for
+  Day 1-3 and later compact CEH / CEHP learning packets.
 - `docs/expert-assessment-packet.md`: Downloads packet locator for expert
   question-writing, pretest/posttest design, and July preview planning.
 - `docs/ownership-and-planning-bridge.md`: boundary between this repo,
@@ -80,3 +82,10 @@ Planning stays thin. Use:
   <https://www.uuu.com.tw/Course/Show/2144/EC-Council-CEH%E9%A7%AD%E5%AE%A2%E6%8A%80%E8%A1%93%E5%B0%88%E5%AE%B6%E8%AA%8D%E8%AD%89%E8%AA%B2%E7%A8%8B>
 - CEHP:
   <https://www.uuu.com.tw/Course/Show/1609/CEH%E5%A4%A7%E5%B8%AB%E9%9B%99%E8%AA%8D%E8%AD%89%E5%AF%A6%E6%88%B0%E8%80%83%E8%A9%A6%E7%B8%BD%E8%A4%87%E7%BF%92%E7%8F%AD>
+
+## Learning Packet Rule
+
+Use `docs/day-01-03-learning-package-rule.md` as the default shape for compact
+CEH / CEHP learning packets. Keep question files and answer keys separate,
+anchor every item to official scope, and carry weak-topic repair into the next
+daily closeout.

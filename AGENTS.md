@@ -45,6 +45,10 @@ into a reusable cybersecurity learning asset.
    authorized labs, or official training environments only.
 6. Keep the knowledge surface focused on CEH + CEHP course readiness; broader
    cybersecurity topics enter only when they support the official course scope.
+7. For complete learning packets, follow
+   `docs/day-01-03-learning-package-rule.md`: include study guide, worksheet,
+   pretest questions, separate pretest answer key, posttest questions, separate
+   posttest answer key, CEH exam-focus advice, traceability map, and closeout.
 
 ## Evidence Boundary
 
