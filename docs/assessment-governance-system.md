@@ -34,10 +34,10 @@ The v0.2 design adopts the expert review preserved at:
 | --- | --- | --- | --- |
 | `2026-07-01` to `2026-07-03` | Baseline form A | Creates weak-module map. | Route lowest five modules into preview repair. |
 | After each CEH module preview | 8-item mini-posttest | `>=75%` and critical safety items clear. | `50-74%` gets review; `<50%` gets `activation_needed`. |
-| `2026-08-01` to `2026-08-02` | Pre-August form B | `>=75%`, with at least 16 of 20 modules at `review` or `pass`. | Repair prerequisites before CEH class. |
-| `2026-08-03` to `2026-08-07` | Daily class check | 3 evidence points, 3 weak points, 1 remediation action per day. | 20-minute repair before next class day. |
-| `2026-08-08` to `2026-09-05` | CEHP practical bridge | At least 4 of 5 practical scenario classes at `pass`. | Lab notebook repair for remaining scenario classes. |
-| `2026-09-05` | CEHP readiness gate | Complete one lab finding note with evidence, risk, authorization boundary, and next step. | Use CEHP class for targeted absorption and practical refinement. |
+| By `2026-10-11` | Pre-class form B | `>=75%`, with at least 16 of 20 modules at `review` or `pass`. | Repair prerequisites before CEH class. |
+| `2026-10-12` to `2026-10-16` | Daily class check | 3 evidence points, 3 weak points, 1 remediation action per day. | 20-minute repair before next class day. |
+| `2026-10-17` to `2026-11-18` | CEHP practical bridge | At least 4 of 5 practical scenario classes at `pass`. | Lab notebook repair for remaining scenario classes. |
+| `2026-11-18` | CEHP readiness gate | Complete one lab finding note with evidence, risk, authorization boundary, and next step. | Use CEHP class for targeted absorption and practical refinement. |
 
 ## Analytics Scope
 

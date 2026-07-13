@@ -1,5 +1,11 @@
 # CEH / CEHP Daily Closed-Loop Plan
 
+> Schedule scope change (`2026-07-13`): UCOM / UUU confirmed CEH 台北 `2048`
+> for `2026-10-12` to `2026-10-16` and CEHP 台北 `26416` for `2026-11-19`
+> to `2026-11-20`. The July-to-August sequence remains an optional early
+> learning sprint; its August class-logistics labels no longer define the live
+> attendance dates. Current gates live in `assessment-governance-system.md`.
+
 ## Operating Principle
 
 Use a low-friction daily loop. Each day has:

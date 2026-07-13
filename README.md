@@ -4,19 +4,23 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
 ## Current Status
 
-- CEH13: registered for UCOM / UUU 台北 `2046`, `2026-08-03` to `2026-08-07`,
+- Confirmed current class: CEH 台北 `2048`, `2026-10-12` to `2026-10-16`,
   Monday to Friday, `09:00-18:00`.
-- CEHP: registered for UCOM / UUU 台北 `26408`, `2026-09-06` and
-  `2026-09-13`, Sundays, `09:00-17:00`.
+- Confirmed current class: CEHP 台北 `26416`, `2026-11-19` to
+  `2026-11-20`, Thursday and Friday, `09:00-17:00`.
 - Registration evidence: UCOM / UUU confirmation call raw transcript,
   corrected transcript, and successful registration email are preserved under
   `source/2026-07-01-ucom-registration/`.
-- Schedule decision gate: if VOISS AI / Max provides a formal written offer and
-  work-flow confirmation, Jason may request a move to CEH 台北 `2053`
-  (`2026-09-20` to `2026-11-01`) and CEHP 台北 `26416` (`2026-11-19` to
-  `2026-11-20`); until UCOM / UUU confirms the change, the current registered
-  classes remain the baseline. See
+- Schedule status: UCOM / UUU confirmed the transfer to CEH 台北 `2048` and
+  CEHP 台北 `26416` in writing on `2026-07-13 16:08`. The previous `2046` and
+  `26408` classes are superseded. Payment, exact package deadline, voucher/code
+  dates, and CEH Practical retake-discount applicability remain confirmation
+  gates. A later VOISS AI written
+  offer activates an employer schedule discussion and, when useful, another
+  class adjustment. See
   `source/2026-07-08-course-change-decision-gate/decision-record.md`.
+- Verified transfer source:
+  `source/2026-07-13-ucom-successful-class-transfer/registration-transfer-confirmation-agent-readable-redacted.md`.
 - Package / payment gate: CEH + CEHP package discount is confirmed at
   `NT$65,000`; UCOM / UUU payment, card-flow, and class-opening details are
   expected by later notice.

@@ -2,7 +2,7 @@
 
 ## Objective
 
-Reach the CEH13 class on `2026-08-03` with enough vocabulary and baseline
+Reach the target CEH13 class on `2026-10-12` with enough vocabulary and baseline
 structure to learn from the instructor instead of hearing every concept for the
 first time.
 
@@ -53,11 +53,12 @@ first time.
 
 | Gate | Target date | Owner | Activation | Next action |
 | --- | --- | --- | --- | --- |
-| VOISS AI / Max written offer and work-flow confirmation | before requesting class change | Jason | activates CEH 台北 `2053` and CEHP 台北 `26416` class-change request | use `source/2026-07-08-course-change-decision-gate/decision-record.md`; keep current classes until UCOM / UUU confirms the change |
+| UCOM / UUU class-change confirmation | confirmed `2026-07-13 16:08` | Jason | CEH 台北 `2048` and CEHP 台北 `26416` are active classes | use the verified transfer source; treat `2046` and `26408` as superseded history |
+| VOISS AI written offer and employer schedule discussion | when written offer arrives | Jason | opens a second class-compatibility review | confirm start date, work hours, and leave arrangement with the employer; adjust classes again only when the agreed work schedule calls for it |
 | UCOM / UUU payment and class reminder | around `2026-07-20` | Jason | waiting for provider notice | confirm payment/card flow and class-opening notice |
-| CEH voucher and lab activation | after `2026-08-07` | Jason | opens after CEH class | record voucher, lab start date, retake rules, and booking flow |
+| CEH voucher and lab activation | after `2026-10-16` | Jason | opens after CEH class | record voucher, lab start date, retake rules, and booking flow |
 | CEH exam date | after CEH weak-topic review | Jason | opens after pass/review evidence | book after high-risk modules have pass/review evidence |
-| CEHP exam logistics | before `2026-09-13` | Jason | opens before Practical booking | confirm Practical booking, proctoring, and environment checks |
+| CEHP exam logistics | before `2026-11-20` | Jason | opens before Practical booking | confirm Practical booking, proctoring, and environment checks |
 
 ## Weak Topic List
 

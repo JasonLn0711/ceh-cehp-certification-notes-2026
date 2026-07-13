@@ -26,39 +26,43 @@ course names, exam labels, and publicly checked facts for downstream use.
 ## Accepted Interpretation
 
 Jason is registered for the UCOM / UUU CEH + CEHP dual-certification package at
-the confirmed `NT$65,000` package discount. The learning repo can now treat the
-August CEH course and September CEHP review course as fixed preparation
-anchors, while keeping final payment and official course-opening confirmation
-as an administrative gate.
+the confirmed `NT$65,000` package discount. UCOM / UUU confirmed the class
+transfer in writing on `2026-07-13 16:08`; CEH 台北 `2048` and CEHP 台北
+`26416` are now the active preparation anchors.
 
-Scope change recorded on `2026-07-08`: if VOISS AI / Max provides a formal
-written offer and work-flow confirmation, Jason may ask UCOM / UUU to move CEH
-to 台北 `2053` and CEHP to 台北 `26416`. The full decision gate is preserved in
-`../2026-07-08-course-change-decision-gate/decision-record.md`; the current
-registered classes remain the baseline until UCOM / UUU confirms the change.
+Schedule decision updated on `2026-07-13`: Jason has adopted a request to move
+CEH to 台北 `2048` and CEHP to 台北 `26416` so the course plan protects the
+August family trip and September Kaohsiung concert travel. This request no
+longer depends on the VOISS AI written offer. If a written offer later arrives,
+the employer schedule discussion opens a second class-compatibility review and
+may lead to another adjustment. The full source and decision are preserved in
+`../2026-07-08-course-change-decision-gate/decision-record.md`; the original
+registration is superseded history. The verified transfer record is preserved
+at `../2026-07-13-ucom-successful-class-transfer/registration-transfer-confirmation-agent-readable-redacted.md`.
 
 The practical learning path is:
 
 1. Use July for baseline testing and weak-topic repair.
-2. Attend CEH13 from `2026-08-03` to `2026-08-07`.
+2. Attend CEH13 from `2026-10-12` to `2026-10-16`.
 3. After CEH class, confirm voucher, lab access, retake rules, and exam booking
    flow before setting the CEH `312-50` exam date.
-4. Attend CEHP review on `2026-09-06` and `2026-09-13`.
+4. Attend CEHP review on `2026-11-19` and `2026-11-20`.
 5. Complete CEH and CEH Practical within the package window, currently estimated
-   from the CEH start date as `2027-08-03`, subject to UCOM / UUU and EC-Council
-   rules.
+   from the CEH start date with a nominal anniversary of `2027-10-12`; the
+   exact last valid date remains pending provider or voucher-system confirmation.
 
 ## Registration Facts
 
 | Item | Accepted fact | Evidence |
 | --- | --- | --- |
 | CEH course | `EC-Council CEH 駭客技術專家認證課程` | registration email and phone transcript |
-| CEH class | 台北 `2046`, `2026-08-03` to `2026-08-07`, `09:00-18:00` | registration email |
+| CEH class | 台北 `2048`, `2026-10-12` to `2026-10-16`, `09:00-18:00` | provider written transfer confirmation |
 | CEHP course | `CEH 大師雙認證實戰考試總複習班` | registration email and phone transcript |
-| CEHP class | 台北 `26408`, `2026-09-06` and `2026-09-13`, `09:00-17:00` | registration email |
+| CEHP class | 台北 `26416`, `2026-11-19` and `2026-11-20`, `09:00-17:00` | provider written transfer confirmation |
 | Package price | `NT$65,000` dual-certification package | registration email and phone transcript |
 | Original combined price | `NT$105,000` | registration email and phone transcript |
-| Payment / opening gate | UCOM / UUU will provide payment / card information and final class-opening notice later | registration email and phone transcript |
+| Superseded classes | CEH `2046`; CEHP `26408` | provider written transfer confirmation |
+| Payment / opening gate | payment evidence and final opening notices remain pending | verified transfer record |
 | Seat request | UUU consultant said Jason and 杜承諺 can be seated together | phone transcript |
 | Invoice path | Jason currently plans personal payment and personal invoice handling | phone transcript |
 
