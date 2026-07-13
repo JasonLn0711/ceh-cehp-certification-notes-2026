@@ -28,10 +28,20 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 - Scope: low-friction daily task calendar from `2026-07-01` to `2026-08-02`,
   daily closeout template, and minimum CEH Day 1 readiness standard.
 
-## 2026-07-08 Course Change Decision Gate
+## CEH / CEHP Course Change Decision
 
 - Folder: `2026-07-08-course-change-decision-gate/`
-- Status: `source preserved`
-- Scope: decision gate for keeping the current CEH / CEHP schedule or changing
-  to CEH 台北 `2053` and CEHP 台北 `26416` after VOISS AI / Max provides a
-  formal written offer and work-flow confirmation.
+- Status: `confirmed transferred`
+- Scope: preserves both decisions and adopts the `2026-07-13` request for CEH
+  台北 `2048` and CEHP 台北 `26416`; the later provider record confirms that
+  both transfers succeeded.
+
+## 2026-07-13 UCOM Successful Class Transfer
+
+- Folder: `2026-07-13-ucom-successful-class-transfer/`
+- Status: `source preserved; confirmed`
+- Scope: privacy-controlled agent-readable copy of the provider-written
+  successful transfer confirmation, current classes, superseded classes,
+  package rights, official verification, and unresolved administrative gates.
+- Privacy control: the full private source remains in its protected local home;
+  this repo copy redacts personal email and phone details.
