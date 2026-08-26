@@ -3,7 +3,8 @@
 ## Source Boundary
 
 This map is based on the official UCOM / UUU CEH13 and CEHP course pages checked
-on `2026-07-01`. Use it as the study backbone before adding extra material.
+on `2026-07-01`. Use it as the study backbone before adding material from
+`curriculum/important-references.md`.
 
 ## CEH13 Course Scope
 

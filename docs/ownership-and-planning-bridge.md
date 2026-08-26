@@ -14,6 +14,8 @@
 
 - Official CEH13 / CEHP scope map:
   `curriculum/official-scope-map.md`
+- Important official and supporting reference list:
+  `curriculum/important-references.md`
 - Baseline pretest and answer key:
   `assessments/00-baseline-pretest.md`
   and
@@ -37,13 +39,12 @@ Planning keeps thin, durable coordination records:
 - Project locator and registration status:
   `../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md`
 - Day-note closeout:
-  `../planning-everything-track/weeks/2026-W27/days/2026-07-01.md`
+  `../planning-everything-track/weeks/2026-W35/days/2026-08-26.md`
 - Weekly mirror:
-  `../planning-everything-track/weeks/2026-W27/weekly-plan.md`
-- Fixed course-week mirrors:
-  `../planning-everything-track/weeks/2026-W32/`
-  `../planning-everything-track/weeks/2026-W36/`
-  `../planning-everything-track/weeks/2026-W37/`
+  `../planning-everything-track/weeks/2026-W35/weekly-plan.md`
+- Course-week planning horizon: create the W42 and W47 plans and selected day
+  notes just in time; the fixed-capacity calendar remains the durable schedule
+  mirror until then.
 - Fixed-capacity calendar:
   `../planning-everything-track/docs/07-semester-calendar.md`
 - Cross-repo routing rule:
