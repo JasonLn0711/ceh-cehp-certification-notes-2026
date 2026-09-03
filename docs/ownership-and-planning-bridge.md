@@ -24,6 +24,10 @@
   `assessments/posttests/module-posttest-template.md`
 - Pre-course study plan and weak-topic repair:
   `study-plan/pre-course-prep.md`
+- Weekly live research contract:
+  `AGENTS.md#weekly-live-research-contract`
+- Dated topic-driven source scans, exercises, learner states, and closeout:
+  `research-briefs/`
 - Privacy-controlled registration source archive and analysis:
   `source/2026-07-01-ucom-registration/`
 - Course-change decision gate:
@@ -38,10 +42,12 @@ Planning keeps thin, durable coordination records:
 
 - Project locator and registration status:
   `../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md`
-- Day-note closeout:
-  `../planning-everything-track/weeks/2026-W35/days/2026-08-26.md`
-- Weekly mirror:
-  `../planning-everything-track/weeks/2026-W35/weekly-plan.md`
+- Current activation day note:
+  `../planning-everything-track/weeks/2026-W36/days/2026-09-03.md`
+- Current weekly mirror:
+  `../planning-everything-track/weeks/2026-W36/weekly-plan.md`
+- Private approved weekly live research source:
+  `../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training/sources/2026-09-03-weekly-live-research-integration/source.md`
 - Course-week planning horizon: create the W42 and W47 plans and selected day
   notes just in time; the fixed-capacity calendar remains the durable schedule
   mirror until then.
@@ -70,7 +76,10 @@ to the right home:
 When a CEH / CEHP item appears:
 
 - technical learning content goes here;
+- topic-driven source selection, evidence classification, safe exercise design,
+  and learner closeout go here;
 - redacted registration evidence and exam-rights analysis go here;
-- schedule, capacity, and registration gate go to planning;
+- the approved rule source, schedule, capacity, activation status, and
+  registration gate go to planning;
 - personal meaning goes to `inner-archive`;
 - each repo links to the others by locator only.

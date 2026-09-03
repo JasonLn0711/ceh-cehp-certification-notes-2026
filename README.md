@@ -48,6 +48,8 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
    and answer it for that module.
 5. Track weak topics in:
    `study-plan/pre-course-prep.md`.
+6. Close the topic-driven weekly research brief under `research-briefs/` after
+   reading, authorized practice, reflection, and evidence capture.
 
 ## Repo Map
 
@@ -60,6 +62,8 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
   and readiness dashboard.
 - `study-plan/`: pre-course plan and weak-topic repair.
 - `notes/`: chapter previews and class notes.
+- `research-briefs/`: dated, topic-driven live research, practical exercises,
+  evidence states, and weekly closeout.
 - `source/`: privacy-controlled source copies and registration analysis.
 - `docs/assessment-governance-system.md`: v0.2 traceable assessment design.
 - `docs/daily-closed-loop-plan.md`: daily July-to-August task calendar and
@@ -72,6 +76,15 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
   question-writing, pretest/posttest design, and July preview planning.
 - `docs/ownership-and-planning-bridge.md`: boundary between this repo,
   planning, and private reflection.
+
+## Weekly Live Research
+
+Every active cybersecurity week follows the operational contract in
+`AGENTS.md`: begin with the actual course topic, run a same-week live scan,
+curate the strongest evidence, connect certification concepts to current
+practice, complete one safe exercise when reasonable, and preserve an honest
+learner-evidence state. The first implementation is
+`research-briefs/2026-W36.md`.
 
 ## Planning Bridge
 
