@@ -1,1 +1,3 @@
 trace_id,source,claim,evidence,item_id,rubric_id,attempt_id,decision,remediation,retest_result
+TRACE-20260903-M01-Q01,assessments/00-baseline-pretest.md,Identify authorization and scope as the primary ethical-hacking boundary,Q1 submitted C; keyed answer B,CEH-M01-L1-001,baseline_answer_key_mcq,ATT-20260903-01,activation_needed,Complete M01 ROE correction and localhost exercise,pending
+TRACE-20260903-M01-Q26,assessments/00-baseline-pretest.md,Explain the elements of an authorized security test,Q26 earned 0.5 of 1,CEH-M01-L1-026,baseline_answer_key_short,ATT-20260903-01,activation_needed,Complete M01 ROE correction and delayed retrieval,pending

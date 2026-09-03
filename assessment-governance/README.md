@@ -28,3 +28,8 @@ Learning packet rule:
 
 Use these files before building any larger LMS or custom app. The first useful
 system is a versioned, low-friction record that changes the next study action.
+
+Question forms remain reusable and answer-free. Preserve each learner
+submission under `../assessments/attempts/`, record its summary in
+`attempt_log.csv`, and use `traceability_matrix.csv` for the evidence that
+changes a learning decision.

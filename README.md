@@ -4,6 +4,10 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
 ## Current Status
 
+- Baseline diagnostic attempt `ATT-20260903-01` completed on `2026-09-03` at
+  `20/40 (50.0%)`. The learning decision is `activation_needed`; M01
+  authorization and scope is the first repair, and CEH / CEHP readiness remains
+  a future evidence gate.
 - Confirmed current class: CEH 台北 `2048`, `2026-10-12` to `2026-10-16`,
   Monday to Friday, `09:00-18:00`.
 - Confirmed current class: CEHP 台北 `26416`, `2026-11-19` to
@@ -56,7 +60,8 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 - `curriculum/`: official course scope and module order.
 - `curriculum/important-references.md`: prioritized official and supporting
   study references with source and scope controls.
-- `assessments/`: baseline pretest, answer key, and posttest templates.
+- `assessments/`: question-only baseline, separate answer key, dated learner
+  attempts, and posttest templates.
 - `assessment-governance/`: minimum viable Assessment Governance System:
   competency map, item bank, forms, attempt log, rubric, traceability matrix,
   and readiness dashboard.
