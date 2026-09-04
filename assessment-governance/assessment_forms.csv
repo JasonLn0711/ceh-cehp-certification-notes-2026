@@ -2,6 +2,6 @@ form_id,version,status,purpose,item_count,time_limit_minutes,anchor_item_count,d
 baseline_diagnostic_40,0.1.0,pilot,low-friction no-study diagnostic and weak-topic triage,40,45,0,triage only; no readiness claim,2026-09-03
 baseline_form_a,0.1.0,draft,formal no-study baseline and weak-module map,50,60,0,score creates weak-module map,2026-07-01 to 2026-07-03
 pre_august_form_b,0.1.0,superseded,parallel pre-August readiness gate,50,60,8,>=75 percent and 16 of 20 modules at review/pass,2026-08-01 to 2026-08-02
-preclass_form_b,0.1.0,planned,pre-class readiness check with a separate item set,50,60,0,>=75 percent; 16 of 20 modules at review/pass; zero critical safety errors,2026-10-10 to 2026-10-11
+preclass_form_b,0.2.0,planned,pre-class readiness check with a separate item set,50,60,0,>=75 percent; all 20 module posttests attempted and passed; all 9 UUU skills evidenced; zero critical safety errors,2026-10-10 to 2026-10-11
 module_mini_posttest,0.1.0,pilot,CEH module preview check,8,12,0,>=75 percent and critical safety clear,after each module preview
 cehp_readiness_gate,0.1.0,draft,CEHP practical bridge readiness,5 scenarios,60,0,4 of 5 scenario classes at pass,2026-11-18

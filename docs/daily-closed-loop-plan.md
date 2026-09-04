@@ -8,14 +8,29 @@
 
 ## Operating Principle
 
-Use a low-friction daily loop. Each day has:
+Use a low-friction project loop. Each day has:
 
-- one primary task
-- one visible output
-- one record update
+- one active weekly incident project
+- one executable acceptance check
+- one attempt, blocker-driven correction, and evidence update
 
 The system is successful when assessment results change the next learning action
 without turning the governance process into the main workload.
+
+## Current Project-Led Route (`2026-09-04` Forward)
+
+The July-to-August table below remains historical planning context. Current
+execution follows
+[`../projects/weekly-incident-projects/README.md`](../projects/weekly-incident-projects/README.md):
+
+1. attempt the smallest lawful, authorized action;
+2. preserve the result or first blocker;
+3. research only the safety, execution, or acceptance question that unlocks it;
+4. apply the answer and rerun;
+5. use retrieval and posttests to diagnose the accepted or still-blocked work.
+
+Red capacity keeps one 25-minute executable micro-step rather than removing the
+learning must-win.
 
 ## Canonical Detailed Calendar
 

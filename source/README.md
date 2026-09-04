@@ -45,3 +45,26 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
   package rights, official verification, and unresolved administrative gates.
 - Privacy control: the full private source remains in its protected local home;
   this repo copy redacts personal email and phone details.
+
+## 2026-09-04 CEH13-AI Live Syllabus And Source Decision
+
+- Folder: `2026-09-04-ceh13-ai-live-syllabus-and-source-decision/`
+- Status: `source preserved; official scope verified`
+- Scope: current Taipei `2048` class facts, twenty-module CEH13-AI syllabus,
+  nine UUU skill outcomes, EC-Council depth context, pre-class evidence routes,
+  and the instructor-specific daily-allocation confirmation gate.
+- Source decision: the supplied `elhacker.info` directory is recorded as
+  `rejected_untrusted`; no linked courseware, lab, exam, dump, archive,
+  executable, video, or malware-related artifact was downloaded or imported.
+
+## 2026-09-04 Antisyphon Rules of Engagement 101
+
+- Folder: `2026-09-04-antisyphon-roe-101/`
+- Status: `source preserved; study activity confirmed`
+- Scope: complete user-provided transcript in ignored local custody, verified
+  video title and publisher, practitioner ROE mechanisms, claim controls, M01
+  connections, and remaining learner gates.
+- Evidence boundary: the source supplements the required NIST, Taiwan-law, and
+  Anthropic readings. M01 remains `activation_needed` until Jason completes the
+  learner-produced retrieval, exercise, closeout, posttest, and retest evidence.
+  External transcript publication requires a separate rights review.
