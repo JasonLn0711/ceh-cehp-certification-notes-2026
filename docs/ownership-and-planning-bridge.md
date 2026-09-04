@@ -4,13 +4,16 @@
 
 - Scarce resource: Jason's pre-course study capacity and exam-readiness signal.
 - Canonical learning home: this repo owns CEH / CEHP technical preparation.
-- Planning home: `../planning-everything-track/` owns calendar capacity,
+- Planning home: `../../planning-everything-track/` owns calendar capacity,
   registration status, confirmed discount, payment / opening notice gates, and
   next-action mirrors.
 - Private meaning home: `../inner-archive/` owns private reflection about
   probation pressure, family / work / doctoral load, and personal meaning.
 
 ## What This Repo Owns
+
+- Weekly incident-project index and runnable packets:
+  `projects/weekly-incident-projects/README.md`
 
 - Official CEH13 / CEHP scope map:
   `curriculum/official-scope-map.md`
@@ -41,20 +44,20 @@
 Planning keeps thin, durable coordination records:
 
 - Project locator and registration status:
-  `../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md`
+  `../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md`
 - Current activation day note:
-  `../planning-everything-track/weeks/2026-W36/days/2026-09-03.md`
+  `../../planning-everything-track/weeks/2026-W36/days/2026-09-03.md`
 - Current weekly mirror:
-  `../planning-everything-track/weeks/2026-W36/weekly-plan.md`
+  `../../planning-everything-track/weeks/2026-W36/weekly-plan.md`
 - Private approved weekly live research source:
-  `../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training/sources/2026-09-03-weekly-live-research-integration/source.md`
+  `../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training/sources/2026-09-03-weekly-live-research-integration/source.md`
 - Course-week planning horizon: create the W42 and W47 plans and selected day
-  notes just in time; the fixed-capacity calendar remains the durable schedule
-  mirror until then.
+  notes from the existing year-end control-plane sequence; the workbench owns
+  execution detail and Planning owns capacity and locators.
 - Fixed-capacity calendar:
-  `../planning-everything-track/docs/07-semester-calendar.md`
+  `../../planning-everything-track/docs/07-semester-calendar.md`
 - Cross-repo routing rule:
-  `../planning-everything-track/docs/11-cross-repo-first-principles-routing.md`
+  `../../planning-everything-track/docs/11-cross-repo-first-principles-routing.md`
 
 ## Protected Boundaries
 
@@ -67,7 +70,7 @@ to the right home:
   outside the learning repo.
 - Raw private reflection about identity pressure and family/work/doctoral load
   stays in `../inner-archive/`.
-- Weekly planning detail stays in `../planning-everything-track/`.
+- Weekly planning detail stays in `../../planning-everything-track/`.
 - Authorized, local-only lab learning stays here; real-system security material
   uses approved training environments, toy examples, or official labs.
 
@@ -83,3 +86,6 @@ When a CEH / CEHP item appears:
   registration gate go to planning;
 - personal meaning goes to `inner-archive`;
 - each repo links to the others by locator only.
+- incident-project commands, outputs, blockers, research notes, and acceptance
+  evidence stay here; Planning mirrors only project ID, state, capacity, and
+  next gate.

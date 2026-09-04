@@ -5,16 +5,16 @@ course and exam preparation.
 
 ## Mission
 
-Build a focused CEH / CEHP preparation record that turns official course scope,
-pre-course study, class notes, pretests, posttests, and exam-readiness checks
-into a reusable cybersecurity learning asset.
+Build a focused CEH / CEHP preparation record through one integrated,
+historical-incident side project per active learning week. Focused research,
+class notes, and assessments remove blockers and verify the weekly result.
 
 ## FIRST PRINCIPLE
 
 - Scarce resource: Jason's certification study capacity before and during the
-  August / September classes.
-- Canonical home: this repo owns technical study notes, assessments, weak-topic
-  repair, practice logs, and exam-readiness rubrics.
+  October CEH and November CEHP classes.
+- Canonical home: this repo owns the weekly incident projects, technical study
+  notes, assessments, weak-topic repair, practice logs, and readiness evidence.
 - Planning role: `planning-everything-track` owns calendar capacity,
   registration status, confirmed discount, payment / opening notice gates, and
   thin locator/status mirrors only.
@@ -38,8 +38,10 @@ into a reusable cybersecurity learning asset.
 
 1. Keep notes plain Markdown.
 2. Use official course scope as the backbone before adding outside resources.
-3. Every quick chapter preview should end with a short posttest.
-4. Every posttest should produce one of three outcomes: `pass`, `review`, or
+3. Start each active week with one bounded incident-project action and acceptance
+   check. Research the first observed blocker, apply the result, and rerun.
+4. Use explanations and posttests after execution evidence as diagnostic
+   support. Every posttest produces `pass`, `review`, or
    `activation_needed`.
 5. Keep lab notes local, lawful, and training-focused. Use toy examples,
    authorized labs, or official training environments only.
@@ -49,18 +51,32 @@ into a reusable cybersecurity learning asset.
    `docs/day-01-03-learning-package-rule.md`: include study guide, worksheet,
    pretest questions, separate pretest answer key, posttest questions, separate
    posttest answer key, CEH exam-focus advice, traceability map, and closeout.
+8. Keep `projects/weekly-incident-projects/README.md` as the project index.
+   The ISO week is the minimum project unit, and active learning lanes share
+   one integrated side project for that week.
+9. Record project state truthfully as `planned`, `attempted`, `blocked`, or
+   `accepted`. A prompt, scaffold, prepared lab, reading, or quiz is supporting
+   evidence; it does not establish an accepted project.
+10. When capacity is Red, perform one authorized 25-minute executable
+    micro-step and capture its result or blocker rather than replacing practice
+    with retrieval alone.
 
 ## Weekly Live Research Contract
 
 This contract applies to every week containing cybersecurity study.
 
-1. Start from the week's actual topic. Record its concepts and mechanisms,
+1. Start by attempting the week's smallest authorized incident project. Record
+   the actual topic, acceptance check, observed blocker, and evidence needed.
+   Then record its concepts and mechanisms,
    expected depth, practical skill, CEH / CEHP overlap, value beyond
    certification, and developments that may change the traditional account.
 2. Run a topic-driven live web scan during the same week and record its date
-   and timezone. Remembered sources and static reading lists do not satisfy the
-   gate. Refresh the scan when the topic changes materially. If live access is
-   unavailable, mark the scan incomplete and leave current/frontier claims open.
+   and timezone. Use it to answer the observed blocker, safety question, or
+   acceptance question. If the first attempt exposes no blocker, verify one
+   current authoritative mechanism relevant to the slice. Remembered sources
+   and static reading lists do not satisfy the gate. Refresh the scan when the
+   topic changes materially. If live access is unavailable, mark the scan
+   incomplete and leave current/frontier claims open.
 3. Prefer the evidence chain: original paper or standard, official vendor or
    government advisory, CVE / CISA / CERT record, technical analysis, then
    secondary reporting for discovery. Search the relevant mix of top or
@@ -119,7 +135,9 @@ Active evidence:
 - redacted registration facts;
 - personal study notes;
 - pretest / posttest answers;
-- authorized lab observations.
+- authorized lab observations;
+- incident-project code, commands, logs, hashes, decisions, and independently
+  reproduced project-linked CTF evidence.
 
 Protected boundaries:
 
