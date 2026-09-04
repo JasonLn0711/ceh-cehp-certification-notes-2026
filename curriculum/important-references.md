@@ -28,3 +28,26 @@ The Drive filename is
 copy with the same filename and byte size is present in the shared
 `251124 成立資安實驗室` folder; byte-level identity remains available for a
 future checksum check if duplicate cleanup becomes useful.
+
+## Source Trust Classes
+
+- `official_primary`: UUU and EC-Council pages, public course outline,
+  brochure, Aspen access instructions, and candidate handbook.
+- `licensed_supporting`: Jason's registered Aspen courseware when issued and
+  lawfully held supporting references such as the Walker 2025 study guide.
+- `rejected_untrusted`: material whose provenance, licensing, safety, or
+  certification-integrity controls do not support use.
+
+### Rejected CEHv13 Download Directory
+
+- Source: `https://elhacker.info/Cursos/CEHv13/CEH%20v13%20PDF/`
+- Checked: `2026-09-04`, read-only; no file downloaded or imported.
+- Classification: `rejected_untrusted`.
+- Evidence: the third-party directory exposes apparent module and lab manuals,
+  exam sets, and a file labeled as a CEHv13 dump without verified EC-Council or
+  UUU authorization.
+- Decision: do not use this directory or its linked files. Obtain courseware
+  through the UUU-issued EC-Council Aspen subscription code and use official
+  public outlines plus licensed supporting references for pre-class study.
+- Full decision record:
+  `../source/2026-09-04-ceh13-ai-live-syllabus-and-source-decision/source.md`.
