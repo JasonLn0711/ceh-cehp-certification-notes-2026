@@ -38,26 +38,32 @@ class notes, and assessments remove blockers and verify the weekly result.
 
 1. Keep notes plain Markdown.
 2. Use official course scope as the backbone before adding outside resources.
-3. Start each active week with one bounded incident-project action and acceptance
-   check. Research the first observed blocker, apply the result, and rerun.
-4. Use explanations and posttests after execution evidence as diagnostic
+3. Before each active learning block, use the global
+   `professor-learning-prompt` skill to prepare or reuse a copy-ready prompt for
+   the user-named model, defaulting to `gpt-6-pro` for Jason. The prompt teaches
+   the definitions, procedure, source-backed cases, authorization boundary and
+   acceptance check needed for the block.
+4. After prerequisite explanation and ROE teach-back, start each active week
+   with one bounded incident-project action. Research the first observed
+   blocker, apply the result, and rerun.
+5. Use deeper explanations and posttests after execution evidence as diagnostic
    support. Every posttest produces `pass`, `review`, or
    `activation_needed`.
-5. Keep lab notes local, lawful, and training-focused. Use toy examples,
+6. Keep lab notes local, lawful, and training-focused. Use toy examples,
    authorized labs, or official training environments only.
-6. Keep the knowledge surface focused on CEH + CEHP course readiness; broader
+7. Keep the knowledge surface focused on CEH + CEHP course readiness; broader
    cybersecurity topics enter only when they support the official course scope.
-7. For complete learning packets, follow
+8. For complete learning packets, follow
    `docs/day-01-03-learning-package-rule.md`: include study guide, worksheet,
    pretest questions, separate pretest answer key, posttest questions, separate
    posttest answer key, CEH exam-focus advice, traceability map, and closeout.
-8. Keep `projects/weekly-incident-projects/README.md` as the project index.
+9. Keep `projects/weekly-incident-projects/README.md` as the project index.
    The ISO week is the minimum project unit, and active learning lanes share
    one integrated side project for that week.
-9. Record project state truthfully as `planned`, `attempted`, `blocked`, or
+10. Record project state truthfully as `planned`, `attempted`, `blocked`, or
    `accepted`. A prompt, scaffold, prepared lab, reading, or quiz is supporting
    evidence; it does not establish an accepted project.
-10. When capacity is Red, perform one authorized 25-minute executable
+11. When capacity is Red, perform one authorized 25-minute executable
     micro-step and capture its result or blocker rather than replacing practice
     with retrieval alone.
 

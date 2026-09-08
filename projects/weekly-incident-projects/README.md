@@ -18,6 +18,11 @@ or blocked result.
   government, regulator, standards-body, or similarly authoritative source.
 - Teaching policy: historical facts, fictional mock elements, authorized
   learner actions, and learner observations remain separate.
+- Prompt-first support: at activation, use the global
+  `professor-learning-prompt` skill to prepare a copy-ready prompt for the
+  user-named model, defaulting to `gpt-6-pro` for Jason. The professor explains
+  the required definitions, procedure, cases and evidence boundary before the
+  learner performs the first active action.
 - Build cadence: map the full horizon; fully prepare only the current and next
   projects; refresh the topic-specific sources during the execution week.
 
