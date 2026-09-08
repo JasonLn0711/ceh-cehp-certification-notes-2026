@@ -65,6 +65,10 @@ python3 mock_services.py --self-test
 
 ## Mission
 
+Learning support: [GPT-6 Pro professor prompt](professor-prompt-2026-09-08.md)
+defines the required concepts, procedures, real-world case boundary, guided
+checkpoints, and learner-evidence contract for the `70 min` block.
+
 In terminal one:
 
 ```bash
