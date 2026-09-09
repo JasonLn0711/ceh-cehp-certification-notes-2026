@@ -160,3 +160,7 @@ authorization path.
 - [Detailed notes and reconciliation](opening-lesson-2026-09-08.md): concepts, cases, evidence distinctions, local file check and next checkpoint.
 - Learner state remains `planned`; source capture supplies learning support.
 - Procedure revision: distinguish 70-minute learning from a maximum 60-minute active window; keep ephemeral-port self-tests under separate authorization; treat metadata as reported; finalize logs before hashing all seven named artifacts.
+
+## 2026-09-09 continuation
+
+[30-minute M02 professor prompt](professor-prompt-2026-09-09.md) reuses the opening lesson and starts at the unfinished ROE checkpoint. It guides one bounded result/blocker and a diagnostic when ready. The earlier 70-minute plan remains historical; learner state stays `planned` until personal evidence is supplied.

@@ -281,3 +281,7 @@ interpretation, teach-back, and acceptance evidence.
 ## 2026-09-09 lesson-driven correction
 
 The [supplied opening lesson](opening-lesson-2026-09-08.source.md) remains unchanged. The [detailed notes](opening-lesson-2026-09-08.md) preserve its explanation and local reconciliation. This reusable prompt now finalizes logs before hashing seven named files and distinguishes the dynamic-port author self-test from the learner's fixed-port ROE. The historical author-validation statement above retains its original date; learner state remains `planned`.
+
+## 2026-09-09 continuation
+
+[30-minute M02 professor prompt](professor-prompt-2026-09-09.md) reuses the opening lesson and starts at the unfinished ROE checkpoint. It guides one bounded result/blocker and a diagnostic when ready. The earlier 70-minute plan remains historical; learner state stays `planned` until personal evidence is supplied.

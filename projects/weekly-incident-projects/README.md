@@ -83,3 +83,7 @@ contain original mock material and public authoritative sources.
 ## W37 opening lesson
 
 [Detailed lesson record](2026-W37-forgotten-portal-discovery/opening-lesson-2026-09-08.md) connects the complete supplied source, concept notes, incident references and next ROE checkpoint. The project remains `planned`; source receipt and historical author validation are separate from learner execution.
+
+## 2026-09-09 continuation
+
+[30-minute M02 professor prompt](2026-W37-forgotten-portal-discovery/professor-prompt-2026-09-09.md) reuses the opening lesson and starts at the unfinished ROE checkpoint. It guides one bounded result/blocker and a diagnostic when ready. The earlier 70-minute plan remains historical; learner state stays `planned` until personal evidence is supplied.

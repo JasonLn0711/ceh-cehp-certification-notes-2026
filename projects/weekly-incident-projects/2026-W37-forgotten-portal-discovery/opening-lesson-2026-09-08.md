@@ -143,3 +143,7 @@ Red capacity 採一個 25-minute micro-step 保存本人 ROE、register comparis
 ## Capture validation — 2026-09-09
 
 完整 source 與使用者引文逐字比對通過，25/25 reference definitions 保留；來源 hash 與本頁一致。兩個 repo 共 12 份變更 Markdown 的 87 個本地連結目標存在，兩邊 `git diff --check` 通過。Planning knowledge validation 為 176/176；repository validation 為 44 grandfathered warnings、0 new。這些是文件保存與一致性檢查；mock code 維持原版，learner runtime／實作／診斷結果留在各自驗收層。
+
+## 2026-09-09 continuation
+
+[30-minute M02 professor prompt](professor-prompt-2026-09-09.md) reuses the opening lesson and starts at the unfinished ROE checkpoint. It guides one bounded result/blocker and a diagnostic when ready. The earlier 70-minute plan remains historical; learner state stays `planned` until personal evidence is supplied.
