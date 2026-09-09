@@ -1,5 +1,7 @@
 # Readiness Dashboard
 
+Latest: [ATT-20260909-02](../assessments/attempts/2026-09-09-continuation-diagnostic.md) is incomplete, 2/10 answered and 2/2 correct (high, medium). Its linked practical continuation adds HTTP metadata and 13-file integrity evidence. Next: Q3 in a fresh question-only block. Weekly acceptance and official M01/module gates remain open.
+
 Evening update: [W37 practical attempt](../projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/attempt-2026-09-09-1622/README.md) provides one bounded learner scan and seven-file integrity verification. W37 is `attempted`; metadata enumeration, independent label teach-back and full acceptance remain open. Earlier planned-state summaries are historical. The baseline M01 refusal/delayed-retrieval and official assessment gates retain their own requirements.
 
 Latest conceptual evidence: [ATT-20260909-01](../assessments/attempts/2026-09-09-m02-practice-diagnostic.md) completed the user-revised 9/9 practice criterion with **10/10**, eight high and two medium confidence answers. This provisional diagnostic supports conceptual learning; official module status, the two baseline M01 repair items and weekly practical acceptance retain the gates below. `WP-2026-W37` remains `planned`.

@@ -1,5 +1,7 @@
 # WP-2026-W37 — Forgotten Portal Discovery
 
+Latest continuation — 2026-09-09: [metadata request and partial diagnostic](continuation-2026-09-09-1948/README.md) records HTTP 200 at 20:01:21, service-reported owner=Unassigned, reported shutdown and 13 verified files. Practical continuation met; weekly state **attempted**. New diagnostic 2/10 answered, 2/2 correct; next is Q3 integrity coverage in a fresh question-only block. Earlier receipts below retain their event-time status.
+
 Current practical state — 2026-09-09 evening: **attempted**. [Saved learner execution](attempt-2026-09-09-1622/README.md) records one bounded scan, all three ports open, the 8766 inventory gap and seven verified evidence files. Metadata enumeration and full weekly acceptance remain open. Earlier planned-state receipts below describe the pre-execution snapshot.
 
 Latest learner record — 2026-09-09: [ten-question provisional diagnostic](../../../assessments/attempts/2026-09-09-m02-practice-diagnostic.md) **10/10**, revised daily criterion met. Conceptual preparation is demonstrated in this practice scope; weekly practical state remains `planned`. The question-only extension authorized no active testing. The next hands-on block starts with fresh dated authorization and the M01 prerequisite.
