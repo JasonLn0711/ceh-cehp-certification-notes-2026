@@ -6,3 +6,4 @@ preclass_form_b,0.2.0,planned,pre-class readiness check with a separate item set
 module_mini_posttest,0.1.0,pilot,CEH module preview check,8,12,0,>=75 percent and critical safety clear,after each module preview
 cehp_readiness_gate,0.1.0,draft,CEHP practical bridge readiness,5 scenarios,60,0,4 of 5 scenario classes at pass,2026-11-18
 provisional_m02_mcq_10,source-chat-v1,provisional,question-only conceptual practice; source-bound form with answers retained in attempt,10,,0,pass in this practice scope only; no official readiness promotion,2026-09-09; original 15:00–15:30; question-only extension through 16:00 Asia/Taipei
+provisional_continuation_mcq_10,source-chat-v1,provisional,metadata process identity and integrity practice,10,,0,partial progress recorded; no official readiness promotion,2026-09-09 20:10:45–20:13 Asia/Taipei; eight questions await fresh block
