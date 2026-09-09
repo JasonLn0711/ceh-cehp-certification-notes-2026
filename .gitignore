@@ -3,3 +3,5 @@ private/
 *.log
 *.tmp
 .DS_Store
+
+!projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/attempt-2026-09-09-1622/mock-server.log

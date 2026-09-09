@@ -1,0 +1,13 @@
+Script started on 2026-09-09 18:32:28+08:00 [COMMAND="nmap -sT -Pn -n -p 8765-8767 127.0.0.1" TERM="xterm-ghostty" TTY="/dev/pts/10" COLUMNS="74" LINES="37"]
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-09-09 18:32 CST
+Nmap scan report for 127.0.0.1
+Host is up (0.000073s latency).
+
+PORT     STATE SERVICE
+8765/tcp open  ultraseek-http
+8766/tcp open  amcs
+8767/tcp open  core-of-source
+
+Nmap done: 1 IP address (1 host up) scanned in 0.02 seconds
+
+Script done on 2026-09-09 18:32:28+08:00 [COMMAND_EXIT_CODE="0"]

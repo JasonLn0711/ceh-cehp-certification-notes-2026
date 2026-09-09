@@ -1,0 +1,4 @@
+LISTENING 127.0.0.1:8765 role=public-portal
+LISTENING 127.0.0.1:8766 role=legacy-reporting
+LISTENING 127.0.0.1:8767 role=observability
+Press Ctrl-C to stop all mock services.
