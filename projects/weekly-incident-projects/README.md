@@ -99,3 +99,7 @@ contain original mock material and public authoritative sources.
 ## W37 metadata continuation — 2026-09-09
 
 [Continuation](2026-W37-forgotten-portal-discovery/continuation-2026-09-09-1948/README.md) captures one evidenced HTTP response and 13 verified files; weekly state `attempted`. New diagnostic 2/10 answered, 2/2 correct; next Q3 in a fresh question-only block.
+
+## Continuation diagnostic completed — 2026-09-09
+
+[Completed attempt and acceptance review](../../assessments/attempts/2026-09-09-continuation-diagnostic.md): **10/10**, confidence 6 high / 3 medium / 1 low; zero errors/retests. This supersedes the earlier Q2 pause and Q3 next-step status. Next is evidence-to-requirement review, starting with M01, then the mapped module and complete artifact gates. Weekly project remains `attempted`; no additional reconnaissance was performed.
