@@ -1,2 +1,3 @@
 attempt_id,date,form_id,form_version,score,max_score,percent,confidence_avg,critical_safety_errors,decision,weak_modules,remediation_assigned,retest_due,retest_result
 ATT-20260903-01,2026-09-03,baseline_diagnostic_40,0.1.0,20,40,50.0,,2,activation_needed,M01;M07;M08;M16;M20,M01 ROE correction + localhost exercise,2026-09-07,
+ATT-20260909-01,2026-09-09,provisional_m02_mcq_10,source-chat-v1,10,10,100.0,,0,pass,,none required; zero incorrect answers,,not administered
