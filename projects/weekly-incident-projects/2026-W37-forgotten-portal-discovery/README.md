@@ -1,12 +1,16 @@
 # WP-2026-W37 — Forgotten Portal Discovery
 
+Current practical state — 2026-09-09 evening: **attempted**. [Saved learner execution](attempt-2026-09-09-1622/README.md) records one bounded scan, all three ports open, the 8766 inventory gap and seven verified evidence files. Metadata enumeration and full weekly acceptance remain open. Earlier planned-state receipts below describe the pre-execution snapshot.
+
+Latest learner record — 2026-09-09: [ten-question provisional diagnostic](../../../assessments/attempts/2026-09-09-m02-practice-diagnostic.md) **10/10**, revised daily criterion met. Conceptual preparation is demonstrated in this practice scope; weekly practical state remains `planned`. The question-only extension authorized no active testing. The next hands-on block starts with fresh dated authorization and the M01 prerequisite.
+
 ## Identity
 
 - Week: `2026-W37`, `2026-09-07` through `2026-09-13`
 - Curriculum: CEH M02–M04; M01 safety repair remains available if needed
 - Core capacity: `4 h`
-- Learner state: `planned`
-- Live-scan gate: refresh and record the W37 source scan during W37
+- Learner state: `attempted`
+- Live-scan gate: [focused Nmap mechanism check complete; full brief partial](../../../research-briefs/2026-W37.md)
 - Acceptance: discover the omitted service and distinguish reconnaissance,
   scanning, and enumeration in an ownership-aware asset map
 

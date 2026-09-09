@@ -50,7 +50,7 @@ does not advance learner state.
 | Week | Project | Curriculum | Historical anchor | Core acceptance | Pack | Learner |
 | --- | --- | --- | --- | --- | --- | --- |
 | W36 | [Authorization Gate](2026-W36-authorization-gate/README.md) | M01 | [Anthropic cybersecurity-evaluation incidents](https://www.anthropic.com/research/investigating-incidents-cybersecurity-evals) | one permitted localhost request, two pre-execution refusals, verified evidence, and explanation | `runnable` | `planned` |
-| W37 | [Forgotten Portal Discovery](2026-W37-forgotten-portal-discovery/README.md) | M02–M04, M01 safety repair if needed | [FTC Equifax settlement](https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach) | find the omitted service and distinguish reconnaissance, scanning, and enumeration in an ownership-aware asset map | `runnable` | `planned` |
+| W37 | [Forgotten Portal Discovery](2026-W37-forgotten-portal-discovery/README.md) | M02–M04, M01 safety repair if needed | [FTC Equifax settlement](https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach) | find the omitted service and distinguish reconnaissance, scanning, and enumeration in an ownership-aware asset map | `runnable` | `attempted` |
 | W38 | Clinic Ransomware Triage | M05–M08 | [CISA WannaCry record](https://www.cisa.gov/news-events/ics-alerts/ics-alert-17-135-01i) | classify synthetic host, patch, log, and packet evidence and prioritize containment | `mapped` | `planned` |
 | W39 | Helpdesk Identity Takeover | M09–M12 | [CISA CSRB Lapsus$ review](https://www.cisa.gov/sites/default/files/2023-08/CSRB_Lapsus%24_508c.pdf) | reconstruct a no-send identity/session path, revoke the toy session, and specify layered detection | `mapped` | `planned` |
 | W40 | Legacy Customer Portal | M13–M16 | [ICO TalkTalk investigation](https://ico.org.uk/about-the-ico/media-centre/talktalk-cyber-attack-how-the-ico-investigation-unfolded/) | compare unsafe and parameterized local queries and pass the web regression check | `mapped` | `planned` |
@@ -87,3 +87,11 @@ contain original mock material and public authoritative sources.
 ## 2026-09-09 continuation
 
 [30-minute M02 professor prompt](2026-W37-forgotten-portal-discovery/professor-prompt-2026-09-09.md) reuses the opening lesson and starts at the unfinished ROE checkpoint. It guides one bounded result/blocker and a diagnostic when ready. The earlier 70-minute plan remains historical; learner state stays `planned` until personal evidence is supplied.
+
+## 2026-09-09 conceptual progress
+
+[W37 provisional M02 diagnostic](../../assessments/attempts/2026-09-09-m02-practice-diagnostic.md): 10/10, revised daily criterion met; `WP-2026-W37 planned`. The attempt links the opening lesson, confidence clarification, daily capacity and next practical gate.
+
+## W37 practical progress — 2026-09-09 evening
+
+[First learner attempt](2026-W37-forgotten-portal-discovery/attempt-2026-09-09-1622/README.md): one scan, inventory gap recorded, seven-file integrity verified; state `attempted`, metadata enumeration and weekly acceptance open.

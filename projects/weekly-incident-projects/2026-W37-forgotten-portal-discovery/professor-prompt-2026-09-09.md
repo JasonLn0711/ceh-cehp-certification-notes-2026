@@ -1,5 +1,7 @@
 # GPT-6 Pro Professor Prompt — 2026-09-09 M02 continuation
 
+Historical prompt: today’s deliverable was subsequently revised by Jason to a question-only diagnostic, [completed 10/10](../../../assessments/attempts/2026-09-09-m02-practice-diagnostic.md). The metadata and exact delivered prompt below describe preparation before that change. Future hands-on use requires a fresh dated scope/window and the open safety prerequisite.
+
 - Project: `WP-2026-W37` — Forgotten Portal Discovery.
 - Prepared and preserved: `2026-09-09`, Asia/Taipei.
 - Capacity: today's planned `30 min`, within W37's `240 min` ceiling.
