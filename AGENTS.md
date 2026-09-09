@@ -151,3 +151,7 @@ Protected boundaries:
 - passwords, API keys, private tokens;
 - authorized training targets and local toy examples;
 - lawful lab procedures aligned with official training environments.
+
+## Interactive learning — adopted 2026-09-09
+
+Use the global `professor-learning-prompt` interactive contract for all future learning: plain-language guidance, ten original multiple-choice questions one at a time, choice plus confidence, and detailed correction with at least three varied retests after each error. Preserve original and retest scores separately and close truthfully at the timebox. An agreed daily quiz criterion can be completed through conceptual evidence; practical acceptance and official readiness retain their own checks. [Cross-subject adoption](../planning-everything-track/docs/02-operating-rhythm.md#interactive-learning-after-2026-09-09) records the exact request and detailed workflow.
