@@ -1,0 +1,7 @@
+Date: 2026-09-09
+Time zone: Asia/Taipei
+Learning block: 19:48-20:13
+Active window: 19:52-20:07
+Target: 127.0.0.1 TCP 8765-8767
+Permitted active request: one GET http://127.0.0.1:8766/service-info
+Additional scans: none planned

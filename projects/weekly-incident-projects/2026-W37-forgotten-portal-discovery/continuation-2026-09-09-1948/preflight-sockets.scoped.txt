@@ -1,0 +1,3 @@
+Derived scope: local TCP listening endpoints on ports 8765–8767 only.
+Source: preflight-sockets.txt (full original retained locally).
+Matching rows: 0

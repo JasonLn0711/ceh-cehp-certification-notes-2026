@@ -5,3 +5,8 @@ private/
 .DS_Store
 
 !projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/attempt-2026-09-09-1622/mock-server.log
+
+# Keep full host listener inventories local; publish named scoped derivatives.
+projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/continuation-2026-09-09-1948/preflight-sockets.txt
+projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/continuation-2026-09-09-1948/shutdown-sockets.txt
+!projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/continuation-2026-09-09-1948/mock-server.log
