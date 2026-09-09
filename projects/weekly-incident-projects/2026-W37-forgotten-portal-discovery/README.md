@@ -44,11 +44,17 @@ and data are fictional.
 - ports `8765–8767` available on `127.0.0.1`
 - two terminals
 
-Verify the environment code before the learner week with:
+Author-only environment check (historical validation is recorded in the professor prompt):
 
 ```bash
 python3 mock_services.py --self-test
 ```
+
+The self-test binds dynamically assigned loopback ports and requests metadata
+from those ports. It requires a separate dated owner authorization before use;
+the fixed-port learner ROE below covers only `8765–8767`. The learner path can
+proceed with prerequisite checks and the authorized fixed-port mock after ROE
+teach-back, keeping author self-test evidence separate.
 
 ## ROE
 
@@ -57,7 +63,7 @@ python3 mock_services.py --self-test
 | Authorizer and operator | learner as owner/operator of the local mock instance |
 | Target | `127.0.0.1` ports `8765–8767` only |
 | Methods | inspect supplied register; at most two TCP connect scans; HTTP `GET` to `/health` and `/service-info` |
-| Time | learner records one dated `60 min` window in `Asia/Taipei` |
+| Time | learner records a dated `70 min` learning block and an active window of at most `60 min` within it, in `Asia/Taipei`; changed windows require a dated amendment |
 | Request/rate control | local default `nmap` timing; no scripts, brute force, flooding, or paths outside the allowlist |
 | Evidence | ROE, scan transcript, service metadata, asset map, decision log, hashes, explanation |
 | Stop | port conflict, scope ambiguity, non-loopback target, unexpected sensitive data, instability, or expired window |
@@ -68,6 +74,11 @@ python3 mock_services.py --self-test
 Learning support: [GPT-6 Pro professor prompt](professor-prompt-2026-09-08.md)
 defines the required concepts, procedures, real-world case boundary, guided
 checkpoints, and learner-evidence contract for the `70 min` block.
+
+Before starting either terminal, complete the ROE teach-back and record the
+actual future/current window. Preserve `roe.md` and `supplied-register.md` in
+one attempt directory. Use that directory for every output below; invoke the
+mock using its actual repository path when working outside the project root.
 
 In terminal one:
 
@@ -83,8 +94,9 @@ script -q -c 'nmap -sT -Pn -n -p 8765-8767 127.0.0.1' scan-transcript.txt
 ```
 
 Treat Nmap's `SERVICE` column here as a preliminary port-number label. The
-mock's role, version, and owner are established through the authorized
-`/service-info` enumeration step.
+mock's returned role, version, and owner are claimed metadata from the
+authorized `/service-info` enumeration step. Validate organizational ownership
+and deployed-software claims with evidence appropriate to each claim.
 
 Enumerate only the approved metadata endpoint:
 
@@ -95,16 +107,19 @@ for port in 8765 8766 8767; do
 done | tee service-info.txt
 ```
 
-Stop the services with `Ctrl-C`. Create `asset-map.md` with one row per
+Stop the services with `Ctrl-C` and wait for the foreground process and `tee`
+to finish writing `server.log`. Create `asset-map.md` with one row per
 discovered service:
 
 | Target | Discovery evidence | Enumerated role/version | Recorded owner | Ownership gap | Next authorized action |
 | --- | --- | --- | --- | --- | --- |
 
-Finish with:
+Complete `decision-log.md` with observations, claimed metadata, inferences,
+open validation, ownership decisions and any new authorization gate. Finalize
+all seven named files in the same attempt directory, then finish with:
 
 ```bash
-sha256sum server.log scan-transcript.txt service-info.txt asset-map.md > SHA256SUMS
+sha256sum roe.md supplied-register.md server.log scan-transcript.txt service-info.txt asset-map.md decision-log.md > SHA256SUMS
 sha256sum --check SHA256SUMS
 ```
 
@@ -122,7 +137,8 @@ sha256sum --check SHA256SUMS
 The project is `accepted` when the learner:
 
 - discovers all three allowed services without scanning outside `8765–8767`;
-- identifies the omitted service and its missing owner;
+- identifies the observed service missing from the supplied register and
+  records the ownership gap within that evidence scope;
 - distinguishes passive reconnaissance, active scanning, and HTTP enumeration;
 - preserves the ROE, transcripts, asset map, decision log, and verified hashes;
 - states that version banners are evidence requiring validation rather than
@@ -131,7 +147,16 @@ The project is `accepted` when the learner:
 
 ## Red-Capacity Fallback
 
-Use one `25 min` block to complete the ROE, run the supplied self-test, compare
-the register with the self-test output, and preserve the first evidence or
-blocker. The project remains `attempted` until the bounded scan and asset map
-pass acceptance.
+Use one `25 min` block to record the learner ROE and supplied-register
+comparison, or perform the first fixed-port authorized action after the safety
+gate. Preserve the actual result or blocker. Record `attempted` only after a
+learner-produced action; the bounded scan, asset map and diagnostics establish
+full acceptance. The ephemeral-port author self-test retains its separate
+authorization path.
+
+## Opening lesson receipt — recorded 2026-09-09
+
+- [Complete supplied lesson](opening-lesson-2026-09-08.source.md): source for the 9/8 learning task, preserved with all 25 references.
+- [Detailed notes and reconciliation](opening-lesson-2026-09-08.md): concepts, cases, evidence distinctions, local file check and next checkpoint.
+- Learner state remains `planned`; source capture supplies learning support.
+- Procedure revision: distinguish 70-minute learning from a maximum 60-minute active window; keep ephemeral-port self-tests under separate authorization; treat metadata as reported; finalize logs before hashing all seven named artifacts.

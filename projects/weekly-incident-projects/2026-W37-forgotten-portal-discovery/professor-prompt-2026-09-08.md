@@ -40,7 +40,8 @@ AUTHORIZED LAB BOUNDARY
 - Methods: inspect the supplied service register; run at most two TCP connect
   scans; send HTTP `GET` requests only to `/health` and `/service-info`.
 - Time: one dated 70-minute learning block in `Asia/Taipei`; record a dated
-  authorized scan window before active scanning.
+  authorized scan window of at most 60 minutes within that block before active
+  scanning. Use actual dates and times; never backdate a resumed block.
 - Request control: local default Nmap timing.
 - Evidence: ROE, server log, scan transcript, service metadata, asset map,
   decision log, hashes, and my own explanation.
@@ -138,13 +139,19 @@ wait for me to paste my result or blocker.
 
 Phase 1 — readiness and authorization
 
-1. Help me state the dated ROE and scan window in my own words.
+1. Help me state the dated ROE and scan window in my own words. Create one
+   dated attempt directory and preserve `roe.md` and `supplied-register.md`
+   there before startup; run both terminals from that directory and use the
+   actual repository path to the mock script.
 2. Check that `python3`, `curl`, `nmap`, `script`, and `sha256sum` are available.
-3. Explain and have me run:
+3. Inspect the supplied file path. The current `--self-test` uses dynamically
+   assigned loopback ports, so it is an author check outside the fixed-port
+   learner ROE. Keep its historical result separate. Proceed on the fixed-port
+   path after ROE teach-back; run that self-test only after a dated owner
+   amendment explicitly authorizes its dynamic-port requests.
 
-   `python3 mock_services.py --self-test`
-
-CHECKPOINT 1: Ask me for the ROE, prerequisite results, and self-test output.
+CHECKPOINT 1: Ask me for the ROE, prerequisite results, and file-path check.
+Record the self-test as separately gated unless its amendment and output exist.
 Stop and wait.
 
 Phase 2 — start and observe the owned mock
@@ -161,7 +168,9 @@ Stop and wait.
 
 Phase 3 — preserve passive evidence and perform one bounded scan
 
-Help me create a dated attempt directory and preserve the supplied register.
+Reuse the dated attempt directory and the preserved `roe.md` and
+`supplied-register.md` from Phase 1. Keep all outputs, including terminal one
+server.log, in that directory; use the actual mock script path when needed.
 Before execution, ask me to predict what the scan can and cannot establish.
 Then explain every token and have me run exactly:
 
@@ -191,7 +200,9 @@ wait.
 
 Phase 5 — asset map, decision, and integrity
 
-Guide me to create `asset-map.md` with these columns:
+First have me stop the mock services with `Ctrl-C` and wait for the foreground
+process and `tee` to finish writing `server.log`. Then guide me to create
+`asset-map.md` with these columns:
 
 | Target | Discovery evidence | Enumerated role/version | Recorded owner | Ownership gap | Next authorized action |
 | --- | --- | --- | --- | --- | --- |
@@ -200,11 +211,12 @@ Guide me to write a short `decision-log.md` that distinguishes established
 facts, claimed metadata, inferences, open validation, owner assignment, and any
 new authorization gate. Then explain and have me run:
 
-`sha256sum server.log scan-transcript.txt service-info.txt asset-map.md decision-log.md > SHA256SUMS`
+`sha256sum roe.md supplied-register.md server.log scan-transcript.txt service-info.txt asset-map.md decision-log.md > SHA256SUMS`
 `sha256sum --check SHA256SUMS`
 
 Explain exactly what a successful hash check establishes and what it does not
-establish. Then have me stop the mock services with `Ctrl-C`.
+establish. Hash only finalized files; if an artifact changes afterward, record
+the change and generate/check a new manifest before closeout.
 
 CHECKPOINT 5: Ask me for the completed asset map, decision summary, and hash
 verification output. Stop and wait.
@@ -214,16 +226,17 @@ verification output. Stop and wait.
 Keep the lesson within this allocation unless I explicitly continue:
 
 - 0–15 min: prerequisite concepts, Equifax anchor, and ROE teach-back;
-- 15–25 min: readiness check, self-test, and mock startup;
+- 15–25 min: readiness/file-path checks and authorized fixed-port mock startup;
 - 25–40 min: prediction, bounded scan, and evidence interpretation;
 - 40–52 min: authorized enumeration and ownership-gap analysis;
 - 52–63 min: asset map, decision log, and SHA-256 verification;
 - 63–70 min: retrieval check, teach-back, and next gate.
 
 If time or capacity becomes constrained, switch to this 25-minute fallback:
-complete the ROE, run the supplied self-test, compare the register with the
-self-test evidence, and preserve the first learner-produced result or exact
-blocker. Label the project `attempted`, not `accepted`.
+complete the ROE and supplied-register comparison, or perform the first
+fixed-port authorized action after the safety gate. Preserve the learner
+result or exact blocker; record `attempted` only when that action has evidence.
+The ephemeral-port self-test remains a separately authorized author check.
 
 ASSESSMENT AND CLOSEOUT
 
@@ -264,3 +277,7 @@ own words before any active scan.
 This prompt and the resulting professor explanation support learning. Project
 state advances only after Jason preserves learner-produced execution,
 interpretation, teach-back, and acceptance evidence.
+
+## 2026-09-09 lesson-driven correction
+
+The [supplied opening lesson](opening-lesson-2026-09-08.source.md) remains unchanged. The [detailed notes](opening-lesson-2026-09-08.md) preserve its explanation and local reconciliation. This reusable prompt now finalizes logs before hashing seven named files and distinguishes the dynamic-port author self-test from the learner's fixed-port ROE. The historical author-validation statement above retains its original date; learner state remains `planned`.

@@ -44,3 +44,11 @@ automatic expansion.
 - expanding to nearby ports for completeness;
 - assigning remediation work without naming the service owner;
 - copying author self-test output as learner execution evidence.
+
+## Evidence and procedure clarification — 2026-09-09
+
+- Expected inventory is fixture knowledge; grade discovery from learner outputs.
+- Returned owner metadata is a service claim; the missing register row establishes a bounded ownership-record gap.
+- Confirm a 70-minute learning block containing an active window of at most 60 minutes, or a shorter dated block. Dynamic-port `--self-test` requests require separate owner authorization.
+- Finalize `server.log` after shutdown; verify ROE, supplied register, server log, scan transcript, service metadata, asset map and decision log against the seven-file manifest.
+- [Lesson notes](opening-lesson-2026-09-08.md) record source provenance and the corrections. Source capture advances learning support; learner state follows the rubric.
