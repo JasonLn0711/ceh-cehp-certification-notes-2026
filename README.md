@@ -134,3 +134,7 @@ Use `docs/day-01-03-learning-package-rule.md` as the default shape for compact
 CEH / CEHP learning packets. Keep question files and answer keys separate,
 anchor every item to official scope, and carry weak-topic repair into the next
 daily closeout.
+
+## W37 opening lesson
+
+[Detailed lesson record](projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/opening-lesson-2026-09-08.md) connects the complete supplied source, concept notes, incident references and next ROE checkpoint. The project remains `planned`; source receipt and historical author validation are separate from learner execution.

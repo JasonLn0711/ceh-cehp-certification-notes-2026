@@ -68,3 +68,7 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
   Anthropic readings. M01 remains `activation_needed` until Jason completes the
   learner-produced retrieval, exercise, closeout, posttest, and retest evidence.
   External transcript publication requires a separate rights review.
+
+## 2026-09-08 opening lesson, captured 2026-09-09
+
+[Detailed lesson record](../projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/opening-lesson-2026-09-08.md) connects the complete supplied source, concept notes, incident references and next ROE checkpoint. The project remains `planned`; source receipt and historical author validation are separate from learner execution.

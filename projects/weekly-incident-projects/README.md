@@ -79,3 +79,7 @@ author self-check. During the target week, record a fresh topic-driven web scan
 in `../../research-briefs/YYYY-Www.md` before relying on current guidance.
 Licensed course material may provide private learner evidence; reusable packets
 contain original mock material and public authoritative sources.
+
+## W37 opening lesson
+
+[Detailed lesson record](2026-W37-forgotten-portal-discovery/opening-lesson-2026-09-08.md) connects the complete supplied source, concept notes, incident references and next ROE checkpoint. The project remains `planned`; source receipt and historical author validation are separate from learner execution.
