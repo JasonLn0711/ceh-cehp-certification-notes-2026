@@ -48,3 +48,7 @@ Live repository inspection for this capture found multiple open requirements, so
 The [module posttest template](../posttests/module-posttest-template.md) remains an eight-item governed template with a numerical confidence scale; it is not the form used here. Preserve this attempt's categorical confidence without inventing a conversion. Future delivery follows the adopted plain-language, one-at-a-time choice workflow; any governed form adaptation requires explicit mapping and its own versioned scoring contract.
 
 **Next action:** perform one evidence-to-requirement acceptance review, starting with the unresolved M01 safety repair, and identify the smallest missing learner check. Reuse recorded evidence instead of assigning more reconnaissance. Weekly state remains `attempted`; official readiness and mapped module completion remain open. [Planning day](../../../planning-everything-track/weeks/2026-W37/days/2026-09-09.md) and [week](../../../planning-everything-track/weeks/2026-W37/weekly-plan.md) own capacity and activation.
+
+## Follow-up — September 10
+
+[New offline diagnostic](2026-09-10-offline-diagnostic.md) preserves a separate source-reported 10/10 with partial item visibility. It leaves this earlier attempt unchanged. The next concrete work is one checked 8766 asset row; M01 and mapped-module acceptance remain open.

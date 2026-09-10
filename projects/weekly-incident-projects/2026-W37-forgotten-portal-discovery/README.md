@@ -1,5 +1,9 @@
 # WP-2026-W37 — Forgotten Portal Discovery
 
+**September 10 closeout: daily CEH micro-step complete.** [Two refusals and the checked learner-selected asset record](evidence-to-decision-2026-09-10.md) are complete (eight visible correct/high choices). The separate diagnostic remains reported 10/10 with Q2–Q8 summary-only provenance. M01 and W37 formal acceptance remain open; next is M01 contract review. Earlier incomplete-artifact receipts below are historical.
+
+September 10: [offline diagnostic](../../../assessments/attempts/2026-09-10-offline-diagnostic.md) is **source-reported complete (10/10; 9 high / 1 low)**. Only Q1/Q9/Q10 are visible; full score verification is pending. The asset-evidence artifact remains incomplete and W37 remains `attempted`. Next: one learner-selected 8766 asset row in a fresh offline block. Earlier receipts below retain their event-time status.
+
 Latest continuation — 2026-09-09: [metadata request and partial diagnostic](continuation-2026-09-09-1948/README.md) records HTTP 200 at 20:01:21, service-reported owner=Unassigned, reported shutdown and 13 verified files. Practical continuation met; weekly state **attempted**. New diagnostic 2/10 answered, 2/2 correct; next is Q3 integrity coverage in a fresh question-only block. Earlier receipts below retain their event-time status.
 
 Current practical state — 2026-09-09 evening: **attempted**. [Saved learner execution](attempt-2026-09-09-1622/README.md) records one bounded scan, all three ports open, the 8766 inventory gap and seven verified evidence files. Metadata enumeration and full weekly acceptance remain open. Earlier planned-state receipts below describe the pre-execution snapshot.

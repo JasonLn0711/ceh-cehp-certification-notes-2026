@@ -103,3 +103,11 @@ contain original mock material and public authoritative sources.
 ## Continuation diagnostic completed — 2026-09-09
 
 [Completed attempt and acceptance review](../../assessments/attempts/2026-09-09-continuation-diagnostic.md): **10/10**, confidence 6 high / 3 medium / 1 low; zero errors/retests. This supersedes the earlier Q2 pause and Q3 next-step status. Next is evidence-to-requirement review, starting with M01, then the mapped module and complete artifact gates. Weekly project remains `attempted`; no additional reconnaissance was performed.
+
+## September 10 W37 learning receipt
+
+[Offline diagnostic and source review](../../assessments/attempts/2026-09-10-offline-diagnostic.md): reported 10/10; item-level coverage partial. Artifact incomplete; W37 `attempted`. Next: the 8766 evidence row through one-at-a-time choices, with a fresh timebox and no new testing.
+
+## September 10 daily completion
+
+**September 10 closeout: daily CEH micro-step complete.** [Two refusals and the checked learner-selected asset record](2026-W37-forgotten-portal-discovery/evidence-to-decision-2026-09-10.md) are complete (eight visible correct/high choices). The separate diagnostic remains reported 10/10 with Q2–Q8 summary-only provenance. M01 and W37 formal acceptance remain open; next is M01 contract review. Earlier incomplete-artifact receipts below are historical.
