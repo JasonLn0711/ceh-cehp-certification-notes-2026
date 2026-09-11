@@ -72,3 +72,15 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 ## 2026-09-08 opening lesson, captured 2026-09-09
 
 [Detailed lesson record](../projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/opening-lesson-2026-09-08.md) connects the complete supplied source, concept notes, incident references and next ROE checkpoint. The project remains `planned`; source receipt and historical author validation are separate from learner execution.
+
+## September 11 CEH evidence review and exam relevance
+
+[Canonical capture](../assessments/attempts/2026-09-11-evidence-review.md) links the verbatim excerpt, partial learner state, teaching correction and official-source review. Repeated submission reconciled to one source; attachment bytes remain unavailable.
+
+## September 11 CEH exam-only decision
+
+[Exact request, official checks and adopted schedule](../study-plan/ceh-exam-only-2026-09-11.md) supersede the project-acceptance target for this learning lane.
+
+## September 11 exam-focused prompt capture
+
+[Complete delivered prompt and assessment](../study-plan/professor-prompt-2026-09-11-exam-only.md): preserved at Jason’s request; preparation only, with current-plan and learner-record links.
