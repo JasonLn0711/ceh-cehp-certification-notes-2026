@@ -1,5 +1,7 @@
 # Pre-Course Prep Plan
 
+> **Active CEH scope — September 11:** [CEH knowledge-exam plan](ceh-exam-only-2026-09-11.md). This supersedes earlier project-led CEH preparation requirements below. Historical scores, sources and project states remain unchanged; current completion uses exam-topic coverage and learner answers.
+
 ## Objective
 
 Reach the target CEH13-AI class on `2026-10-12` through one integrated,
@@ -231,3 +233,7 @@ learner sessions, testing targets and deferred experiments retain their own gate
 - Next learner gate: Jason reviews the prepared M01 comparison for up to
   25 minutes within confirmed remaining W37 capacity. The tutor prepares W39
   by September 20; later forms/packets and Form B retain their dated gates.
+
+## September 11 partial learner review and exam direction
+
+[Source and reconciliation](../assessments/attempts/2026-09-11-evidence-review.md): session started under a source-reported 16:37–17:02 offline block; no completed learner comparison or scored content answer is visible. Expired permission does not invalidate historical authorization. W37 remains `attempted`. Jason requested CEH exam-only preparation; schedule/assessment refinement remains pending, and project bookkeeping must not be treated as official exam requirements. Preserve historical evidence and the 240-minute ceiling.

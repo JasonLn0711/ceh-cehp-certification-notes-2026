@@ -1,5 +1,7 @@
 # Weekly Historical-Incident Projects
 
+> **Active CEH scope — September 11:** [CEH knowledge-exam plan](../../study-plan/ceh-exam-only-2026-09-11.md). This supersedes earlier project-led CEH preparation requirements below. Historical scores, sources and project states remain unchanged; current completion uses exam-topic coverage and learner answers.
+
 ## Purpose
 
 Each active self-directed learning week owns one integrated side project. The

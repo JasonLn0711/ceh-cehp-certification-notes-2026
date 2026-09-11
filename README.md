@@ -1,19 +1,14 @@
 # CEH / CEHP Certification Notes 2026
 
+> **Active CEH scope — September 11:** [CEH knowledge-exam plan](study-plan/ceh-exam-only-2026-09-11.md). This supersedes earlier project-led CEH preparation requirements below. Historical scores, sources and project states remain unchanged; current completion uses exam-topic coverage and learner answers.
+
 This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
 ## Current preparation — September 11
 
-[The current dashboard](assessment-governance/readiness_dashboard.md) records
-W37 `attempted`, completed September 10 daily artifact and open M01/formal
-module acceptance. [The revised plan](study-plan/pre-course-prep.md) sets four
-hours weekly in W38–W41, retains the full target and uses versioned choice
-assessments plus independent practical evidence. The current/next M01–M08
-question packet and W38 offline triage packet are prepared; learner outcomes
-remain open. Historical registration and baseline receipts below retain their
-original scope.
+[CEH knowledge-exam preparation](study-plan/ceh-exam-only-2026-09-11.md) owns the active scope: four hours weekly, blueprint-focused questions and correction, with exam-readiness review after the October course. No exam date is booked. [Today's gpt-6-pro prompt](study-plan/professor-prompt-2026-09-11-exam-only.md) is prepared; W37 exam coverage remains incomplete. [Readiness](assessment-governance/readiness_dashboard.md) distinguishes actual learner evidence from preparation. Historical projects and registrations below remain preserved; project acceptance is outside the active exam-study requirements.
 
-## Current Status
+## Registration and historical project status
 
 - Baseline diagnostic attempt `ATT-20260903-01` completed on `2026-09-03` at
   `20/40 (50.0%)`. The learning decision is `activation_needed`; M01

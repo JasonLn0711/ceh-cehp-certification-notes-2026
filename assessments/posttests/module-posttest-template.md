@@ -1,5 +1,7 @@
 # Module Posttest — choice contract v0.2.0
 
+> **Active CEH scope — September 11:** [CEH knowledge-exam plan](../../study-plan/ceh-exam-only-2026-09-11.md). This supersedes earlier project-led CEH preparation requirements below. Historical scores, sources and project states remain unchanged; current completion uses exam-topic coverage and learner answers.
+
 - Form ID: `module_choice_posttest`; version `0.2.0`; pilot.
 - Module / mapped weekly project / evidence locator:
 - Date / agreed endpoint / actual focused minutes:
