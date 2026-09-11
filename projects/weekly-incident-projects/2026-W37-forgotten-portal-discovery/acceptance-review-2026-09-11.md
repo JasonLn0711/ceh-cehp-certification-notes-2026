@@ -26,3 +26,7 @@ prospectively. Practical checks, refusal timing and evidence integrity remain
 required. Selected-response interpretation is assessed; unaided verbal recall
 is not assessed. Later hypothetical decisions never repair historical scope
 retroactively. Keep original attempts and manifests unchanged.
+
+## September 11 partial learner review and exam direction
+
+[Source and reconciliation](../../../assessments/attempts/2026-09-11-evidence-review.md): session started under a source-reported 16:37–17:02 offline block; no completed learner comparison or scored content answer is visible. Expired permission does not invalidate historical authorization. W37 remains `attempted`. Jason requested CEH exam-only preparation; schedule/assessment refinement remains pending, and project bookkeeping must not be treated as official exam requirements. Preserve historical evidence and the 240-minute ceiling.

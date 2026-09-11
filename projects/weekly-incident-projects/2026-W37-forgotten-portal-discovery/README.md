@@ -188,3 +188,7 @@ authorization path.
 ## Continuation diagnostic completed — 2026-09-09
 
 [Completed attempt and acceptance review](../../../assessments/attempts/2026-09-09-continuation-diagnostic.md): **10/10**, confidence 6 high / 3 medium / 1 low; zero errors/retests. This supersedes the earlier Q2 pause and Q3 next-step status. Next is evidence-to-requirement review, starting with M01, then the mapped module and complete artifact gates. Weekly project remains `attempted`; no additional reconnaissance was performed.
+
+## September 11 partial learner review and exam direction
+
+[Source and reconciliation](../../../assessments/attempts/2026-09-11-evidence-review.md): session started under a source-reported 16:37–17:02 offline block; no completed learner comparison or scored content answer is visible. Expired permission does not invalidate historical authorization. W37 remains `attempted`. Jason requested CEH exam-only preparation; schedule/assessment refinement remains pending, and project bookkeeping must not be treated as official exam requirements. Preserve historical evidence and the 240-minute ceiling.
