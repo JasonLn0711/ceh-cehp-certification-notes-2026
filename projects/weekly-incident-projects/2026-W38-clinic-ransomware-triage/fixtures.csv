@@ -1,0 +1,9 @@
+evidence_id,asset,kind,observation
+e01,clinic-a,patch,MS17-010 missing in the synthetic inventory
+e02,clinic-a,process,Unapproved startup task appears in supplied host log
+e03,clinic-a,file,Bulk file rewrites and extortion-note marker appear in supplied host log
+e04,clinic-a,traffic,Repeated outbound TCP connection attempts to peer port 445; compromise of peers unproven
+e05,clinic-b,patch,Applicable MS17-010 missing in the synthetic inventory
+e06,clinic-b,traffic,Unneeded SMBv1 listener reachable from peer segment; supplied host logs show no compromise evidence
+e07,clinic-c,scanner,Banner-only scanner finding claims missing MS17-010
+e08,clinic-c,patch,Authenticated patch inventory records applicable fix installed; discrepancy requires validation
