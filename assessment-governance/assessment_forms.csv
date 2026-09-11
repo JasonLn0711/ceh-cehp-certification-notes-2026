@@ -2,8 +2,10 @@ form_id,version,status,purpose,item_count,time_limit_minutes,anchor_item_count,d
 baseline_diagnostic_40,0.1.0,pilot,low-friction no-study diagnostic and weak-topic triage,40,45,0,triage only; no readiness claim,2026-09-03
 baseline_form_a,0.1.0,draft,formal no-study baseline and weak-module map,50,60,0,score creates weak-module map,2026-07-01 to 2026-07-03
 pre_august_form_b,0.1.0,superseded,parallel pre-August readiness gate,50,60,8,>=75 percent and 16 of 20 modules at review/pass,2026-08-01 to 2026-08-02
-preclass_form_b,0.2.0,planned,pre-class readiness check with a separate item set,50,60,0,>=75 percent; all 20 module posttests attempted and passed; all 9 UUU skills evidenced; zero critical safety errors,2026-10-10 to 2026-10-11
-module_mini_posttest,0.1.0,pilot,CEH module preview check,8,12,0,>=75 percent and critical safety clear,after each module preview
+preclass_form_b,0.2.0,superseded,pre-class readiness check with a separate item set,50,60,0,>=75 percent; all 20 module posttests attempted and passed; all 9 UUU skills evidenced; zero critical safety errors,2026-10-10 to 2026-10-11
+module_mini_posttest,0.1.0,superseded,CEH module preview check,8,12,0,>=75 percent and critical safety clear,after each module preview
 cehp_readiness_gate,0.1.0,draft,CEHP practical bridge readiness,5 scenarios,60,0,4 of 5 scenario classes at pass,2026-11-18
 provisional_m02_mcq_10,source-chat-v1,provisional,question-only conceptual practice; source-bound form with answers retained in attempt,10,,0,pass in this practice scope only; no official readiness promotion,2026-09-09; original 15:00–15:30; question-only extension through 16:00 Asia/Taipei
 provisional_continuation_mcq_10,source-chat-v1,provisional,metadata process identity and integrity practice,10,,0,partial progress recorded; no official readiness promotion,2026-09-09 20:10:45–20:13 Asia/Taipei; eight questions await fresh block
+module_choice_posttest,0.2.0,pilot,ten-item selected-response plus separate practical acceptance,10,15,0,>=8/10; all safety clear; remediation and practical gates complete,after mapped module; within weekly 240 minutes
+preclass_form_b,0.3.0,planned,choice-based pre-class readiness; separate key,50,60,0,>=38/50; all 20 modules pass; W37-W41 and M01 accepted; 9 skills evidenced; zero unresolved safety errors,lock 2026-10-04; administer 2026-10-10; brief 2026-10-11

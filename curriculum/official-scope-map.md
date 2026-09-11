@@ -86,13 +86,13 @@ For each module:
    blocker.
 3. Research that blocker, safety question, or current validation question.
 4. Apply the answer, rerun, and preserve evidence under the weekly project.
-5. Explain concept, evidence, defense, and scope closed-book; use the matching
-   posttest to diagnose and repair remaining gaps.
+5. Select concept, evidence, defense and scope decisions using the versioned
+   ten-item choice posttest; practical evidence remains separate and unaided
+   verbal recall is not assessed.
 
 Full pre-class readiness requires all twenty modules at `pass`, all nine UUU
 skills mapped to evidence, Form B `>=75%`, and zero critical-safety errors.
-Anything less produces `coverage complete; readiness incomplete` plus a
-class-entry gap brief.
+An open gate produces a class-entry gap brief. Use `coverage complete; readiness incomplete` only when every module was attempted; otherwise use `coverage incomplete; readiness incomplete`.
 
 ## Delivery Boundary
 

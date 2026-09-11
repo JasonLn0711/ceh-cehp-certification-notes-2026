@@ -33,3 +33,7 @@ Question forms remain reusable and answer-free. Preserve each learner
 submission under `../assessments/attempts/`, record its summary in
 `attempt_log.csv`, and use `traceability_matrix.csv` for the evidence that
 changes a learning decision.
+
+## Current delivery — September 11
+
+Use [the ten-item choice contract](../assessments/posttests/module-posttest-template.md), with separate key and practical acceptance. Form B v0.3.0 locks October 4, runs October 10, and feeds the October 11 gap brief. The [current preparation plan](../study-plan/pre-course-prep.md) owns the 240-minute weekly ceiling and evidence-first recovery.

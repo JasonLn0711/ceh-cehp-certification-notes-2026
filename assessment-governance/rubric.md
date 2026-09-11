@@ -2,7 +2,7 @@
 
 ## Multiple Choice
 
-- `1`: correct answer with aligned confidence.
+- `1`: correct answer; confidence is recorded independently and does not change the point.
 - `0`: missed answer.
 
 ## Short Answer
@@ -23,3 +23,7 @@ Critical safety items cover authorization, scope, evidence preservation,
 responsible disclosure, destructive actions, and sensitive information handling.
 
 Readiness requires critical safety items to clear even when total score is high.
+
+## Active choice contract
+
+Use [module v0.2.0](../assessments/posttests/module-posttest-template.md) and Form B v0.3.0. Short-answer/practical rubrics above remain available for historical attempts; active prose requirements use selected evidence decisions plus independently verified practical performance. Unaided verbal recall is not assessed.

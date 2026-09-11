@@ -54,4 +54,4 @@ Before a packet is considered ready:
 
 Use this Day 1-3 packet shape for later module packets. Day 4 starts with M01
 Ethical Hacking Introduction and must include an authorization/scope note,
-8-item posttest, answer key, weak-topic repair action, and closeout record.
+versioned ten-item choice posttest, answer key, weak-topic repair action, and closeout record.
