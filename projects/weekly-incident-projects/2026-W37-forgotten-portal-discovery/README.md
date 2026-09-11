@@ -1,5 +1,15 @@
 # WP-2026-W37 — Forgotten Portal Discovery
 
+> Active acceptance amendment — September 11: use the
+> [choice-based contract](../../../assessments/posttests/module-posttest-template.md)
+> prospectively for learner decisions and mapped assessments. Required prose
+> explanations become selected evidence/risk/defense/scope decisions; independent
+> practical evidence, dated ROE, refusal timing, hashes and target boundaries
+> remain required. Unaided verbal recall is not assessed. Existing attempts and
+> their scores remain unchanged; this amendment grants no active testing scope.
+> [Current dashboard](../../../assessment-governance/readiness_dashboard.md) owns
+> the current state; dated receipts below retain their event-time claims.
+
 **September 10 closeout: daily CEH micro-step complete.** [Two refusals and the checked learner-selected asset record](evidence-to-decision-2026-09-10.md) are complete (eight visible correct/high choices). The separate diagnostic remains reported 10/10 with Q2–Q8 summary-only provenance. M01 and W37 formal acceptance remain open; next is M01 contract review. Earlier incomplete-artifact receipts below are historical.
 
 September 10: [offline diagnostic](../../../assessments/attempts/2026-09-10-offline-diagnostic.md) is **source-reported complete (10/10; 9 high / 1 low)**. Only Q1/Q9/Q10 are visible; full score verification is pending. The asset-evidence artifact remains incomplete and W37 remains `attempted`. Next: one learner-selected 8766 asset row in a fresh offline block. Earlier receipts below retain their event-time status.

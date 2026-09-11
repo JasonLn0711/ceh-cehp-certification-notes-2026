@@ -2,6 +2,17 @@
 
 This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
+## Current preparation — September 11
+
+[The current dashboard](assessment-governance/readiness_dashboard.md) records
+W37 `attempted`, completed September 10 daily artifact and open M01/formal
+module acceptance. [The revised plan](study-plan/pre-course-prep.md) sets four
+hours weekly in W38–W41, retains the full target and uses versioned choice
+assessments plus independent practical evidence. The current/next M01–M08
+question packet and W38 offline triage packet are prepared; learner outcomes
+remain open. Historical registration and baseline receipts below retain their
+original scope.
+
 ## Current Status
 
 - Baseline diagnostic attempt `ATT-20260903-01` completed on `2026-09-03` at
@@ -44,7 +55,7 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
   `../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md`.
 - Scope control: all notes stay educational, lawful, authorized, and
   certification-focused.
-- Adopted preparation: protect `38 h` through `2026-10-11`; attempt and assess
+- Adopted preparation: protect `4 h/week` in W38–W41 (`16 h` total) through `2026-10-11`; attempt and assess
   all twenty modules, map all nine UUU skill outcomes, and use
   `preclass_ready` only after every readiness gate clears.
 
@@ -57,8 +68,8 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
    result or exact blocker.
 3. Research that blocker, safety question, or acceptance question using the
    current weekly brief; apply the answer and rerun.
-4. Explain the result closed-book, then use the matching posttest as a
-   diagnostic and repair tool.
+4. Select evidence, risk, defense and scope decisions, then complete the
+   mapped ten-item choice assessment and separate practical check.
 5. Update the weekly project state, readiness dashboard, and thin Planning locator.
 
 ## Repo Map

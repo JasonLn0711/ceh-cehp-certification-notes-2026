@@ -51,7 +51,7 @@ does not advance learner state.
 | --- | --- | --- | --- | --- | --- | --- |
 | W36 | [Authorization Gate](2026-W36-authorization-gate/README.md) | M01 | [Anthropic cybersecurity-evaluation incidents](https://www.anthropic.com/research/investigating-incidents-cybersecurity-evals) | one permitted localhost request, two pre-execution refusals, verified evidence, and explanation | `runnable` | `planned` |
 | W37 | [Forgotten Portal Discovery](2026-W37-forgotten-portal-discovery/README.md) | M02–M04, M01 safety repair if needed | [FTC Equifax settlement](https://www.ftc.gov/news-events/news/press-releases/2019/07/equifax-pay-575-million-part-settlement-ftc-cfpb-states-related-2017-data-breach) | find the omitted service and distinguish reconnaissance, scanning, and enumeration in an ownership-aware asset map | `runnable` | `attempted` |
-| W38 | Clinic Ransomware Triage | M05–M08 | [CISA WannaCry record](https://www.cisa.gov/news-events/ics-alerts/ics-alert-17-135-01i) | classify synthetic host, patch, log, and packet evidence and prioritize containment | `mapped` | `planned` |
+| W38 | [Clinic Ransomware Triage](2026-W38-clinic-ransomware-triage/README.md) | M05–M08 | [CISA WannaCry record](https://www.cisa.gov/news-events/ics-alerts/ics-alert-17-135-01i) | classify synthetic host, patch, log, and packet evidence and prioritize containment | `runnable offline` | `planned` |
 | W39 | Helpdesk Identity Takeover | M09–M12 | [CISA CSRB Lapsus$ review](https://www.cisa.gov/sites/default/files/2023-08/CSRB_Lapsus%24_508c.pdf) | reconstruct a no-send identity/session path, revoke the toy session, and specify layered detection | `mapped` | `planned` |
 | W40 | Legacy Customer Portal | M13–M16 | [ICO TalkTalk investigation](https://ico.org.uk/about-the-ico/media-centre/talktalk-cyber-attack-how-the-ico-investigation-unfolded/) | compare unsafe and parameterized local queries and pass the web regression check | `mapped` | `planned` |
 | W41 | Water-Plant Safety Gateway | M17–M20 | [EPA Oldsmar incident context](https://www.epa.gov/system/files/documents/2021-07/_epaoig_notificationmemo_7-23-21_cybersecurity_0.pdf) | reject an unsafe synthetic setpoint, log a safe action, and map mobile/IoT/cloud/crypto boundaries | `mapped` | `planned` |
@@ -79,6 +79,28 @@ author self-check. During the target week, record a fresh topic-driven web scan
 in `../../research-briefs/YYYY-Www.md` before relying on current guidance.
 Licensed course material may provide private learner evidence; reusable packets
 contain original mock material and public authoritative sources.
+
+## September 11 active preparation
+
+[Preparation and evidence-review contract](../../study-plan/pre-course-prep.md)
+sets 240 minutes weekly for W38–W41. W37 remains `attempted`; W38 is prepared
+for offline learner analysis, and W39–W41 remain mapped. Prepare W39 by September
+20, W40 by September 27, and W41 plus Form B by October 4. Learner state changes
+only from actual evidence. W38 uses the [NAO incident report](https://www.nao.org.uk/reports/investigation-wannacry-cyber-attack-and-the-nhs/)
+as its verified historical anchor; the earlier CISA locator returned HTTP 403
+at author preparation on September 11. The target week's fresh research gate
+remains open.
+
+Active assessments use [choice v0.2.0](../../assessments/posttests/module-posttest-template.md).
+Selected evidence/risk/defense/scope decisions plus independent practical evidence
+replace prose-based acceptance prospectively. Unaided verbal recall is not
+assessed. Dated learner sources and old rubric results remain unchanged.
+
+## Dated receipts — event-time status only
+
+The entries below preserve their original states. Use the table above and
+[current dashboard](../../assessment-governance/readiness_dashboard.md) for the
+current state.
 
 ## W37 opening lesson
 

@@ -1,5 +1,15 @@
 # WP-2026-W36 — Authorization Gate
 
+> Active acceptance amendment — September 11: use the
+> [choice-based contract](../../../assessments/posttests/module-posttest-template.md)
+> prospectively for learner decisions and mapped assessments. Required prose
+> explanations become selected evidence/risk/defense/scope decisions; independent
+> practical evidence, dated ROE, refusal timing, hashes and target boundaries
+> remain required. Unaided verbal recall is not assessed. Existing attempts and
+> their scores remain unchanged; this amendment grants no active testing scope.
+> [Current dashboard](../../../assessment-governance/readiness_dashboard.md) owns
+> the current state; dated receipts below retain their event-time claims.
+
 ## Identity
 
 - Week: `2026-W36`, `2026-08-31` through `2026-09-06`

@@ -1,5 +1,11 @@
 # WP-2026-W36 Instructor Key
 
+September 11 prospective amendment: assess the explanation component through
+learner-selected evidence/scope decisions under choice v0.2.0, linked from the
+project README. Unaided verbal recall is not assessed. Preserve independent
+practical, pre-execution refusal and delayed safety checks; old learner sources
+and scores retain their original meaning.
+
 ## Expected Decisions
 
 | Proposed action | Expected result | Reason |
