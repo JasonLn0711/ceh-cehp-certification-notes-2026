@@ -1,12 +1,12 @@
 # CEH / CEHP Certification Notes 2026
 
-> **Active CEH scope — September 11:** [CEH knowledge-exam plan](study-plan/ceh-exam-only-2026-09-11.md). This supersedes earlier project-led CEH preparation requirements below. Historical scores, sources and project states remain unchanged; current completion uses exam-topic coverage and learner answers.
+> **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
 
 This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
-## Current preparation — September 18
+## Current learning status
 
-[CEH knowledge-exam preparation](study-plan/ceh-exam-only-2026-09-11.md) owns the active scope: four hours weekly, blueprint-focused questions and correction, with exam-readiness review after the final November 1 class. No exam date is booked. [September 11 gpt-6-pro prompt](study-plan/professor-prompt-2026-09-11-exam-only.md) is prepared; W37 exam coverage remains incomplete. [Readiness](assessment-governance/readiness_dashboard.md) distinguishes actual learner evidence from preparation. Historical projects and registrations below remain preserved; project acceptance is outside the active exam-study requirements.
+[UUU-aligned learning](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the active September 18–November 29 route: shared four-hour weekly ceiling, actual class topics, teaching/drill modes, correction and practical work. [The full bank](assessments/practice-bank/README.md) is prepared; [learner coverage](assessment-governance/course-coverage-2026-09-18.md) awaits new answers and execution. No exam date is booked. Historical scores and projects below retain their original scope; old exam-only/Form B requirements no longer govern this lane.
 
 ## Registration and historical project status
 
@@ -31,21 +31,21 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
 ## FIRST PRINCIPLE
 
-- Scarce resource: pre-course study capacity.
+- Scarce resource: course-aligned study capacity and readiness evidence.
 - Canonical home: this repo owns the executable workbench, pretest, posttests,
   chapter previews, weak topics, practice notes, and readiness checks.
 - Planning connection:
   `../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md`.
 - Scope control: all notes stay educational, lawful, authorized, and
   certification-focused.
-- Adopted preparation: self-study at most `4 h/week` through W44, at most 25 minutes on course days; formal course time, commute and recovery are additional fixed commitments. Follow the exam-only plan and observed learner gaps.
+- Adopted preparation: CEH plus CEHP share at most `4 h/week` through November 29, at most 25 minutes on course days; formal course time, commute and recovery remain fixed commitments. Follow the course-aligned route and actual learner gaps.
 
 ## How To Use This Repo
 
-1. Open the [active exam-only plan](study-plan/ceh-exam-only-2026-09-11.md#september-18-course-change), confirm the endpoint and resume unfinished questions or corrections.
-2. Use one original question at a time with choice and confidence; preserve original and retest scores separately.
-3. After actual classes, record taught topics, one misconception and the next question; use focused official research when needed.
-4. Update learner evidence and the thin Planning bridge. Historical incident projects remain available only for a separately activated practical lane.
+1. Open the [current UUU-aligned route](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md), confirm the endpoint and resume pending questions or corrections.
+2. Use the [600-question bank, two reserved mocks and 25 practical tasks](assessments/practice-bank/README.md): professional-English stems and plain-English explanations. Teach new concepts one at a time; drill familiar concepts in ten-item batches.
+3. Save actual class topics, original answers/confidence, separate retests and learner-produced practical evidence. The [coverage register](assessment-governance/course-coverage-2026-09-18.md) distinguishes first pass, corrections and readiness.
+4. Update only status/capacity/locators in Planning. Historical incident projects require separate activation; the current course lane already contains bounded practical work.
 
 ## Repo Map
 

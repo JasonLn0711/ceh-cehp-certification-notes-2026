@@ -1,5 +1,7 @@
 # CEH / CEHP Assessment Governance System
 
+> **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
+
 ## Purpose
 
 This repo uses a small Assessment Governance System for CEH / CEHP preparation.
@@ -16,7 +18,7 @@ The v0.2 design adopts the expert review preserved at:
 
 `../source/2026-07-01-assessment-governance-expert-review/source.md`
 
-## September 11 version and claim boundary
+## Historical September 11 version and claim boundary
 
 Jason approved four hours weekly, the full mastery target and choice-based
 checks. [Current module contract](../assessments/posttests/module-posttest-template.md)
@@ -53,7 +55,7 @@ pilot threshold is not an EC-Council official passing score.
 | Traceability matrix | Connects official scope, claim, evidence, item, rubric, attempt, decision, remediation, and retest. | `../assessment-governance/traceability_matrix.csv` |
 | Dashboard | Tracks weak modules, safety errors, completion, scoring latency, remediation closure, and readiness gates. | `../assessment-governance/readiness_dashboard.md` |
 
-## Readiness Gates
+## Historical project-readiness gates
 
 | Time | Assessment | Decision standard | Follow-up |
 | --- | --- | --- | --- |
@@ -82,7 +84,7 @@ This single-learner system uses deterministic analytics first:
 Large-sample psychometrics such as IRT, DIF, and full distractor analysis become
 future options after enough independent attempts exist.
 
-## Pre-Class Form B Contract
+## Historical pre-class Form B contract
 
 Prepare and lock `preclass_form_b` by `2026-10-04`; administer it closed-book
 on `2026-10-10`; issue the gap brief on `2026-10-11`.
@@ -115,7 +117,7 @@ critical-safety concepts, and questions to listen for during instruction.
 - 1EdTech Caliper Analytics as a reference model for learning activity data.
 - Validated multiple-choice item-writing guidance for item quality.
 
-## Next Build Steps
+## Historical next build steps
 
 1. Complete WP-2026-W36 or preserve its state and close the M01 safety
    competency inside WP-2026-W37: Rules of Engagement correction,
@@ -146,3 +148,7 @@ independently. Then finalize module passes and weekly acceptance together when
 all components clear. A weekly accepted label is not a prerequisite for
 reviewing its component artifacts. [The module contract](../assessments/posttests/module-posttest-template.md)
 defines partial attempts, failed-score replacement forms and delayed safety checks.
+
+## Current course-aligned delivery
+
+[Bank administration](../assessments/practice-bank/README.md) and [current rubric](../assessment-governance/rubric.md) govern this lane. Forms are prepared, not administered. CSV schemas remain unchanged; detailed attempts preserve categorical confidence, assistance and version. The [coverage register](../assessment-governance/course-coverage-2026-09-18.md) records module study, unique first answers, reviewed explanations, retests and practical acceptance separately. A new artifact cannot promote a learner result. The old Form B dates and mandatory weekly-project acceptance do not apply to the current 600-item first pass.

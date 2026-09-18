@@ -90,3 +90,7 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 ## September 11 exam-focused prompt capture
 
 [Complete delivered prompt and assessment](../study-plan/professor-prompt-2026-09-11-exam-only.md): preserved at Jason’s request; preparation only, with current-plan and learner-record links.
+
+## September 18 — UUU course-aligned learning decision
+
+[Confirmed preferences, live source checks and boundaries](2026-09-18-uuu-learning-alignment/notes.md) → [current route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) → [600-question bank, mocks and practical tasks](../assessments/practice-bank/README.md) → [actual learner coverage](../assessment-governance/course-coverage-2026-09-18.md). Course/payment and invoice sources retain their separate evidence roles.

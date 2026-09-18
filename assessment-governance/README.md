@@ -1,5 +1,7 @@
 # Assessment Governance
 
+> **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
+
 This folder is the minimum viable assessment system for CEH / CEHP preparation.
 
 The system keeps assessment decisions traceable from official scope to
@@ -34,6 +36,8 @@ submission under `../assessments/attempts/`, record its summary in
 `attempt_log.csv`, and use `traceability_matrix.csv` for the evidence that
 changes a learning decision.
 
-## Current delivery — September 11
+## Current delivery — September 18
 
-Use [the ten-item choice contract](../assessments/posttests/module-posttest-template.md), with separate key and practical acceptance. Form B v0.3.0 locks October 4, runs October 10, and feeds the October 11 gap brief. The [current preparation plan](../study-plan/pre-course-prep.md) owns the 240-minute weekly ceiling and evidence-first recovery.
+Use the [course-aligned bank](../assessments/practice-bank/README.md) and [coverage register](course-coverage-2026-09-18.md). `item_bank.csv` indexes the prepared items; `assessment_forms.csv` records versioned forms. Keep actual attempts in the existing append-only learner workflow. The old October Form B appointment and mandatory project-based readiness gate are superseded for this lane.
+
+The existing CSV schemas stay unchanged. Record categorical confidence and assistance in the detailed attempt; leave legacy `confidence_avg` blank for categorical data. An unattempted prepared form creates no attempt-log row. Original scores do not include retests. Conceptual evidence, first-pass completion and practical acceptance are separate decisions.

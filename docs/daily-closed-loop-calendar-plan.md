@@ -1,5 +1,7 @@
 # CEH / CEHP 十層評量制度：2026-07-01 至 2026-08-02 日曆執行版
 
+> **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
+
 > 班別範圍更新（`2026-07-13`）：本檔保留原始準備序列。現行確認班別為
 > CEH 台北 `2048`（`2026-10-12` 至 `2026-10-16`）與 CEHP 台北 `26416`
 >（`2026-11-19` 至 `2026-11-20`）；現行 readiness gates 維護於

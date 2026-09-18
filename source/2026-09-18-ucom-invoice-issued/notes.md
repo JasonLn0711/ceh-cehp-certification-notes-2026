@@ -96,3 +96,7 @@ P06引用鏈中四個時間比P01直接郵件顯示多一分鐘。保留兩種�
 [CEH入口](../../README.md) → [來源索引](../README.md) → 本筆記 → [付款與權益總紀錄](../2026-09-18-ucom-class-payment-update/notes.md) → [Planning報名狀態](../../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#september-18-current-registration) → [9/18收件回執](../../../planning-everything-track/weeks/2026-W38/days/2026-09-18.md#ceh-invoice-issued)／[W38](../../../planning-everything-track/weeks/2026-W38/weekly-plan.md#ceh-invoice-issued) → [9/20櫃檯核對](../../../planning-everything-track/weeks/2026-W38/days/2026-09-20.md#ceh-invoice-pickup)。技術準備仍由[現行自學計畫](../../study-plan/ceh-exam-only-2026-09-11.md#september-18-course-change)擁有；本補件不觸發Calendar或考試預約變更。
 
 本次成果供Jason報到、紙本保管、可能的行政核對及週回顧使用。使用者提供新來源，文件整理完成欄位與歷史比對；後續領取及報帳採實際結果更新。
+
+## Current learning connection — September 18
+
+[UUU-aligned CEH / CEHP route](../../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) uses the confirmed dates while keeping payment, invoice custody and personal learning evidence separate. [Question/task bank](../../assessments/practice-bank/README.md) is prepared; it does not establish attendance or learner completion.

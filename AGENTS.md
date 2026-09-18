@@ -5,7 +5,9 @@ course and exam preparation.
 
 ## Active course and learning decision — September 18
 
-[The adopted CEH exam-only plan](study-plan/ceh-exam-only-2026-09-11.md#september-18-course-change) governs the current lane. Its topic questions and correction supersede mandatory incident-project and broad weekly research requirements below for this lane. Keep the 240-minute weekly self-study ceiling, at most 25 minutes on class days, and review readiness after the final November 1 class. [Current registration and rights](source/2026-09-18-ucom-class-payment-update/notes.md) own the five CEH 2053 Sundays and two CEHP 26416 dates. Historical project states and other explicitly activated lanes retain their contracts.
+[The adopted UUU-aligned CEH / CEHP route](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) governs September 18–November 29. It supersedes the exam-only and mandatory incident-project requirements for this lane: shared 240-minute self-study week, at most 25 minutes on course days, 600 original first answers plus explanation review, twenty-module study and one accepted learner-executed task per practical family. Instructor delivery determines topic selection; observed mistakes determine correction. Prepared content never counts as learner progress.
+
+Use professional English in questions/options/hints and plain English in explanations. New concepts use one-at-a-time teaching; familiar concepts may use ten-item drills with feedback after the batch or endpoint. Preserve choice and categorical confidence, original/retest separation and three varied retests per error. This is a subject-specific exception to the default interactive teaching rhythm. Weekly source refresh answers the actual topic or blocker; it does not reactivate the broad incident-project/research deliverables below.
 
 ## Mission
 

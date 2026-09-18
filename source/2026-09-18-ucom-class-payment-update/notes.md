@@ -173,3 +173,7 @@ flowchart LR
 P06補件：新增8頁已逐頁核對，兩封新訊息與引用歷史分開；四個引用時間比P01顯示多一分鐘，[差異表](../2026-09-18-ucom-invoice-issued/notes.md#引用信件的分鐘差異)保留兩來源，未重寫P01。
 
 首輪文件驗收：P01–P05共13頁有來源覆蓋；C01五事件與P01/P05一致；另加P01支持的CEHP兩堂，共七堂；54教學小時／61時段小時；I01–I04缺件明列。行事曆與repository驗收回執保存在[當日關聯紀錄](../../../planning-everything-track/weeks/2026-W38/days/2026-09-18.md#ceh-cehp-update)，與未完成的真人行政／學習關卡分開。
+
+## Current learning connection — September 18
+
+[UUU-aligned CEH / CEHP route](../../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) uses the confirmed dates while keeping payment, invoice custody and personal learning evidence separate. [Question/task bank](../../assessments/practice-bank/README.md) is prepared; it does not establish attendance or learner completion.

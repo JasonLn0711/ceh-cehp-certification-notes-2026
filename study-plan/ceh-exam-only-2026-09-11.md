@@ -1,5 +1,7 @@
 # CEH knowledge-exam preparation — active September 11, 2026
 
+> **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
+
 ## Source and decision
 
 Jason's exact request:

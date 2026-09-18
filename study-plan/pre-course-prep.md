@@ -1,8 +1,6 @@
 # Pre-Course Prep Plan
 
-> **Current course update — September 18:** [Verified dates, payment, rights and source corrections](../source/2026-09-18-ucom-class-payment-update/notes.md). CEH 2053 meets 9/20, 10/4, 10/18, 10/25 and 11/1; CEHP 26416 remains 11/19–20. Self-study follows the active exam-only plan through 11/1; older preparation dates and payment-pending gates below are historical. No learner score is changed.
-
-> **Active CEH scope — September 11:** [CEH knowledge-exam plan](ceh-exam-only-2026-09-11.md). This supersedes earlier project-led CEH preparation requirements below. Historical scores, sources and project states remain unchanged; current completion uses exam-topic coverage and learner answers.
+> **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
 
 ## Objective
 

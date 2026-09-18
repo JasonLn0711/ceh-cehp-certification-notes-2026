@@ -1,5 +1,7 @@
 # Official Scope Map
 
+> **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
+
 ## Source Boundary
 
 This map uses the current UUU `CEH13-AI` page and EC-Council CEH v13 public
@@ -49,7 +51,7 @@ Use official scope as the study backbone. Add explanations from
 | DoS/DDoS recognition and defense | M10 |
 | Cryptographic data protection | M20 |
 
-## Weekly Historical-Incident Project Map
+## Historical weekly incident project map — inactive for this route
 
 | Project | Modules / period | Executable outcome |
 | --- | --- | --- |
@@ -74,10 +76,9 @@ The complete incident and acceptance map lives at
 | P4 | System attack analysis | M06, M07, M10, and M12 | `../assessments/posttests/p4-system-attack-analysis.md` |
 | P5 | Website attack analysis | M13–M15 | `../assessments/posttests/p5-website-attack-analysis.md` |
 
-Dedicated CEHP preparation begins after the CEH course. The shared CEH
-evidence is tagged for reuse instead of repeating the same pre-class work.
+Current route: introduce bounded related practice during CEH, then increase CEHP focus after November 1. Reuse actual course evidence; P1–P5 are UUU review families and must also map to the nine official Practical blueprint domains.
 
-## Minimum Preview Loop
+## Historical minimum preview loop — superseded for this route
 
 For each module:
 
@@ -96,6 +97,6 @@ An open gate produces a class-entry gap brief. Use `coverage complete; readiness
 
 ## Delivery Boundary
 
-UUU publishes the course-wide sequence but not the Taipei `2048` instructor's
-module-by-day allocation for `2026-10-12` through `2026-10-16`. Preserve actual
-daily coverage from the instructor handout or observed class delivery.
+CEH 2053 meets September 20, October 4, 18, 25 and November 1. CEHP 26416 meets November 19–20. The provider publishes the course-wide scope; the instructor's module-by-session allocation remains unrecorded. The current route records observed delivery and adjusts the next study slice rather than assuming four modules per class.
+
+[Question forms and technical source routes](../assessments/practice-bank/README.md) connect module concepts to actual answers. [Coverage register](../assessment-governance/course-coverage-2026-09-18.md) keeps uncovered subtopics visible. Local fixture acceptance has its declared scope and does not establish full Practical exam competence.

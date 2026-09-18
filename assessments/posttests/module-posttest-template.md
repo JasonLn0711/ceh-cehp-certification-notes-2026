@@ -1,6 +1,6 @@
 # Module Posttest — choice contract v0.2.0
 
-> **Active CEH scope — September 11:** [CEH knowledge-exam plan](../../study-plan/ceh-exam-only-2026-09-11.md). This supersedes earlier project-led CEH preparation requirements below. Historical scores, sources and project states remain unchanged; current completion uses exam-topic coverage and learner answers.
+> **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](../../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
 
 - Form ID: `module_choice_posttest`; version `0.2.0`; pilot.
 - Module / mapped weekly project / evidence locator:

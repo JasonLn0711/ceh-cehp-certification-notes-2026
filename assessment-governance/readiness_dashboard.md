@@ -1,14 +1,10 @@
 # Readiness Dashboard
 
-> **Current course update — September 18:** [Verified dates, payment, rights and source corrections](../source/2026-09-18-ucom-class-payment-update/notes.md). CEH 2053 meets 9/20, 10/4, 10/18, 10/25 and 11/1; CEHP 26416 remains 11/19–20. Self-study follows the active exam-only plan through 11/1; older preparation dates and payment-pending gates below are historical. No learner score is changed.
+> **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
 
-> **Active CEH scope — September 11:** [CEH knowledge-exam plan](../study-plan/ceh-exam-only-2026-09-11.md). This supersedes earlier project-led CEH preparation requirements below. Historical scores, sources and project states remain unchanged; current completion uses exam-topic coverage and learner answers.
+## Current course-aligned status
 
-## Current exam-only status
-
-W37 exam coverage: **incomplete / not yet verified**. Completed practice and September 10's daily artifact remain preserved; September 11 review is partial. Missing project artifacts are no longer exam-study blockers. Next: a bounded M01–M04 coverage check; Monday starts M05 exam concepts. Jason confirmed no exam date is booked; review readiness after the October course before choosing a date. Full readiness remains unverified. Four hours weekly remains the ceiling.
-
-The [active plan](../study-plan/ceh-exam-only-2026-09-11.md) owns current criteria; the following project-linked snapshot is historical.
+[Coverage register](course-coverage-2026-09-18.md) owns the new route. 600 practice questions, two 125-item mocks and 25 tasks are prepared, with no new learner result. Actual class coverage and focused minutes remain unreported. Historical results below retain their original scope. First-pass target: November 29; feasibility remains unknown until actual pace and capacity are measured. Readiness review begins after the final November 1 CEH class; no exam date is booked.
 
 ## Historical project-led snapshot — 2026-09-11
 
