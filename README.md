@@ -26,7 +26,7 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
   corrected transcript, and successful registration email are preserved under
   `source/2026-07-01-ucom-registration/`.
 - Current source: [September 18 full chronology, rights and verified timetable](source/2026-09-18-ucom-class-payment-update/notes.md). The September 18 transfer supersedes CEH 2048; 2046 and CEHP 26408 are also historical.
-- Payment: NT$65,000 successfully paid in the supplied receipt; CEH opening notice received. Actual invoice, code delivery/expiry and local proctoring-fee treatment remain separate checks.
+- Payment: NT$65,000 successfully paid in the supplied receipt; CEH opening notice received. [Invoice issued and image received](source/2026-09-18-ucom-invoice-issued/notes.md): buyer, tax ID, date and NT$65,000 match the request; paper handover via the counter and any university reimbursement remain unconfirmed. Code delivery/expiry and local proctoring-fee treatment retain their own checks.
 - [July 13 transfer record](source/2026-07-13-ucom-successful-class-transfer/registration-transfer-confirmation-agent-readable-redacted.md) preserves the previous state.
 
 ## FIRST PRINCIPLE

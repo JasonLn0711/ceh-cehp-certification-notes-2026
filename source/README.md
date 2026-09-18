@@ -4,6 +4,10 @@
 
 This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 
+## September 18 invoice issued and counter handover
+
+[P06 complete eight-page notes](2026-09-18-ucom-invoice-issued/notes.md) connect the issued NT$65,000 invoice image, supplier payment confirmation and Jason’s acknowledgment to the [registration/payment record](2026-09-18-ucom-class-payment-update/notes.md). Image fields match the request; paper delivery and reimbursement remain separate gates. Private invoice identifiers and the unchanged original stay in ignored local custody.
+
 ## 2026-07-01 UCOM Registration
 
 - Folder: `2026-07-01-ucom-registration/`
