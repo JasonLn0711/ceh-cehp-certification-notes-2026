@@ -17,6 +17,8 @@ source_document:
   pdf_created_at: "2026-07-13T16:22:42+08:00"
 ---
 
+> **Historical record; superseded where changed on September 18.** [Current course, payment, invoice and rights record](../2026-09-18-ucom-class-payment-update/notes.md) owns the active state. Original source wording and the earlier decision remain preserved below.
+
 # CEH + CEH Practical 雙認證方案：報名、成功調班與查證紀錄
 
 ## 0. Agent 執行摘要

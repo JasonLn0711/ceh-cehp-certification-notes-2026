@@ -1,5 +1,7 @@
 # Source Archive
 
+> **Current course update — September 18:** [Verified dates, payment, rights and source corrections](2026-09-18-ucom-class-payment-update/notes.md). CEH 2053 meets 9/20, 10/4, 10/18, 10/25 and 11/1; CEHP 26416 remains 11/19–20. Self-study follows the active exam-only plan through 11/1; older preparation dates and payment-pending gates below are historical. No learner score is changed.
+
 This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 
 ## 2026-07-01 UCOM Registration

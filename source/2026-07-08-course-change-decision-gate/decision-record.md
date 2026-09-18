@@ -1,5 +1,7 @@
 # CEH / CEHP 班別調整決策紀錄
 
+> **Historical record; superseded where changed on September 18.** [Current course, payment, invoice and rights record](../2026-09-18-ucom-class-payment-update/notes.md) owns the active state. Original source wording and the earlier decision remain preserved below.
+
 Status: `confirmed transferred`
 
 ## 原始記錄
