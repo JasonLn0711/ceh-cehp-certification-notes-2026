@@ -1,0 +1,267 @@
+{
+  "findings": [
+    {
+      "id": "F1",
+      "asset": "public-web",
+      "finding": "supported vendor fix missing",
+      "technical_severity": "high",
+      "exposed": true,
+      "known_exploitation": true,
+      "owner": "web-team"
+    },
+    {
+      "id": "F2",
+      "asset": "isolated-demo",
+      "finding": "old banner; vendor backport verified",
+      "technical_severity": "high",
+      "exposed": false,
+      "known_exploitation": false,
+      "owner": "training-team"
+    },
+    {
+      "id": "F3",
+      "asset": "customer-store",
+      "finding": "public read policy on confidential objects",
+      "technical_severity": "medium",
+      "exposed": true,
+      "known_exploitation": "unknown",
+      "owner": "data-team"
+    }
+  ],
+  "scope": {
+    "allowed_network": "127.0.0.0/8",
+    "allowed_method": "self-created loopback service only",
+    "third_party_testing": false
+  },
+  "services": [
+    {
+      "transport": "tcp",
+      "port": 8080,
+      "banner": "TrainingGateway",
+      "verified_protocol": "HTTP",
+      "anonymous_status": 200
+    },
+    {
+      "transport": "tcp",
+      "port": 22,
+      "banner": "CustomLab",
+      "verified_protocol": "HTTP",
+      "anonymous_status": 403
+    }
+  ],
+  "permissions": [
+    {
+      "subject": "alice",
+      "object": "alice-report",
+      "read": true,
+      "write": false
+    },
+    {
+      "subject": "alice",
+      "object": "payroll",
+      "read": false,
+      "write": false
+    },
+    {
+      "subject": "guest",
+      "object": "public-guide",
+      "read": true,
+      "write": false
+    },
+    {
+      "subject": "mobile-exporter",
+      "object": "device-inventory",
+      "read": true,
+      "write": false
+    }
+  ],
+  "dns": [
+    {
+      "name": "lab.example.test",
+      "type": "A",
+      "value": "192.0.2.10"
+    },
+    {
+      "name": "lab.example.test",
+      "type": "MX",
+      "value": "mail.example.test"
+    },
+    {
+      "name": "legacy.example.test",
+      "type": "CNAME",
+      "value": "retired.vendor.example.test"
+    }
+  ],
+  "flows": [
+    {
+      "time": 1,
+      "src": "192.0.2.10",
+      "dst": "192.0.2.53",
+      "protocol": "DNS",
+      "bytes": 70,
+      "detail": "query training.example.test"
+    },
+    {
+      "time": 2,
+      "src": "192.0.2.53",
+      "dst": "192.0.2.10",
+      "protocol": "DNS",
+      "bytes": 110,
+      "detail": "answer 192.0.2.80"
+    },
+    {
+      "time": 3,
+      "src": "192.0.2.10",
+      "dst": "192.0.2.80",
+      "protocol": "TCP",
+      "bytes": 60,
+      "detail": "SYN"
+    },
+    {
+      "time": 4,
+      "src": "192.0.2.80",
+      "dst": "192.0.2.10",
+      "protocol": "TCP",
+      "bytes": 60,
+      "detail": "SYN ACK"
+    },
+    {
+      "time": 5,
+      "src": "192.0.2.10",
+      "dst": "192.0.2.80",
+      "protocol": "TCP",
+      "bytes": 60,
+      "detail": "ACK"
+    },
+    {
+      "time": 6,
+      "src": "192.0.2.10",
+      "dst": "192.0.2.80",
+      "protocol": "TLS",
+      "bytes": 900,
+      "detail": "encrypted payload; plaintext unknown"
+    },
+    {
+      "time": 7,
+      "src": "192.0.2.80",
+      "dst": "192.0.2.10",
+      "protocol": "TLS",
+      "bytes": 1300,
+      "detail": "encrypted payload; plaintext unknown"
+    },
+    {
+      "time": 8,
+      "src": "192.0.2.10",
+      "dst": "192.0.2.80",
+      "protocol": "TCP",
+      "bytes": 60,
+      "detail": "FIN ACK"
+    }
+  ],
+  "wireless": [
+    {
+      "ssid": "Training",
+      "bssid": "02:00:00:00:00:01",
+      "channel": 1,
+      "approved": true
+    },
+    {
+      "ssid": "Training",
+      "bssid": "02:00:00:00:00:02",
+      "channel": 6,
+      "approved": false
+    }
+  ],
+  "iot_messages": [
+    {
+      "device": "valve-demo",
+      "sequence": 10,
+      "command": "close",
+      "signature_valid": true
+    },
+    {
+      "device": "valve-demo",
+      "sequence": 11,
+      "command": "close",
+      "signature_valid": true
+    },
+    {
+      "device": "valve-demo",
+      "sequence": 10,
+      "command": "close",
+      "signature_valid": true
+    }
+  ],
+  "process_events": [
+    {
+      "time": 1,
+      "process": "backup",
+      "action": "read approved archive",
+      "approved": true
+    },
+    {
+      "time": 2,
+      "process": "shell",
+      "action": "add startup entry",
+      "approved": false
+    },
+    {
+      "time": 3,
+      "process": "shell",
+      "action": "contact unapproved endpoint",
+      "approved": false
+    }
+  ],
+  "host_permissions": {
+    "web-worker": [
+      "read-static",
+      "write-upload",
+      "modify-system-config"
+    ],
+    "required": [
+      "read-static",
+      "write-upload"
+    ]
+  },
+  "cloud_policy": {
+    "principal": "*",
+    "action": "read",
+    "resource": "confidential-report"
+  },
+  "mobile_profile": {
+    "name": "inventory-helper",
+    "required": [
+      "device-model"
+    ],
+    "granted": [
+      "device-model",
+      "contacts",
+      "location"
+    ]
+  },
+  "session": {
+    "before_login": "demo-session-01",
+    "after_login": "demo-session-01",
+    "usable_after_logout": true
+  },
+  "web_cases": [
+    {
+      "path": "/invoice/1",
+      "actor": "alice",
+      "owner": "alice",
+      "observed_status": 200
+    },
+    {
+      "path": "/invoice/2",
+      "actor": "alice",
+      "owner": "bob",
+      "observed_status": 200
+    },
+    {
+      "path": "/invoice/2",
+      "actor": "bob",
+      "owner": "bob",
+      "observed_status": 200
+    }
+  ]
+}
