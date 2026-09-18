@@ -3,6 +3,10 @@
 This repo is the canonical learning workspace for Jason's 2026 CEH13 + CEHP
 course and exam preparation.
 
+## Active course and learning decision — September 18
+
+[The adopted CEH exam-only plan](study-plan/ceh-exam-only-2026-09-11.md#september-18-course-change) governs the current lane. Its topic questions and correction supersede mandatory incident-project and broad weekly research requirements below for this lane. Keep the 240-minute weekly self-study ceiling, at most 25 minutes on class days, and review readiness after the final November 1 class. [Current registration and rights](source/2026-09-18-ucom-class-payment-update/notes.md) own the five CEH 2053 Sundays and two CEHP 26416 dates. Historical project states and other explicitly activated lanes retain their contracts.
+
 ## Mission
 
 Build a focused CEH / CEHP preparation record through one integrated,
@@ -12,7 +16,7 @@ class notes, and assessments remove blockers and verify the weekly result.
 ## FIRST PRINCIPLE
 
 - Scarce resource: Jason's certification study capacity before and during the
-  October CEH and November CEHP classes.
+  September–November CEH and November CEHP classes.
 - Canonical home: this repo owns the weekly incident projects, technical study
   notes, assessments, weak-topic repair, practice logs, and readiness evidence.
 - Planning role: `planning-everything-track` owns calendar capacity,

@@ -1,5 +1,7 @@
 # Readiness Dashboard
 
+> **Current course update — September 18:** [Verified dates, payment, rights and source corrections](../source/2026-09-18-ucom-class-payment-update/notes.md). CEH 2053 meets 9/20, 10/4, 10/18, 10/25 and 11/1; CEHP 26416 remains 11/19–20. Self-study follows the active exam-only plan through 11/1; older preparation dates and payment-pending gates below are historical. No learner score is changed.
+
 > **Active CEH scope — September 11:** [CEH knowledge-exam plan](../study-plan/ceh-exam-only-2026-09-11.md). This supersedes earlier project-led CEH preparation requirements below. Historical scores, sources and project states remain unchanged; current completion uses exam-topic coverage and learner answers.
 
 ## Current exam-only status

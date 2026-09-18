@@ -4,9 +4,9 @@
 
 This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
-## Current preparation — September 11
+## Current preparation — September 18
 
-[CEH knowledge-exam preparation](study-plan/ceh-exam-only-2026-09-11.md) owns the active scope: four hours weekly, blueprint-focused questions and correction, with exam-readiness review after the October course. No exam date is booked. [Today's gpt-6-pro prompt](study-plan/professor-prompt-2026-09-11-exam-only.md) is prepared; W37 exam coverage remains incomplete. [Readiness](assessment-governance/readiness_dashboard.md) distinguishes actual learner evidence from preparation. Historical projects and registrations below remain preserved; project acceptance is outside the active exam-study requirements.
+[CEH knowledge-exam preparation](study-plan/ceh-exam-only-2026-09-11.md) owns the active scope: four hours weekly, blueprint-focused questions and correction, with exam-readiness review after the final November 1 class. No exam date is booked. [September 11 gpt-6-pro prompt](study-plan/professor-prompt-2026-09-11-exam-only.md) is prepared; W37 exam coverage remains incomplete. [Readiness](assessment-governance/readiness_dashboard.md) distinguishes actual learner evidence from preparation. Historical projects and registrations below remain preserved; project acceptance is outside the active exam-study requirements.
 
 ## Registration and historical project status
 
@@ -14,32 +14,20 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
   `20/40 (50.0%)`. The learning decision is `activation_needed`; M01
   authorization and scope is the first repair, and CEH / CEHP readiness remains
   a future evidence gate.
-- The active learning route is the
+- The historical project route is the
   [`Weekly Historical-Incident Projects`](projects/weekly-incident-projects/README.md).
   `WP-2026-W36` is runnable and remains open until Jason executes the governed
   localhost request, records both refusals, verifies evidence integrity, and
   completes the delayed retest.
-- Confirmed current class: CEH 台北 `2048`, `2026-10-12` to `2026-10-16`,
-  Monday to Friday, `09:00-18:00`, `40 h`. The current provider page uses
-  course code `CEH13-AI`.
+- Confirmed current class: CEH 台北 `2053`, September 20, October 4, 18, 25 and November 1, `09:00–18:00`, `40 h`; instructor 趙驚人 per the vendor timetable. The delivered courseware version remains unconfirmed.
 - Confirmed current class: CEHP 台北 `26416`, `2026-11-19` to
   `2026-11-20`, Thursday and Friday, `09:00-17:00`.
 - Registration evidence: UCOM / UUU confirmation call raw transcript,
   corrected transcript, and successful registration email are preserved under
   `source/2026-07-01-ucom-registration/`.
-- Schedule status: UCOM / UUU confirmed the transfer to CEH 台北 `2048` and
-  CEHP 台北 `26416` in writing on `2026-07-13 16:08`. The previous `2046` and
-  `26408` classes are superseded. Payment, exact package deadline, voucher/code
-  dates, and CEH Practical retake-discount applicability remain confirmation
-  gates. A later VOISS AI written
-  offer activates an employer schedule discussion and, when useful, another
-  class adjustment. See
-  `source/2026-07-08-course-change-decision-gate/decision-record.md`.
-- Verified transfer source:
-  `source/2026-07-13-ucom-successful-class-transfer/registration-transfer-confirmation-agent-readable-redacted.md`.
-- Package / payment gate: CEH + CEHP package discount is confirmed at
-  `NT$65,000`; UCOM / UUU payment, card-flow, and class-opening details are
-  expected by later notice.
+- Current source: [September 18 full chronology, rights and verified timetable](source/2026-09-18-ucom-class-payment-update/notes.md). The September 18 transfer supersedes CEH 2048; 2046 and CEHP 26408 are also historical.
+- Payment: NT$65,000 successfully paid in the supplied receipt; CEH opening notice received. Actual invoice, code delivery/expiry and local proctoring-fee treatment remain separate checks.
+- [July 13 transfer record](source/2026-07-13-ucom-successful-class-transfer/registration-transfer-confirmation-agent-readable-redacted.md) preserves the previous state.
 
 ## FIRST PRINCIPLE
 
@@ -50,22 +38,14 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
   `../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md`.
 - Scope control: all notes stay educational, lawful, authorized, and
   certification-focused.
-- Adopted preparation: protect `4 h/week` in W38–W41 (`16 h` total) through `2026-10-11`; attempt and assess
-  all twenty modules, map all nine UUU skill outcomes, and use
-  `preclass_ready` only after every readiness gate clears.
+- Adopted preparation: self-study at most `4 h/week` through W44, at most 25 minutes on course days; formal course time, commute and recovery are additional fixed commitments. Follow the exam-only plan and observed learner gaps.
 
 ## How To Use This Repo
 
-1. Open the active weekly project in
-   `projects/weekly-incident-projects/README.md` and write its acceptance
-   check before execution.
-2. Attempt the smallest lawful, authorized, isolated action and preserve the
-   result or exact blocker.
-3. Research that blocker, safety question, or acceptance question using the
-   current weekly brief; apply the answer and rerun.
-4. Select evidence, risk, defense and scope decisions, then complete the
-   mapped ten-item choice assessment and separate practical check.
-5. Update the weekly project state, readiness dashboard, and thin Planning locator.
+1. Open the [active exam-only plan](study-plan/ceh-exam-only-2026-09-11.md#september-18-course-change), confirm the endpoint and resume unfinished questions or corrections.
+2. Use one original question at a time with choice and confidence; preserve original and retest scores separately.
+3. After actual classes, record taught topics, one misconception and the next question; use focused official research when needed.
+4. Update learner evidence and the thin Planning bridge. Historical incident projects remain available only for a separately activated practical lane.
 
 ## Repo Map
 
@@ -102,7 +82,7 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
 ## Weekly Live Research
 
-Every active cybersecurity week follows the operational contract in
+For an explicitly active incident-project lane, follow the operational contract in
 `AGENTS.md`: attempt the authorized slice first, use a same-week live scan to
 resolve its blocker or validate a current mechanism, rerun, and preserve an
 honest learner-evidence state. The first implementation is
