@@ -128,3 +128,9 @@ daily closeout.
 ## 2026-09-09 continuation
 
 [30-minute M02 professor prompt](projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/professor-prompt-2026-09-09.md) reuses the opening lesson and starts at the unfinished ROE checkpoint. It guides one bounded result/blocker and a diagnostic when ready. The earlier 70-minute plan remains historical; learner state stays `planned` until personal evidence is supplied.
+
+## Lesson notes — September 15
+
+[Lesson 1: How a weakness can lead to harm](notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md) connects the full supplied lesson to M05, M06 and web access control, primary sources and assessment boundaries. [Source receipt](source/2026-09-15-lesson-01-weakness-to-harm/README.md) preserves provenance and verification limits.
+
+For this capture, the current [Planning CEH locator](../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md) records the September 11 exam-only decision. The local checkout lacks the referenced September 11 exam plan and September 14 prompt. Earlier project-led instructions above remain historical context for that lane; this note capture activates no project and records no learner completion.

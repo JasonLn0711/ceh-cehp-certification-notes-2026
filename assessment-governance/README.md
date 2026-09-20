@@ -41,3 +41,7 @@ changes a learning decision.
 Use the [course-aligned bank](../assessments/practice-bank/README.md) and [coverage register](course-coverage-2026-09-18.md). `item_bank.csv` indexes the prepared items; `assessment_forms.csv` records versioned forms. Keep actual attempts in the existing append-only learner workflow. The old October Form B appointment and mandatory project-based readiness gate are superseded for this lane.
 
 The existing CSV schemas stay unchanged. Record categorical confidence and assistance in the detailed attempt; leave legacy `confidence_avg` blank for categorical data. An unattempted prepared form creates no attempt-log row. Original scores do not include retests. Conceptual evidence, first-pass completion and practical acceptance are separate decisions.
+
+## Supporting Lesson 1 material
+
+[Lesson 1: How a weakness can lead to harm](../notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md). Maps to CEH-M05-L2, CEH-M06-L2 and CEH-M14-L2. The supplied explain-back is unanswered. Keep actual responses and confidence separate from prepared notes; no item-bank, attempt-log or readiness result is added.

@@ -100,3 +100,7 @@ An open gate produces a class-entry gap brief. Use `coverage complete; readiness
 CEH 2053 meets September 20, October 4, 18, 25 and November 1. CEHP 26416 meets November 19–20. The provider publishes the course-wide scope; the instructor's module-by-session allocation remains unrecorded. The current route records observed delivery and adjusts the next study slice rather than assuming four modules per class.
 
 [Question forms and technical source routes](../assessments/practice-bank/README.md) connect module concepts to actual answers. [Coverage register](../assessment-governance/course-coverage-2026-09-18.md) keeps uncovered subtopics visible. Local fixture acceptance has its declared scope and does not establish full Practical exam competence.
+
+## Supporting lesson — M05 with M06 and M14 connections
+
+[Lesson 1: How a weakness can lead to harm](../notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md). Use the four-concept model to distinguish weakness, harmful event, exploit method and contextual risk. This is supporting study material; the scope table and acceptance records retain their own evidence requirements.

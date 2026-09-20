@@ -237,3 +237,7 @@ learner sessions, testing targets and deferred experiments retain their own gate
 ## September 11 partial learner review and exam direction
 
 [Source and reconciliation](../assessments/attempts/2026-09-11-evidence-review.md): session started under a source-reported 16:37–17:02 offline block; no completed learner comparison or scored content answer is visible. Expired permission does not invalidate historical authorization. W37 remains `attempted`. Jason requested CEH exam-only preparation; schedule/assessment refinement remains pending, and project bookkeeping must not be treated as official exam requirements. Preserve historical evidence and the 240-minute ceiling.
+
+## September 15 lesson capture and current route
+
+[Lesson 1: How a weakness can lead to harm](../notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md). This existing plan preserves historical project-led preparation. The lesson links to Planning's adopted exam-only scope and records the missing local September 11 schedule. Reuse the note within existing capacity; capture alone changes no score or readiness state.

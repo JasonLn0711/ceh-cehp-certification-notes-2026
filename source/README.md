@@ -94,3 +94,8 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 ## September 18 — UUU course-aligned learning decision
 
 [Confirmed preferences, live source checks and boundaries](2026-09-18-uuu-learning-alignment/notes.md) → [current route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) → [600-question bank, mocks and practical tasks](../assessments/practice-bank/README.md) → [actual learner coverage](../assessment-governance/course-coverage-2026-09-18.md). Course/payment and invoice sources retain their separate evidence roles.
+
+## 2026-09-15 Lesson 1 — Weakness to harm
+
+- [Full source and receipt](2026-09-15-lesson-01-weakness-to-harm/README.md): user-supplied lesson, six references, hypothetical examples and unanswered explain-back.
+- [Connected M05 notes](../notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md): concept map, explicit wording correction, source checks, module links and learner-evidence boundary.

@@ -51,3 +51,7 @@ future checksum check if duplicate cleanup becomes useful.
   public outlines plus licensed supporting references for pre-class study.
 - Full decision record:
   `../source/2026-09-04-ceh13-ai-live-syllabus-and-source-decision/source.md`.
+
+## Lesson 1 primary-source route
+
+[Lesson 1: How a weakness can lead to harm](../notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md). The linked source receipt checks the supplied OWASP 2021, NIST, FIRST and FTC citations with explicit retrieval limits. These references support concept learning; the note preserves the original source and separates its correction.
