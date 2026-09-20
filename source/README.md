@@ -99,3 +99,9 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 
 - [Full source and receipt](2026-09-15-lesson-01-weakness-to-harm/README.md): user-supplied lesson, six references, hypothetical examples and unanswered explain-back.
 - [Connected M05 notes](../notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md): concept map, explicit wording correction, source checks, module links and learner-evidence boundary.
+
+## 2026-09-20 CEH Week 1 — audited references
+
+- [Two renamed exact-byte copies and source receipt](2026-09-20-ceh-week-01/README.md): 354 supplied claim groups, source hashes, selected live primary-source checks and unresolved evidence.
+- [Full course overview and M01–M03 notes](../notes/2026-09-20-ceh-week-01/README.md): detailed explanations, 120 contextual glossary entries, 13 command references, complete coverage and meaningful cross-project connections.
+- Both originals remain in Downloads. Recording date, attendance and personal execution remain separate from document preparation; sensitive raw transcripts were not imported.

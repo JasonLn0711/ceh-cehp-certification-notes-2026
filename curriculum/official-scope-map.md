@@ -104,3 +104,7 @@ CEH 2053 meets September 20, October 4, 18, 25 and November 1. CEHP 26416 meets 
 ## Supporting lesson — M05 with M06 and M14 connections
 
 [Lesson 1: How a weakness can lead to harm](../notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md). Use the four-concept model to distinguish weakness, harmful event, exploit method and contextual risk. This is supporting study material; the scope table and acceptance records retain their own evidence requirements.
+
+## Week 1 source coverage — captured September 20
+
+[Week 1 notes](../notes/2026-09-20-ceh-week-01/README.md) map the supplied course overview to all twenty modules while preserving the detailed coverage boundary: M01 foundations, M02 reconnaissance and M03 scanning. [Every claim and segment](../notes/2026-09-20-ceh-week-01/coverage.md) retains source status and destinations. M04–M20 previews and cross-module connections do not establish full teaching or learner completion.

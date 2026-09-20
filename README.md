@@ -4,6 +4,12 @@
 
 This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
+## Week 1 full source notes — September 20
+
+[Full English notes and reading map](notes/2026-09-20-ceh-week-01/README.md) connect the course overview and M01–M03 material to existing practice, security coursework and AI-security work. [Renamed source copies and receipt](source/2026-09-20-ceh-week-01/README.md) preserve both supplied audits unchanged; [coverage](notes/2026-09-20-ceh-week-01/coverage.md) accounts for all 354 claim groups and 75 transcript segments. This is source preparation, with learner progress recorded separately.
+
+The authorized September 20 synchronization restored the current course route and practice bank while preserving the September 15 additions. Earlier missing-checkout statements describe their capture-time state; the [restoration receipt](source/2026-09-20-ceh-week-01/README.md#checkout-restoration-and-preservation) owns the current custody result.
+
 ## Current learning status
 
 [UUU-aligned learning](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the active September 18–November 29 route: shared four-hour weekly ceiling, actual class topics, teaching/drill modes, correction and practical work. [The full bank](assessments/practice-bank/README.md) is prepared; [learner coverage](assessment-governance/course-coverage-2026-09-18.md) awaits new answers and execution. No exam date is booked. Historical scores and projects below retain their original scope; old exam-only/Form B requirements no longer govern this lane.

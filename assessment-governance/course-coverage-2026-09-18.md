@@ -55,3 +55,7 @@
 ## 最小課堂收件格式
 
 課程日期／班別；實際模組與子題；教材版本／合法來源位置；實際完成的Lab及證據（或僅聽講）；一個誤解／下一題。未知欄位保持未知。課程收件後更新本頁，再調整當週題目選擇；不預填講師一天教四個模組。
+
+## Supporting source coverage — September 20
+
+[Week 1 course overview and M01–M03 notes](../notes/2026-09-20-ceh-week-01/README.md) are available as source material. [Document coverage](../notes/2026-09-20-ceh-week-01/coverage.md) accounts for 354 claim groups; it is distinct from this page's personal coverage and readiness fields. Recording date, attendance and learner reading remain unconfirmed; no first answer, score, explanation review, retest or practical acceptance is added by this source capture.

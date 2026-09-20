@@ -55,3 +55,7 @@ future checksum check if duplicate cleanup becomes useful.
 ## Lesson 1 primary-source route
 
 [Lesson 1: How a weakness can lead to harm](../notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md). The linked source receipt checks the supplied OWASP 2021, NIST, FIRST and FTC citations with explicit retrieval limits. These references support concept learning; the note preserves the original source and separates its correction.
+
+## Week 1 supplied audits and primary-source checks
+
+[Source receipt](../source/2026-09-20-ceh-week-01/README.md) preserves the two user-supplied verified Markdown files with exact hashes. Treat their audit status as supplied evidence with explicit limits; the receipt separately records this capture's selected fresh primary-source checks. [Connected English notes](../notes/2026-09-20-ceh-week-01/README.md) preserve claim anchors and distinguish official documentation, provider arrangements, editorial synthesis and unresolved anecdotes.

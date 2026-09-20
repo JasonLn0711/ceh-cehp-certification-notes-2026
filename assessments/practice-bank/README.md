@@ -71,3 +71,7 @@ Run `python3 assessments/practice-bank/check.py` from the CEH repo root. It chec
 - An unattempted item is revised: register its new form version. A previously used form/key is frozen before replacement and old attempts keep their version; a revision does not add another core ID to the 600.
 - Loopback service creation is prohibited on the current host: save the precise error as `blocked`; an offline explanation can still be recorded as conceptual work, but family execution remains open.
 - The weekly estimate exceeds confirmed capacity: record `at risk`, the remaining questions/corrections/tasks and the proposed revised completion date. Preserve the 240-minute ceiling and ask for the consequential change at that future decision, not for every routine block.
+
+## Week 1 supporting explanations
+
+[Course overview and M01–M03 notes](../../notes/2026-09-20-ceh-week-01/README.md) provide source-linked explanations and corrections for the existing forms. [Connections](../../notes/2026-09-20-ceh-week-01/connections.md) identify practical-family reuse without adding assignments. These notes leave question versions, answer keys and attempt history unchanged.

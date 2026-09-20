@@ -68,3 +68,7 @@ W39–W44各60，加W45／46各75、W47的30與W48的60＝600。若W38完成新�
 ## 連結與交付界線
 
 [官方範圍](../curriculum/official-scope-map.md) · [來源核對](../source/2026-09-18-uuu-learning-alignment/notes.md) · [評量紀錄](../assessment-governance/README.md) · [Planning locator](../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#uuu-aligned-learning) · [9/18決策](../../planning-everything-track/weeks/2026-W38/days/2026-09-18.md#uuu-aligned-learning) · [W48收尾](../../planning-everything-track/weeks/2026-W48/weekly-plan.md#uuu-aligned-learning)。11/29後只修正失效入口／矛盾，不自動啟動研究或CTF。新建題庫、文件及Git提交均為教材交付，不增加個人學習分數或分鐘。
+
+## Week 1 source capture — September 20
+
+[Full notes](../notes/2026-09-20-ceh-week-01/README.md) now supply the course overview and M01–M03 study references, with [connections to existing questions, practical tasks and prior evidence](../notes/2026-09-20-ceh-week-01/connections.md). Use them to resolve the next actual topic or blocker within the existing route. The references do not independently authenticate a recording date, attendance, learner reading, answers or practical completion. The shared 240-minute ceiling and class-day limit remain unchanged; no extra reading quota or research lane is introduced.
