@@ -160,4 +160,9 @@ Protected boundaries:
 
 ## Interactive learning — adopted 2026-09-09
 
-Use the global `professor-learning-prompt` interactive contract for all future learning: plain-language guidance, ten original multiple-choice questions one at a time, choice plus confidence, and detailed correction with at least three varied retests after each error. Preserve original and retest scores separately and close truthfully at the timebox. An agreed daily quiz criterion can be completed through conceptual evidence; practical acceptance and official readiness retain their own checks. [Cross-subject adoption](../planning-everything-track/docs/02-operating-rhythm.md#interactive-learning-after-2026-09-09) records the exact request and detailed workflow.
+Use the global `professor-learning-prompt` interactive contract for all future learning: plain-language guidance, ten original multiple-choice questions one at a time, choice plus confidence, and detailed correction with at least three varied retests after each error. Preserve original and retest scores separately and close truthfully at the timebox. Quiz evidence completes the conceptual component; the September 21 daily Blog contract also requires one confirmed, verified public bilingual article for daily completion; practical acceptance and official readiness retain their own checks. [Cross-subject adoption](../planning-everything-track/docs/02-operating-rhythm.md#interactive-learning-after-2026-09-09) records the exact request and detailed workflow.
+
+
+## Daily Blog connection — September 21
+
+Follow [the domain route's daily Blog update](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md#daily-bilingual-blog-acceptance--september-21). Jason explains first; the website editor creates one bilingual article per learning day. All learner writing/review stays inside the shared study ceiling; uncompleted quiz corrections, article review or deployment remain partial. Planning owns the cross-subject rule and publication locator; this repo owns the actual learner evidence. The Blog does not replace declared practical checks.

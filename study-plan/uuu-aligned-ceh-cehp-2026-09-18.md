@@ -72,3 +72,14 @@ W39–W44各60，加W45／46各75、W47的30與W48的60＝600。若W38完成新�
 ## Week 1 source capture — September 20
 
 [Full notes](../notes/2026-09-20-ceh-week-01/README.md) now supply the course overview and M01–M03 study references, with [connections to existing questions, practical tasks and prior evidence](../notes/2026-09-20-ceh-week-01/connections.md). Use them to resolve the next actual topic or blocker within the existing route. The references do not independently authenticate a recording date, attendance, learner reading, answers or practical completion. The shared 240-minute ceiling and class-day limit remain unchanged; no extra reading quota or research lane is introduced.
+
+
+## Daily bilingual Blog acceptance — September 21
+
+[Planning's daily Blog contract](../../planning-everything-track/docs/02-operating-rhythm.md#daily-learning-blog--adopted-2026-09-21) adds one confirmed bilingual article to the daily learning path. Reuse the existing ten-question teaching/drill unit with original choice/confidence, explanation and required corrections. Jason explains his actual understanding first; editing and translation follow, with public completion recorded only after he confirms the text and the Pages URL is verified. This replaces quiz-only daily completion; it does not replace P1–P5 practical evidence or change official readiness.
+
+All learner explanation, writing and review share the 240-minute weekly ceiling and course-day 25-minute limit. The 600 core-ID coverage and existing weekly targets remain; ten is a session size that can span days, not a second daily quota. At the endpoint record partial progress and the exact next question, retest or article action. Preserve protected rest and avoid catch-up writing debt.
+
+The website owns reviewed public articles and [publishing templates](../../JasonLn0711.github.io/docs/learning-publishing.md). This repo retains answers, confidence, retests, sources and learner outputs; Planning stores status/capacity/locators only. Do not copy restricted course questions, raw classroom transcripts, private registration data or authorized-target details into the public Blog. Public explanations use the learner's own account and permitted public sources. Instagram's one-concept template is optional reuse, with no new quota or publication schedule.
+
+Decision/status: [September 21 adoption record](../../planning-everything-track/weeks/2026-W39/days/2026-09-21.md#daily-learning-blog) · [W39 capacity](../../planning-everything-track/weeks/2026-W39/weekly-plan.md#learning-must-win-contract) · [Website delivery locator](../../planning-everything-track/data/projects/2026-05-public-website-v3-clean-slate-rebuild.md#daily-learning-blog). Follow the subject evidence route here before recording Planning completion.
