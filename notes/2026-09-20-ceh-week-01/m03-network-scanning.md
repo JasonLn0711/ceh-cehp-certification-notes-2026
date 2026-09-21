@@ -8,6 +8,8 @@ Captured 2026-09-20, Asia/Taipei. Detailed sections below reorganize the user-su
 
 ## Contents
 
+[Complete plain-English M03 reading](plain-english/m03-network-scanning.md) preserves the protocol explanations, seven-command table, defensive distinctions and [worked scan interpretation](plain-english/m03-network-scanning.md#worked-example).
+
 [中文講義二 §20–30](handouts-zh/part-02.md#h2-20) connects sockets, packet layers, TCP state, discovery, scanning, identification and defenses. Its [worked interpretation](handouts-zh/part-02.md#worked-example) is a hypothetical example, not another executed scan.
 
 - [Hosts, sockets and transport](#transport)

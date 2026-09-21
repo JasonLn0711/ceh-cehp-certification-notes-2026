@@ -112,3 +112,7 @@ CEH 2053 meets September 20, October 4, 18, 25 and November 1. CEHP 26416 meets 
 ## Connected Week 1 handouts — September 21
 
 [Twenty-module Chinese overview](../notes/2026-09-20-ceh-week-01/handouts-zh/part-01.md#h1-02) supplies the question, mechanism and evidence limit for each module. [Full M01–M03 handout notes](../notes/2026-09-20-ceh-week-01/handouts-zh/README.md) support this scope map without asserting that previewed modules were taught or completed.
+
+## Merged plain-English reading route — September 21
+
+[Complete overview and M01–M03 explanations](../notes/2026-09-20-ceh-week-01/plain-english/README.md) provide a standalone English reading path. [Every source heading](../notes/2026-09-20-ceh-week-01/plain-english/coverage.md) connects it to the Chinese companion and audited notes. All twenty modules are previewed; M04–M20 are not represented as fully taught or completed.

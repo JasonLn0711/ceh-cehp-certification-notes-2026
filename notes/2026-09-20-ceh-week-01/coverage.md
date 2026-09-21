@@ -468,3 +468,7 @@ This register accounts for all 354 supplied claim groups and 75 transcript segme
 ## September 21 teaching-handout coverage
 
 The [separate Chinese handout register](handouts-zh/README.md) accounts for the later supplied 11 + 30 teaching sections, twenty-module overview and final interpretation example. Its 68 reference entries use H1/H2 namespaces. They are distinct from the 354 transcript claim groups and 75 segments documented here.
+
+## Merged English handout crosswalk — September 21
+
+The [178-heading English crosswalk](plain-english/coverage.md) maps the later merged translation’s 41 main teaching sections and all subsections to complete reading notes, Chinese sections and audited routes. Its `en-h###` IDs describe source headings; they are separate from the claim IDs and statuses above.

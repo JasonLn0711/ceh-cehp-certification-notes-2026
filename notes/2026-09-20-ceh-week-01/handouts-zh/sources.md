@@ -96,3 +96,7 @@ H1/H2 分開編號，保留原講義兩組各自從 1 開始的引用，避免�
 | H2-33 | [RFC 8900 IP fragmentation](https://www.rfc-editor.org/rfc/rfc8900.html) |
 | H2-34 | [Apache core directives](https://httpd.apache.org/docs/2.4/mod/core.html) |
 | H2-35 | [RFC 2827 source filtering](https://www.rfc-editor.org/rfc/rfc2827.html) |
+
+## 英文合併檔引用對照
+
+[英文來源收件與引用表](../../../source/2026-09-21-ceh-merged-plain-english/README.md#citation-register)逐一列出 66 個唯一網址、英文來源行號與本表 H1／H2 編號。英文有 88 處 inline 引用，本表有 68 個分篇條目，唯一網址集合一致；不同數量反映編排而非新增查核來源。

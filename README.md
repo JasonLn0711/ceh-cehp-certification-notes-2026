@@ -6,6 +6,8 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
 ## Week 1 full source notes — September 20
 
+[Complete plain-English reading edition](notes/2026-09-20-ceh-week-01/plain-english/README.md) preserves the supplied merged English explanations in four topic files, with 41 main sections, 178 heading destinations and bilingual/audit links. [Unchanged source receipt](source/2026-09-21-ceh-merged-plain-english/README.md) records the original file and its evidence boundary.
+
 [September 21 Chinese handout companion](notes/2026-09-20-ceh-week-01/handouts-zh/README.md) adds complete notes for the two supplied teaching handouts: 41 main sections, all twenty module previews, 68 reference entries and explicit concept-to-evidence connections. It complements the audited English notes below; learner progress and publication remain separate.
 
 [Full English notes and reading map](notes/2026-09-20-ceh-week-01/README.md) connect the course overview and M01–M03 material to existing practice, security coursework and AI-security work. [Renamed source copies and receipt](source/2026-09-20-ceh-week-01/README.md) preserve both supplied audits unchanged; [coverage](notes/2026-09-20-ceh-week-01/coverage.md) accounts for all 354 claim groups and 75 transcript segments. This is source preparation, with learner progress recorded separately.

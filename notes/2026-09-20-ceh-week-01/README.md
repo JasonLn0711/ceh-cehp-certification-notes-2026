@@ -6,6 +6,8 @@ Jason supplied two audited references and requested complete notes, renamed sour
 
 ## Reading map
 
+[Complete plain-English reading edition](plain-english/README.md) retains the full merged handout explanation, organized into overview/M01/M02/M03, with section-level study connections. Use it for continuous reading; use the existing audit notes below for claim IDs and evidence dispositions. [Coverage of all 178 source headings](plain-english/coverage.md) connects both layers and the Chinese companion.
+
 [兩份中文講義完整筆記 — September 21](handouts-zh/README.md) adds a readable Traditional Chinese companion with 11 + 30 sections, the concluding scan example, a complete handout reference register and semantic cross-project connections. Use the Chinese explanations alongside the original claim-level English notes below.
 
 | Open | What it contains | Best use |

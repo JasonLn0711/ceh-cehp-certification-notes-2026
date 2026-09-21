@@ -100,3 +100,7 @@ The subsequent user-authorized [Planning day closeout and publication record](..
 ## September 21 Chinese teaching-handout companion
 
 Jason supplied two additional Chinese teaching handouts in conversation. [Complete companion notes](../../notes/2026-09-20-ceh-week-01/handouts-zh/README.md) and [68-entry citation register](../../notes/2026-09-20-ceh-week-01/handouts-zh/sources.md) preserve their section coverage, examples and qualifications. These are reorganized notes, not verbatim copies of that message or replacements for either archived audit above. Five selected live checks are explicitly dated; the original archived files remain unchanged.
+
+## Merged plain-English edition — September 21
+
+The later [English source receipt](../2026-09-21-ceh-merged-plain-english/README.md) preserves a separate, unchanged merged translation of the two teaching handouts. [Complete reading notes and crosswalk](../../notes/2026-09-20-ceh-week-01/plain-english/README.md) connect all sections back to this audit layer. The translation does not replace either audited source or establish independent corroboration.

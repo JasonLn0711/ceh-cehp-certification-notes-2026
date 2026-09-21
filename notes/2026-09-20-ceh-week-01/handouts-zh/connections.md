@@ -73,3 +73,7 @@ AI agent 接外部報告，與網站接使用者表單，在「哪些輸入可�
 ## 5. September 21 FIRST PRINCIPLE 與發布回執
 
 [Planning 當日收尾](../../../../planning-everything-track/weeks/2026-W39/days/2026-09-21.md#ceh-handouts-first-principle)與[W39 容量](../../../../planning-everything-track/weeks/2026-W39/weekly-plan.md#ceh-handouts-september-21)承接教材成果、本人貢獻、驗證及分別提交／遠端發布回執。詳細技術留在此 repo；課程、研究及 Blog 的原驗收保持各自證據要求。
+
+## 6. 完整英文閱讀與同源證據
+
+[英文概念連結](../plain-english/connections.md)將同一組安全目標、授權、觀察、推論及修復問題連到完整英文段落；[來源收件](../../../source/2026-09-21-ceh-merged-plain-english/README.md)保留 Downloads 原檔、雜湊及翻譯界線。兩種語言供不同閱讀需要使用，不重複計算學習或來源佐證。

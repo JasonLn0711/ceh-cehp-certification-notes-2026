@@ -6,6 +6,8 @@ These connections are editorial mappings between inspected files. Each row names
 
 ## Within CEH / CEHP
 
+[Merged English concept-to-evidence map](plain-english/connections.md) adds direct section links to the complete reading edition, the Chinese companion and the existing technical evidence owners. Its [coverage register](plain-english/coverage.md) traces all 178 source headings.
+
 [September 21 Chinese concept map](handouts-zh/connections.md) adds explicit property → evidence → decision and trust-boundary connections for both supplied teaching handouts. [Full section index](handouts-zh/README.md) gives the 41-section coverage without changing the original audit map.
 
 | Week 1 topic | Existing material | Concrete reuse | Boundary |

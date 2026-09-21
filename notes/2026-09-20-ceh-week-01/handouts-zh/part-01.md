@@ -174,3 +174,7 @@ Prompt injection 是不應有指令權限的輸入，使模型偏離原任務；
 | 修復確認 | 越權讀取拒絕，原有正常功能通過，完成清理 |
 
 讀者能說明「問題、如何知道、尚未知、下一步」，才是說明品質的判準。實作是否通過仍依[既有 practical 驗收](../../../assessments/practice-bank/practical.md)。
+
+## 完整英文對照
+
+[英文課程導覽](../plain-english/course-overview.md)對應本篇 §1–3；[英文 M01](../plain-english/m01-foundations.md#p1-04)對應 §4–11。[逐節／子節追溯](../plain-english/coverage.md)保留原英文行號、中文位置與查核入口。

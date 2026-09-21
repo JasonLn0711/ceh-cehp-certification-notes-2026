@@ -326,3 +326,7 @@ TTL 或 IPv4 ID 差異可能來自正常路徑／設定；IP ID 不保證全機�
 下一步依原目標選：資產核對、不必要服務處理或特定弱點適用性；工具還有選項不是擴張範圍理由。掃描判讀紀錄至少包含目的、授權、來源位置／時間、工具版本／權限、探測、原始觀察、可支持結論、未知與下一步。讀者應能解釋工具問了什麼、系統回答什麼、結論如何受到證據限制。
 
 這條鏈與[原英文判讀矩陣](../m03-network-scanning.md#interpretation-chain)及[既有 W37 服務資料證據](../../../projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/continuation-2026-09-09-1948/metadata-comparison.md)相連；歷史實作保留自己的時間與範圍，不作本次掃描結果。
+
+## 完整英文對照
+
+[英文 M01 後半](../plain-english/m01-foundations.md#p2-01)對應 §1–10；[英文 M02](../plain-english/m02-reconnaissance.md#p2-11)對應 §11–19；[英文 M03](../plain-english/m03-network-scanning.md#p2-20)對應 §20–30 及收斂案例。詳細[追溯表](../plain-english/coverage.md)包含所有子節。
