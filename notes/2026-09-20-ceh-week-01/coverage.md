@@ -464,3 +464,7 @@ This register accounts for all 354 supplied claim groups and 75 transcript segme
 | [P2-C186](../../source/2026-09-20-ceh-week-01/ceh-week-01-part-02-m01-m03.verified.md#P2-C186) | Garbled TCP-flow spoofing test | `asr_uncertain` | [Notes](m03-network-scanning.md#countermeasures) | Unresolved; do not reconstruct |
 | [P2-C187](../../source/2026-09-20-ceh-week-01/ceh-week-01-part-02-m01-m03.verified.md#P2-C187) | Encryption fixes 80 percent of network problems | `unsupported` | [Notes](m03-network-scanning.md#countermeasures) | Evidence gap; do not teach allegation as fact |
 | [P2-C188](../../source/2026-09-20-ceh-week-01/ceh-week-01-part-02-m01-m03.verified.md#P2-C188) | Closing lab instructions and later access | `local_only` | [Notes](course-overview.md#classroom-access) | Provider/classroom report only |
+
+## September 21 teaching-handout coverage
+
+The [separate Chinese handout register](handouts-zh/README.md) accounts for the later supplied 11 + 30 teaching sections, twenty-module overview and final interpretation example. Its 68 reference entries use H1/H2 namespaces. They are distinct from the 354 transcript claim groups and 75 segments documented here.

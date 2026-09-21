@@ -8,6 +8,8 @@ Captured 2026-09-20, Asia/Taipei. Detailed sections below reorganize the user-su
 
 ## Contents
 
+[中文講義一 §1–3](handouts-zh/part-01.md#h1-01) connects the introductory vocabulary, all twenty module previews, VM roles and exam distinctions. [中文逐節索引](handouts-zh/README.md) preserves the full handout structure.
+
 - [Course purpose, materials and boundaries](#course-purpose)
 - [Assessment concepts and the course sequence](#assessment-sequence)
 - [Labs and virtualization](#virtualization)

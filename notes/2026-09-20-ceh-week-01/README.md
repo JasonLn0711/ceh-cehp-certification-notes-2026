@@ -6,6 +6,8 @@ Jason supplied two audited references and requested complete notes, renamed sour
 
 ## Reading map
 
+[兩份中文講義完整筆記 — September 21](handouts-zh/README.md) adds a readable Traditional Chinese companion with 11 + 30 sections, the concluding scan example, a complete handout reference register and semantic cross-project connections. Use the Chinese explanations alongside the original claim-level English notes below.
+
 | Open | What it contains | Best use |
 | --- | --- | --- |
 | [Course overview and terminology](course-overview.md) | Course purpose, twenty-module preview, exam guidance, virtualization, classroom arrangements and all 120 contextual ASR glossary entries | Locate a topic or recover a garbled technical term |

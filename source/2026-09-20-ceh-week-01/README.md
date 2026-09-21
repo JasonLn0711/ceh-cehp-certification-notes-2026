@@ -96,3 +96,7 @@ No new branch, development commit or push was made during initial capture. Detai
 The ignored local audit folder is `.local/ceh-week-01-capture/` in the CEH checkout. It contains the preservation manifest, source hashes, structural/link-check script and final validation result. The durable notes remain readable without those helper files.
 
 The subsequent user-authorized [Planning day closeout and publication record](../../../planning-everything-track/weeks/2026-W38/days/2026-09-20.md#ceh-week-01-first-principle-closeout) owns capacity, next decision and Git publication status. Learner completion remains evidence-gated.
+
+## September 21 Chinese teaching-handout companion
+
+Jason supplied two additional Chinese teaching handouts in conversation. [Complete companion notes](../../notes/2026-09-20-ceh-week-01/handouts-zh/README.md) and [68-entry citation register](../../notes/2026-09-20-ceh-week-01/handouts-zh/sources.md) preserve their section coverage, examples and qualifications. These are reorganized notes, not verbatim copies of that message or replacements for either archived audit above. Five selected live checks are explicitly dated; the original archived files remain unchanged.

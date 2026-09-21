@@ -8,6 +8,8 @@ Captured 2026-09-20, Asia/Taipei. Detailed sections below reorganize the user-su
 
 ## Contents
 
+[中文講義二 §20–30](handouts-zh/part-02.md#h2-20) connects sockets, packet layers, TCP state, discovery, scanning, identification and defenses. Its [worked interpretation](handouts-zh/part-02.md#worked-example) is a hypothetical example, not another executed scan.
+
 - [Hosts, sockets and transport](#transport)
 - [Headers, flags and connection state](#tcp-state)
 - [Discovery and the meaning of an observation](#discovery)

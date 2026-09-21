@@ -6,6 +6,8 @@ These connections are editorial mappings between inspected files. Each row names
 
 ## Within CEH / CEHP
 
+[September 21 Chinese concept map](handouts-zh/connections.md) adds explicit property → evidence → decision and trust-boundary connections for both supplied teaching handouts. [Full section index](handouts-zh/README.md) gives the 41-section coverage without changing the original audit map.
+
 | Week 1 topic | Existing material | Concrete reuse | Boundary |
 | --- | --- | --- | --- |
 | Course-wide orientation versus detailed M01–M03 coverage | [Official scope map](../../curriculum/official-scope-map.md) and [reference index](../../curriculum/important-references.md) | Locate each concept in the official twenty-module backbone; use the source audit to resolve the lecture's simplifications | A preview does not establish a completed module; supporting books remain distinct from official courseware |

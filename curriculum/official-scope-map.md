@@ -108,3 +108,7 @@ CEH 2053 meets September 20, October 4, 18, 25 and November 1. CEHP 26416 meets 
 ## Week 1 source coverage — captured September 20
 
 [Week 1 notes](../notes/2026-09-20-ceh-week-01/README.md) map the supplied course overview to all twenty modules while preserving the detailed coverage boundary: M01 foundations, M02 reconnaissance and M03 scanning. [Every claim and segment](../notes/2026-09-20-ceh-week-01/coverage.md) retains source status and destinations. M04–M20 previews and cross-module connections do not establish full teaching or learner completion.
+
+## Connected Week 1 handouts — September 21
+
+[Twenty-module Chinese overview](../notes/2026-09-20-ceh-week-01/handouts-zh/part-01.md#h1-02) supplies the question, mechanism and evidence limit for each module. [Full M01–M03 handout notes](../notes/2026-09-20-ceh-week-01/handouts-zh/README.md) support this scope map without asserting that previewed modules were taught or completed.

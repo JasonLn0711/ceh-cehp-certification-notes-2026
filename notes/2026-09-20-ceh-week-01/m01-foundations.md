@@ -8,6 +8,8 @@ Captured 2026-09-20, Asia/Taipei. Detailed sections below reorganize the user-su
 
 ## Contents
 
+[中文講義一 §4–11](handouts-zh/part-01.md#h1-04) explains properties, authorization and AI boundaries; [中文講義二 §1–10](handouts-zh/part-02.md#h2-01) connects models, controls, risk, intelligence, response and standards. These are the September 21 supplied teaching-handout companion, not new transcript claims.
+
 - [Five information-security properties](#security-properties)
 - [The banking-email example: what it proves and what it does not](#email-evidence)
 - [Attack categories and TTPs](#attack-categories)

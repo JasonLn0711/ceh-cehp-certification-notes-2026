@@ -8,6 +8,8 @@ Captured 2026-09-20, Asia/Taipei. Detailed sections below reorganize the user-su
 
 ## Contents
 
+[中文講義二 §11–19](handouts-zh/part-02.md#h2-11) provides the complete teaching sequence for collection, search, OSINT, Tor, DNS, paths, email, human factors and lab interfaces, with explicit links back to this audit layer.
+
 - [Reconnaissance and evidence quality](#collection-boundary)
 - [Search operators, GHDB and Shodan](#search-tools)
 - [DNS, archives, registration and historical clues](#dns-and-history)
