@@ -2,15 +2,15 @@
 
 [現行路徑](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) · [題庫](../assessments/practice-bank/README.md) · [既有attempt紀錄](attempt_log.csv)
 
-這是新題庫的起始登錄：600個新ID尚無個人首答紀錄；歷史學習不被重設為零。歷史20/40、暫定練習與原有證據依原範圍保留，不能直接換算成本題庫完成度。實際分鐘、講師逐堂進度與目前熟悉度仍待個人證據。
+這是新題庫的起始登錄：600個新ID尚無個人首答紀錄；歷史學習不被重設為零。歷史20/40、暫定練習與原有證據依原範圍保留，不能直接換算成本題庫完成度。實際自學分鐘與熟悉度仍待個人證據；9/22 本人回報第一堂已上 M01–M03，後四堂逐堂進度仍未知。
 
 每模組更新實際授課日期／教材版本、讀過的考綱子題、首答ID、已看解析、未解錯題、複測連結與學習分鐘。來源為課堂筆記、本人答案或已保存操作；教材與Git準備不計入。現有題庫是廣度與常見機制的練習，不宣稱窮盡每個考綱子題；週迭代須補足授課出現的新細節。
 
 | 模組 | 需覆蓋的範圍（配合正式教材細分） | 題本 | 首答／30 | 解析／30 | 授課／閱讀 | 修正／實作連結 |
 | --- | --- | --- | ---: | ---: | --- | --- |
-| M01 | 安全目標、角色、授權、方法、框架、風險、控制、法律與標準 | [30題](../assessments/practice-bank/m01.md) | 0 recorded | 0 recorded | 未核對 | 尚無本題庫紀錄 |
-| M02 | 被動／主動偵察、搜尋／網站／郵件、DNS與登記、網路路徑、反制 | [30題](../assessments/practice-bank/m02.md) | 0 recorded | 0 recorded | 未核對 | 尚無本題庫紀錄 |
-| M03 | 主機／連接埠／服務／OS辨識、不同掃描狀態與技術、限制與反制 | [30題](../assessments/practice-bank/m03.md) | 0 recorded | 0 recorded | 未核對 | 尚無本題庫紀錄 |
+| M01 | 安全目標、角色、授權、方法、框架、風險、控制、法律與標準 | [30題](../assessments/practice-bank/m01.md) | 0 recorded | 0 recorded | 9/20 本人回報已授；子題／閱讀待核 | 尚無本題庫紀錄 |
+| M02 | 被動／主動偵察、搜尋／網站／郵件、DNS與登記、網路路徑、反制 | [30題](../assessments/practice-bank/m02.md) | 0 recorded | 0 recorded | 9/20 本人回報已授；子題／閱讀待核 | 尚無本題庫紀錄 |
+| M03 | 主機／連接埠／服務／OS辨識、不同掃描狀態與技術、限制與反制 | [30題](../assessments/practice-bank/m03.md) | 0 recorded | 0 recorded | 9/20 本人回報已授；子題／閱讀待核 | 尚無本題庫紀錄 |
 | M04 | DNS／SMB／LDAP／SNMP／SMTP／NFS／RPC等服務列舉、權限與反制 | [30題](../assessments/practice-bank/m04.md) | 0 recorded | 0 recorded | 未核對 | 尚無本題庫紀錄 |
 | M05 | 弱點類型、評估方法／工具、分類／分數、誤判、報告／修補驗證 | [30題](../assessments/practice-bank/m05.md) | 0 recorded | 0 recorded | 未核對 | 尚無本題庫紀錄 |
 | M06 | 憑證、取得存取、提權、執行、持久化、隱藏、紀錄與防護 | [30題](../assessments/practice-bank/m06.md) | 0 recorded | 0 recorded | 未核對 | 尚無本題庫紀錄 |
@@ -32,7 +32,6 @@
 ## 考綱比重連結 — September 22
 
 [完整官方配置與來源界線](../curriculum/ceh-blueprint-weights-2026-09-22.md)提供各章列示題數，供本表檢查全章覆蓋。M02–M15 為 14／20 章、88／125 題；此加總不等於個人最適複習順序。依已觀察的錯題、信心與耗時調整時保留現行課程路徑；本次不更改上表首答、解析或閱讀狀態。
-
 
 ## CEHP首輪
 
@@ -64,3 +63,9 @@
 ## Supporting source coverage — September 20
 
 [Week 1 course overview and M01–M03 notes](../notes/2026-09-20-ceh-week-01/README.md) are available as source material. [Document coverage](../notes/2026-09-20-ceh-week-01/coverage.md) accounts for 354 claim groups; it is distinct from this page's personal coverage and readiness fields. Recording date, attendance and learner reading remain unconfirmed; no first answer, score, explanation review, retest or practical acceptance is added by this source capture.
+
+## 第一堂本人回報與 C1 gate — September 22
+
+[原文與來源回執](../source/2026-09-22-course-synced-review/README.md)保存 Jason 的「已上一次、M01–M03」回報；依正式課表對應 9/20。上表只更新授課範圍，首答／解析／閱讀／實作仍依原證據。M04 為預習，未標為已授。
+
+[四項 C1 入門 gate](../study-plan/course-synced-review-2026-09-22.md#9-c1-入門-gate-與完成界線)目前均 planned，等待本人解釋／判讀；它們支持循環移動，不替代每章 30 題、全部子題或個人實作驗收。原文 mock 分數是合成例子，沒有寫入 attempt log。

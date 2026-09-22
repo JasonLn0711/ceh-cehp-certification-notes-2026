@@ -59,3 +59,7 @@ Both supplied Markdown files are preserved unchanged as renamed copies in the [s
 The approved Git synchronization restored the September 18 route and practice bank while preserving the six existing tracked additions and three untracked September 15 files. Older missing-checkout notes remain dated history. A source receipt records the restoration; no new development commit or push was made during initial capture.
 
 The subsequent user-authorized [Planning day closeout and publication record](../../../planning-everything-track/weeks/2026-W38/days/2026-09-20.md#ceh-week-01-first-principle-closeout) owns capacity, next decision and Git publication status. Learner completion remains evidence-gated.
+
+## Personal delivery confirmation — September 22
+
+Jason now reports attending the first class and covering M01–M03. [The new source receipt](../../source/2026-09-22-course-synced-review/README.md) supplies that personal confirmation; it does not independently authenticate the earlier recording date or establish full subtopic coverage/mastery. [The current C1 plan](../../study-plan/course-synced-review-2026-09-22.md) reuses these notes for consolidation and M04 preview. Earlier unconfirmed attendance wording describes the state at source capture.

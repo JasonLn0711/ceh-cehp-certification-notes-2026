@@ -4,10 +4,13 @@
 
 This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 
+## September 22 first-class report and detailed planning
+
+[Full passage, personal report and source checks](2026-09-22-course-synced-review/README.md) → [five-cycle plan and bounded C1 allocation](../study-plan/course-synced-review-2026-09-22.md). Jason confirms first-class M01–M03 coverage and authorizes planning with minute estimates treated as importance references. Answers, mastery and practical results remain separate.
+
 ## September 22 CEH blueprint weights
 
 [Complete supplied passage and receipt](2026-09-22-ceh-blueprint-weights/README.md) → [live primary-source verification](2026-09-22-ceh-blueprint-weights/verification.md) → [full notes and coverage map](../curriculum/ceh-blueprint-weights-2026-09-22.md). Official allocation, arithmetic, third-party self-description and suggested priorities retain separate evidence states; no learner result is added.
-
 
 ## September 18 invoice issued and counter handover
 

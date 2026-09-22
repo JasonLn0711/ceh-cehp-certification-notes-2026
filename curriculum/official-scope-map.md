@@ -16,6 +16,9 @@ Use official scope as the study backbone. Add explanations from
 
 [Twenty modules × nine domains](ceh-blueprint-weights-2026-09-22.md) maps this course scope to official v5 question counts, exact shares and v4 changes. Course v13 and blueprint v5 are separate version axes; domain totals do not establish chapter-level study priority or Practical exam weights.
 
+## First-class delivery report — September 22
+
+Jason reports that the first UUU session (9/20 in the confirmed timetable) covered M01–M03. [Source receipt](../source/2026-09-22-course-synced-review/README.md) owns this personal report; [five-cycle planning](../study-plan/course-synced-review-2026-09-22.md) consolidates that material before M04. Later class allocations remain unknown. Module-level delivery does not establish full subtopic coverage or personal mastery.
 
 ## CEH13-AI Course Scope
 
@@ -102,7 +105,7 @@ An open gate produces a class-entry gap brief. Use `coverage complete; readiness
 
 ## Delivery Boundary
 
-CEH 2053 meets September 20, October 4, 18, 25 and November 1. CEHP 26416 meets November 19–20. The provider publishes the course-wide scope; the instructor's module-by-session allocation remains unrecorded. The current route records observed delivery and adjusts the next study slice rather than assuming four modules per class.
+CEH 2053 meets September 20, October 4, 18, 25 and November 1. CEHP 26416 meets November 19–20. The provider publishes the course-wide scope; Jason has reported first-session M01–M03 coverage; later session allocations remain unrecorded. The current route records observed delivery and adjusts the next study slice rather than assuming four modules per class.
 
 [Question forms and technical source routes](../assessments/practice-bank/README.md) connect module concepts to actual answers. [Coverage register](../assessment-governance/course-coverage-2026-09-18.md) keeps uncovered subtopics visible. Local fixture acceptance has its declared scope and does not establish full Practical exam competence.
 

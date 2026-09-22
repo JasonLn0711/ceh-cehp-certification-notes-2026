@@ -18,6 +18,9 @@ The authorized September 20 synchronization restored the current course route an
 
 [Complete twenty-module and nine-domain notes](curriculum/ceh-blueprint-weights-2026-09-22.md) connect the preserved passage, current official v5 configuration, v4 comparison, third-party mapping limits and existing practice. Printed percentages total 101%; exact question shares total 100%. The proposed review order remains a source suggestion, with the current course route unchanged.
 
+## First-class update and study cycles — September 22
+
+Jason reports attending the first UUU class covering M01–M03. [Detailed course-synced plan](study-plan/course-synced-review-2026-09-22.md) starts with consolidation and M04 preview, with five adaptable cycles, a conditional 240-minute C1 package across W39/W40, and a complete [ports/commands reference](notes/2026-09-22-course-synced-review/ports-and-commands.md). Chapter minutes are importance references; attendance does not establish mastery.
 
 ## Current learning status
 

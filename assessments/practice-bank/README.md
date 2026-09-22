@@ -45,6 +45,9 @@ Each mock follows the official domain counts **7 / 21 / 19 / 30 / 18 / 6 / 12 / 
 
 [Full official-weight notes](../../curriculum/ceh-blueprint-weights-2026-09-22.md) explain why equal 30-item module practice and domain-weighted mocks serve different purposes. Official printed percentages sum to 101%; use the 125-question counts for exact allocation. Third-party module numbers and downloaded exam sets are not distribution evidence. This source check changes no item, key, version or learner result.
 
+## First-class consolidation — September 22
+
+[Current C1 plan](../../study-plan/course-synced-review-2026-09-22.md) uses the existing M01–M04 core items after the reported first class. Resume uncompleted IDs and corrections; do not add another 10–20 questions per Card. Original scores, retests and synthetic examples stay separate. New source notes change no item or key.
 
 ## Run a learning block
 
