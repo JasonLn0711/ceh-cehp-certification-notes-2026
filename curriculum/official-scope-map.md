@@ -12,6 +12,11 @@ course outline checked on `2026-09-04`. The structured source record is:
 Use official scope as the study backbone. Add explanations from
 `important-references.md` only after their source and licensing class is clear.
 
+## Knowledge Exam allocation — verified September 22
+
+[Twenty modules × nine domains](ceh-blueprint-weights-2026-09-22.md) maps this course scope to official v5 question counts, exact shares and v4 changes. Course v13 and blueprint v5 are separate version axes; domain totals do not establish chapter-level study priority or Practical exam weights.
+
+
 ## CEH13-AI Course Scope
 
 | Order | Module | Required preview outcome | Safe practice mode | CEHP bridge |

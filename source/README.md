@@ -4,6 +4,11 @@
 
 This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 
+## September 22 CEH blueprint weights
+
+[Complete supplied passage and receipt](2026-09-22-ceh-blueprint-weights/README.md) → [live primary-source verification](2026-09-22-ceh-blueprint-weights/verification.md) → [full notes and coverage map](../curriculum/ceh-blueprint-weights-2026-09-22.md). Official allocation, arithmetic, third-party self-description and suggested priorities retain separate evidence states; no learner result is added.
+
+
 ## September 18 invoice issued and counter handover
 
 [P06 complete eight-page notes](2026-09-18-ucom-invoice-issued/notes.md) connect the issued NT$65,000 invoice image, supplier payment confirmation and Jason’s acknowledgment to the [registration/payment record](2026-09-18-ucom-class-payment-update/notes.md). Image fields match the request; paper delivery and reimbursement remain separate gates. Private invoice identifiers and the unchanged original stay in ignored local custody.

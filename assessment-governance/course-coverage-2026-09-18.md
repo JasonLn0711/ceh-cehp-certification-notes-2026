@@ -29,6 +29,11 @@
 | M19 | 共享責任、虛擬化／容器／Kubernetes／serverless、IAM／儲存與反制 | [30題](../assessments/practice-bank/m19.md) | 0 recorded | 0 recorded | 未核對 | 尚無本題庫紀錄 |
 | M20 | 雜湊／對稱／非對稱、演算法用途、PKI、郵件／磁碟加密、分析／誤用與反制 | [30題](../assessments/practice-bank/m20.md) | 0 recorded | 0 recorded | 未核對 | 尚無本題庫紀錄 |
 
+## 考綱比重連結 — September 22
+
+[完整官方配置與來源界線](../curriculum/ceh-blueprint-weights-2026-09-22.md)提供各章列示題數，供本表檢查全章覆蓋。M02–M15 為 14／20 章、88／125 題；此加總不等於個人最適複習順序。依已觀察的錯題、信心與耗時調整時保留現行課程路徑；本次不更改上表首答、解析或閱讀狀態。
+
+
 ## CEHP首輪
 
 | 類別 | 預設入門任務 | 當前個人狀態 | 更深實作仍待驗證 |

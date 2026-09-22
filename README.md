@@ -14,6 +14,11 @@ This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
 The authorized September 20 synchronization restored the current course route and practice bank while preserving the September 15 additions. Earlier missing-checkout statements describe their capture-time state; the [restoration receipt](source/2026-09-20-ceh-week-01/README.md#checkout-restoration-and-preservation) owns the current custody result.
 
+## CEH blueprint weights — September 22
+
+[Complete twenty-module and nine-domain notes](curriculum/ceh-blueprint-weights-2026-09-22.md) connect the preserved passage, current official v5 configuration, v4 comparison, third-party mapping limits and existing practice. Printed percentages total 101%; exact question shares total 100%. The proposed review order remains a source suggestion, with the current course route unchanged.
+
+
 ## Current learning status
 
 [UUU-aligned learning](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the active September 18–November 29 route: shared four-hour weekly ceiling, actual class topics, teaching/drill modes, correction and practical work. [The full bank](assessments/practice-bank/README.md) is prepared; [learner coverage](assessment-governance/course-coverage-2026-09-18.md) awaits new answers and execution. No exam date is booked. Historical scores and projects below retain their original scope; old exam-only/Form B requirements no longer govern this lane.

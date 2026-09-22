@@ -52,6 +52,14 @@ future checksum check if duplicate cleanup becomes useful.
 - Full decision record:
   `../source/2026-09-04-ceh13-ai-live-syllabus-and-source-decision/source.md`.
 
+### September 22 custody update
+
+Jason subsequently requested a local download of all 27 PDFs. [Planning records the completed download and integrity checks](../../planning-everything-track/weeks/2026-W39/days/2026-09-22.md#cehv13-pdf-intake); the September 4 no-download statement above describes that earlier event. Download authorization establishes local custody, while `rejected_untrusted` remains the learning-source classification. Files have not been adopted into this repo’s question bank or official distribution evidence. Any future adoption needs verified source/use evidence and Jason’s decision; this update moves or deletes no file.
+
+## Official blueprint and practice-bank interpretation
+
+[September 22 complete notes](ceh-blueprint-weights-2026-09-22.md) connect official v5/v4 weights with existing learning material. [Primary-source verification](../source/2026-09-22-ceh-blueprint-weights/verification.md) distinguishes current official links, third-party self-description and arithmetic. CEHStudy remains an external practice candidate with a module-mapping discrepancy, not an adopted official exam-frequency source.
+
 ## Lesson 1 primary-source route
 
 [Lesson 1: How a weakness can lead to harm](../notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md). The linked source receipt checks the supplied OWASP 2021, NIST, FIRST and FTC citations with explicit retrieval limits. These references support concept learning; the note preserves the original source and separates its correction.

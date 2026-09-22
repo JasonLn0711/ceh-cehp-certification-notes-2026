@@ -41,6 +41,11 @@ Stems, choices and hints use professional English. Explanations use plain Englis
 
 Each mock follows the official domain counts **7 / 21 / 19 / 30 / 18 / 6 / 12 / 6 / 6 = 125**. Module practice gives equal space to each course module; mocks use exam-domain weighting. The mocks are different questions, not selections from the 600. Opening a key or receiving hints makes the affected future result exposed/assisted, not unseen.
 
+## Blueprint interpretation — September 22
+
+[Full official-weight notes](../../curriculum/ceh-blueprint-weights-2026-09-22.md) explain why equal 30-item module practice and domain-weighted mocks serve different purposes. Official printed percentages sum to 101%; use the 125-question counts for exact allocation. Third-party module numbers and downloaded exam sets are not distribution evidence. This source check changes no item, key, version or learner result.
+
+
 ## Run a learning block
 
 1. Confirm the endpoint and remaining shared weekly allowance. Resume unfinished original items and required corrections before opening another set.
