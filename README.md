@@ -22,6 +22,10 @@ The authorized September 20 synchronization restored the current course route an
 
 Jason reports attending the first UUU class covering M01–M03. [Detailed course-synced plan](study-plan/course-synced-review-2026-09-22.md) starts with consolidation and M04 preview, with five adaptable cycles, a conditional 240-minute C1 package across W39/W40, and a complete [ports/commands reference](notes/2026-09-22-course-synced-review/ports-and-commands.md). Chapter minutes are importance references; attendance does not establish mastery.
 
+## Week 2 course and evidence map — October 4
+
+[Public-safe M04–M06 index](notes/2026-10-04-ceh-week-02/README.md) connects enumeration, vulnerability analysis, authentication and defensive evidence. Assigned exercises and demonstrated learner results remain distinct. Full course sources and training-target details stay outside this public repository.
+
 ## Current learning status
 
 [UUU-aligned learning](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the active September 18–November 29 route: shared four-hour weekly ceiling, actual class topics, teaching/drill modes, correction and practical work. [The full bank](assessments/practice-bank/README.md) is prepared; [learner coverage](assessment-governance/course-coverage-2026-09-18.md) awaits new answers and execution. No exam date is booked. Historical scores and projects below retain their original scope; old exam-only/Form B requirements no longer govern this lane.
@@ -152,3 +156,4 @@ daily closeout.
 [Lesson 1: How a weakness can lead to harm](notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md) connects the full supplied lesson to M05, M06 and web access control, primary sources and assessment boundaries. [Source receipt](source/2026-09-15-lesson-01-weakness-to-harm/README.md) preserves provenance and verification limits.
 
 For this capture, the current [Planning CEH locator](../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md) records the September 11 exam-only decision. The local checkout lacks the referenced September 11 exam plan and September 14 prompt. Earlier project-led instructions above remain historical context for that lane; this note capture activates no project and records no learner completion.
+
