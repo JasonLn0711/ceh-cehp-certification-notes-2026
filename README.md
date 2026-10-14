@@ -71,6 +71,9 @@ Jason reports attending the first UUU class covering M01–M03. [Detailed course
 
 ## Repo Map
 
+- [Graphify CEH lab](projects/graphify-ceh-lab/README.md): optional sample knowledge
+  graph, five bounded practice missions, and source-audit exercises. Prepared
+  material and installation checks remain separate from learner completion.
 - `curriculum/`: official course scope and module order.
 - `projects/weekly-incident-projects/`: incident map, runnable weekly projects,
   separate instructor keys, and acceptance routes.
