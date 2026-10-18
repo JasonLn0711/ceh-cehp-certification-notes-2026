@@ -1,0 +1,20 @@
+[
+  {
+    "path": "data/projects/2026-07-ceh-cehp-certification-training.md",
+    "remote_block_preserved": true,
+    "local_block_preserved": true,
+    "order": "remote W3 final source index, then local M08 source package"
+  },
+  {
+    "path": "weeks/2026-W42/days/2026-10-18.md",
+    "remote_block_preserved": true,
+    "local_block_preserved": true,
+    "order": "remote W3 final source index, then local M08 source package"
+  },
+  {
+    "path": "weeks/2026-W42/weekly-plan.md",
+    "remote_block_preserved": true,
+    "local_block_preserved": true,
+    "order": "remote W3 final source index, then local M08 source package"
+  }
+]

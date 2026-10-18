@@ -58,7 +58,13 @@ Refinements include local SVG font loading, a readable ACK label, separated quiz
 | Existing questions | [M08 bank](../../assessments/practice-bank/m08.md) / [separate key](../../assessments/practice-bank/m08-key.md) | M08-film-v1 preserves existing IDs/results |
 | M07 behavior | [M07 production](../m07-malware-threats/video-production-2026-10-18.md) | Packet observations and process attribution need distinct evidence |
 | Course and capacity | [UUU-aligned route](../../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) | 240-minute ceiling, course-day 25-minute limit and W42 Red remain |
-| Existing W3 Sniffing/HTTP | [October 18 class locator](../../../planning-everything-track/weeks/2026-W42/days/2026-10-18.md#1517-ceh-w3-跨文件互連--下午-m08-與-http-證據) | Class evidence retains separate acceptance |
+| Existing W3 Sniffing/HTTP | [October 18 class locator](../../../planning-everything-track/weeks/2026-W42/days/2026-10-18.md#ceh-w3-final-index) | Class evidence retains separate acceptance |
 | Provenance and delivery | [Video index](../../docs/video-production/README.md) / [source receipt](../../source/2026-10-18-ceh-m08-video-production/README.md) | One standard, separate module content and receipts |
 
 Prepared material adds no learner answers, practical acceptance, Blog completion, used study minutes or new deadline. Git publishes source decisions, content/tooling and compact QA. The ZIP remains local; public media release has no URL or acceptance claim. Full production starts only when explicitly activated.
+
+## Documentation publication
+
+[Verified Git receipt](../../source/2026-10-18-ceh-m08-video-production/validation/git-publication.json) records separate CEH commits 579bce2 (scope/standard), 052a525 (sources/QA), e81fb0f (course/Planning connections), and Planning a3906a68 (mirror). Planning merge 6d09572a preserves remote W3 commits 41b5a9cf, 64caae42 and ada7593a plus the local M08 commit. The three append-only conflicts retain both complete sections. Both repositories were pushed with origin HEAD:main and verified after fetch at 0/0. This receipt precedes its own documentation commit.
+
+[Documentation validation](../../source/2026-10-18-ceh-m08-video-production/validation/documentation-validation.json) checks the touched source/learning/Planning routes. Planning validators pass with 44 grandfathered warnings, zero new, and 181 metadata/catalog entries. The M07 original source ZIP remains unchanged; all 41 preserved package/input/QA copies and the ZIP's canonical standard match.

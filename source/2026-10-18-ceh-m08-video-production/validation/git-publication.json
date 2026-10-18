@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-18T09:55:14.837756+00:00",
+  "target_refspec": "origin HEAD:main",
+  "ceh": {
+    "commits": [
+      "579bce2",
+      "052a525",
+      "e81fb0f"
+    ],
+    "published_tip": "e81fb0f28380b34926edef08c9ab5ffbe71ace0e",
+    "post_push_divergence": "0\t0"
+  },
+  "planning": {
+    "scope_commit": "a3906a68",
+    "merge_commit": "6d09572a",
+    "preserved_remote_commits": [
+      "41b5a9cf",
+      "64caae42",
+      "ada7593a"
+    ],
+    "published_tip": "6d09572a34dff11ccc34722cdadaa6f92d112d2f",
+    "post_push_divergence": "0\t0",
+    "conflict_resolution": "Reviewed three append-only conflicts; retained complete remote W3 blocks followed by complete local M08 blocks. No history rewrite."
+  },
+  "scope": "Documentation, authored content, rebuild inputs and compact QA; full 308-file ZIP remains local. No public film release or learner completion."
+}
