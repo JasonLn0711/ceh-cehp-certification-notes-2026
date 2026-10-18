@@ -1,0 +1,104 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"example-scene\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#example-scene",
+        "dataAttributes": {},
+        "sourceFile": "/home/jnlngx10/Videos/CEH_M07_v1_0/source/CEH_M07_English_Editorial_Masterclass/examples/detection-comparison/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"example-scene\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 12,
+    "samples": [
+      0,
+      3,
+      6.5,
+      7,
+      10
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0,
+      3,
+      6.5,
+      7,
+      10
+    ],
+    "checked": 44,
+    "passed": 44
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "1bb70814-115b-497d-956f-79f7d053b7ce",
+    "revision": "ce0ca3c8-9271-4803-bcd2-4bff57c4db8b",
+    "report": "/home/jnlngx10/Videos/CEH_M07_v1_0/source/CEH_M07_English_Editorial_Masterclass/examples/detection-comparison/.hyperframes/artifacts/checks/1bb70814-115b-497d-956f-79f7d053b7ce.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.169",
+    "latestVersion": "0.8.169",
+    "updateAvailable": false
+  }
+}
