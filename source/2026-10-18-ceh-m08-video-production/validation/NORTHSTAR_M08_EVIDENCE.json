@@ -1,0 +1,44 @@
+{
+  "organization": "Northstar Learning Center",
+  "dataset_label": "SIMULATED OUTPUT",
+  "time_zone": "Asia/Taipei UTC+08:00",
+  "approved_scope": "Read supplied synthetic PCAP files offline; no live capture or traffic transmission.",
+  "training_events": [
+    {
+      "id": "E01",
+      "source": "lab_mock/visibility_endpoint.pcap and visibility_mirror.pcap",
+      "observation": "ANALYST endpoint view has one broadcast; mirror view additionally includes three STAFF DNS packets.",
+      "limits": "Collection topology is stipulated synthetic context, not an actual SPAN measurement.",
+      "label": "SIMULATED OUTPUT"
+    },
+    {
+      "id": "E02",
+      "source": "lab_mock/arp_claims.pcap",
+      "observation": "Two replies claim 10.44.10.1 with MAC 02:44:10:00:00:01 and 02:44:10:00:00:66.",
+      "limits": "Recipient cache, forwarding and approved change status unmeasured.",
+      "label": "SIMULATED OUTPUT"
+    },
+    {
+      "id": "E03",
+      "source": "lab_mock/dhcp_offers.pcap",
+      "observation": "One discovery and two offers; transaction 0x4e530008; router options 10.44.10.1 and 10.44.10.66.",
+      "limits": "No REQUEST/ACK or installed client configuration; no pool exhaustion evidence.",
+      "label": "SIMULATED OUTPUT"
+    },
+    {
+      "id": "E04",
+      "source": "lab_mock/dns_answers.pcap",
+      "observation": "One query and two A responses for lesson.northstar.example.test; transaction 0x4808; answers 203.0.113.80 and 203.0.113.81.",
+      "limits": "No cache adoption, zone-history verdict, later connection or compromise shown.",
+      "label": "SIMULATED OUTPUT"
+    }
+  ],
+  "approval_card": {
+    "label": "SIMULATED OUTPUT",
+    "gateway_change": "unconfirmed",
+    "authorized_router": "10.44.10.1",
+    "authorized_dns": "10.44.20.53",
+    "limits": "Fictional context, not an actual device inventory export."
+  },
+  "actual_measurement": "validation/packet_qa.json records real offline parser measurements of synthetic bytes."
+}

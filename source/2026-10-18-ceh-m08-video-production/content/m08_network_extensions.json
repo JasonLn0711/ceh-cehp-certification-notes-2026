@@ -1,0 +1,22 @@
+{
+  "label": "SIMULATED OUTPUT",
+  "inherited_map": "network_map.json unchanged",
+  "office_vlan": 10,
+  "server_vlan": 20,
+  "office_gateway": {
+    "ip": "10.44.10.1",
+    "mac": "02:44:10:00:00:01",
+    "role": "Office SVI and synthetic authorized DHCP service; separate from SWITCH management IP"
+  },
+  "staff_mac": "02:44:10:00:00:21",
+  "analyst_mac": "02:44:10:00:00:10",
+  "unexpected_sender": {
+    "ip": "10.44.10.66",
+    "mac": "02:44:10:00:00:66"
+  },
+  "domain": "lesson.northstar.example.test",
+  "returned_documentation_addresses": [
+    "203.0.113.80",
+    "203.0.113.81"
+  ]
+}

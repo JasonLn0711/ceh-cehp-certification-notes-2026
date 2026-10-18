@@ -1,0 +1,20 @@
+# Primary references and limits
+
+Live access: 2026-10-18, Asia/Taipei. Source roles and dates are recorded below. The narration and questions are independently authored. All Northstar events are SIMULATED OUTPUT; sources explain mechanisms and do not prove fictional campus events.
+
+| ID | Source | Publication context | Connection | Use and limit |
+| --- | --- | --- | --- | --- |
+| ECC | [EC-Council CEH v13 course outline](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-v13-north-america/) | Living course page | C01–C11 | Official M08 topic boundary; active course labs retain their own authorization. |
+| WS | [Wireshark User Guide](https://www.wireshark.org/docs/wsug_html/) | Living development guide; version 5.1.0 displayed at access, not asserted as stable installed version | S07,S10–S18,S40–S43 | Capture/display languages, dissection, offload and collection limits. No Wireshark execution receipt is claimed. |
+| PCAP | [The Tcpdump Group libpcap filter manual source](https://github.com/the-tcpdump-group/libpcap/blob/master/pcap-filter.manmisc.in) | Living upstream source | S13–S14,S41 | Capture expression semantics; actual installed tcpdump/libpcap versions are in packet QA. |
+| ARP | [RFC 826: Ethernet Address Resolution](https://www.rfc-editor.org/rfc/rfc826) | November 1982 | S05–S08,S22–S26 | Foundational local address-resolution mechanism, not evidence of any Northstar event. |
+| DHCP | [RFC 2131: Dynamic Host Configuration Protocol](https://www.rfc-editor.org/rfc/rfc2131) | March 1997 | S30–S32,S46 | Lease exchange, states and client selection; a supplied offer does not establish installed configuration. |
+| DNSSEC | [RFC 4033: DNS Security Introduction and Requirements](https://www.rfc-editor.org/rfc/rfc4033) | March 2005 | S37–S38,S56 | Signed-data authentication/integrity and validation assumptions; no DNS query confidentiality guarantee. |
+| TLS | [RFC 8446: TLS 1.3](https://www.rfc-editor.org/rfc/rfc8446) | August 2018 | S18–S21 | Protected channel and authentication model; no TLS runtime is supplied in the fixtures. |
+| DAI | [Cisco: Troubleshoot DAI and IP Source Guard](https://www.cisco.com/c/en/us/support/docs/switches/lan-switch-software/222274-troubleshoot-dynamic-arp-inspection-dai.html) | Vendor platform-specific guidance | S25,S29–S32,S49–S50 | Binding and trust prerequisites; vendor examples are not deployed Northstar configuration. |
+| L2 | [Cisco: Layer 2 security feature configuration example](https://www.cisco.com/c/en/us/support/docs/switches/catalyst-3750-series-switches/72846-layer2-secftrs-catl3fixed.html) | Historical Catalyst example; platform/release-specific | S25,S29,S32 | Port security and DHCP concepts; verify current target commands before any live change. |
+| STP | [Cisco Catalyst 6500 best-practice recommendations](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst6500/ios/12-2SX/best/practices/recommendations.html) | Historical platform-specific guidance | S33–S36 | Trunk/VLAN and STP guard design; current platform commands require separate validation. |
+| BC | [Bettercap Ethernet spoofers overview](https://www.bettercap.org/modules/ethernet/spoofers/introduction/) | Living project documentation | S26,S37 | Named ARP and DNS spoofing roles only; no active tool execution or TLS interception success inferred. |
+| NMAP | [Nmap sniffer-detect script documentation](https://nmap.org/nsedoc/scripts/sniffer-detect.html) | Living project documentation | S40 | Intrusive local-Ethernet promiscuous-mode test; a negative result does not rule out every collector. |
+
+Foundational protocols and modern deployment choices remain separate. The course outline defines module coverage; Wireshark and upstream libpcap define their own analysis interfaces. Vendor feature guidance applies to its named platforms. AI assistance is a proposed analysis aid, not an observed autonomous deployment. This source review does not establish a completed learner research block or official practical lab.

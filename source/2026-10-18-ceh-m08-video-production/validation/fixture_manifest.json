@@ -1,0 +1,79 @@
+{
+  "provenance": "SIMULATED OUTPUT",
+  "generator": "tooling/build_packets.py",
+  "transport_action": "file bytes only; no packets transmitted",
+  "files": [
+    {
+      "path": "lab_mock/visibility_endpoint.pcap",
+      "bytes": 82,
+      "sha256": "9f0515998015635926d9994e0c8761b1df018e2b2e0718f0a1f3751be3571150",
+      "packet_count": 1,
+      "link_type": "Ethernet (DLT_EN10MB)",
+      "snaplen": 65535,
+      "timestamp_basis": "fixed synthetic 2026-10-18 Asia/Taipei; no wall clock",
+      "vantage": "ANALYST ordinary office access-port endpoint view",
+      "meaning": "One local broadcast only; no STAFF unicast delivered in this constructed subset.",
+      "provenance": "SIMULATED OUTPUT"
+    },
+    {
+      "path": "lab_mock/visibility_mirror.pcap",
+      "bytes": 429,
+      "sha256": "43700d61a622165ed408bd1424b92d4fd7ae15b11f9dbca29990146fd8ecb796",
+      "packet_count": 4,
+      "link_type": "Ethernet (DLT_EN10MB)",
+      "snaplen": 65535,
+      "timestamp_basis": "fixed synthetic 2026-10-18 Asia/Taipei; no wall clock",
+      "vantage": "Office VLAN fictional mirror destination",
+      "meaning": "Includes the same broadcast and additional STAFF DNS unicast. Configuration is stipulated, not measured.",
+      "provenance": "SIMULATED OUTPUT"
+    },
+    {
+      "path": "lab_mock/arp_claims.pcap",
+      "bytes": 140,
+      "sha256": "3c02d33c28017b6b72468cff3f72850f1223abc8c368bd46b6ff125d3fcb73f4",
+      "packet_count": 2,
+      "link_type": "Ethernet (DLT_EN10MB)",
+      "snaplen": 65535,
+      "timestamp_basis": "fixed synthetic 2026-10-18 Asia/Taipei; no wall clock",
+      "vantage": "Office VLAN fictional mirror destination",
+      "meaning": "Two claims; no recipient cache or measured forwarding.",
+      "provenance": "SIMULATED OUTPUT"
+    },
+    {
+      "path": "lab_mock/dhcp_offers.pcap",
+      "bytes": 990,
+      "sha256": "99d71c32bc451acbcba9cf61cd2bebfa13eeb2155c62e43883c33fe026f1177a",
+      "packet_count": 3,
+      "link_type": "Ethernet (DLT_EN10MB)",
+      "snaplen": 65535,
+      "timestamp_basis": "fixed synthetic 2026-10-18 Asia/Taipei; no wall clock",
+      "vantage": "Office VLAN fictional mirror destination",
+      "meaning": "Discover and two offers; no REQUEST/ACK, client adoption or exhausted pool.",
+      "provenance": "SIMULATED OUTPUT"
+    },
+    {
+      "path": "lab_mock/dns_answers.pcap",
+      "bytes": 371,
+      "sha256": "871b69c1570ee501dbb432e1d01f9a4e6700c3736252e3c37e3cf4eb27baedd7",
+      "packet_count": 3,
+      "link_type": "Ethernet (DLT_EN10MB)",
+      "snaplen": 65535,
+      "timestamp_basis": "fixed synthetic 2026-10-18 Asia/Taipei; no wall clock",
+      "vantage": "Office VLAN fictional mirror destination",
+      "meaning": "Query and conflicting A answers; no cache state or later application acceptance.",
+      "provenance": "SIMULATED OUTPUT"
+    },
+    {
+      "path": "lab_mock/http_plaintext.pcap",
+      "bytes": 640,
+      "sha256": "71608652ca539fd1aa4b113028692b67b81c9919d3e1568fc6f978964227301c",
+      "packet_count": 6,
+      "link_type": "Ethernet (DLT_EN10MB)",
+      "snaplen": 65535,
+      "timestamp_basis": "fixed synthetic 2026-10-18 Asia/Taipei; no wall clock",
+      "vantage": "STAFF office-side constructed endpoint view",
+      "meaning": "Complete illustrative TCP request/response with dummy lesson text; no credentials or authentication.",
+      "provenance": "SIMULATED OUTPUT"
+    }
+  ]
+}

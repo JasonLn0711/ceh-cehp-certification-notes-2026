@@ -1,0 +1,4071 @@
+{
+  "status": "source_ready",
+  "scope": "Source package only. Four animation examples checked; complete film runtime, speech and captions are not produced.",
+  "spoken_words": 9097,
+  "chapters": 11,
+  "scenes": 58,
+  "questions": 8,
+  "locked_assets": 44,
+  "pptx_native_shapes": 229,
+  "pptx_native_text_runs": 165,
+  "checks": [
+    {
+      "name": "58 ordered unique scenes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "11 chapters",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "chapter coverage exactly once",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "source readiness stated",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "speech speed only",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S01 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S01 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S01 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S01 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S01 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S01 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S01 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S02 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S02 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S02 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S02 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S02 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S02 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S02 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S03 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S03 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S03 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S03 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S03 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S03 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S03 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S04 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S04 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S04 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S04 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S04 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S04 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S04 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S05 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S05 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S05 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S05 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S05 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S05 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S05 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S06 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S06 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S06 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S06 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S06 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S06 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S06 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S07 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S07 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S07 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S07 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S07 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S07 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S07 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S08 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S08 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S08 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S08 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S08 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S08 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S08 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S09 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S09 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S09 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S09 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S09 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S09 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S09 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S10 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S10 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S10 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S10 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S10 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S10 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S10 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S11 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S11 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S11 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S11 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S11 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S11 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S11 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S12 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S12 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S12 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S12 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S12 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S12 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S12 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S13 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S13 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S13 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S13 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S13 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S13 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S13 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S14 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S14 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S14 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S14 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S14 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S14 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S14 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S15 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S15 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S15 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S15 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S15 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S15 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S15 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S16 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S16 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S16 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S16 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S16 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S16 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S16 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S17 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S17 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S17 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S17 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S17 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S17 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S17 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S18 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S18 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S18 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S18 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S18 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S18 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S18 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S19 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S19 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S19 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S19 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S19 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S19 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S19 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S20 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S20 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S20 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S20 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S20 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S20 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S20 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S21 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S21 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S21 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S21 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S21 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S21 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S21 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S22 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S22 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S22 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S22 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S22 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S22 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S22 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S23 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S23 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S23 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S23 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S23 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S23 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S23 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S24 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S24 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S24 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S24 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S24 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S24 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S24 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S25 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S25 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S25 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S25 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S25 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S25 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S25 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S26 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S26 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S26 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S26 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S26 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S26 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S26 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S27 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S27 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S27 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S27 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S27 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S27 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S27 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S28 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S28 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S28 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S28 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S28 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S28 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S28 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S29 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S29 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S29 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S29 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S29 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S29 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S29 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S30 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S30 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S30 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S30 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S30 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S30 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S30 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S31 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S31 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S31 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S31 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S31 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S31 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S31 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S32 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S32 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S32 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S32 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S32 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S32 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S32 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S33 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S33 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S33 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S33 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S33 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S33 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S33 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S34 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S34 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S34 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S34 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S34 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S34 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S34 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S35 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S35 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S35 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S35 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S35 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S35 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S35 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S36 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S36 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S36 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S36 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S36 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S36 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S36 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S37 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S37 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S37 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S37 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S37 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S37 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S37 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S38 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S38 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S38 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S38 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S38 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S38 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S38 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S39 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S39 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S39 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S39 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S39 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S39 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S39 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S40 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S40 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S40 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S40 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S40 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S40 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S40 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S41 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S41 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S41 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S41 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S41 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S41 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S41 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S42 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S42 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S42 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S42 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S42 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S42 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S42 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S43 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S43 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S43 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S43 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S43 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S43 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S43 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S44 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S44 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S44 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S44 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S44 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S44 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S44 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S45 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S45 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S45 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S45 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S45 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S45 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S45 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S46 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S46 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S46 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S46 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S46 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S46 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S46 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S47 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S47 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S47 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S47 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S47 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S47 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S47 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S48 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S48 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S48 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S48 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S48 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S48 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S48 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S49 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S49 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S49 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S49 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S49 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S49 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S49 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S50 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S50 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S50 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S50 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S50 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S50 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S50 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S51 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S51 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S51 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S51 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S51 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S51 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S51 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S52 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S52 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S52 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S52 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S52 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S52 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S52 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S53 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S53 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S53 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S53 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S53 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S53 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S53 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S54 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S54 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S54 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S54 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S54 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S54 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S54 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S55 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S55 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S55 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S55 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S55 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S55 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S55 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S56 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S56 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S56 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S56 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S56 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S56 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S56 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S57 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S57 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S57 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S57 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S57 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S57 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S57 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S58 canonical segment mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S58 script complete",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S58 measured source words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S58 visual/source copy",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S58 substantive teaching",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S58 editable SVG",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S58 native canvas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C01 scene mapping",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C01 words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C02 scene mapping",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C02 words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C03 scene mapping",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C03 words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C04 scene mapping",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C04 words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C05 scene mapping",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C05 words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C06 scene mapping",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C06 words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C07 scene mapping",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C07 words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C08 scene mapping",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C08 words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C09 scene mapping",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C09 words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C10 scene mapping",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C10 words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C11 scene mapping",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "C11 words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "total spoken words",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "eight original quiz IDs",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "graded question distribution",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "eight silence segments",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "one second each",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q01 four choices",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q01 stem/options before silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q01 answer after silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q01 teacher mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q01 student has no supplied explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q02 four choices",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q02 stem/options before silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q02 answer after silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q02 teacher mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q02 student has no supplied explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q03 four choices",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q03 stem/options before silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q03 answer after silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q03 teacher mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q03 student has no supplied explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q04 four choices",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q04 stem/options before silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q04 answer after silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q04 teacher mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q04 student has no supplied explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q05 four choices",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q05 stem/options before silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q05 answer after silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q05 teacher mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q05 student has no supplied explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q06 four choices",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q06 stem/options before silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q06 answer after silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q06 teacher mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q06 student has no supplied explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q07 four choices",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q07 stem/options before silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q07 answer after silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q07 teacher mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q07 student has no supplied explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q08 four choices",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q08 stem/options before silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q08 answer after silence",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q08 teacher mirror",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "Q08 student has no supplied explanation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S54 two questions",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S55 two questions",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S56 two questions",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "S57 two questions",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "real zero PCM format",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "every PCM byte zero",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "44 locked assets",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked STYLE_TOKENS.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked network_map.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked reference/HYPERFRAMES_REFERENCE_STYLE_BOARD.jpg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked reference/HYPERFRAMES_VISUAL_STYLE_ADDENDUM.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/CHARACTER_REFERENCE_SHEET.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/CHARACTER_REFERENCE_SHEET.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/body.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/face_celebrate.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/face_concerned.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/face_neutral.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/face_point.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/face_surprised.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/face_think.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/face_wave.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/left_arm_celebrate.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/left_arm_concerned.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/left_arm_neutral.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/left_arm_point.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/left_arm_surprised.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/left_arm_think.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/left_arm_wave.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/legs.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/right_arm_celebrate.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/right_arm_concerned.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/right_arm_neutral.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/right_arm_point.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/right_arm_surprised.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/right_arm_think.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/parts/right_arm_wave.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/rig_anchors.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_celebrate.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_celebrate.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_concerned.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_concerned.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_neutral.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_neutral.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_point.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_point.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_surprised.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_surprised.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_think.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_think.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_wave.png",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "locked assets/mascot/tally_wave.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "actual offline packet QA",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "six labeled synthetic fixtures",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/visibility_endpoint.pcap measured identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/visibility_mirror.pcap measured identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/arp_claims.pcap measured identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dhcp_offers.pcap measured identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dns_answers.pcap measured identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/http_plaintext.pcap measured identity",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "simulated case label",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "four bounded cases",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "official 13 topic areas",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "18 native PPTX slides",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide1.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide10.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide11.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide12.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide13.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide14.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide15.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide16.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide17.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide18.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide2.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide3.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide4.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide5.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide6.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide7.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide8.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide9.xml separate native text/shapes",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "pptx ZIP CRC",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S32.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S56.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S46.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S09.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S16.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S33.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S05.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S02.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S40.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S14.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S20.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S41.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S27.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S06.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S36.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S17.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S25.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S51.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S01.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S49.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S53.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S15.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S07.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S23.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S38.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S24.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S50.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S31.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S45.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S03.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S34.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S47.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S39.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S55.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S26.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S18.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S11.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S44.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S19.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S22.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S57.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S08.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S13.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S35.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S58.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S29.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S42.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S28.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S43.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S48.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S54.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S12.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S52.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S10.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S37.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S21.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S30.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/boards/S04.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-16.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-06.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-11.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-18.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-14.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-15.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-02.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-03.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-05.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-08.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-09.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-07.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-12.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-17.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-04.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-10.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-01.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/slides/slide-13.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/examples count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/examples/quiz-one-second.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/examples/arp-binding.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/examples/packet-visibility.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "previews/examples/dhcp-dns.png PNG signature",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "actual browser checks",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "all four HyperFrames checks present",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "hyperframes-arp-binding.json actual HyperFrames check",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "hyperframes-dhcp-dns.json actual HyperFrames check",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "hyperframes-packet-visibility.json actual HyperFrames check",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "hyperframes-quiz-one-second.json actual HyperFrames check",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "m08-packet native SVG prop",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "m08-capture native SVG prop",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "m08-switch native SVG prop",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "m08-network native SVG prop",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "m08-boundary native SVG prop",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "m08-lease native SVG prop",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "m08-evidence native SVG prop",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "m08-lock native SVG prop",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "packet-visibility finite paused runtime",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "packet-visibility no render-time randomness",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "arp-binding finite paused runtime",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "arp-binding no render-time randomness",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "dhcp-dns finite paused runtime",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "dhcp-dns no render-time randomness",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "quiz-one-second finite paused runtime",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "quiz-one-second no render-time randomness",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link PRODUCTION_STANDARD_v1.0.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link AGENT_PROMPT.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link COURSE_STRUCTURE.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link previews/index.html",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link slides/CEH_M08_Editable_Visual_Lookbook_18slides.pptx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link examples/index.html",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link STORYBOARD.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link COVERAGE_MATRIX.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link CONCEPT_CONNECTIONS.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link case/EVIDENCE_CARDS.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link ASSESSMENT_STUDENT.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link ASSESSMENT_INSTRUCTOR.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link SOURCES.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link tooling/README.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link VOICE_AND_AUDIO.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link production/CAPTION_CONTRACT.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link RENDER_PLAN.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link QA_CHECKLIST.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "README.md link LICENSES_AND_PROVENANCE.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "START_HERE_zh-TW.md link PRODUCTION_STANDARD_v1.0.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "START_HERE_zh-TW.md link AGENT_PROMPT.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "START_HERE_zh-TW.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "START_HERE_zh-TW.md link previews/index.html",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "START_HERE_zh-TW.md link slides/CEH_M08_Editable_Visual_Lookbook_18slides.pptx",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "START_HERE_zh-TW.md link examples/index.html",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S01.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S02.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S03.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S04.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S05.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S06.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S07.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S08.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S09.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S10.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S11.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S12.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S13.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S14.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S15.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S16.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S17.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S18.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S19.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S20.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S21.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S22.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S23.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S24.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S25.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S26.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S27.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S28.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S29.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S30.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S31.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S32.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S33.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S34.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S35.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S36.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S37.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S38.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S39.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S40.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S41.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S42.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S43.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S44.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S45.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S46.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S47.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S48.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S49.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S50.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S51.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S52.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S53.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S54.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S55.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S56.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S57.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link boards/S58.svg",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "STORYBOARD.md link SCRIPT_en-US.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ASSESSMENT_STUDENT.md link lab_mock/README.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "ASSESSMENT_STUDENT.md link case/EVIDENCE_CARDS.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/README.md link ../SOURCES.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "no false media deliverables",
+      "pass_": true,
+      "detail": null
+    }
+  ],
+  "passed": 811,
+  "failed": 0,
+  "elapsed_seconds": 0.056
+}

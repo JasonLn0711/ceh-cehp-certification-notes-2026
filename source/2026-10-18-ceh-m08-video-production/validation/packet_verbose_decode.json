@@ -1,0 +1,38 @@
+[
+  {
+    "file": "lab_mock/arp_claims.pcap",
+    "exit_code": 0,
+    "stdout": "09:02:00.000000 ARP, Ethernet (len 6), IPv4 (len 4), Reply 10.44.10.1 is-at 02:44:10:00:00:01, length 28\n09:02:01.000000 ARP, Ethernet (len 6), IPv4 (len 4), Reply 10.44.10.1 is-at 02:44:10:00:00:66, length 28\n",
+    "stderr": "reading from file lab_mock/arp_claims.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+  },
+  {
+    "file": "lab_mock/dhcp_offers.pcap",
+    "exit_code": 0,
+    "stdout": "09:03:00.000000 IP (tos 0x0, ttl 64, id 67, offset 0, flags [none], proto UDP (17), length 272)\n    0.0.0.0.68 > 255.255.255.255.67: [udp sum ok] BOOTP/DHCP, Request from 02:44:10:00:00:21, length 244, xid 0x4e530008, Flags [Broadcast] (0x8000)\n\t  Client-Ethernet-Address 02:44:10:00:00:21\n\t  Vendor-rfc1048 Extensions\n\t    Magic Cookie 0x63825363\n\t    DHCP-Message (53), length 1: Discover\n\t    END (255), length 0\n09:03:01.000000 IP (tos 0x0, ttl 64, id 68, offset 0, flags [none], proto UDP (17), length 302)\n    10.44.10.1.67 > 255.255.255.255.68: [udp sum ok] BOOTP/DHCP, Reply, length 274, xid 0x4e530008, Flags [Broadcast] (0x8000)\n\t  Your-IP 10.44.10.21\n\t  Server-IP 10.44.10.1\n\t  Client-Ethernet-Address 02:44:10:00:00:21\n\t  Vendor-rfc1048 Extensions\n\t    Magic Cookie 0x63825363\n\t    DHCP-Message (53), length 1: Offer\n\t    Server-ID (54), length 4: 10.44.10.1\n\t    Subnet-Mask (1), length 4: 255.255.255.0\n\t    Default-Gateway (3), length 4: 10.44.10.1\n\t    Domain-Name-Server (6), length 4: 10.44.20.53\n\t    Lease-Time (51), length 4: 3600\n\t    END (255), length 0\n09:03:02.000000 IP (tos 0x0, ttl 64, id 68, offset 0, flags [none], proto UDP (17), length 302)\n    10.44.10.66.67 > 255.255.255.255.68: [udp sum ok] BOOTP/DHCP, Reply, length 274, xid 0x4e530008, Flags [Broadcast] (0x8000)\n\t  Your-IP 10.44.10.21\n\t  Server-IP 10.44.10.66\n\t  Client-Ethernet-Address 02:44:10:00:00:21\n\t  Vendor-rfc1048 Extensions\n\t    Magic Cookie 0x63825363\n\t    DHCP-Message (53), length 1: Offer\n\t    Server-ID (54), length 4: 10.44.10.66\n\t    Subnet-Mask (1), length 4: 255.255.255.0\n\t    Default-Gateway (3), length 4: 10.44.10.66\n\t    Domain-Name-Server (6), length 4: 10.44.20.53\n\t    Lease-Time (51), length 4: 3600\n\t    END (255), length 0\n",
+    "stderr": "reading from file lab_mock/dhcp_offers.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+  },
+  {
+    "file": "lab_mock/dns_answers.pcap",
+    "exit_code": 0,
+    "stdout": "09:04:00.000000 IP (tos 0x0, ttl 64, id 53, offset 0, flags [none], proto UDP (17), length 75)\n    10.44.10.21.53008 > 10.44.20.53.53: [udp sum ok] 18440+ A? lesson.northstar.example.test. (47)\n09:04:01.000000 IP (tos 0x0, ttl 64, id 53008, offset 0, flags [none], proto UDP (17), length 91)\n    10.44.20.53.53 > 10.44.10.21.53008: [udp sum ok] 18440 q: A? lesson.northstar.example.test. 1/0/0 lesson.northstar.example.test. [1m] A 203.0.113.80 (63)\n09:04:02.000000 IP (tos 0x0, ttl 64, id 53008, offset 0, flags [none], proto UDP (17), length 91)\n    10.44.20.53.53 > 10.44.10.21.53008: [udp sum ok] 18440 q: A? lesson.northstar.example.test. 1/0/0 lesson.northstar.example.test. [1m] A 203.0.113.81 (63)\n",
+    "stderr": "reading from file lab_mock/dns_answers.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+  },
+  {
+    "file": "lab_mock/http_plaintext.pcap",
+    "exit_code": 0,
+    "stdout": "09:05:00.000000 IP (tos 0x0, ttl 64, id 100, offset 0, flags [none], proto TCP (6), length 40)\n    10.44.10.21.50080 > 203.0.113.80.80: Flags [S], cksum 0x9afc (correct), seq 100, win 65535, length 0\n09:05:01.000000 IP (tos 0x0, ttl 64, id 900, offset 0, flags [none], proto TCP (6), length 40)\n    203.0.113.80.80 > 10.44.10.21.50080: Flags [S.], cksum 0x9767 (correct), seq 900, ack 101, win 65535, length 0\n09:05:02.000000 IP (tos 0x0, ttl 64, id 101, offset 0, flags [none], proto TCP (6), length 40)\n    10.44.10.21.50080 > 203.0.113.80.80: Flags [.], cksum 0x9768 (correct), seq 1, ack 1, win 65535, length 0\n09:05:03.000000 IP (tos 0x0, ttl 64, id 101, offset 0, flags [none], proto TCP (6), length 196)\n    10.44.10.21.50080 > 203.0.113.80.80: Flags [P.], cksum 0x9e00 (correct), seq 1:157, ack 1, win 65535, length 156: HTTP, length: 156\n\tPOST /classroom HTTP/1.1\n\tHost: lesson.northstar.example.test\n\tContent-Type: application/x-www-form-urlencoded\n\tContent-Length: 22\n\t\n\tlesson=packet-evidence [|http]\n09:05:04.000000 IP (tos 0x0, ttl 64, id 901, offset 0, flags [none], proto TCP (6), length 80)\n    203.0.113.80.80 > 10.44.10.21.50080: Flags [P.], cksum 0x9850 (correct), seq 1:41, ack 157, win 65535, length 40: HTTP, length: 40\n\tHTTP/1.1 200 OK\n\tContent-Length: 2\n\t\n\tOK [|http]\n09:05:05.000000 IP (tos 0x0, ttl 64, id 257, offset 0, flags [none], proto TCP (6), length 40)\n    10.44.10.21.50080 > 203.0.113.80.80: Flags [.], cksum 0x96a4 (correct), seq 157, ack 41, win 65535, length 0\n",
+    "stderr": "reading from file lab_mock/http_plaintext.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+  },
+  {
+    "file": "lab_mock/visibility_endpoint.pcap",
+    "exit_code": 0,
+    "stdout": "09:00:00.000000 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 10.44.10.1 tell 10.44.10.10, length 28\n",
+    "stderr": "reading from file lab_mock/visibility_endpoint.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+  },
+  {
+    "file": "lab_mock/visibility_mirror.pcap",
+    "exit_code": 0,
+    "stdout": "09:00:00.000000 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 10.44.10.1 tell 10.44.10.10, length 28\n09:00:01.000000 IP (tos 0x0, ttl 64, id 53, offset 0, flags [none], proto UDP (17), length 75)\n    10.44.10.21.53008 > 10.44.20.53.53: [udp sum ok] 18440+ A? lesson.northstar.example.test. (47)\n09:00:02.000000 IP (tos 0x0, ttl 64, id 53008, offset 0, flags [none], proto UDP (17), length 91)\n    10.44.20.53.53 > 10.44.10.21.53008: [udp sum ok] 18440 q: A? lesson.northstar.example.test. 1/0/0 lesson.northstar.example.test. [1m] A 203.0.113.80 (63)\n09:00:03.000000 IP (tos 0x0, ttl 64, id 53008, offset 0, flags [none], proto UDP (17), length 91)\n    10.44.20.53.53 > 10.44.10.21.53008: [udp sum ok] 18440 q: A? lesson.northstar.example.test. 1/0/0 lesson.northstar.example.test. [1m] A 203.0.113.81 (63)\n",
+    "stderr": "reading from file lab_mock/visibility_mirror.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+  }
+]

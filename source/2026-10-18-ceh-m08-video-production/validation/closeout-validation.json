@@ -1,0 +1,13 @@
+{
+  "package_standard_matches_canonical": true,
+  "m07_source_zip_unchanged": true,
+  "exact_repo_copies": 41,
+  "planning_repository_validator": "passed; 44 grandfathered warnings, 0 new",
+  "planning_knowledge_validator": "passed; 181 metadata/catalog entries",
+  "markdown_files": 21,
+  "relative_links_checked": 595,
+  "new_link_failures": 0,
+  "inherited_unavailable_links": 19,
+  "diff_check": "passed in both repositories",
+  "archive_sha256": "bd375286deebf6fcaf1a913d7e1760371bad57f62c2d1ec5d9e720807f45da74"
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "Source build and four examples only",
+  "python": "3.12.3",
+  "node": "v24.22.0",
+  "hyperframes": "0.8.170",
+  "browser": "Chromium headless shell 1234, existing local executable",
+  "python_pptx": "1.0.2",
+  "pillow": "13.0.0",
+  "tcpdump": "tcpdump version 4.99.4\nlibpcap version 1.10.4 (with TPACKET_V3)\nOpenSSL 3.0.13 30 Jan 2024",
+  "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)",
+  "font_resolution": "Bundled Liberation Sans via SVG @font-face; native PPTX uses declared font with bundled licensed files. HyperFrames check compiler also reports cached default Inter injection.",
+  "voice_runtime_executed": false,
+  "tshark_executed": false
+}

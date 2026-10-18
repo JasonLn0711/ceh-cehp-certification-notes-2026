@@ -1,0 +1,181 @@
+[
+  {
+    "id": "C01",
+    "title": "The Northstar packet mission",
+    "learning_goal": "Connect prior modules, collection scope and evidence.",
+    "scene_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "scene_count": 4,
+    "editorial_estimate_seconds": 225.187,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 586
+  },
+  {
+    "id": "C02",
+    "title": "Ethernet and switched visibility",
+    "learning_goal": "Explain local delivery, learning, broadcast domains and sensor choice.",
+    "scene_ids": [
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 278.352,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 723
+  },
+  {
+    "id": "C03",
+    "title": "Collection points and offline workflow",
+    "learning_goal": "Compare endpoint, SPAN and tap; read files and distinguish filter languages.",
+    "scene_ids": [
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16"
+    ],
+    "scene_count": 7,
+    "editorial_estimate_seconds": 395.891,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 1031
+  },
+  {
+    "id": "C04",
+    "title": "Plaintext and protected traffic",
+    "learning_goal": "Explain content exposure, TLS, VPNs and protocol-specific limits.",
+    "scene_ids": [
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 280.99,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 731
+  },
+  {
+    "id": "C05",
+    "title": "ARP claims and path validation",
+    "learning_goal": "Explain ARP poisoning, MITM prerequisites and inspection controls.",
+    "scene_ids": [
+      "S22",
+      "S23",
+      "S24",
+      "S25",
+      "S26"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 282.309,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 735
+  },
+  {
+    "id": "C06",
+    "title": "MAC and DHCP mechanisms",
+    "learning_goal": "Connect address spoofing, table pressure, leasing and snooping defenses.",
+    "scene_ids": [
+      "S27",
+      "S28",
+      "S29",
+      "S30",
+      "S31",
+      "S32"
+    ],
+    "scene_count": 6,
+    "editorial_estimate_seconds": 334.485,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 869
+  },
+  {
+    "id": "C07",
+    "title": "VLAN, STP and DNS boundaries",
+    "learning_goal": "Explain boundary-crossing conditions, topology control and name-data protection.",
+    "scene_ids": [
+      "S33",
+      "S34",
+      "S35",
+      "S36",
+      "S37",
+      "S38"
+    ],
+    "scene_count": 6,
+    "editorial_estimate_seconds": 347.672,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 909
+  },
+  {
+    "id": "C08",
+    "title": "Detection and evidence quality",
+    "learning_goal": "Compare tools, sniffer-detection limits and validation methods.",
+    "scene_ids": [
+      "S39",
+      "S40",
+      "S41",
+      "S42",
+      "S43"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 287.912,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 752
+  },
+  {
+    "id": "C09",
+    "title": "Northstar connected packet cases",
+    "learning_goal": "Interpret visibility, ARP, DHCP and DNS evidence without invented outcomes.",
+    "scene_ids": [
+      "S44",
+      "S45",
+      "S46",
+      "S47",
+      "S48"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 284.285,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 741
+  },
+  {
+    "id": "C10",
+    "title": "Defenses, revalidation and AI",
+    "learning_goal": "Choose mechanism-specific controls and verify assisted conclusions.",
+    "scene_ids": [
+      "S49",
+      "S50",
+      "S51",
+      "S52",
+      "S53"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 279.342,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 726
+  },
+  {
+    "id": "C11",
+    "title": "Eight questions and a packet capstone",
+    "learning_goal": "Apply packet reasoning and prepare a reproducible decision brief.",
+    "scene_ids": [
+      "S54",
+      "S55",
+      "S56",
+      "S57",
+      "S58"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 474.593,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 1294
+  }
+]
