@@ -1,0 +1,13 @@
+# M07 audio and caption review
+
+The full 9,174-word canonical narration was split into 718 genuine generated spoken clips. The approved local Kokoro `af_heart` voice and en-US setting use baseline 0.73 with exactly one `atempo=1.5` per spoken clip; native 24 kHz baselines, processed 48 kHz stereo clips, cache recipes and hashes remain available. The descriptive raw rate is 155.010448 WPM; the −50 dBFS edge-trimmed signal estimate is 157.530522 WPM. Fixed voice settings were preserved; no retiming was applied to reach an estimated WPM range.
+
+All canonical words and all eight complete question/choice/explanation sequences are represented in the ordered speech ledger and aligned captions. The full timeline has 1,229 caption segments. Eight 48,000-frame stereo PCM holds contain only zero samples, with no BGM; subtitles do not enter those intervals. Final encoded AAC residues are a separate artifact measurement.
+
+Independent unprompted base.en recognition produced nonempty persisted transcripts and valid segments from all 58 actual scene WAVs. The fixed CPU/int8 runtime is recorded as `availability_validation` / `LIVE_FULL_COMPLETED` / `valid_target_runtime`, functional result `available_and_working`. Accuracy and latency remain `not_evaluated`. The ASR input hashes, ordered completion receipts and functional error record are preserved separately; no model ranking or ground-truth accuracy endpoint was introduced.
+
+The synthesis-only pronunciation ledger expands relevant acronyms and renders SchoolSync as “school sync,” ClassroomPackUpdater as “classroom pack updater,” and UTF-eight as “U T F eight.” Canonical narration and captions retain the original wording. The independent transcript excerpts were reviewed as diagnostic text for the map addresses, SHA, fileless terminology, recovery acronyms, PE, EDR, parent/child names and quiz wording. Recognition substitutions are review leads, not confirmed speech defects.
+
+Known-text forced alignment preserves 103 timing flags across 93 clips. Many concern acronyms, spelled-out addresses, short function words or zero-duration word estimates within otherwise complete caption chunks. No audio was regenerated or timing uncertainty silently removed solely because a recognizer differed. `audio-audition/index.html` pairs every flagged clip with its canonical sentence and exact flags.
+
+This review establishes source coverage, real generated audio, fixed-runtime transcript availability, sample structure and a local audition queue. Full human listening, pronunciation, naturalness, comprehension and end-to-end film acceptance remain Jason's review gate. No human-listening acceptance is claimed.

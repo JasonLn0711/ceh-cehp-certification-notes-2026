@@ -1,0 +1,708 @@
+{
+  "status": "automated_encoded_artifact_checks_passed",
+  "duration": 3879.4666666666676,
+  "frames": 116384,
+  "decoded_entire_master": true,
+  "black_intervals": 0,
+  "sampled_frames": [
+    {
+      "label": "S01 midpoint",
+      "time": 28.916666666666668,
+      "file": "S01-midpoint.png"
+    },
+    {
+      "label": "S02 midpoint",
+      "time": 88.03333333333333,
+      "file": "S02-midpoint.png"
+    },
+    {
+      "label": "S03 midpoint",
+      "time": 147.31666666666666,
+      "file": "S03-midpoint.png"
+    },
+    {
+      "label": "S04 midpoint",
+      "time": 207.25,
+      "file": "S04-midpoint.png"
+    },
+    {
+      "label": "S05 midpoint",
+      "time": 265.9166666666667,
+      "file": "S05-midpoint.png"
+    },
+    {
+      "label": "S06 midpoint",
+      "time": 322.98333333333335,
+      "file": "S06-midpoint.png"
+    },
+    {
+      "label": "S07 midpoint",
+      "time": 382.8666666666667,
+      "file": "S07-midpoint.png"
+    },
+    {
+      "label": "S08 midpoint",
+      "time": 447.65,
+      "file": "S08-midpoint.png"
+    },
+    {
+      "label": "S09 midpoint",
+      "time": 512.6666666666666,
+      "file": "S09-midpoint.png"
+    },
+    {
+      "label": "S10 midpoint",
+      "time": 573.3,
+      "file": "S10-midpoint.png"
+    },
+    {
+      "label": "S11 midpoint",
+      "time": 635.9999999999999,
+      "file": "S11-midpoint.png"
+    },
+    {
+      "label": "S12 midpoint",
+      "time": 701.6166666666666,
+      "file": "S12-midpoint.png"
+    },
+    {
+      "label": "S13 midpoint",
+      "time": 765.0999999999999,
+      "file": "S13-midpoint.png"
+    },
+    {
+      "label": "S14 midpoint",
+      "time": 828.75,
+      "file": "S14-midpoint.png"
+    },
+    {
+      "label": "S15 midpoint",
+      "time": 892.75,
+      "file": "S15-midpoint.png"
+    },
+    {
+      "label": "S16 midpoint",
+      "time": 956.85,
+      "file": "S16-midpoint.png"
+    },
+    {
+      "label": "S17 midpoint",
+      "time": 1021.75,
+      "file": "S17-midpoint.png"
+    },
+    {
+      "label": "S18 midpoint",
+      "time": 1084.8333333333335,
+      "file": "S18-midpoint.png"
+    },
+    {
+      "label": "S19 midpoint",
+      "time": 1148.3,
+      "file": "S19-midpoint.png"
+    },
+    {
+      "label": "S20 midpoint",
+      "time": 1213.2666666666669,
+      "file": "S20-midpoint.png"
+    },
+    {
+      "label": "S21 midpoint",
+      "time": 1278.5,
+      "file": "S21-midpoint.png"
+    },
+    {
+      "label": "S22 midpoint",
+      "time": 1342.2166666666667,
+      "file": "S22-midpoint.png"
+    },
+    {
+      "label": "S23 midpoint",
+      "time": 1406.5333333333335,
+      "file": "S23-midpoint.png"
+    },
+    {
+      "label": "S24 midpoint",
+      "time": 1472.8833333333337,
+      "file": "S24-midpoint.png"
+    },
+    {
+      "label": "S25 midpoint",
+      "time": 1538.3500000000001,
+      "file": "S25-midpoint.png"
+    },
+    {
+      "label": "S26 midpoint",
+      "time": 1602.4833333333336,
+      "file": "S26-midpoint.png"
+    },
+    {
+      "label": "S27 midpoint",
+      "time": 1668.516666666667,
+      "file": "S27-midpoint.png"
+    },
+    {
+      "label": "S28 midpoint",
+      "time": 1737.6500000000005,
+      "file": "S28-midpoint.png"
+    },
+    {
+      "label": "S29 midpoint",
+      "time": 1804.366666666667,
+      "file": "S29-midpoint.png"
+    },
+    {
+      "label": "S30 midpoint",
+      "time": 1867.966666666667,
+      "file": "S30-midpoint.png"
+    },
+    {
+      "label": "S31 midpoint",
+      "time": 1931.666666666667,
+      "file": "S31-midpoint.png"
+    },
+    {
+      "label": "S32 midpoint",
+      "time": 1991.9500000000003,
+      "file": "S32-midpoint.png"
+    },
+    {
+      "label": "S33 midpoint",
+      "time": 2051.75,
+      "file": "S33-midpoint.png"
+    },
+    {
+      "label": "S34 midpoint",
+      "time": 2115.683333333334,
+      "file": "S34-midpoint.png"
+    },
+    {
+      "label": "S35 midpoint",
+      "time": 2181.616666666667,
+      "file": "S35-midpoint.png"
+    },
+    {
+      "label": "S36 midpoint",
+      "time": 2246.5333333333338,
+      "file": "S36-midpoint.png"
+    },
+    {
+      "label": "S37 midpoint",
+      "time": 2310.4000000000005,
+      "file": "S37-midpoint.png"
+    },
+    {
+      "label": "S38 midpoint",
+      "time": 2376.266666666667,
+      "file": "S38-midpoint.png"
+    },
+    {
+      "label": "S39 midpoint",
+      "time": 2442.15,
+      "file": "S39-midpoint.png"
+    },
+    {
+      "label": "S40 midpoint",
+      "time": 2506.816666666667,
+      "file": "S40-midpoint.png"
+    },
+    {
+      "label": "S41 midpoint",
+      "time": 2570.1333333333337,
+      "file": "S41-midpoint.png"
+    },
+    {
+      "label": "S42 midpoint",
+      "time": 2632.0833333333335,
+      "file": "S42-midpoint.png"
+    },
+    {
+      "label": "S43 midpoint",
+      "time": 2696.5166666666673,
+      "file": "S43-midpoint.png"
+    },
+    {
+      "label": "S44 midpoint",
+      "time": 2761.8666666666672,
+      "file": "S44-midpoint.png"
+    },
+    {
+      "label": "S45 midpoint",
+      "time": 2825.9,
+      "file": "S45-midpoint.png"
+    },
+    {
+      "label": "S46 midpoint",
+      "time": 2891.433333333334,
+      "file": "S46-midpoint.png"
+    },
+    {
+      "label": "S47 midpoint",
+      "time": 2958.066666666667,
+      "file": "S47-midpoint.png"
+    },
+    {
+      "label": "S48 midpoint",
+      "time": 3027.05,
+      "file": "S48-midpoint.png"
+    },
+    {
+      "label": "S49 midpoint",
+      "time": 3096.4500000000003,
+      "file": "S49-midpoint.png"
+    },
+    {
+      "label": "S50 midpoint",
+      "time": 3163.216666666667,
+      "file": "S50-midpoint.png"
+    },
+    {
+      "label": "S51 midpoint",
+      "time": 3230.9,
+      "file": "S51-midpoint.png"
+    },
+    {
+      "label": "S52 midpoint",
+      "time": 3298.166666666667,
+      "file": "S52-midpoint.png"
+    },
+    {
+      "label": "S53 midpoint",
+      "time": 3366.2833333333338,
+      "file": "S53-midpoint.png"
+    },
+    {
+      "label": "S54 midpoint",
+      "time": 3447.683333333334,
+      "file": "S54-midpoint.png"
+    },
+    {
+      "label": "S55 midpoint",
+      "time": 3544.350000000001,
+      "file": "S55-midpoint.png"
+    },
+    {
+      "label": "S56 midpoint",
+      "time": 3645.6833333333343,
+      "file": "S56-midpoint.png"
+    },
+    {
+      "label": "S57 midpoint",
+      "time": 3752.4500000000007,
+      "file": "S57-midpoint.png"
+    },
+    {
+      "label": "S58 midpoint",
+      "time": 3844.0500000000006,
+      "file": "S58-midpoint.png"
+    },
+    {
+      "label": "C01 first",
+      "time": 0.1,
+      "file": "C01-first.png"
+    },
+    {
+      "label": "C01 middle",
+      "time": 119.05000000000001,
+      "file": "C01-middle.png"
+    },
+    {
+      "label": "C01 last",
+      "time": 238.00000000000003,
+      "file": "C01-last.png"
+    },
+    {
+      "label": "C02 first",
+      "time": 238.20000000000002,
+      "file": "C02-first.png"
+    },
+    {
+      "label": "C02 middle",
+      "time": 390.8166666666667,
+      "file": "C02-middle.png"
+    },
+    {
+      "label": "C02 last",
+      "time": 543.4333333333333,
+      "file": "C02-last.png"
+    },
+    {
+      "label": "C03 first",
+      "time": 543.6333333333333,
+      "file": "C03-first.png"
+    },
+    {
+      "label": "C03 middle",
+      "time": 766.6666666666666,
+      "file": "C03-middle.png"
+    },
+    {
+      "label": "C03 last",
+      "time": 989.6999999999999,
+      "file": "C03-last.png"
+    },
+    {
+      "label": "C04 first",
+      "time": 989.9,
+      "file": "C04-first.png"
+    },
+    {
+      "label": "C04 middle",
+      "time": 1150.4499999999998,
+      "file": "C04-middle.png"
+    },
+    {
+      "label": "C04 last",
+      "time": 1311.0,
+      "file": "C04-last.png"
+    },
+    {
+      "label": "C05 first",
+      "time": 1311.2,
+      "file": "C05-first.png"
+    },
+    {
+      "label": "C05 middle",
+      "time": 1472.7,
+      "file": "C05-middle.png"
+    },
+    {
+      "label": "C05 last",
+      "time": 1634.2000000000003,
+      "file": "C05-last.png"
+    },
+    {
+      "label": "C06 first",
+      "time": 1634.4000000000003,
+      "file": "C06-first.png"
+    },
+    {
+      "label": "C06 middle",
+      "time": 1827.316666666667,
+      "file": "C06-middle.png"
+    },
+    {
+      "label": "C06 last",
+      "time": 2020.2333333333338,
+      "file": "C06-last.png"
+    },
+    {
+      "label": "C07 first",
+      "time": 2020.4333333333334,
+      "file": "C07-first.png"
+    },
+    {
+      "label": "C07 middle",
+      "time": 2215.05,
+      "file": "C07-middle.png"
+    },
+    {
+      "label": "C07 last",
+      "time": 2409.666666666667,
+      "file": "C07-last.png"
+    },
+    {
+      "label": "C08 first",
+      "time": 2409.866666666667,
+      "file": "C08-first.png"
+    },
+    {
+      "label": "C08 middle",
+      "time": 2569.9,
+      "file": "C08-middle.png"
+    },
+    {
+      "label": "C08 last",
+      "time": 2729.933333333334,
+      "file": "C08-last.png"
+    },
+    {
+      "label": "C09 first",
+      "time": 2730.1333333333337,
+      "file": "C09-first.png"
+    },
+    {
+      "label": "C09 middle",
+      "time": 2896.3833333333337,
+      "file": "C09-middle.png"
+    },
+    {
+      "label": "C09 last",
+      "time": 3062.6333333333337,
+      "file": "C09-last.png"
+    },
+    {
+      "label": "C10 first",
+      "time": 3062.8333333333335,
+      "file": "C10-first.png"
+    },
+    {
+      "label": "C10 middle",
+      "time": 3232.25,
+      "file": "C10-middle.png"
+    },
+    {
+      "label": "C10 last",
+      "time": 3401.666666666667,
+      "file": "C10-last.png"
+    },
+    {
+      "label": "C11 first",
+      "time": 3401.8666666666672,
+      "file": "C11-first.png"
+    },
+    {
+      "label": "C11 middle",
+      "time": 3640.6166666666672,
+      "file": "C11-middle.png"
+    },
+    {
+      "label": "C11 last",
+      "time": 3879.3666666666672,
+      "file": "C11-last.png"
+    },
+    {
+      "label": "Q1 silent pause",
+      "time": 3418.7872916666674,
+      "file": "quiz-01-pause.png"
+    },
+    {
+      "label": "Q2 silent pause",
+      "time": 3465.631791666667,
+      "file": "quiz-02-pause.png"
+    },
+    {
+      "label": "Q3 silent pause",
+      "time": 3515.585375000001,
+      "file": "quiz-03-pause.png"
+    },
+    {
+      "label": "Q4 silent pause",
+      "time": 3564.1638750000006,
+      "file": "quiz-04-pause.png"
+    },
+    {
+      "label": "Q5 silent pause",
+      "time": 3618.813583333334,
+      "file": "quiz-05-pause.png"
+    },
+    {
+      "label": "Q6 silent pause",
+      "time": 3667.4097916666674,
+      "file": "quiz-06-pause.png"
+    },
+    {
+      "label": "Q7 silent pause",
+      "time": 3724.1187500000005,
+      "file": "quiz-07-pause.png"
+    },
+    {
+      "label": "Q8 silent pause",
+      "time": 3778.8608750000008,
+      "file": "quiz-08-pause.png"
+    },
+    {
+      "label": "Q1 before",
+      "time": 3418.2372916666673,
+      "file": "quiz-01-before.png"
+    },
+    {
+      "label": "Q1 answer",
+      "time": 3419.7372916666673,
+      "file": "quiz-01-answer.png"
+    },
+    {
+      "label": "Q2 before",
+      "time": 3465.081791666667,
+      "file": "quiz-02-before.png"
+    },
+    {
+      "label": "Q2 answer",
+      "time": 3466.581791666667,
+      "file": "quiz-02-answer.png"
+    },
+    {
+      "label": "Q3 before",
+      "time": 3515.035375000001,
+      "file": "quiz-03-before.png"
+    },
+    {
+      "label": "Q3 answer",
+      "time": 3516.535375000001,
+      "file": "quiz-03-answer.png"
+    },
+    {
+      "label": "Q4 before",
+      "time": 3563.6138750000005,
+      "file": "quiz-04-before.png"
+    },
+    {
+      "label": "Q4 answer",
+      "time": 3565.1138750000005,
+      "file": "quiz-04-answer.png"
+    },
+    {
+      "label": "Q5 before",
+      "time": 3618.263583333334,
+      "file": "quiz-05-before.png"
+    },
+    {
+      "label": "Q5 answer",
+      "time": 3619.763583333334,
+      "file": "quiz-05-answer.png"
+    },
+    {
+      "label": "Q6 before",
+      "time": 3666.859791666667,
+      "file": "quiz-06-before.png"
+    },
+    {
+      "label": "Q6 answer",
+      "time": 3668.359791666667,
+      "file": "quiz-06-answer.png"
+    },
+    {
+      "label": "Q7 before",
+      "time": 3723.5687500000004,
+      "file": "quiz-07-before.png"
+    },
+    {
+      "label": "Q7 answer",
+      "time": 3725.0687500000004,
+      "file": "quiz-07-answer.png"
+    },
+    {
+      "label": "Q8 before",
+      "time": 3778.3108750000006,
+      "file": "quiz-08-before.png"
+    },
+    {
+      "label": "Q8 answer",
+      "time": 3779.8108750000006,
+      "file": "quiz-08-answer.png"
+    }
+  ],
+  "quiz_silence": [
+    {
+      "scene": "S54",
+      "start": 3418.2872916666674,
+      "end": 3419.2872916666674,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 1.2965610949322581e-05,
+      "full_window_rms": 3.6064065511709487e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S54",
+      "start": 3465.131791666667,
+      "end": 3466.131791666667,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 2.652627881616354e-05,
+      "full_window_rms": 3.298542026186624e-07,
+      "nonzero_channel_samples": 7936,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S55",
+      "start": 3515.085375000001,
+      "end": 3516.085375000001,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 1.5687888662796468e-05,
+      "full_window_rms": 1.8802244028393034e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S55",
+      "start": 3563.6638750000006,
+      "end": 3564.6638750000006,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 2.1073761672596447e-05,
+      "full_window_rms": 3.218155768536235e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S56",
+      "start": 3618.313583333334,
+      "end": 3619.313583333334,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 1.5152862943068612e-05,
+      "full_window_rms": 2.5120147029156215e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S56",
+      "start": 3666.9097916666674,
+      "end": 3667.9097916666674,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 2.5597011699574068e-05,
+      "full_window_rms": 3.1293268420995446e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S57",
+      "start": 3723.6187500000005,
+      "end": 3724.6187500000005,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 1.583248558745254e-05,
+      "full_window_rms": 1.9872459233738482e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S57",
+      "start": 3778.3608750000008,
+      "end": 3779.3608750000008,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 2.2586982595385052e-05,
+      "full_window_rms": 2.8618876513064606e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    }
+  ],
+  "elapsed_seconds": 105.76911835602368,
+  "scope": "Encoded samples require visual inspection; waveform/ASR checks do not constitute human end-to-end listening."
+}

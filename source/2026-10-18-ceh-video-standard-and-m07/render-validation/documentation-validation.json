@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "markdown_files": 30,
+  "relative_links_checked": 600,
+  "new_link_failures": 0,
+  "inherited_unavailable_links": 19,
+  "planning_repository_validation": "passed",
+  "planning_grandfathered_warnings": 44,
+  "new_policy_warnings": 0,
+  "knowledge_metadata_notes": 181,
+  "knowledge_catalog_entries": 181,
+  "git_diff_check": "passed_both_repos",
+  "copied_QA_hashes_verified": 41,
+  "local_delivery_manifest_entries_verified": 5863,
+  "M05_M06_master_hashes": "unchanged",
+  "publication": "pending_actual_push",
+  "scope": "M07 documentation and evidence closeout; unrelated dirty AURA work excluded from staging."
+}

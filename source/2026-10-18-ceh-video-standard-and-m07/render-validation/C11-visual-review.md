@@ -1,0 +1,3 @@
+# C11 visual review
+
+Inspected all 13 actual chapter snapshots covering five scene midpoints and eight quiz holds, all eight direct answer states, and the final S58 capstone frame. Full prompts and A-D options fit the measured layout; the clock displays1 during each hold, the answer is hidden until the end, and the correct option/banner appear afterwards. All64 actual-timeline assertions pass, including exact boundaries and backward seeks. Captions clear the cards; the pause guide is retained for learners who need longer thinking. Final capstone adds all four deliverables without marking learner completion. Actual encoded quiz samples and AAC windows remain a separate gate.

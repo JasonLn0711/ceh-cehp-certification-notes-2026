@@ -1,0 +1,3 @@
+# C03 visual review
+
+Inspected all seven chapter midpoint snapshots and all seven late reasoning frames. Family roles use host replication, autonomous propagation, hidden function, controller coordination, information transfer and view concealment as distinct mechanisms. S13 endpoint-evidence label was raised above the first laptop; S15 system-view card was raised clear of the evidence panel. The multi-axis S16 diagram preserves uncertainty. Tally, Northstar, headers and caption lanes are visible in the direct frames. Runtime checks pass; actual encoded sampling and full human acceptance remain separate.

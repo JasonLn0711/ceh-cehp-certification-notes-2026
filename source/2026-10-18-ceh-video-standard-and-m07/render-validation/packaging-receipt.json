@@ -1,0 +1,9 @@
+{
+  "status": "editable_zip_crc_extraction_hashes_verified",
+  "zip": "CEH_M07_Malware_Threats_v1_0_EDITABLE.zip",
+  "bytes": 3037443862,
+  "entries": 5365,
+  "payload_hashes": 5364,
+  "sha256": "0b6a44c27f86882566274e7ea6dc7dd449361b23e11d9c6443834fb0d1727772",
+  "scope": "All editable payloads were extracted and hash checked; environments/caches excluded. Final media remain outside the archive."
+}

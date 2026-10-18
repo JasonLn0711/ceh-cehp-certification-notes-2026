@@ -1,0 +1,61 @@
+{
+  "status": "passed_with_disclosed_AAC_boundary_residue",
+  "holds": [
+    {
+      "scene": "S54",
+      "chapter_local_start": 16.52062500000011,
+      "decoded_frames": 48000,
+      "full_peak": 1.5249866919475608e-05,
+      "nonzero_channel_samples": 5888
+    },
+    {
+      "scene": "S54",
+      "chapter_local_start": 63.36512499999981,
+      "decoded_frames": 48000,
+      "full_peak": 2.5906681912601925e-05,
+      "nonzero_channel_samples": 5888
+    },
+    {
+      "scene": "S55",
+      "chapter_local_start": 113.31870833333369,
+      "decoded_frames": 48000,
+      "full_peak": 1.9723489458556287e-05,
+      "nonzero_channel_samples": 5888
+    },
+    {
+      "scene": "S55",
+      "chapter_local_start": 161.8972083333333,
+      "decoded_frames": 48000,
+      "full_peak": 2.4841827325872146e-05,
+      "nonzero_channel_samples": 5888
+    },
+    {
+      "scene": "S56",
+      "chapter_local_start": 216.54691666666668,
+      "decoded_frames": 48000,
+      "full_peak": 1.4877152352710254e-05,
+      "nonzero_channel_samples": 5888
+    },
+    {
+      "scene": "S56",
+      "chapter_local_start": 265.14312500000005,
+      "decoded_frames": 48000,
+      "full_peak": 2.3777820388204418e-05,
+      "nonzero_channel_samples": 5888
+    },
+    {
+      "scene": "S57",
+      "chapter_local_start": 321.8520833333332,
+      "decoded_frames": 48000,
+      "full_peak": 1.7096434021368623e-05,
+      "nonzero_channel_samples": 5888
+    },
+    {
+      "scene": "S57",
+      "chapter_local_start": 376.5942083333334,
+      "decoded_frames": 48000,
+      "full_peak": 2.393701288383454e-05,
+      "nonzero_channel_samples": 5888
+    }
+  ]
+}

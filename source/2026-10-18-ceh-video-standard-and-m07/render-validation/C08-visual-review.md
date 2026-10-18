@@ -1,0 +1,3 @@
+# C08 visual review
+
+Inspected five chapter midpoint snapshots and five final reasoning captures, plus a fresh-browser S39 scene frame. The three detector approaches retain separate mechanisms; four AV/EDR roles are distinct; IOC/IOA context and all four false-result quadrants remain readable. The S39 cards were raised to leave a gap above the concluding panel. Tally/campus/stamp opacity is one in all direct late frames, and the fresh-browser S39 image visibly confirms them; the multi-capture raster anomaly remains documented. Browser runtime/layout/motion/contrast checks pass. Actual encoded scene samples remain required.

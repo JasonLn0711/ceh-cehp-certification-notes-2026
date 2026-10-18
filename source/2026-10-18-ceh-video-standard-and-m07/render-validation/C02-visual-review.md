@@ -1,0 +1,3 @@
+# C02 visual review
+
+Inspected all five actual chapter midpoint snapshots. File-to-process flow, hash identity boundary, provenance questions, scoped analysis and the four-column evidence notebook are distinct. Tally and Northstar retain their inherited appearance; headers, cues and captions have clear lanes. S08 introduces preservation during its own measured narration phase; midpoint visibility is intentionally partial. Runtime/layout/motion/contrast checks pass. C01 encoded S03 was also inspected to resolve the snapshot-only missing-common-layer anomaly; its actual MP4 contains all common layers. Final encoded samples remain a separate gate. This is sampled visual inspection, not full human listening or end-to-end acceptance.

@@ -1,0 +1,3 @@
+# C01 visual review
+
+Inspected all four actual scene midpoint snapshots. S01 preserves the access/execution evidence boundary with a native drawn route; S02 uses four separate classification questions; S03 was corrected after the initial full-atlas preview crowded its labels and route. Its final focused atlas retains ANALYST, STAFF and SMB at their inherited anchors and shows the source address/domain context without inferring access. Original Tally, paper palette, chapter/title hierarchy and caption clearance are visible. S04 keeps the authorized review boundary separate from later questions. The final C01 runtime/layout/motion/contrast check passes. This is sampled composition inspection, not full human film/listening acceptance.

@@ -1,0 +1,3 @@
+# C05 visual review
+
+Inspected all five chapter midpoint snapshots and all five late-reasoning frames through direct native GSAP seeking. Encryption, possible theft and extortion remain separate paths; local cache impact is distinct from SMB uncertainty. Four prevention controls are independent. S25 recovery-copy card was raised to clear the concluding evidence panel; its final direct frame has separate recovery test and RPO/RTO cards. S26 adds all four containment/rebuild/restore/verify steps. Tally, campus, simulation stamp and inherited palette are intact in fresh direct frames. Runtime checks pass. Actual encoded samples and full human acceptance remain separate gates.
