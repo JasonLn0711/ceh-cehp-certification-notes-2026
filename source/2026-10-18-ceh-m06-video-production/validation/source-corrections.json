@@ -1,0 +1,19 @@
+{
+  "changes": [
+    {
+      "scene": "S46",
+      "before": "It appeared ten minutes after the portal login.",
+      "after": "It appeared twenty-two minutes after the portal login.",
+      "evidence": "case/NORTHSTAR_EVIDENCE.json E03 10:04 -> E06 10:26 (22 minutes); source original preserved under inputs.",
+      "reason": "Factual chronology correction under approved technical-QA plan; no other narration changes."
+    },
+    {
+      "scene": "S47",
+      "before": "local event records are missing for part of the afternoon",
+      "after": "local event records are missing for part of the morning",
+      "evidence": "E07/E08 timestamps10:33/10:34 UTC+08 in supplied NORTHSTAR_EVIDENCE.json; source input remains unchanged.",
+      "reason": "Align narrated time-of-day with the fictional record timestamps."
+    }
+  ],
+  "working_scenes_sha256": "fb67454d7b5033e713fe104f1f6f4e558b7c1692b91be980e54c32d999328179"
+}

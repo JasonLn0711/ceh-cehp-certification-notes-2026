@@ -1,0 +1,708 @@
+{
+  "status": "automated_encoded_artifact_checks_passed",
+  "duration": 3487.5000000000005,
+  "frames": 104625,
+  "decoded_entire_master": true,
+  "black_intervals": 0,
+  "sampled_frames": [
+    {
+      "label": "S01 midpoint",
+      "time": 29.866666666666667,
+      "file": "S01-midpoint.png"
+    },
+    {
+      "label": "S02 midpoint",
+      "time": 86.98333333333333,
+      "file": "S02-midpoint.png"
+    },
+    {
+      "label": "S03 midpoint",
+      "time": 142.51666666666668,
+      "file": "S03-midpoint.png"
+    },
+    {
+      "label": "S04 midpoint",
+      "time": 200.43333333333334,
+      "file": "S04-midpoint.png"
+    },
+    {
+      "label": "S05 midpoint",
+      "time": 259.06666666666666,
+      "file": "S05-midpoint.png"
+    },
+    {
+      "label": "S06 midpoint",
+      "time": 315.71666666666664,
+      "file": "S06-midpoint.png"
+    },
+    {
+      "label": "S07 midpoint",
+      "time": 371.76666666666665,
+      "file": "S07-midpoint.png"
+    },
+    {
+      "label": "S08 midpoint",
+      "time": 428.58333333333337,
+      "file": "S08-midpoint.png"
+    },
+    {
+      "label": "S09 midpoint",
+      "time": 486.1,
+      "file": "S09-midpoint.png"
+    },
+    {
+      "label": "S10 midpoint",
+      "time": 546.6333333333333,
+      "file": "S10-midpoint.png"
+    },
+    {
+      "label": "S11 midpoint",
+      "time": 610.0166666666668,
+      "file": "S11-midpoint.png"
+    },
+    {
+      "label": "S12 midpoint",
+      "time": 672.75,
+      "file": "S12-midpoint.png"
+    },
+    {
+      "label": "S13 midpoint",
+      "time": 735.9666666666667,
+      "file": "S13-midpoint.png"
+    },
+    {
+      "label": "S14 midpoint",
+      "time": 799.3833333333334,
+      "file": "S14-midpoint.png"
+    },
+    {
+      "label": "S15 midpoint",
+      "time": 859.2500000000001,
+      "file": "S15-midpoint.png"
+    },
+    {
+      "label": "S16 midpoint",
+      "time": 918.4833333333335,
+      "file": "S16-midpoint.png"
+    },
+    {
+      "label": "S17 midpoint",
+      "time": 977.9500000000002,
+      "file": "S17-midpoint.png"
+    },
+    {
+      "label": "S18 midpoint",
+      "time": 1037.3666666666668,
+      "file": "S18-midpoint.png"
+    },
+    {
+      "label": "S19 midpoint",
+      "time": 1097.1833333333334,
+      "file": "S19-midpoint.png"
+    },
+    {
+      "label": "S20 midpoint",
+      "time": 1156.3833333333334,
+      "file": "S20-midpoint.png"
+    },
+    {
+      "label": "S21 midpoint",
+      "time": 1215.2333333333333,
+      "file": "S21-midpoint.png"
+    },
+    {
+      "label": "S22 midpoint",
+      "time": 1276.5333333333333,
+      "file": "S22-midpoint.png"
+    },
+    {
+      "label": "S23 midpoint",
+      "time": 1339.3166666666666,
+      "file": "S23-midpoint.png"
+    },
+    {
+      "label": "S24 midpoint",
+      "time": 1398.2999999999997,
+      "file": "S24-midpoint.png"
+    },
+    {
+      "label": "S25 midpoint",
+      "time": 1456.1499999999999,
+      "file": "S25-midpoint.png"
+    },
+    {
+      "label": "S26 midpoint",
+      "time": 1515.8999999999999,
+      "file": "S26-midpoint.png"
+    },
+    {
+      "label": "S27 midpoint",
+      "time": 1577.6666666666665,
+      "file": "S27-midpoint.png"
+    },
+    {
+      "label": "S28 midpoint",
+      "time": 1641.6833333333332,
+      "file": "S28-midpoint.png"
+    },
+    {
+      "label": "S29 midpoint",
+      "time": 1704.6999999999998,
+      "file": "S29-midpoint.png"
+    },
+    {
+      "label": "S30 midpoint",
+      "time": 1765.083333333333,
+      "file": "S30-midpoint.png"
+    },
+    {
+      "label": "S31 midpoint",
+      "time": 1822.2499999999998,
+      "file": "S31-midpoint.png"
+    },
+    {
+      "label": "S32 midpoint",
+      "time": 1881.7833333333333,
+      "file": "S32-midpoint.png"
+    },
+    {
+      "label": "S33 midpoint",
+      "time": 1943.0166666666667,
+      "file": "S33-midpoint.png"
+    },
+    {
+      "label": "S34 midpoint",
+      "time": 2003.4166666666667,
+      "file": "S34-midpoint.png"
+    },
+    {
+      "label": "S35 midpoint",
+      "time": 2065.0833333333335,
+      "file": "S35-midpoint.png"
+    },
+    {
+      "label": "S36 midpoint",
+      "time": 2126.7000000000003,
+      "file": "S36-midpoint.png"
+    },
+    {
+      "label": "S37 midpoint",
+      "time": 2189.25,
+      "file": "S37-midpoint.png"
+    },
+    {
+      "label": "S38 midpoint",
+      "time": 2250.0,
+      "file": "S38-midpoint.png"
+    },
+    {
+      "label": "S39 midpoint",
+      "time": 2309.383333333333,
+      "file": "S39-midpoint.png"
+    },
+    {
+      "label": "S40 midpoint",
+      "time": 2367.883333333333,
+      "file": "S40-midpoint.png"
+    },
+    {
+      "label": "S41 midpoint",
+      "time": 2425.7166666666667,
+      "file": "S41-midpoint.png"
+    },
+    {
+      "label": "S42 midpoint",
+      "time": 2487.15,
+      "file": "S42-midpoint.png"
+    },
+    {
+      "label": "S43 midpoint",
+      "time": 2549.7166666666667,
+      "file": "S43-midpoint.png"
+    },
+    {
+      "label": "S44 midpoint",
+      "time": 2608.7,
+      "file": "S44-midpoint.png"
+    },
+    {
+      "label": "S45 midpoint",
+      "time": 2666.0833333333335,
+      "file": "S45-midpoint.png"
+    },
+    {
+      "label": "S46 midpoint",
+      "time": 2723.0833333333335,
+      "file": "S46-midpoint.png"
+    },
+    {
+      "label": "S47 midpoint",
+      "time": 2780.3166666666666,
+      "file": "S47-midpoint.png"
+    },
+    {
+      "label": "S48 midpoint",
+      "time": 2841.016666666667,
+      "file": "S48-midpoint.png"
+    },
+    {
+      "label": "S49 midpoint",
+      "time": 2904.9833333333336,
+      "file": "S49-midpoint.png"
+    },
+    {
+      "label": "S50 midpoint",
+      "time": 2968.9333333333334,
+      "file": "S50-midpoint.png"
+    },
+    {
+      "label": "S51 midpoint",
+      "time": 3031.6000000000004,
+      "file": "S51-midpoint.png"
+    },
+    {
+      "label": "S52 midpoint",
+      "time": 3094.516666666667,
+      "file": "S52-midpoint.png"
+    },
+    {
+      "label": "S53 midpoint",
+      "time": 3156.333333333334,
+      "file": "S53-midpoint.png"
+    },
+    {
+      "label": "S54 midpoint",
+      "time": 3209.933333333334,
+      "file": "S54-midpoint.png"
+    },
+    {
+      "label": "S55 midpoint",
+      "time": 3262.9333333333334,
+      "file": "S55-midpoint.png"
+    },
+    {
+      "label": "S56 midpoint",
+      "time": 3323.3833333333337,
+      "file": "S56-midpoint.png"
+    },
+    {
+      "label": "S57 midpoint",
+      "time": 3386.3500000000004,
+      "file": "S57-midpoint.png"
+    },
+    {
+      "label": "S58 midpoint",
+      "time": 3452.8,
+      "file": "S58-midpoint.png"
+    },
+    {
+      "label": "C01 first",
+      "time": 0.1,
+      "file": "C01-first.png"
+    },
+    {
+      "label": "C01 middle",
+      "time": 85.4,
+      "file": "C01-middle.png"
+    },
+    {
+      "label": "C01 last",
+      "time": 170.70000000000002,
+      "file": "C01-last.png"
+    },
+    {
+      "label": "C02 first",
+      "time": 170.9,
+      "file": "C02-first.png"
+    },
+    {
+      "label": "C02 middle",
+      "time": 313.9,
+      "file": "C02-middle.png"
+    },
+    {
+      "label": "C02 last",
+      "time": 456.9,
+      "file": "C02-last.png"
+    },
+    {
+      "label": "C03 first",
+      "time": 457.1,
+      "file": "C03-first.png"
+    },
+    {
+      "label": "C03 middle",
+      "time": 643.6833333333334,
+      "file": "C03-middle.png"
+    },
+    {
+      "label": "C03 last",
+      "time": 830.2666666666667,
+      "file": "C03-last.png"
+    },
+    {
+      "label": "C04 first",
+      "time": 830.4666666666668,
+      "file": "C04-first.png"
+    },
+    {
+      "label": "C04 middle",
+      "time": 978.5333333333334,
+      "file": "C04-middle.png"
+    },
+    {
+      "label": "C04 last",
+      "time": 1126.6000000000001,
+      "file": "C04-last.png"
+    },
+    {
+      "label": "C05 first",
+      "time": 1126.8,
+      "file": "C05-first.png"
+    },
+    {
+      "label": "C05 middle",
+      "time": 1306.1833333333334,
+      "file": "C05-middle.png"
+    },
+    {
+      "label": "C05 last",
+      "time": 1485.5666666666668,
+      "file": "C05-last.png"
+    },
+    {
+      "label": "C06 first",
+      "time": 1485.7666666666664,
+      "file": "C06-first.png"
+    },
+    {
+      "label": "C06 middle",
+      "time": 1667.6166666666666,
+      "file": "C06-middle.png"
+    },
+    {
+      "label": "C06 last",
+      "time": 1849.4666666666667,
+      "file": "C06-last.png"
+    },
+    {
+      "label": "C07 first",
+      "time": 1849.6666666666665,
+      "file": "C07-first.png"
+    },
+    {
+      "label": "C07 middle",
+      "time": 2003.8,
+      "file": "C07-middle.png"
+    },
+    {
+      "label": "C07 last",
+      "time": 2157.9333333333334,
+      "file": "C07-last.png"
+    },
+    {
+      "label": "C08 first",
+      "time": 2158.133333333333,
+      "file": "C08-first.png"
+    },
+    {
+      "label": "C08 middle",
+      "time": 2338.7166666666667,
+      "file": "C08-middle.png"
+    },
+    {
+      "label": "C08 last",
+      "time": 2519.3,
+      "file": "C08-last.png"
+    },
+    {
+      "label": "C09 first",
+      "time": 2519.5,
+      "file": "C09-first.png"
+    },
+    {
+      "label": "C09 middle",
+      "time": 2696.0833333333335,
+      "file": "C09-middle.png"
+    },
+    {
+      "label": "C09 last",
+      "time": 2872.666666666667,
+      "file": "C09-last.png"
+    },
+    {
+      "label": "C10 first",
+      "time": 2872.866666666667,
+      "file": "C10-first.png"
+    },
+    {
+      "label": "C10 middle",
+      "time": 3029.4666666666667,
+      "file": "C10-middle.png"
+    },
+    {
+      "label": "C10 last",
+      "time": 3186.066666666667,
+      "file": "C10-last.png"
+    },
+    {
+      "label": "C11 first",
+      "time": 3186.266666666667,
+      "file": "C11-first.png"
+    },
+    {
+      "label": "C11 middle",
+      "time": 3336.8333333333335,
+      "file": "C11-middle.png"
+    },
+    {
+      "label": "C11 last",
+      "time": 3487.4000000000005,
+      "file": "C11-last.png"
+    },
+    {
+      "label": "Q1 silent pause",
+      "time": 3204.4311250000005,
+      "file": "quiz-01-pause.png"
+    },
+    {
+      "label": "Q2 silent pause",
+      "time": 3223.2813750000005,
+      "file": "quiz-02-pause.png"
+    },
+    {
+      "label": "Q3 silent pause",
+      "time": 3255.481,
+      "file": "quiz-03-pause.png"
+    },
+    {
+      "label": "Q4 silent pause",
+      "time": 3282.7652500000004,
+      "file": "quiz-04-pause.png"
+    },
+    {
+      "label": "Q5 silent pause",
+      "time": 3314.62825,
+      "file": "quiz-05-pause.png"
+    },
+    {
+      "label": "Q6 silent pause",
+      "time": 3343.925916666667,
+      "file": "quiz-06-pause.png"
+    },
+    {
+      "label": "Q7 silent pause",
+      "time": 3375.632041666667,
+      "file": "quiz-07-pause.png"
+    },
+    {
+      "label": "Q8 silent pause",
+      "time": 3407.6717083333338,
+      "file": "quiz-08-pause.png"
+    },
+    {
+      "label": "Q1 before",
+      "time": 3203.8811250000003,
+      "file": "quiz-01-before.png"
+    },
+    {
+      "label": "Q1 answer",
+      "time": 3205.3811250000003,
+      "file": "quiz-01-answer.png"
+    },
+    {
+      "label": "Q2 before",
+      "time": 3222.7313750000003,
+      "file": "quiz-02-before.png"
+    },
+    {
+      "label": "Q2 answer",
+      "time": 3224.2313750000003,
+      "file": "quiz-02-answer.png"
+    },
+    {
+      "label": "Q3 before",
+      "time": 3254.931,
+      "file": "quiz-03-before.png"
+    },
+    {
+      "label": "Q3 answer",
+      "time": 3256.431,
+      "file": "quiz-03-answer.png"
+    },
+    {
+      "label": "Q4 before",
+      "time": 3282.21525,
+      "file": "quiz-04-before.png"
+    },
+    {
+      "label": "Q4 answer",
+      "time": 3283.71525,
+      "file": "quiz-04-answer.png"
+    },
+    {
+      "label": "Q5 before",
+      "time": 3314.07825,
+      "file": "quiz-05-before.png"
+    },
+    {
+      "label": "Q5 answer",
+      "time": 3315.57825,
+      "file": "quiz-05-answer.png"
+    },
+    {
+      "label": "Q6 before",
+      "time": 3343.375916666667,
+      "file": "quiz-06-before.png"
+    },
+    {
+      "label": "Q6 answer",
+      "time": 3344.875916666667,
+      "file": "quiz-06-answer.png"
+    },
+    {
+      "label": "Q7 before",
+      "time": 3375.082041666667,
+      "file": "quiz-07-before.png"
+    },
+    {
+      "label": "Q7 answer",
+      "time": 3376.582041666667,
+      "file": "quiz-07-answer.png"
+    },
+    {
+      "label": "Q8 before",
+      "time": 3407.1217083333336,
+      "file": "quiz-08-before.png"
+    },
+    {
+      "label": "Q8 answer",
+      "time": 3408.6217083333336,
+      "file": "quiz-08-answer.png"
+    }
+  ],
+  "quiz_silence": [
+    {
+      "scene": "S54",
+      "start": 3203.9311250000005,
+      "end": 3204.9311250000005,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 5.3426442718773615e-06,
+      "full_window_rms": 2.2243214914396958e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S54",
+      "start": 3222.7813750000005,
+      "end": 3223.7813750000005,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 2.079067962768022e-05,
+      "full_window_rms": 3.370835202076705e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S55",
+      "start": 3254.981,
+      "end": 3255.981,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 2.3907979993964545e-05,
+      "full_window_rms": 3.2533142757529276e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S55",
+      "start": 3282.2652500000004,
+      "end": 3283.2652500000004,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 2.168920764233917e-05,
+      "full_window_rms": 3.234931682527531e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S56",
+      "start": 3314.12825,
+      "end": 3315.12825,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 2.1201449271757156e-05,
+      "full_window_rms": 3.0866155498188164e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S56",
+      "start": 3343.425916666667,
+      "end": 3344.425916666667,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 2.301835957041476e-05,
+      "full_window_rms": 3.070492766710231e-07,
+      "nonzero_channel_samples": 7936,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S57",
+      "start": 3375.132041666667,
+      "end": 3376.132041666667,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 2.1955478587187827e-05,
+      "full_window_rms": 3.0608140377808013e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    },
+    {
+      "scene": "S57",
+      "start": 3407.1717083333338,
+      "end": 3408.1717083333338,
+      "samples": 48000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "channels": 2,
+      "full_window_peak": 6.938556907698512e-06,
+      "full_window_rms": 2.278710269365547e-07,
+      "nonzero_channel_samples": 5888,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0,
+      "acceptance": "digital-zero PCM; decoded AAC boundary residue disclosed"
+    }
+  ],
+  "elapsed_seconds": 93.56043859900092,
+  "scope": "Encoded samples require visual inspection; waveform/ASR checks do not constitute human end-to-end listening."
+}

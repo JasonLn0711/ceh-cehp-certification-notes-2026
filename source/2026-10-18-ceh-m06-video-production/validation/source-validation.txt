@@ -1,0 +1,1 @@
+PASS: 1065 source checks, 0 failures; 11 chapters; 58 scenes; 8,969 spoken words; 18 native slides; 8 x 1.000s true digital-zero silence; narration-only 1.5x; final MP4 NOT rendered.

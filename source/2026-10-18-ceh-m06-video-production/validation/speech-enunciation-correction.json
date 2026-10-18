@@ -1,0 +1,22 @@
+{
+  "scene": "S56",
+  "sentence": 13,
+  "canonical": "What should the team conclude?",
+  "synthesis_text": "What, should the team conclude?",
+  "reason": "Two independent unprompted recognizers merged What should into Watch. A brief synthesis punctuation break separates those words; canonical script and captions unchanged.",
+  "changed_spoken_clip_indices": [
+    13
+  ],
+  "unchanged_other_spoken_clips": 20,
+  "baseline_speed": 0.73,
+  "atempo_applications": 1,
+  "atempo": 1.5,
+  "before_scene_duration": 62.266666666666666,
+  "after_scene_duration": 62.43333333333333,
+  "final_clip_sha256": "e83f58ffd503fce0e475221effa6e3c881c3241f939846c0ca89aa972c1b17d9",
+  "candidate_diagnostic_matches_final_bytes": true,
+  "source_pcm_hold_frames": [
+    48000,
+    48000
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "method": "Unprompted local beam5 on individually selected final clips; diagnostic only",
+  "model": "/home/jnlngx10/Videos/CEH_M05_v1/qa/model-cache/models--Systran--faster-whisper-small.en/snapshots/d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+  "results": [
+    {
+      "scene": "S56",
+      "sentence": 13,
+      "canonical": "What should the team conclude?",
+      "recognized": "What should the team conclude?",
+      "audio_sha256": "e83f58ffd503fce0e475221effa6e3c881c3241f939846c0ca89aa972c1b17d9"
+    }
+  ]
+}

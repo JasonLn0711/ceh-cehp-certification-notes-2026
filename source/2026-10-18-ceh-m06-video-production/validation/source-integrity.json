@@ -1,0 +1,14 @@
+{
+  "input_zip_sha256": "13398381289734b31525cbd5c0c3afb01170039c7ff4ce8af379e94d3b151ee9",
+  "input_zip_bytes": 3102975,
+  "input_zip_files": 273,
+  "manifest_hashes_matched": 271,
+  "locked_assets_matched": 44,
+  "original_tally_files": 40,
+  "svg_boards": 58,
+  "native_pptx_slides": 18,
+  "pptx_shapes": 523,
+  "pptx_nonempty_text_shapes": 185,
+  "status": "source_integrity_verified",
+  "scope": "Immutable source and inherited assets only; no rendered media assertion"
+}

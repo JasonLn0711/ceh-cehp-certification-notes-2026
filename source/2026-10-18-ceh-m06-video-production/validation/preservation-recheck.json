@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "files": [
+    {
+      "path": "/home/jnlngx10/Videos/CEH_M06_v1_1/inputs/CEH_M06_English_Masterclass_HandDrawn_Editorial_v1_1_FULL.zip",
+      "sha256": "13398381289734b31525cbd5c0c3afb01170039c7ff4ce8af379e94d3b151ee9",
+      "matched": true
+    },
+    {
+      "path": "/home/jnlngx10/Videos/CEH_M05_v1_1/output/CEH_M05_Vulnerability_Analysis_en-US_1_5x_1s_master.mp4",
+      "sha256": "1c4d27a8f7c2f3d43617efeb9bf7d202dd6358b8957e65388d8704bf463842fa",
+      "matched": true
+    }
+  ],
+  "scope": "Original M06 source ZIP and previously delivered M05 master remain unchanged; inherited M04 assets are independently checked against the locked source manifest."
+}

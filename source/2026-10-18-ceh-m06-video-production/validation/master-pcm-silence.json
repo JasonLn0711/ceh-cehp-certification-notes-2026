@@ -1,0 +1,63 @@
+{
+  "status": "exact_master_reference_PCM_zero_verified",
+  "sample_rate": 48000,
+  "channels": 2,
+  "holds": [
+    {
+      "question": 1,
+      "start_frame": 153788694,
+      "frames": 48000,
+      "channel_samples": 96000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "question": 2,
+      "start_frame": 154693506,
+      "frames": 48000,
+      "channel_samples": 96000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "question": 3,
+      "start_frame": 156239088,
+      "frames": 48000,
+      "channel_samples": 96000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "question": 4,
+      "start_frame": 157548732,
+      "frames": 48000,
+      "channel_samples": 96000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "question": 5,
+      "start_frame": 159078156,
+      "frames": 48000,
+      "channel_samples": 96000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "question": 6,
+      "start_frame": 160484444,
+      "frames": 48000,
+      "channel_samples": 96000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "question": 7,
+      "start_frame": 162006338,
+      "frames": 48000,
+      "channel_samples": 96000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "question": 8,
+      "start_frame": 163544242,
+      "frames": 48000,
+      "channel_samples": 96000,
+      "nonzero_channel_samples": 0
+    }
+  ]
+}

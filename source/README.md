@@ -117,3 +117,9 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 ## September 21 merged plain-English CEH source
 
 [Unchanged source copy and custody receipt](2026-09-21-ceh-merged-plain-english/README.md) preserve `CEH_Full_Merged_Plain_English.md` from Downloads. The file describes a translation without new independent fact-checking; its [complete reading notes](../notes/2026-09-20-ceh-week-01/plain-english/README.md) preserve that boundary.
+
+## October 18 M06 System Hacking production
+
+[Supplied instruction and immutable source receipt](2026-10-18-ceh-m06-video-production/README.md) preserve the M06-specific 58-scene production request, original archive identity and two documented case chronology corrections. [M05 production history](2026-10-18-ceh-m05-video-production/README.md) retains its separate script, timing revision and delivery evidence.
+
+[M06 rendered delivery and learning connections](../notes/m06-system-hacking/video-production-2026-10-18.md) link that source to the actual 58:07.500 film, compact runtime QA and next human review gate.
