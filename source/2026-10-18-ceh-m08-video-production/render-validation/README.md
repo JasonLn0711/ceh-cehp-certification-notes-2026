@@ -28,6 +28,8 @@ Full media, encoded/native samples, reference PCM, audition queue, models and ed
 
 ## Documentation and delivery closeout
 
-[Actual final hash recheck](delivery-integrity-recheck.json) verified all 5,775 delivery files and 120 exact source/archive copies. [Closeout validation](closeout-validation.json) records 40 Markdown files / 674 relative links with zero new failures, 19 inherited unavailable sibling/private links, clean diff checks and passing Planning validators (44 grandfathered policy warnings, zero new; 181 metadata/catalog entries). Publication receipts are recorded separately from these local checks.
+[Actual final hash recheck](delivery-integrity-recheck.json) verified all 5,775 delivery files and 120 exact source/archive copies. [Closeout validation](closeout-validation.json) records 40 Markdown files / 678 relative links with zero new failures, 19 inherited unavailable sibling/private links, clean diff checks and passing Planning validators (44 grandfathered policy warnings, zero new; 181 metadata/catalog entries). Publication receipts are recorded separately from these local checks.
 
 The exact scene QA CSV retains its original CRLF line endings. Its local .gitattributes entry preserves those bytes and recognizes CR-at-EOL; trailing spaces remain checked.
+
+[Verified main publication](git-publication.json) records the separate production/tooling/evidence/course commits, the Planning mirror and preservation of all nine concurrent Planning remote commits. Both fetched targets matched the published tips at 0/0. The receipt precedes its own documentation commit.

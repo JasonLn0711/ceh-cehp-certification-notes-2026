@@ -13,7 +13,7 @@
     "command": "python3 /home/jnlngx10/Videos/CEH_M08_v1_0/check_render_docs.py",
     "receipt": "documentation-validation.json",
     "markdown_files": 40,
-    "relative_links": 674,
+    "relative_links": 678,
     "new_failures": 0,
     "inherited_unavailable_sibling_private_links": 19
   },

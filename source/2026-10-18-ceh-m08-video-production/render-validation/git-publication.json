@@ -1,0 +1,67 @@
+{
+  "status": "both_main_publications_verified",
+  "verified_at": "2026-10-18T22:26:44.596654+08:00",
+  "verification": "Both successful git push origin HEAD:main operations were followed by git fetch origin main, exact tip and divergence checks.",
+  "repositories": [
+    {
+      "repository": "ceh-cehp-certification-notes-2026",
+      "remote": "https://github.com/JasonLn0711/ceh-cehp-certification-notes-2026.git",
+      "target": "main",
+      "push_refspec": "HEAD:main",
+      "published_head": "f251d1ab0b77ed8cb7b3d5bbdc86dafbc22daf3b",
+      "post_fetch_remote_tip": "f251d1ab0b77ed8cb7b3d5bbdc86dafbc22daf3b",
+      "local_only": 0,
+      "remote_only": 0,
+      "working_tree_clean_at_verification": true,
+      "logical_commits": [
+        {
+          "sha": "efb4f959c5ae32982666d91b55529a9ca73ae331",
+          "subject": "docs: activate complete M08 film production"
+        },
+        {
+          "sha": "3cc7bae0fea3db28eb3a2bcc7ebc31f3dbdc9879",
+          "subject": "feat: preserve complete M08 production tooling"
+        },
+        {
+          "sha": "be5917717f40a4521008d76e0c611da3f999239f",
+          "subject": "docs: archive measured M08 render and delivery evidence"
+        },
+        {
+          "sha": "f251d1ab0b77ed8cb7b3d5bbdc86dafbc22daf3b",
+          "subject": "docs: connect completed M08 film with course records"
+        }
+      ]
+    },
+    {
+      "repository": "planning-everything-track",
+      "remote": "https://github.com/JasonLn0711/planning-everything-track.git",
+      "target": "main",
+      "push_refspec": "HEAD:main",
+      "published_head": "4a6b154ee22fffbc47a706984471e5f82c65bf08",
+      "post_fetch_remote_tip": "4a6b154ee22fffbc47a706984471e5f82c65bf08",
+      "local_only": 0,
+      "remote_only": 0,
+      "working_tree_clean_at_verification": true,
+      "logical_commits": [
+        {
+          "sha": "4a6b154ee22fffbc47a706984471e5f82c65bf08",
+          "subject": "plan: mirror completed M08 film and review gate"
+        }
+      ],
+      "remote_commits_preserved_by_fast_forward_before_m08_mirror": [
+        "6f26fb28af3e9abaf9497946c9198b16d86935b6",
+        "9ffea7da79b4fdd4c3c22811d78716836ae7b12f",
+        "da9ba6d4db5a385c00ab8469e4a1ae5b8b693dea",
+        "05d944b277909253926efbbb517194bc00b8822f",
+        "9e4a3d27a7dfdbdd214ff96582941f34f058ec88",
+        "3b279f45ceab07574ecd7273da1048676f79017e",
+        "8ec6d9c3f0490b7f11f21c9238c0d85bc410ee53",
+        "a6dbb96786006cb9b55afea1efbafd241ee27711",
+        "215c5aaab6482a154309fadea4a6c1cfc0b3595e"
+      ]
+    }
+  ],
+  "history_policy": "Separate logical commits; all local and nine concurrent Planning remote commits preserved; no force push or history rewrite.",
+  "scope": "Documentation, recovery code and compact evidence. Local Videos media are not uploaded by this publication.",
+  "receipt_boundary": "This receipt describes verified production/mirror commits and precedes its own subsequent documentation commit. Full human viewing/listening, learner practice and public video release remain separate."
+}

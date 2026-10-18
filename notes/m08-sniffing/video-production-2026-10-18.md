@@ -42,6 +42,10 @@ The [official M08/P3 map](../../curriculum/official-scope-map.md#ceh-m08-source-
 
 Jason owns full timecoded watching/listening acceptance when capacity permits. Public video release retains a separate authorized action and verified URL; Git publishes documentation, recovery code and compact evidence. [Source history below](#earlier-source-package-and-publication-history) preserves the earlier layer without retroactive completion claims.
 
+## Full-production documentation publication
+
+[Verified main receipt](../../source/2026-10-18-ceh-m08-video-production/render-validation/git-publication.json) records separate CEH commits efb4f95 (activation), 3cc7bae (production tooling), be59177 (actual QA) and f251d1a (course connections), plus Planning 4a6b154e (mirror). All nine concurrent Planning remote commits through 215c5aaa remain ancestors after fast-forward integration. Both repos were pushed with origin HEAD:main and fetched at matching tips / 0–0 divergence. The receipt precedes its own documentation commit. [Local closeout validation](../../source/2026-10-18-ceh-m08-video-production/render-validation/closeout-validation.json) links actual file integrity, Markdown links and Planning validators.
+
 ## Earlier source package and publication history
 
 The following sections retain the source-stage status before full-production activation. The current delivery and next gate are recorded above.
