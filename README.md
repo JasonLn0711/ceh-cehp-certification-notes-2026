@@ -36,6 +36,8 @@ preserves the brief, timing correction and validation. Local media/editable
 production files remain in their production workspace; human review and
 learner completion keep separate evidence gates.
 
+[M06 System Hacking film and QA](notes/m06-system-hacking/video-production-2026-10-18.md) extends the same Northstar editorial design with its own 8,969-word script: 11 chapters, 58 scenes, 58:07.500, eight exact 1-second PCM quiz holds, full English narration and subtitles. Local media, source checks, rendered-media evidence and human acceptance retain separate records.
+
 [UUU-aligned learning](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the active September 18–November 29 route: shared four-hour weekly ceiling, actual class topics, teaching/drill modes, correction and practical work. [The full bank](assessments/practice-bank/README.md) is prepared; [learner coverage](assessment-governance/course-coverage-2026-09-18.md) awaits new answers and execution. No exam date is booked. Historical scores and projects below retain their original scope; old exam-only/Form B requirements no longer govern this lane.
 
 ## Registration and historical project status

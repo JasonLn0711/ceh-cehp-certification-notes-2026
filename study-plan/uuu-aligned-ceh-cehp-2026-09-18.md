@@ -87,6 +87,10 @@ W39–W44各60，加W45／46各75、W47的30與W48的60＝600。若W38完成新�
 
 [完整製片與驗證紀錄](../notes/m05-vulnerability-analysis/video-production-2026-10-18.md)承接 M04 v3 視覺規格與 Northstar 案例；M05 v1.1 全片 53:00.467，八次測驗靜音各 1 秒，英文旁白及其餘教學內容維持。影片供實際觀念缺口補強；觀看可依既有 endpoint 分段，作答時可自行暫停。教材產製與八題片內測驗不增加 600 題首答、本人已用分鐘或實作完成度；原每週 240 分鐘及上課日 25 分鐘上限維持。
 
+## M06 teaching-film resource — October 18
+
+[M06 完整影片與 QA](../notes/m06-system-hacking/video-production-2026-10-18.md)提供 System Hacking 的獨立教材：11 章、58 幕、8,969 字、58:07.500；延續 M04 v3 視覺與 M05 的旁白單次 1.5×，八題各有 1.000 秒零值 PCM 靜音。可依實際觀念缺口分段複習，保留現行 endpoint 與 240 分鐘／上課日 25 分鐘上限。教材產製、人工觀影驗收與本人答題／實作各持證據，片內八題不新增 600 題首答完成數。
+
 ## Daily bilingual Blog acceptance — September 21
 
 [Planning's daily Blog contract](../../planning-everything-track/docs/02-operating-rhythm.md#daily-learning-blog--adopted-2026-09-21) adds one confirmed bilingual article to the daily learning path. Reuse the existing ten-question teaching/drill unit with original choice/confidence, explanation and required corrections. Jason explains his actual understanding first; editing and translation follow, with public completion recorded only after he confirms the text and the Pages URL is verified. This replaces quiz-only daily completion; it does not replace P1–P5 practical evidence or change official readiness.

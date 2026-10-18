@@ -28,6 +28,8 @@ The final image-steganography exercise was assigned; independent completion rema
 
 ## Connections
 
+- [M06 complete Northstar film and QA](../m06-system-hacking/video-production-2026-10-18.md): connects authentication, privilege, persistence and missing logs to the same evidence/alternative-explanation boundaries; source and film QA do not add learner results.
+
 - [M05 Northstar film and QA](../m05-vulnerability-analysis/video-production-2026-10-18.md): connects enumeration evidence to finding validation, risk priority and repair/retest; current v1.1 uses eight 1-second quiz holds. Film production and learner evidence remain separate.
 - [Current learning route](../../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md)
 - [Practice-bank entry](../../assessments/practice-bank/README.md)

@@ -107,3 +107,5 @@ Executable production code, source assets, voice models and media remain in
 and [W42 mirror](../../planning-everything-track/weeks/2026-W42/weekly-plan.md#ceh-m05-video-closeout)
 carry status, capacity and the next human review gate. Git publication records
 documentation/QA delivery; video-platform publication needs its own receipt.
+
+[M06 System Hacking production record](../notes/m06-system-hacking/video-production-2026-10-18.md) extends the same ownership route. Detailed executable/media assets live in `~/Videos/CEH_M06_v1_1/`; this repo holds source and compact QA, while Planning mirrors [day](../../planning-everything-track/weeks/2026-W42/days/2026-10-18.md#ceh-m06-video-closeout), [week](../../planning-everything-track/weeks/2026-W42/weekly-plan.md#ceh-m06-video-closeout) and [project status](../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#ceh-m06-video-closeout). Local rendering, human acceptance, public release and learner evidence keep separate gates.
