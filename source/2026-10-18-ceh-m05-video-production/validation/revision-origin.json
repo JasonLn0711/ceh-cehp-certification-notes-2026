@@ -1,0 +1,30 @@
+{
+  "version": "1.1",
+  "previous_workspace": "/home/jnlngx10/Videos/CEH_M05_v1",
+  "user_change": "All eight12s quiz holds become1s; everything else unchanged. Review optimization opportunities.",
+  "previous_master_sha256": "4a9bc6885c73fd6ef8ee17efa32018ba664b0616ff62138d7956f1cce63fc2d0",
+  "inherited_chapters": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+  ],
+  "inherited_chapter_sha256": {
+    "C01": "22b0136b7b1bbb855aee6f89752c5176583f6a97d221c86601df97423eb73a56",
+    "C02": "e623a9b2be50d7c64db048a603ff7c4a5eaa9cb5e346e7ec9a1c067eaf6cb014",
+    "C03": "801216514318027f2b2f0234843310421aee3c11e5e8db1245d36add293f476e",
+    "C04": "2172a65c34934b62a2233032ddaa8c8220ff04de8a0b5c98890132a995ec2333",
+    "C05": "625f5ca3213119649e534ee37f4a6f8125fe0fda85b966190164e7f330cdd841",
+    "C06": "3cdd69f38fa13bd3934f50e562c223b9c200f9ee08b19ef553ae4d38dac7ed9c",
+    "C07": "3f1859283f3cbfed33b4b4320f3b6eb21af814bf82427f00692c5c19b53a78eb",
+    "C08": "03abc8c603816ad5ad6b5d61a5e109c35b0c85a347b958a3726edd2238d2c6fb",
+    "C09": "2478a740f19aa60708607bdc08f824a1f3adbc7673da9e8b302cda6dbbe6a086",
+    "C10": "a5b15f17014eb15ff5292830b889cdf09e6d000175691cb420ba649272d5232d"
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "status": "automated_encoded_artifact_checks_passed",
+  "duration": 3180.466666666667,
+  "frames": 95414,
+  "decoded_entire_master": true,
+  "black_intervals": 0,
+  "sampled_frames": [
+    {
+      "label": "S01 midpoint",
+      "time": 28.333333333333332,
+      "file": "S01-midpoint.png"
+    },
+    {
+      "label": "S02 midpoint",
+      "time": 82.45,
+      "file": "S02-midpoint.png"
+    },
+    {
+      "label": "S03 midpoint",
+      "time": 135.58333333333334,
+      "file": "S03-midpoint.png"
+    },
+    {
+      "label": "S04 midpoint",
+      "time": 188.28333333333333,
+      "file": "S04-midpoint.png"
+    },
+    {
+      "label": "S05 midpoint",
+      "time": 241.5,
+      "file": "S05-midpoint.png"
+    },
+    {
+      "label": "S06 midpoint",
+      "time": 295.9666666666667,
+      "file": "S06-midpoint.png"
+    },
+    {
+      "label": "S07 midpoint",
+      "time": 348.7833333333333,
+      "file": "S07-midpoint.png"
+    },
+    {
+      "label": "S08 midpoint",
+      "time": 400.05,
+      "file": "S08-midpoint.png"
+    },
+    {
+      "label": "S09 midpoint",
+      "time": 449.55,
+      "file": "S09-midpoint.png"
+    },
+    {
+      "label": "S10 midpoint",
+      "time": 503.9166666666667,
+      "file": "S10-midpoint.png"
+    },
+    {
+      "label": "S11 midpoint",
+      "time": 558.7,
+      "file": "S11-midpoint.png"
+    },
+    {
+      "label": "S12 midpoint",
+      "time": 608.3833333333334,
+      "file": "S12-midpoint.png"
+    },
+    {
+      "label": "S13 midpoint",
+      "time": 660.1,
+      "file": "S13-midpoint.png"
+    },
+    {
+      "label": "S14 midpoint",
+      "time": 713.7666666666667,
+      "file": "S14-midpoint.png"
+    },
+    {
+      "label": "S15 midpoint",
+      "time": 769.2833333333333,
+      "file": "S15-midpoint.png"
+    },
+    {
+      "label": "S16 midpoint",
+      "time": 827.9166666666666,
+      "file": "S16-midpoint.png"
+    },
+    {
+      "label": "S17 midpoint",
+      "time": 884.1666666666666,
+      "file": "S17-midpoint.png"
+    },
+    {
+      "label": "S18 midpoint",
+      "time": 937.15,
+      "file": "S18-midpoint.png"
+    },
+    {
+      "label": "S19 midpoint",
+      "time": 992.2666666666667,
+      "file": "S19-midpoint.png"
+    },
+    {
+      "label": "S20 midpoint",
+      "time": 1048.05,
+      "file": "S20-midpoint.png"
+    },
+    {
+      "label": "S21 midpoint",
+      "time": 1101.7833333333333,
+      "file": "S21-midpoint.png"
+    },
+    {
+      "label": "S22 midpoint",
+      "time": 1156.9,
+      "file": "S22-midpoint.png"
+    },
+    {
+      "label": "S23 midpoint",
+      "time": 1212.8,
+      "file": "S23-midpoint.png"
+    },
+    {
+      "label": "S24 midpoint",
+      "time": 1266.85,
+      "file": "S24-midpoint.png"
+    },
+    {
+      "label": "S25 midpoint",
+      "time": 1320.1166666666668,
+      "file": "S25-midpoint.png"
+    },
+    {
+      "label": "S26 midpoint",
+      "time": 1374.1166666666668,
+      "file": "S26-midpoint.png"
+    },
+    {
+      "label": "S27 midpoint",
+      "time": 1429.2,
+      "file": "S27-midpoint.png"
+    },
+    {
+      "label": "S28 midpoint",
+      "time": 1483.9166666666667,
+      "file": "S28-midpoint.png"
+    },
+    {
+      "label": "S29 midpoint",
+      "time": 1537.3999999999999,
+      "file": "S29-midpoint.png"
+    },
+    {
+      "label": "S30 midpoint",
+      "time": 1590.2999999999997,
+      "file": "S30-midpoint.png"
+    },
+    {
+      "label": "S31 midpoint",
+      "time": 1643.1499999999999,
+      "file": "S31-midpoint.png"
+    },
+    {
+      "label": "S32 midpoint",
+      "time": 1697.5166666666664,
+      "file": "S32-midpoint.png"
+    },
+    {
+      "label": "S33 midpoint",
+      "time": 1755.9833333333331,
+      "file": "S33-midpoint.png"
+    },
+    {
+      "label": "S34 midpoint",
+      "time": 1814.3166666666666,
+      "file": "S34-midpoint.png"
+    },
+    {
+      "label": "S35 midpoint",
+      "time": 1869.8666666666666,
+      "file": "S35-midpoint.png"
+    },
+    {
+      "label": "S36 midpoint",
+      "time": 1923.0666666666668,
+      "file": "S36-midpoint.png"
+    },
+    {
+      "label": "S37 midpoint",
+      "time": 1975.7166666666667,
+      "file": "S37-midpoint.png"
+    },
+    {
+      "label": "S38 midpoint",
+      "time": 2028.45,
+      "file": "S38-midpoint.png"
+    },
+    {
+      "label": "S39 midpoint",
+      "time": 2080.2999999999997,
+      "file": "S39-midpoint.png"
+    },
+    {
+      "label": "S40 midpoint",
+      "time": 2133.3166666666666,
+      "file": "S40-midpoint.png"
+    },
+    {
+      "label": "S41 midpoint",
+      "time": 2186.5833333333335,
+      "file": "S41-midpoint.png"
+    },
+    {
+      "label": "S42 midpoint",
+      "time": 2238.8500000000004,
+      "file": "S42-midpoint.png"
+    },
+    {
+      "label": "S43 midpoint",
+      "time": 2291.750000000001,
+      "file": "S43-midpoint.png"
+    },
+    {
+      "label": "S44 midpoint",
+      "time": 2354.183333333334,
+      "file": "S44-midpoint.png"
+    },
+    {
+      "label": "S45 midpoint",
+      "time": 2419.400000000001,
+      "file": "S45-midpoint.png"
+    },
+    {
+      "label": "S46 midpoint",
+      "time": 2476.4000000000005,
+      "file": "S46-midpoint.png"
+    },
+    {
+      "label": "S47 midpoint",
+      "time": 2532.1666666666674,
+      "file": "S47-midpoint.png"
+    },
+    {
+      "label": "S48 midpoint",
+      "time": 2587.4500000000007,
+      "file": "S48-midpoint.png"
+    },
+    {
+      "label": "S49 midpoint",
+      "time": 2641.6833333333343,
+      "file": "S49-midpoint.png"
+    },
+    {
+      "label": "S50 midpoint",
+      "time": 2697.4500000000007,
+      "file": "S50-midpoint.png"
+    },
+    {
+      "label": "S51 midpoint",
+      "time": 2752.933333333334,
+      "file": "S51-midpoint.png"
+    },
+    {
+      "label": "S52 midpoint",
+      "time": 2808.250000000001,
+      "file": "S52-midpoint.png"
+    },
+    {
+      "label": "S53 midpoint",
+      "time": 2864.4166666666674,
+      "file": "S53-midpoint.png"
+    },
+    {
+      "label": "S54 midpoint",
+      "time": 2918.933333333334,
+      "file": "S54-midpoint.png"
+    },
+    {
+      "label": "S55 midpoint",
+      "time": 2971.8666666666672,
+      "file": "S55-midpoint.png"
+    },
+    {
+      "label": "S56 midpoint",
+      "time": 3026.216666666667,
+      "file": "S56-midpoint.png"
+    },
+    {
+      "label": "S57 midpoint",
+      "time": 3083.0000000000005,
+      "file": "S57-midpoint.png"
+    },
+    {
+      "label": "S58 midpoint",
+      "time": 3146.2000000000007,
+      "file": "S58-midpoint.png"
+    },
+    {
+      "label": "C01 first",
+      "time": 0.1,
+      "file": "C01-first.png"
+    },
+    {
+      "label": "C01 middle",
+      "time": 81.46666666666667,
+      "file": "C01-middle.png"
+    },
+    {
+      "label": "C01 last",
+      "time": 162.83333333333334,
+      "file": "C01-last.png"
+    },
+    {
+      "label": "C02 first",
+      "time": 163.03333333333333,
+      "file": "C02-first.png"
+    },
+    {
+      "label": "C02 middle",
+      "time": 294.01666666666665,
+      "file": "C02-middle.png"
+    },
+    {
+      "label": "C02 last",
+      "time": 425.0,
+      "file": "C02-last.png"
+    },
+    {
+      "label": "C03 first",
+      "time": 425.20000000000005,
+      "file": "C03-first.png"
+    },
+    {
+      "label": "C03 middle",
+      "time": 582.8166666666666,
+      "file": "C03-middle.png"
+    },
+    {
+      "label": "C03 last",
+      "time": 740.4333333333333,
+      "file": "C03-last.png"
+    },
+    {
+      "label": "C04 first",
+      "time": 740.6333333333333,
+      "file": "C04-first.png"
+    },
+    {
+      "label": "C04 middle",
+      "time": 880.65,
+      "file": "C04-middle.png"
+    },
+    {
+      "label": "C04 last",
+      "time": 1020.6666666666666,
+      "file": "C04-last.png"
+    },
+    {
+      "label": "C05 first",
+      "time": 1020.8666666666667,
+      "file": "C05-first.png"
+    },
+    {
+      "label": "C05 middle",
+      "time": 1183.6666666666667,
+      "file": "C05-middle.png"
+    },
+    {
+      "label": "C05 last",
+      "time": 1346.4666666666667,
+      "file": "C05-last.png"
+    },
+    {
+      "label": "C06 first",
+      "time": 1346.6666666666667,
+      "file": "C06-first.png"
+    },
+    {
+      "label": "C06 middle",
+      "time": 1507.9833333333336,
+      "file": "C06-middle.png"
+    },
+    {
+      "label": "C06 last",
+      "time": 1669.3000000000002,
+      "file": "C06-last.png"
+    },
+    {
+      "label": "C07 first",
+      "time": 1669.4999999999998,
+      "file": "C07-first.png"
+    },
+    {
+      "label": "C07 middle",
+      "time": 1809.05,
+      "file": "C07-middle.png"
+    },
+    {
+      "label": "C07 last",
+      "time": 1948.6,
+      "file": "C07-last.png"
+    },
+    {
+      "label": "C08 first",
+      "time": 1948.8,
+      "file": "C08-first.png"
+    },
+    {
+      "label": "C08 middle",
+      "time": 2106.7166666666667,
+      "file": "C08-middle.png"
+    },
+    {
+      "label": "C08 last",
+      "time": 2264.6333333333337,
+      "file": "C08-last.png"
+    },
+    {
+      "label": "C09 first",
+      "time": 2264.833333333334,
+      "file": "C09-first.png"
+    },
+    {
+      "label": "C09 middle",
+      "time": 2439.4500000000007,
+      "file": "C09-middle.png"
+    },
+    {
+      "label": "C09 last",
+      "time": 2614.0666666666675,
+      "file": "C09-last.png"
+    },
+    {
+      "label": "C10 first",
+      "time": 2614.2666666666673,
+      "file": "C10-first.png"
+    },
+    {
+      "label": "C10 middle",
+      "time": 2753.333333333334,
+      "file": "C10-middle.png"
+    },
+    {
+      "label": "C10 last",
+      "time": 2892.400000000001,
+      "file": "C10-last.png"
+    },
+    {
+      "label": "C11 first",
+      "time": 2892.6000000000004,
+      "file": "C11-first.png"
+    },
+    {
+      "label": "C11 middle",
+      "time": 3036.4833333333336,
+      "file": "C11-middle.png"
+    },
+    {
+      "label": "C11 last",
+      "time": 3180.3666666666672,
+      "file": "C11-last.png"
+    },
+    {
+      "label": "Q1 silent pause",
+      "time": 2910.6818750000007,
+      "file": "quiz-01-pause.png"
+    },
+    {
+      "label": "Q2 silent pause",
+      "time": 2933.683958333334,
+      "file": "quiz-02-pause.png"
+    },
+    {
+      "label": "Q3 silent pause",
+      "time": 2964.214458333334,
+      "file": "quiz-03-pause.png"
+    },
+    {
+      "label": "Q4 silent pause",
+      "time": 2987.7305000000006,
+      "file": "quiz-04-pause.png"
+    },
+    {
+      "label": "Q5 silent pause",
+      "time": 3017.944708333334,
+      "file": "quiz-05-pause.png"
+    },
+    {
+      "label": "Q6 silent pause",
+      "time": 3044.9367500000008,
+      "file": "quiz-06-pause.png"
+    },
+    {
+      "label": "Q7 silent pause",
+      "time": 3075.4817083333337,
+      "file": "quiz-07-pause.png"
+    },
+    {
+      "label": "Q8 silent pause",
+      "time": 3101.6145000000006,
+      "file": "quiz-08-pause.png"
+    },
+    {
+      "label": "Q1 before",
+      "time": 2910.1318750000005,
+      "file": "quiz-01-before.png"
+    },
+    {
+      "label": "Q1 answer",
+      "time": 2911.6318750000005,
+      "file": "quiz-01-answer.png"
+    },
+    {
+      "label": "Q2 before",
+      "time": 2933.133958333334,
+      "file": "quiz-02-before.png"
+    },
+    {
+      "label": "Q2 answer",
+      "time": 2934.633958333334,
+      "file": "quiz-02-answer.png"
+    },
+    {
+      "label": "Q3 before",
+      "time": 2963.6644583333336,
+      "file": "quiz-03-before.png"
+    },
+    {
+      "label": "Q3 answer",
+      "time": 2965.1644583333336,
+      "file": "quiz-03-answer.png"
+    },
+    {
+      "label": "Q4 before",
+      "time": 2987.1805000000004,
+      "file": "quiz-04-before.png"
+    },
+    {
+      "label": "Q4 answer",
+      "time": 2988.6805000000004,
+      "file": "quiz-04-answer.png"
+    },
+    {
+      "label": "Q5 before",
+      "time": 3017.3947083333337,
+      "file": "quiz-05-before.png"
+    },
+    {
+      "label": "Q5 answer",
+      "time": 3018.8947083333337,
+      "file": "quiz-05-answer.png"
+    },
+    {
+      "label": "Q6 before",
+      "time": 3044.3867500000006,
+      "file": "quiz-06-before.png"
+    },
+    {
+      "label": "Q6 answer",
+      "time": 3045.8867500000006,
+      "file": "quiz-06-answer.png"
+    },
+    {
+      "label": "Q7 before",
+      "time": 3074.9317083333335,
+      "file": "quiz-07-before.png"
+    },
+    {
+      "label": "Q7 answer",
+      "time": 3076.4317083333335,
+      "file": "quiz-07-answer.png"
+    },
+    {
+      "label": "Q8 before",
+      "time": 3101.0645000000004,
+      "file": "quiz-08-before.png"
+    },
+    {
+      "label": "Q8 answer",
+      "time": 3102.5645000000004,
+      "file": "quiz-08-answer.png"
+    }
+  ],
+  "quiz_silence": [
+    {
+      "scene": "S54",
+      "start": 2910.1818750000007,
+      "end": 2911.1818750000007,
+      "samples": 24000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0
+    },
+    {
+      "scene": "S54",
+      "start": 2933.183958333334,
+      "end": 2934.183958333334,
+      "samples": 24000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0
+    },
+    {
+      "scene": "S55",
+      "start": 2963.714458333334,
+      "end": 2964.714458333334,
+      "samples": 24000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0
+    },
+    {
+      "scene": "S55",
+      "start": 2987.2305000000006,
+      "end": 2988.2305000000006,
+      "samples": 24000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0
+    },
+    {
+      "scene": "S56",
+      "start": 3017.444708333334,
+      "end": 3018.444708333334,
+      "samples": 24000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0
+    },
+    {
+      "scene": "S56",
+      "start": 3044.4367500000008,
+      "end": 3045.4367500000008,
+      "samples": 24000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0
+    },
+    {
+      "scene": "S57",
+      "start": 3074.9817083333337,
+      "end": 3075.9817083333337,
+      "samples": 24000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0
+    },
+    {
+      "scene": "S57",
+      "start": 3101.1145000000006,
+      "end": 3102.1145000000006,
+      "samples": 24000,
+      "nonzero_samples": 0,
+      "decoded_samples": 48000,
+      "interior_peak": 0.0,
+      "interior_rms": 0.0
+    }
+  ],
+  "elapsed_seconds": 78.52235383001971,
+  "scope": "Encoded samples require visual inspection; waveform/ASR checks do not constitute human end-to-end listening."
+}

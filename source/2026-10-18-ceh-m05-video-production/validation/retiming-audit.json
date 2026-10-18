@@ -1,0 +1,53 @@
+{
+  "version": "1.1",
+  "quiz_seconds": 1,
+  "unchanged_spoken_clips": 721,
+  "removed_seconds": 88,
+  "scenes": [
+    {
+      "scene": "S54",
+      "pauses": 2,
+      "removed_samples": 528000,
+      "removed_seconds": 22.0,
+      "old_duration": 74.86666666666666,
+      "new_duration": 52.86666666666667,
+      "all_non_hold_pcm_identical": true,
+      "source_audio_sha256": "25e30bb9aec4a9914e01ac3568d52bba9471dff3052ce70dcd7feaca8b57ba32",
+      "new_audio_sha256": "ed1d5d76c2ddfa6888f0dbdbdd85da77dbf47d90ef1185ba2511fa07c7e6c1cd"
+    },
+    {
+      "scene": "S55",
+      "pauses": 2,
+      "removed_samples": 528000,
+      "removed_seconds": 22.0,
+      "old_duration": 75.0,
+      "new_duration": 53.0,
+      "all_non_hold_pcm_identical": true,
+      "source_audio_sha256": "a52b05fd81665753a5c9bc153ad2f94a64d8c69fbcd705ffab2e48901453eb0d",
+      "new_audio_sha256": "4c246d68558fcbc6c329c71a627d9899e7a0286c506bdbaf80ce90d18bf4c611"
+    },
+    {
+      "scene": "S56",
+      "pauses": 2,
+      "removed_samples": 528000,
+      "removed_seconds": 22.0,
+      "old_duration": 77.7,
+      "new_duration": 55.7,
+      "all_non_hold_pcm_identical": true,
+      "source_audio_sha256": "fa7910bad220492a6f552d87d9871caf50e8d507be553b4381c2b4afb6faad9a",
+      "new_audio_sha256": "4e1bb66641bc81429a860dc317c528d4e61dfffcdbc00e5536c56c55922e1cd5"
+    },
+    {
+      "scene": "S57",
+      "pauses": 2,
+      "removed_samples": 528000,
+      "removed_seconds": 22.0,
+      "old_duration": 79.86666666666666,
+      "new_duration": 57.86666666666667,
+      "all_non_hold_pcm_identical": true,
+      "source_audio_sha256": "f5b3f483574623d7cb09e12299f016bf42ac2b724705d804793a75a23255ea4f",
+      "new_audio_sha256": "7ed496a08c600fcdde4cf10fd57272fa66f4888b7f940ce8c7b2f1144cf2d210"
+    }
+  ],
+  "status": "non_hold_pcm_and_speech_hashes_verified"
+}
