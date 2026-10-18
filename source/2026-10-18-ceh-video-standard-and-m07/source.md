@@ -35,3 +35,7 @@ Final activation, verbatim:
 The latest 1-second correction governs the new common standard; old 12-second source wording remains historical. M06's actual approved local voice implementation is inherited: Kokoro `af_heart`, baseline 0.73, one `atempo=1.5` on speech only. The new M07 deliverable is the source package selected during planning. Its agent prompt carries the complete-film workflow forward without a short-pilot approval gate.
 
 Implementation, validation, Git publication, and learner evidence retain separate receipts. Full local package contents stay in `~/Videos/CEH_M07_v1_0/`; this repo stores adopted decisions, provenance, compact QA and learning connections. Planning keeps the day/project/week locators and capacity boundary.
+
+## Later full-production activation
+
+The subsequent [exact execution request](full-production-activation.md) activates the complete M07 film. This source-package decision remains the earlier stage's receipt; the canonical production note carries the later runtime evidence.
