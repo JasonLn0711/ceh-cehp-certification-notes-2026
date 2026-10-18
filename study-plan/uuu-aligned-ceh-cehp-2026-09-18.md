@@ -83,6 +83,9 @@ W39–W44各60，加W45／46各75、W47的30與W48的60＝600。若W38完成新�
 
 [Full notes](../notes/2026-09-20-ceh-week-01/README.md) now supply the course overview and M01–M03 study references, with [connections to existing questions, practical tasks and prior evidence](../notes/2026-09-20-ceh-week-01/connections.md). Use them to resolve the next actual topic or blocker within the existing route. The references do not independently authenticate a recording date, attendance, learner reading, answers or practical completion. The shared 240-minute ceiling and class-day limit remain unchanged; no extra reading quota or research lane is introduced.
 
+## M05 teaching-film resource — October 18
+
+[完整製片與驗證紀錄](../notes/m05-vulnerability-analysis/video-production-2026-10-18.md)承接 M04 v3 視覺規格與 Northstar 案例；M05 v1.1 全片 53:00.467，八次測驗靜音各 1 秒，英文旁白及其餘教學內容維持。影片供實際觀念缺口補強；觀看可依既有 endpoint 分段，作答時可自行暫停。教材產製與八題片內測驗不增加 600 題首答、本人已用分鐘或實作完成度；原每週 240 分鐘及上課日 25 分鐘上限維持。
 
 ## Daily bilingual Blog acceptance — September 21
 

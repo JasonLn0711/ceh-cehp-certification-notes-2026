@@ -95,3 +95,15 @@ When a CEH / CEHP item appears:
 ## Current course-aligned ownership
 
 The [current route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) connects the [bank](../assessments/practice-bank/README.md), [coverage](../assessment-governance/course-coverage-2026-09-18.md) and existing attempt records. Planning mirrors September 18–November 29 capacity and next gates. Original questions/keys and local practical fixtures live here; student-specific answers are added only after an actual attempt. The older workbench/incident project routes remain historical for this lane.
+
+## Teaching video records — October 18
+
+[M05 production record](../notes/m05-vulnerability-analysis/video-production-2026-10-18.md)
+owns decisions, source provenance, QA receipts and learning connections.
+Executable production code, source assets, voice models and media remain in
+`~/Videos/CEH_M05_v1_1/`; the prior v1 workspace remains available. Planning's
+[CEH locator](../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#ceh-m05-video-closeout),
+[October 18 note](../../planning-everything-track/weeks/2026-W42/days/2026-10-18.md#ceh-m05-video-closeout)
+and [W42 mirror](../../planning-everything-track/weeks/2026-W42/weekly-plan.md#ceh-m05-video-closeout)
+carry status, capacity and the next human review gate. Git publication records
+documentation/QA delivery; video-platform publication needs its own receipt.

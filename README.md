@@ -28,6 +28,14 @@ Jason reports attending the first UUU class covering M01–M03. [Detailed course
 
 ## Current learning status
 
+[M05 English film delivery and revision](notes/m05-vulnerability-analysis/video-production-2026-10-18.md)
+records the complete Northstar teaching film: 11 chapters, 58 scenes,
+53:00.467 at 1080p/30 fps, with all eight quiz holds changed to 1 second.
+[Source and QA receipt](source/2026-10-18-ceh-m05-video-production/README.md)
+preserves the brief, timing correction and validation. Local media/editable
+production files remain in their production workspace; human review and
+learner completion keep separate evidence gates.
+
 [UUU-aligned learning](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the active September 18–November 29 route: shared four-hour weekly ceiling, actual class topics, teaching/drill modes, correction and practical work. [The full bank](assessments/practice-bank/README.md) is prepared; [learner coverage](assessment-governance/course-coverage-2026-09-18.md) awaits new answers and execution. No exam date is booked. Historical scores and projects below retain their original scope; old exam-only/Form B requirements no longer govern this lane.
 
 ## Registration and historical project status
