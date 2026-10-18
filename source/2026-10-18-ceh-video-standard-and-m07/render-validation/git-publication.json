@@ -1,0 +1,29 @@
+{
+  "status": "published_and_post_fetch_verified",
+  "observed_at_utc": "2026-10-18T08:26:40.514078+00:00",
+  "target": "origin HEAD:main",
+  "ceh": {
+    "observed_tip": "6a41735ae78a1110fc2f4709f03c04b0a52d77f4",
+    "commits": [
+      "a4f992c",
+      "86b5faf",
+      "6a41735"
+    ],
+    "post_fetch_divergence": [
+      0,
+      0
+    ]
+  },
+  "planning": {
+    "observed_tip": "115fdbd6a860f83e228916d3a2130e732bf40ada",
+    "commit": "115fdbd6",
+    "post_fetch_divergence": [
+      0,
+      0
+    ]
+  },
+  "history": "Three existing remote M08 commits retained by fast-forward; both local and remote histories preserved; no force push.",
+  "unrelated_work": "AURA appends preserved byte-for-byte and unstaged; docs/14-local-integrations.md also excluded. Named preservation stash retained as backup.",
+  "media_release": "local_delivery_only",
+  "human_acceptance": "pending_full_viewing_and_listening"
+}

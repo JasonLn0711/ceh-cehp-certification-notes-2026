@@ -13,6 +13,7 @@
   "copied_QA_hashes_verified": 41,
   "local_delivery_manifest_entries_verified": 5863,
   "M05_M06_master_hashes": "unchanged",
-  "publication": "pending_actual_push",
-  "scope": "M07 documentation and evidence closeout; unrelated dirty AURA work excluded from staging."
+  "publication": "published_and_post_fetch_verified",
+  "scope": "M07 documentation and evidence closeout; unrelated dirty AURA work excluded from staging.",
+  "publication_receipt": "git-publication.json"
 }
