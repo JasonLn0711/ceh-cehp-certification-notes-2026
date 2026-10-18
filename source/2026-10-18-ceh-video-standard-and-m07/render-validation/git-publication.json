@@ -23,7 +23,8 @@
     ]
   },
   "history": "Three existing remote M08 commits retained by fast-forward; both local and remote histories preserved; no force push.",
-  "unrelated_work": "AURA appends preserved byte-for-byte and unstaged; docs/14-local-integrations.md also excluded. Named preservation stash retained as backup.",
+  "unrelated_work": "The three initial AURA append payloads were restored byte-for-byte during the remote fast-forward. Subsequent edits to two AURA append texts were observed and retained without overwriting. All current AURA changes, including docs/14-local-integrations.md, remain unstaged and were excluded from the M07 commits. The named initial-preservation stash remains as backup.",
   "media_release": "local_delivery_only",
-  "human_acceptance": "pending_full_viewing_and_listening"
+  "human_acceptance": "pending_full_viewing_and_listening",
+  "preservation_scope": "Exact restoration is an operation-time receipt, not a claim that concurrently edited unrelated files remain identical to the initial snapshot."
 }
