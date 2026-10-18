@@ -1,0 +1,350 @@
+{
+  "S01": [
+    "Welcome to Module Eight, Sniffing.",
+    "Packet analysis can explain a slow lesson download, an unexpected address change, or a suspicious name response.",
+    "Throughout this lesson, we will name the observation point before interpreting the traffic.",
+    "All Northstar evidence in this package is synthetic teaching material."
+  ],
+  "S02": [
+    "Sniffing means observing network traffic through a capture interface or another collection point.",
+    "An IP address identifies a network endpoint in the packet.",
+    "A conversation view is an interpretation assembled from that sample.",
+    "At Northstar, a connection to a classroom service may support troubleshooting."
+  ],
+  "S03": [
+    "The teacher laptop, STAFF, keeps its address at ten dot forty-four dot ten dot twenty-one.",
+    "The shared campus map is unchanged.",
+    "A packet going to the DNS server in another subnet normally has the DNS server's destination IP but the local gateway's destination MAC on the office segment.",
+    "This distinction will help us interpret ARP and identify capture placement."
+  ],
+  "S04": [
+    "A useful capture plan begins with a question, such as whether STAFF received competing DNS answers during a known time window.",
+    "Even a short capture can contain names, cookies, messages, or other sensitive information.",
+    "We will not open a live interface, redirect a neighbor's traffic, or start a DHCP service.",
+    "Preparing this lesson does not establish that a learner performed such a lab."
+  ],
+  "S05": [
+    "Ethernet uses source and destination MAC addresses to deliver frames on a local link.",
+    "An ordinary unicast destination identifies one link-layer recipient.",
+    "Read the capture's link type before applying Ethernet assumptions: a file containing another link-layer format may expose different fields.",
+    "Then ask how the receiving switch would forward that frame."
+  ],
+  "S06": [
+    "A learning Ethernet switch associates source MAC addresses with the ports on which it observes them, within the relevant VLAN.",
+    "Broadcast traffic and some unknown unicast traffic can be flooded within the applicable forwarding domain.",
+    "That difference is expected.",
+    "To evaluate a missing packet, ask whether the switch had any reason to deliver it to the observation port."
+  ],
+  "S07": [
+    "An interface normally filters some received traffic before passing it to the operating system.",
+    "A capture on ANALYST can still miss STAFF's known unicast traffic.",
+    "When someone claims to have captured an entire network by selecting promiscuous mode, ask for the collection topology and switch configuration.",
+    "At Northstar, document whether the source was an endpoint interface, a configured mirror destination, or a network tap."
+  ],
+  "S08": [
+    "A VLAN defines a logical Layer Two broadcast domain.",
+    "The destination IP continues to identify the server while link-layer addresses change across routed links.",
+    "In the drawing, trace one packet through the office link and then show the newly framed server-side hop.",
+    "The gateway and the DNS server play different roles."
+  ],
+  "S09": [
+    "Suppose a teacher says a page loaded slowly.",
+    "None of these sources alone covers every possible cause.",
+    "Two dashboards based on the same capture are also not two independent observations.",
+    "This lets a reviewer distinguish a measured packet count from an inferred explanation."
+  ],
+  "S10": [
+    "An endpoint capture is often the easiest place to begin a focused investigation.",
+    "A packet shown with an apparent bad checksum may have been captured before hardware completed the checksum.",
+    "An endpoint trace can miss traffic on another interface, outside the capture interval, or discarded before the collection hook.",
+    "Compare suspicious results with a suitable independent observation when necessary."
+  ],
+  "S11": [
+    "A switch port analyzer session, often called SPAN or port mirroring, copies selected traffic to a monitoring destination.",
+    "A mirror can also drop copies when selected traffic exceeds destination capacity or device resources.",
+    "A capture file alone rarely proves those settings.",
+    "Their differences are teaching assumptions encoded in the fixture manifest."
+  ],
+  "S12": [
+    "A network tap provides a dedicated way to observe traffic on a link.",
+    "The collector still needs sufficient capacity and an appropriate link-layer decoder.",
+    "For analysis, preserve documentation of the monitored link and how the capture was produced.",
+    "Compare endpoint, mirror, and tap approaches by the specific question and coverage needed."
+  ],
+  "S13": [
+    "Our first executable workflow reads a supplied capture file offline.",
+    "The bundled verification then invokes tcpdump with a file input, numeric address output, and a stated filter.",
+    "The network events represented by those bytes remain fictional.",
+    "If an expected result differs, retain the original file and command before changing anything."
+  ],
+  "S14": [
+    "A capture filter selects which packets are admitted by the capture mechanism.",
+    "Wireshark expressions such as an IP address comparison belong to that second language.",
+    "At Northstar, save the exact expression and whether it was applied during collection or analysis.",
+    "The Wireshark worksheet supplies separate display expressions."
+  ],
+  "S15": [
+    "Select a conversation by addresses and transport ports, then inspect its packet sequence.",
+    "A partial capture can begin after establishment or end before a response.",
+    "Stream reconstruction can help read application data, but missing segments and analyzer assumptions still matter.",
+    "If a synthetic HTTP response contains an ordinary teaching message, that is the content supplied by the fixture."
+  ],
+  "S16": [
+    "A capture's absence of an expected packet supports a limited conclusion: it was not present in the retained data under the recorded collection conditions.",
+    "A header may survive while application content is cut off.",
+    "Record relevant counters and settings when a real lab supplies them.",
+    "The synthetic fixtures have declared complete record lengths for their constructed packets."
+  ],
+  "S17": [
+    "Plaintext application traffic can expose request paths, headers, and message bodies to a collector on the communication path.",
+    "It does not establish that a third party's traffic was redirected or that an application accepted a login.",
+    "At Northstar, use the example to explain why sensitive services need protected transport and careful logging.",
+    "A capture containing secrets can become a sensitive artifact itself."
+  ],
+  "S18": [
+    "TLS provides a protected channel when negotiated and authenticated correctly.",
+    "Some metadata can remain visible, including IP endpoints, transport information, packet sizes, and timing.",
+    "At Northstar, compare the readable HTTP teaching message with a clearly labeled conceptual TLS record diagram.",
+    "Encryption limits payload inspection, while endpoint and service logs may provide other authorized evidence."
+  ],
+  "S19": [
+    "A virtual private network can protect traffic across an untrusted path by carrying it inside a protected tunnel.",
+    "An observer outside the tunnel may see outer addresses and timing while losing access to inner content.",
+    "At Northstar, draw the classroom application path and mark exactly where the tunnel begins and ends.",
+    "This avoids treating a tunnel icon as a universal privacy guarantee."
+  ],
+  "S20": [
+    "Some traditional application protocols were designed without modern transport protection.",
+    "A port number alone cannot establish which protection is active.",
+    "A defense plan can replace an exposed management path with an authenticated encrypted alternative, restrict who can reach it, and verify that old access paths are actually closed.",
+    "Keep availability requirements and device capabilities explicit."
+  ],
+  "S21": [
+    "We can now separate three questions.",
+    "A capture may answer the first two partly while leaving the third open.",
+    "At Northstar, use a service configuration check, an authorized endpoint observation, and a bounded capture together when appropriate.",
+    "In an incident brief, say exactly which payload was readable and which remained unexamined."
+  ],
+  "S22": [
+    "Address Resolution Protocol, or ARP, helps a host discover the Ethernet address associated with an IPv4 address on its local link.",
+    "When STAFF communicates with an off-subnet destination, the relevant local mapping is normally the gateway's IPv4 address.",
+    "That design creates opportunities for false mappings when additional protections are absent.",
+    "Our fixture shows explicit teaching mappings and replies."
+  ],
+  "S23": [
+    "ARP poisoning attempts to persuade a recipient to associate a local IPv4 address with an inappropriate MAC address.",
+    "A false reply alone does not prove successful bidirectional interception, content reading, or data theft.",
+    "This supports the observation that the supplied trace contains conflicting binding claims.",
+    "It does not include a real cache change or actual forwarding path."
+  ],
+  "S24": [
+    "A changed gateway mapping deserves investigation, but it can have legitimate explanations.",
+    "At Northstar, compare the old and new MAC addresses with the approved gateway inventory, maintenance window, and switch observations.",
+    "Our fictional approval card deliberately leaves the change unconfirmed so the student must state a next check.",
+    "This approach supports a timely protective decision while preserving uncertainty about cause."
+  ],
+  "S25": [
+    "Dynamic ARP Inspection, or DAI, can validate ARP traffic against trusted binding information and configured policy on supporting switches.",
+    "Trusted ports are an important configuration boundary; trusting the wrong path can bypass intended inspection, while rejecting legitimate traffic can disrupt service.",
+    "Verify the expected forwarding or rejection and the relevant logs.",
+    "Product support and exact commands vary by platform and release."
+  ],
+  "S26": [
+    "Sniffing courses name tools that can observe ARP, generate address claims, or combine redirection with analysis.",
+    "Knowing a tool name is useful for recognizing its role, but running a command successfully does not establish that a recipient changed its cache or that traffic was intercepted.",
+    "At Northstar, a complete success criterion for any later lab would identify recipient state, traffic direction, control behavior, and retained evidence.",
+    "That criterion should exist before choosing an active tool."
+  ],
+  "S27": [
+    "MAC spoofing changes the link-layer address an interface presents.",
+    "A simple MAC allowlist can constrain a narrow environment, but it is not equivalent to strong user or device authentication.",
+    "Do not infer a unique physical machine solely from a vendor prefix.",
+    "A defensive explanation should state what the control binds, how changes are authorized, and which observation verifies the expected state."
+  ],
+  "S28": [
+    "A MAC flooding technique attempts to stress a switch's address-learning resources by presenting many source addresses.",
+    "Do not teach that every modern switch becomes a hub when its table is full.",
+    "There is no flooding generator in this package.",
+    "A packet count alone cannot establish table exhaustion."
+  ],
+  "S29": [
+    "Port security can limit or constrain learned source addresses on supported access ports.",
+    "A virtualization host can present several.",
+    "Review counters, logs, and recovery behavior, then validate both accepted and rejected traffic in the permitted lab.",
+    "A successful configuration command proves that the device accepted a setting, not that the entire defense works."
+  ],
+  "S30": [
+    "Dynamic Host Configuration Protocol helps a client obtain network configuration.",
+    "Correlate the transaction identifier, client information, message type, and relevant options.",
+    "Our synthetic file includes a discovery and competing offers.",
+    "Consequently, it cannot show which offer the client accepted or which configuration became active."
+  ],
+  "S31": [
+    "DHCP starvation attempts to consume available leases or related resources so legitimate clients cannot obtain expected configuration.",
+    "A burst of discoveries alone does not establish that a pool was exhausted.",
+    "At Northstar, E03 presents two offers for one constructed transaction, including different router options.",
+    "A next check would identify the sending ports, authorized servers, and the client's selected configuration."
+  ],
+  "S32": [
+    "DHCP snooping can distinguish trusted server-facing paths from untrusted client-facing paths and build binding information on supported switches.",
+    "Those dependencies mean that an incomplete or incorrect binding state can affect several controls.",
+    "Validate that a legitimate client obtains the correct lease and that an unauthorized teaching offer is handled as intended in an isolated lab.",
+    "Preserve the binding table, relevant counters, and client configuration."
+  ],
+  "S33": [
+    "VLAN hopping describes techniques that attempt to cross an intended Layer Two separation.",
+    "These are not universal properties of every switched network, and the exact prerequisites matter.",
+    "At Northstar, use the diagram to audit access-port roles, explicit trunk configuration, allowed VLANs, and native-VLAN choices against the intended design.",
+    "A defensive validation should test approved connectivity and isolation between named roles using the actual platform configuration."
+  ],
+  "S34": [
+    "A VLAN defense begins with an accurate port inventory.",
+    "Review allowed VLANs, native-VLAN behavior, and the handling of unused ports according to the platform and design.",
+    "Both are useful, and neither proves every possible route.",
+    "Preserve the source and destination roles, timing, expected result, and actual result."
+  ],
+  "S35": [
+    "Spanning Tree Protocol helps prevent loops in an Ethernet topology with redundant links.",
+    "This can change traffic paths or availability.",
+    "Then compare a reported topology change with maintenance records and actual device state.",
+    "Any later lab must identify the protocol variant, platform, configuration, and measured change."
+  ],
+  "S36": [
+    "BPDU Guard and Root Guard address different expectations in a spanning-tree design.",
+    "These features are not interchangeable names for blocking every topology change.",
+    "Plan the availability effect, alerting, and recovery process, because enforcement may block or disable a path.",
+    "A protection that prevents a test event but breaks the approved teaching network needs correction."
+  ],
+  "S37": [
+    "DNS connects a queried name and type to returned data under a hierarchy of zones, resolvers, and caches.",
+    "Generating a false local response and poisoning a recursive cache are distinct outcomes; both require acceptance evidence.",
+    "At Northstar, the synthetic file supplies two responses for the same constructed question and transaction, with different returned addresses.",
+    "Compare the approved zone data and resolver logs to determine what should have been returned under those conditions."
+  ],
+  "S38": [
+    "DNSSEC can provide origin authentication and integrity for signed DNS data when the validation chain and policy support it.",
+    "Resolver trust, endpoint configuration, validation behavior, and the authoritative zone still matter.",
+    "These can complement one another without being equivalent.",
+    "A later verification should record the chosen resolver, relevant policy, response validation state, expected record, and actual client behavior."
+  ],
+  "S39": [
+    "Passive sniffing observes traffic available at a collection point without deliberately changing another station's path.",
+    "These categories describe mechanisms, not whether an activity is authorized.",
+    "The animation can show how a path might change without causing that change on a real network.",
+    "A packet analyzer screenshot may be passive observation of an already supplied file, not proof that the operator performed the active technique illustrated beside it."
+  ],
+  "S40": [
+    "Detecting a sniffer is challenging because a collector may transmit very little or nothing while it observes.",
+    "Nmap names one such local-Ethernet test sniffer-detect and classifies it as intrusive.",
+    "The state needs an approved purpose and owner before it becomes an incident conclusion.",
+    "A defensible detection statement names the mechanism tested, its expected signal, the collection conditions, and the uncovered cases."
+  ],
+  "S41": [
+    "Wireshark provides interactive protocol inspection and display filtering.",
+    "Binding monitors can report changes in observed address relationships, while switch telemetry can describe ports and control behavior.",
+    "It does not invent a TShark execution receipt when that executable is unavailable.",
+    "If you run them later, save the actual version and result."
+  ],
+  "S42": [
+    "A false positive occurs when a detection interprets benign activity as the harmful condition of interest.",
+    "An accurate alert that a MAC mapping changed can be followed by an incorrect inference that an attacker caused it.",
+    "At Northstar, compare the proposed ARP, DHCP, and DNS interpretations with maintenance records, client state, and collection coverage.",
+    "Broadly disabling a noisy sensor removes evidence as well as noise."
+  ],
+  "S43": [
+    "An evidence ledger makes reasoning inspectable.",
+    "Use the word synthetic where the underlying traffic was generated for teaching.",
+    "A missing client acknowledgment may leave acceptance unknown.",
+    "When several records share one source, mark their dependency."
+  ],
+  "S44": [
+    "Northstar's first case compares two synthetic observation points.",
+    "The fixture manifest names these assumptions, and the actual offline validator counts their bytes and packets.",
+    "The student should identify which file supports the question and whether any filter further narrowed the visible rows.",
+    "Choose the minimum suitable evidence rather than the largest possible file."
+  ],
+  "S45": [
+    "E02 contains an initial reply associating the office gateway address with the approved teaching MAC, followed by another reply associating that same protocol address with a different MAC.",
+    "The supplied approval card has no confirmed gateway replacement for that interval.",
+    "Therefore, the brief should describe conflicting claims and request the appropriate independent records.",
+    "If such an action is merely proposed, keep it proposed."
+  ],
+  "S46": [
+    "E03 shows a constructed DHCP discovery followed by two offers using the same transaction context.",
+    "The offline analysis identifies both offers and their declared fields.",
+    "We cannot claim that STAFF selected the unexpected gateway, that every client was affected, or that the authorized lease pool was exhausted.",
+    "Each check addresses a different remaining claim."
+  ],
+  "S47": [
+    "E04 supplies a DNS query and two matching teaching responses that return different documentation addresses for the same classroom name.",
+    "The packet bytes support a conflict in the supplied response set.",
+    "At Northstar, request the approved resolver configuration, authoritative record state, and client behavior for the same interval.",
+    "A DNS-security recommendation should address the supported weakness and its prerequisites."
+  ],
+  "S48": [
+    "The four Northstar cases share a teaching network and a method of reasoning.",
+    "DNS responses propose name data.",
+    "Preserve the fixture identities and the fictional approval cards.",
+    "If new evidence later establishes client acceptance or a changed forwarding path, strengthen only the claims it actually supports."
+  ],
+  "S49": [
+    "A layered defense addresses different parts of the communication path.",
+    "Monitoring can reveal unexpected changes and support investigation.",
+    "Enabling DAI does not establish correct TLS hostname validation.",
+    "Include rollback criteria when an operational change can interrupt teaching."
+  ],
+  "S50": [
+    "After a defensive change, repeat the relevant observation under comparable conditions.",
+    "Then check the specific unwanted condition in the approved isolated environment.",
+    "Our source package supplies a checklist and synthetic analysis results, not a completed live-control test.",
+    "At Northstar, the owner signs off only on the scope actually exercised."
+  ],
+  "S51": [
+    "A useful handoff lets another analyst reproduce the supported finding.",
+    "Our fixtures contain fictional teaching data, but their provenance still matters.",
+    "Do not label a proposed defense as deployed or a source-ready lesson as learner practice.",
+    "A reviewer should be able to trace every concrete claim back to a file, field, or qualified source."
+  ],
+  "S52": [
+    "An AI assistant can help explain a protocol field, suggest a display filter, or organize a small evidence table.",
+    "Supply only approved, minimized data and keep real captures or secrets within their authorized custody.",
+    "At Northstar, an assistant might identify the two gateway claims, but a person must still check the addresses, approved change records, and scope of the conclusion.",
+    "Our teaching discussion does not claim that an AI system actually analyzed a live network or deployed a defense."
+  ],
+  "S53": [
+    "Imagine an assistant reads the Northstar cards and writes that an attacker stole every teacher's password.",
+    "None proves accepted configuration, a complete interception path, actual credentials, or data transfer to an attacker.",
+    "This is a practical review pattern: identify the exact claim, inspect its cited source, state what that source directly supports, and name the evidence needed to go further.",
+    "Use AI to improve organization and question quality while preserving those boundaries."
+  ],
+  "S54": [
+    "Question 1.",
+    "It does not cause an upstream switch to copy every other port.",
+    "The original capture filter becomes a display filter C.",
+    "A invents missing bytes, B treats different languages as interchangeable, and D claims coverage without the required collection evidence."
+  ],
+  "S55": [
+    "Question 3.",
+    "Recipient cache changes, actual forwarding, impact, and approval each require additional evidence.",
+    "The color Wireshark assigns to UDP B.",
+    "Repeated dashboards may derive from the same underlying packet and add no independent observation."
+  ],
+  "S56": [
+    "Question 5.",
+    "Neither feature guarantees every answer in every situation.",
+    "Treat all missing responses as successful attack suppression C.",
+    "D duplicates the same observation."
+  ],
+  "S57": [
+    "Question 7.",
+    "B preserves the useful observations and identifies how to reduce uncertainty.",
+    "Erase the failed service result from the report C.",
+    "C generalizes beyond the tested condition."
+  ],
+  "S58": [
+    "Your capstone is a concise packet-analysis brief for the Northstar decision owner.",
+    "Compare the endpoint and mirror views, then inspect the ARP, DHCP, DNS, and harmless HTTP examples.",
+    "Record your own choice and confidence for each film question before consulting the separate answer key.",
+    "When learner execution is activated, save your actual brief, result or blocker, and rubric review in the CEH workspace."
+  ]
+}

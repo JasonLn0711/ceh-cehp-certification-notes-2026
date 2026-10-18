@@ -1,0 +1,50 @@
+# Editing and rebuilding CEH M08
+
+Open this `project/` directory in Codex or HyperFrames. `index.html` mounts all 58 measured scene compositions. `BRIEF.md`, `DESIGN.md` and `PRODUCTION_STANDARD_v1.0.md` govern the approved content and design. The original source package remains immutable under `../inputs/package/CEH_M08_English_Editorial_Masterclass/`.
+
+## Dependencies and preview
+
+Use Node 24 and Python 3.12, FFmpeg 6.1+, an installed Chromium browser, `npm ci` and a Python environment from `requirements-lock.txt`. Model files, fonts, GSAP and their provenance are included. Configure the local browser on a new machine:
+
+```bash
+export HYPERFRAMES_BROWSER_PATH=/absolute/path/to/chromium
+npm run dev -- --port 3005
+```
+
+The delivered GX10 workspace uses the existing approved shared Python environment via `.venv`; that environment is excluded from the editable ZIP. Create your own environment when moving the project. HyperFrames is pinned to 0.8.171. M05–M07 retain their independent runtime versions and outputs.
+
+## Edit the smallest owning layer
+
+- `data/scenes.json`: complete canonical spoken content and source segment ordering. Preserve all 9,097 words unless a content change is explicitly requested.
+- `scripts/scene_art.py`, `scripts/art_arp.py`, `scripts/art_dhcp.py`, `scripts/art_dns.py`, `scripts/cues_m08.json` and `scripts/editorial.py`: semantic diagrams, exact narration anchors, original Tally and native layers.
+- `scripts/build_film.py`: scene HTML, measured captions, quiz geometry and deterministic timelines.
+- `data/Sxx.audio.json`, `assets/voice/Sxx/` and `assets/voice-baseline/Sxx/`: final clip/sample ledger, processed speech and native 24 kHz baseline speech.
+- `data/forced-alignment/`: known-text alignment for final processed clips. Diagnostic flags preserve uncertainty.
+- `compositions/Sxx.html` and adjacent `.motion.json`: editable generated scene compositions and motion sidecars.
+- `chapters/Cxx/`: independently checked/renderable chapter projects. Their normalized input fingerprints bind render receipts.
+
+For an art-only edit, preserve valid audio, rerun the affected chapter preparation, inspect actual frames, update its concrete review record and render that chapter. Regenerate the root composition and metadata after the affected chapter is prepared. Reassemble and audit the master after all required chapter renders match current fingerprints.
+
+## Commands
+
+Activate your Python environment first. From the project root:
+
+```bash
+python scripts/chapter.py prepare C01
+python scripts/chapter.py render C01
+python scripts/assemble_project.py
+python scripts/export_metadata.py
+python scripts/assemble_master.py
+python scripts/audit_rendered.py
+python scripts/validate_delivery.py
+```
+
+`chapter.py render` requires a passing current chapter check and a concrete `../qa/Cxx-visual-review.md`. `prepare_master.py` performs full root and 64 quiz assertions. `render_remaining.py` resumes verified chapters with at most two active render processes. `launch_stage.py` runs a stage in a durable process group, with JSON status and bounded measured progress under `../qa/`; inspect an existing running stage before launching another. A live process alone does not prove completion.
+
+Speech is Kokoro `af_heart`, en-US, baseline 0.73 and exactly one `atempo=1.5` per spoken clip. No whole-film acceleration, BGM or recalibration occurs. Quiz silence is exactly 48,000 stereo zero PCM frames at 48 kHz, placed after complete stem/choices and before the answer. Regenerate only changed clips; their cache includes text, voice, models, baseline and tempo fingerprints. Rebuild captions from the final processed audio, never estimated timestamps.
+
+HyperFrames multi-position diagnostic snapshots sometimes omit common raster layers despite correct DOM states; fresh standalone frames and actual beginframe-encoded samples are preserved in QA. Always inspect the delivered MP4 samples across every scene. Full human viewing/listening remains Jason's acceptance gate. The flagged audition queue is `../qa/audio-audition/index.html`.
+
+All Northstar evidence is fictional SIMULATED OUTPUT. The six synthetic Ethernet PCAP fixtures and their source generators remain under `../inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/` and `tooling/`. The source receipt records actual read-only tcpdump parsing/filter checks and separately documented Wireshark expressions; full production revalidates hashes without live collection. Production does not establish learner practice, attendance or readiness. Local delivery does not establish public media release.
+
+The frozen chapter .motion.json sidecars record their authored input state; actual rendered acceptance is the external chapter fingerprint, final scene_qa_ledger.csv and delivery-validation.json. Preserve those input bytes when reusing a verified render. The optional animation-map helper uses an isolated producer/core 0.8.170 pair; it leaves the 0.8.171 render runtime unchanged.

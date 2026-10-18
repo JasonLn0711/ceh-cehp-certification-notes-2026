@@ -1,0 +1,14 @@
+---
+workflow: general-video
+flow: automation
+storyboard: no
+message: "Trace packets from collection point to defensible Northstar decisions."
+audience: "Jason and CEH learners; complete English masterclass"
+language: en-US
+length: "Measured speech and explanation; no ceiling"
+---
+# M08 full-production activation
+
+The user explicitly requested execution of AGENT_PROMPT.md and then approved the full implementation plan. Produce all 58 animated scenes, 11 chapters, 9,097 canonical words, aligned subtitles, chapter outputs, master MP4 and editable ZIP. No short-pilot or renewed render approval is required.
+
+Preserve M04 v3 design, original Tally, Northstar and source hashes. Kokoro af_heart at0.73 followed by exactly one spoken-only atempo1.5. Video rate1.0, BGMoff, eight exact1.000s reference-zero PCM holds after full question/choices. Fully offline synthetic case interpretation; no interface capture, transmitted traffic or rogue service activation. Human acceptance and public release remain separate.

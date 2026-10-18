@@ -1,0 +1,644 @@
+# M08 full-film scene dispatch and motion map
+
+The immutable source storyboard remains under ../inputs/package/CEH_M08_English_Editorial_Masterclass/STORYBOARD.md. This runtime storyboard records all 58 scene implementations. Native SVG groups, measured narration anchors and paused seek-safe GSAP timelines implement the approved boards. orient → explain → reason → hold is paced by actual speech, not a shortened slide loop. All instructional text, four on-screen labels per scene and caption coverage are retained. The final scene ledger establishes rendered status separately.
+
+Shared motion rules: svg-path-draw (actual getTotalLength), dynamic-content-sequencing (measured narration reveals). Quiz pages use deterministic full-page visibility and a timeline-driven one-second clock. Dashed routes describe conditional relationships, without actual traffic tokens; solid measured/example routes can move native paper packet tokens. No runtime network assets, clocks, randomness or CSS animation.
+
+## Frame 1
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S01.html
+sidecar: compositions/S01.motion.json
+scene: S01
+chapter: C01
+rules: svg-path-draw, dynamic-content-sequencing
+
+Follow the packet. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S01.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 2
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S02.html
+sidecar: compositions/S02.motion.json
+scene: S02
+chapter: C01
+rules: svg-path-draw, dynamic-content-sequencing
+
+Capture is an observation. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S02.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 3
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S03.html
+sidecar: compositions/S03.motion.json
+scene: S03
+chapter: C01
+rules: svg-path-draw, dynamic-content-sequencing
+
+The Northstar traffic map. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S03.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 4
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S04.html
+sidecar: compositions/S04.motion.json
+scene: S04
+chapter: C01
+rules: svg-path-draw, dynamic-content-sequencing
+
+A bounded collection plan. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S04.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 5
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S05.html
+sidecar: compositions/S05.motion.json
+scene: S05
+chapter: C02
+rules: svg-path-draw, dynamic-content-sequencing
+
+Ethernet delivers locally. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S05.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 6
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S06.html
+sidecar: compositions/S06.motion.json
+scene: S06
+chapter: C02
+rules: svg-path-draw, dynamic-content-sequencing
+
+What a switch learns. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S06.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 7
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S07.html
+sidecar: compositions/S07.motion.json
+scene: S07
+chapter: C02
+rules: svg-path-draw, dynamic-content-sequencing
+
+Promiscuous has a boundary. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S07.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 8
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S08.html
+sidecar: compositions/S08.motion.json
+scene: S08
+chapter: C02
+rules: svg-path-draw, dynamic-content-sequencing
+
+Broadcast domains and routes. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S08.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 9
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S09.html
+sidecar: compositions/S09.motion.json
+scene: S09
+chapter: C02
+rules: svg-path-draw, dynamic-content-sequencing
+
+Choose the right evidence. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S09.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 10
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S10.html
+sidecar: compositions/S10.motion.json
+scene: S10
+chapter: C03
+rules: svg-path-draw, dynamic-content-sequencing
+
+Endpoint capture. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S10.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 11
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S11.html
+sidecar: compositions/S11.motion.json
+scene: S11
+chapter: C03
+rules: svg-path-draw, dynamic-content-sequencing
+
+SPAN copies selected traffic. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S11.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 12
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S12.html
+sidecar: compositions/S12.motion.json
+scene: S12
+chapter: C03
+rules: svg-path-draw, dynamic-content-sequencing
+
+A tap has requirements. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S12.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 13
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S13.html
+sidecar: compositions/S13.motion.json
+scene: S13
+chapter: C03
+rules: svg-path-draw, dynamic-content-sequencing
+
+Read a file reproducibly. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S13.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 14
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S14.html
+sidecar: compositions/S14.motion.json
+scene: S14
+chapter: C03
+rules: svg-path-draw, dynamic-content-sequencing
+
+Two filter languages. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S14.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 15
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S15.html
+sidecar: compositions/S15.motion.json
+scene: S15
+chapter: C03
+rules: svg-path-draw, dynamic-content-sequencing
+
+Read the conversation. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S15.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 16
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S16.html
+sidecar: compositions/S16.motion.json
+scene: S16
+chapter: C03
+rules: svg-path-draw, dynamic-content-sequencing
+
+Missing does not mean absent. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S16.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 17
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S17.html
+sidecar: compositions/S17.motion.json
+scene: S17
+chapter: C04
+rules: svg-path-draw, dynamic-content-sequencing
+
+Plaintext can expose content. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S17.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 18
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S18.html
+sidecar: compositions/S18.motion.json
+scene: S18
+chapter: C04
+rules: svg-path-draw, dynamic-content-sequencing
+
+TLS protects a channel. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S18.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 19
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S19.html
+sidecar: compositions/S19.motion.json
+scene: S19
+chapter: C04
+rules: svg-path-draw, dynamic-content-sequencing
+
+A VPN has endpoints. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S19.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 20
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S20.html
+sidecar: compositions/S20.motion.json
+scene: S20
+chapter: C04
+rules: svg-path-draw, dynamic-content-sequencing
+
+Legacy protocols need context. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S20.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 21
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S21.html
+sidecar: compositions/S21.motion.json
+scene: S21
+chapter: C04
+rules: svg-path-draw, dynamic-content-sequencing
+
+Protection and observation. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S21.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 22
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S22.html
+sidecar: compositions/S22.motion.json
+scene: S22
+chapter: C05
+rules: svg-path-draw, dynamic-content-sequencing
+
+ARP finds a local neighbor. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S22.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 23
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S23.html
+sidecar: compositions/S23.motion.json
+scene: S23
+chapter: C05
+rules: svg-path-draw, dynamic-content-sequencing
+
+A false mapping changes a path. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S23.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 24
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S24.html
+sidecar: compositions/S24.motion.json
+scene: S24
+chapter: C05
+rules: svg-path-draw, dynamic-content-sequencing
+
+A change can be legitimate. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S24.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 25
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S25.html
+sidecar: compositions/S25.motion.json
+scene: S25
+chapter: C05
+rules: svg-path-draw, dynamic-content-sequencing
+
+Verify ARP protections. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S25.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 26
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S26.html
+sidecar: compositions/S26.motion.json
+scene: S26
+chapter: C05
+rules: svg-path-draw, dynamic-content-sequencing
+
+Tools do not prove the result. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S26.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 27
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S27.html
+sidecar: compositions/S27.motion.json
+scene: S27
+chapter: C06
+rules: svg-path-draw, dynamic-content-sequencing
+
+MAC spoofing changes a claim. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S27.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 28
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S28.html
+sidecar: compositions/S28.motion.json
+scene: S28
+chapter: C06
+rules: svg-path-draw, dynamic-content-sequencing
+
+MAC flooding targets learning. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S28.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 29
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S29.html
+sidecar: compositions/S29.motion.json
+scene: S29
+chapter: C06
+rules: svg-path-draw, dynamic-content-sequencing
+
+Constrain access-port behavior. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S29.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 30
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S30.html
+sidecar: compositions/S30.motion.json
+scene: S30
+chapter: C06
+rules: svg-path-draw, dynamic-content-sequencing
+
+DHCP builds a lease. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S30.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 31
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S31.html
+sidecar: compositions/S31.motion.json
+scene: S31
+chapter: C06
+rules: svg-path-draw, dynamic-content-sequencing
+
+Starvation and rogue offers. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S31.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 32
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S32.html
+sidecar: compositions/S32.motion.json
+scene: S32
+chapter: C06
+rules: svg-path-draw, dynamic-content-sequencing
+
+DHCP snooping needs trust. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S32.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 33
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S33.html
+sidecar: compositions/S33.motion.json
+scene: S33
+chapter: C07
+rules: svg-path-draw, dynamic-content-sequencing
+
+VLAN hopping has conditions. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S33.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 34
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S34.html
+sidecar: compositions/S34.motion.json
+scene: S34
+chapter: C07
+rules: svg-path-draw, dynamic-content-sequencing
+
+Make VLAN boundaries reviewable. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S34.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 35
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S35.html
+sidecar: compositions/S35.motion.json
+scene: S35
+chapter: C07
+rules: svg-path-draw, dynamic-content-sequencing
+
+STP protects a topology. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S35.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 36
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S36.html
+sidecar: compositions/S36.motion.json
+scene: S36
+chapter: C07
+rules: svg-path-draw, dynamic-content-sequencing
+
+Guard the intended STP role. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S36.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 37
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S37.html
+sidecar: compositions/S37.motion.json
+scene: S37
+chapter: C07
+rules: svg-path-draw, dynamic-content-sequencing
+
+DNS poisoning changes an answer. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S37.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 38
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S38.html
+sidecar: compositions/S38.motion.json
+scene: S38
+chapter: C07
+rules: svg-path-draw, dynamic-content-sequencing
+
+Protect DNS at the right layer. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S38.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 39
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S39.html
+sidecar: compositions/S39.motion.json
+scene: S39
+chapter: C08
+rules: svg-path-draw, dynamic-content-sequencing
+
+Passive and active sniffing. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S39.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 40
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S40.html
+sidecar: compositions/S40.motion.json
+scene: S40
+chapter: C08
+rules: svg-path-draw, dynamic-content-sequencing
+
+Detect suspicious collection. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S40.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 41
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S41.html
+sidecar: compositions/S41.motion.json
+scene: S41
+chapter: C08
+rules: svg-path-draw, dynamic-content-sequencing
+
+Choose tools by their job. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S41.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 42
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S42.html
+sidecar: compositions/S42.motion.json
+scene: S42
+chapter: C08
+rules: svg-path-draw, dynamic-content-sequencing
+
+False positives and false negatives. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S42.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 43
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S43.html
+sidecar: compositions/S43.motion.json
+scene: S43
+chapter: C08
+rules: svg-path-draw, dynamic-content-sequencing
+
+Build an evidence ledger. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S43.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 44
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S44.html
+sidecar: compositions/S44.motion.json
+scene: S44
+chapter: C09
+rules: svg-path-draw, dynamic-content-sequencing
+
+Case one: the missing exchange. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S44.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 45
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S45.html
+sidecar: compositions/S45.motion.json
+scene: S45
+chapter: C09
+rules: svg-path-draw, dynamic-content-sequencing
+
+Case two: gateway claims. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S45.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 46
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S46.html
+sidecar: compositions/S46.motion.json
+scene: S46
+chapter: C09
+rules: svg-path-draw, dynamic-content-sequencing
+
+Case three: competing offers. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S46.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 47
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S47.html
+sidecar: compositions/S47.motion.json
+scene: S47
+chapter: C09
+rules: svg-path-draw, dynamic-content-sequencing
+
+Case four: conflicting DNS data. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S47.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 48
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S48.html
+sidecar: compositions/S48.motion.json
+scene: S48
+chapter: C09
+rules: svg-path-draw, dynamic-content-sequencing
+
+One connected decision brief. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S48.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 49
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S49.html
+sidecar: compositions/S49.motion.json
+scene: S49
+chapter: C10
+rules: svg-path-draw, dynamic-content-sequencing
+
+Choose layered defenses. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S49.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 50
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S50.html
+sidecar: compositions/S50.motion.json
+scene: S50
+chapter: C10
+rules: svg-path-draw, dynamic-content-sequencing
+
+Revalidate after the change. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S50.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 51
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S51.html
+sidecar: compositions/S51.motion.json
+scene: S51
+chapter: C10
+rules: svg-path-draw, dynamic-content-sequencing
+
+Preserve and report clearly. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S51.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 52
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S52.html
+sidecar: compositions/S52.motion.json
+scene: S52
+chapter: C10
+rules: svg-path-draw, dynamic-content-sequencing
+
+AI can assist with analysis. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S52.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 53
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S53.html
+sidecar: compositions/S53.motion.json
+scene: S53
+chapter: C10
+rules: svg-path-draw, dynamic-content-sequencing
+
+Review an AI conclusion. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S53.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 54
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S54.html
+sidecar: compositions/S54.motion.json
+scene: S54
+chapter: C11
+rules: svg-path-draw, dynamic-content-sequencing
+
+Knowledge check: basic. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S54.label-cues.json. Show one complete stem and A–D set, hold the measured 48,000 stereo zero frames, then reveal its correct option and narrate the complete explanation. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 55
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S55.html
+sidecar: compositions/S55.motion.json
+scene: S55
+chapter: C11
+rules: svg-path-draw, dynamic-content-sequencing
+
+Knowledge check: intermediate. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S55.label-cues.json. Show one complete stem and A–D set, hold the measured 48,000 stereo zero frames, then reveal its correct option and narrate the complete explanation. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 56
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S56.html
+sidecar: compositions/S56.motion.json
+scene: S56
+chapter: C11
+rules: svg-path-draw, dynamic-content-sequencing
+
+Knowledge check: advanced. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S56.label-cues.json. Show one complete stem and A–D set, hold the measured 48,000 stereo zero frames, then reveal its correct option and narrate the complete explanation. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 57
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S57.html
+sidecar: compositions/S57.motion.json
+scene: S57
+chapter: C11
+rules: svg-path-draw, dynamic-content-sequencing
+
+Knowledge check: scenario. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S57.label-cues.json. Show one complete stem and A–D set, hold the measured 48,000 stereo zero frames, then reveal its correct option and narrate the complete explanation. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+
+## Frame 58
+
+status: rendered; see chapter input/output fingerprint and final encoded audit
+src: compositions/S58.html
+sidecar: compositions/S58.motion.json
+scene: S58
+chapter: C11
+rules: svg-path-draw, dynamic-content-sequencing
+
+Capstone: a defensible packet brief. Native protocol/evidence relationships reveal at the exact canonical narration anchors stored in scripts/cues_m08.json and data/S58.label-cues.json. Preserve header, Northstar/Tally and caption clearance; use SIMULATED OUTPUT for constructed network events.
+

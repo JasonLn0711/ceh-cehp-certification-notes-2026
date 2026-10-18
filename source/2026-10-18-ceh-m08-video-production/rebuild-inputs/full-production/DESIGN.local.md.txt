@@ -1,0 +1,7 @@
+# M08 production design truth
+
+Inherit M04 v3: paper #F0EBE4, ink #292421, terracotta #C8755D, apricot #F2D4B7, mustard #E9B94D, white #FFFAF3. Use local Liberation Sans and DejaVu Sans Mono. Original Tally parts/rig only.
+
+Canvas1920×1080 at30fps. Chapter anchor top-left, title54px+, native semantic diagram y280–810, teaching cue y850, captions y945–1028. Labels30–38px. Right-side campus anchor/Tally, mechanism content x200–1420. No static source-board playback; native objects, relationships, path drawings and claim-state comparisons follow actual narration anchors. Sparse paper is the approved design. Real packet values come from the supplied fixture, with SIMULATED OUTPUT visible; unknown cache/adoption/forwarding is not animated as an observed outcome.
+
+Quiz pages show one full prompt/options set at a time, measured with font metrics. Hold exactly1s after spoken choices; reveal correct option and concise answer letter after. Complete explanations remain in narration/subtitles.

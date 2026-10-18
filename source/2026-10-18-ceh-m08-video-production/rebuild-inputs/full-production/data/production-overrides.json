@@ -1,0 +1,9 @@
+{
+  "module": "M08",
+  "quiz_silence_seconds": 1,
+  "voice": "af_heart",
+  "baseline_speed": 0.73,
+  "speech_atempo": 1.5,
+  "video_rate": 1.0,
+  "canonical_words": 9097
+}

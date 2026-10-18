@@ -1,0 +1,8 @@
+{
+  "canonical_source_unchanged": true,
+  "purpose": "Synthesis-only pronunciation for M08 acronyms and evidence IDs",
+  "baseline_speed": 0.73,
+  "postprocess": "one atempo=1.5",
+  "voice": "af_heart",
+  "implementation": "scripts/synthesize.py spoken() mapping; every processed clip records canonical and spoken strings"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ceh-m08-production",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.171 preview",
+    "check": "npx --yes hyperframes@0.8.171 check",
+    "render": "npx --yes hyperframes@0.8.171 render"
+  },
+  "devDependencies": {
+    "hyperframes": "0.8.171",
+    "puppeteer-core": "25.14.0"
+  }
+}
