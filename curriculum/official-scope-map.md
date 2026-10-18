@@ -125,6 +125,6 @@ CEH 2053 meets September 20, October 4, 18, 25 and November 1. CEHP 26416 meets 
 
 [Complete overview and M01–M03 explanations](../notes/2026-09-20-ceh-week-01/plain-english/README.md) provide a standalone English reading path. [Every source heading](../notes/2026-09-20-ceh-week-01/plain-english/coverage.md) connects it to the Chinese companion and audited notes. All twenty modules are previewed; M04–M20 are not represented as fully taught or completed.
 
-## M07 English Masterclass production-source connection — October 18
+## M07 English Masterclass production connection — October 18
 
-The [M07 Malware Threats source-package record](../notes/m07-malware-threats/video-production-2026-10-18.md) connects the official topic boundary to 11 chapters, 58 source scenes, static/dynamic reasoning, detection, response, eight film questions and the Northstar capstone. The [shared video standard](../docs/video-production/PRODUCTION_STANDARD_v1.0.md) governs editorial/timing decisions. Prepared teaching remains separate from the mapped P4 learner task and the existing practice-bank evidence.
+The [M07 Malware Threats rendered production record](../notes/m07-malware-threats/video-production-2026-10-18.md) connects the official topic boundary to 11 chapters, 58 animated scenes, static/dynamic reasoning, detection, response, eight film questions and the Northstar capstone. The [shared video standard](../docs/video-production/PRODUCTION_STANDARD_v1.0.md) governs editorial/timing decisions. Prepared teaching remains separate from the mapped P4 learner task and the existing practice-bank evidence.

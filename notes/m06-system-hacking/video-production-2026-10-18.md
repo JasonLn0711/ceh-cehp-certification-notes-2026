@@ -74,4 +74,4 @@ Documentation closeout verified 20 unchanged QA copies and the original AGENT_PR
 
 ## Series reuse — October 18
 
-The [initial CEH series standard](../../docs/video-production/PRODUCTION_STANDARD_v1.0.md) adopts this film's approved design and timing implementation. The next module's [M07 Malware Threats source record](../m07-malware-threats/video-production-2026-10-18.md) reuses Tally/Northstar and voice/quiz timing while supplying new content. M06's original source archive and rendered delivery remain historical evidence; M07 source readiness is a distinct layer.
+The [initial CEH series standard](../../docs/video-production/PRODUCTION_STANDARD_v1.0.md) adopts this film's approved design and timing implementation. The next module's [M07 Malware Threats production record](../m07-malware-threats/video-production-2026-10-18.md) reuses Tally/Northstar and voice/quiz timing while supplying new content. M06's original source archive and rendered delivery remain historical evidence; M07 now has its own rendered film and QA; each module retains independent source, media and human-review evidence.

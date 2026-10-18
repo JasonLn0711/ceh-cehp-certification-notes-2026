@@ -173,4 +173,4 @@ For this capture, the current [Planning CEH locator](../planning-everything-trac
 
 ## CEH English Masterclass production
 
-[Initial video standard](docs/video-production/PRODUCTION_STANDARD_v1.0.md) → [module delivery index](docs/video-production/README.md) → [M07 Malware Threats source package](notes/m07-malware-threats/video-production-2026-10-18.md). Complete teaching sources can support course review; actual learner answers, authorized practice and readiness retain their own evidence.
+[Initial video standard](docs/video-production/PRODUCTION_STANDARD_v1.0.md) → [module delivery index](docs/video-production/README.md) → [M07 Malware Threats complete film and editable project](notes/m07-malware-threats/video-production-2026-10-18.md). Complete teaching sources can support course review; actual learner answers, authorized practice and readiness retain their own evidence.
