@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "scope": "Actual offline tcpdump verbose decoding of all six immutable synthetic fixtures. No interface collection, transmission, client acceptance or control enforcement.",
+  "files": [
+    {
+      "file": "lab_mock/visibility_endpoint.pcap",
+      "sha256": "9f0515998015635926d9994e0c8761b1df018e2b2e0718f0a1f3751be3571150",
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-vvv",
+        "-XX",
+        "-r",
+        "/home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/visibility_endpoint.pcap"
+      ],
+      "exit_code": 0,
+      "stdout": "1792285200.000000 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 10.44.10.1 tell 10.44.10.10, length 28\n\t0x0000:  ffff ffff ffff 0244 1000 0010 0806 0001  .......D........\n\t0x0010:  0800 0604 0001 0244 1000 0010 0a2c 0a0a  .......D.....,..\n\t0x0020:  0000 0000 0000 0a2c 0a01                 .......,..\n",
+      "stderr": "reading from file /home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/visibility_endpoint.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+    },
+    {
+      "file": "lab_mock/visibility_mirror.pcap",
+      "sha256": "43700d61a622165ed408bd1424b92d4fd7ae15b11f9dbca29990146fd8ecb796",
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-vvv",
+        "-XX",
+        "-r",
+        "/home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/visibility_mirror.pcap"
+      ],
+      "exit_code": 0,
+      "stdout": "1792285200.000000 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 10.44.10.1 tell 10.44.10.10, length 28\n\t0x0000:  ffff ffff ffff 0244 1000 0010 0806 0001  .......D........\n\t0x0010:  0800 0604 0001 0244 1000 0010 0a2c 0a0a  .......D.....,..\n\t0x0020:  0000 0000 0000 0a2c 0a01                 .......,..\n1792285201.000000 IP (tos 0x0, ttl 64, id 53, offset 0, flags [none], proto UDP (17), length 75)\n    10.44.10.21.53008 > 10.44.20.53.53: [udp sum ok] 18440+ A? lesson.northstar.example.test. (47)\n\t0x0000:  0244 1000 0001 0244 1000 0021 0800 4500  .D.....D...!..E.\n\t0x0010:  004b 0035 0000 4011 47cc 0a2c 0a15 0a2c  .K.5..@.G..,...,\n\t0x0020:  1435 cf10 0035 0037 b146 4808 0100 0001  .5...5.7.FH.....\n\t0x0030:  0000 0000 0000 066c 6573 736f 6e09 6e6f  .......lesson.no\n\t0x0040:  7274 6873 7461 7207 6578 616d 706c 6504  rthstar.example.\n\t0x0050:  7465 7374 0000 0100 01                   test.....\n1792285202.000000 IP (tos 0x0, ttl 64, id 53008, offset 0, flags [none], proto UDP (17), length 91)\n    10.44.20.53.53 > 10.44.10.21.53008: [udp sum ok] 18440 q: A? lesson.northstar.example.test. 1/0/0 lesson.northstar.example.test. [1m] A 203.0.113.80 (63)\n\t0x0000:  0244 1000 0021 0244 1000 0001 0800 4500  .D...!.D......E.\n\t0x0010:  005b cf10 0000 4011 78e0 0a2c 1435 0a2c  .[....@.x..,.5.,\n\t0x0020:  0a15 0035 cf10 0047 90a8 4808 8180 0001  ...5...G..H.....\n\t0x0030:  0001 0000 0000 066c 6573 736f 6e09 6e6f  .......lesson.no\n\t0x0040:  7274 6873 7461 7207 6578 616d 706c 6504  rthstar.example.\n\t0x0050:  7465 7374 0000 0100 01c0 0c00 0100 0100  test............\n\t0x0060:  0000 3c00 04cb 0071 50                   ..<....qP\n1792285203.000000 IP (tos 0x0, ttl 64, id 53008, offset 0, flags [none], proto UDP (17), length 91)\n    10.44.20.53.53 > 10.44.10.21.53008: [udp sum ok] 18440 q: A? lesson.northstar.example.test. 1/0/0 lesson.northstar.example.test. [1m] A 203.0.113.81 (63)\n\t0x0000:  0244 1000 0021 0244 1000 0001 0800 4500  .D...!.D......E.\n\t0x0010:  005b cf10 0000 4011 78e0 0a2c 1435 0a2c  .[....@.x..,.5.,\n\t0x0020:  0a15 0035 cf10 0047 8fa8 4808 8180 0001  ...5...G..H.....\n\t0x0030:  0001 0000 0000 066c 6573 736f 6e09 6e6f  .......lesson.no\n\t0x0040:  7274 6873 7461 7207 6578 616d 706c 6504  rthstar.example.\n\t0x0050:  7465 7374 0000 0100 01c0 0c00 0100 0100  test............\n\t0x0060:  0000 3c00 04cb 0071 51                   ..<....qQ\n",
+      "stderr": "reading from file /home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/visibility_mirror.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+    },
+    {
+      "file": "lab_mock/arp_claims.pcap",
+      "sha256": "3c02d33c28017b6b72468cff3f72850f1223abc8c368bd46b6ff125d3fcb73f4",
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-vvv",
+        "-XX",
+        "-r",
+        "/home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/arp_claims.pcap"
+      ],
+      "exit_code": 0,
+      "stdout": "1792285320.000000 ARP, Ethernet (len 6), IPv4 (len 4), Reply 10.44.10.1 is-at 02:44:10:00:00:01, length 28\n\t0x0000:  0244 1000 0021 0244 1000 0001 0806 0001  .D...!.D........\n\t0x0010:  0800 0604 0002 0244 1000 0001 0a2c 0a01  .......D.....,..\n\t0x0020:  0244 1000 0021 0a2c 0a15                 .D...!.,..\n1792285321.000000 ARP, Ethernet (len 6), IPv4 (len 4), Reply 10.44.10.1 is-at 02:44:10:00:00:66, length 28\n\t0x0000:  0244 1000 0021 0244 1000 0066 0806 0001  .D...!.D...f....\n\t0x0010:  0800 0604 0002 0244 1000 0066 0a2c 0a01  .......D...f.,..\n\t0x0020:  0244 1000 0021 0a2c 0a15                 .D...!.,..\n",
+      "stderr": "reading from file /home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/arp_claims.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+    },
+    {
+      "file": "lab_mock/dhcp_offers.pcap",
+      "sha256": "99d71c32bc451acbcba9cf61cd2bebfa13eeb2155c62e43883c33fe026f1177a",
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-vvv",
+        "-XX",
+        "-r",
+        "/home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/dhcp_offers.pcap"
+      ],
+      "exit_code": 0,
+      "stdout": "1792285380.000000 IP (tos 0x0, ttl 64, id 67, offset 0, flags [none], proto UDP (17), length 272)\n    0.0.0.0.68 > 255.255.255.255.67: [udp sum ok] BOOTP/DHCP, Request from 02:44:10:00:00:21, length 244, xid 0x4e530008, Flags [Broadcast] (0x8000)\n\t  Client-Ethernet-Address 02:44:10:00:00:21\n\t  Vendor-rfc1048 Extensions\n\t    Magic Cookie 0x63825363\n\t    DHCP-Message (53), length 1: Discover\n\t    END (255), length 0\n\t0x0000:  ffff ffff ffff 0244 1000 0021 0800 4500  .......D...!..E.\n\t0x0010:  0110 0043 0000 4011 799b 0000 0000 ffff  ...C..@.y.......\n\t0x0020:  ffff 0044 0043 00fc 27c8 0101 0600 4e53  ...D.C..'.....NS\n\t0x0030:  0008 0000 8000 0000 0000 0000 0000 0000  ................\n\t0x0040:  0000 0000 0000 0244 1000 0021 0000 0000  .......D...!....\n\t0x0050:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0060:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0070:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0080:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0090:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00a0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00b0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00c0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00d0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00e0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00f0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0100:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0110:  0000 0000 0000 6382 5363 3501 01ff       ......c.Sc5...\n1792285381.000000 IP (tos 0x0, ttl 64, id 68, offset 0, flags [none], proto UDP (17), length 302)\n    10.44.10.1.67 > 255.255.255.255.68: [udp sum ok] BOOTP/DHCP, Reply, length 274, xid 0x4e530008, Flags [Broadcast] (0x8000)\n\t  Your-IP 10.44.10.21\n\t  Server-IP 10.44.10.1\n\t  Client-Ethernet-Address 02:44:10:00:00:21\n\t  Vendor-rfc1048 Extensions\n\t    Magic Cookie 0x63825363\n\t    DHCP-Message (53), length 1: Offer\n\t    Server-ID (54), length 4: 10.44.10.1\n\t    Subnet-Mask (1), length 4: 255.255.255.0\n\t    Default-Gateway (3), length 4: 10.44.10.1\n\t    Domain-Name-Server (6), length 4: 10.44.20.53\n\t    Lease-Time (51), length 4: 3600\n\t    END (255), length 0\n\t0x0000:  ffff ffff ffff 0244 1000 0001 0800 4500  .......D......E.\n\t0x0010:  012e 0044 0000 4011 654f 0a2c 0a01 ffff  ...D..@.eO.,....\n\t0x0020:  ffff 0043 0044 011a 082a 0201 0600 4e53  ...C.D...*....NS\n\t0x0030:  0008 0000 8000 0000 0000 0a2c 0a15 0a2c  ...........,...,\n\t0x0040:  0a01 0000 0000 0244 1000 0021 0000 0000  .......D...!....\n\t0x0050:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0060:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0070:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0080:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0090:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00a0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00b0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00c0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00d0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00e0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00f0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0100:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0110:  0000 0000 0000 6382 5363 3501 0236 040a  ......c.Sc5..6..\n\t0x0120:  2c0a 0101 04ff ffff 0003 040a 2c0a 0106  ,...........,...\n\t0x0130:  040a 2c14 3533 0400 000e 10ff            ..,.53......\n1792285382.000000 IP (tos 0x0, ttl 64, id 68, offset 0, flags [none], proto UDP (17), length 302)\n    10.44.10.66.67 > 255.255.255.255.68: [udp sum ok] BOOTP/DHCP, Reply, length 274, xid 0x4e530008, Flags [Broadcast] (0x8000)\n\t  Your-IP 10.44.10.21\n\t  Server-IP 10.44.10.66\n\t  Client-Ethernet-Address 02:44:10:00:00:21\n\t  Vendor-rfc1048 Extensions\n\t    Magic Cookie 0x63825363\n\t    DHCP-Message (53), length 1: Offer\n\t    Server-ID (54), length 4: 10.44.10.66\n\t    Subnet-Mask (1), length 4: 255.255.255.0\n\t    Default-Gateway (3), length 4: 10.44.10.66\n\t    Domain-Name-Server (6), length 4: 10.44.20.53\n\t    Lease-Time (51), length 4: 3600\n\t    END (255), length 0\n\t0x0000:  ffff ffff ffff 0244 1000 0066 0800 4500  .......D...f..E.\n\t0x0010:  012e 0044 0000 4011 650e 0a2c 0a42 ffff  ...D..@.e..,.B..\n\t0x0020:  ffff 0043 0044 011a 85a7 0201 0600 4e53  ...C.D........NS\n\t0x0030:  0008 0000 8000 0000 0000 0a2c 0a15 0a2c  ...........,...,\n\t0x0040:  0a42 0000 0000 0244 1000 0021 0000 0000  .B.....D...!....\n\t0x0050:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0060:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0070:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0080:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0090:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00a0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00b0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00c0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00d0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00e0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x00f0:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0100:  0000 0000 0000 0000 0000 0000 0000 0000  ................\n\t0x0110:  0000 0000 0000 6382 5363 3501 0236 040a  ......c.Sc5..6..\n\t0x0120:  2c0a 4201 04ff ffff 0003 040a 2c0a 4206  ,.B.........,.B.\n\t0x0130:  040a 2c14 3533 0400 000e 10ff            ..,.53......\n",
+      "stderr": "reading from file /home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/dhcp_offers.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+    },
+    {
+      "file": "lab_mock/dns_answers.pcap",
+      "sha256": "871b69c1570ee501dbb432e1d01f9a4e6700c3736252e3c37e3cf4eb27baedd7",
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-vvv",
+        "-XX",
+        "-r",
+        "/home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/dns_answers.pcap"
+      ],
+      "exit_code": 0,
+      "stdout": "1792285440.000000 IP (tos 0x0, ttl 64, id 53, offset 0, flags [none], proto UDP (17), length 75)\n    10.44.10.21.53008 > 10.44.20.53.53: [udp sum ok] 18440+ A? lesson.northstar.example.test. (47)\n\t0x0000:  0244 1000 0001 0244 1000 0021 0800 4500  .D.....D...!..E.\n\t0x0010:  004b 0035 0000 4011 47cc 0a2c 0a15 0a2c  .K.5..@.G..,...,\n\t0x0020:  1435 cf10 0035 0037 b146 4808 0100 0001  .5...5.7.FH.....\n\t0x0030:  0000 0000 0000 066c 6573 736f 6e09 6e6f  .......lesson.no\n\t0x0040:  7274 6873 7461 7207 6578 616d 706c 6504  rthstar.example.\n\t0x0050:  7465 7374 0000 0100 01                   test.....\n1792285441.000000 IP (tos 0x0, ttl 64, id 53008, offset 0, flags [none], proto UDP (17), length 91)\n    10.44.20.53.53 > 10.44.10.21.53008: [udp sum ok] 18440 q: A? lesson.northstar.example.test. 1/0/0 lesson.northstar.example.test. [1m] A 203.0.113.80 (63)\n\t0x0000:  0244 1000 0021 0244 1000 0001 0800 4500  .D...!.D......E.\n\t0x0010:  005b cf10 0000 4011 78e0 0a2c 1435 0a2c  .[....@.x..,.5.,\n\t0x0020:  0a15 0035 cf10 0047 90a8 4808 8180 0001  ...5...G..H.....\n\t0x0030:  0001 0000 0000 066c 6573 736f 6e09 6e6f  .......lesson.no\n\t0x0040:  7274 6873 7461 7207 6578 616d 706c 6504  rthstar.example.\n\t0x0050:  7465 7374 0000 0100 01c0 0c00 0100 0100  test............\n\t0x0060:  0000 3c00 04cb 0071 50                   ..<....qP\n1792285442.000000 IP (tos 0x0, ttl 64, id 53008, offset 0, flags [none], proto UDP (17), length 91)\n    10.44.20.53.53 > 10.44.10.21.53008: [udp sum ok] 18440 q: A? lesson.northstar.example.test. 1/0/0 lesson.northstar.example.test. [1m] A 203.0.113.81 (63)\n\t0x0000:  0244 1000 0021 0244 1000 0001 0800 4500  .D...!.D......E.\n\t0x0010:  005b cf10 0000 4011 78e0 0a2c 1435 0a2c  .[....@.x..,.5.,\n\t0x0020:  0a15 0035 cf10 0047 8fa8 4808 8180 0001  ...5...G..H.....\n\t0x0030:  0001 0000 0000 066c 6573 736f 6e09 6e6f  .......lesson.no\n\t0x0040:  7274 6873 7461 7207 6578 616d 706c 6504  rthstar.example.\n\t0x0050:  7465 7374 0000 0100 01c0 0c00 0100 0100  test............\n\t0x0060:  0000 3c00 04cb 0071 51                   ..<....qQ\n",
+      "stderr": "reading from file /home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/dns_answers.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+    },
+    {
+      "file": "lab_mock/http_plaintext.pcap",
+      "sha256": "71608652ca539fd1aa4b113028692b67b81c9919d3e1568fc6f978964227301c",
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-vvv",
+        "-XX",
+        "-r",
+        "/home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/http_plaintext.pcap"
+      ],
+      "exit_code": 0,
+      "stdout": "1792285500.000000 IP (tos 0x0, ttl 64, id 100, offset 0, flags [none], proto TCP (6), length 40)\n    10.44.10.21.50080 > 203.0.113.80.80: Flags [S], cksum 0x9afc (correct), seq 100, win 65535, length 0\n\t0x0000:  0244 1000 0001 0244 1000 0021 0800 4500  .D.....D...!..E.\n\t0x0010:  0028 0064 0000 4006 29db 0a2c 0a15 cb00  .(.d..@.)..,....\n\t0x0020:  7150 c3a0 0050 0000 0064 0000 0000 5002  qP...P...d....P.\n\t0x0030:  ffff 9afc 0000                           ......\n1792285501.000000 IP (tos 0x0, ttl 64, id 900, offset 0, flags [none], proto TCP (6), length 40)\n    203.0.113.80.80 > 10.44.10.21.50080: Flags [S.], cksum 0x9767 (correct), seq 900, ack 101, win 65535, length 0\n\t0x0000:  0244 1000 0021 0244 1000 0001 0800 4500  .D...!.D......E.\n\t0x0010:  0028 0384 0000 4006 26bb cb00 7150 0a2c  .(....@.&...qP.,\n\t0x0020:  0a15 0050 c3a0 0000 0384 0000 0065 5012  ...P.........eP.\n\t0x0030:  ffff 9767 0000                           ...g..\n1792285502.000000 IP (tos 0x0, ttl 64, id 101, offset 0, flags [none], proto TCP (6), length 40)\n    10.44.10.21.50080 > 203.0.113.80.80: Flags [.], cksum 0x9768 (correct), seq 1, ack 1, win 65535, length 0\n\t0x0000:  0244 1000 0001 0244 1000 0021 0800 4500  .D.....D...!..E.\n\t0x0010:  0028 0065 0000 4006 29da 0a2c 0a15 cb00  .(.e..@.)..,....\n\t0x0020:  7150 c3a0 0050 0000 0065 0000 0385 5010  qP...P...e....P.\n\t0x0030:  ffff 9768 0000                           ...h..\n1792285503.000000 IP (tos 0x0, ttl 64, id 101, offset 0, flags [none], proto TCP (6), length 196)\n    10.44.10.21.50080 > 203.0.113.80.80: Flags [P.], cksum 0x9e00 (correct), seq 1:157, ack 1, win 65535, length 156: HTTP, length: 156\n\tPOST /classroom HTTP/1.1\n\tHost: lesson.northstar.example.test\n\tContent-Type: application/x-www-form-urlencoded\n\tContent-Length: 22\n\t\n\tlesson=packet-evidence [|http]\n\t0x0000:  0244 1000 0001 0244 1000 0021 0800 4500  .D.....D...!..E.\n\t0x0010:  00c4 0065 0000 4006 293e 0a2c 0a15 cb00  ...e..@.)>.,....\n\t0x0020:  7150 c3a0 0050 0000 0065 0000 0385 5018  qP...P...e....P.\n\t0x0030:  ffff 9e00 0000 504f 5354 202f 636c 6173  ......POST./clas\n\t0x0040:  7372 6f6f 6d20 4854 5450 2f31 2e31 0d0a  sroom.HTTP/1.1..\n\t0x0050:  486f 7374 3a20 6c65 7373 6f6e 2e6e 6f72  Host:.lesson.nor\n\t0x0060:  7468 7374 6172 2e65 7861 6d70 6c65 2e74  thstar.example.t\n\t0x0070:  6573 740d 0a43 6f6e 7465 6e74 2d54 7970  est..Content-Typ\n\t0x0080:  653a 2061 7070 6c69 6361 7469 6f6e 2f78  e:.application/x\n\t0x0090:  2d77 7777 2d66 6f72 6d2d 7572 6c65 6e63  -www-form-urlenc\n\t0x00a0:  6f64 6564 0d0a 436f 6e74 656e 742d 4c65  oded..Content-Le\n\t0x00b0:  6e67 7468 3a20 3232 0d0a 0d0a 6c65 7373  ngth:.22....less\n\t0x00c0:  6f6e 3d70 6163 6b65 742d 6576 6964 656e  on=packet-eviden\n\t0x00d0:  6365                                     ce\n1792285504.000000 IP (tos 0x0, ttl 64, id 901, offset 0, flags [none], proto TCP (6), length 80)\n    203.0.113.80.80 > 10.44.10.21.50080: Flags [P.], cksum 0x9850 (correct), seq 1:41, ack 157, win 65535, length 40: HTTP, length: 40\n\tHTTP/1.1 200 OK\n\tContent-Length: 2\n\t\n\tOK [|http]\n\t0x0000:  0244 1000 0021 0244 1000 0001 0800 4500  .D...!.D......E.\n\t0x0010:  0050 0385 0000 4006 2692 cb00 7150 0a2c  .P....@.&...qP.,\n\t0x0020:  0a15 0050 c3a0 0000 0385 0000 0101 5018  ...P..........P.\n\t0x0030:  ffff 9850 0000 4854 5450 2f31 2e31 2032  ...P..HTTP/1.1.2\n\t0x0040:  3030 204f 4b0d 0a43 6f6e 7465 6e74 2d4c  00.OK..Content-L\n\t0x0050:  656e 6774 683a 2032 0d0a 0d0a 4f4b       ength:.2....OK\n1792285505.000000 IP (tos 0x0, ttl 64, id 257, offset 0, flags [none], proto TCP (6), length 40)\n    10.44.10.21.50080 > 203.0.113.80.80: Flags [.], cksum 0x96a4 (correct), seq 157, ack 41, win 65535, length 0\n\t0x0000:  0244 1000 0001 0244 1000 0021 0800 4500  .D.....D...!..E.\n\t0x0010:  0028 0101 0000 4006 293e 0a2c 0a15 cb00  .(....@.)>.,....\n\t0x0020:  7150 c3a0 0050 0000 0101 0000 03ad 5010  qP...P........P.\n\t0x0030:  ffff 96a4 0000                           ......\n",
+      "stderr": "reading from file /home/jnlngx10/Videos/CEH_M08_v1_0/inputs/package/CEH_M08_English_Editorial_Masterclass/lab_mock/http_plaintext.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n"
+    }
+  ]
+}

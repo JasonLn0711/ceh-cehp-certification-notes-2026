@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 7
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 2,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 292.978,
+        "selector": "#S31-starvation-heading > text:nth-of-type(1) > tspan:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 348.92,
+          "top": 302,
+          "right": 641.08,
+          "bottom": 343,
+          "width": 292.16,
+          "height": 41
+        },
+        "containerSelector": "#S31-authorized-role > text:nth-of-type(1) > tspan:nth-of-type(1)",
+        "text": "Starvation attempt",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/S31.html",
+        "bbox": {
+          "x": 348.92,
+          "y": 302,
+          "width": 292.16,
+          "height": 41
+        },
+        "firstSeen": 292.978,
+        "lastSeen": 292.978,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          292.978
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 292.978,
+        "selector": "#S31-rogue-heading > text:nth-of-type(1) > tspan:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 948.88,
+          "top": 302,
+          "right": 1271.12,
+          "bottom": 343,
+          "width": 322.24,
+          "height": 41
+        },
+        "containerSelector": "#S31-unexpected-role > text:nth-of-type(1) > tspan:nth-of-type(1)",
+        "text": "Rogue configuration",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/S31.html",
+        "bbox": {
+          "x": 948.88,
+          "y": 302,
+          "width": 322.24,
+          "height": 41
+        },
+        "firstSeen": 292.978,
+        "lastSeen": 292.978,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          292.978
+        ]
+      }
+    ],
+    "duration": 391.366666667,
+    "samples": [
+      7.692,
+      32.05,
+      57.69,
+      71.736,
+      95.917,
+      121.37,
+      135.221,
+      158.933,
+      183.893,
+      197.845,
+      222.267,
+      247.973,
+      262.688,
+      288.933,
+      316.56,
+      331.615,
+      357.417,
+      384.577
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 2,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      7.692,
+      95.917,
+      183.893,
+      262.688,
+      384.577
+    ],
+    "checked": 62,
+    "passed": 62
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "bfd83099-36a5-469e-ba26-e0464072b805",
+    "revision": "6a8c9727-57ef-45f7-b055-8d444f41ab21",
+    "report": "/home/jnlngx10/Videos/CEH_M08_v1_0/project/chapters/C06/.hyperframes/artifacts/checks/bfd83099-36a5-469e-ba26-e0464072b805.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.171",
+    "latestVersion": "0.8.171",
+    "updateAvailable": false
+  }
+}

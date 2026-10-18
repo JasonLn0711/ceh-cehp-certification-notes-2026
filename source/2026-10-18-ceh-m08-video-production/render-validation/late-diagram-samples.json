@@ -1,0 +1,115 @@
+{
+  "status": "sampled_visual_checks_passed",
+  "reason": "Targeted late-phase repairs are not visible at every standard scene midpoint.",
+  "master_sha256": "54e5a107cf94d7320eb91169f6a3267b81da408ef7bfacf3e745ef1f2df2faf3",
+  "count": 17,
+  "samples": [
+    {
+      "scene": "S06",
+      "time": 363.99999999999994,
+      "local_time": 55.333333333333336,
+      "file": "S06-late.png"
+    },
+    {
+      "scene": "S08",
+      "time": 485.8666666666666,
+      "local_time": 60.13333333333334,
+      "file": "S08-late.png"
+    },
+    {
+      "scene": "S11",
+      "time": 669.8666666666666,
+      "local_time": 59.36666666666667,
+      "file": "S11-late.png"
+    },
+    {
+      "scene": "S22",
+      "time": 1367.2666666666667,
+      "local_time": 57.266666666666666,
+      "file": "S22-late.png"
+    },
+    {
+      "scene": "S23",
+      "time": 1430.8,
+      "local_time": 59.53333333333333,
+      "file": "S23-late.png"
+    },
+    {
+      "scene": "S24",
+      "time": 1496.5333333333333,
+      "local_time": 61.733333333333334,
+      "file": "S24-late.png"
+    },
+    {
+      "scene": "S28",
+      "time": 1756.2666666666667,
+      "local_time": 59.63333333333333,
+      "file": "S28-late.png"
+    },
+    {
+      "scene": "S30",
+      "time": 1882.9333333333334,
+      "local_time": 60.266666666666666,
+      "file": "S30-late.png"
+    },
+    {
+      "scene": "S32",
+      "time": 2019.9,
+      "local_time": 63.900000000000006,
+      "file": "S32-late.png"
+    },
+    {
+      "scene": "S37",
+      "time": 2354.9666666666662,
+      "local_time": 71.66666666666667,
+      "file": "S37-late.png"
+    },
+    {
+      "scene": "S40",
+      "time": 2561.833333333333,
+      "local_time": 70.76666666666667,
+      "file": "S40-late.png"
+    },
+    {
+      "scene": "S42",
+      "time": 2690.233333333333,
+      "local_time": 58.333333333333336,
+      "file": "S42-late.png"
+    },
+    {
+      "scene": "S43",
+      "time": 2755.5666666666666,
+      "local_time": 61.33333333333333,
+      "file": "S43-late.png"
+    },
+    {
+      "scene": "S44",
+      "time": 2817.6,
+      "local_time": 58.03333333333333,
+      "file": "S44-late.png"
+    },
+    {
+      "scene": "S45",
+      "time": 2881.1666666666665,
+      "local_time": 59.56666666666667,
+      "file": "S45-late.png"
+    },
+    {
+      "scene": "S46",
+      "time": 2948.7666666666664,
+      "local_time": 63.599999999999994,
+      "file": "S46-late.png"
+    },
+    {
+      "scene": "S53",
+      "time": 3396.833333333333,
+      "local_time": 58.93333333333333,
+      "file": "S53-late.png"
+    }
+  ],
+  "review_records": [
+    "master-review-01-21.md",
+    "master-review-22-38.md",
+    "master-review-39-58.md"
+  ]
+}

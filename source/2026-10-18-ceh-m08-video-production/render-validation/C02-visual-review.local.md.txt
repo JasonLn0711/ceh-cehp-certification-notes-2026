@@ -1,0 +1,38 @@
+# C02 native capture review
+
+Pre-render content and layout review: **pass**, with one nonblocking label-fit observation. This review covers the supplied 1920 × 1080 native GSAP PNGs for S05–S09 at the `middle` and `reason` seeks. It does not establish encoded-output quality or a full motion review.
+
+Evidence: [direct-capture receipt](C02-direct/receipt.json), [CLI check](C02-check.json), and the ten PNGs linked below. The canonical comparison text is `project/data/scenes.json`. Review date: 2026-10-18, Asia/Taipei. The supplied capture procedure flushes two animation frames after seeking.
+
+| Scene | Reviewed frames and local seek times | Protocol and evidence-boundary finding | Layout finding |
+| --- | --- | --- | --- |
+| S05 | [middle](C02-direct/S05-middle.png), 31.633 s; [reason](C02-direct/S05-reason.png), 59.267 s | Destination/source MAC and EtherType have distinct roles. The local broadcast domain and MAC-versus-human-identity limits are explicit. | Table, later notes, teaching cue and visible captions are readable and separate. |
+| S06 | [middle](C02-direct/S06-middle.png), 29.667 s; [reason](C02-direct/S06-reason.png), 55.333 s | Source MAC is associated with observed ingress; destination lookup selects forwarding. Known selected-port delivery and scoped unknown flooding remain distinct. | `ANALYST MAC` in the reason-frame first column touches the cell borders. It remains readable; extra cell padding or a shorter label would improve it. No caption or teaching-cue overlap. |
+| S07 | [middle](C02-direct/S07-middle.png), 28.867 s; [reason](C02-direct/S07-reason.png), 53.733 s | Local NIC filtering is separate from upstream switch delivery. The dotted `No copy guaranteed` relationship preserves the promiscuous-mode boundary; wireless monitor mode is separately labeled. | Device labels, route labels and captions do not overlap. |
+| S08 | [middle](C02-direct/S08-middle.png), 32.067 s; [reason](C02-direct/S08-reason.png), 60.133 s | Office gateway MAC and remote DNS-server IP remain distinct. The reason frame shows a newly created routed-link frame with the same destination IP. | The revised bottom table row clears the note. Actual dark border rows are y723–726 and y733–736, leaving six clear raster rows, y727–732. The note, teaching cue and caption remain separate. |
+| S09 | [middle](C02-direct/S09-middle.png), 29.750 s; [reason](C02-direct/S09-reason.png), 55.500 s | Packet/transport, switch/link, service/application and endpoint/process evidence are separated. The diagram does not claim that one source determines every cause. | All four evidence roles fit their cards; the late two-row state clears the teaching cue and caption. |
+
+The blank caption area in `S06-middle.png` is consistent with its authored timing: caption 9 hides at 29.404375 s and caption 10 starts at 29.918333 s, around the 29.666667 s seek. It is not an observed caption-overlap problem.
+
+## Common-layer capture discrepancy
+
+The campus/Northstar anchor, Tally and `SIMULATED OUTPUT` pixels are absent from these supplied PNGs:
+
+- `S05-reason.png`
+- `S06-middle.png`
+- `S07-middle.png` and `S07-reason.png`
+- `S09-middle.png`
+
+Those same common-layer IDs have computed DOM opacity `1` in every corresponding receipt row. The common layers are visible in the remaining five PNGs. Record this as a capture-versus-DOM discrepancy. The PNGs do not establish that the authored timeline hides those groups, and DOM opacity alone does not prove that their pixels appear in the deliverable. Encoded samples must verify the actual campus, mascot and simulation-label visibility.
+
+## CLI evidence and next gate
+
+`C02-check.json` reports `ok: true`, `strict: false`, `browserSkipped: false`, no lint/runtime/layout errors or warnings, and zero layout issues across 15 listed samples. Contrast passed 54 of 54 checked elements. Its saved report ID is `0f9209bd-f9aa-4b9d-af62-aa147cff09a6`, revision `223a9215-09a8-42b1-a050-80ca3b3faee8`.
+
+Automated motion checking was disabled with zero motion samples; automatic snapshots were disabled. The static visual review therefore supports the requested pre-render correctness/spacing gate. The next gate is review of encoded C02 samples for common-layer pixels, readable labels/captions, reveal continuity and delivery behavior. Production files and encoded output were not modified or rendered by this review.
+
+review_status: pass
+
+Final refinement: shorten the redundant ANALYST MAC table cell to ANALYST under the Source MAC header, preserving the named role and improving padding. Refreshed frames/checks are required before render.
+
+Resolved refinement: the final full-resolution S06 reason frame was inspected after C02 preparation. ANALYST now has clear cell padding under the Source MAC column; role, ingress mapping and all canonical text remain intact. Current chapter check is zero errors/warnings. The earlier tight-fit observation above describes the superseded frame.

@@ -1,0 +1,103 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 8
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 437.666666667,
+    "samples": [
+      7.336,
+      30.567,
+      55.02,
+      68.737,
+      92.817,
+      118.163,
+      131.94,
+      155.5,
+      180.3,
+      193.936,
+      217.483,
+      242.27,
+      256.359,
+      281.35,
+      307.657,
+      322.253,
+      347.65,
+      374.383,
+      387.859,
+      409.367,
+      432.007
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      7.336,
+      118.163,
+      217.483,
+      322.253,
+      432.007
+    ],
+    "checked": 44,
+    "passed": 44
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "82e9ba2d-6616-486c-aca9-aab6550d87cb",
+    "revision": "9037f648-8aa2-49de-98f8-f9e768599c29",
+    "report": "/home/jnlngx10/Videos/CEH_M08_v1_0/project/chapters/C03/.hyperframes/artifacts/checks/82e9ba2d-6616-486c-aca9-aab6550d87cb.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.171",
+    "latestVersion": "0.8.171",
+    "updateAvailable": false
+  }
+}

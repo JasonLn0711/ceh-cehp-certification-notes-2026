@@ -1,0 +1,47 @@
+# C08 native capture review
+
+Pre-render content and layout review: **pass** after the S42/S43 corrections. No blocking protocol, evidence-category or label/caption-overlap finding remains in the inspected native diagram and caption layers. This review covers the refreshed 1920 × 1080 native GSAP PNGs for S39–S43 at the `middle` and `reason` seeks. Encoded output and complete motion continuity remain separate gates.
+
+Evidence: [refreshed direct-capture receipt](C08-direct/receipt.json), [current CLI check](C08-check.json), and the ten PNGs linked below. The canonical comparison text is `project/data/scenes.json`. Review date: 2026-10-18, Asia/Taipei. After root completed `prepare-C08`, this review reran `node scripts/inspect_direct.mjs C08`; the command completed successfully and recaptured all five scenes with two animation-frame paint flushes after each seek.
+
+| Scene | Reviewed frames and local seek times | Protocol and evidence-boundary finding | Layout finding |
+| --- | --- | --- | --- |
+| S39 | [middle](C08-direct/S39-middle.png), 31.600 s; [reason](C08-direct/S39-reason.png), 59.200 s | Passive observation and active manipulation describe different mechanisms. The late note explicitly separates mechanism, authorization and observed result; the visible middle caption preserves the offline/read-only execution boundary. | Both mechanism labels, device illustrations and explanatory cards fit. The late note clears the teaching cue and caption. |
+| S40 | [middle](C08-direct/S40-middle.png), 37.383 s; [reason](C08-direct/S40-reason.png), 70.767 s | Local-Ethernet probe behavior is bounded by endpoint/inventory context. `Negative test ≠ no collector` and legitimate promiscuous monitoring preserve both coverage and authorization limits. | The revised last-card/note spacing is clear. Actual dark border rows are y723–726 and y733–736, leaving six clear raster rows, y727–732. The note, teaching cue and caption remain separate. |
+| S41 | [middle](C08-direct/S41-middle.png), 33.033 s; [reason](C08-direct/S41-reason.png), 62.067 s | Interactive Wireshark inspection, actual offline `tcpdump -r` checks and the unexecuted TShark workflow have distinct labels. The diagram preserves the difference between a documented role and an execution receipt. | The three-row table and late binding/switch-record note are readable without caption or cue overlap. |
+| S42 | [middle](C08-direct/S42-middle.png), 31.167 s; [reason](C08-direct/S42-reason.png), 58.333 s | A changed mapping is an observation; attacker attribution remains explicitly unverified. The final note separately calls for interpretation and coverage validation. The revised neutral magnifier removes the earlier positive-checkmark cue beneath the unverified claim. | Revised icon, headings, paired claims and note are clear and separate from the teaching cue and captions. |
+| S43 | [middle](C08-direct/S43-middle.png), 32.667 s; [reason](C08-direct/S43-reason.png), 61.333 s | The revised categories now match their contents: evidence to preserve contains source/packet ID and capture digest/time; interpretation contains bounded hypothesis and explicit alternatives; next check/owner contains independent record and decision owner. The dependency note preserves the common-source limitation. | All updated headings and cells fit. The two-line dependency note remains inside its card and clears the teaching cue and caption. |
+
+## Corrections verified in the refreshed captures
+
+- S42: the earlier checkmark under `Unverified inference` has been replaced by a neutral magnifier in both seeks.
+- S43: the earlier `Alternative` column containing a next check/owner and `Interpretation` cell containing time provenance have been corrected. The refreshed table consistently separates preserved evidence, reasoning and next action/ownership.
+
+The reviewed updated PNGs have these SHA-256 values, identifying the correction checkpoint:
+
+| PNG | SHA-256 |
+| --- | --- |
+| `S42-middle.png` | `99729e5389c18a42c9df44f0dd6c5cced8e72fe2a6488dc0ecb9435bcba9b9a4` |
+| `S42-reason.png` | `21b96818121d361e859b488d61fbc4f157d55274d43c9f6e784eb79cf92a1940` |
+| `S43-middle.png` | `07109e33ec433b6033c9789f3195502920b3f893cc256a42ed9efd4ed411bdc4` |
+| `S43-reason.png` | `59b5086237340a28b66c9615edb3478f766ff13617af49c8321f97b61bccb6c8` |
+
+## Common-layer capture discrepancy
+
+In the refreshed PNGs, the campus/Northstar anchor, Tally and `SIMULATED OUTPUT` pixels are absent from:
+
+- `S39-reason.png`
+- `S40-middle.png`
+- `S41-middle.png` and `S41-reason.png`
+- `S42-middle.png`
+- `S43-middle.png` and `S43-reason.png`
+
+The current receipt records computed DOM opacity `1` for every listed common-layer ID in all ten rows. The common layers are visible in the other three PNGs. Their raster visibility also differs from the earlier capture pass. Record this as a capture-versus-DOM discrepancy rather than an authored visibility verdict. DOM opacity alone does not prove deliverable pixels, and these PNGs do not establish an encoded-output defect. Encoded samples must verify the actual campus, mascot and simulation-label visibility.
+
+## CLI evidence and next gate
+
+The current `C08-check.json` reports `ok: true`, `strict: false`, `browserSkipped: false`, no lint/runtime/layout errors or warnings, and zero layout issues across 15 listed samples. Contrast passed 51 of 51 checked elements. The post-correction saved report ID is `ecb6dda0-613c-40a4-aa72-f599295cf39b`, revision `4fe158a9-7721-43d0-821a-a9be13d24ada`.
+
+Automated motion checking was disabled with zero motion samples; automatic snapshots were disabled. The requested pre-render correctness/spacing gate is supported by the current CLI receipt and reviewed native frames. The next gate is encoded C08 sample review for common-layer pixels, readable labels/captions, reveal continuity and delivery behavior. This review changed QA captures and review records only; it did not edit production files, render encoded output or perform Git operations.
+
+review_status: pass

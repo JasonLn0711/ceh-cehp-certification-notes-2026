@@ -1,0 +1,14 @@
+{
+  "stage": "C06-render",
+  "pid": 3179654,
+  "status": "failed",
+  "started": 1792331198.5600462,
+  "command": [
+    "/home/jnlngx10/Videos/CEH_M08_v1_0/project/.venv/bin/python",
+    "/home/jnlngx10/Videos/CEH_M08_v1_0/project/scripts/chapter.py",
+    "render",
+    "C06"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 0.27074456214904785
+}

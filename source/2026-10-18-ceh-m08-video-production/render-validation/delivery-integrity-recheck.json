@@ -1,0 +1,12 @@
+{
+  "status": "delivery_manifest_and_exact_repo_copies_reverified",
+  "verified_at": "2026-10-18T22:22:55+0800",
+  "manifest": "/home/jnlngx10/Videos/CEH_M08_v1_0/output/DELIVERY_SHA256.txt",
+  "manifest_sha256": "105d6ef858ad58738c4984a43b1d3926d5870b957df082faf074f8adf58b6a3d",
+  "verified_delivery_files": 5775,
+  "verified_delivery_bytes": 9661044560,
+  "exact_source_archive_copies": 120,
+  "failed_files": 0,
+  "elapsed_seconds": 4.88,
+  "scope": "Actual delivery bytes and original/archive copy equality; no new rendering or human listening claim."
+}

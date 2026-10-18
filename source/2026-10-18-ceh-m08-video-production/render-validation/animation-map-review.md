@@ -1,0 +1,11 @@
+# Actual composition animation map review
+
+The shipped animation-map helper ran on the actual complete M08 composition: duration 3,957.933333333 seconds, 21,924 enumerated GSAP tweens, 3,753 mapped at two geometry samples each with a 0.7-second minimum, and 18,171 skipped micro-tweens. These counts include setup/from tween internals; they are not unique diagram actions. The full map is preserved locally under full-animation-map/animation-map.json.
+
+The optional producer 0.8.171 helper requires an unpublished core 0.8.171 dependency and could not bootstrap. An isolated matching producer/core 0.8.170 analysis installation successfully ran the helper; production checks and rendering remain pinned to 0.8.171. No package in the active renderer or shared Python environment was changed for the helper. animation-helper-receipt.json records both layers.
+
+The helper emits 1,153 collision and 114 paced-slow flags. Inspection shows it enumerates separate registered child timelines at local time, so all 58 stamp/mascot entries cluster near time zero in its collision map despite distinct host data-start boundaries. Nested original Tally parts and from/to internals also share geometry by design. Slow examples include the four quiz onUpdate clock drivers spanning a full measured scene and 2.4-second paper-packet paths. Those diagnostics retain their labels; no zero-warning claim is made for this auxiliary heuristic.
+
+Actual active-window layout is validated separately by the zero-finding 0.8.171 chapter/full-project browser checks, concrete native frame reviews and 174 repeated forward/backward DOM comparisons. Encoded master samples are the final pixel gate. The authored timeline remains finite, paused and seek driven; media durations and chapter start samples govern assembly. Full human pacing/comprehension acceptance remains separate.
+
+The auxiliary map predates the final S06 redundant-cell shortening from ANALYST MAC to ANALYST. Its timing, groups and motion are unchanged. That final text refinement has its own fresh C02 browser/frame review and render fingerprint; the full active-window browser check and native seek audit are refreshed after it. The heuristic map is retained as the actual diagnostic run, without claiming a new map of that text revision.

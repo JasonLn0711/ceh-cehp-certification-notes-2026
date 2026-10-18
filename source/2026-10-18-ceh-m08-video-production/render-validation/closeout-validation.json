@@ -1,0 +1,47 @@
+{
+  "status": "local_render_delivery_and_documentation_checks_passed",
+  "recorded_at": "2026-10-18T22:23:34.295291+08:00",
+  "production_evidence": "delivery-validation.json",
+  "integrity": {
+    "receipt": "delivery-integrity-recheck.json",
+    "delivery_files": 5775,
+    "delivery_bytes": 9661044560,
+    "exact_archive_copies": 120,
+    "failures": 0
+  },
+  "documentation": {
+    "command": "python3 /home/jnlngx10/Videos/CEH_M08_v1_0/check_render_docs.py",
+    "receipt": "documentation-validation.json",
+    "markdown_files": 40,
+    "relative_links": 674,
+    "new_failures": 0,
+    "inherited_unavailable_sibling_private_links": 19
+  },
+  "planning_repository": {
+    "repository_policy": {
+      "command": "python3 scripts/validate_repository.py",
+      "exit_code": 0,
+      "warnings": 44,
+      "grandfathered": 44,
+      "new": 0
+    },
+    "knowledge": {
+      "command": "python3 scripts/validate_knowledge.py",
+      "exit_code": 0,
+      "metadata_notes": 181,
+      "catalog_entries": 181
+    }
+  },
+  "diff_checks": {
+    "command": "git diff --check",
+    "ceh_exit_code": 0,
+    "planning_exit_code": 0,
+    "exact_copy_eof_exceptions": [
+      "rebuild-inputs/full-production/STORYBOARD.local.md.txt",
+      "rebuild-inputs/full-production/scripts/art_dns.py"
+    ],
+    "exception_scope": "Only blank-at-eof is exempted through the local .gitattributes; source bytes and all other whitespace checks are preserved.",
+    "exact_csv_crlf": "render-validation/scene_qa_ledger.csv is -text with whitespace=cr-at-eol; all measured CSV bytes are preserved."
+  },
+  "acceptance_boundary": "Actual render, offline QA, packaged bytes and documentation only. Full human viewing/listening, learner practice and public media release retain separate acceptance."
+}

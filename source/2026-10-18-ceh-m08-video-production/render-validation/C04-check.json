@@ -1,0 +1,97 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 6
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 322.966666667,
+    "samples": [
+      7.544,
+      31.433,
+      56.58,
+      71.075,
+      97.067,
+      124.427,
+      138.923,
+      163.167,
+      188.687,
+      203.107,
+      228.567,
+      255.367,
+      269.375,
+      292.517,
+      316.877
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      7.544,
+      71.075,
+      163.167,
+      228.567,
+      316.877
+    ],
+    "checked": 48,
+    "passed": 48
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "fbe2305a-0085-466f-b281-15bd7d7b5a9d",
+    "revision": null,
+    "report": "/home/jnlngx10/Videos/CEH_M08_v1_0/project/chapters/C04/.hyperframes/artifacts/checks/fbe2305a-0085-466f-b281-15bd7d7b5a9d.json",
+    "attribution": "unversioned"
+  },
+  "_meta": {
+    "version": "0.8.171",
+    "latestVersion": "0.8.171",
+    "updateAvailable": false
+  }
+}

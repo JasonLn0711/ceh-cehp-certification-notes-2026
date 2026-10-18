@@ -1,0 +1,840 @@
+{
+  "source": "actual compiled compositions and final measured audio metadata",
+  "quiz_seconds": 1,
+  "checks": 64,
+  "status": "passed",
+  "results": [
+    {
+      "scene": "S54",
+      "question": "Q01",
+      "at": 23.344791666666666,
+      "clock": false,
+      "answer": false,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "2",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q01",
+      "at": 26.364791666666665,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(242, 212, 183)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q01",
+      "at": 23.374791666666667,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q01",
+      "at": 23.864791666666665,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q01",
+      "at": 24.354791666666664,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q01",
+      "at": 24.374791666666667,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(254, 248, 240)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q01",
+      "at": 24.364791666666665,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q01",
+      "at": 23.864791666666665,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q02",
+      "at": 81.98558333333334,
+      "clock": false,
+      "answer": false,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "2",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q02",
+      "at": 85.00558333333333,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(242, 212, 183)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q02",
+      "at": 82.01558333333334,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q02",
+      "at": 82.50558333333333,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q02",
+      "at": 82.99558333333333,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q02",
+      "at": 83.01558333333334,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(254, 248, 240)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q02",
+      "at": 83.00558333333333,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S54",
+      "question": "Q02",
+      "at": 82.50558333333333,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q03",
+      "at": 22.132791666666666,
+      "clock": false,
+      "answer": false,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "2",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q03",
+      "at": 25.152791666666666,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(242, 212, 183)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q03",
+      "at": 22.162791666666667,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q03",
+      "at": 22.652791666666666,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q03",
+      "at": 23.142791666666664,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q03",
+      "at": 23.162791666666667,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(254, 248, 240)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q03",
+      "at": 23.152791666666666,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q03",
+      "at": 22.652791666666666,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q04",
+      "at": 84.61195833333333,
+      "clock": false,
+      "answer": false,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "2",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q04",
+      "at": 87.63195833333333,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(242, 212, 183)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q04",
+      "at": 84.64195833333333,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q04",
+      "at": 85.13195833333333,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q04",
+      "at": 85.62195833333332,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q04",
+      "at": 85.64195833333333,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(254, 248, 240)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q04",
+      "at": 85.63195833333333,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S55",
+      "question": "Q04",
+      "at": 85.13195833333333,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q05",
+      "at": 27.435,
+      "clock": false,
+      "answer": false,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "2",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q05",
+      "at": 30.455,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(242, 212, 183)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q05",
+      "at": 27.465,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q05",
+      "at": 27.955,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q05",
+      "at": 28.444999999999997,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q05",
+      "at": 28.465,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(254, 248, 240)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q05",
+      "at": 28.455,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q05",
+      "at": 27.955,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q06",
+      "at": 92.22495833333333,
+      "clock": false,
+      "answer": false,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "2",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q06",
+      "at": 95.24495833333333,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(242, 212, 183)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q06",
+      "at": 92.25495833333333,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q06",
+      "at": 92.74495833333333,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q06",
+      "at": 93.23495833333332,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q06",
+      "at": 93.25495833333333,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(254, 248, 240)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q06",
+      "at": 93.24495833333333,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S56",
+      "question": "Q06",
+      "at": 92.74495833333333,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q07",
+      "at": 29.789333333333335,
+      "clock": false,
+      "answer": false,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "2",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q07",
+      "at": 32.809333333333335,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(242, 212, 183)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q07",
+      "at": 29.819333333333336,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q07",
+      "at": 30.309333333333335,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q07",
+      "at": 30.799333333333333,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q07",
+      "at": 30.819333333333336,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(254, 248, 240)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q07",
+      "at": 30.809333333333335,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q07",
+      "at": 30.309333333333335,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q08",
+      "at": 88.881,
+      "clock": false,
+      "answer": false,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "2",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q08",
+      "at": 91.901,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(242, 212, 183)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q08",
+      "at": 88.911,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q08",
+      "at": 89.401,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q08",
+      "at": 89.89099999999999,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q08",
+      "at": 89.911,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(254, 248, 240)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q08",
+      "at": 89.901,
+      "clock": false,
+      "answer": true,
+      "state": {
+        "clockOpacity": 0,
+        "clock": "0",
+        "answerOpacity": 1,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    },
+    {
+      "scene": "S57",
+      "question": "Q08",
+      "at": 89.401,
+      "clock": true,
+      "answer": false,
+      "state": {
+        "clockOpacity": 1,
+        "clock": "1",
+        "answerOpacity": 0,
+        "correctBackground": "rgb(255, 250, 243)"
+      }
+    }
+  ]
+}

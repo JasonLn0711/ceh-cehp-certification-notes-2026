@@ -1,0 +1,402 @@
+{
+  "status": "validated",
+  "scope": "Real offline parser measurements of synthetic fixture bytes; no live collection or control enforcement.",
+  "recorded_at": "2026-10-18T13:43:13.177979+00:00",
+  "tcpdump_version": "tcpdump version 4.99.4\nlibpcap version 1.10.4 (with TPACKET_V3)\nOpenSSL 3.0.13 30 Jan 2024",
+  "display_filters": {
+    "status": "documentation_reviewed_not_executed",
+    "reason": "Wireshark/TShark not invoked by this verifier"
+  },
+  "checks": [
+    {
+      "name": "lab_mock/visibility_endpoint.pcap bytes and digest",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/visibility_endpoint.pcap classic Ethernet PCAP",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/visibility_endpoint.pcap complete records and count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/visibility_mirror.pcap bytes and digest",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/visibility_mirror.pcap classic Ethernet PCAP",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/visibility_mirror.pcap packet 2 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/visibility_mirror.pcap packet 3 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/visibility_mirror.pcap packet 4 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/visibility_mirror.pcap complete records and count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/arp_claims.pcap bytes and digest",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/arp_claims.pcap classic Ethernet PCAP",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/arp_claims.pcap complete records and count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dhcp_offers.pcap bytes and digest",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dhcp_offers.pcap classic Ethernet PCAP",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dhcp_offers.pcap packet 1 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dhcp_offers.pcap packet 2 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dhcp_offers.pcap packet 3 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dhcp_offers.pcap complete records and count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dns_answers.pcap bytes and digest",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dns_answers.pcap classic Ethernet PCAP",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dns_answers.pcap packet 1 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dns_answers.pcap packet 2 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dns_answers.pcap packet 3 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/dns_answers.pcap complete records and count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/http_plaintext.pcap bytes and digest",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/http_plaintext.pcap classic Ethernet PCAP",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/http_plaintext.pcap packet 1 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/http_plaintext.pcap packet 2 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/http_plaintext.pcap packet 3 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/http_plaintext.pcap packet 4 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/http_plaintext.pcap packet 5 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/http_plaintext.pcap packet 6 IP checksum",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "lab_mock/http_plaintext.pcap complete records and count",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "tcpdump available",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "visibility_endpoint.pcap filter arp",
+      "pass_": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1,
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "visibility_mirror.pcap filter udp port 53",
+      "pass_": true,
+      "detail": {
+        "expected": 3,
+        "actual": 3,
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "arp_claims.pcap filter arp",
+      "pass_": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2,
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "arp_claims.pcap filter arp and ether src 02:44:10:00:00:66",
+      "pass_": true,
+      "detail": {
+        "expected": 1,
+        "actual": 1,
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "dhcp_offers.pcap filter udp port 67 or udp port 68",
+      "pass_": true,
+      "detail": {
+        "expected": 3,
+        "actual": 3,
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "dns_answers.pcap filter udp src port 53",
+      "pass_": true,
+      "detail": {
+        "expected": 2,
+        "actual": 2,
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "http_plaintext.pcap filter tcp port 80",
+      "pass_": true,
+      "detail": {
+        "expected": 6,
+        "actual": 6,
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "http_plaintext.pcap filter host 203.0.113.80",
+      "pass_": true,
+      "detail": {
+        "expected": 6,
+        "actual": 6,
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "http_plaintext.pcap filter tcp port 443",
+      "pass_": true,
+      "detail": {
+        "expected": 0,
+        "actual": 0,
+        "exit_code": 0
+      }
+    }
+  ],
+  "runs": [
+    {
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-q",
+        "-r",
+        "lab_mock/visibility_endpoint.pcap",
+        "arp"
+      ],
+      "stdout": "1792285200.000000 ARP, Request who-has 10.44.10.1 tell 10.44.10.10, length 28\n",
+      "stderr": "reading from file lab_mock/visibility_endpoint.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n",
+      "exit_code": 0,
+      "matched_packets": 1
+    },
+    {
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-q",
+        "-r",
+        "lab_mock/visibility_mirror.pcap",
+        "udp port 53"
+      ],
+      "stdout": "1792285201.000000 IP 10.44.10.21.53008 > 10.44.20.53.53: UDP, length 47\n1792285202.000000 IP 10.44.20.53.53 > 10.44.10.21.53008: UDP, length 63\n1792285203.000000 IP 10.44.20.53.53 > 10.44.10.21.53008: UDP, length 63\n",
+      "stderr": "reading from file lab_mock/visibility_mirror.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n",
+      "exit_code": 0,
+      "matched_packets": 3
+    },
+    {
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-q",
+        "-r",
+        "lab_mock/arp_claims.pcap",
+        "arp"
+      ],
+      "stdout": "1792285320.000000 ARP, Reply 10.44.10.1 is-at 02:44:10:00:00:01, length 28\n1792285321.000000 ARP, Reply 10.44.10.1 is-at 02:44:10:00:00:66, length 28\n",
+      "stderr": "reading from file lab_mock/arp_claims.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n",
+      "exit_code": 0,
+      "matched_packets": 2
+    },
+    {
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-q",
+        "-r",
+        "lab_mock/arp_claims.pcap",
+        "arp and ether src 02:44:10:00:00:66"
+      ],
+      "stdout": "1792285321.000000 ARP, Reply 10.44.10.1 is-at 02:44:10:00:00:66, length 28\n",
+      "stderr": "reading from file lab_mock/arp_claims.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n",
+      "exit_code": 0,
+      "matched_packets": 1
+    },
+    {
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-q",
+        "-r",
+        "lab_mock/dhcp_offers.pcap",
+        "udp port 67 or udp port 68"
+      ],
+      "stdout": "1792285380.000000 IP 0.0.0.0.68 > 255.255.255.255.67: UDP, length 244\n1792285381.000000 IP 10.44.10.1.67 > 255.255.255.255.68: UDP, length 274\n1792285382.000000 IP 10.44.10.66.67 > 255.255.255.255.68: UDP, length 274\n",
+      "stderr": "reading from file lab_mock/dhcp_offers.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n",
+      "exit_code": 0,
+      "matched_packets": 3
+    },
+    {
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-q",
+        "-r",
+        "lab_mock/dns_answers.pcap",
+        "udp src port 53"
+      ],
+      "stdout": "1792285441.000000 IP 10.44.20.53.53 > 10.44.10.21.53008: UDP, length 63\n1792285442.000000 IP 10.44.20.53.53 > 10.44.10.21.53008: UDP, length 63\n",
+      "stderr": "reading from file lab_mock/dns_answers.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n",
+      "exit_code": 0,
+      "matched_packets": 2
+    },
+    {
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-q",
+        "-r",
+        "lab_mock/http_plaintext.pcap",
+        "tcp port 80"
+      ],
+      "stdout": "1792285500.000000 IP 10.44.10.21.50080 > 203.0.113.80.80: tcp 0\n1792285501.000000 IP 203.0.113.80.80 > 10.44.10.21.50080: tcp 0\n1792285502.000000 IP 10.44.10.21.50080 > 203.0.113.80.80: tcp 0\n1792285503.000000 IP 10.44.10.21.50080 > 203.0.113.80.80: tcp 156\n1792285504.000000 IP 203.0.113.80.80 > 10.44.10.21.50080: tcp 40\n1792285505.000000 IP 10.44.10.21.50080 > 203.0.113.80.80: tcp 0\n",
+      "stderr": "reading from file lab_mock/http_plaintext.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n",
+      "exit_code": 0,
+      "matched_packets": 6
+    },
+    {
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-q",
+        "-r",
+        "lab_mock/http_plaintext.pcap",
+        "host 203.0.113.80"
+      ],
+      "stdout": "1792285500.000000 IP 10.44.10.21.50080 > 203.0.113.80.80: tcp 0\n1792285501.000000 IP 203.0.113.80.80 > 10.44.10.21.50080: tcp 0\n1792285502.000000 IP 10.44.10.21.50080 > 203.0.113.80.80: tcp 0\n1792285503.000000 IP 10.44.10.21.50080 > 203.0.113.80.80: tcp 156\n1792285504.000000 IP 203.0.113.80.80 > 10.44.10.21.50080: tcp 40\n1792285505.000000 IP 10.44.10.21.50080 > 203.0.113.80.80: tcp 0\n",
+      "stderr": "reading from file lab_mock/http_plaintext.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n",
+      "exit_code": 0,
+      "matched_packets": 6
+    },
+    {
+      "argv": [
+        "tcpdump",
+        "-nn",
+        "-tt",
+        "-q",
+        "-r",
+        "lab_mock/http_plaintext.pcap",
+        "tcp port 443"
+      ],
+      "stdout": "",
+      "stderr": "reading from file lab_mock/http_plaintext.pcap, link-type EN10MB (Ethernet), snapshot length 65535\n",
+      "exit_code": 0,
+      "matched_packets": 0
+    }
+  ],
+  "passed": 43,
+  "failed": 0
+}

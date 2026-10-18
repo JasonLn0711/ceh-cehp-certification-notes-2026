@@ -1,0 +1,144 @@
+{
+  "files": 40,
+  "relative_links_checked": 674,
+  "new_failures": [],
+  "inherited_unavailable_links": [
+    {
+      "file": "planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md",
+      "target": "../../../nycu-115-1-coursework/mdcm30019/README.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md",
+      "target": "../../../inner-archive/events/2026-09-18-du-chengyan-line-books-ceh-and-campus-meetup.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md",
+      "target": "../../../inner-archive/events/2026-09-23-iec-81001-ble-security-explanation.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md",
+      "target": "../../../inner-archive/events/2026-09-23-medical-cybersecurity-system-handoff-and-capability.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md",
+      "target": "../../../inner-archive/events/2026-09-29-du-chengyan-cib-course-proposal.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md",
+      "target": "../../../ceh-cehp-certification-notes-2026/.local/2026-09-29-m01-m03/summary.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../nycu-115-1-coursework/mgmt30096/README.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../nycu-115-1-coursework/mdcm30019/README.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../nycu-115-1-coursework/human-ai-interaction/README.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../nycu-115-1-coursework/mgmt30096/lectures/2026-09-14-ai-literacy/notes.md#course-requirements",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../nycu-115-1-coursework/cscm30018/coordination/2026-09-16-line-follow-up/notes.md#r28",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../bu2-shape-match-poc/docs/validation.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../inner-archive/thoughts/2026-10-11-professional-core-multiple-outlets-and-agency.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../inner-archive/thoughts/2026-10-11-professional-core-multiple-outlets-and-agency.md#identity-beyond-work",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../inner-archive/thoughts/2026-10-11-professional-core-multiple-outlets-and-agency.md#design-plants-and-unplanned-afternoons",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../inner-archive/thoughts/2026-10-12-jason-xiaohan-integrated-life-dialogue-and-research.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../deepbt-detector-a-plus-license-security-evaluation/README.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../deepbt-detector-a-plus-license-security-evaluation/output/pdf/README.md",
+      "issue": "target missing"
+    },
+    {
+      "file": "planning-everything-track/weeks/2026-W42/weekly-plan.md",
+      "target": "../../../book-draw-sdd-lab/README.md",
+      "issue": "target missing"
+    }
+  ],
+  "checked_files": [
+    "ceh-cehp-certification-notes-2026/README.md",
+    "ceh-cehp-certification-notes-2026/assessments/practice-bank/README.md",
+    "ceh-cehp-certification-notes-2026/curriculum/official-scope-map.md",
+    "ceh-cehp-certification-notes-2026/docs/video-production/PRODUCTION_STANDARD_v1.0.md",
+    "ceh-cehp-certification-notes-2026/docs/video-production/README.md",
+    "ceh-cehp-certification-notes-2026/notes/m08-sniffing/video-production-2026-10-18.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/README.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/accepted-plan.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/content/AGENT_PROMPT.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/content/CONCEPT_CONNECTIONS.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/content/COVERAGE_MATRIX.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/content/SCRIPT_en-US.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/content/SOURCES.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/execution-activation.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/rebuild-inputs/full-production/README.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/C01-visual-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/C03-visual-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/C04-visual-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/C05-visual-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/C06-visual-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/C07-visual-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/C09-visual-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/C10-visual-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/C11-visual-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/README.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/animation-map-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/audio-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/master-review-01-21.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/master-review-22-38.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/master-visual-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/snapshot-diagnostic.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/render-validation/technical-source-review.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/source.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/validation/README.md",
+    "ceh-cehp-certification-notes-2026/source/2026-10-18-ceh-m08-video-production/validation/visual-review.md",
+    "ceh-cehp-certification-notes-2026/source/README.md",
+    "planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md",
+    "planning-everything-track/docs/phd-work-log-connections.md",
+    "planning-everything-track/weeks/2026-W42/days/2026-10-18.md",
+    "planning-everything-track/weeks/2026-W42/weekly-plan.md"
+  ]
+}

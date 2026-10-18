@@ -1,0 +1,87 @@
+# M08 encoded sample review: S39–S58 and C08–C11
+
+review_status: sampled_pass
+primary_reviewed_sample_count: 32
+supplemental_late_sample_count: 7
+reviewed_sample_count: 39
+
+**Sampled visual pass.** No blocking content, label/caption-overlap, clipping or missing established-state common-layer finding was observed in the 32 assigned primary encoded PNG samples and seven supplemental late-phase samples: 39 inspected images in total. This is a sampled visual review of the delivered MP4, not an end-to-end viewing or listening claim.
+
+## Artifact and evidence
+
+- Master: [CEH_M08_Sniffing_en-US_1_5x_1s_master.mp4](../output/CEH_M08_Sniffing_en-US_1_5x_1s_master.mp4).
+- Master SHA-256, independently read from the completed MP4: `54e5a107cf94d7320eb91169f6a3267b81da408ef7bfacf3e745ef1f2df2faf3`.
+- [Encoded-artifact audit](rendered-artifact-audit.json) was first observed with status `automated_encoded_artifact_checks_passed` before visual review began. It records 3957.933333333333 seconds, 118738 frames, successful full-master decode, zero black intervals and 115 sampled frames. Those are automated audit findings.
+- This assignment covers 20 scene midpoints, S39–S58, plus 12 chapter samples: first/middle/last for C08–C11. The 24 additional quiz hold/boundary samples are assigned to root and are outside this review.
+- Contact-sheet inspection used the audit-generated [scenes 05](../output/inspection_frames/scenes-contact-05.jpg), [scenes 06](../output/inspection_frames/scenes-contact-06.jpg), [scenes 07](../output/inspection_frames/scenes-contact-07.jpg), [chapters 03](../output/inspection_frames/chapters-contact-03.jpg) and [chapters 04](../output/inspection_frames/chapters-contact-04.jpg). Their unassigned context cells are not included in the count of 32. Twenty assigned dense/corrected samples were then opened at original 1920 × 1080 resolution, identified in the table below.
+- Content comparison used `project/data/scenes.json` and `project/case/NORTHSTAR_M08_EVIDENCE.json`. Review date: 2026-10-18, Asia/Taipei.
+
+## Findings
+
+1. **Common layers:** campus/Northstar, Tally and `SIMULATED OUTPUT` are visible in the established nonquiz midpoint states S39–S53 and S58, and the established nonquiz chapter samples. The intermittent common-layer pixel absence seen in direct native capture PNGs was not reproduced in these encoded established-state samples. Quiz samples use their own layout with Tally. Chapter-first samples at +0.1 seconds show the early entrance state, including faint or not-yet-revealed props; the later sampled states contain the completed layer set. Those entrance samples contain the expected paper/title frame rather than black output.
+2. **S39–S43 evidence boundaries:** passive/active mechanism and permission remain separate. Negative probe results do not establish absence of a collector. S42 uses the corrected neutral magnifier for the unverified attacker inference. The encoded S43 midpoint and C08 last sample retain the corrected ledger categories: preserved source/digest/time, interpretation/alternatives, and next check/owner. The two-line dependency note fits and does not imply that multiple charts are independent evidence.
+3. **Case values and limits:** S44 shows one endpoint broadcast and four supplied mirror records, consistent with one shared record plus three additional constructed DNS records. S45 shows gateway `10.44.10.1` twice with clearly labeled MAC suffixes `...:00:01` and `...:00:66`; its visible caption leaves recipient cache and forwarding unmeasured. S46 displays proposed routers `10.44.10.1` and `10.44.10.66` in the same transaction context and does not show client selection. S47 displays `lesson · A`, transaction `0x4808`, returned addresses `203.0.113.80` and `203.0.113.81`, and the explicit unmeasured cache/connection/compromise boundary. The short name denotes `lesson.northstar.example.test` in the source notes. C09 last explicitly states that shared context does not prove one successful interception chain.
+4. **Controls and AI:** the sampled controls/revalidation diagrams present mechanisms and verification tasks without displaying a completed live-control result. S52 labels a minimized extract and source-linked proposal, with a caption requiring analyzer verification. S53 and C10 last clearly label the password-theft story unsupported and the bounded statement supported; client acceptance remains unknown. Their diagrams do not present an AI-generated incident story as verified impact.
+5. **Quiz and capstone:** S54–S57 midpoint pages each display one complete prompt and all four options with clear Tally/caption separation. C11 middle shows Q5's DNSSEC/trust-chain answer A without losing the other options. These visual samples do not independently prove the exact hold/reveal timing; root owns the separate 24 hold/boundary checks. The S58 midpoint and C11 last retain the capstone workflow, `Verify proposed defense`, and the explicit instruction to save a learner result only when execution is activated. The film's prepared material is not presented as completed learner practice.
+6. **Legibility and spacing:** the dense ledger, case tables, DNS comparison, four sampled question pages and final two-line notes are readable at full resolution. No text/caption/teaching-cue overlap or visible clipping was observed in the assigned samples. Blank caption regions at early/late chapter samples are not treated as missing spoken captions; this review does not establish continuous caption timing between samples.
+
+## Exact assigned samples
+
+Times below preserve the numeric values recorded by `sampled_frames` in the audit JSON, in seconds from the master start. All 32 were inspected on contact sheets; `full` also records an original-resolution follow-up.
+
+| Encoded PNG | Recorded master time, s | Inspection |
+| --- | --- | --- |
+| [S39-midpoint.png](../output/inspection_frames/S39-midpoint.png) | `2459.4666666666662` | contact |
+| [S40-midpoint.png](../output/inspection_frames/S40-midpoint.png) | `2528.4499999999994` | contact |
+| [S41-midpoint.png](../output/inspection_frames/S41-midpoint.png) | `2598.8666666666663` | contact |
+| [S42-midpoint.png](../output/inspection_frames/S42-midpoint.png) | `2663.066666666666` | contact |
+| [S43-midpoint.png](../output/inspection_frames/S43-midpoint.png) | `2726.8999999999996` | contact + full |
+| [S44-midpoint.png](../output/inspection_frames/S44-midpoint.png) | `2790.5833333333335` | contact |
+| [S45-midpoint.png](../output/inspection_frames/S45-midpoint.png) | `2853.383333333333` | contact + full |
+| [S46-midpoint.png](../output/inspection_frames/S46-midpoint.png) | `2918.9666666666667` | contact + full |
+| [S47-midpoint.png](../output/inspection_frames/S47-midpoint.png) | `2984.8166666666666` | contact + full |
+| [S48-midpoint.png](../output/inspection_frames/S48-midpoint.png) | `3048.983333333333` | contact + full |
+| [S49-midpoint.png](../output/inspection_frames/S49-midpoint.png) | `3115.566666666666` | contact + full |
+| [S50-midpoint.png](../output/inspection_frames/S50-midpoint.png) | `3181.9833333333327` | contact + full |
+| [S51-midpoint.png](../output/inspection_frames/S51-midpoint.png) | `3246.1499999999996` | contact + full |
+| [S52-midpoint.png](../output/inspection_frames/S52-midpoint.png) | `3308.133333333333` | contact + full |
+| [S53-midpoint.png](../output/inspection_frames/S53-midpoint.png) | `3369.3666666666663` | contact + full |
+| [S54-midpoint.png](../output/inspection_frames/S54-midpoint.png) | `3458.983333333333` | contact + full |
+| [S55-midpoint.png](../output/inspection_frames/S55-midpoint.png) | `3576.75` | contact + full |
+| [S56-midpoint.png](../output/inspection_frames/S56-midpoint.png) | `3700.383333333333` | contact + full |
+| [S57-midpoint.png](../output/inspection_frames/S57-midpoint.png) | `3827.333333333333` | contact + full |
+| [S58-midpoint.png](../output/inspection_frames/S58-midpoint.png) | `3924.1` | contact + full |
+| [C08-first.png](../output/inspection_frames/C08-first.png) | `2427.9666666666662` | contact |
+| [C08-middle.png](../output/inspection_frames/C08-middle.png) | `2593.7166666666662` | contact |
+| [C08-last.png](../output/inspection_frames/C08-last.png) | `2759.4666666666662` | contact + full |
+| [C09-first.png](../output/inspection_frames/C09-first.png) | `2759.6666666666665` | contact |
+| [C09-middle.png](../output/inspection_frames/C09-middle.png) | `2920.333333333333` | contact |
+| [C09-last.png](../output/inspection_frames/C09-last.png) | `3081.0` | contact + full |
+| [C10-first.png](../output/inspection_frames/C10-first.png) | `3081.1999999999994` | contact |
+| [C10-middle.png](../output/inspection_frames/C10-middle.png) | `3240.9666666666662` | contact |
+| [C10-last.png](../output/inspection_frames/C10-last.png) | `3400.733333333333` | contact + full |
+| [C11-first.png](../output/inspection_frames/C11-first.png) | `3400.933333333333` | contact |
+| [C11-middle.png](../output/inspection_frames/C11-middle.png) | `3679.383333333333` | contact + full |
+| [C11-last.png](../output/inspection_frames/C11-last.png) | `3957.833333333333` | contact + full |
+
+## Scope and remaining gate
+
+This review validates the appearance and visible meaning of the 32 primary encoded samples and seven supplemental late-phase samples listed in this record only. It does not establish every intervening animation frame, continuous caption synchronization, narration pronunciation, human full-film comprehension or end-to-end listening. Root's separate quiz-boundary and audio-continuity reviews retain their own evidence. No source file, encoded output or Git state was changed; this review wrote only this Markdown record.
+
+## Supplemental late-phase encoded review
+
+**Supplemental sampled visual pass.** After the primary review, root supplied seven targeted late-phase encoded PNGs from the same master SHA-256. All seven were opened at original 1920 × 1080 resolution. This adds seven images to the 32 primary samples, for **39 inspected encoded images total**; 27 received full-resolution follow-up inspection. The primary sample table and its 32-image count remain distinct from this supplement.
+
+Evidence: [late-diagram sample manifest](late-diagram-samples.json). That manifest contains 17 supplemental captures across the film; this assignment inspects only the seven rows below. Its capture status is not treated as a visual-review result for the other ten images.
+
+| Encoded PNG | Exact recorded master time, s | Exact recorded scene-local time, s | Supplemental finding |
+| --- | --- | --- | --- |
+| [S40-late.png](../output/inspection_frames/S40-late.png) | `2561.833333333333` | `70.76666666666667` | The last detection card clears the legitimate-monitoring note, teaching cue and caption. Negative-probe coverage and legitimate promiscuous-state limits remain explicit. |
+| [S42-late.png](../output/inspection_frames/S42-late.png) | `2690.233333333333` | `58.333333333333336` | The neutral magnifier remains under the unverified inference. The interpretation/coverage note fits and clears the teaching cue and caption. |
+| [S43-late.png](../output/inspection_frames/S43-late.png) | `2755.5666666666666` | `61.33333333333333` | Both ledger rows retain the corrected categories; the common-source dependency note fits on two lines without overlap. |
+| [S44-late.png](../output/inspection_frames/S44-late.png) | `2817.6` | `58.03333333333333` | The one-broadcast/four-record comparison and the note about three STAFF DNS records only in the stipulated mirror view are readable. The note preserves the synthetic-coverage boundary. |
+| [S45-late.png](../output/inspection_frames/S45-late.png) | `2881.1666666666665` | `59.56666666666667` | Gateway and MAC-suffix values remain correct. The late note explicitly leaves approval unconfirmed and recipient cache/forwarding unmeasured; its two lines fit. |
+| [S46-late.png](../output/inspection_frames/S46-late.png) | `2948.7666666666664` | `63.599999999999994` | The two router options remain correct. Both late notices fit: REQUEST/ACK/installed state are not supplied, and competing offers do not establish acceptance or pool exhaustion. |
+| [S53-late.png](../output/inspection_frames/S53-late.png) | `3396.833333333333` | `58.93333333333333` | Unsupported password theft remains separate from the supported conflict/acceptance-unknown brief. The final evidence-needed note fits and does not overlap the cue or caption. |
+
+Campus/Northstar, Tally and `SIMULATED OUTPUT` are visible in all seven late samples. No blocking clipping, label/caption collision or unsupported completed-outcome claim was observed in this supplement. The added static samples do not extend this review into a full motion or listening pass. No production file or encoded artifact was changed.

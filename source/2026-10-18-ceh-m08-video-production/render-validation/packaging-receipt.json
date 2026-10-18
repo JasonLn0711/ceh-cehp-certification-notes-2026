@@ -1,0 +1,9 @@
+{
+  "status": "editable_zip_crc_extraction_hashes_verified",
+  "zip": "CEH_M08_Sniffing_v1_0_EDITABLE.zip",
+  "bytes": 3095839321,
+  "entries": 5233,
+  "payload_hashes": 5232,
+  "sha256": "0a6520b5c48ee712787db294563545fd6aa263d39ba6b66733e5863f33791bfc",
+  "scope": "All editable payloads were extracted and hash checked; environments/caches excluded. Final media remain outside the archive."
+}

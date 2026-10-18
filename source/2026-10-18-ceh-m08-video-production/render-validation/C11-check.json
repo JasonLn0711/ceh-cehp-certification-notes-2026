@@ -1,0 +1,121 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 6
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 557.1,
+    "samples": [
+      13.956,
+      23.465,
+      23.865,
+      24.465,
+      58.15,
+      82.106,
+      82.506,
+      83.106,
+      104.67,
+      130.608,
+      138.553,
+      138.953,
+      139.553,
+      175.917,
+      201.032,
+      201.432,
+      202.032,
+      223.61,
+      250.897,
+      263.088,
+      263.488,
+      264.088,
+      299.55,
+      327.878,
+      328.278,
+      328.878,
+      350.763,
+      378.671,
+      393.476,
+      393.876,
+      394.476,
+      426.5,
+      452.568,
+      452.968,
+      453.568,
+      476.847,
+      497.553,
+      523.267,
+      550.333
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      13.956,
+      130.608,
+      263.088,
+      393.476,
+      550.333
+    ],
+    "checked": 56,
+    "passed": 56
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "e345a1da-de45-4137-9c67-16223a4337f3",
+    "revision": null,
+    "report": "/home/jnlngx10/Videos/CEH_M08_v1_0/project/chapters/C11/.hyperframes/artifacts/checks/e345a1da-de45-4137-9c67-16223a4337f3.json",
+    "attribution": "unversioned"
+  },
+  "_meta": {
+    "version": "0.8.171",
+    "latestVersion": "0.8.171",
+    "updateAvailable": false
+  }
+}

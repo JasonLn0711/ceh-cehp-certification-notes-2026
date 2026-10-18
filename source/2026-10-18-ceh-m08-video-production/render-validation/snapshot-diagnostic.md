@@ -1,0 +1,7 @@
+# Native screenshot and encoded-film evidence
+
+Some direct/chapter diagnostic PNGs appeared to omit common campus/Tally/stamp pixels while the captured DOM receipt reported opacity1. The latest isolated native reviews record the inspected frames and exact findings. In selected refreshed images, pixel-region checks were nonblank even when a resized tool display looked empty. Two requestAnimationFrame paint turns were added to direct capture after each explicit timeline seek; no composition timing or media samples were changed for this diagnostic.
+
+No missing encoded layer is inferred from a PNG/DOM discrepancy alone. C01's actual encoded midpoint frames were separately extracted and inspected; campus, original Tally and stamp were present in the applicable non-quiz scenes. Complete final encoded sampling covers every scene, chapter positions, all quiz holds and answer boundaries. Its concrete master-visual-review.md and rendered-artifact-audit.json govern final-media claims after they exist. Native layer/seek state and encoded pixels retain separate receipts.
+
+The HyperFrames compiler also injects a cached default Inter font face. Authored teaching/caption/SVG text explicitly uses the frozen local Liberation Sans and DejaVu Sans Mono assets; actual browser font/layout/contrast checks exercise the final composition. No replacement visual style or remote media dependency is introduced.

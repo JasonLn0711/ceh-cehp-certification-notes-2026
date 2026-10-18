@@ -1,0 +1,3 @@
+# Preserve exact source bytes in the two measured production copies.
+STORYBOARD.local.md.txt whitespace=-blank-at-eof
+scripts/art_dns.py whitespace=-blank-at-eof

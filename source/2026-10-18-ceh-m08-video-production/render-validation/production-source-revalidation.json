@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "source_zip_sha256": "bd375286deebf6fcaf1a913d7e1760371bad57f62c2d1ec5d9e720807f45da74",
+  "source_entries": 308,
+  "payload_hashes": 306,
+  "locked_assets": 44,
+  "offline_packet_assertions": 43,
+  "verbose_files": 6
+}

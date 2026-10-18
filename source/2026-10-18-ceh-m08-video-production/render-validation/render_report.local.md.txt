@@ -1,0 +1,76 @@
+# CEH M08 Sniffing — complete English Editorial Masterclass v1.0
+
+Complete **11 chapters / 58 animated scenes**, **9,097 canonical spoken words**, **65:57.933** (3957.933333 seconds; 118,738 frames), 1920 × 1080 / 30 fps H.264/AAC. All eight quiz holds contain exactly 1.000 second of zero-valued 48 kHz stereo PCM. Final AAC residues are measured separately.
+
+## Delivery
+
+- [Complete MP4](CEH_M08_Sniffing_en-US_1_5x_1s_master.mp4), [11 chapter MP4s](chapters/) and [chapter marks](chapters.txt)
+- [SRT](captions.en-US.srt), [WebVTT](captions.en-US.vtt) and [lossless reference mix](master.reference.pcm.wav)
+- [Editable project ZIP](CEH_M08_Sniffing_v1_0_EDITABLE.zip), [workspace guide](project_source/README.md) and [editing instructions](project_source/project/EDITING.md)
+- [Scene QA ledger](scene_qa_ledger.csv), [actual encoded samples](inspection_frames/), [QA evidence](qa_evidence/) and [delivery hashes](DELIVERY_SHA256.txt)
+- [Original immutable source ZIP](CEH_M08_English_Masterclass_HandDrawn_Editorial_v1_FULL.zip)
+
+## Content, design and runtime
+
+The complete M08 teaching covers Ethernet and switched visibility, capture points and filters, plaintext/TLS/VPN, ARP, MAC/DHCP, VLAN/STP/DNS, detection, four connected cases, defense/revalidation and AI-assisted interpretation. Northstar network events are fictional SIMULATED OUTPUT. Six synthetic PCAP files are analyzed offline; no interface capture, packet transmission, rogue service or external target request occurred. Source content is unchanged from the supplied M08 package.
+
+M04 v3 paper palette, original Tally and inherited Northstar roles are hash verified. All scenes use editable native layers with exact narration anchors, finite paused timelines and semantic diagram reveals. Captions use final processed audio alignment and preserve every canonical word. The original 58 SVG boards and 18-slide editable PPTX remain included as source references.
+
+M08 uses pinned **HyperFrames 0.8.171**. Its initial 0.8.170 C01 check is preserved separately; final chapter/full-project checks exercise the final pin. M05–M07 remain unchanged. Local fonts, GSAP, physically copied public models, package locks and license records are included. The shared Python environment was reused without upgrades; requirements-lock.txt records its isolated runtime dependencies.
+
+## Voice and measured timing
+
+Approved local Kokoro `af_heart`, en-US, baseline **0.73**, followed by exactly one FFmpeg `atempo=1.5` per spoken clip. Baseline/post-speed speech totals: **5451.413 / 3637.875 seconds**; measured duration ratio **1.498516**. Video and animation rate remain 1.0. No BGM or second tempo pass.
+
+Raw clip speech is **150.0381 WPM**. The −50 dBFS edge-trimmed signal estimate is **152.1657 WPM**. This descriptive measurement retains internal pauses and changes no audio samples; it is not a pronunciation or comprehension score. The fixed approved baseline was preserved rather than retuned to an estimated WPM range. [Threshold sensitivity and all clip hashes](qa_evidence/speech-rate-measurement.json).
+
+## Quiz silence and answer boundary
+
+All complete stems and A–D options precede the hold. Each hold is exactly 48,000 stereo PCM frames / 96,000 channel samples, all zero; eight holds total 8.000 seconds. Answer highlighting, banner and narration start after the hold. Captions do not enter silent windows. The on-screen pause guide supports longer learner thinking without changing the one-second contract.
+
+AAC is lossy. These decoded final-master windows are reported independently from the digital-zero reference buffers:
+
+| Question | Reference frames | Decoded frames | Full AAC peak | Full AAC RMS | Nonzero channel samples | Interior peak |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Q01 | 48000 | 48000 | 2.5109237e-05 | 3.29920312e-07 | 5888 | 0 |
+| Q02 | 48000 | 48000 | 2.38780394e-05 | 3.57990444e-07 | 7936 | 0 |
+| Q03 | 48000 | 48000 | 1.43261859e-05 | 3.10675318e-07 | 7936 | 0 |
+| Q04 | 48000 | 48000 | 2.50340181e-05 | 4.75122022e-07 | 5888 | 0 |
+| Q05 | 48000 | 48000 | 2.40888785e-05 | 2.72528666e-07 | 5888 | 0 |
+| Q06 | 48000 | 48000 | 2.65949529e-05 | 3.03072682e-07 | 5888 | 0 |
+| Q07 | 48000 | 48000 | 1.35115706e-05 | 1.97155146e-07 | 5888 | 0 |
+| Q08 | 48000 | 48000 | 2.46952495e-05 | 2.76657545e-07 | 5888 | 0 |
+
+## Validation and review scope
+
+The immutable 308-file source release previously passed 811 source assertions and 94 browser assertions, with 306 payload hashes and 44 locked inherited assets verified. Those source results retain their original evidence layer.
+
+All 11 actual chapter renders have matching input/output fingerprints and correct codecs, duration, dimensions and frame rate. The full 58-scene root project passed lint/runtime/layout/contrast checks with zero errors and warnings. All **64 actual quiz timeline assertions** passed, including backward seeking and exact answer boundaries. The master fully decoded, contains **118,738 video frames**, and has zero detected black intervals. Chapter videos were joined without speeding or re-encoding picture; a single continuous narration track was encoded to AAC, with 11 embedded chapter marks. [Actual animation-map review](qa_evidence/animation-map-review.md) discloses the isolated helper version and heuristic flags; those are separate from the zero-finding active-window runtime checks.
+
+The **115 primary encoded samples** cover every scene midpoint, 33 chapter first/middle/last positions, eight holds and 16 before/answer positions. Another **17 targeted late-phase samples** verify repaired labels, notes and evidence limits beyond those midpoints; 132 distinct encoded samples were inspected. Concrete review is in [master visual review](qa_evidence/master-visual-review.md). Diagnostic multi-position screenshots sometimes omitted common layers while their DOM states remained correct; fresh direct captures and final encoded samples are treated as separate evidence. [Diagnostic receipt](qa_evidence/snapshot-diagnostic.md).
+
+All 58 actual WAVs have independent fixed-runtime unprompted transcript receipts. ASR validation is `availability_validation`, status `LIVE_FULL_COMPLETED`, functional result `available_and_working`; **accuracy and latency are not_evaluated**. Known-text alignment retains **172 timing flags across 143 clips**. [Audio review](qa_evidence/audio-review.md) and [local audition queue](project_source/qa/audio-audition/index.html) preserve these leads. No full human listening, pronunciation-accuracy score or end-to-end human viewing acceptance is claimed.
+
+## Chapters
+
+| Chapter | Topic | Start(s) | Duration(s) |
+| --- | --- | ---: | ---: |
+| C01 | The Northstar packet mission | 0.000 | 245.400 |
+| C02 | Ethernet and switched visibility | 245.400 | 303.967 |
+| C03 | Collection points and offline workflow | 549.367 | 437.667 |
+| C04 | Plaintext and protected traffic | 987.033 | 322.967 |
+| C05 | ARP claims and path validation | 1310.000 | 322.533 |
+| C06 | MAC and DHCP mechanisms | 1632.533 | 391.367 |
+| C07 | VLAN, STP and DNS boundaries | 2023.900 | 403.967 |
+| C08 | Detection and evidence quality | 2427.867 | 331.700 |
+| C09 | Northstar connected packet cases | 2759.567 | 321.533 |
+| C10 | Defenses, revalidation and AI | 3081.100 | 319.733 |
+| C11 | Eight questions and a packet capstone | 3400.833 | 557.100 |
+
+## Ownership and next gate
+
+The local owning workspace is `/home/jnlngx10/Videos/CEH_M08_v1_0`. CEH records preserve technical evidence and learning connections; Planning retains status, location, capacity and next action. Production changes no learner answers, attendance, accepted practical tasks, Blog status or used study minutes. W42 Red and existing study ceilings remain in force.
+
+Jason owns full human viewing/listening acceptance when capacity allows. Record timecoded issues in the canonical M08 production note. Public video release remains a separate future action with its own verified URL. Git documentation publication does not publish the media.
+
+Master SHA-256: `54e5a107cf94d7320eb91169f6a3267b81da408ef7bfacf3e745ef1f2df2faf3`.

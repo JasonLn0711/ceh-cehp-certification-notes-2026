@@ -1,0 +1,2 @@
+# Preserve the measured CSV bytes and recognize its original CRLF endings.
+scene_qa_ledger.csv -text whitespace=cr-at-eol

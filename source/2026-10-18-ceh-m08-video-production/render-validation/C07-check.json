@@ -1,0 +1,200 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 7
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 3,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 304.668,
+        "selector": "#S37-12 > text:nth-of-type(1) > tspan:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1178.63,
+          "top": 588,
+          "right": 1355.37,
+          "bottom": 621,
+          "width": 176.74,
+          "height": 33
+        },
+        "containerSelector": "#S37-claimed-response-endpoint > g:nth-of-type(1) > text:nth-of-type(1) > tspan:nth-of-type(1)",
+        "text": "Resolver role",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/S37.html",
+        "bbox": {
+          "x": 1178.63,
+          "y": 588,
+          "width": 176.74,
+          "height": 33
+        },
+        "firstSeen": 304.668,
+        "lastSeen": 304.668,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          304.668
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 304.668,
+        "selector": "#S37-question-generic > g:nth-of-type(1) > text:nth-of-type(1) > tspan:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 603.39,
+          "top": 313,
+          "right": 956.61,
+          "bottom": 354,
+          "width": 353.22,
+          "height": 41
+        },
+        "containerSelector": "#S37-fixture-question > g:nth-of-type(1) > text:nth-of-type(1) > tspan:nth-of-type(1)",
+        "text": "Question name + type",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/S37.html",
+        "bbox": {
+          "x": 603.39,
+          "y": 313,
+          "width": 353.22,
+          "height": 41
+        },
+        "firstSeen": 304.668,
+        "lastSeen": 304.668,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          304.668
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 304.668,
+        "selector": "#S37-question-generic > g:nth-of-type(1) > text:nth-of-type(2) > tspan:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 654.09,
+          "top": 358,
+          "right": 905.91,
+          "bottom": 391,
+          "width": 251.82,
+          "height": 33
+        },
+        "containerSelector": "#S37-fixture-question > g:nth-of-type(1) > g:nth-of-type(1) > text:nth-of-type(1) > tspan:nth-of-type(1)",
+        "text": "transaction context",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/S37.html",
+        "bbox": {
+          "x": 654.09,
+          "y": 358,
+          "width": 251.82,
+          "height": 33
+        },
+        "firstSeen": 304.668,
+        "lastSeen": 304.668,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          304.668
+        ]
+      }
+    ],
+    "duration": 403.966666667,
+    "samples": [
+      8.052,
+      33.55,
+      60.39,
+      74.792,
+      99.15,
+      124.79,
+      139.016,
+      163.767,
+      189.82,
+      203.901,
+      227.867,
+      253.093,
+      268.48,
+      297.233,
+      327.5,
+      343.335,
+      369.517,
+      397.077
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 3,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      8.052,
+      99.15,
+      189.82,
+      268.48,
+      397.077
+    ],
+    "checked": 62,
+    "passed": 62
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "3092a96a-1b98-42a2-b96e-f600cd3c2623",
+    "revision": "de863835-45a0-4e19-bff6-8ad964235bf2",
+    "report": "/home/jnlngx10/Videos/CEH_M08_v1_0/project/chapters/C07/.hyperframes/artifacts/checks/3092a96a-1b98-42a2-b96e-f600cd3c2623.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.171",
+    "latestVersion": "0.8.171",
+    "updateAvailable": false
+  }
+}
