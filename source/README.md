@@ -127,3 +127,8 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 ## October 18 CEH initial video standard and M07 source package
 
 [Preserved adoption request and source receipt](2026-10-18-ceh-video-standard-and-m07/README.md) → [current series standard](../docs/video-production/PRODUCTION_STANDARD_v1.0.md) → [M07 Malware Threats production source](../notes/m07-malware-threats/video-production-2026-10-18.md). The latest one-second correction governs new production. M04–M06 historical sources remain intact. The later [full-production activation](2026-10-18-ceh-video-standard-and-m07/full-production-activation.md) produced the complete M07 film; [actual rendered QA](2026-10-18-ceh-video-standard-and-m07/render-validation/README.md) preserves its independent receipt.
+
+<a id="ceh-m08-source-package"></a>
+## October 18 M08 Sniffing source package
+
+[Request, plan and source receipt](2026-10-18-ceh-m08-video-production/README.md) → [M08 record](../notes/m08-sniffing/video-production-2026-10-18.md) → [actual QA](2026-10-18-ceh-m08-video-production/validation/README.md). New English content and synthetic PCAPs use the shared initial standard; source-ready and full-film execution remain distinct.

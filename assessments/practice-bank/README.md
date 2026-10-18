@@ -83,3 +83,8 @@ Run `python3 assessments/practice-bank/check.py` from the CEH repo root. It chec
 ## Week 1 supporting explanations
 
 [Course overview and M01–M03 notes](../../notes/2026-09-20-ceh-week-01/README.md) provide source-linked explanations and corrections for the existing forms. [Connections](../../notes/2026-09-20-ceh-week-01/connections.md) identify practical-family reuse without adding assignments. These notes leave question versions, answer keys and attempt history unchanged.
+
+<a id="ceh-m08-source-package"></a>
+## M08 video-source connection
+
+The [M08 English Masterclass](../../notes/m08-sniffing/video-production-2026-10-18.md) supplies eight film questions and an offline capstone. M08-film-v1 is independent of this bank; original answers, retests and practical acceptance retain their own evidence.

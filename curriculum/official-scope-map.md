@@ -128,3 +128,8 @@ CEH 2053 meets September 20, October 4, 18, 25 and November 1. CEHP 26416 meets 
 ## M07 English Masterclass production connection — October 18
 
 The [M07 Malware Threats rendered production record](../notes/m07-malware-threats/video-production-2026-10-18.md) connects the official topic boundary to 11 chapters, 58 animated scenes, static/dynamic reasoning, detection, response, eight film questions and the Northstar capstone. The [shared video standard](../docs/video-production/PRODUCTION_STANDARD_v1.0.md) governs editorial/timing decisions. Prepared teaching remains separate from the mapped P4 learner task and the existing practice-bank evidence.
+
+<a id="ceh-m08-source-package"></a>
+## M08 English Masterclass production connection — October 18
+
+The [M08 Sniffing source package](../notes/m08-sniffing/video-production-2026-10-18.md) connects the official module to 11 chapters, 58 editable boards, offline packet analysis, evidence limits, mechanism-specific defenses and the P3 capstone. The [series standard](../docs/video-production/PRODUCTION_STANDARD_v1.0.md) retains narration-only speed and one-second holds. Source preparation adds no accepted P3 task or learner result.
