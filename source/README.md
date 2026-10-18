@@ -123,3 +123,7 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 [Supplied instruction and immutable source receipt](2026-10-18-ceh-m06-video-production/README.md) preserve the M06-specific 58-scene production request, original archive identity and two documented case chronology corrections. [M05 production history](2026-10-18-ceh-m05-video-production/README.md) retains its separate script, timing revision and delivery evidence.
 
 [M06 rendered delivery and learning connections](../notes/m06-system-hacking/video-production-2026-10-18.md) link that source to the actual 58:07.500 film, compact runtime QA and next human review gate.
+
+## October 18 CEH initial video standard and M07 source package
+
+[Preserved adoption request and source receipt](2026-10-18-ceh-video-standard-and-m07/README.md) → [current series standard](../docs/video-production/PRODUCTION_STANDARD_v1.0.md) → [M07 Malware Threats production source](../notes/m07-malware-threats/video-production-2026-10-18.md). The latest one-second correction governs new production. M04–M06 historical sources remain intact; actual M07 speech, captions and MP4 are a later production layer.

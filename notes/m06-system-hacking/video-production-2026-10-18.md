@@ -71,3 +71,7 @@ The eight film questions do not add completed first answers to the 600-ID practi
 Jason owns full human viewing/listening acceptance when capacity allows; timecoded issues belong here. Public media release remains deferred until a platform/release action is chosen and an actual URL is verified. The delivered local media and documentation can support later course review and teaching reuse without adding a new schedule or deadline.
 
 Documentation closeout verified 20 unchanged QA copies and the original AGENT_PROMPT.md copy. The full local delivery manifest rechecked all 5,769 entries; direct reads of the delivered reference PCM confirmed all eight 48,000-frame stereo holds are zero. Touched Markdown/link checks found zero new failures; inherited unavailable sibling/private targets remain identified separately. Planning repository/knowledge validators passed with 44 grandfathered policy warnings, zero new; 181 metadata notes and catalog entries. Both repos passed `git diff --check`. Git publication is recorded separately after the actual push.
+
+## Series reuse — October 18
+
+The [initial CEH series standard](../../docs/video-production/PRODUCTION_STANDARD_v1.0.md) adopts this film's approved design and timing implementation. The next module's [M07 Malware Threats source record](../m07-malware-threats/video-production-2026-10-18.md) reuses Tally/Northstar and voice/quiz timing while supplying new content. M06's original source archive and rendered delivery remain historical evidence; M07 source readiness is a distinct layer.

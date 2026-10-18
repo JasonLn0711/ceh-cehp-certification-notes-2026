@@ -170,3 +170,7 @@ daily closeout.
 
 For this capture, the current [Planning CEH locator](../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md) records the September 11 exam-only decision. The local checkout lacks the referenced September 11 exam plan and September 14 prompt. Earlier project-led instructions above remain historical context for that lane; this note capture activates no project and records no learner completion.
 
+
+## CEH English Masterclass production
+
+[Initial video standard](docs/video-production/PRODUCTION_STANDARD_v1.0.md) → [module delivery index](docs/video-production/README.md) → [M07 Malware Threats source package](notes/m07-malware-threats/video-production-2026-10-18.md). Complete teaching sources can support course review; actual learner answers, authorized practice and readiness retain their own evidence.
