@@ -132,4 +132,4 @@ The [M07 Malware Threats rendered production record](../notes/m07-malware-threat
 <a id="ceh-m08-source-package"></a>
 ## M08 English Masterclass production connection — October 18
 
-The [M08 Sniffing source package](../notes/m08-sniffing/video-production-2026-10-18.md) connects the official module to 11 chapters, 58 editable boards, offline packet analysis, evidence limits, mechanism-specific defenses and the P3 capstone. The [series standard](../docs/video-production/PRODUCTION_STANDARD_v1.0.md) retains narration-only speed and one-second holds. Source preparation adds no accepted P3 task or learner result.
+The [M08 Sniffing rendered Masterclass and preserved sources](../notes/m08-sniffing/video-production-2026-10-18.md) connects the official module to 11 chapters, 58 editable boards, offline packet analysis, evidence limits, mechanism-specific defenses and the P3 capstone. The [series standard](../docs/video-production/PRODUCTION_STANDARD_v1.0.md) retains narration-only speed and one-second holds. The full 65:57.933 film and actual render QA support later study; prepared/rendered teaching adds no accepted P3 task or learner result.

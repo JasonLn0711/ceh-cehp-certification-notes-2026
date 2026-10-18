@@ -11,3 +11,5 @@ Original Tally, map, palette, deck, SVGs and previews remain in ~/Videos/CEH_M08
 ## Full-production continuation
 
 [Explicit activation and execution contract](execution-activation.md) continues this source release into actual narration, captions and complete film production. The source release receipt above retains its original scope.
+
+[Complete rendered-film receipts](render-validation/README.md) and [recovery tooling](rebuild-inputs/full-production/README.md) establish the later executed production layer; the original source receipt remains unchanged.

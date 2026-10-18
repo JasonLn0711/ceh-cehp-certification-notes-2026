@@ -1,4 +1,50 @@
-# M08 Sniffing — English Masterclass source package
+# M08 Sniffing — rendered English Masterclass
+
+Recorded 2026-10-18, Asia/Taipei. **rendered_and_automated_QA_passed:** the complete **65:57.933** film has **11 chapters, 58 native animated scenes, 9,097 canonical spoken words, 118,738 frames and 1,213 caption cues**, with 11 embedded chapter marks at 1920×1080/30 fps H.264/AAC. [Explicit activation](../../source/2026-10-18-ceh-m08-video-production/execution-activation.md) continued the earlier source package into actual narration, captions, chapter MP4s, a master and an editable project. [Actual render receipts](../../source/2026-10-18-ceh-m08-video-production/render-validation/README.md) are separate from source acceptance.
+
+Jason approved the design, voice and quiz contract. Codex adapted the production pipeline, authored native Sniffing animation, synthesized/aligned the complete narration, rendered every chapter, inspected encoded samples and verified the archive. Full human viewing/listening remains a separate acceptance layer.
+
+## Full-film delivery and integrity
+
+All paths below are under /home/jnlngx10/Videos/CEH_M08_v1_0/.
+
+| Artifact | Local path |
+| --- | --- |
+| Complete film | output/CEH_M08_Sniffing_en-US_1_5x_1s_master.mp4 |
+| Chapter films and marks | output/chapters/C01.mp4 through C11.mp4; output/chapters.txt |
+| Caption tracks | output/captions.en-US.srt and .vtt; captions also burned in |
+| Exact reference audio | output/master.reference.pcm.wav |
+| Editable production ZIP | output/CEH_M08_Sniffing_v1_0_EDITABLE.zip |
+| Editable workspace | project/; output/project_source/project/ in the delivery bundle |
+| Runtime report / actual images | output/render_report.md; output/inspection_frames/ |
+| Local audio audition | qa/audio-audition/index.html |
+| Complete payload hashes | output/DELIVERY_SHA256.txt |
+
+Master SHA-256: 54e5a107cf94d7320eb91169f6a3267b81da408ef7bfacf3e745ef1f2df2faf3. Editable ZIP: **3,095,839,321 bytes / 5,233 files**, SHA-256 0a6520b5c48ee712787db294563545fd6aa263d39ba6b66733e5863f33791bfc; CRC, extraction and all **5,232 payload hashes** pass. Final media are delivered alongside the ZIP. The archive contains editable assets, models, measured audio/alignment, sources, licenses and QA, with environments/caches excluded. The original 308-file source ZIP and all 306 payload hashes remain unchanged under inputs/.
+
+## Actual production checks and refinements
+
+M04 v3 paper palette, original Tally, Northstar roles and 44 locked asset hashes are preserved. Every scene has editable native layers and measured narration anchors, finite paused timelines and meaningful protocol/evidence reveals. Complete English content and all questions/options/explanations remain intact. Production clarifies ARP-request broadcast scope and the missing E03 ACK, separates proposed controls from observed acceptance, improves table categories and spacing, and displays the full DNS question name. No live collection or packet transmission occurred.
+
+All 11 final chapter renders have matching source/output fingerprints. HyperFrames **0.8.171** chapter/full-project checks have zero lint/runtime/layout/contrast errors and warnings; **174 actual native seek comparisons** and **64 quiz boundary assertions** pass. The actual master fully decoded with **118,738 video frames**, zero detected black intervals and correct codecs/dimensions/rate. The **115 primary plus 17 targeted late-phase encoded samples** cover all scenes, chapter positions, eight holds/answer boundaries and repaired late diagrams. [Concrete visual review](../../source/2026-10-18-ceh-m08-video-production/render-validation/master-visual-review.md) states the sampling limits. Full reference/AAC continuity compares all **189,980,800 stereo PCM frames**, with no all-zero signal replacement.
+
+Voice remains af_heart/en-us at native baseline **0.73**, followed by exactly one **atempo=1.5** for each of 671 spoken clips; picture/animation remain at rate 1.0 and music is off. Raw speech measures **150.0381 WPM**; the −50 dBFS edge-trimmed descriptive estimate is **152.1657 WPM**, without changing samples or the approved baseline. The complete narration determines duration; the earlier source estimate is not a film-length cap.
+
+Every full stem and A–D set precedes exactly **48,000 stereo zero PCM frames / 1.000 second** at 48 kHz, then the answer. Eight buffers total 8.000 seconds and captions do not enter them. Final lossy AAC has a measured maximum full-window peak **2.6594952942e-05** and **51,200 nonzero channel samples** across the eight windows; its boundary residue is disclosed separately from the bit-exact zero reference.
+
+Fixed base.en CPU/int8 ASR completed 58 functional receipts: availability_validation / LIVE_FULL_COMPLETED / valid_target_runtime / available_and_working; accuracy and latency are not_evaluated. [Audio review](../../source/2026-10-18-ceh-m08-video-production/render-validation/audio-review.md) retains 172 alignment timing flags across 143 clips and the complete local audition queue. Human pronunciation/naturalness and full-film listening have not been accepted. The optional animation-map helper uses an isolated 0.8.170 pair because its 0.8.171 core dependency is unpublished; [the map review](../../source/2026-10-18-ceh-m08-video-production/render-validation/animation-map-review.md) preserves its heuristic flags and the final S06 text-refinement boundary. The renderer remains 0.8.171.
+
+## Ownership, learning connections and next gate
+
+Scarce resources are study attention, reliable evidence, local compute and storage. CEH owns the full production record, [recovery tooling](../../source/2026-10-18-ceh-m08-video-production/rebuild-inputs/full-production/README.md), technical decisions and compact QA. Videos owns large media/assets; Planning owns [day](../../../planning-everything-track/weeks/2026-W42/days/2026-10-18.md#ceh-m08-source-package), [week](../../../planning-everything-track/weeks/2026-W42/weekly-plan.md#ceh-m08-source-package), locator/status/capacity and next action.
+
+The [official M08/P3 map](../../curriculum/official-scope-map.md#ceh-m08-source-package), existing [practice bank](../../assessments/practice-bank/m08.md), [practical families](../../assessments/practice-bank/practical.md), [M07 production](../m07-malware-threats/video-production-2026-10-18.md), [W3 class evidence](../../../planning-everything-track/weeks/2026-W42/days/2026-10-18.md#ceh-w3-final-index) and [video index](../../docs/video-production/README.md) connect teaching to its existing course homes. Generated film questions remain M08-film-v1; existing learner answers and bank IDs remain unchanged. W42 Red, shared 240-minute ceiling and course-day 25-minute limit are preserved. This production adds no learner completion, used study minutes, accepted practical or Blog publication.
+
+Jason owns full timecoded watching/listening acceptance when capacity permits. Public video release retains a separate authorized action and verified URL; Git publishes documentation, recovery code and compact evidence. [Source history below](#earlier-source-package-and-publication-history) preserves the earlier layer without retroactive completion claims.
+
+## Earlier source package and publication history
+
+The following sections retain the source-stage status before full-production activation. The current delivery and next gate are recorded above.
 
 Recorded 2026-10-18, Asia/Taipei. **source_ready:** 11 chapters, 58 editable SVG scene boards, **9,097 canonical spoken words**, eight original graded film questions, an integrated packet-analysis capstone, 18 editable visual slides and four executable motion references. The [preserved request and plan](../../source/2026-10-18-ceh-m08-video-production/README.md) selected a complete source ZIP; full narration, aligned captions and MP4 are the next production layer.
 

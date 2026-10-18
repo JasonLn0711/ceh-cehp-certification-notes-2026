@@ -176,6 +176,6 @@ For this capture, the current [Planning CEH locator](../planning-everything-trac
 [Initial video standard](docs/video-production/PRODUCTION_STANDARD_v1.0.md) → [module delivery index](docs/video-production/README.md) → [M07 Malware Threats complete film and editable project](notes/m07-malware-threats/video-production-2026-10-18.md). Complete teaching sources can support course review; actual learner answers, authorized practice and readiness retain their own evidence.
 
 <a id="ceh-m08-source-package"></a>
-## M08 English Masterclass source package
+## M08 English Masterclass complete film
 
-[M08 Sniffing source and QA](notes/m08-sniffing/video-production-2026-10-18.md) provides a new 9,097-word lesson, 58 SVGs, 18-slide editable deck, four motion references and six synthetic PCAPs. [Initial standard v1.0](docs/video-production/PRODUCTION_STANDARD_v1.0.md) applies; full narration, aligned captions and MP4 are the next layer.
+[M08 Sniffing complete film and QA](notes/m08-sniffing/video-production-2026-10-18.md) provides a new 9,097-word lesson, 58 SVGs, 18-slide editable deck, four motion references and six synthetic PCAPs. [Initial standard v1.0](docs/video-production/PRODUCTION_STANDARD_v1.0.md) applies. The complete 65:57.933 film, 11 chapter MP4s, 1,213 caption cues and verified editable ZIP are delivered locally; actual render evidence and human acceptance remain separate.
