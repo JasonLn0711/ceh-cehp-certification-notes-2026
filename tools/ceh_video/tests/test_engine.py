@@ -21,6 +21,10 @@ class EngineTests(unittest.TestCase):
     def tearDown(self):self.temp.cleanup()
     def test_atomic_json(self):
         write(self.root/'record.json',{'a':1});write(self.root/'record.json',{'a':2});self.assertEqual(read(self.root/'record.json'),{'a':2});self.assertFalse(list(self.root.glob('*.tmp')))
+    def test_package_keeps_unrelated_custody_notes_local(self):
+        from ceh_video.delivery import export_qa
+        for name in ['C11-review.json','reference-audio-identities.json','recognition-refresh.json','asr-functional-events.jsonl']:self.assertTrue(export_qa(Path(name)),name)
+        for name in ['coursework-before-merge.md','planning-merge-check.json','preexisting-planning-work.json','unrelated-coursework-preservation.json']:self.assertFalse(export_qa(Path(name)),name)
     def test_process_lock_excludes_second_writer(self):
         with lock(self.root/'lock'):
             with self.assertRaisesRegex(RuntimeError,'Already running'):

@@ -5,6 +5,12 @@ from .common import read, sha, write
 from .review import require_review,require_encoded
 
 
+def export_qa(path):
+    """Ship production evidence; keep unrelated Git/Planning custody notes local."""
+    return path.suffix in {'.json','.jsonl','.md'} and bool(re.match(
+        r'^(?:C\d+-(?:check|checked-fingerprint|render|timing|review)|audio-|asr-|recognition-|reference-|live-|clean-|production-|resume-|baseline-|late-|encoded-|quiz-|scene-seek-|rendered-|master-|engine-|run-|preflight\.|document-links\.)',path.name))
+
+
 def validate(p):
     import numpy as np
     import soundfile as sf
@@ -70,8 +76,9 @@ def package(p,emit):
     def ignore(folder,names):return [n for n in names if n in {'.venv','node_modules','.production','.hyperframes','.waveform-cache','__pycache__','review','.git'} or n.endswith('.tmp')]
     staging.mkdir();shutil.copytree(p.root,staging/'project',ignore=ignore);shutil.copytree(p.root.parent/'inputs',staging/'inputs');(staging/'qa').mkdir()
     for f in p.qa.iterdir():
-        if f.is_file() and f.suffix in {'.md','.json'}:shutil.copy2(f,staging/'qa'/f.name)
+        if f.is_file() and export_qa(f):shutil.copy2(f,staging/'qa'/f.name)
     shutil.copytree(p.qa/'audio-audition',staging/'qa/audio-audition')
+    shutil.copytree(p.qa/'recognition',staging/'qa/recognition')
     for ch in p.chapters:shutil.copytree(p.qa/(ch+'-states'),staging/'qa'/(ch+'-states'),ignore=shutil.ignore_patterns('*.html'))
     files=[f for f in sorted(staging.rglob('*')) if f.is_file()];manifest={str(f.relative_to(staging)):sha(f) for f in files}
     write(staging/'FILES_SHA256.json',manifest)
