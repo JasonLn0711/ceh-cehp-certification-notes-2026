@@ -69,15 +69,26 @@ def seed_audio(p):
     """Import only hash-verified original audio/alignment; visual review is never inferred."""
     marker=p.state/'audio-import.json'
     if marker.exists():return
-    imported=read(p.qa/'reference-import.json');reference=Path(imported['reference'])
+    imported=read(p.qa/'reference-import.json')
+    identities=p.qa/'reference-audio-identities.json'
+    if not identities.exists():
+        reference=Path(imported['reference'])
+        write(identities,{'scenes':{s['id']:sha(reference/'project/assets/voice'/f'{s["id"]}.wav') for s in p.scenes},'voice':p.profile['voice'],'models':p.profile['models']})
+    frozen=read(identities)
+    assert frozen['voice']==p.profile['voice'] and frozen['models']==p.profile['models']
+    from .speech import import_cache,spoken
+    policy=read(p.root/'pronunciation.json')
     for s in p.scenes:
         sid=s['id'];a=p.audio(sid)
-        assert sha(p.root/'assets/voice'/f'{sid}.wav')==sha(reference/'project/assets/voice'/f'{sid}.wav')
+        assert sha(p.root/'assets/voice'/f'{sid}.wav')==frozen['scenes'][sid]
+        assert ' '.join(x['canonical'] for x in a['segments'] if x['kind']=='spoken')==' '.join(s['narration_en_US'].split())
         for seg in a['segments']:
             if seg['kind']!='spoken':continue
+            assert seg['spoken']==spoken(seg['canonical'],policy)
             assert sha(p.root/seg['path'])==seg['sha256']
             f=p.root/'data/forced-alignment'/f'{sid}-{seg["sentence"]:03}.json';alignment=read(f)
             assert alignment['audio_sha256']==seg['sha256'] and alignment['canonical']==seg['canonical']
+    import_cache(p)
     graph=nodes(p)
     for sid in p.by_id:
         for name in ['speech:'+sid,'align:'+sid]:

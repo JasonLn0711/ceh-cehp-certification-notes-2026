@@ -80,4 +80,5 @@ def initialize(reference, workspace, emit):
     for ch in p.chapters:baseline[ch]={'input_sha256':original.chapter_inputs(ch),'mp4_sha256':sha(out/'chapters'/f'{ch}.mp4')}
     record={'status':'reference_verified_and_privately_imported','reference':str(reference),'reference_manifest_sha256':sha(manifest),'files':identity,'speech_clips_imported':clips,'chapters':baseline,'human_acceptance':'pending'}
     write(qa/'reference-import.json',record)
+    write(qa/'reference-audio-identities.json',{'scenes':{s['id']:sha(project/'assets/voice'/f'{s["id"]}.wav') for s in scenes},'voice':profile['voice'],'models':profile['models']})
     return {'workspace':str(workspace),'verified_reference_files':len(identity),'speech_clips_imported':clips}
