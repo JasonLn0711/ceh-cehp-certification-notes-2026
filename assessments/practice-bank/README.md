@@ -93,3 +93,8 @@ The [M08 English Masterclass](../../notes/m08-sniffing/video-production-2026-10-
 ## M09 teaching-media connection
 
 The [M09 English Masterclass](../../notes/m09-social-engineering/video-production-2026-10-19.md) supplies eight graded film questions and a four-case inert-evidence capstone. M09-film-v1 is separate from this bank. Existing original answers, confidence, retests and practical acceptance retain their own records.
+
+<a id="ceh-m10-masterclass"></a>
+## M10 prepared film questions
+
+[M10 production](../../notes/m10-denial-of-service/video-production-2026-10-19.md) adds eight original graded questions in M10-film-v1 and separate prepared pre/post materials. Existing [M10 questions](m10.md), [key](m10-key.md), original first-answer totals and [practical families](practical.md) retain their identities and acceptance checks.

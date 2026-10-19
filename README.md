@@ -184,3 +184,8 @@ For this capture, the current [Planning CEH locator](../planning-everything-trac
 ## M09 English Masterclass
 
 [Social Engineering delivery and evidence](notes/m09-social-engineering/video-production-2026-10-19.md): complete 69:26.267 English film,11 chapters/58 native animated scenes,9,814 spoken words,subtitles,source ZIP and editable production ZIP. The [initial series standard v1.0](docs/video-production/PRODUCTION_STANDARD_v1.0.md) preserves M04 v3,Tally/Northstar,narration-only 1.5× and eight 1.000-second quiz holds. Full human viewing/listening remains separate.
+
+<a id="ceh-m10-masterclass"></a>
+## M10 English Masterclass
+
+[Denial-of-Service source and production](notes/m10-denial-of-service/video-production-2026-10-19.md): verified 11-chapter/58-scene source package, 10,241 spoken words, editable assets and offline cases. Complete film production is active under the existing v1.0 standard.

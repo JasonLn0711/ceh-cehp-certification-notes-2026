@@ -138,3 +138,8 @@ The [M08 Sniffing rendered Masterclass and preserved sources](../notes/m08-sniff
 ## M09 English Masterclass connection — October 19
 
 The [M09 Social Engineering film and sources](../notes/m09-social-engineering/video-production-2026-10-19.md) connect official scope and insider-risk coverage to trust verification, human/computer/mobile techniques, social channels, identity/recovery, assessment, response and the cross-cutting human-risk evidence-review capstone. Eight film questions use M09-film-v1. Prepared content and offline synthetic parsing add no original bank answers or accepted learner practical. The [current course-aligned route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) governs actual learning and capacity.
+
+<a id="ceh-m10-masterclass"></a>
+## M10 Denial-of-Service Masterclass
+
+[M10 production record](../notes/m10-denial-of-service/video-production-2026-10-19.md) connects official availability mechanisms, detection, mitigation, escalation and recovery to four offline resource cases. P4 remains the official scope mapping; the existing P3 saved-packet task retains its own M08/M10 evidence connection. Prepared source and film content establish no learner execution.

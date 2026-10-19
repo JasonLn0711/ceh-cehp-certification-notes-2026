@@ -21,3 +21,8 @@ The [initial series standard v1.0](PRODUCTION_STANDARD_v1.0.md) adopts the appro
 ## M09 Social Engineering — October 19
 
 [Canonical M09 delivery](../../notes/m09-social-engineering/video-production-2026-10-19.md) provides the complete 69:26.267 film,11 chapters/58 native animated scenes,9,814 spoken words,aligned captions and source/editable ZIPs. [Actual source QA](../../source/2026-10-19-ceh-m09-video-production/validation/README.md) and [render QA](../../source/2026-10-19-ceh-m09-video-production/render-validation/README.md) retain separate evidence. Initial standard v1.0 applies; full human viewing/listening is the next acceptance layer.
+
+<a id="ceh-m10-masterclass"></a>
+## M10 Denial-of-Service — October 19
+
+[Canonical M10 record](../../notes/m10-denial-of-service/video-production-2026-10-19.md) owns the verified source ZIP and ongoing complete-film production. The unchanged initial v1.0 standard preserves M04 v3, Tally/Northstar, 1.5× narration only and eight 1.000-second holds.

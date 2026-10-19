@@ -137,3 +137,8 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 ## October 19 M09 Social Engineering production
 
 [Exact request and source](2026-10-19-ceh-m09-video-production/README.md) → [canonical delivery](../notes/m09-social-engineering/video-production-2026-10-19.md) → [source QA](2026-10-19-ceh-m09-video-production/validation/README.md) / [actual film QA](2026-10-19-ceh-m09-video-production/render-validation/README.md). Source bytes, full production and human acceptance retain distinct evidence.
+
+<a id="ceh-m10-masterclass"></a>
+## M10 English Masterclass source
+
+[Source record](2026-10-19-ceh-m10-video-production/README.md) preserves the authored lesson, evidence, recovery code and actual source checks. [Production status](../notes/m10-denial-of-service/video-production-2026-10-19.md) distinguishes source, runtime, render and human acceptance.
