@@ -5,6 +5,9 @@ from .common import Project, read, sha, write
 
 
 def validate_profile(data):
+    if data.get('schema_version') == 2:
+        from .mandarin import validate_profile as validate_mandarin
+        return validate_mandarin(data)
     assert data['schema_version']==1, 'Unsupported production profile'
     assert data['voice']=={'name':'af_heart','language':'en-us','baseline_speed':0.73,'atempo':1.5,'speed_applications':1}, 'Approved voice contract changed'
     assert data['output']=={'width':1920,'height':1080,'fps':30,'sample_rate':48000,'channels':2,'video_rate':1.0,'bgm':False}, 'Approved output contract changed'
@@ -13,6 +16,9 @@ def validate_profile(data):
 
 
 def preflight(p, diagrams=True):
+    if p.profile.get('schema_version') == 2:
+        from .mandarin import preflight as mandarin_preflight
+        return mandarin_preflight(p, diagrams)
     validate_profile(p.profile); expected=p.profile['expected']; errors=[]
     def check(ok, why):
         if not ok: errors.append(why)

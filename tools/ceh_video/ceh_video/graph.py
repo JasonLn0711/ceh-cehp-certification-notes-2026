@@ -14,6 +14,9 @@ class Node:
 
 
 def nodes(p):
+    if p.profile.get('schema_version') == 2:
+        from .mandarin_graph import nodes as mandarin_nodes
+        return mandarin_nodes(p)
     root=p.root; runtime=Path(__file__).parent/'runtime'; result={}
     def add(name,deps,inputs,outputs,action,implementation):
         impl={f:sha(runtime/f) for f in implementation}

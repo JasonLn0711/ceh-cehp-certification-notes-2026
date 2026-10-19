@@ -52,6 +52,9 @@ def require_encoded(project):
     return row
 
 def audio_queue(project):
+    if project.profile.get('schema_version') == 2:
+        from .mandarin_delivery import audio_review
+        return {k:v for k,v in audio_review(project,lambda row:None).items() if k!='items'}
     diagnostics = read(project.qa/'audio-review-diagnostics.json'); flags = {}
     for item in diagnostics['alignment_flags']: flags.setdefault(item['file'], []).append(item)
     policy = read(project.root/'pronunciation.json'); terms = set(policy['spell']) | set(policy['pronunciations'])

@@ -1,2 +1,2 @@
-"""Versioned local CEH production engine."""
-__version__ = '0.1.0'
+"""Versioned editorial teaching-video production engine."""
+__version__ = '0.2.0'

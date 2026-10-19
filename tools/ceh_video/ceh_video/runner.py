@@ -106,6 +106,9 @@ def seed_audio(p):
 
 
 def action(p,node,emit,force=False):
+    if p.profile.get('schema_version') == 2:
+        from .mandarin import action as mandarin_action
+        return mandarin_action(p,node,emit,force)
     name=node.name
     if name.startswith('speech:'):
         from .speech import synthesize
@@ -174,7 +177,8 @@ def run(p,target,forced,emit):
     began=time.monotonic();p.state.mkdir(exist_ok=True);completed=[];reused=[]
     with lock(p.state/'run.lock'):
         STOP_REQUESTED.clear()
-        preflight(p);seed_audio(p)
+        preflight(p)
+        if p.profile.get('schema_version') == 1:seed_audio(p)
         rows=planning(p,target);force_set=set(forced)
         unknown=force_set-set(nodes(p))
         if unknown:raise ValueError('Unknown forced nodes '+str(unknown))
