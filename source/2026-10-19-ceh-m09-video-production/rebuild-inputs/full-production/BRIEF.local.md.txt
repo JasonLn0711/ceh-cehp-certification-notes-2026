@@ -1,0 +1,27 @@
+---
+workflow: general-video
+flow: automation
+storyboard: no
+message: "Verify the requested action through the right source and keep conclusions tied to evidence."
+audience: "Jason and CEH learners; complete English masterclass"
+language: en-US
+aspect: 1920x1080
+length: "Measured speech, explanatory motion and reading needs; no ceiling"
+---
+# M09 full-production activation
+
+Jason selected source package plus complete film and approved the full implementation plan on 2026-10-19. Produce all 58 genuinely animated scenes, 11 chapters, complete canonical narration, aligned captions, chapter MP4s, master MP4 and both source/editable ZIPs. No short pilot or renewed rendering permission is required. Full production is already authorized; internal reviews do not create a user approval checkpoint.
+
+## Assets
+
+- Original M04 v3 Tally artwork, campus map, style tokens, local fonts and inherited locked hashes, adopted through the M08 source package.
+- New M09 Social Engineering content and synthetic no-send Northstar cases. No live messages, real participants, credential collection or external targets.
+
+## Customizations
+
+- Kokoro af_heart/en-us baseline 0.73; exactly one atempo=1.5 on spoken clips. No whole-video speedup, no recalibration and no BGM.
+- Eight exact 48,000-frame stereo zero-PCM holds at 48kHz after full question/choices and before the answer. Caption windows exclude them.
+
+## Notes
+
+Preserve source-ready, actual runtime, rendered media, human acceptance and public release as separate layers. Preserve M05–M08 files and active previews. Local adoption requires no authenticated provider or upload. The approved design and local voice take precedence over generic workflow styling/provider defaults.

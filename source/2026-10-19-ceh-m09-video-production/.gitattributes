@@ -1,2 +1,3 @@
 lab_mock/*.csv -text whitespace=cr-at-eol
 lab_mock/*.eml -text whitespace=cr-at-eol
+rebuild-inputs/full-production/*.local.md.txt -text whitespace=-blank-at-eof

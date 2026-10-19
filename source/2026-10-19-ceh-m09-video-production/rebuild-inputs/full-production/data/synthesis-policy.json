@@ -1,0 +1,7 @@
+{
+  "module": "M09",
+  "canonical_content": "Complete immutable 9814-word source; no dropped stems, choices or explanations",
+  "interventions": "SPELL and PRON in scripts/synthesize.py; pronunciation only, original caption/canonical spelling retained",
+  "voice": "af_heart", "baseline_speed": 0.73, "spoken_atempo_applications": 1,
+  "spoken_atempo": 1.5, "video_rate": 1.0, "music": "off"
+}

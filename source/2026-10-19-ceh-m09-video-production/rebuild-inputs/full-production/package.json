@@ -1,0 +1,15 @@
+{
+  "name": "ceh-m09-production",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.173 preview",
+    "check": "npx --yes hyperframes@0.8.173 check",
+    "render": "npx --yes hyperframes@0.8.173 render",
+    "publish": "npx --yes hyperframes@0.8.173 publish"
+  },
+  "devDependencies": {
+    "hyperframes": "0.8.173",
+    "puppeteer-core": "25.14.0"
+  }
+}
