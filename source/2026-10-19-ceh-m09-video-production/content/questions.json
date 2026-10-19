@@ -1,0 +1,224 @@
+{
+  "language": "en-US",
+  "namespace": "M09-film-v1",
+  "question_count": 8,
+  "silent_think_seconds_each": 1,
+  "questions": [
+    {
+      "id": "Q01",
+      "scene_id": "S54",
+      "level": "Foundation",
+      "prompt": "A caller uses a believable work story to obtain an unauthorized account change. Which concept best describes the mechanism?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "A cryptographic hash collision"
+        },
+        {
+          "letter": "B",
+          "text": "A confirmed software exploit"
+        },
+        {
+          "letter": "C",
+          "text": "A packet-capture configuration"
+        },
+        {
+          "letter": "D",
+          "text": "Social engineering across a trust and approval boundary"
+        }
+      ],
+      "correct_letter": "D",
+      "silent_think_seconds": 1,
+      "explanation": "The story influences a human decision that changes a protected account state. That is the social engineering mechanism described by the question. The evidence does not mention a hash collision, an exploited software weakness, or packet collection. Start with the requested action, claimed identity, authority, and verification path. The account change in this question is stipulated as unauthorized; in an actual case, its execution and approval status would need separate records. A convincing story is not a substitute for the defined recovery process. The best next control is one that verifies the requester and their authority through the appropriate independent process while preserving a workable route for legitimate users. Naming the technique helps organize the case, but it does not replace that mechanism and evidence analysis."
+    },
+    {
+      "id": "Q02",
+      "scene_id": "S54",
+      "level": "Foundation",
+      "prompt": "A deceptive email is tailored to one finance employee's current supplier project. Which term most specifically describes the targeting?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "Whaling, because every finance employee is a senior executive"
+        },
+        {
+          "letter": "B",
+          "text": "Spear phishing"
+        },
+        {
+          "letter": "C",
+          "text": "Smishing"
+        },
+        {
+          "letter": "D",
+          "text": "Tailgating"
+        }
+      ],
+      "correct_letter": "B",
+      "silent_think_seconds": 1,
+      "explanation": "Spear phishing describes a deceptive approach tailored to a particular person or group. The project-specific email fits that targeting dimension. Whaling normally concerns a high-value or senior target; the employee's finance role alone does not establish that category. Smishing uses text messaging, and tailgating concerns a physical access boundary. A supplier-themed email could also be part of a BEC pattern if it seeks a harmful business action. Those labels can overlap because targeting and business-fraud purpose are different dimensions. The question asks specifically about targeting. For the practical decision, inspect the requested action and use the appropriate supplier-verification process. Project knowledge can make the approach plausible, but it does not establish that the sender has authority or that a payment change is legitimate."
+    },
+    {
+      "id": "Q03",
+      "scene_id": "S55",
+      "level": "Application",
+      "prompt": "A payment-change email supplies a new number for verification. Which action best creates an independent check?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "Use the approved supplier contact record and required approval process"
+        },
+        {
+          "letter": "B",
+          "text": "Call only the number supplied in the email"
+        },
+        {
+          "letter": "C",
+          "text": "Reply and ask the sender to repeat the instruction"
+        },
+        {
+          "letter": "D",
+          "text": "Approve because the display name looks familiar"
+        }
+      ],
+      "correct_letter": "A",
+      "silent_think_seconds": 1,
+      "explanation": "The approved supplier record provides a verification source outside the request itself. Follow the organization's defined approval procedure and record the result. The new number and reply path may both be controlled by the same source as the email, so using them does not create independent confirmation. A familiar display name is only an appearance. Independence depends on the trusted source and process, not simply on using another channel. If there is reason to suspect the established contact path is compromised, escalate through the appropriate owner rather than repeatedly accepting the same evidence. This check can support an authorization decision for the requested change. It does not, by itself, prove whether a previous payment occurred or identify who controlled the suspicious communication. Those conclusions require their own records."
+    },
+    {
+      "id": "Q04",
+      "scene_id": "S55",
+      "level": "Application",
+      "prompt": "A trusted mail receiver reports a DMARC pass on a message requesting changed bank details. What should finance conclude?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "The payment change is automatically authorized"
+        },
+        {
+          "letter": "B",
+          "text": "The sender's human identity and intent are fully proven"
+        },
+        {
+          "letter": "C",
+          "text": "The mail result does not replace independent business verification"
+        },
+        {
+          "letter": "D",
+          "text": "The authentication pass proves the sender is malicious"
+        }
+      ],
+      "correct_letter": "C",
+      "silent_think_seconds": 1,
+      "explanation": "A DMARC pass concerns aligned mail-authentication results in the receiver's evaluation context. It does not authorize a business transaction or prove a person's intent. A legitimate mailbox could be compromised, or a genuine sender could make a request that still requires additional approval. Conversely, a pass does not prove malicious activity. Finance should verify the requested change through the established supplier and approval process. Preserve the trusted receiver context when interpreting authentication results; arbitrary header text is not an independent measurement. In our synthetic fixture, the parser reads stipulated results rather than performing live authentication checks. Keep those layers distinct: the encoded field, the receiver's actual evaluation when available, the business authorization, and the transaction outcome. Each supports a different claim and requires appropriate evidence."
+    },
+    {
+      "id": "Q05",
+      "scene_id": "S56",
+      "level": "Application",
+      "prompt": "A ticket records an urgent authenticator-reset request as pending verification. No reset or session event is supplied. Which conclusion is supported?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "An attacker completed an account takeover"
+        },
+        {
+          "letter": "B",
+          "text": "MFA was definitely bypassed"
+        },
+        {
+          "letter": "C",
+          "text": "The caller's identity and authority were verified"
+        },
+        {
+          "letter": "D",
+          "text": "A recovery request exists; completion and account use remain unmeasured"
+        }
+      ],
+      "correct_letter": "D",
+      "silent_think_seconds": 1,
+      "explanation": "The ticket supports the existence and recorded state of the request. It does not establish a reset, enrollment, successful authentication, or subsequent session. Those outcomes need identity-service and related records. The word urgent describes the request's presentation, not its legitimacy. The caller may be genuine or an impostor; follow the recovery policy to resolve that question. A useful next check names the owner and evidence for the actual account state, approved verification, authenticator changes, and relevant notifications. If a repeated-prompt report is also present, inspect its separate authentication evidence rather than merging it into a completed takeover claim. This approach supports timely protection while keeping the incident extent accurate. It also avoids marking a proposed verification step as if it had already been executed successfully."
+    },
+    {
+      "id": "Q06",
+      "scene_id": "S56",
+      "level": "Application",
+      "prompt": "A staff account performs an unusual export. Which investigation statement preserves the correct evidence boundary?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "Review the action, policy and attribution before assigning intent to a person"
+        },
+        {
+          "letter": "B",
+          "text": "The account name proves the employee acted maliciously"
+        },
+        {
+          "letter": "C",
+          "text": "Legitimate access makes every export authorized"
+        },
+        {
+          "letter": "D",
+          "text": "An alert establishes confirmed data theft"
+        }
+      ],
+      "correct_letter": "A",
+      "silent_think_seconds": 1,
+      "explanation": "The observed account activity is a starting point for an authorized investigation. Compare it with the applicable policy, business context, data, permissions, and available attribution evidence. The account could have been used legitimately, mistakenly, under coercion, or after compromise. Its name alone does not prove the person's intent. Legitimate access also does not grant unlimited permission for every action. An alert is not a complete finding of theft. Preserve relevant evidence through the established security and privacy process and name the next question that distinguishes the plausible explanations. Controls such as least privilege, separation of duties, and reviewable approvals may reduce risk, but their actual implementation and effectiveness require target-system evidence. The lesson's synthetic records support reasoning practice, not an accusation against a real employee."
+    },
+    {
+      "id": "Q07",
+      "scene_id": "S57",
+      "level": "Analysis",
+      "prompt": "Two awareness scenarios report different click rates, but delivery coverage, automated link activity and message difficulty differ. What is the strongest analysis?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "The lower click rate alone proves better employee security"
+        },
+        {
+          "letter": "B",
+          "text": "Count every link event as a confirmed human decision"
+        },
+        {
+          "letter": "C",
+          "text": "Define comparable events, denominators and context before interpreting the rates"
+        },
+        {
+          "letter": "D",
+          "text": "Use message difficulty as a universal score of each person's ability"
+        }
+      ],
+      "correct_letter": "C",
+      "silent_think_seconds": 1,
+      "explanation": "The rates may describe different exposures and event definitions. Establish the eligible and delivered populations where known, the observation window, the meaning of a click, and the treatment of automated activity. Then account for relevant scenario difficulty and recipient context. The NIST Phish Scale can help describe an email's detection difficulty; it does not create a universal individual-ability score. A lower observed rate alone cannot establish the cause of a difference or prove better overall security. Reporting and the ability to find the correct verification route can answer other useful questions. State which operational decision the assessment supports, preserve the measurement rules, and avoid a blame ranking. A constructed worksheet calculation demonstrates that calculation only; real population claims need appropriately designed and executed evidence."
+    },
+    {
+      "id": "Q08",
+      "scene_id": "S57",
+      "level": "Analysis",
+      "prompt": "An AI-sounding executive request passes mail checks, and two reviewers repeat its supplied callback. Which improvement addresses the remaining trust gap?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "Assume strong sign-in authentication authorizes the business change"
+        },
+        {
+          "letter": "B",
+          "text": "Verify through an independently established owner and approval route, then record the result"
+        },
+        {
+          "letter": "C",
+          "text": "Treat an AI detector's confidence as final authorization"
+        },
+        {
+          "letter": "D",
+          "text": "Count the repeated callback as two independent confirmations"
+        }
+      ],
+      "correct_letter": "B",
+      "silent_think_seconds": 1,
+      "explanation": "The remaining gap is the authority for the requested business action and the independence of its verification. Two reviewers can share one unverified source, so counting approvals does not repair that gap. Mail authentication and strong account authentication protect specific technical boundaries; neither automatically grants business permission. An AI detector can provide a limited review lead, not final authorization or proof of who made the request. Use the independently maintained contact and the defined owner or approval process, then retain the actual verification and action records. The request's AI-like appearance is not enough to establish that it was generated by AI. Preserve that uncertainty while protecting the resource. A complete report separates the claim, verification result, approved action, and observed outcome instead of treating credibility as evidence of all four."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "label": "SIMULATED OUTPUT",
+  "inherited_map": "network_map.json unchanged",
+  "people_roles": {
+    "June": "Finance verification coordinator",
+    "Eli": "Help-desk coordinator",
+    "Mara": "Office visitor coordinator"
+  },
+  "workflows": [
+    "supplier change",
+    "account recovery",
+    "learning announcement",
+    "physical visitor access"
+  ],
+  "contact_namespace": "Reserved .example.test domains and fictional 555-01xx phone strings; no contacts made."
+}

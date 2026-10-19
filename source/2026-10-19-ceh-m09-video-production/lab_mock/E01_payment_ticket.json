@@ -1,0 +1,12 @@
+{
+  "label": "SIMULATED OUTPUT",
+  "case_id": "E01",
+  "ticket_id": "FIN-TRAINING-01",
+  "requested_destination": "TRAINING-ACCOUNT-02",
+  "provided_contact": "+1 202 555 0177",
+  "change_status": "held_pending_independent_verification",
+  "transaction_record_supplied": false,
+  "receiver_results": "stipulated synthetic strings; no SPF/DKIM/DMARC execution",
+  "account_compromise": "unknown",
+  "supplier_authorization": "unconfirmed"
+}

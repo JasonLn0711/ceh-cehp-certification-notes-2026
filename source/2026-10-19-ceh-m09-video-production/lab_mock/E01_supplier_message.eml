@@ -1,0 +1,20 @@
+From: Cedar Teaching Supplies <supplier@cedar.example.test>
+To: Northstar Finance <finance@northstar.example.test>
+Reply-To: supplier@cedar.example.test
+Subject: [SIMULATED OUTPUT] Supplier change request for review
+Date: Mon, 12 Oct 2026 09:00:00 +0800
+Message-ID: <e01-training-only@cedar.example.test>
+X-Training-Label: SIMULATED OUTPUT
+Authentication-Results: mail.northstar.example.test; spf=pass
+ smtp.mailfrom=cedar.example.test; dkim=pass header.d=cedar.example.test;
+ dmarc=pass header.from=cedar.example.test
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+SIMULATED OUTPUT =E2=80=94 inert classroom artifact.
+
+Please review a proposed supplier destination change to TRAINING-ACCOUNT-02. =
+The request says a lesson deadline is approaching and supplies +1 202 555 017=
+7 for confirmation. This is not an actual payment instruction. Use the approv=
+ed supplier and finance process before any sensitive action.

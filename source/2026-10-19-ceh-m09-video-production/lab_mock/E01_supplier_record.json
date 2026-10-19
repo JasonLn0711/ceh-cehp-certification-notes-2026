@@ -1,0 +1,10 @@
+{
+  "label": "SIMULATED OUTPUT",
+  "case_id": "E01",
+  "supplier_id": "CEDAR-TRAINING",
+  "expected_mailbox": "supplier@cedar.example.test",
+  "approved_contact": "+1 202 555 0144",
+  "approved_destination": "TRAINING-ACCOUNT-01",
+  "owner_role": "Finance verification owner",
+  "record_status": "stipulated approved training record"
+}

@@ -1,0 +1,2855 @@
+{
+  "status": "source_checks_passed",
+  "scope": "Complete source package and four actual examples, not final film",
+  "passed": 565,
+  "failed": 0,
+  "spoken_words": 9814,
+  "chapters": 11,
+  "scenes": 58,
+  "questions": 8,
+  "locked_assets": 44,
+  "editable_deck": {
+    "slides": 18,
+    "native_shapes": 223,
+    "text_runs": 159
+  },
+  "third_party_link_exclusions": [
+    {
+      "file": "licenses/kokoro-model-card.md",
+      "target": "/k\u02c8Ok\u0259\u0279O/",
+      "scope": "Upstream-root phonetic link in preserved model card; not an owned local-file reference"
+    },
+    {
+      "file": "licenses/kokoro-model-card.md",
+      "target": "/k\u02c8Ok\u0259\u0279O/",
+      "scope": "Upstream-root phonetic link in preserved model card; not an owned local-file reference"
+    }
+  ],
+  "checks": [
+    {
+      "name": "module identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source layer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "11 chapters and58scenes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scene IDs and coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "chapter flattening",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "eight new questions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graded questions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S01 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S01 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S01 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S01 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S01 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S02 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S02 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S02 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S02 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S02 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S03 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S03 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S03 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S03 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S03 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S04 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S04 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S04 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S04 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S04 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S05 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S05 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S05 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S05 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S05 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S06 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S06 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S06 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S06 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S06 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S07 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S07 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S07 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S07 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S07 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S08 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S08 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S08 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S08 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S08 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S09 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S09 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S09 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S09 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S09 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S10 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S10 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S10 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S10 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S10 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S11 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S11 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S11 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S11 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S11 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S12 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S12 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S12 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S12 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S12 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S13 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S13 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S13 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S13 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S13 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S14 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S14 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S14 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S14 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S14 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S15 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S15 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S15 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S15 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S15 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S16 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S16 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S16 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S16 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S16 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S17 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S17 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S17 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S17 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S17 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S18 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S18 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S18 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S18 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S18 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S19 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S19 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S19 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S19 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S19 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S20 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S20 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S20 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S20 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S20 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S21 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S21 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S21 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S21 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S21 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S22 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S22 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S22 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S22 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S22 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S23 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S23 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S23 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S23 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S23 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S24 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S24 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S24 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S24 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S24 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S25 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S25 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S25 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S25 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S25 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S26 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S26 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S26 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S26 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S26 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S27 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S27 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S27 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S27 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S27 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S28 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S28 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S28 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S28 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S28 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S29 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S29 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S29 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S29 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S29 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S30 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S30 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S30 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S30 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S30 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S31 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S31 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S31 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S31 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S31 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S32 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S32 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S32 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S32 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S32 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S33 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S33 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S33 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S33 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S33 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S34 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S34 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S34 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S34 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S34 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S35 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S35 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S35 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S35 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S35 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S36 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S36 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S36 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S36 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S36 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S37 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S37 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S37 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S37 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S37 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S38 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S38 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S38 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S38 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S38 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S39 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S39 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S39 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S39 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S39 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S40 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S40 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S40 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S40 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S40 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S41 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S41 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S41 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S41 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S41 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S42 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S42 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S42 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S42 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S42 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S43 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S43 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S43 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S43 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S43 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S44 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S44 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S44 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S44 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S44 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S45 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S45 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S45 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S45 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S45 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S46 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S46 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S46 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S46 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S46 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S47 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S47 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S47 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S47 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S47 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S48 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S48 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S48 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S48 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S48 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S49 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S49 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S49 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S49 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S49 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S50 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S50 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S50 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S50 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S50 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S51 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S51 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S51 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S51 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S51 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S52 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S52 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S52 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S52 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S52 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S53 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S53 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S53 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S53 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S53 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S54 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S54 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S54 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q01 full choices before hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q01 reference hold contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q01 answer follows hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q02 full choices before hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q02 reference hold contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q02 answer follows hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S54 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S54 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S55 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S55 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S55 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q03 full choices before hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q03 reference hold contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q03 answer follows hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q04 full choices before hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q04 reference hold contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q04 answer follows hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S55 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S55 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S56 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S56 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S56 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q05 full choices before hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q05 reference hold contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q05 answer follows hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q06 full choices before hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q06 reference hold contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q06 answer follows hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S56 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S56 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S57 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S57 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S57 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q07 full choices before hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q07 reference hold contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q07 answer follows hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q08 full choices before hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q08 reference hold contract",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q08 answer follows hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S57 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S57 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S58 canonical segment coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S58 actual canonical word count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S58 original teaching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S58 valid editable SVG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "S58 storyboard and visual mapping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q01 complete choices/key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q02 complete choices/key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q03 complete choices/key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q04 complete choices/key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q05 complete choices/key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q06 complete choices/key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q07 complete choices/key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q08 complete choices/key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual spoken words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "eight ordered holds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all script text included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source estimate labeled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:STYLE_TOKENS.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:network_map.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:reference/HYPERFRAMES_REFERENCE_STYLE_BOARD.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:reference/HYPERFRAMES_VISUAL_STYLE_ADDENDUM.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/CHARACTER_REFERENCE_SHEET.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/CHARACTER_REFERENCE_SHEET.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/body.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/face_celebrate.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/face_concerned.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/face_neutral.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/face_point.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/face_surprised.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/face_think.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/face_wave.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/left_arm_celebrate.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/left_arm_concerned.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/left_arm_neutral.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/left_arm_point.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/left_arm_surprised.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/left_arm_think.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/left_arm_wave.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/legs.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/right_arm_celebrate.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/right_arm_concerned.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/right_arm_neutral.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/right_arm_point.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/right_arm_surprised.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/right_arm_think.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/parts/right_arm_wave.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/rig_anchors.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_celebrate.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_celebrate.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_concerned.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_concerned.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_neutral.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_neutral.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_point.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_point.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_surprised.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_surprised.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_think.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_think.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_wave.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "locked:assets/mascot/tally_wave.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual reference zero WAV",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide1.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide10.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide11.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide12.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide13.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide14.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide15.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide16.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide17.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide18.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide2.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide3.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide4.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide5.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide6.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide7.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide8.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ppt/slides/slide9.xml editable native objects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "18 editable slides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual PDF export",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "18 actual slide raster images",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual source browser checks",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "58 actual board captures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "trust-verification actual framework runtime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "message-evidence actual framework runtime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent-callback actual framework runtime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quiz-one-second actual framework runtime",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual offline evidence parser",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "primary retrievals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "current DMARC reference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:PRODUCTION_STANDARD_v1.0.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:AGENT_PROMPT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:COURSE_STRUCTURE.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:STORYBOARD.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:previews/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:slides/CEH_M09_Editable_Visual_Lookbook_18slides.pptx",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:examples/index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:COVERAGE_MATRIX.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:CONCEPT_CONNECTIONS.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:SOURCES.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:case/EVIDENCE_CARDS.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:lab_mock/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:ASSESSMENT_STUDENT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:ASSESSMENT_INSTRUCTOR.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:tooling/README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:QA_CHECKLIST.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:VOICE_AND_AUDIO.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:production/CAPTION_CONTRACT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:RENDER_PLAN.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:README.md:LICENSES_AND_PROVENANCE.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S01.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S02.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S03.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S04.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S05.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S06.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S07.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S08.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S09.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S10.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S11.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S12.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S13.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S14.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S15.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S16.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S17.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S18.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S19.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S20.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S21.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S22.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S23.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S24.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S25.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S26.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S27.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S28.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S29.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S30.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S31.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S32.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S33.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S34.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S35.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S36.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S37.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S38.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S39.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S40.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S41.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S42.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S43.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S44.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S45.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S46.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S47.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S48.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S49.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S50.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S51.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S52.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S53.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S54.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S55.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S56.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S57.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:boards/S58.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:STORYBOARD.md:SCRIPT_en-US.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:START_HERE_zh-TW.md:README.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:START_HERE_zh-TW.md:PRODUCTION_STANDARD_v1.0.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:START_HERE_zh-TW.md:AGENT_PROMPT.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../validation/evidence_qa.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E01_supplier_message.eml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E01_supplier_record.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E01_payment_ticket.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E02_call_transcript.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E02_directory_record.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E02_recovery_ticket.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E03_notice.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E03_qr_code.svg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E03_qr_payload.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E03_portal_context.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E04_appointments.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E04_door_events.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:case/EVIDENCE_CARDS.md:../lab_mock/E04_witness_report.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "link:lab_mock/README.md:../case/EVIDENCE_CARDS.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "concrete visual review exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "concrete visual pass",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "scope": "Exact source-stage and authored recovery copies; source release remains immutable under local Videos inputs.",
+  "files": [
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/AGENT_PROMPT.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/AGENT_PROMPT.md",
+      "sha256": "7ea42e934d6c5eb8afe64f32fac6587b1cdbfb9169ed41cd9eafcf71a1682325"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/CONCEPT_CONNECTIONS.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/CONCEPT_CONNECTIONS.md",
+      "sha256": "a6163feb3b1159e97e28deca94c1667154e873b94947968a14402d947dff90cc"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/COVERAGE_MATRIX.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/COVERAGE_MATRIX.md",
+      "sha256": "0c93e1ada50d292800b0f4e32182684da5c72143b367ba9dd9e5d827fb056974"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/SCRIPT_en-US.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/SCRIPT_en-US.md",
+      "sha256": "cde31a8379524812eb3e0da8d72708ceefdba03d4d60f7ae7feef82e46e5e493"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/SOURCES.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/SOURCES.md",
+      "sha256": "c880350c9ec7a00844fcd8ab45e86f954d99137cf41d97debaef99e9a1da50c8"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/ASSESSMENT_INSTRUCTOR.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/ASSESSMENT_INSTRUCTOR.md",
+      "sha256": "85d12f83e707626d90da1f3666ab3da94b0cf6020e72aa83734a9146197fa8f1"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/ASSESSMENT_STUDENT.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/ASSESSMENT_STUDENT.md",
+      "sha256": "7362bd3e1e9e43abd05555da85bef7015e099f99d9ba9ec4b190711fe31b6c10"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/VOICE_AND_AUDIO.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/VOICE_AND_AUDIO.md",
+      "sha256": "12cdb6d2754e0f0570384ccc205b9d0a611cee4424736ec03e3670f579f574e1"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/chapters.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/chapters.json",
+      "sha256": "758ed93b81c34e347293b4fa5e73e6eb744ca157c3c7c9c234fd277ea306c107"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/coverage.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/coverage.json",
+      "sha256": "1515095e1946025fc621b343b0e2887184bd4cdc66cac872c13aa4aebed095d7"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/m09_workflow_extensions.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/m09_workflow_extensions.json",
+      "sha256": "444a1ddc9b754b93392606adefe46932473c46dd1b5e09e587dacb688089f7d3"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/questions.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/questions.json",
+      "sha256": "a6e6b646832134b0a5cc54cd23e0bfa959d006b3c54c00f68da1cba7a84ab1bd"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/scenes.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/scenes.json",
+      "sha256": "7c4d090aede945a11dfc689e6448ac3f106a3180cc9786813e506ba97f7863fc"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/visual_scenes.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/visual_scenes.json",
+      "sha256": "7e1505e88c00281cceb9bcb7a2aceb89397b38664b2382d0aa47880a6edda962"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/LOCKED_SOURCE_SHA256.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/content/LOCKED_SOURCE_SHA256.json",
+      "sha256": "30b580aeb138f9621ef482b02bb04deba84001f2fecd744f2e1e09212b9716c5"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/README.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/README.package.md.txt",
+      "sha256": "ea5682717961a375c05117d066b2cbe05c87d17bf4fa594ce585176b5df623b6"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/authored_chapters.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/authored_chapters.json",
+      "sha256": "6340d5096a0f5459766f518b410c66afe1c32c2155a5d6bfbbadfe085eccb820"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/authored_questions.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/authored_questions.json",
+      "sha256": "c765455d627ed097e4471702db37a60fadc1d4c96aa3abe258e335f2f3eaa4e9"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/authored_scenes.txt",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/authored_scenes.txt",
+      "sha256": "89d71318c9f2a9ec1a4959952e0d78fccf0bcc077c5c7670dea7eb0aff6c620d"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/authored_scenes_21_40.txt",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/authored_scenes_21_40.txt",
+      "sha256": "6be6fcbfc870360b806350066a193817e82ad03c6ddc7a21042adb51214213dd"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/authored_scenes_41_58.txt",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/authored_scenes_41_58.txt",
+      "sha256": "b2e10d5b5a00b08fab74a6bf6b707cd72be09519d26cade5066ae4da3eaec5e5"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/browser_qa.cjs",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/browser_qa.cjs",
+      "sha256": "1a8b47cfa530a551595a59f376d797a00c439260bdbd8e0c29c71e9308482658"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/build_companions.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/build_companions.py",
+      "sha256": "09ab898a3baa24a9c0f93fa623c2cb8af05382f2462ad9d519fc74042fc0390c"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/build_evidence.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/build_evidence.py",
+      "sha256": "647c882ab30052e25f7221dede8f9edfc678792f89168f0d567ec098422c1058"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/build_release.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/build_release.py",
+      "sha256": "497f5fe336ca00f1d629e0f42cd968e090326d000d1bf7a17d1f8072562a63cc"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/build_source.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/build_source.py",
+      "sha256": "a52e88a02851d07cea89f7333673faf30bded253170f9013caa13b7f3b8b4dd0"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/compare_png.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/compare_png.py",
+      "sha256": "945c231a2b741a86800b5c3bb55b9e3eddf1dba0acb753d7ecad1bcdc9d7a0f9"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/contact_sheets.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/contact_sheets.py",
+      "sha256": "b8af8d47773094cc3ee4eb242cb7304e5028dc46854c4197bd71790586a80c2b"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/validate_pack.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/validate_pack.py",
+      "sha256": "d2935abaa9867feea3162100b394de212689329ed8f5f70a3e3b92568cf7f4dc"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/verify_evidence.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/verify_evidence.py",
+      "sha256": "c846713693caf97673c5873eb87cecf15de590930c94a461563245a436acad7b"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/write_docs.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/write_docs.py",
+      "sha256": "7bc5c02bdbc377aa63753b748debd2ab04a6deb7027da30bb714aed37e94ca8a"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/write_previews.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/write_previews.py",
+      "sha256": "62d8e93feda64b1df009956a0ebf77af98bbbfd9a788a3b42ac48570941d561c"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/tooling/write_references.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/write_references.py",
+      "sha256": "79db61ed03cc907b2f09aa97859347a578e30bf82d143842f770c28c9b57f03d"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/case/EVIDENCE_CARDS.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/case/EVIDENCE_CARDS.md",
+      "sha256": "8e973a7918b1f9abd02a4c4ddf727fa29268dc2c65d6f5899dbaace64f734ac3"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/case/NORTHSTAR_M09_EVIDENCE.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/case/NORTHSTAR_M09_EVIDENCE.json",
+      "sha256": "f2cc234c82989fa50ea524fad71d3edfd5e7ac643da61f100ae9c57c880e8a2a"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E01_payment_ticket.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E01_payment_ticket.json",
+      "sha256": "a82df07fd098b375682f566799a60a1350b6ab20f0e4252904f23c5b0350e5cf"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E01_supplier_message.eml",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E01_supplier_message.eml",
+      "sha256": "9d156bbc07f57e834a21c075d99a3da67060ede9d424c00752a9f6a6fdca82a0"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E01_supplier_record.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E01_supplier_record.json",
+      "sha256": "2a674ff76e81c8d3260dc9fe7dcb719f4f127e2bd7dcca04ab255c4cd3e681e5"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E02_call_transcript.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E02_call_transcript.md",
+      "sha256": "7ae11536a744a76db43b70e10ee3210af774e54078b6458089dc96671df562c6"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E02_directory_record.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E02_directory_record.json",
+      "sha256": "9861aaf132cb94454f507dfea188d0e8457d3adcc760861348a8985b75b801f6"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E02_recovery_ticket.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E02_recovery_ticket.json",
+      "sha256": "cba32637ceb728dd94484fd8fa6ec4d263df2dd637797ef21d13abf163c53a24"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E03_notice.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E03_notice.md",
+      "sha256": "eb094fdb1d5a64caa3f183e78574827f0380d9568fd6b2347332a23a7b3b3d7c"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E03_portal_context.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E03_portal_context.json",
+      "sha256": "f3e1477394164cf1200259f93f639b6612db83997ef14873e31a8d51d46d597a"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E03_qr_code.svg",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E03_qr_code.svg",
+      "sha256": "2b92f25b05654cba5f4ad1dc0582769db6279b67a976d6e444760024da780036"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E03_qr_payload.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E03_qr_payload.json",
+      "sha256": "fb3f8c343a3da7e5af061327be801dbaf1a9f219f9f59698194b2629e223d09f"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E04_appointments.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E04_appointments.json",
+      "sha256": "a808458f46c31326411188db2703bd45381c3f9495b023fffab0d1f4a8764968"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E04_door_events.csv",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E04_door_events.csv",
+      "sha256": "361f5f7fbf7757b17d9471cb6bc1ce51a1fe6d2beb7fe8bbe8653bd308a4b8b4"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/E04_witness_report.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/E04_witness_report.md",
+      "sha256": "74d96ce2b842008c614e19e22c4878ed71c4621b48984186ae37d834670eceed"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/README.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/README.md",
+      "sha256": "1d0b072dd99f917a6accc381584cbae35ae4ce9a5c299866def899a760ba07f8"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/assessment_metrics.csv",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/assessment_metrics.csv",
+      "sha256": "8f4d048bb0b4f4a488701b31bdce6a7679611bff7c28cd5387bbf872385b4d89"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/lab_mock/fixture_manifest.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/lab_mock/fixture_manifest.json",
+      "sha256": "c6ee13cef0d86d459d5d421cd79a2d1f9688d5ca0ebb34dd72cc7b907d59a1fe"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/validation/board_qa.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/board_qa.json",
+      "sha256": "043c988d32ce94478dee2d8ff966edbd4aab66fc77e4d29d8a74a018d9094178"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/validation/browser_qa.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/browser_qa.json",
+      "sha256": "e264ec9a68c8e5385fa624fdbe67b741d9de869d09f14dd88582b1c76c07572b"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/validation/evidence_qa.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/evidence_qa.json",
+      "sha256": "32ed708e763bae98557aa424d95cd2f9c907e71658d7f2b5a6f0f6a85b613cae"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/validation/hyperframes-independent-callback.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/hyperframes-independent-callback.json",
+      "sha256": "033a2b485af28fa5333593cf79dd5d9eea14784e88956a79619439eafe3928d2"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/validation/hyperframes-message-evidence.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/hyperframes-message-evidence.json",
+      "sha256": "57732d38b90cd1a3ab211b9309e293d8d471cd328671790ad5cdbaa050b70837"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/validation/hyperframes-quiz-one-second.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/hyperframes-quiz-one-second.json",
+      "sha256": "3994caa64c3998ab89b7130a540922efa5bebdcdc06390f90f5126ccf4e635ab"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/validation/hyperframes-trust-verification.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/hyperframes-trust-verification.json",
+      "sha256": "51c1fe5aba315dc24c2a4343adbc6e92e3b51da025abcd3ae3913800d0398fcd"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/validation/reference_retrieval.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/reference_retrieval.json",
+      "sha256": "841b5a2ea4ed604bc8eb3174013aa7b883c09c389603581c948e52a25d9acbc1"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/validation/source_qa.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/source_qa.json",
+      "sha256": "e114e291ee67a9bd8cc67a7773bcf337327889ed055dcdd7c497b91cbda0df42"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/validation/toolchain.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/toolchain.json",
+      "sha256": "cb755a55f822790963b94ad7afc64d0cd6519a0af875205eb55ce5abf5a6056f"
+    },
+    {
+      "origin": "inputs/package/CEH_M09_English_Editorial_Masterclass/validation/visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/visual-review.md",
+      "sha256": "87a248fdd37224c473ce7b634ffa6964ec9b56c1bb23b03bc3a1700538273ffd"
+    },
+    {
+      "origin": "output/release_receipt.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/release_receipt.json",
+      "sha256": "b272ad1d3560e63ee31e0e872e10dc90a9fe61d36299a96a7df9621699a6b2d8"
+    },
+    {
+      "origin": "qa/source-qa-initial.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/source-qa-initial.json",
+      "sha256": "2ce0b95ca77ef54510ba06269c26cfa541f0b330436f532aefc9599e1c3e0b1c"
+    },
+    {
+      "origin": "qa/skills-refresh-receipt.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/validation/skills-refresh-receipt.json",
+      "sha256": "d42f273354122b71528053e681ad9da7c0e1a7874de728e8f993ef418f4cf431"
+    }
+  ]
+}

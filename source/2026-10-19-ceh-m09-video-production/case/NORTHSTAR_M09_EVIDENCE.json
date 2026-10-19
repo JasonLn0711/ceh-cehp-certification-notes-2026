@@ -1,0 +1,53 @@
+{
+  "label": "SIMULATED OUTPUT",
+  "organization": "Northstar Learning Center",
+  "training_events": [
+    {
+      "id": "E01",
+      "sources": [
+        "E01_supplier_message.eml",
+        "E01_supplier_record.json",
+        "E01_payment_ticket.json"
+      ],
+      "observed": "Expected supplier mailbox, stipulated authentication passes, changed training destination and differing supplied/approved contacts.",
+      "unknown": "Sender control, supplier authorization and completed payment remain unmeasured.",
+      "next_check": "Finance verifies through the approved independent contact and required approval/transaction records."
+    },
+    {
+      "id": "E02",
+      "sources": [
+        "E02_call_transcript.md",
+        "E02_directory_record.json",
+        "E02_recovery_ticket.json"
+      ],
+      "observed": "Urgent claimed-employee recovery request; supplied contact differs from directory; ticket pending verification.",
+      "unknown": "Verified identity, reset, enrollment and subsequent account use are not supplied.",
+      "next_check": "Identity-service owner applies the recovery policy and checks actual account-state records."
+    },
+    {
+      "id": "E03",
+      "sources": [
+        "E03_notice.md",
+        "E03_qr_code.svg",
+        "E03_qr_payload.json",
+        "E03_portal_context.json"
+      ],
+      "observed": "Reserved encoded destination differs from the stipulated known learning portal; notice approval unconfirmed.",
+      "unknown": "QR scans, page loads, credential submissions and account use are unmeasured.",
+      "next_check": "Learning owner verifies the announcement through the known campus route."
+    },
+    {
+      "id": "E04",
+      "sources": [
+        "E04_appointments.json",
+        "E04_door_events.csv",
+        "E04_witness_report.md"
+      ],
+      "observed": "One credential event, a door-held interval and an unverified following-person report; claimed visit unconfirmed.",
+      "unknown": "Entrant count, visitor identity, intent and complete approval state are not established.",
+      "next_check": "Authorized physical-security owner reviews appointment, escort and access evidence safely."
+    }
+  ],
+  "scope": "Inert files and no-send analysis only",
+  "actual_measurement": "validation/evidence_qa.json measures bytes, parsing and arithmetic; campus events remain fictional."
+}

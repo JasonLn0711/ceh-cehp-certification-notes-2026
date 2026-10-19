@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-19",
+  "command": "hyperframes skills update general-video",
+  "cli": "0.8.173",
+  "upstream": "https://github.com/heygen-com/hyperframes",
+  "changed": [
+    {
+      "skill": "hyperframes",
+      "agents_skill_sha256": "f9e4e952b6f6352e38d29dfa46849f86c4e1f134a7cd99d8b44bb9da6939e29f",
+      "claude_same_skill_md": true,
+      "metadata_validation": "passed"
+    },
+    {
+      "skill": "hyperframes-animation",
+      "agents_skill_sha256": "dfbbc2dc7907fa11fa3ae5bdb4f4c1fe7970c09f7c6e75248faf449bc67eb735",
+      "claude_same_skill_md": true,
+      "metadata_validation": "passed"
+    },
+    {
+      "skill": "media-use",
+      "agents_skill_sha256": "c10e80df15020ffa0788d086c717d57e0f0fd983de7e8310bf11b38c90e25528",
+      "claude_same_skill_md": true,
+      "metadata_validation": "passed"
+    }
+  ],
+  "general-video": "reported_ready",
+  "owned_skill_changes": false,
+  "scope": "Upstream production dependency refresh; credentials, memory and user-owned skills unchanged."
+}

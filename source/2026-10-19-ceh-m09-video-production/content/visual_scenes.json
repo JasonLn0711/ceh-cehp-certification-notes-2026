@@ -1,0 +1,2619 @@
+{
+  "version": "1.0",
+  "style": "M04 v3 inherited through M06 v1.1",
+  "reference": "reference/HYPERFRAMES_REFERENCE_STYLE_BOARD.jpg",
+  "source_scenes": "scenes.json",
+  "scene_count": 58,
+  "scenes": [
+    {
+      "id": "S01",
+      "chapter_id": "C01",
+      "title": "The Northstar trust mission",
+      "screen_copy_exact": [
+        "Request",
+        "Identity",
+        "Authority",
+        "Evidence"
+      ],
+      "layout": "flow",
+      "focal_claim": "A believable request still needs a verified decision path.",
+      "board": "boards/S01.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A believable request still needs a verified decision path."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S02",
+      "chapter_id": "C01",
+      "title": "Break the trust chain into checks",
+      "screen_copy_exact": [
+        "Who asks?",
+        "Which action?",
+        "Whose authority?",
+        "Which evidence?"
+      ],
+      "layout": "flow",
+      "focal_claim": "Identity, permission and the requested action are separate checks.",
+      "board": "boards/S02.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Identity, permission and the requested action are separate checks."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S03",
+      "chapter_id": "C01",
+      "title": "One campus and four workflows",
+      "screen_copy_exact": [
+        "Finance",
+        "Help desk",
+        "Learning portal",
+        "Office entrance"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Keep the same campus while following different approval paths.",
+      "board": "boards/S03.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Keep the same campus while following different approval paths."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S04",
+      "chapter_id": "C01",
+      "title": "Define an authorized assessment",
+      "screen_copy_exact": [
+        "Written scope",
+        "Participant care",
+        "Stop rules",
+        "Data handling"
+      ],
+      "layout": "checklist",
+      "focal_claim": "A useful assessment has an owner, scope and stopping authority.",
+      "board": "boards/S04.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A useful assessment has an owner, scope and stopping authority."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S05",
+      "chapter_id": "C01",
+      "title": "Separate observation from outcome",
+      "screen_copy_exact": [
+        "Supplied record",
+        "Interpretation",
+        "Unknown state",
+        "Next check"
+      ],
+      "layout": "layers",
+      "focal_claim": "A suspicious request does not establish a completed compromise.",
+      "board": "boards/S05.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A suspicious request does not establish a completed compromise."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S06",
+      "chapter_id": "C02",
+      "title": "Pressure changes the decision",
+      "screen_copy_exact": [
+        "Urgency",
+        "Workload",
+        "Consequences",
+        "Safe pause"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Urgency is a cue to verify the action through the right process.",
+      "board": "boards/S06.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Urgency is a cue to verify the action through the right process."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S07",
+      "chapter_id": "C02",
+      "title": "Authority and social proof",
+      "screen_copy_exact": [
+        "Claimed leader",
+        "Official appearance",
+        "Other people",
+        "Independent proof"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Appearance and popularity do not establish authorization.",
+      "board": "boards/S07.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Appearance and popularity do not establish authorization."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S08",
+      "chapter_id": "C02",
+      "title": "Reciprocity and small commitments",
+      "screen_copy_exact": [
+        "Helpful favor",
+        "Shared interest",
+        "Small agreement",
+        "Larger request"
+      ],
+      "layout": "flow",
+      "focal_claim": "A prior favor does not grant permission for a sensitive action.",
+      "board": "boards/S08.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A prior favor does not grant permission for a sensitive action."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S09",
+      "chapter_id": "C02",
+      "title": "Follow the request lifecycle",
+      "screen_copy_exact": [
+        "Context",
+        "Relationship",
+        "Requested action",
+        "Result evidence"
+      ],
+      "layout": "timeline",
+      "focal_claim": "Analyze the transition from a story to a protected action.",
+      "board": "boards/S09.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Analyze the transition from a story to a protected action."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S10",
+      "chapter_id": "C02",
+      "title": "Design a process people can use",
+      "screen_copy_exact": [
+        "Clear route",
+        "Accessible support",
+        "Workable timing",
+        "Constructive review"
+      ],
+      "layout": "checklist",
+      "focal_claim": "Controls work better when verification fits the real task.",
+      "board": "boards/S10.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Controls work better when verification fits the real task."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S11",
+      "chapter_id": "C03",
+      "title": "Impersonation creates a claim",
+      "screen_copy_exact": [
+        "Borrowed name",
+        "Plausible role",
+        "Sensitive request",
+        "Role verification"
+      ],
+      "layout": "flow",
+      "focal_claim": "A role must be verified before its permissions are used.",
+      "board": "boards/S11.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A role must be verified before its permissions are used."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S12",
+      "chapter_id": "C03",
+      "title": "Elicitation and information boundaries",
+      "screen_copy_exact": [
+        "Ordinary question",
+        "Combined details",
+        "Need to know",
+        "Approved disclosure"
+      ],
+      "layout": "layers",
+      "focal_claim": "Several small disclosures can support a convincing later request.",
+      "board": "boards/S12.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Several small disclosures can support a convincing later request."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S13",
+      "chapter_id": "C03",
+      "title": "Bait and promised benefits",
+      "screen_copy_exact": [
+        "Interesting object",
+        "Offered help",
+        "Requested trade",
+        "Sensitive action"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Judge the required action separately from the promised benefit.",
+      "board": "boards/S13.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Judge the required action separately from the promised benefit."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S14",
+      "chapter_id": "C03",
+      "title": "Tailgating and physical access",
+      "screen_copy_exact": [
+        "Secured door",
+        "Authorized person",
+        "Following visitor",
+        "Access decision"
+      ],
+      "layout": "flow",
+      "focal_claim": "An open door does not establish permission for every entrant.",
+      "board": "boards/S14.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "An open door does not establish permission for every entrant."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S15",
+      "chapter_id": "C03",
+      "title": "Protect visible and discarded data",
+      "screen_copy_exact": [
+        "Screen view",
+        "Printed page",
+        "Shared space",
+        "Secure disposal"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Information exposure depends on what can actually be observed.",
+      "board": "boards/S15.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Information exposure depends on what can actually be observed."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S16",
+      "chapter_id": "C03",
+      "title": "Use human and technical checks together",
+      "screen_copy_exact": [
+        "Reception process",
+        "Role directory",
+        "Approved device",
+        "Reporting route"
+      ],
+      "layout": "layers",
+      "focal_claim": "One control supports a decision; no single cue proves the whole story.",
+      "board": "boards/S16.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "One control supports a decision; no single cue proves the whole story."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S17",
+      "chapter_id": "C04",
+      "title": "Phishing follows an action chain",
+      "screen_copy_exact": [
+        "Message",
+        "Interaction",
+        "Data entry",
+        "Account use"
+      ],
+      "layout": "timeline",
+      "focal_claim": "Delivery, clicking, submission and account use are different outcomes.",
+      "board": "boards/S17.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Delivery, clicking, submission and account use are different outcomes."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S18",
+      "chapter_id": "C04",
+      "title": "Compare targeting and business fraud",
+      "screen_copy_exact": [
+        "Broad phishing",
+        "Spear phishing",
+        "Whaling",
+        "BEC"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Targeting describes the audience; BEC describes a business fraud pattern.",
+      "board": "boards/S18.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Targeting describes the audience; BEC describes a business fraud pattern."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S19",
+      "chapter_id": "C04",
+      "title": "Read the complete message context",
+      "screen_copy_exact": [
+        "Displayed name",
+        "Actual address",
+        "Reply path",
+        "Requested action"
+      ],
+      "layout": "layers",
+      "focal_claim": "A familiar display name is only one field in the evidence.",
+      "board": "boards/S19.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A familiar display name is only one field in the evidence."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S20",
+      "chapter_id": "C04",
+      "title": "Understand mail authentication limits",
+      "screen_copy_exact": [
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "Business authority"
+      ],
+      "layout": "layers",
+      "focal_claim": "Domain authentication does not approve a payment or prove benign intent.",
+      "board": "boards/S20.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Domain authentication does not approve a payment or prove benign intent."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S21",
+      "chapter_id": "C04",
+      "title": "Computer-based requests and tool roles",
+      "screen_copy_exact": [
+        "Unexpected file",
+        "Software request",
+        "Fake warning",
+        "Approved workflow"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Inspect the requested action before opening or installing anything.",
+      "board": "boards/S21.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Inspect the requested action before opening or installing anything."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S22",
+      "chapter_id": "C04",
+      "title": "Work an email decision step by step",
+      "screen_copy_exact": [
+        "Preserve original",
+        "Extract fields",
+        "Verify separately",
+        "Record decision"
+      ],
+      "layout": "flow",
+      "focal_claim": "Preserve the artifact and verify the business action independently.",
+      "board": "boards/S22.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Preserve the artifact and verify the business action independently."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S23",
+      "chapter_id": "C05",
+      "title": "Vishing and the callback boundary",
+      "screen_copy_exact": [
+        "Caller claim",
+        "Displayed number",
+        "Known directory",
+        "Verified callback"
+      ],
+      "layout": "flow",
+      "focal_claim": "A convincing voice and caller ID remain claims to verify.",
+      "board": "boards/S23.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A convincing voice and caller ID remain claims to verify."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S24",
+      "chapter_id": "C05",
+      "title": "Smishing and mobile context",
+      "screen_copy_exact": [
+        "Short message",
+        "Small display",
+        "Unexpected link",
+        "Known application"
+      ],
+      "layout": "comparison",
+      "focal_claim": "A message preview is not enough to verify a sensitive request.",
+      "board": "boards/S24.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A message preview is not enough to verify a sensitive request."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S25",
+      "chapter_id": "C05",
+      "title": "QR codes hide a destination",
+      "screen_copy_exact": [
+        "Encoded text",
+        "Destination context",
+        "Requested action",
+        "Known portal"
+      ],
+      "layout": "layers",
+      "focal_claim": "A QR code encodes data; it does not certify the destination.",
+      "board": "boards/S25.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A QR code encodes data; it does not certify the destination."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S26",
+      "chapter_id": "C05",
+      "title": "Social platforms and borrowed trust",
+      "screen_copy_exact": [
+        "Public profile",
+        "Known account",
+        "Shared contact",
+        "Requested permission"
+      ],
+      "layout": "comparison",
+      "focal_claim": "A familiar account can still carry an unauthorized request.",
+      "board": "boards/S26.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A familiar account can still carry an unauthorized request."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S27",
+      "chapter_id": "C05",
+      "title": "A second channel can share the same source",
+      "screen_copy_exact": [
+        "Email request",
+        "Supplied number",
+        "Follow-up text",
+        "Independent record"
+      ],
+      "layout": "tree",
+      "focal_claim": "Two messages are not independent proof when one source controls both.",
+      "board": "boards/S27.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Two messages are not independent proof when one source controls both."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S28",
+      "chapter_id": "C06",
+      "title": "Identity theft and account control",
+      "screen_copy_exact": [
+        "Personal data",
+        "Identity claim",
+        "Account access",
+        "Business action"
+      ],
+      "layout": "layers",
+      "focal_claim": "Possessing identity details is different from proving the right to act.",
+      "board": "boards/S28.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Possessing identity details is different from proving the right to act."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S29",
+      "chapter_id": "C06",
+      "title": "Insider risk requires careful attribution",
+      "screen_copy_exact": [
+        "Legitimate access",
+        "Policy boundary",
+        "Observed action",
+        "Intent unknown"
+      ],
+      "layout": "comparison",
+      "focal_claim": "A concerning event does not by itself prove malicious intent.",
+      "board": "boards/S29.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A concerning event does not by itself prove malicious intent."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S30",
+      "chapter_id": "C06",
+      "title": "MFA fatigue and approval requests",
+      "screen_copy_exact": [
+        "Unexpected prompt",
+        "Repeated requests",
+        "User report",
+        "Account review"
+      ],
+      "layout": "timeline",
+      "focal_claim": "Repeated prompts need investigation, not an approval to make them stop.",
+      "board": "boards/S30.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Repeated prompts need investigation, not an approval to make them stop."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S31",
+      "chapter_id": "C06",
+      "title": "Account recovery is a security boundary",
+      "screen_copy_exact": [
+        "Recovery request",
+        "Identity proof",
+        "Authorized reset",
+        "Notification"
+      ],
+      "layout": "flow",
+      "focal_claim": "A strong sign-in method depends on a governed recovery path.",
+      "board": "boards/S31.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A strong sign-in method depends on a governed recovery path."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S32",
+      "chapter_id": "C06",
+      "title": "Threat-model the recovery and approval paths",
+      "screen_copy_exact": [
+        "Entry path",
+        "Fallback path",
+        "Owner",
+        "Verification test"
+      ],
+      "layout": "tree",
+      "focal_claim": "Protect the alternate route as well as the normal route.",
+      "board": "boards/S32.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Protect the alternate route as well as the normal route."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S33",
+      "chapter_id": "C07",
+      "title": "Ask one measurable assessment question",
+      "screen_copy_exact": [
+        "Business question",
+        "Allowed population",
+        "Defined outcome",
+        "Protection plan"
+      ],
+      "layout": "flow",
+      "focal_claim": "Design the assessment around a decision the owner can improve.",
+      "board": "boards/S33.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Design the assessment around a decision the owner can improve."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S34",
+      "chapter_id": "C07",
+      "title": "Document governance before tooling",
+      "screen_copy_exact": [
+        "Sponsor",
+        "Scope owner",
+        "Stop contact",
+        "Debrief"
+      ],
+      "layout": "checklist",
+      "focal_claim": "The tool operates inside the approved assessment, not outside it.",
+      "board": "boards/S34.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "The tool operates inside the approved assessment, not outside it."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S35",
+      "chapter_id": "C07",
+      "title": "Know what simulation tools actually do",
+      "screen_copy_exact": [
+        "Template design",
+        "Delivery options",
+        "Interaction records",
+        "Governance"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Tool output supports only the event and environment actually exercised.",
+      "board": "boards/S35.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Tool output supports only the event and environment actually exercised."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S36",
+      "chapter_id": "C07",
+      "title": "Choose fair outcome measures",
+      "screen_copy_exact": [
+        "Eligible population",
+        "Known exposure",
+        "Defined event",
+        "Detection difficulty"
+      ],
+      "layout": "layers",
+      "focal_claim": "A rate needs a defined numerator, denominator and task context.",
+      "board": "boards/S36.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A rate needs a defined numerator, denominator and task context."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S37",
+      "chapter_id": "C07",
+      "title": "Debrief and improve the workflow",
+      "screen_copy_exact": [
+        "Explain the cue",
+        "Recognize reporting",
+        "Repair friction",
+        "Plan recheck"
+      ],
+      "layout": "flow",
+      "focal_claim": "Learning and process repair are more useful than a blame ranking.",
+      "board": "boards/S37.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Learning and process repair are more useful than a blame ranking."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S38",
+      "chapter_id": "C08",
+      "title": "Receive and preserve a report",
+      "screen_copy_exact": [
+        "Original artifact",
+        "Reporter context",
+        "Time reference",
+        "Evidence location"
+      ],
+      "layout": "flow",
+      "focal_claim": "Make reporting easy and preserve the original evidence safely.",
+      "board": "boards/S38.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Make reporting easy and preserve the original evidence safely."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S39",
+      "chapter_id": "C08",
+      "title": "Triage by action and consequence",
+      "screen_copy_exact": [
+        "Requested change",
+        "Known interaction",
+        "Protected resource",
+        "Response owner"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Prioritize the observed risk and route it to the responsible owner.",
+      "board": "boards/S39.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Prioritize the observed risk and route it to the responsible owner."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S40",
+      "chapter_id": "C08",
+      "title": "Correlate records without inventing identity",
+      "screen_copy_exact": [
+        "Mail record",
+        "Ticket record",
+        "Identity event",
+        "Business record"
+      ],
+      "layout": "timeline",
+      "focal_claim": "Correlated events need reliable keys, timing and attribution limits.",
+      "board": "boards/S40.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Correlated events need reliable keys, timing and attribution limits."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S41",
+      "chapter_id": "C08",
+      "title": "Respond at the observed stage",
+      "screen_copy_exact": [
+        "Hold the action",
+        "Notify owner",
+        "Preserve evidence",
+        "Check next state"
+      ],
+      "layout": "flow",
+      "focal_claim": "Protect the resource while verifying the extent of the event.",
+      "board": "boards/S41.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Protect the resource while verifying the extent of the event."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S42",
+      "chapter_id": "C08",
+      "title": "Define recovery and revalidation evidence",
+      "screen_copy_exact": [
+        "Correct state",
+        "Legitimate use",
+        "Unverified request",
+        "Saved result"
+      ],
+      "layout": "checklist",
+      "focal_claim": "A policy statement needs a target-system check before acceptance.",
+      "board": "boards/S42.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A policy statement needs a target-system check before acceptance."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S43",
+      "chapter_id": "C09",
+      "title": "Open the connected evidence ledger",
+      "screen_copy_exact": [
+        "E01 payment",
+        "E02 recovery",
+        "E03 QR notice",
+        "E04 office door"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Use one trust model while respecting each case's evidence limits.",
+      "board": "boards/S43.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Use one trust model while respecting each case's evidence limits."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S44",
+      "chapter_id": "C09",
+      "title": "Case one: a changed payment destination",
+      "screen_copy_exact": [
+        "Authenticated domain",
+        "Changed instruction",
+        "Known contact",
+        "Payment unmeasured"
+      ],
+      "layout": "flow",
+      "focal_claim": "A mail-authentication pass does not authorize a supplier change.",
+      "board": "boards/S44.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A mail-authentication pass does not authorize a supplier change."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S45",
+      "chapter_id": "C09",
+      "title": "Case two: an urgent recovery request",
+      "screen_copy_exact": [
+        "Claimed employee",
+        "Supplied callback",
+        "Trusted directory",
+        "Reset unmeasured"
+      ],
+      "layout": "flow",
+      "focal_claim": "Verify recovery through its policy rather than the caller's story.",
+      "board": "boards/S45.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Verify recovery through its policy rather than the caller's story."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S46",
+      "chapter_id": "C09",
+      "title": "Case three: a QR lesson notice",
+      "screen_copy_exact": [
+        "Familiar campus name",
+        "Encoded test URL",
+        "Known portal",
+        "Interaction unknown"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Compare the requested route with the established learning workflow.",
+      "board": "boards/S46.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Compare the requested route with the established learning workflow."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S47",
+      "chapter_id": "C09",
+      "title": "Case four: a door and a visitor claim",
+      "screen_copy_exact": [
+        "Badge event",
+        "Witness report",
+        "Appointment context",
+        "Entrants unknown"
+      ],
+      "layout": "timeline",
+      "focal_claim": "A door opening and an allegation need separate corroboration.",
+      "board": "boards/S47.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "A door opening and an allegation need separate corroboration."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S48",
+      "chapter_id": "C09",
+      "title": "Compare four mechanisms and next checks",
+      "screen_copy_exact": [
+        "Business approval",
+        "Recovery proof",
+        "Portal ownership",
+        "Physical permission"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Match the control and the evidence to the specific requested action.",
+      "board": "boards/S48.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Match the control and the evidence to the specific requested action."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S49",
+      "chapter_id": "C10",
+      "title": "Layer message and browser defenses",
+      "screen_copy_exact": [
+        "Mail controls",
+        "Browser checks",
+        "Managed software",
+        "Business process"
+      ],
+      "layout": "layers",
+      "focal_claim": "Technical filtering supports verification but does not certify every request.",
+      "board": "boards/S49.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Technical filtering supports verification but does not certify every request."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S50",
+      "chapter_id": "C10",
+      "title": "Strengthen authentication and recovery",
+      "screen_copy_exact": [
+        "Verifier binding",
+        "Secure enrollment",
+        "Governed recovery",
+        "Session review"
+      ],
+      "layout": "tree",
+      "focal_claim": "Protect sign-in and the routes that can replace its authenticators.",
+      "board": "boards/S50.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Protect sign-in and the routes that can replace its authenticators."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S51",
+      "chapter_id": "C10",
+      "title": "Verify a process change from both sides",
+      "screen_copy_exact": [
+        "Known contact",
+        "Separate approver",
+        "Legitimate request",
+        "Unverified request"
+      ],
+      "layout": "flow",
+      "focal_claim": "Test permitted work and the unwanted shortcut before accepting a control.",
+      "board": "boards/S51.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Test permitted work and the unwanted shortcut before accepting a control."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S52",
+      "chapter_id": "C10",
+      "title": "AI can change the appearance of a claim",
+      "screen_copy_exact": [
+        "Generated language",
+        "Synthetic voice",
+        "False context",
+        "Independent verification"
+      ],
+      "layout": "comparison",
+      "focal_claim": "Realism is not an identity proof, and detection can be uncertain.",
+      "board": "boards/S52.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Realism is not an identity proof, and detection can be uncertain."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S53",
+      "chapter_id": "C10",
+      "title": "Use AI to organize evidence carefully",
+      "screen_copy_exact": [
+        "Trusted instructions",
+        "Untrusted artifact",
+        "Linked observations",
+        "Human review"
+      ],
+      "layout": "layers",
+      "focal_claim": "Treat message content as data and verify every consequential conclusion.",
+      "board": "boards/S53.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Treat message content as data and verify every consequential conclusion."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S54",
+      "chapter_id": "C11",
+      "title": "Knowledge check: Foundation",
+      "screen_copy_exact": [
+        "Q01",
+        "Q02",
+        "Pause if needed",
+        "Evidence first"
+      ],
+      "layout": "quiz",
+      "focal_claim": "Read all choices before the one-second silent hold.",
+      "board": "boards/S54.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Read all choices before the one-second silent hold."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S55",
+      "chapter_id": "C11",
+      "title": "Knowledge check: Application",
+      "screen_copy_exact": [
+        "Q03",
+        "Q04",
+        "Pause if needed",
+        "Evidence first"
+      ],
+      "layout": "quiz",
+      "focal_claim": "Read all choices before the one-second silent hold.",
+      "board": "boards/S55.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Read all choices before the one-second silent hold."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S56",
+      "chapter_id": "C11",
+      "title": "Knowledge check: Application",
+      "screen_copy_exact": [
+        "Q05",
+        "Q06",
+        "Pause if needed",
+        "Evidence first"
+      ],
+      "layout": "quiz",
+      "focal_claim": "Read all choices before the one-second silent hold.",
+      "board": "boards/S56.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Read all choices before the one-second silent hold."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S57",
+      "chapter_id": "C11",
+      "title": "Knowledge check: Analysis",
+      "screen_copy_exact": [
+        "Q07",
+        "Q08",
+        "Pause if needed",
+        "Evidence first"
+      ],
+      "layout": "quiz",
+      "focal_claim": "Read all choices before the one-second silent hold.",
+      "board": "boards/S57.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Read all choices before the one-second silent hold."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    },
+    {
+      "id": "S58",
+      "chapter_id": "C11",
+      "title": "Build a defensible trust decision brief",
+      "screen_copy_exact": [
+        "Artifact identities",
+        "Supported states",
+        "Control owners",
+        "Revalidation plan"
+      ],
+      "layout": "flow",
+      "focal_claim": "Deliver a reviewable decision with evidence and a bounded next action.",
+      "board": "boards/S58.svg",
+      "caption_safe_zone": {
+        "x": 135,
+        "y": 900,
+        "width": 1650,
+        "height": 100
+      },
+      "assets": [
+        "assets/mascot/tally_point.svg",
+        "STYLE_TOKENS.json",
+        "network_map.json"
+      ],
+      "animation_beats": [
+        {
+          "phase": "orient",
+          "action": "Establish the named objects and the Northstar anchor."
+        },
+        {
+          "phase": "explain",
+          "action": "Reveal each object and its labeled relationship in narration order."
+        },
+        {
+          "phase": "reason",
+          "action": "Deliver a reviewable decision with evidence and a bounded next action."
+        },
+        {
+          "phase": "hold",
+          "action": "Hold for reading; derive duration from actual voice and audience need."
+        }
+      ],
+      "continuity": "Same Tally artwork, palette, campus device IDs, and source-before-interpretation logic.",
+      "timing_status": "editorial_estimate_only"
+    }
+  ]
+}

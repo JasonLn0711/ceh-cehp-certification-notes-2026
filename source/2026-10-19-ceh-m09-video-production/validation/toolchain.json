@@ -1,0 +1,15 @@
+{
+  "scope": "Actual M09 source build, deck export and four executable examples only",
+  "python": "3.12.3",
+  "node": "v24.22.0",
+  "hyperframes": "0.8.173",
+  "previous_module_runtime": "M08 retains0.8.171; M08 unchanged",
+  "pillow": "13.0.0",
+  "python_pptx": "1.0.2",
+  "qrcode": "8.2 in isolated M09 .tool-deps",
+  "browser": "Existing Chromium headless shell1234",
+  "browser_path": "/home/jnlngx10/.cache/ms-playwright/chromium_headless_shell-1234/chrome-linux/headless_shell",
+  "libreoffice": "LibreOffice 24.2.7.2 420(Build:2)",
+  "font_resolution": "Bundled local Liberation Sans; original Tally; default Inter injection is not authored font",
+  "voice_runtime_executed_at_source_stage": false
+}

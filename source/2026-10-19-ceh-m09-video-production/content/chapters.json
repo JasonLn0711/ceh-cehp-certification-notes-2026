@@ -1,0 +1,181 @@
+[
+  {
+    "id": "C01",
+    "title": "The Northstar trust mission",
+    "learning_goal": "Separate requests, identity claims, authority and evidence.",
+    "scene_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 288.902,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 755
+  },
+  {
+    "id": "C02",
+    "title": "Influence and decision pressure",
+    "learning_goal": "Explain persuasion cues and process-level risk.",
+    "scene_ids": [
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 292.527,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 766
+  },
+  {
+    "id": "C03",
+    "title": "Human-based techniques",
+    "learning_goal": "Recognize pretexting, elicitation, baiting and physical access risks.",
+    "scene_ids": [
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16"
+    ],
+    "scene_count": 6,
+    "editorial_estimate_seconds": 348.33,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 911
+  },
+  {
+    "id": "C04",
+    "title": "Email and computer-based techniques",
+    "learning_goal": "Distinguish phishing forms, BEC and message-authentication limits.",
+    "scene_ids": [
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22"
+    ],
+    "scene_count": 6,
+    "editorial_estimate_seconds": 353.605,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 927
+  },
+  {
+    "id": "C05",
+    "title": "Voice, mobile and social channels",
+    "learning_goal": "Reason about vishing, smishing, QR codes and cross-channel requests.",
+    "scene_ids": [
+      "S23",
+      "S24",
+      "S25",
+      "S26",
+      "S27"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 295.495,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 775
+  },
+  {
+    "id": "C06",
+    "title": "Identity, insiders and account recovery",
+    "learning_goal": "Separate identity theft, insider evidence, authentication and recovery.",
+    "scene_ids": [
+      "S28",
+      "S29",
+      "S30",
+      "S31",
+      "S32"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 290.221,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 759
+  },
+  {
+    "id": "C07",
+    "title": "Governed assessments and tool roles",
+    "learning_goal": "Plan consent-based no-send assessment and interpret fair metrics.",
+    "scene_ids": [
+      "S33",
+      "S34",
+      "S35",
+      "S36",
+      "S37"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 294.506,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 772
+  },
+  {
+    "id": "C08",
+    "title": "Detection, evidence and response",
+    "learning_goal": "Preserve evidence, verify reports and select a bounded response.",
+    "scene_ids": [
+      "S38",
+      "S39",
+      "S40",
+      "S41",
+      "S42"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 294.506,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 772
+  },
+  {
+    "id": "C09",
+    "title": "Four Northstar connected cases",
+    "learning_goal": "Compare payment, recovery, QR and physical-access evidence.",
+    "scene_ids": [
+      "S43",
+      "S44",
+      "S45",
+      "S46",
+      "S47",
+      "S48"
+    ],
+    "scene_count": 6,
+    "editorial_estimate_seconds": 356.572,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 936
+  },
+  {
+    "id": "C10",
+    "title": "Layered defenses, revalidation and AI",
+    "learning_goal": "Verify controls, examine AI impersonation and review assisted analysis.",
+    "scene_ids": [
+      "S49",
+      "S50",
+      "S51",
+      "S52",
+      "S53"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 294.836,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 773
+  },
+  {
+    "id": "C11",
+    "title": "Eight questions and a trust capstone",
+    "learning_goal": "Apply mechanism, verification and evidence reasoning.",
+    "scene_ids": [
+      "S54",
+      "S55",
+      "S56",
+      "S57",
+      "S58"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 597.889,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 1668
+  }
+]

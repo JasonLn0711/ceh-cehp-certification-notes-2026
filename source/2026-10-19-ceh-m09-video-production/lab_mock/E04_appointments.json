@@ -1,0 +1,15 @@
+{
+  "label": "SIMULATED OUTPUT",
+  "case_id": "E04",
+  "date": "2026-10-12",
+  "appointments": [
+    {
+      "id": "VISIT-TRAINING-01",
+      "time": "11:00+08:00",
+      "escort_role": "Mara",
+      "visitor_role": "Approved classroom maintenance visit"
+    }
+  ],
+  "claimed_0900_visit": "not confirmed in supplied list",
+  "limits": "List absence alone does not establish intent or the complete approval state"
+}

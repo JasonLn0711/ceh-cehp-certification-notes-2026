@@ -1,0 +1,68 @@
+[
+  [
+    "The Northstar trust mission",
+    1,
+    5,
+    "Separate requests, identity claims, authority and evidence."
+  ],
+  [
+    "Influence and decision pressure",
+    6,
+    10,
+    "Explain persuasion cues and process-level risk."
+  ],
+  [
+    "Human-based techniques",
+    11,
+    16,
+    "Recognize pretexting, elicitation, baiting and physical access risks."
+  ],
+  [
+    "Email and computer-based techniques",
+    17,
+    22,
+    "Distinguish phishing forms, BEC and message-authentication limits."
+  ],
+  [
+    "Voice, mobile and social channels",
+    23,
+    27,
+    "Reason about vishing, smishing, QR codes and cross-channel requests."
+  ],
+  [
+    "Identity, insiders and account recovery",
+    28,
+    32,
+    "Separate identity theft, insider evidence, authentication and recovery."
+  ],
+  [
+    "Governed assessments and tool roles",
+    33,
+    37,
+    "Plan consent-based no-send assessment and interpret fair metrics."
+  ],
+  [
+    "Detection, evidence and response",
+    38,
+    42,
+    "Preserve evidence, verify reports and select a bounded response."
+  ],
+  [
+    "Four Northstar connected cases",
+    43,
+    48,
+    "Compare payment, recovery, QR and physical-access evidence."
+  ],
+  [
+    "Layered defenses, revalidation and AI",
+    49,
+    53,
+    "Verify controls, examine AI impersonation and review assisted analysis."
+  ],
+  [
+    "Eight questions and a trust capstone",
+    54,
+    58,
+    "Apply mechanism, verification and evidence reasoning."
+  ]
+]

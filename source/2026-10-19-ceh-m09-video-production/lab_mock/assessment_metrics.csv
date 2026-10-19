@@ -1,0 +1,21 @@
+label,case_id,participant,eligible,delivery,link_actor,reported,difficulty
+SIMULATED OUTPUT,METRICS,SIM-001,True,delivered,stipulated_learner,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-002,True,delivered,stipulated_learner,True,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-003,True,delivered,stipulated_learner,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-004,True,delivered,stipulated_learner,True,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-005,True,delivered,stipulated_learner,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-006,True,delivered,automated_scanner,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-007,True,delivered,none,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-008,True,delivered,none,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-009,True,delivered,none,True,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-010,True,delivered,none,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-011,True,delivered,none,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-012,True,delivered,none,True,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-013,True,delivered,none,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-014,True,delivered,none,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-015,True,delivered,none,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-016,True,delivered,none,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-017,True,delivered,none,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-018,True,delivered,none,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-019,True,failed,none,False,one_constructed_scenario
+SIMULATED OUTPUT,METRICS,SIM-020,True,failed,none,False,one_constructed_scenario

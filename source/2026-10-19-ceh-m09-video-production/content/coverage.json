@@ -1,0 +1,62 @@
+[
+  {
+    "topic": "Social engineering concepts",
+    "scenes": "S01\u2013S10",
+    "teaching": "Trust, authority, evidence and influence"
+  },
+  {
+    "topic": "Types and human-based techniques",
+    "scenes": "S11\u2013S16",
+    "teaching": "Pretexts, elicitation, baiting and physical boundaries"
+  },
+  {
+    "topic": "Impersonation",
+    "scenes": "S11,S23,S27,S43\u2013S48",
+    "teaching": "Claimed roles versus verified permission"
+  },
+  {
+    "topic": "Computer-based techniques",
+    "scenes": "S17\u2013S22",
+    "teaching": "Messages, warnings, files and business actions"
+  },
+  {
+    "topic": "Phishing and targeting",
+    "scenes": "S17\u2013S20",
+    "teaching": "Broad/targeted/executive targeting and BEC"
+  },
+  {
+    "topic": "Phishing tool roles",
+    "scenes": "S21,S33\u2013S35",
+    "teaching": "GoPhish/SET purposes and governed evidence; no campaigns"
+  },
+  {
+    "topic": "AI impersonation",
+    "scenes": "S23,S52\u2013S53",
+    "teaching": "Original fictional examples and verification limits"
+  },
+  {
+    "topic": "Identity theft",
+    "scenes": "S28,S31\u2013S32",
+    "teaching": "Identity data, recovery and account control"
+  },
+  {
+    "topic": "Mobile-based techniques",
+    "scenes": "S23\u2013S27",
+    "teaching": "Voice, text, QR and social channels"
+  },
+  {
+    "topic": "Countermeasures",
+    "scenes": "S38\u2013S42,S49\u2013S53",
+    "teaching": "Detection, response and two-sided revalidation"
+  },
+  {
+    "topic": "Anti-phishing toolbar",
+    "scenes": "S49",
+    "teaching": "Managed browser warnings and their limitations"
+  },
+  {
+    "topic": "Insider-risk course connection",
+    "scenes": "S29,S39\u2013S40",
+    "teaching": "Account events, policy and attribution limits"
+  }
+]

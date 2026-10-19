@@ -1,0 +1,11 @@
+{
+  "label": "SIMULATED OUTPUT",
+  "case_id": "E02",
+  "ticket_id": "ID-TRAINING-02",
+  "status": "pending_verification",
+  "provided_contact": "+1 202 555 0177",
+  "identity_verified": false,
+  "reset_event_supplied": false,
+  "session_event_supplied": false,
+  "next_action": "Authorized owner verifies identity and checks actual account-state records"
+}

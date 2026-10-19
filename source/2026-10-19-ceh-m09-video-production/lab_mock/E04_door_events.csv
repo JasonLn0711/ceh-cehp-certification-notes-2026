@@ -1,0 +1,2 @@
+label,case_id,event_id,time,door,credential,result,held_seconds,entrant_count,person_attribution
+SIMULATED OUTPUT,E04,DOOR-TRAINING-01,2026-10-12T09:05:00+08:00,OFFICE-TRAINING,BADGE-TRAINING-21,credential_presented_door_open,15,unknown,not_established

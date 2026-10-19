@@ -1,0 +1,78 @@
+{
+  "label": "SIMULATED OUTPUT",
+  "scope": "Generated inert files only; no contacts, sending, DNS, services or targets.",
+  "fictional_time_context": "2026-10-12 Asia/Taipei; not actual collection or build time",
+  "phone_numbers": "Fictional North American 555-01xx teaching numbers; no call is made.",
+  "files": [
+    {
+      "path": "E01_payment_ticket.json",
+      "bytes": 440,
+      "sha256": "a82df07fd098b375682f566799a60a1350b6ab20f0e4252904f23c5b0350e5cf"
+    },
+    {
+      "path": "E01_supplier_message.eml",
+      "bytes": 996,
+      "sha256": "9d156bbc07f57e834a21c075d99a3da67060ede9d424c00752a9f6a6fdca82a0"
+    },
+    {
+      "path": "E01_supplier_record.json",
+      "bytes": 336,
+      "sha256": "2a674ff76e81c8d3260dc9fe7dcb719f4f127e2bd7dcca04ab255c4cd3e681e5"
+    },
+    {
+      "path": "E02_call_transcript.md",
+      "bytes": 424,
+      "sha256": "7ae11536a744a76db43b70e10ee3210af774e54078b6458089dc96671df562c6"
+    },
+    {
+      "path": "E02_directory_record.json",
+      "bytes": 283,
+      "sha256": "9861aaf132cb94454f507dfea188d0e8457d3adcc760861348a8985b75b801f6"
+    },
+    {
+      "path": "E02_recovery_ticket.json",
+      "bytes": 357,
+      "sha256": "cba32637ceb728dd94484fd8fa6ec4d263df2dd637797ef21d13abf163c53a24"
+    },
+    {
+      "path": "E03_notice.md",
+      "bytes": 292,
+      "sha256": "eb094fdb1d5a64caa3f183e78574827f0380d9568fd6b2347332a23a7b3b3d7c"
+    },
+    {
+      "path": "E03_portal_context.json",
+      "bytes": 277,
+      "sha256": "f3e1477394164cf1200259f93f639b6612db83997ef14873e31a8d51d46d597a"
+    },
+    {
+      "path": "E03_qr_code.svg",
+      "bytes": 8850,
+      "sha256": "2b92f25b05654cba5f4ad1dc0582769db6279b67a976d6e444760024da780036"
+    },
+    {
+      "path": "E03_qr_payload.json",
+      "bytes": 402,
+      "sha256": "fb3f8c343a3da7e5af061327be801dbaf1a9f219f9f59698194b2629e223d09f"
+    },
+    {
+      "path": "E04_appointments.json",
+      "bytes": 416,
+      "sha256": "a808458f46c31326411188db2703bd45381c3f9495b023fffab0d1f4a8764968"
+    },
+    {
+      "path": "E04_door_events.csv",
+      "bytes": 255,
+      "sha256": "361f5f7fbf7757b17d9471cb6bc1ce51a1fe6d2beb7fe8bbe8653bd308a4b8b4"
+    },
+    {
+      "path": "E04_witness_report.md",
+      "bytes": 288,
+      "sha256": "74d96ce2b842008c614e19e22c4878ed71c4621b48984186ae37d834670eceed"
+    },
+    {
+      "path": "assessment_metrics.csv",
+      "bytes": 1849,
+      "sha256": "8f4d048bb0b4f4a488701b31bdce6a7679611bff7c28cd5387bbf872385b4d89"
+    }
+  ]
+}

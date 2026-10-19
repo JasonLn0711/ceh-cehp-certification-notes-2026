@@ -1,0 +1,11 @@
+{
+  "label": "SIMULATED OUTPUT",
+  "case_id": "E03",
+  "encoded_text": "https://learn-check.northstar.example.test/review",
+  "encoder": "qrcode 8.2",
+  "matrix_width_including_border": 41,
+  "decoder_execution": "not_exercised; encoded source and matrix construction are recorded",
+  "destination_service": "not provided",
+  "link_interaction": "unmeasured",
+  "credential_submission": "unmeasured"
+}
