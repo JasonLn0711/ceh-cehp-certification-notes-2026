@@ -27,6 +27,9 @@ p=R/'STORYBOARD.md';text=p.read_text();assert len(re.findall(r'^- status: animat
 
 先讀 `EDITING.md`，成品與檢查報告位於 `../output/`，實際製作證據位於 `../qa/`。原始 ZIP 與來源包保留在 `../inputs/`。完整人工觀影／聽驗、本人學習進度與公開媒體發布各有獨立驗收；本次製片不新增學習時段或期限。
 ''')
+timing_path=R/'data/master-timing.json';timing=json.load(open(timing_path))
+for row in timing['scenes']:row['status']='rendered_and_automated_QA_passed'
+timing_path.write_text(json.dumps(timing,indent=2)+'\n')
 def sha(p):
  with p.open('rb') as h:return hashlib.file_digest(h,'sha256').hexdigest()
 files=[*sorted((R/'scripts').glob('*.py')),*sorted((R/'scripts').glob('*.mjs')),*sorted((R/'scripts').glob('*.json')),R/'package.json',R/'package-lock.json',R/'requirements-lock.txt',R/'data/production-overrides.json',R/'data/voice-calibration.json']

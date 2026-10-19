@@ -229,7 +229,7 @@
     {
       "origin": "project/scripts/write_project_state.py",
       "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/write_project_state.py",
-      "sha256": "3ffa95fd2bb89e35fb456f1b3fa0f9faed9810bca075e0c7b7282d994c21743a"
+      "sha256": "fb5f7a8a1206c5638f3c369da03587c9ec865d076c4a43af6207f17e60a5417f"
     },
     {
       "origin": "project/scripts/write_render_report.py",
