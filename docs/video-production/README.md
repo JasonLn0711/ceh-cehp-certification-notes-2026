@@ -30,3 +30,9 @@ The [initial series standard v1.0](PRODUCTION_STANDARD_v1.0.md) adopts the appro
 ## Shared production engine — M10 reference rollout
 
 [Engine operator guide](../../tools/ceh_video/README.md) → [priorities 1–4 plan and evidence](M10_ENGINE_OPTIMIZATION.md) connects sentence-level audio review, reusable execution, verified resumability and artifact-bound checks. M10 uses an isolated optimization workspace; existing M04–M10 releases and editorial standard v1.0 remain preserved. Human listening retains its own acceptance gate.
+
+## Taiwan Mandarin course adapter — October 19
+
+The [schema-2 engine](../../tools/ceh_video/README.md#taiwan-mandarin-profile-schema-2) extends the M10 method to *小公司的數位日常：電腦、網路與資料判讀*. The [canonical course record](../../../nycu-115-1-coursework/cscm30018/review-video/README.md) owns the complete curriculum, de-identified coverage map, source custody and actual film receipts. The course uses a fictional company, Taiwan Mandarin, 46 scenes and eight chapters. Its profile preserves original Tally, the approved paper palette, narration-only 1.5× processing and eight exact 1-second PCM quiz holds. CEH English series settings and existing M04–M10 releases remain preserved.
+
+The course's validation record distinguishes source coverage, real synthesis, native runtime checks, rendered media and human listening acceptance. Planning holds a [thin course locator](../../../planning-everything-track/data/projects/2026-09-cscm30018-teaching-assistant.md#digital-everyday-review-video-2026-10-19); private assessment sources stay in the local course workspace.
