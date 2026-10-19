@@ -59,3 +59,4 @@ Use lawful authorized training, toy examples, or clearly labeled fictional evide
 | M06 implementation accepted for reuse | Local `af_heart` / 0.73 baseline, one `atempo=1.5`, AAC with measured residue disclosure |
 | M07 requested delivery | Complete production source ZIP; actual speech, captions, and MP4 remain the next production layer |
 | M08 applicability — 2026-10-18 | Same v1.0 standard; newly authored Sniffing source package with synthetic offline PCAPs. Full narration, aligned captions and MP4 are the next production layer. |
+| M09 applicability — 2026-10-19 | Same v1.0 standard; newly authored Social Engineering lesson, consent-based no-send cases and complete source plus full-film production explicitly activated. Actual production and human acceptance retain separate receipts. |
