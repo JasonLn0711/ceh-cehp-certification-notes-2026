@@ -45,3 +45,7 @@ Jason owns full timecoded viewing/listening acceptance when capacity permits. Pu
 All eight reference holds contain exactly 48,000 stereo zero PCM frames at 48 kHz. Decoded lossy AAC has maximum full-window peak 2.838985529e-05 and 49,152 nonzero channel samples across the holds; the residue measurement does not change the exact reference silence claim. Raw clip speech measures 155.8303 WPM; the separate −50 dBFS edge-trimmed estimate is 158.1438 WPM. No speed retuning or second pass was applied.
 
 All 58 real WAVs have independent unprompted fixed-runtime transcript receipts under availability_validation / LIVE_FULL_COMPLETED. Accuracy and latency remain not_evaluated. Known-text alignment preserves 157 timing flags as listening leads, not confirmed pronunciation errors. Full human viewing/listening remains open.
+
+## Git publication
+
+[Verified publication receipt](../../source/2026-10-19-ceh-m10-video-production/render-validation/publication.json): CEH implementation `54c39d6`, actual QA `32b4333` and delivery documentation `63cb9d6`; Planning mirror `4c2fa481` and history-preserving merge `532f441d`. Both were pushed to origin main and fetched with 0/0 divergence. The merge preserves remote application-planning changes through `29794378`; unrelated coursework edits remain unstaged. Media remain local.

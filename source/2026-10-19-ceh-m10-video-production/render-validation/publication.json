@@ -1,0 +1,31 @@
+{
+  "status": "published",
+  "target": "origin HEAD:main",
+  "date": "2026-10-19 Asia/Taipei",
+  "ceh": {
+    "commits": [
+      "54c39d6",
+      "32b4333",
+      "63cb9d6"
+    ],
+    "verified_tip": "63cb9d62a578d9442738637ea5286880dac15268",
+    "post_push_divergence": [
+      0,
+      0
+    ]
+  },
+  "planning": {
+    "commits": [
+      "4c2fa481",
+      "532f441d"
+    ],
+    "verified_tip": "532f441d08acbd7201d754ccfd8e55202dab5b55",
+    "post_push_divergence": [
+      0,
+      0
+    ],
+    "remote_history_preserved_through": "29794378",
+    "unrelated_dirty_file": "data/projects/2026-09-nycu-115-1-coursework.md"
+  },
+  "scope": "Publication of compact code, QA and documentation; media remain local. This receipt records the verified preceding publication, not its own later commit."
+}
