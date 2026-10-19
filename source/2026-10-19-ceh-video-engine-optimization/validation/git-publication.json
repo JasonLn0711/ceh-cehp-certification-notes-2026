@@ -1,0 +1,47 @@
+{
+  "status": "published_and_post_fetch_verified",
+  "checked_at_utc": "2026-10-19T10:28:46.212223+00:00",
+  "target": "origin HEAD:main",
+  "repos": {
+    "ceh": {
+      "published_tip": "1ec07c3b28267d95c2de3d38dce7f1eb6990a9fb",
+      "remote_tip": "1ec07c3b28267d95c2de3d38dce7f1eb6990a9fb",
+      "post_fetch_divergence": [
+        0,
+        0
+      ],
+      "local_first_parent_commits": [
+        "1ec07c3b28267d95c2de3d38dce7f1eb6990a9fb docs(video): close out verified M10 render, archive and unchanged build",
+        "8138648ed4d579ef510ab8b47011dfc5560688cb refactor(video): derive master metadata from the module profile",
+        "04b36005ed8e9762f9e330ac6c9980a90b8ec8d1 docs(video): adopt M10 engine rollout and preserve exercised evidence",
+        "fc1b3b0cebf164aa24372984d31e7c8cd736d6ab fix(video): restrict editable archives to production evidence",
+        "2e636aaf6044c17b509baf4e718a4b7b67a81292 fix(video): gate review batches and prevent cancelled child dispatch",
+        "8ee55d9e04422fabcbc6612a013cb62434fc800a fix(video): resume shipped audio without the original workspace",
+        "00addf21c58bc2e6d3935917eee2af514593b0fe test(video): verify cache recovery, review guards and live M10 fixtures",
+        "33906424d33488f8b31e93a9e170309b9b6d014d feat(video): extract verified resumable CEH production engine"
+      ]
+    },
+    "planning": {
+      "published_tip": "8b9b6edd2d6655509b3aa478185ebfad6161cfdc",
+      "remote_tip": "8b9b6edd2d6655509b3aa478185ebfad6161cfdc",
+      "post_fetch_divergence": [
+        0,
+        0
+      ],
+      "local_first_parent_commits": [
+        "8b9b6edd2d6655509b3aa478185ebfad6161cfdc Merge remote-tracking branch 'origin/main'",
+        "95d45f69140d2f77fe6e6fe32d279d60901d8abc plan: record validated M10 engine delivery and listening gate",
+        "7887d6273124aaeb04e439f0e5873ce46399f1cc merge: preserve remote planning updates and CEH engine rollout",
+        "a1b23ecd9b2a8ec032f6ba354be1952e1ad09983 plan: track CEH engine priorities and isolated M10 execution"
+      ]
+    }
+  },
+  "history": "Non-destructive Planning merges preserve local CEH work and remote updates; no force push.",
+  "unrelated_work": {
+    "path": "data/projects/2026-09-nycu-115-1-coursework.md",
+    "preserved_verbatim_insertion": true,
+    "insertion_sha256": "8bf2f9c7b65ea09ff0081261ff0d6942915f7fe671289edc14b7ddccfd1b88a2",
+    "kept_unstaged": true
+  },
+  "receipt_scope": "These tips were verified before this receipt and its thin Planning mirror were committed. Subsequent commits append publication documentation only."
+}

@@ -18,3 +18,5 @@
 `Cxx-review.json` records current native source/capture hashes and the agent's actual inspection scope. Full captures and media remain local. The encoded review covers mandatory sampled frames; [two additional opening frames](encoded-opening-inspection.json) were inspected at native resolution. [Revalidation](encoded-picture-revalidation.json) binds the final unchanged pictures. [Bundled code hashes](engine-implementation.json) match the maintained engine.
 
 Human listening, pronunciation accuracy, learner progress and public media release retain separate acceptance gates. The original fixed-runtime ASR result is imported/revalidated evidence; this rollout generates no new production speech or ASR inferences. The two real TTS inferences belong only to the isolated cache fixture.
+
+[Git publication receipt](git-publication.json) records pushed implementation/evidence tips, post-fetch divergence and preservation of the unrelated unstaged coursework insertion.
