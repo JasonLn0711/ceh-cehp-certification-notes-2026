@@ -1,0 +1,688 @@
+{
+  "scope": "Exact actual execution evidence and recovery copies; large assets/media remain in the local owning workspace.",
+  "aliases": {
+    "source-activation.json": "source-activation.json",
+    "production-source-revalidation.json": "production-source-revalidation.json",
+    "production-evidence-recheck.json": "production-evidence-recheck.json",
+    "audio-structure-audit.json": "audio-structure-audit.json",
+    "audio-clip-structure-audit.json": "audio-clip-structure-audit.json",
+    "audio-review.md": "audio-review.md",
+    "delivery-validation.json": "delivery-validation.json",
+    "master-ffprobe.json": "master-ffprobe.json",
+    "master-project-check.json": "master-project-check.json",
+    "master-visual-review.md": "master-visual-review.md",
+    "rendered-artifact-audit.json": "rendered-artifact-audit.json",
+    "late-diagram-samples.json": "late-diagram-samples.json",
+    "C11-encoded-quiz-silence.json": "C11-encoded-quiz-silence.json",
+    "packaging-receipt.json": "packaging-receipt.json",
+    "production-provenance.json": "production-provenance.json",
+    "scene-seek-audit.json": "scene-seek-audit.json",
+    "audio-continuity-audit.json": "audio-continuity-audit.json",
+    "asr-availability-receipt.json": "asr-availability-receipt.json",
+    "speech-rate-measurement.json": "speech-rate-measurement.json",
+    "technical-source-review.md": "technical-source-review.md",
+    "animation-helper-receipt.json": "animation-helper-receipt.json",
+    "animation-map-context.json": "animation-map-context.json",
+    "animation-map-review.md": "animation-map-review.md",
+    "C01-check.json": "C01-check.json",
+    "C01-render.json": "C01-render.json",
+    "C01-visual-review.md": "C01-visual-review.md",
+    "C02-check.json": "C02-check.json",
+    "C02-render.json": "C02-render.json",
+    "C02-visual-review.md": "C02-visual-review.md",
+    "C03-check.json": "C03-check.json",
+    "C03-render.json": "C03-render.json",
+    "C03-visual-review.md": "C03-visual-review.md",
+    "C04-check.json": "C04-check.json",
+    "C04-render.json": "C04-render.json",
+    "C04-visual-review.md": "C04-visual-review.md",
+    "C05-check.json": "C05-check.json",
+    "C05-render.json": "C05-render.json",
+    "C05-visual-review.md": "C05-visual-review.md",
+    "C06-check.json": "C06-check.json",
+    "C06-render.json": "C06-render.json",
+    "C06-visual-review.md": "C06-visual-review.md",
+    "C07-check.json": "C07-check.json",
+    "C07-render.json": "C07-render.json",
+    "C07-visual-review.md": "C07-visual-review.md",
+    "C08-check.json": "C08-check.json",
+    "C08-render.json": "C08-render.json",
+    "C08-visual-review.md": "C08-visual-review.md",
+    "C09-check.json": "C09-check.json",
+    "C09-render.json": "C09-render.json",
+    "C09-visual-review.md": "C09-visual-review.md",
+    "C10-check.json": "C10-check.json",
+    "C10-render.json": "C10-render.json",
+    "C10-visual-review.md": "C10-visual-review.md",
+    "C11-check.json": "C11-check.json",
+    "C11-render.json": "C11-render.json",
+    "C11-visual-review.md": "C11-visual-review.md"
+  },
+  "files": [
+    {
+      "origin": "qa/source-activation.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/source-activation.json",
+      "sha256": "caeb78394753eb69e31e34372fad80f5233867c249a1bb066e6a94225a84214d"
+    },
+    {
+      "origin": "qa/production-source-revalidation.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/production-source-revalidation.json",
+      "sha256": "a2c02605d37b19e903aa50bed93d806b605041f44861cb7a16c68f7a0745b990"
+    },
+    {
+      "origin": "qa/production-evidence-recheck.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/production-evidence-recheck.json",
+      "sha256": "7186aa311950c8de12a7a85b544b41825a285f1d166459ff5ba7cdb146db4143"
+    },
+    {
+      "origin": "qa/audio-structure-audit.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/audio-structure-audit.json",
+      "sha256": "7563fadafca9d23ae7302ac2b6347fa19f9ea6600da8333d558465acdd6b749f"
+    },
+    {
+      "origin": "qa/audio-clip-structure-audit.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/audio-clip-structure-audit.json",
+      "sha256": "1775cbd14f754fe5ff3187e8aa27b50f3e88f7d9fb1fbdc6bc44f4739db010b9"
+    },
+    {
+      "origin": "qa/audio-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/audio-review.md",
+      "sha256": "7f5314e283a0364b08e59d7aac416cba90b27c5fdb82fed9a7ec4c92bc7d0864"
+    },
+    {
+      "origin": "qa/delivery-validation.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/delivery-validation.json",
+      "sha256": "3f93e16109e37e86d1676f4372fd3b0cbaec92312fc1aa7784de341048b845f4"
+    },
+    {
+      "origin": "qa/master-ffprobe.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/master-ffprobe.json",
+      "sha256": "de2087a0bbe16ef846bca404da6f7510a04372cffe9799ec48a7b87f35519745"
+    },
+    {
+      "origin": "qa/master-project-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/master-project-check.json",
+      "sha256": "b3883d6d65437ac9636385a9cc909d8b59d584d9a0d49a520e4b7942f20c8460"
+    },
+    {
+      "origin": "qa/master-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/master-visual-review.md",
+      "sha256": "76d5f49464f6c13e1851fed9227bf824dc579999dc6bb2154e6c2640e4ed6e91"
+    },
+    {
+      "origin": "qa/rendered-artifact-audit.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/rendered-artifact-audit.json",
+      "sha256": "b502c86e90d1016d0670408b7ecd636dc892ec65cbba9b9378260af87684ec02"
+    },
+    {
+      "origin": "qa/late-diagram-samples.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/late-diagram-samples.json",
+      "sha256": "54144e7e7d94f677af2fbcc54730a4554f6a5b305d8fd00d8f801f1b293f2f91"
+    },
+    {
+      "origin": "qa/C11-encoded-quiz-silence.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C11-encoded-quiz-silence.json",
+      "sha256": "a46d89d4e12349820f71419196377c497af4e3c182d7606231d2b7db492a48de"
+    },
+    {
+      "origin": "qa/packaging-receipt.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/packaging-receipt.json",
+      "sha256": "270005ff35cc8fcb2cf3a16b1f8fe81d79eeb302db18ff70e0fe9de9656ede9b"
+    },
+    {
+      "origin": "qa/production-provenance.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/production-provenance.json",
+      "sha256": "335aab24590ae63b35db48b1f7d21e10bc5a84470233baf9b7b9449a2767b1fd"
+    },
+    {
+      "origin": "qa/scene-seek-audit.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/scene-seek-audit.json",
+      "sha256": "c473cd887297f9c2523a39133f1b13cc4b88354df17896bbfcadce413ead8ace"
+    },
+    {
+      "origin": "qa/audio-continuity-audit.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/audio-continuity-audit.json",
+      "sha256": "ec418d83f0ecaad5587fb13100216730629ca07e0882dd12c0ad6a1645289126"
+    },
+    {
+      "origin": "qa/asr-availability-receipt.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/asr-availability-receipt.json",
+      "sha256": "b6c1c80fe4f996ceda756382f9b228ce7b9a62af0e71ec7c3fa0330810cc64b8"
+    },
+    {
+      "origin": "qa/speech-rate-measurement.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/speech-rate-measurement.json",
+      "sha256": "45c6b07beb26c2d2c871cfedcf8121a643122aa48dd6a9984ed0c19a8e2c6e50"
+    },
+    {
+      "origin": "qa/technical-source-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/technical-source-review.md",
+      "sha256": "5d642dfb3335ebdbb211786cdfe6007cd5d8f6c1115cb3ec9b6c6c30ffa716fb"
+    },
+    {
+      "origin": "qa/animation-helper-receipt.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/animation-helper-receipt.json",
+      "sha256": "1632a592fcd0973ceaa19311ac4a16e1c70033151069bb1e6b071cb3849d692f"
+    },
+    {
+      "origin": "qa/animation-map-context.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/animation-map-context.json",
+      "sha256": "4eebd899324c05f65a8d0b4b89b64c5e0c5abc2fd543791d835f4706e8f5d083"
+    },
+    {
+      "origin": "qa/animation-map-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/animation-map-review.md",
+      "sha256": "893d34ad07464dd96e758d8c46b9fef08c9effaae5ba50cf7b01e2ec43c77864"
+    },
+    {
+      "origin": "qa/C01-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C01-check.json",
+      "sha256": "1e47d766df29e91014d270bd5bb3f724f9520ba3d0e6c535c9ce5f1b40699d67"
+    },
+    {
+      "origin": "qa/C01-render.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C01-render.json",
+      "sha256": "4499b4b042b8cb7a62465ba54a8d49f278e249409fab59ef4b977fc7af00192e"
+    },
+    {
+      "origin": "qa/C01-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C01-visual-review.md",
+      "sha256": "523be1c08d8ee5692bb250bbebe636d754a9a778722cc762731d2a1bcecfb1f7"
+    },
+    {
+      "origin": "qa/C02-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C02-check.json",
+      "sha256": "dcb4cd9ca30518ef977698bab60d422e1918cebb567cc0dada7b7a1e4398a93d"
+    },
+    {
+      "origin": "qa/C02-render.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C02-render.json",
+      "sha256": "4612a8b27a4d3b16900fa19ecb586c26d10457805c899f39a88c14e88fa30852"
+    },
+    {
+      "origin": "qa/C02-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C02-visual-review.md",
+      "sha256": "f0055aa5581d12cf2ff254c6657fb0eecbd235f87adfc7e0a5b5137041026ae3"
+    },
+    {
+      "origin": "qa/C03-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C03-check.json",
+      "sha256": "d7c0a98fb6ceb65d8664788920557a0ed52b00ac94d58c09339ddb4a656ec761"
+    },
+    {
+      "origin": "qa/C03-render.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C03-render.json",
+      "sha256": "4d57b4b6fdb2f700e6bfe8e27910d65e2d62b7121db82eacf0894851f2ac355d"
+    },
+    {
+      "origin": "qa/C03-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C03-visual-review.md",
+      "sha256": "a8bdc2522c8d1836be4a44e6d749cf92aadbb54470bc84f09279af7242a1a665"
+    },
+    {
+      "origin": "qa/C04-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C04-check.json",
+      "sha256": "ddd992ba4a66f49bf6d47eb1ee4865d5d1e43a36631b123b76cec19a00547af2"
+    },
+    {
+      "origin": "qa/C04-render.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C04-render.json",
+      "sha256": "2d6b20545cb57429d9a2d5874ae9aad3b9012cf786245c5522088a797aa996ad"
+    },
+    {
+      "origin": "qa/C04-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C04-visual-review.md",
+      "sha256": "b4afd84b262aa44970fc037820e798eb5c6e060466c0bdb393ffe5bd8bec7261"
+    },
+    {
+      "origin": "qa/C05-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C05-check.json",
+      "sha256": "86f715294c644835fbf5bc4210652fa8a7865d28370a7ea9214b6fa49a0a223e"
+    },
+    {
+      "origin": "qa/C05-render.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C05-render.json",
+      "sha256": "77c512961e157874963436d956935278c7d8015a0959fd7573c9e5fa802c2890"
+    },
+    {
+      "origin": "qa/C05-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C05-visual-review.md",
+      "sha256": "ff67de955fa6318d7eb9960fe88c3bc1c4e2b399473bf001879d49c64f0b957b"
+    },
+    {
+      "origin": "qa/C06-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C06-check.json",
+      "sha256": "ca04cf74ff47c43392bddce9670376e9ad750aba4132d25be154ed591f605498"
+    },
+    {
+      "origin": "qa/C06-render.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C06-render.json",
+      "sha256": "4e4070e0a655ba3eadc54fff9c213afcd514f050bbf74430763ea7d3da176859"
+    },
+    {
+      "origin": "qa/C06-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C06-visual-review.md",
+      "sha256": "6d910bead8b4d95a11a665ec1e297d7e6d8294c37e58a6d0cf9763c467389b33"
+    },
+    {
+      "origin": "qa/C07-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C07-check.json",
+      "sha256": "e44b96656454e55c3d19f21feba3c2cc040eca050c88948f3044d7cbd963c102"
+    },
+    {
+      "origin": "qa/C07-render.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C07-render.json",
+      "sha256": "5cd325cd27e649228357ade9399553cc100ed80cfa9b6c7484061d2c99e87110"
+    },
+    {
+      "origin": "qa/C07-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C07-visual-review.md",
+      "sha256": "787fe6e72c77c2078f451a585dd0bea6f75ea73944ebd562d0f7abbfd53822a3"
+    },
+    {
+      "origin": "qa/C08-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C08-check.json",
+      "sha256": "d2cfc127155081a4b26558e52ae204521e8183fd56d1a3d98c40082564ece1ae"
+    },
+    {
+      "origin": "qa/C08-render.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C08-render.json",
+      "sha256": "02e4e30c47a0bdc73ed033a9a9f940a15872e89c0c13c7233df73c9e5955f941"
+    },
+    {
+      "origin": "qa/C08-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C08-visual-review.md",
+      "sha256": "2968f83dcf2bdfce0a9df2e97006cbb649e689eadc41e3209fcc3f2f976e33d4"
+    },
+    {
+      "origin": "qa/C09-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C09-check.json",
+      "sha256": "25ae9ba4953a102a270afcb7a3bcc27ef04ec45ee7331a08e9cff2447adbe96c"
+    },
+    {
+      "origin": "qa/C09-render.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C09-render.json",
+      "sha256": "9605a3104769eca32912738119ffb4f21606751126a7cb90eb883b2e6c75ed90"
+    },
+    {
+      "origin": "qa/C09-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C09-visual-review.md",
+      "sha256": "fde3fa9c6521a6f9323d8ef256cdf080fe58ae27222d6a63ab72629e18ea236a"
+    },
+    {
+      "origin": "qa/C10-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C10-check.json",
+      "sha256": "831b05045a1f4497234c3097ad499e08f520f2ed8227ed403d3ecf4597cdad19"
+    },
+    {
+      "origin": "qa/C10-render.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C10-render.json",
+      "sha256": "a89c2e5e6e1ac95c1beec9d9280d84e59630ed7d9082a75794f995e2e2df9fd1"
+    },
+    {
+      "origin": "qa/C10-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C10-visual-review.md",
+      "sha256": "8a6bf550dca85770b90cc897ad48ee392ef05500e1f30b6092554f3b834be50c"
+    },
+    {
+      "origin": "qa/C11-check.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C11-check.json",
+      "sha256": "d1bd8de66972e183adcd8455b31f3788a439687d22e1026c284715ac417dde90"
+    },
+    {
+      "origin": "qa/C11-render.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C11-render.json",
+      "sha256": "92c820c5223c4a2a946a8d3a3ec9d229ccdec31fe93f52b45fb3388d55560049"
+    },
+    {
+      "origin": "qa/C11-visual-review.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/C11-visual-review.md",
+      "sha256": "f20a2299c075218f95c9a92f88f3385fd41c1be746c7baa29e8ad9a5a8113d10"
+    },
+    {
+      "origin": "qa/quiz-runtime/checks.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/quiz-runtime-checks.json",
+      "sha256": "29e0f8e3b873f80f7996ea34c40d4b86f66882c041cd4b175dbb5a24101b6aa8"
+    },
+    {
+      "origin": "output/render_report.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/render_report.local.md.txt",
+      "sha256": "4effdb9c7631675736206964d47e58825ae4264ae589ef64e5bd153e07fb7863"
+    },
+    {
+      "origin": "output/scene_qa_ledger.csv",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/scene_qa_ledger.csv",
+      "sha256": "5689755cf580263918b0cc30c9e70be9908144743f0e65b6cd633b2f83656784"
+    },
+    {
+      "origin": "project/data/master-timing.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/render-validation/master-timing.json",
+      "sha256": "eb9a3d14d026f4acc95ddced802be39b30f9508e484ff99a4238e961ecabb96e"
+    },
+    {
+      "origin": "project/scripts/align_parallel.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/align_parallel.py",
+      "sha256": "d52115b17b3a2d36726e68ad467077970bf3e4c7c1ed525717df0d0316d802c4"
+    },
+    {
+      "origin": "project/scripts/art_common.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/art_common.py",
+      "sha256": "406e426969332a884ae88cc4bbde437cde288bbb8c864c380277f5036fa79f05"
+    },
+    {
+      "origin": "project/scripts/asr_receipt.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/asr_receipt.py",
+      "sha256": "18df4b52329750389932fb20a8e55f66b8a30e4c45913714ae336f583ed24543"
+    },
+    {
+      "origin": "project/scripts/assemble_master.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/assemble_master.py",
+      "sha256": "781f64853eec9bb2365c2b7d8b54d4bb19239a404da68e8f65b07c02eea001b9"
+    },
+    {
+      "origin": "project/scripts/assemble_project.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/assemble_project.py",
+      "sha256": "7bd11a9340ee4aacc2b0d55b113ff85a4e01fb94b408d8f4d5154500b78cba5a"
+    },
+    {
+      "origin": "project/scripts/audit_animation_map.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/audit_animation_map.py",
+      "sha256": "417d88b758c3425923f9299ab3a246a1a33caf046b4a3b944e0c9f68a0b6de82"
+    },
+    {
+      "origin": "project/scripts/audit_audio_clips.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/audit_audio_clips.py",
+      "sha256": "68d68f53cdc0a40ffeee3d1c01f8ec7ea03f79534bda3c0956190a7e76a400fb"
+    },
+    {
+      "origin": "project/scripts/audit_audio_continuity.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/audit_audio_continuity.py",
+      "sha256": "f64130df8715f2d6e1bf871b5f43351201ec3945db5cdcd7a37962d49168ab3a"
+    },
+    {
+      "origin": "project/scripts/audit_quiz.mjs",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/audit_quiz.mjs",
+      "sha256": "e4c965052dc9899dd504e8d7864bb0a08ae5d53f6f1cd77f42e3c29219853e50"
+    },
+    {
+      "origin": "project/scripts/audit_rendered.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/audit_rendered.py",
+      "sha256": "b399fdb4c191d1233131ec9d2f471bbcb86156dae4dbe57c7b0ed57b43bd4c66"
+    },
+    {
+      "origin": "project/scripts/audit_scene_seek.mjs",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/audit_scene_seek.mjs",
+      "sha256": "fc040082bec8991a7f70524894408bc868afd0fdab1edf1a69f48a6491cbe9c8"
+    },
+    {
+      "origin": "project/scripts/audit_scene_seek_stage.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/audit_scene_seek_stage.py",
+      "sha256": "3c61eb092962914d26cd2274ccbebd4ad8caa8de9df75994a5134543daa43a92"
+    },
+    {
+      "origin": "project/scripts/build_film.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/build_film.py",
+      "sha256": "b2a3042839e41c4af6027fe899e12345d56c05055f7ad22a321d1f26f121e576"
+    },
+    {
+      "origin": "project/scripts/capture_late_diagrams.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/capture_late_diagrams.py",
+      "sha256": "e528406c8c8a89ffc46523470e2f48e55f62216ee2fa9aa0617df1db6ee96fcf"
+    },
+    {
+      "origin": "project/scripts/chapter.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/chapter.py",
+      "sha256": "7a96d74a67b158925b0469aa5f2b7043d4066a3f429e9658c223d6cce394c36f"
+    },
+    {
+      "origin": "project/scripts/contact_native.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/contact_native.py",
+      "sha256": "39183cc12d3d11ca669666972972a6cf5255c0af250f1d972f1c6f37717f7fab"
+    },
+    {
+      "origin": "project/scripts/contact_sheet.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/contact_sheet.py",
+      "sha256": "4561d2986ee5d95ef82e062b758236a153645c3d8e84973d5b502ed57fdf7295"
+    },
+    {
+      "origin": "project/scripts/cues_m09.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/cues_m09.json",
+      "sha256": "c9988a379a28b6b3986098eb909317f0cccb8a1eeba75f70c9c90273db690c41"
+    },
+    {
+      "origin": "project/scripts/editorial.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/editorial.py",
+      "sha256": "1484123e97174c0a46f9366f6691fd250bef9dd5daa6964f9e8af743fc6dd40d"
+    },
+    {
+      "origin": "project/scripts/export_metadata.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/export_metadata.py",
+      "sha256": "d6efd44fbe58325d4221b630d44fa8844e73ddf07bc2e40e24129fb9214cff68"
+    },
+    {
+      "origin": "project/scripts/final_pipeline.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/final_pipeline.py",
+      "sha256": "4a545a80b1452f21d735b321e1a27a6393c78bc467bdb7508f2e6a3d43fd1678"
+    },
+    {
+      "origin": "project/scripts/force_align.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/force_align.py",
+      "sha256": "b7b4ab931db0aac8135324872499fbbd105d1e3f1d7990f0679a59369ca68e5b"
+    },
+    {
+      "origin": "project/scripts/inspect_direct.mjs",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/inspect_direct.mjs",
+      "sha256": "21c604cb6361a8b6d029ab920f76201fff94f764fad8b0d211e886297211ce72"
+    },
+    {
+      "origin": "project/scripts/inspect_scene.mjs",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/inspect_scene.mjs",
+      "sha256": "26d1555c29eca366889357105c0d193f0df157d2e1ff5b2b20321a5305d34844"
+    },
+    {
+      "origin": "project/scripts/launch_stage.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/launch_stage.py",
+      "sha256": "c2680eae39d04064ebc734eb609aa5ab67de8a17c5c0e4bf5be41ded8fd96e8a"
+    },
+    {
+      "origin": "project/scripts/make_audio_review.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/make_audio_review.py",
+      "sha256": "e53c40e010b255145cb5d8329a18a043e9d7c1e017491db24e1f035ce1a4ca5b"
+    },
+    {
+      "origin": "project/scripts/measure_speech.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/measure_speech.py",
+      "sha256": "8e6729ab8f1727431958c99c5590b841395de685613aaeedded4c703dde04804"
+    },
+    {
+      "origin": "project/scripts/narrate_parallel.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/narrate_parallel.py",
+      "sha256": "96872753e56dd568c0bb8cb84b37486e2c701e265256b0fb673c35ff6ba88c7d"
+    },
+    {
+      "origin": "project/scripts/package_delivery.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/package_delivery.py",
+      "sha256": "4621b456b856ee426a980d0601180f5fe5773ada8f0c13915dcff19bdc429bed"
+    },
+    {
+      "origin": "project/scripts/post_audio.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/post_audio.py",
+      "sha256": "b495aa7ed741d779da3427c439792dc66939c79ab2c065dfd442145a2c10ae2f"
+    },
+    {
+      "origin": "project/scripts/post_master.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/post_master.py",
+      "sha256": "3aecbbac6f8432c182323257ffc7fbf4cefbda5bc815db47bb9c4079ff5d82b0"
+    },
+    {
+      "origin": "project/scripts/post_root_checks.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/post_root_checks.py",
+      "sha256": "214dcdf7ea46d0c9d1a37574e102797bc5782b1b0bf4aa9b910a36e51ab85be0"
+    },
+    {
+      "origin": "project/scripts/prepare_master.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/prepare_master.py",
+      "sha256": "5948d2921f3e94be5bb0fd4e201aa166f80197261a1cdf0341054fa94c7b7c87"
+    },
+    {
+      "origin": "project/scripts/production_settings.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/production_settings.py",
+      "sha256": "6bf6cf97ad9ed65fb48a68c1e1fc52b0e0c8e35a144433cc0d10a2b1d6d2ccb2"
+    },
+    {
+      "origin": "project/scripts/recognition_audit.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/recognition_audit.py",
+      "sha256": "58158f21bcc0d9a78e221982397fec91522dd96636a22785b50cafadb2d846f4"
+    },
+    {
+      "origin": "project/scripts/recognize_parallel.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/recognize_parallel.py",
+      "sha256": "c4f22db6cf40d6fd841b312776da7dbf74fd92227209c70c9d658464d32c2530"
+    },
+    {
+      "origin": "project/scripts/render_remaining.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/render_remaining.py",
+      "sha256": "5eba9d4b6d3c59ce0b63a1473b31f676f6c464a502def081ef107c93fda437aa"
+    },
+    {
+      "origin": "project/scripts/revalidate_source.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/revalidate_source.py",
+      "sha256": "2e74d2b2f11ebe037eac7aa7a11169fd3af6bb3a9ea8f1b6f13701f5110171ca"
+    },
+    {
+      "origin": "project/scripts/review_audio.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/review_audio.py",
+      "sha256": "b001d0e07c310b3ac10796759683cbef4ca5f1c3e3b0cca6c2c2a56482fe7f29"
+    },
+    {
+      "origin": "project/scripts/run_stage.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/run_stage.py",
+      "sha256": "d68673f161f0ed7706c23938c8d0e9da17858469ada34a2b3327c90f323c6c8d"
+    },
+    {
+      "origin": "project/scripts/scene_art.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/scene_art.py",
+      "sha256": "458055d3b154e90bc561bf307a4a1c60a28ef6652775d824c27c4f8e2af69635"
+    },
+    {
+      "origin": "project/scripts/sync_storyboard.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/sync_storyboard.py",
+      "sha256": "4217f8ae96ab3d47491150c6e8cdadc662327e38ab57f545d0bd2d7ca3fc4a55"
+    },
+    {
+      "origin": "project/scripts/synthesize.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/synthesize.py",
+      "sha256": "262f655539e587f79711d1a5564a01004dcf492414ffa2fdfaece57293b0213f"
+    },
+    {
+      "origin": "project/scripts/validate_delivery.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/validate_delivery.py",
+      "sha256": "e5282a3f749de578c8b77f8ad6cdab63e12504418a5ebef0f49d8ee349c208e1"
+    },
+    {
+      "origin": "project/scripts/write_media_ledger.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/write_media_ledger.py",
+      "sha256": "f877e6bb40e3d8f02fd1a00dc17b96a6c901c95467d7042384dd8f0978e40813"
+    },
+    {
+      "origin": "project/scripts/write_project_state.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/write_project_state.py",
+      "sha256": "fb5f7a8a1206c5638f3c369da03587c9ec865d076c4a43af6207f17e60a5417f"
+    },
+    {
+      "origin": "project/scripts/write_render_report.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/scripts/write_render_report.py",
+      "sha256": "ef4b6e8e526d11f5ad9a38def983685223dc159e41fbe73dde91079288ffb51e"
+    },
+    {
+      "origin": "project/package.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/package.json",
+      "sha256": "26b114cf8a42185e0430bf79bb0aa7cd4fc6a90bf5b262d646e049c011c0e64c"
+    },
+    {
+      "origin": "project/package-lock.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/package-lock.json",
+      "sha256": "f6713f33d07ebe42b8cdb7bba9c19e8b04fddbe1d3d269b4c49533e44aae6ffc"
+    },
+    {
+      "origin": "project/requirements-lock.txt",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/requirements-lock.txt",
+      "sha256": "7b55433a477d75b4cddfd37664abca65b104fee6723db936d17a3ea7740c5c74"
+    },
+    {
+      "origin": "project/hyperframes.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/hyperframes.json",
+      "sha256": "ad5dadeef78a520800a9e5cdd27a92ff5ac37f11b6a07f611b6b52b9f8c79a17"
+    },
+    {
+      "origin": "project/data/production-overrides.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/data/production-overrides.json",
+      "sha256": "a0ce8b8ca3dd9d603430b768f2196711f39940df46afa808e6e1cae926c1d22f"
+    },
+    {
+      "origin": "project/data/voice-calibration.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/data/voice-calibration.json",
+      "sha256": "3cc90a8e24a583895bf0aa35e869eb30ef6cc35f9317cefccd009639200211c9"
+    },
+    {
+      "origin": "project/data/synthesis-policy.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/data/synthesis-policy.json",
+      "sha256": "fe0a0436664d0a14afba996cc079383b3be74da0be19397f9294ce3059608522"
+    },
+    {
+      "origin": "project/licenses/M09-media-ledger.json",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/licenses/M09-media-ledger.json",
+      "sha256": "a61eaea7d39f6ed9115e20ce91503c6032390fc4374c1cecd7b549e0948e73c2"
+    },
+    {
+      "origin": "project/BRIEF.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/BRIEF.local.md.txt",
+      "sha256": "af5686871a1e6b5214f26e972a3419e8abfa0c76909942e300a30e647092c412"
+    },
+    {
+      "origin": "project/DESIGN.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/DESIGN.local.md.txt",
+      "sha256": "78883fcb41d2bc7c1a81a368b3431904eae9eb69b54a051f1429508240a16c28"
+    },
+    {
+      "origin": "project/EDITING.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/EDITING.local.md.txt",
+      "sha256": "e49e337a8d950bc1730c6ed9803620b179f28fc8511fcc006e691ea343856675"
+    },
+    {
+      "origin": "project/STORYBOARD.md",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/STORYBOARD.local.md.txt",
+      "sha256": "bcbba5b017f34e53933d2e73969a67d310edb284b3823722fcc01f4a87eccef4"
+    },
+    {
+      "origin": "bootstrap_production.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/orchestration/bootstrap_production.py",
+      "sha256": "cef93b0e1a459590afc5da8223fff93160fd6d0e62f10007b4feafcd7fbcf585"
+    },
+    {
+      "origin": "author_motion_plan.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/orchestration/author_motion_plan.py",
+      "sha256": "9e98241a83dd4a364063995578d7c1296e86ea0d28b11956c5f88286e3386f8b"
+    },
+    {
+      "origin": "archive_source.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/orchestration/archive_source.py",
+      "sha256": "5cecb356d4d1c313cc2b9952dd818275374f5d8e7c600c620ac0ce6e7985511f"
+    },
+    {
+      "origin": "archive_code.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/orchestration/archive_code.py",
+      "sha256": "ccbbd5b6f97d062d18486c3eefe2acc067979cbf8917c4fd749f8c8186ff4f37"
+    },
+    {
+      "origin": "archive_render_evidence.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/orchestration/archive_render_evidence.py",
+      "sha256": "0aa5880d855110d6bdc540f7a8b6abc0810381eb7919bbfa206bf76bf8dd6e1f"
+    },
+    {
+      "origin": "write_final_records.py",
+      "copy": "source/2026-10-19-ceh-m09-video-production/rebuild-inputs/full-production/orchestration/write_final_records.py",
+      "sha256": "1830b0e5010a9f9fce0e27c7fc0ac6553a7611ff99bd250a17c5455ba1ec7862"
+    }
+  ]
+}

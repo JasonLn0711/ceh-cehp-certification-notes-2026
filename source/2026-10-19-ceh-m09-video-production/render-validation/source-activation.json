@@ -1,0 +1,19 @@
+{
+  "status": "source_verified_production_activated_not_rendered",
+  "source_zip_sha256": "36898c5e335adf24ff3bddabd9e9a952cd95c726f514fab654fd6486e1e5ac66",
+  "source_payloads": 303,
+  "locked_assets": 44,
+  "canonical_words": 9814,
+  "scenes": 58,
+  "chapters": 11,
+  "model_sha256": {
+    "models/voices-v1.0.bin": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+    "models/kokoro-v1.0.onnx": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+    "models/faster-whisper-base.en/tokenizer.json": "929c5252409436dce1b38a75d1abbcb5e132d170d8e324e4e04ed915fa2d22df",
+    "models/faster-whisper-base.en/config.json": "f3bc3821e9fc76a27bae538e11ae5b677dcdd352b4600429ce7951d398569aeb",
+    "models/faster-whisper-base.en/model.bin": "2a166925539a16005f14ff328359f9b9adb9dc4fb631bb3b227526862e93e2ef",
+    "models/faster-whisper-base.en/vocabulary.txt": "ff77588746d3a2595d32ab5b69ffd7b95ce2441ac57533cb66fc3eb575a115cf"
+  },
+  "source_stage_qa": 565,
+  "actual_master_rendered": false
+}

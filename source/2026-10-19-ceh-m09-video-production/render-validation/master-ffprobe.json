@@ -1,0 +1,309 @@
+{
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 1920,
+      "height": 1080,
+      "coded_width": 1920,
+      "coded_height": 1088,
+      "closed_captions": 0,
+      "film_grain": 0,
+      "has_b_frames": 0,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "16:9",
+      "pix_fmt": "yuv420p",
+      "level": 50,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "center",
+      "field_order": "progressive",
+      "refs": 5,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 323,
+      "start_time": "0.021029",
+      "duration_ts": 63993856,
+      "duration": "4166.266667",
+      "bit_rate": "191273",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "124988",
+      "nb_read_frames": "124988",
+      "extradata_size": 52,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]",
+        "encoder": "Lavc60.31.102 libx264"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 199980768,
+      "duration": "4166.266000",
+      "bit_rate": "180258",
+      "nb_frames": "195295",
+      "nb_read_frames": "195294",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    },
+    {
+      "index": 2,
+      "codec_name": "bin_data",
+      "codec_long_name": "binary data",
+      "codec_type": "data",
+      "codec_tag_string": "text",
+      "codec_tag": "0x74786574",
+      "id": "0x3",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/1000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 4166267,
+      "duration": "4166.267000",
+      "bit_rate": "1",
+      "nb_frames": "11",
+      "extradata_size": 63,
+      "disposition": {
+        "default": 0,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0
+      },
+      "tags": {
+        "language": "eng",
+        "handler_name": "SubtitleHandler"
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": 0,
+      "time_base": "1/1000",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 320567,
+      "end_time": "320.567000",
+      "tags": {
+        "title": "C01 The Northstar trust mission"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/1000",
+      "start": 320567,
+      "start_time": "320.567000",
+      "end": 631033,
+      "end_time": "631.033000",
+      "tags": {
+        "title": "C02 Influence and decision pressure"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/1000",
+      "start": 631033,
+      "start_time": "631.033000",
+      "end": 1018167,
+      "end_time": "1018.167000",
+      "tags": {
+        "title": "C03 Human-based techniques"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/1000",
+      "start": 1018167,
+      "start_time": "1018.167000",
+      "end": 1415933,
+      "end_time": "1415.933000",
+      "tags": {
+        "title": "C04 Email and computer-based techniques"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/1000",
+      "start": 1415933,
+      "start_time": "1415.933000",
+      "end": 1730000,
+      "end_time": "1730.000000",
+      "tags": {
+        "title": "C05 Voice, mobile and social channels"
+      }
+    },
+    {
+      "id": 5,
+      "time_base": "1/1000",
+      "start": 1730000,
+      "start_time": "1730.000000",
+      "end": 2056500,
+      "end_time": "2056.500000",
+      "tags": {
+        "title": "C06 Identity, insiders and account recovery"
+      }
+    },
+    {
+      "id": 6,
+      "time_base": "1/1000",
+      "start": 2056500,
+      "start_time": "2056.500000",
+      "end": 2395333,
+      "end_time": "2395.333000",
+      "tags": {
+        "title": "C07 Governed assessments and tool roles"
+      }
+    },
+    {
+      "id": 7,
+      "time_base": "1/1000",
+      "start": 2395333,
+      "start_time": "2395.333000",
+      "end": 2725200,
+      "end_time": "2725.200000",
+      "tags": {
+        "title": "C08 Detection, evidence and response"
+      }
+    },
+    {
+      "id": 8,
+      "time_base": "1/1000",
+      "start": 2725200,
+      "start_time": "2725.200000",
+      "end": 3118600,
+      "end_time": "3118.600000",
+      "tags": {
+        "title": "C09 Four Northstar connected cases"
+      }
+    },
+    {
+      "id": 9,
+      "time_base": "1/1000",
+      "start": 3118600,
+      "start_time": "3118.600000",
+      "end": 3459233,
+      "end_time": "3459.233000",
+      "tags": {
+        "title": "C10 Layered defenses, revalidation and AI"
+      }
+    },
+    {
+      "id": 10,
+      "time_base": "1/1000",
+      "start": 3459233,
+      "start_time": "3459.233000",
+      "end": 4166267,
+      "end_time": "4166.267000",
+      "tags": {
+        "title": "C11 Eight questions and a trust capstone"
+      }
+    }
+  ],
+  "format": {
+    "filename": "/home/jnlngx10/Videos/CEH_M09_v1_0/output/CEH_M09_Social_Engineering_en-US_1_5x_1s_master.mp4",
+    "nb_streams": 3,
+    "nb_programs": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "4166.287696",
+    "size": "197086894",
+    "bit_rate": "378441",
+    "probe_score": 100,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "title": "CEH M09 Social Engineering English Masterclass",
+      "encoder": "Lavf60.16.100"
+    }
+  }
+}

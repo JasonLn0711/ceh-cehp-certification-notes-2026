@@ -1,0 +1,21 @@
+{
+  "status": "actual_motion_diagnostics_context_reviewed",
+  "helper_version": "0.8.173",
+  "render_version": "0.8.173",
+  "duration": 4166.266666667,
+  "total_tweens": 21399,
+  "mapped_tweens": 3207,
+  "flag_counts": {
+    "collision": 2693,
+    "paced-slow": 141
+  },
+  "source_travel_moves": 43,
+  "source_clock_drivers": 4,
+  "helper_paced_entries": {
+    "clock_driver": 12,
+    "finite_paper_travel": 129
+  },
+  "flagged_entries_with_all_samples_hidden": 800,
+  "dead_zone_advisories": 191,
+  "acceptance": "Retain all heuristic findings; chapter/root checks and sampled native/encoded review establish their separate scopes. Full human viewing/listening remains open."
+}

@@ -1,0 +1,334 @@
+{
+  "status": "sampled_visual_checks_passed",
+  "reason": "Every complete non-quiz diagram is sampled four seconds before its scene end, supplementing progressive midpoint samples.",
+  "master_sha256": "0fa72ba7fc562f0b9afa1fbf53aabf35dcb8536b33a90436ce5c8e1a7c4e7fc1",
+  "count": 54,
+  "samples": [
+    {
+      "scene": "S01",
+      "time": 62.16666666666667,
+      "local_time": 62.16666666666667,
+      "file": "S01-late.png"
+    },
+    {
+      "scene": "S02",
+      "time": 122.80000000000001,
+      "local_time": 56.63333333333333,
+      "file": "S02-late.png"
+    },
+    {
+      "scene": "S03",
+      "time": 185.5,
+      "local_time": 58.7,
+      "file": "S03-late.png"
+    },
+    {
+      "scene": "S04",
+      "time": 255.3,
+      "local_time": 65.8,
+      "file": "S04-late.png"
+    },
+    {
+      "scene": "S05",
+      "time": 316.56666666666666,
+      "local_time": 57.266666666666666,
+      "file": "S05-late.png"
+    },
+    {
+      "scene": "S06",
+      "time": 377.3333333333333,
+      "local_time": 56.766666666666666,
+      "file": "S06-late.png"
+    },
+    {
+      "scene": "S07",
+      "time": 437.76666666666665,
+      "local_time": 56.43333333333333,
+      "file": "S07-late.png"
+    },
+    {
+      "scene": "S08",
+      "time": 499.5,
+      "local_time": 57.733333333333334,
+      "file": "S08-late.png"
+    },
+    {
+      "scene": "S09",
+      "time": 563.0333333333333,
+      "local_time": 59.53333333333333,
+      "file": "S09-late.png"
+    },
+    {
+      "scene": "S10",
+      "time": 627.0333333333333,
+      "local_time": 60.0,
+      "file": "S10-late.png"
+    },
+    {
+      "scene": "S11",
+      "time": 689.0,
+      "local_time": 57.96666666666667,
+      "file": "S11-late.png"
+    },
+    {
+      "scene": "S12",
+      "time": 754.7,
+      "local_time": 61.7,
+      "file": "S12-late.png"
+    },
+    {
+      "scene": "S13",
+      "time": 820.6666666666667,
+      "local_time": 61.96666666666667,
+      "file": "S13-late.png"
+    },
+    {
+      "scene": "S14",
+      "time": 884.1666666666667,
+      "local_time": 59.5,
+      "file": "S14-late.png"
+    },
+    {
+      "scene": "S15",
+      "time": 949.2333333333333,
+      "local_time": 61.06666666666666,
+      "file": "S15-late.png"
+    },
+    {
+      "scene": "S16",
+      "time": 1014.1666666666667,
+      "local_time": 60.93333333333334,
+      "file": "S16-late.png"
+    },
+    {
+      "scene": "S17",
+      "time": 1078.6333333333334,
+      "local_time": 60.46666666666667,
+      "file": "S17-late.png"
+    },
+    {
+      "scene": "S18",
+      "time": 1148.4333333333334,
+      "local_time": 65.8,
+      "file": "S18-late.png"
+    },
+    {
+      "scene": "S19",
+      "time": 1210.9333333333334,
+      "local_time": 58.5,
+      "file": "S19-late.png"
+    },
+    {
+      "scene": "S20",
+      "time": 1282.0666666666668,
+      "local_time": 67.13333333333334,
+      "file": "S20-late.png"
+    },
+    {
+      "scene": "S21",
+      "time": 1349.0666666666668,
+      "local_time": 63.0,
+      "file": "S21-late.png"
+    },
+    {
+      "scene": "S22",
+      "time": 1411.9333333333334,
+      "local_time": 58.86666666666667,
+      "file": "S22-late.png"
+    },
+    {
+      "scene": "S23",
+      "time": 1474.3666666666668,
+      "local_time": 58.43333333333333,
+      "file": "S23-late.png"
+    },
+    {
+      "scene": "S24",
+      "time": 1536.3333333333335,
+      "local_time": 57.96666666666667,
+      "file": "S24-late.png"
+    },
+    {
+      "scene": "S25",
+      "time": 1599.7333333333336,
+      "local_time": 59.4,
+      "file": "S25-late.png"
+    },
+    {
+      "scene": "S26",
+      "time": 1665.2000000000003,
+      "local_time": 61.46666666666667,
+      "file": "S26-late.png"
+    },
+    {
+      "scene": "S27",
+      "time": 1726.0000000000002,
+      "local_time": 56.8,
+      "file": "S27-late.png"
+    },
+    {
+      "scene": "S28",
+      "time": 1790.166666666667,
+      "local_time": 60.16666666666667,
+      "file": "S28-late.png"
+    },
+    {
+      "scene": "S29",
+      "time": 1855.0000000000002,
+      "local_time": 60.83333333333333,
+      "file": "S29-late.png"
+    },
+    {
+      "scene": "S30",
+      "time": 1919.466666666667,
+      "local_time": 60.46666666666667,
+      "file": "S30-late.png"
+    },
+    {
+      "scene": "S31",
+      "time": 1988.0666666666668,
+      "local_time": 64.6,
+      "file": "S31-late.png"
+    },
+    {
+      "scene": "S32",
+      "time": 2052.5,
+      "local_time": 60.43333333333334,
+      "file": "S32-late.png"
+    },
+    {
+      "scene": "S33",
+      "time": 2117.3333333333335,
+      "local_time": 60.83333333333333,
+      "file": "S33-late.png"
+    },
+    {
+      "scene": "S34",
+      "time": 2185.7333333333336,
+      "local_time": 64.4,
+      "file": "S34-late.png"
+    },
+    {
+      "scene": "S35",
+      "time": 2258.5333333333338,
+      "local_time": 68.8,
+      "file": "S35-late.png"
+    },
+    {
+      "scene": "S36",
+      "time": 2325.066666666667,
+      "local_time": 62.53333333333333,
+      "file": "S36-late.png"
+    },
+    {
+      "scene": "S37",
+      "time": 2391.333333333334,
+      "local_time": 62.266666666666666,
+      "file": "S37-late.png"
+    },
+    {
+      "scene": "S38",
+      "time": 2456.2666666666673,
+      "local_time": 60.93333333333334,
+      "file": "S38-late.png"
+    },
+    {
+      "scene": "S39",
+      "time": 2521.466666666667,
+      "local_time": 61.2,
+      "file": "S39-late.png"
+    },
+    {
+      "scene": "S40",
+      "time": 2589.3666666666672,
+      "local_time": 63.900000000000006,
+      "file": "S40-late.png"
+    },
+    {
+      "scene": "S41",
+      "time": 2656.2666666666673,
+      "local_time": 62.900000000000006,
+      "file": "S41-late.png"
+    },
+    {
+      "scene": "S42",
+      "time": 2721.2000000000007,
+      "local_time": 60.93333333333334,
+      "file": "S42-late.png"
+    },
+    {
+      "scene": "S43",
+      "time": 2787.0666666666675,
+      "local_time": 61.86666666666666,
+      "file": "S43-late.png"
+    },
+    {
+      "scene": "S44",
+      "time": 2855.7000000000007,
+      "local_time": 64.63333333333334,
+      "file": "S44-late.png"
+    },
+    {
+      "scene": "S45",
+      "time": 2919.2666666666673,
+      "local_time": 59.56666666666667,
+      "file": "S45-late.png"
+    },
+    {
+      "scene": "S46",
+      "time": 2982.233333333334,
+      "local_time": 58.96666666666667,
+      "file": "S46-late.png"
+    },
+    {
+      "scene": "S47",
+      "time": 3046.9000000000005,
+      "local_time": 60.66666666666667,
+      "file": "S47-late.png"
+    },
+    {
+      "scene": "S48",
+      "time": 3114.6000000000004,
+      "local_time": 63.7,
+      "file": "S48-late.png"
+    },
+    {
+      "scene": "S49",
+      "time": 3184.066666666667,
+      "local_time": 65.46666666666667,
+      "file": "S49-late.png"
+    },
+    {
+      "scene": "S50",
+      "time": 3254.9000000000005,
+      "local_time": 66.83333333333333,
+      "file": "S50-late.png"
+    },
+    {
+      "scene": "S51",
+      "time": 3322.6666666666674,
+      "local_time": 63.766666666666666,
+      "file": "S51-late.png"
+    },
+    {
+      "scene": "S52",
+      "time": 3388.9000000000005,
+      "local_time": 62.233333333333334,
+      "file": "S52-late.png"
+    },
+    {
+      "scene": "S53",
+      "time": 3455.233333333334,
+      "local_time": 62.33333333333333,
+      "file": "S53-late.png"
+    },
+    {
+      "scene": "S58",
+      "time": 4162.266666666667,
+      "local_time": 66.3,
+      "file": "S58-late.png"
+    }
+  ],
+  "review_record": "master-visual-review.md",
+  "scope": "All54actual complete non-quiz encoded frames inspected; full human viewing/listening remains separate."
+}

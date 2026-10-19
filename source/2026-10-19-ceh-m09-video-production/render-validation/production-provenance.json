@@ -1,0 +1,219 @@
+{
+  "module": "M09",
+  "source_zip_sha256": "36898c5e335adf24ff3bddabd9e9a952cd95c726f514fab654fd6486e1e5ac66",
+  "hyperframes": "0.8.173",
+  "node": "v24.22.0",
+  "python": "3.12.3",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5+esm15 Copyright (c) 2000-2023 the FFmpeg developers",
+  "files": [
+    {
+      "path": "scripts/align_parallel.py",
+      "sha256": "d52115b17b3a2d36726e68ad467077970bf3e4c7c1ed525717df0d0316d802c4"
+    },
+    {
+      "path": "scripts/art_common.py",
+      "sha256": "406e426969332a884ae88cc4bbde437cde288bbb8c864c380277f5036fa79f05"
+    },
+    {
+      "path": "scripts/asr_receipt.py",
+      "sha256": "18df4b52329750389932fb20a8e55f66b8a30e4c45913714ae336f583ed24543"
+    },
+    {
+      "path": "scripts/assemble_master.py",
+      "sha256": "781f64853eec9bb2365c2b7d8b54d4bb19239a404da68e8f65b07c02eea001b9"
+    },
+    {
+      "path": "scripts/assemble_project.py",
+      "sha256": "7bd11a9340ee4aacc2b0d55b113ff85a4e01fb94b408d8f4d5154500b78cba5a"
+    },
+    {
+      "path": "scripts/audit_animation_map.py",
+      "sha256": "417d88b758c3425923f9299ab3a246a1a33caf046b4a3b944e0c9f68a0b6de82"
+    },
+    {
+      "path": "scripts/audit_audio_clips.py",
+      "sha256": "68d68f53cdc0a40ffeee3d1c01f8ec7ea03f79534bda3c0956190a7e76a400fb"
+    },
+    {
+      "path": "scripts/audit_audio_continuity.py",
+      "sha256": "f64130df8715f2d6e1bf871b5f43351201ec3945db5cdcd7a37962d49168ab3a"
+    },
+    {
+      "path": "scripts/audit_rendered.py",
+      "sha256": "b399fdb4c191d1233131ec9d2f471bbcb86156dae4dbe57c7b0ed57b43bd4c66"
+    },
+    {
+      "path": "scripts/audit_scene_seek_stage.py",
+      "sha256": "3c61eb092962914d26cd2274ccbebd4ad8caa8de9df75994a5134543daa43a92"
+    },
+    {
+      "path": "scripts/build_film.py",
+      "sha256": "b2a3042839e41c4af6027fe899e12345d56c05055f7ad22a321d1f26f121e576"
+    },
+    {
+      "path": "scripts/capture_late_diagrams.py",
+      "sha256": "e528406c8c8a89ffc46523470e2f48e55f62216ee2fa9aa0617df1db6ee96fcf"
+    },
+    {
+      "path": "scripts/chapter.py",
+      "sha256": "7a96d74a67b158925b0469aa5f2b7043d4066a3f429e9658c223d6cce394c36f"
+    },
+    {
+      "path": "scripts/contact_native.py",
+      "sha256": "39183cc12d3d11ca669666972972a6cf5255c0af250f1d972f1c6f37717f7fab"
+    },
+    {
+      "path": "scripts/contact_sheet.py",
+      "sha256": "4561d2986ee5d95ef82e062b758236a153645c3d8e84973d5b502ed57fdf7295"
+    },
+    {
+      "path": "scripts/editorial.py",
+      "sha256": "1484123e97174c0a46f9366f6691fd250bef9dd5daa6964f9e8af743fc6dd40d"
+    },
+    {
+      "path": "scripts/export_metadata.py",
+      "sha256": "d6efd44fbe58325d4221b630d44fa8844e73ddf07bc2e40e24129fb9214cff68"
+    },
+    {
+      "path": "scripts/final_pipeline.py",
+      "sha256": "4a545a80b1452f21d735b321e1a27a6393c78bc467bdb7508f2e6a3d43fd1678"
+    },
+    {
+      "path": "scripts/force_align.py",
+      "sha256": "b7b4ab931db0aac8135324872499fbbd105d1e3f1d7990f0679a59369ca68e5b"
+    },
+    {
+      "path": "scripts/launch_stage.py",
+      "sha256": "c2680eae39d04064ebc734eb609aa5ab67de8a17c5c0e4bf5be41ded8fd96e8a"
+    },
+    {
+      "path": "scripts/make_audio_review.py",
+      "sha256": "e53c40e010b255145cb5d8329a18a043e9d7c1e017491db24e1f035ce1a4ca5b"
+    },
+    {
+      "path": "scripts/measure_speech.py",
+      "sha256": "8e6729ab8f1727431958c99c5590b841395de685613aaeedded4c703dde04804"
+    },
+    {
+      "path": "scripts/narrate_parallel.py",
+      "sha256": "96872753e56dd568c0bb8cb84b37486e2c701e265256b0fb673c35ff6ba88c7d"
+    },
+    {
+      "path": "scripts/package_delivery.py",
+      "sha256": "4621b456b856ee426a980d0601180f5fe5773ada8f0c13915dcff19bdc429bed"
+    },
+    {
+      "path": "scripts/post_audio.py",
+      "sha256": "b495aa7ed741d779da3427c439792dc66939c79ab2c065dfd442145a2c10ae2f"
+    },
+    {
+      "path": "scripts/post_master.py",
+      "sha256": "3aecbbac6f8432c182323257ffc7fbf4cefbda5bc815db47bb9c4079ff5d82b0"
+    },
+    {
+      "path": "scripts/post_root_checks.py",
+      "sha256": "214dcdf7ea46d0c9d1a37574e102797bc5782b1b0bf4aa9b910a36e51ab85be0"
+    },
+    {
+      "path": "scripts/prepare_master.py",
+      "sha256": "5948d2921f3e94be5bb0fd4e201aa166f80197261a1cdf0341054fa94c7b7c87"
+    },
+    {
+      "path": "scripts/production_settings.py",
+      "sha256": "6bf6cf97ad9ed65fb48a68c1e1fc52b0e0c8e35a144433cc0d10a2b1d6d2ccb2"
+    },
+    {
+      "path": "scripts/recognition_audit.py",
+      "sha256": "58158f21bcc0d9a78e221982397fec91522dd96636a22785b50cafadb2d846f4"
+    },
+    {
+      "path": "scripts/recognize_parallel.py",
+      "sha256": "c4f22db6cf40d6fd841b312776da7dbf74fd92227209c70c9d658464d32c2530"
+    },
+    {
+      "path": "scripts/render_remaining.py",
+      "sha256": "5eba9d4b6d3c59ce0b63a1473b31f676f6c464a502def081ef107c93fda437aa"
+    },
+    {
+      "path": "scripts/revalidate_source.py",
+      "sha256": "2e74d2b2f11ebe037eac7aa7a11169fd3af6bb3a9ea8f1b6f13701f5110171ca"
+    },
+    {
+      "path": "scripts/review_audio.py",
+      "sha256": "b001d0e07c310b3ac10796759683cbef4ca5f1c3e3b0cca6c2c2a56482fe7f29"
+    },
+    {
+      "path": "scripts/run_stage.py",
+      "sha256": "d68673f161f0ed7706c23938c8d0e9da17858469ada34a2b3327c90f323c6c8d"
+    },
+    {
+      "path": "scripts/scene_art.py",
+      "sha256": "458055d3b154e90bc561bf307a4a1c60a28ef6652775d824c27c4f8e2af69635"
+    },
+    {
+      "path": "scripts/sync_storyboard.py",
+      "sha256": "4217f8ae96ab3d47491150c6e8cdadc662327e38ab57f545d0bd2d7ca3fc4a55"
+    },
+    {
+      "path": "scripts/synthesize.py",
+      "sha256": "262f655539e587f79711d1a5564a01004dcf492414ffa2fdfaece57293b0213f"
+    },
+    {
+      "path": "scripts/validate_delivery.py",
+      "sha256": "e5282a3f749de578c8b77f8ad6cdab63e12504418a5ebef0f49d8ee349c208e1"
+    },
+    {
+      "path": "scripts/write_media_ledger.py",
+      "sha256": "f877e6bb40e3d8f02fd1a00dc17b96a6c901c95467d7042384dd8f0978e40813"
+    },
+    {
+      "path": "scripts/write_project_state.py",
+      "sha256": "fb5f7a8a1206c5638f3c369da03587c9ec865d076c4a43af6207f17e60a5417f"
+    },
+    {
+      "path": "scripts/write_render_report.py",
+      "sha256": "ef4b6e8e526d11f5ad9a38def983685223dc159e41fbe73dde91079288ffb51e"
+    },
+    {
+      "path": "scripts/audit_quiz.mjs",
+      "sha256": "e4c965052dc9899dd504e8d7864bb0a08ae5d53f6f1cd77f42e3c29219853e50"
+    },
+    {
+      "path": "scripts/audit_scene_seek.mjs",
+      "sha256": "fc040082bec8991a7f70524894408bc868afd0fdab1edf1a69f48a6491cbe9c8"
+    },
+    {
+      "path": "scripts/inspect_direct.mjs",
+      "sha256": "21c604cb6361a8b6d029ab920f76201fff94f764fad8b0d211e886297211ce72"
+    },
+    {
+      "path": "scripts/inspect_scene.mjs",
+      "sha256": "26d1555c29eca366889357105c0d193f0df157d2e1ff5b2b20321a5305d34844"
+    },
+    {
+      "path": "scripts/cues_m09.json",
+      "sha256": "c9988a379a28b6b3986098eb909317f0cccb8a1eeba75f70c9c90273db690c41"
+    },
+    {
+      "path": "package.json",
+      "sha256": "26b114cf8a42185e0430bf79bb0aa7cd4fc6a90bf5b262d646e049c011c0e64c"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "f6713f33d07ebe42b8cdb7bba9c19e8b04fddbe1d3d269b4c49533e44aae6ffc"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "sha256": "7b55433a477d75b4cddfd37664abca65b104fee6723db936d17a3ea7740c5c74"
+    },
+    {
+      "path": "data/production-overrides.json",
+      "sha256": "a0ce8b8ca3dd9d603430b768f2196711f39940df46afa808e6e1cae926c1d22f"
+    },
+    {
+      "path": "data/voice-calibration.json",
+      "sha256": "3cc90a8e24a583895bf0aa35e869eb30ef6cc35f9317cefccd009639200211c9"
+    }
+  ],
+  "scope": "Actual production implementation and pinned runtime identity; media payloads have separate delivery/extraction manifests."
+}

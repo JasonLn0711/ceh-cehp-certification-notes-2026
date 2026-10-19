@@ -1,0 +1,712 @@
+{
+  "duration": 4166.266666666667,
+  "frames": 124988,
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "The Northstar trust mission",
+      "start": 0,
+      "duration": 320.56666666666666
+    },
+    {
+      "id": "C02",
+      "title": "Influence and decision pressure",
+      "start": 320.56666666666666,
+      "duration": 310.4666666666667
+    },
+    {
+      "id": "C03",
+      "title": "Human-based techniques",
+      "start": 631.0333333333333,
+      "duration": 387.1333333333333
+    },
+    {
+      "id": "C04",
+      "title": "Email and computer-based techniques",
+      "start": 1018.1666666666667,
+      "duration": 397.76666666666665
+    },
+    {
+      "id": "C05",
+      "title": "Voice, mobile and social channels",
+      "start": 1415.9333333333334,
+      "duration": 314.06666666666666
+    },
+    {
+      "id": "C06",
+      "title": "Identity, insiders and account recovery",
+      "start": 1730.0000000000002,
+      "duration": 326.5
+    },
+    {
+      "id": "C07",
+      "title": "Governed assessments and tool roles",
+      "start": 2056.5,
+      "duration": 338.83333333333337
+    },
+    {
+      "id": "C08",
+      "title": "Detection, evidence and response",
+      "start": 2395.333333333334,
+      "duration": 329.8666666666667
+    },
+    {
+      "id": "C09",
+      "title": "Four Northstar connected cases",
+      "start": 2725.2000000000007,
+      "duration": 393.4
+    },
+    {
+      "id": "C10",
+      "title": "Layered defenses, revalidation and AI",
+      "start": 3118.6000000000004,
+      "duration": 340.6333333333333
+    },
+    {
+      "id": "C11",
+      "title": "Eight questions and a trust capstone",
+      "start": 3459.233333333334,
+      "duration": 707.0333333333332
+    }
+  ],
+  "scenes": [
+    {
+      "scene": "S01",
+      "chapter": "C01",
+      "start": 0,
+      "duration": 66.16666666666667,
+      "peak": 0.69256591796875,
+      "rms_dbfs": -26.086203901681692,
+      "audio_sha256": "477c8f3f781813db1a2857148ce9fd3896554029286a64f32c5bdadef3c0681e",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S02",
+      "chapter": "C01",
+      "start": 66.16666666666667,
+      "duration": 60.63333333333333,
+      "peak": 0.5841064453125,
+      "rms_dbfs": -26.00191326283369,
+      "audio_sha256": "7cc154f8c3ac4c99c8d2995396e5c6cb240c24e5d418216d895aa4276184d7c4",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S03",
+      "chapter": "C01",
+      "start": 126.80000000000001,
+      "duration": 62.7,
+      "peak": 0.664093017578125,
+      "rms_dbfs": -26.16934153801763,
+      "audio_sha256": "62d923fe7e01b4bfa4553cc86bb03a85b58514da705594ce678d9f727a12a6d1",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S04",
+      "chapter": "C01",
+      "start": 189.5,
+      "duration": 69.8,
+      "peak": 0.52899169921875,
+      "rms_dbfs": -25.881205070029335,
+      "audio_sha256": "a62a9b5ab9d827773c69f6a2dfbe2765d00c5653ab6b52a3a8d501853395ce0d",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S05",
+      "chapter": "C01",
+      "start": 259.3,
+      "duration": 61.266666666666666,
+      "peak": 0.60198974609375,
+      "rms_dbfs": -26.08462917952572,
+      "audio_sha256": "495883af97ef7177c9f64f981e280a5d6482e6989b75eca27dd49ab3e9272b60",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S06",
+      "chapter": "C02",
+      "start": 320.56666666666666,
+      "duration": 60.766666666666666,
+      "peak": 0.58367919921875,
+      "rms_dbfs": -26.092520990713112,
+      "audio_sha256": "76ab1c3d62d044b53c62a38effb205cdd4007b6aab7251d03b17579a70fb3dee",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S07",
+      "chapter": "C02",
+      "start": 381.3333333333333,
+      "duration": 60.43333333333333,
+      "peak": 0.595947265625,
+      "rms_dbfs": -25.999752833607698,
+      "audio_sha256": "81702dfea358f6b97ede1ce4efefbd9f1cad5005ed1a828fd8da95d4821a4e72",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S08",
+      "chapter": "C02",
+      "start": 441.76666666666665,
+      "duration": 61.733333333333334,
+      "peak": 0.640869140625,
+      "rms_dbfs": -25.948787557187487,
+      "audio_sha256": "1ba950dae07b6a8ec602d3fe92d9ceb0479a96367b9e1a2d69470ac1f7cd9179",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S09",
+      "chapter": "C02",
+      "start": 503.5,
+      "duration": 63.53333333333333,
+      "peak": 0.493316650390625,
+      "rms_dbfs": -25.82728954110666,
+      "audio_sha256": "63d3c3a78bbe75deaed693b467275c8254c16f94d0f6a5da758bd4d8c6bc145e",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S10",
+      "chapter": "C02",
+      "start": 567.0333333333333,
+      "duration": 64.0,
+      "peak": 0.521881103515625,
+      "rms_dbfs": -25.902141512023565,
+      "audio_sha256": "3bc7d3cf0d10254a20febc62299485f4833120a46bb84baf14bcd2c2dd74c59e",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S11",
+      "chapter": "C03",
+      "start": 631.0333333333333,
+      "duration": 61.96666666666667,
+      "peak": 0.549713134765625,
+      "rms_dbfs": -25.91336344917318,
+      "audio_sha256": "2a5ad7e342da894f6cbaee096e11ce2cc0b34e6e4a9a15b6b545361841a482d2",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S12",
+      "chapter": "C03",
+      "start": 693.0,
+      "duration": 65.7,
+      "peak": 0.49871826171875,
+      "rms_dbfs": -25.90760633177405,
+      "audio_sha256": "c05beb9ec40d8905109d8c20f70200dfbfe91005a94cd4fe729e459b1f081e52",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S13",
+      "chapter": "C03",
+      "start": 758.7,
+      "duration": 65.96666666666667,
+      "peak": 0.546142578125,
+      "rms_dbfs": -25.968476408600804,
+      "audio_sha256": "a09c70c681930a6618f893a0d048de1899065093f4c29d387609ffca62513c39",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S14",
+      "chapter": "C03",
+      "start": 824.6666666666667,
+      "duration": 63.5,
+      "peak": 0.54901123046875,
+      "rms_dbfs": -26.01513147190021,
+      "audio_sha256": "a11c0bf8855251ddff4fcd47a61079c3dafc061f447e914f96413522cfb7699f",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S15",
+      "chapter": "C03",
+      "start": 888.1666666666667,
+      "duration": 65.06666666666666,
+      "peak": 0.64910888671875,
+      "rms_dbfs": -25.97164879703599,
+      "audio_sha256": "79b9d5c37eb0ccf652463a09a042e0e9743a8fbd6d4a6befa9911a2af0906f3f",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S16",
+      "chapter": "C03",
+      "start": 953.2333333333333,
+      "duration": 64.93333333333334,
+      "peak": 0.53924560546875,
+      "rms_dbfs": -25.96700838068496,
+      "audio_sha256": "818ef34c5956d7f32c13948dfcfa416aee3cdf278a704575fed0585a6d8880c8",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S17",
+      "chapter": "C04",
+      "start": 1018.1666666666667,
+      "duration": 64.46666666666667,
+      "peak": 0.612335205078125,
+      "rms_dbfs": -25.9931543586034,
+      "audio_sha256": "da3fc1475606169298ea707a814c1b5a2758eef708cf672165934aaf689a3569",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S18",
+      "chapter": "C04",
+      "start": 1082.6333333333334,
+      "duration": 69.8,
+      "peak": 0.603515625,
+      "rms_dbfs": -25.920344586419702,
+      "audio_sha256": "7c969ee867ca51f28d5ed58ddbaaaf4db3c8624ffdfcf3741be766a01f3cb128",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S19",
+      "chapter": "C04",
+      "start": 1152.4333333333334,
+      "duration": 62.5,
+      "peak": 0.51788330078125,
+      "rms_dbfs": -25.98135931605047,
+      "audio_sha256": "bc1b3f962da9d59fd38e32e608eb03cf5bb837e58d13b216af4d29c8309528fd",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S20",
+      "chapter": "C04",
+      "start": 1214.9333333333334,
+      "duration": 71.13333333333334,
+      "peak": 0.560699462890625,
+      "rms_dbfs": -25.908941649094857,
+      "audio_sha256": "f0359c6cffdfeb0d397ae5d037e87a992fe59519729df54d17ed4089f08a6518",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S21",
+      "chapter": "C04",
+      "start": 1286.0666666666668,
+      "duration": 67.0,
+      "peak": 0.663665771484375,
+      "rms_dbfs": -25.916581807515115,
+      "audio_sha256": "869d4d3794dde5d8c7d5187b524bc51381e54e13213398b22d9c232d6ca2faeb",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S22",
+      "chapter": "C04",
+      "start": 1353.0666666666668,
+      "duration": 62.86666666666667,
+      "peak": 0.5218505859375,
+      "rms_dbfs": -25.976771543695424,
+      "audio_sha256": "62a80cbfdaac4d82e406bb254c71dca58fc01ba9a2e9288712c35727d5d4e507",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S23",
+      "chapter": "C05",
+      "start": 1415.9333333333334,
+      "duration": 62.43333333333333,
+      "peak": 0.577056884765625,
+      "rms_dbfs": -25.94260587375895,
+      "audio_sha256": "e4c2f456761eca522e3fc431ae1200aca1c7a4fd8c1282fef04f29b932e898fc",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S24",
+      "chapter": "C05",
+      "start": 1478.3666666666668,
+      "duration": 61.96666666666667,
+      "peak": 0.53564453125,
+      "rms_dbfs": -25.957309698523346,
+      "audio_sha256": "1cdd46ba1478f1070567cf49dee7bbb8f9f983294b718218f69176704a70bb4d",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S25",
+      "chapter": "C05",
+      "start": 1540.3333333333335,
+      "duration": 63.4,
+      "peak": 0.5201416015625,
+      "rms_dbfs": -25.94920884922746,
+      "audio_sha256": "365572d59960dbbef7088ec8a8e63eebc104dbc5c40067fdd4591751864abb2e",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S26",
+      "chapter": "C05",
+      "start": 1603.7333333333336,
+      "duration": 65.46666666666667,
+      "peak": 0.6640625,
+      "rms_dbfs": -26.09465348865485,
+      "audio_sha256": "54a50f8fd61612b0468f28984f9c2ed2a8a8241f84ba704a2c69dd6a9b75faa6",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S27",
+      "chapter": "C05",
+      "start": 1669.2000000000003,
+      "duration": 60.8,
+      "peak": 0.471435546875,
+      "rms_dbfs": -25.961278446436115,
+      "audio_sha256": "95697c4bb9d81350f984c8834636a10e09ea834f08ce39df7ca03c7e746d1b76",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S28",
+      "chapter": "C06",
+      "start": 1730.0000000000002,
+      "duration": 64.16666666666667,
+      "peak": 0.51055908203125,
+      "rms_dbfs": -25.911533460239397,
+      "audio_sha256": "cf2c5838c32a87f92294de61474a62446c471164787a24f93812c309c6abf457",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S29",
+      "chapter": "C06",
+      "start": 1794.166666666667,
+      "duration": 64.83333333333333,
+      "peak": 0.57012939453125,
+      "rms_dbfs": -25.91474927631029,
+      "audio_sha256": "d2b80f224f28ea3ceb4f82c025707836ef63cd2f12867b71a71e5bebb681175b",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S30",
+      "chapter": "C06",
+      "start": 1859.0000000000002,
+      "duration": 64.46666666666667,
+      "peak": 0.475555419921875,
+      "rms_dbfs": -25.88917486654833,
+      "audio_sha256": "47776dc9e2db13f804c2ba56ab89db70658e3105c923e155775c1513440ab8ce",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S31",
+      "chapter": "C06",
+      "start": 1923.466666666667,
+      "duration": 68.6,
+      "peak": 0.536376953125,
+      "rms_dbfs": -25.876719703364103,
+      "audio_sha256": "4112968eca8ece395364619ba2178ce7e055ca0eab51e954b6104d39b8a03bf5",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S32",
+      "chapter": "C06",
+      "start": 1992.0666666666668,
+      "duration": 64.43333333333334,
+      "peak": 0.522613525390625,
+      "rms_dbfs": -25.89342936621378,
+      "audio_sha256": "f816e2db6acb043b880600e304b89a812801e185b8ac57a2073a2929619b4303",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S33",
+      "chapter": "C07",
+      "start": 2056.5,
+      "duration": 64.83333333333333,
+      "peak": 0.55535888671875,
+      "rms_dbfs": -25.914835865248037,
+      "audio_sha256": "5f463b2bba6d071a307cdd09b4cabd73abd31a7bd9b7f27e85aa737ce3bcb00d",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S34",
+      "chapter": "C07",
+      "start": 2121.3333333333335,
+      "duration": 68.4,
+      "peak": 0.619659423828125,
+      "rms_dbfs": -25.84444983567213,
+      "audio_sha256": "0a0df6987541496005341a8cb587adde00f19c0f2738ed7b05919e6d9368fb9c",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S35",
+      "chapter": "C07",
+      "start": 2189.7333333333336,
+      "duration": 72.8,
+      "peak": 0.67669677734375,
+      "rms_dbfs": -26.111080031066834,
+      "audio_sha256": "0c9b2630bbe88f5800ed19a79b489c10314bbe1c5846d31a66243f8eb6d7ce48",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S36",
+      "chapter": "C07",
+      "start": 2262.5333333333338,
+      "duration": 66.53333333333333,
+      "peak": 0.57733154296875,
+      "rms_dbfs": -25.982098196591057,
+      "audio_sha256": "f74e0272a9382b2988e8f61a4c68c2d51d45d8686283d6f0862a05599e69c211",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S37",
+      "chapter": "C07",
+      "start": 2329.066666666667,
+      "duration": 66.26666666666667,
+      "peak": 0.621429443359375,
+      "rms_dbfs": -25.882179568560435,
+      "audio_sha256": "b4c3e84a304562495c160a58f7d35214f0e3163812600f7e55856481c1c850c3",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S38",
+      "chapter": "C08",
+      "start": 2395.333333333334,
+      "duration": 64.93333333333334,
+      "peak": 0.554412841796875,
+      "rms_dbfs": -25.807056292636148,
+      "audio_sha256": "da7d069c446653e5d20ac5198beb86fb192e9e0c7331c7f62dd60b1a0d6c0e64",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S39",
+      "chapter": "C08",
+      "start": 2460.2666666666673,
+      "duration": 65.2,
+      "peak": 0.663665771484375,
+      "rms_dbfs": -26.03455860201408,
+      "audio_sha256": "66dd61378e54bc497b997cd72626b9928bebc58c0b433eaccad95aa6e37137e0",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S40",
+      "chapter": "C08",
+      "start": 2525.466666666667,
+      "duration": 67.9,
+      "peak": 0.628875732421875,
+      "rms_dbfs": -26.02384539043806,
+      "audio_sha256": "f1df80a58874b64dc165ae1579b60be0f936479d0558df36b194b3199f180bf6",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S41",
+      "chapter": "C08",
+      "start": 2593.3666666666672,
+      "duration": 66.9,
+      "peak": 0.6019287109375,
+      "rms_dbfs": -25.84043517991934,
+      "audio_sha256": "5eb4fce2919bc8d656c7abd75becf1958b7bc2aa4a1a3bb30a18f38c04edefc7",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S42",
+      "chapter": "C08",
+      "start": 2660.2666666666673,
+      "duration": 64.93333333333334,
+      "peak": 0.606170654296875,
+      "rms_dbfs": -25.922114917001643,
+      "audio_sha256": "fc1210f5e93222badccd8ad88a77b191f8e5320ad3ea9884586d37fbb502fbbe",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S43",
+      "chapter": "C09",
+      "start": 2725.2000000000007,
+      "duration": 65.86666666666666,
+      "peak": 0.66259765625,
+      "rms_dbfs": -26.025851456872275,
+      "audio_sha256": "71999da433f0768d4801c6032ae443131126862b3cd34a5a45391b71c2375c6c",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S44",
+      "chapter": "C09",
+      "start": 2791.0666666666675,
+      "duration": 68.63333333333334,
+      "peak": 0.61993408203125,
+      "rms_dbfs": -25.8707543178539,
+      "audio_sha256": "48bc4c8c09c2ed8f0d5dd64cfda17c5820a7a7e0c6a281ea0c8c9f1296aa997d",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S45",
+      "chapter": "C09",
+      "start": 2859.7000000000007,
+      "duration": 63.56666666666667,
+      "peak": 0.557891845703125,
+      "rms_dbfs": -25.891286812267985,
+      "audio_sha256": "2cbbfe84abcdd02b4dc06ebc3b21713315dc6584f2c3fc5f73ed0429a059d2d5",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S46",
+      "chapter": "C09",
+      "start": 2923.2666666666673,
+      "duration": 62.96666666666667,
+      "peak": 0.664276123046875,
+      "rms_dbfs": -25.93947085617704,
+      "audio_sha256": "8c79ee82ba4065231271f60a7095e870e2e79a2a87e4e07d9cfac498063757b6",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S47",
+      "chapter": "C09",
+      "start": 2986.233333333334,
+      "duration": 64.66666666666667,
+      "peak": 0.672882080078125,
+      "rms_dbfs": -25.9001552201476,
+      "audio_sha256": "e61f01d18a794818edea1951a8331729175cf0a1ad75f4deae83f531b8b11adc",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S48",
+      "chapter": "C09",
+      "start": 3050.9000000000005,
+      "duration": 67.7,
+      "peak": 0.574005126953125,
+      "rms_dbfs": -25.8453646173381,
+      "audio_sha256": "0156fa1c69defcda2a2dc7566d5417e7f5b8b3fa0656b7fb94fac3a44222a6f3",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S49",
+      "chapter": "C10",
+      "start": 3118.6000000000004,
+      "duration": 69.46666666666667,
+      "peak": 0.548828125,
+      "rms_dbfs": -25.867814682746506,
+      "audio_sha256": "3131a871996cdcda845fdedf832eee885a273d3813dbc06debc3649f3a60d5d3",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S50",
+      "chapter": "C10",
+      "start": 3188.066666666667,
+      "duration": 70.83333333333333,
+      "peak": 0.557647705078125,
+      "rms_dbfs": -25.835521377416395,
+      "audio_sha256": "3efc80560081b330906067b0ab20666f1de3f7490c81d98b3529747aa30581fb",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S51",
+      "chapter": "C10",
+      "start": 3258.9000000000005,
+      "duration": 67.76666666666667,
+      "peak": 0.554718017578125,
+      "rms_dbfs": -25.970717849110642,
+      "audio_sha256": "3fd482574eac97fac39fd0ceff949ad380be756d892a12279f353f74caf43464",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S52",
+      "chapter": "C10",
+      "start": 3326.6666666666674,
+      "duration": 66.23333333333333,
+      "peak": 0.603118896484375,
+      "rms_dbfs": -25.937845698468855,
+      "audio_sha256": "11b9d084b1848dc1b8d556e20287038f5ac136ff632aaa915505486ba23894cc",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S53",
+      "chapter": "C10",
+      "start": 3392.9000000000005,
+      "duration": 66.33333333333333,
+      "peak": 0.5745849609375,
+      "rms_dbfs": -25.832449610159586,
+      "audio_sha256": "c2da6285f2227a411645cd0753fa9d664a2c0ae96fc48617ef47c31fbb13b583",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S54",
+      "chapter": "C11",
+      "start": 3459.233333333334,
+      "duration": 145.66666666666666,
+      "peak": 0.66424560546875,
+      "rms_dbfs": -26.026312533453172,
+      "audio_sha256": "8e43a8fc56506812dbf6ac30678cc3edca408ecd520e317826609a376095dfc5",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S55",
+      "chapter": "C11",
+      "start": 3604.9000000000005,
+      "duration": 157.63333333333333,
+      "peak": 0.663726806640625,
+      "rms_dbfs": -25.88304292590017,
+      "audio_sha256": "83ff98646ea86b70445a3a96067cffc9778dd3d20c5e566eac62c6903f2feddb",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S56",
+      "chapter": "C11",
+      "start": 3762.5333333333338,
+      "duration": 161.66666666666666,
+      "peak": 0.632080078125,
+      "rms_dbfs": -25.863094795733904,
+      "audio_sha256": "53d99cc4dd9d127b44efd659101ed92d5532e1c3ebbaa649b70081b794b3018b",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S57",
+      "chapter": "C11",
+      "start": 3924.2000000000003,
+      "duration": 171.76666666666668,
+      "peak": 0.58941650390625,
+      "rms_dbfs": -25.841196873537676,
+      "audio_sha256": "658eeb96764d85c9abbc7bca50f768011453844f714552dc83ed4bd16b186529",
+      "status": "rendered_and_automated_QA_passed"
+    },
+    {
+      "scene": "S58",
+      "chapter": "C11",
+      "start": 4095.966666666667,
+      "duration": 70.3,
+      "peak": 0.622039794921875,
+      "rms_dbfs": -25.869897281550895,
+      "audio_sha256": "824a83352e2e99c77cab508a58249c2c2430b1822ddc718af1e1df350ba5c8f7",
+      "status": "rendered_and_automated_QA_passed"
+    }
+  ],
+  "silences": [
+    {
+      "scene": "S54",
+      "start": 3480.738250000001,
+      "end": 3481.738250000001,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S54",
+      "start": 3549.933708333334,
+      "end": 3550.933708333334,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S55",
+      "start": 3627.463083333334,
+      "end": 3628.463083333334,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S55",
+      "start": 3703.029708333334,
+      "end": 3704.029708333334,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S56",
+      "start": 3787.9721250000002,
+      "end": 3788.9721250000002,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S56",
+      "start": 3865.77775,
+      "end": 3866.77775,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S57",
+      "start": 3953.776291666667,
+      "end": 3954.776291666667,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S57",
+      "start": 4037.2127083333335,
+      "end": 4038.2127083333335,
+      "samples": 48000,
+      "nonzero_samples": 0
+    }
+  ]
+}

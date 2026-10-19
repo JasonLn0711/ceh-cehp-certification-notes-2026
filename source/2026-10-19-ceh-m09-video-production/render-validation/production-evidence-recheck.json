@@ -1,0 +1,168 @@
+{
+  "stage": "offline_synthetic_evidence_verification",
+  "verified_at": "2026-10-19T08:17:27.379784+08:00",
+  "python": "3.12.3",
+  "passed": 36,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "file_identity:E01_payment_ticket.json",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E01_supplier_message.eml",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E01_supplier_record.json",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E02_call_transcript.md",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E02_directory_record.json",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E02_recovery_ticket.json",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E03_notice.md",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E03_portal_context.json",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E03_qr_code.svg",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E03_qr_payload.json",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E04_appointments.json",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E04_door_events.csv",
+      "passed": true
+    },
+    {
+      "name": "file_identity:E04_witness_report.md",
+      "passed": true
+    },
+    {
+      "name": "file_identity:assessment_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "email_label",
+      "passed": true
+    },
+    {
+      "name": "expected_from_address",
+      "passed": true
+    },
+    {
+      "name": "reserved_sender_domain",
+      "passed": true
+    },
+    {
+      "name": "authentication_result_stipulation",
+      "passed": true
+    },
+    {
+      "name": "changed_destination",
+      "passed": true
+    },
+    {
+      "name": "callback_not_independent",
+      "passed": true
+    },
+    {
+      "name": "payment_not_supplied",
+      "passed": true
+    },
+    {
+      "name": "payment_held",
+      "passed": true
+    },
+    {
+      "name": "pending_recovery",
+      "passed": true
+    },
+    {
+      "name": "recovery_contact_difference",
+      "passed": true
+    },
+    {
+      "name": "reset_and_session_unmeasured",
+      "passed": true
+    },
+    {
+      "name": "qr_reserved_destination",
+      "passed": true
+    },
+    {
+      "name": "qr_differs_from_known_portal",
+      "passed": true
+    },
+    {
+      "name": "qr_decoder_boundary",
+      "passed": true
+    },
+    {
+      "name": "no_collection_service",
+      "passed": true
+    },
+    {
+      "name": "one_badge_event",
+      "passed": true
+    },
+    {
+      "name": "entrants_not_inferred",
+      "passed": true
+    },
+    {
+      "name": "metric_population",
+      "passed": true
+    },
+    {
+      "name": "metric_actor_separation",
+      "passed": true
+    },
+    {
+      "name": "metric_reports",
+      "passed": true
+    },
+    {
+      "name": "metric_no_events_on_failed_delivery",
+      "passed": true
+    },
+    {
+      "name": "fixture_labels",
+      "passed": true
+    }
+  ],
+  "parsed_email": {
+    "from": "Cedar Teaching Supplies <supplier@cedar.example.test>",
+    "reply_to": "supplier@cedar.example.test",
+    "subject": "[SIMULATED OUTPUT] Supplier change request for review",
+    "authentication_results": "mail.northstar.example.test; spf=pass smtp.mailfrom=cedar.example.test; dkim=pass header.d=cedar.example.test; dmarc=pass header.from=cedar.example.test"
+  },
+  "metric_counts": {
+    "eligible": 20,
+    "delivered": 18,
+    "link_events": 6,
+    "stipulated_learner_events": 5,
+    "automated_events": 1,
+    "reports": 4
+  },
+  "measurement_boundary": "Actual local bytes, parsing and arithmetic. All campus events and participant rows are fictional. No mail authentication, QR decoder, live delivery, contacts, account changes or physical tests executed."
+}

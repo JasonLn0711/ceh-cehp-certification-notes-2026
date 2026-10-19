@@ -1,0 +1,12 @@
+{
+  "status": "actual_composition_motion_map_generated",
+  "render_runtime": "0.8.173",
+  "analysis_helper": {
+    "producer": "0.8.173",
+    "core": "0.8.173"
+  },
+  "reason": "Published matching producer/core0.8.173 analysis packages are isolated from the pinned0.8.173 project renderer.",
+  "total_tweens": 21399,
+  "mapped_tweens": 3207,
+  "scope": "Actual full composition GSAP geometry and timing diagnostics; flags require contextual review, separately from final encoded output."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "editable_zip_crc_extraction_hashes_verified",
+  "zip": "CEH_M09_Social_Engineering_v1_0_EDITABLE.zip",
+  "bytes": 3238223492,
+  "entries": 5302,
+  "payload_hashes": 5301,
+  "sha256": "b861107c50e70452e66ae789c888f3aa6b8d7eada47eda59dfdd3342e0980944",
+  "scope": "All editable payloads were extracted and hash checked; environments/caches excluded. Final media remain outside the archive."
+}

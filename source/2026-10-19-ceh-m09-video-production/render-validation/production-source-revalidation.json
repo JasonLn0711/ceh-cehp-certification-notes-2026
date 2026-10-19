@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "source_zip_sha256": "36898c5e335adf24ff3bddabd9e9a952cd95c726f514fab654fd6486e1e5ac66",
+  "source_entries": 305,
+  "payload_hashes": 303,
+  "locked_assets": 44,
+  "offline_evidence_assertions": 36,
+  "scope": "Actual local bytes, parsing and arithmetic. All campus events and participant rows are fictional. No mail authentication, QR decoder, live delivery, contacts, account changes or physical tests executed."
+}
