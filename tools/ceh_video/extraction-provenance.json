@@ -1,0 +1,131 @@
+[
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/contact_sheet.py",
+    "source_sha256": "4561d2986ee5d95ef82e062b758236a153645c3d8e84973d5b502ed57fdf7295",
+    "engine_file": "contact_sheet.py",
+    "initial_engine_sha256": "9f33bdfacf04ded472faa8bfa32cdb6c2fcaececc61ea151e3a19e4052016903",
+    "maintained_engine_sha256": "9f33bdfacf04ded472faa8bfa32cdb6c2fcaececc61ea151e3a19e4052016903"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/editorial.py",
+    "source_sha256": "1484123e97174c0a46f9366f6691fd250bef9dd5daa6964f9e8af743fc6dd40d",
+    "engine_file": "editorial.py",
+    "initial_engine_sha256": "49f854ae4b3507e74ab621e64f1977d1d26b9d1f1e167bae7979f40abbb154d1",
+    "maintained_engine_sha256": "49f854ae4b3507e74ab621e64f1977d1d26b9d1f1e167bae7979f40abbb154d1"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/art_common.py",
+    "source_sha256": "356d02305f046713a7f0cf95806a10fdf36db37442ae1640b31410bb3db4c145",
+    "engine_file": "art_common.py",
+    "initial_engine_sha256": "fb5aa6f97f51b53e99e2ec89e0de0c82a3a662ba4ecc89a3bf5bfb2442a0add9",
+    "maintained_engine_sha256": "fb5aa6f97f51b53e99e2ec89e0de0c82a3a662ba4ecc89a3bf5bfb2442a0add9"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/build_film.py",
+    "source_sha256": "2f4a50435ef0231b2025dc023c968d10405014430bef2c7bfb774950340a8c69",
+    "engine_file": "build_film.py",
+    "initial_engine_sha256": "b2bc0226a94226c9bc860a2adc40fc2b8a9afe68ca11d96ef88fa5c97cc687f0",
+    "maintained_engine_sha256": "b2bc0226a94226c9bc860a2adc40fc2b8a9afe68ca11d96ef88fa5c97cc687f0"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/force_align.py",
+    "source_sha256": "b7b4ab931db0aac8135324872499fbbd105d1e3f1d7990f0679a59369ca68e5b",
+    "engine_file": "force_align.py",
+    "initial_engine_sha256": "1afaf6fbdc8361a0de094b982788b6d5a4577c6cad12ac97b23d582daf80eaed",
+    "maintained_engine_sha256": "5ef7dd9983ec80458118d504883b9a743437a9eb1cf5f5083d0bb59e840bfd77"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/export_metadata.py",
+    "source_sha256": "d6efd44fbe58325d4221b630d44fa8844e73ddf07bc2e40e24129fb9214cff68",
+    "engine_file": "export_metadata.py",
+    "initial_engine_sha256": "1e1d3f0fca2854aa587e99eec72c6ca29454f52293cac190198958dc1e0ab582",
+    "maintained_engine_sha256": "1e1d3f0fca2854aa587e99eec72c6ca29454f52293cac190198958dc1e0ab582"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/assemble_project.py",
+    "source_sha256": "7bd11a9340ee4aacc2b0d55b113ff85a4e01fb94b408d8f4d5154500b78cba5a",
+    "engine_file": "assemble_project.py",
+    "initial_engine_sha256": "9a07c5ab22c79ba0dc3b65442ffd30d772ca6f4b94f1d082b543224147b0006d",
+    "maintained_engine_sha256": "9a07c5ab22c79ba0dc3b65442ffd30d772ca6f4b94f1d082b543224147b0006d"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/chapter.py",
+    "source_sha256": "4765ad29063cd67ec6c0ef55fe7a26f9636d6e59d47e65d1a8f18ae86e10b2f3",
+    "engine_file": "chapter.py",
+    "initial_engine_sha256": "bde9d3c875da6f6bdd93f6e549f752c9b1eec88fc8cef424c11d2afaf2222605",
+    "maintained_engine_sha256": "bde9d3c875da6f6bdd93f6e549f752c9b1eec88fc8cef424c11d2afaf2222605"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/assemble_master.py",
+    "source_sha256": "c0e17b8e98e205e056aa91378cd2cf64c94c232b2196387f6fb3ab28ac205f05",
+    "engine_file": "assemble_master.py",
+    "initial_engine_sha256": "e9b68d0483d490ad2817674bb901d02eceda9e574cfc60e7dfc11dc0e6924515",
+    "maintained_engine_sha256": "3a59bbcece9e9f6a0a09a275a83a5f974b4a56daad7437345cbeab8875420800"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/audit_audio_clips.py",
+    "source_sha256": "5132246b1ac2a70eabf6f013eb4427973c62977669e62a6823e429664b1eb776",
+    "engine_file": "audit_audio_clips.py",
+    "initial_engine_sha256": "6675e26f6936d13f7d07128f79fb81559914c6eeaba7ab6f8c50be7d559e65ba",
+    "maintained_engine_sha256": "6675e26f6936d13f7d07128f79fb81559914c6eeaba7ab6f8c50be7d559e65ba"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/review_audio.py",
+    "source_sha256": "b001d0e07c310b3ac10796759683cbef4ca5f1c3e3b0cca6c2c2a56482fe7f29",
+    "engine_file": "review_audio.py",
+    "initial_engine_sha256": "6badc66e3bbb72f26375678d74b82eb38bb9fe677f62231e98210753d9f3d748",
+    "maintained_engine_sha256": "a426ba2db86d14439bbd5df7732802626e7f939ea81108d86b00a48c31ae24dc"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/measure_speech.py",
+    "source_sha256": "8e6729ab8f1727431958c99c5590b841395de685613aaeedded4c703dde04804",
+    "engine_file": "measure_speech.py",
+    "initial_engine_sha256": "c94dd44eebe3dd827df803d54d5592dc36f8b6c241b21ad181f337bbb8e05ad4",
+    "maintained_engine_sha256": "c94dd44eebe3dd827df803d54d5592dc36f8b6c241b21ad181f337bbb8e05ad4"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/asr_receipt.py",
+    "source_sha256": "18df4b52329750389932fb20a8e55f66b8a30e4c45913714ae336f583ed24543",
+    "engine_file": "asr_receipt.py",
+    "initial_engine_sha256": "8d47876895b978835e64b0fffc88225954c7f457311a030843ba1f59b53d60d6",
+    "maintained_engine_sha256": "c84a3a9760599533ae17b1845eb8e3869f62689837c8668714a67f883be63e48"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/audit_audio_continuity.py",
+    "source_sha256": "f64130df8715f2d6e1bf871b5f43351201ec3945db5cdcd7a37962d49168ab3a",
+    "engine_file": "audit_audio_continuity.py",
+    "initial_engine_sha256": "84de9b553604c2249d592a81ef427696e155b4d84dd84bec0ccada92e8c66561",
+    "maintained_engine_sha256": "b3b095368dcdffba26ccf273036b4b16e8c8775a0b9aac2b65ca9f5ffae95be6"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/audit_rendered.py",
+    "source_sha256": "b399fdb4c191d1233131ec9d2f471bbcb86156dae4dbe57c7b0ed57b43bd4c66",
+    "engine_file": "audit_rendered.py",
+    "initial_engine_sha256": "cf81d29c2dbd0db3232f574dda79c527d0be8cd29d349580bcc8a6529595a7b2",
+    "maintained_engine_sha256": "43b708bfe0c973e4fcf0f69e3e97ede34a9faafb1506660e576397739bab7031"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/capture_late_diagrams.py",
+    "source_sha256": "256466e06db25f98addc7c056347466a67e2cb9ae10a670f5b4a94674cef052d",
+    "engine_file": "capture_late_diagrams.py",
+    "initial_engine_sha256": "d3e9387d4b8210e83f870a09dd086beb6f4b9ba25402fd62e44ca43ff90beb91",
+    "maintained_engine_sha256": "d3e9387d4b8210e83f870a09dd086beb6f4b9ba25402fd62e44ca43ff90beb91"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/recognition_audit.py",
+    "source_sha256": "58158f21bcc0d9a78e221982397fec91522dd96636a22785b50cafadb2d846f4",
+    "engine_file": "recognition_audit.py",
+    "initial_engine_sha256": "4cbbf53cbef96149906ef63a12219e61e8ba81a4e370ecbffb57ad4b9257c681",
+    "maintained_engine_sha256": "ef84b1a4b558109d7862229cb67d3274780fdc8e4ad774c05e52a74150cf57f0"
+  },
+  {
+    "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/sync_storyboard.py",
+    "source_sha256": "33656f94b4aef48973b9f54c86c915988f37402c6a35d372a366930a04196ddc",
+    "engine_file": "sync_storyboard.py",
+    "initial_engine_sha256": "64636fbe6a8f3a9be43a5960d29171d5472f3cd9bb7e2ca770fbc0b88b0f4b6d",
+    "maintained_engine_sha256": "64636fbe6a8f3a9be43a5960d29171d5472f3cd9bb7e2ca770fbc0b88b0f4b6d"
+  },
+  {
+    "scope": "Shared production implementation extracted with explicit project context; M10 diagram adapters remain project-owned."
+  }
+]
