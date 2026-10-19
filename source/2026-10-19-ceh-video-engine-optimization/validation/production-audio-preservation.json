@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "scene_wavs": 58,
+  "speech_clips": 781,
+  "all_audio_bytes_identical_to_reference": true,
+  "new_production_tts_inferences": 0,
+  "scope": "Actual reference/current WAV hashes after complete shared-engine reconstruction."
+}

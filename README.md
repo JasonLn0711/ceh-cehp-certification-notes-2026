@@ -189,3 +189,7 @@ For this capture, the current [Planning CEH locator](../planning-everything-trac
 ## M10 English Masterclass
 
 [M10 Denial-of-Service delivery](notes/m10-denial-of-service/video-production-2026-10-19.md): complete 71:23.733 English film, 11 chapters/58 native animated scenes, 10,241 canonical words, 1,371 subtitle cues and verified source/editable ZIPs. Initial series v1.0 applies; human viewing/listening remains separate.
+
+## Reusable CEH video engine
+
+[Engine operator guide](tools/ceh_video/README.md) and [M10 reference rollout](docs/video-production/M10_ENGINE_OPTIMIZATION.md) connect the approved series standard to verified audio reuse, resumable execution, early source checks and artifact-bound review. Existing module releases retain their own delivery and human acceptance evidence.

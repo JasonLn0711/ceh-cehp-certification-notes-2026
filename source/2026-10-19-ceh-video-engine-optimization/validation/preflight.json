@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "errors": [],
+  "scenes": 58,
+  "chapters": 11,
+  "questions": 8,
+  "scope": "Source contracts, asset identity, imports and actual diagram/quiz geometry; expensive model/render work separate"
+}

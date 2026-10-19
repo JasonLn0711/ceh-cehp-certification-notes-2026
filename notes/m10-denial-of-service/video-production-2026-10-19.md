@@ -49,3 +49,7 @@ All 58 real WAVs have independent unprompted fixed-runtime transcript receipts u
 ## Git publication
 
 [Verified publication receipt](../../source/2026-10-19-ceh-m10-video-production/render-validation/publication.json): CEH implementation `54c39d6`, actual QA `32b4333` and delivery documentation `63cb9d6`; Planning mirror `4c2fa481` and history-preserving merge `532f441d`. Both were pushed to origin main and fetched with 0/0 divergence. The merge preserves remote application-planning changes through `29794378`; unrelated coursework edits remain unstaged. Media remain local.
+
+## Isolated engine optimization rollout
+
+[Priorities 1–4 and reference evidence](../../docs/video-production/M10_ENGINE_OPTIMIZATION.md) extend this M10 production thread. The new workspace `~/Videos/CEH_M10_optimization_v1/` validates shared execution, cache recovery, audio triage and current review receipts. The v1.0 artifacts and hashes above remain the preserved original release. Follow the linked rollout record for the new candidate and its independent acceptance state.

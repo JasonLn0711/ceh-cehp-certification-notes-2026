@@ -61,3 +61,7 @@ Use lawful authorized training, toy examples, or clearly labeled fictional evide
 | M08 applicability — 2026-10-18 | Same v1.0 standard; newly authored Sniffing source package with synthetic offline PCAPs. Full narration, aligned captions and MP4 are the next production layer. |
 | M09 applicability — 2026-10-19 | Same v1.0 standard; newly authored Social Engineering lesson, consent-based no-send cases and complete source plus full-film production explicitly activated. Actual production and human acceptance retain separate receipts. |
 | M10 applicability — 2026-10-19 | Same v1.0 standard; newly authored Denial-of-Service lesson, four offline resource/evidence cases and complete source plus full-film production activated. Preserve 1.5× narration only and eight exact 1.000-second PCM holds; actual render and human acceptance require their own evidence. |
+
+## Implementation connection — October 19
+
+The [shared engine rollout](M10_ENGINE_OPTIMIZATION.md) uses M10 as the reference project for audio triage, declared-input reuse, resumable processes and current visual review. Its engine version is separate from this v1.0 editorial contract. Module migrations require their own runtime and artifact evidence; this connection does not alter released M04–M09 packages.

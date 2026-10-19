@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "real_model_inferences": 0,
+  "scenarios": [
+    {
+      "scenario": "actual_diagram_and_anchor_baseline",
+      "status": "passed",
+      "actual_exit_code": 0,
+      "errors": []
+    },
+    {
+      "scenario": "unknown_palette_fails_before_models",
+      "status": "passed",
+      "actual_exit_code": 1,
+      "errors": [
+        "S23: NameError: name 'UNDEFINED_PALETTE_TOKEN' is not defined",
+        "S24: NameError: name 'UNDEFINED_PALETTE_TOKEN' is not defined"
+      ]
+    },
+    {
+      "scenario": "missing_narration_anchor_fails_before_models",
+      "status": "passed",
+      "actual_exit_code": 1,
+      "errors": [
+        "S24: ValueError: ('S24', 'missing spoken anchor', 'absent narration anchor fixture')"
+      ]
+    },
+    {
+      "scenario": "actual_long_quiz_baseline",
+      "status": "passed",
+      "actual_exit_code": 0,
+      "errors": []
+    },
+    {
+      "scenario": "oversize_quiz_fails_before_render",
+      "status": "passed",
+      "actual_exit_code": 1,
+      "errors": [
+        "S55: AssertionError: ('S55', 'Q06', 'Quiz requires more room', 2503.3999999999996)"
+      ]
+    }
+  ],
+  "scope": "Actual diagram construction and quiz geometry in an isolated fixture; failures occur before expensive execution."
+}

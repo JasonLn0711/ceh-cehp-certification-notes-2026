@@ -1,0 +1,6 @@
+{
+  "status": "all_baseline_payload_hashes_verified",
+  "payloads": 6091,
+  "reference": "/home/jnlngx10/Videos/CEH_M10_v1_0/output",
+  "scope": "Actual rehash after migration and new rendering began; released bytes remain unchanged."
+}

@@ -1,0 +1,54 @@
+{
+  "status": "live_fixture_scenarios_passed",
+  "runtime_validity": "valid_target_runtime",
+  "real_tts_inferences": 2,
+  "scenarios": [
+    {
+      "scenario": "real_noop_speech_reconstruction",
+      "status": "passed",
+      "generated": 0,
+      "reused": 12,
+      "scene": "S24",
+      "pcm_identical": true
+    },
+    {
+      "scenario": "real_single_expansion_inference",
+      "status": "passed",
+      "generated": 1,
+      "reused": 11,
+      "scene": "S24",
+      "term": "Paired",
+      "changed_processed_clips": [
+        "000.wav"
+      ],
+      "canonical_unchanged": true
+    },
+    {
+      "scenario": "real_corrupt_cache_recovery",
+      "status": "passed",
+      "generated": 1,
+      "reused": 11,
+      "scene": "S24"
+    },
+    {
+      "scenario": "real_sentence_reordering_reuse",
+      "status": "passed",
+      "generated": 0,
+      "reused": 12,
+      "scene": "S24"
+    },
+    {
+      "scenario": "real_art_only_compilation",
+      "status": "passed",
+      "unchanged_scene": "S23",
+      "changed_scene": "S24",
+      "all_speech_hashes_unchanged": true
+    },
+    {
+      "scenario": "real_art_browser_check",
+      "status": "passed",
+      "browser_executed": true
+    }
+  ],
+  "scope": "Controlled fixture uses actual models and browser. Canonical release and production audio unchanged; no human pronunciation acceptance."
+}

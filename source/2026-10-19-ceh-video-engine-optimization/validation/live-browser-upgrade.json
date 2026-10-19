@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "original_fixture_browser": "0.8.173",
+  "current_browser_recheck": "0.8.174",
+  "actual_browser_executed": true,
+  "new_tts_inferences": 0,
+  "source": "integration-fixture/qa/art-browser-check-174.json"
+}

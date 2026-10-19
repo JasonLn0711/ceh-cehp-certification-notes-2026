@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "scenes": 2,
+  "original_workspace": "unavailable",
+  "speech_cache_entries": 27,
+  "actual_original_locator_reads_required": false,
+  "new_model_inferences": 0,
+  "scope": "Actual first-run import of shipped PCM, clip recipes and alignment. Model regeneration and rendering have their own evidence."
+}

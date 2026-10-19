@@ -26,3 +26,7 @@ The [initial series standard v1.0](PRODUCTION_STANDARD_v1.0.md) adopts the appro
 ## M10 Denial-of-Service — October 19
 
 [Canonical M10 delivery](../../notes/m10-denial-of-service/video-production-2026-10-19.md) provides the complete 71:23.733 film, 11 chapters, 58 animated scenes, 10,241 words and 1,371 subtitle cues. [Actual source QA](../../source/2026-10-19-ceh-m10-video-production/validation/README.md) and [render QA](../../source/2026-10-19-ceh-m10-video-production/render-validation/README.md) retain separate receipts. Initial v1.0 and full human review boundaries remain unchanged.
+
+## Shared production engine — M10 reference rollout
+
+[Engine operator guide](../../tools/ceh_video/README.md) → [priorities 1–4 plan and evidence](M10_ENGINE_OPTIMIZATION.md) connects sentence-level audio review, reusable execution, verified resumability and artifact-bound checks. M10 uses an isolated optimization workspace; existing M04–M10 releases and editorial standard v1.0 remain preserved. Human listening retains its own acceptance gate.

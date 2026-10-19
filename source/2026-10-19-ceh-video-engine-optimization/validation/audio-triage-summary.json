@@ -1,0 +1,12 @@
+{
+  "status": "technical_triage_complete",
+  "spoken_clips_checked": 781,
+  "alignment_flags": 157,
+  "flagged_clips": 141,
+  "queued_clips": 479,
+  "technical_defects": [],
+  "human_acceptance": "pending",
+  "dispositions": {
+    "pending_listening": 479
+  }
+}

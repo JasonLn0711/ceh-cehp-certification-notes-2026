@@ -1,0 +1,45 @@
+test_actual_child_failure_preserves_code (test_engine.EngineTests.test_actual_child_failure_preserves_code) ... /usr/lib/python3.12/traceback.py:241: ResourceWarning: unclosed file <_io.TextIOWrapper name=5 encoding='UTF-8'>
+  tb.tb_frame.clear()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_actual_interrupt_cleans_child_group (test_engine.EngineTests.test_actual_interrupt_cleans_child_group) ... ok
+test_actual_quiet_child_is_not_reported_as_progress (test_engine.EngineTests.test_actual_quiet_child_is_not_reported_as_progress) ... /home/jnlngx10/phd-research/repos/ceh-cehp-certification-notes-2026/tools/ceh_video/tests/test_engine.py:135: ResourceWarning: unclosed file <_io.TextIOWrapper name=5 encoding='UTF-8'>
+  events=[];subprocess_stage(self.p,[sys.executable,'-c','import time;time.sleep(.05)'],'controlled-quiet',events.append)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_art_override_does_not_change_speech_key (test_engine.EngineTests.test_art_override_does_not_change_speech_key) ... ok
+test_atomic_json (test_engine.EngineTests.test_atomic_json) ... ok
+test_automation_cannot_clear_listening_lead (test_engine.EngineTests.test_automation_cannot_clear_listening_lead) ... ok
+test_batch_review_gate_runs_before_dispatch (test_engine.EngineTests.test_batch_review_gate_runs_before_dispatch) ... ok
+test_cached_render_still_requires_current_review (test_engine.EngineTests.test_cached_render_still_requires_current_review) ... ok
+test_cancelled_queue_cannot_spawn_another_child (test_engine.EngineTests.test_cancelled_queue_cannot_spawn_another_child) ... ok
+test_choice_letter_stays_with_sentence (test_engine.EngineTests.test_choice_letter_stays_with_sentence) ... ok
+test_cli_json_failure_has_nonzero_status (test_engine.EngineTests.test_cli_json_failure_has_nonzero_status) ... ok
+test_cycle_is_rejected (test_engine.EngineTests.test_cycle_is_rejected) ... ok
+test_dependency_bytes_participate_in_key (test_engine.EngineTests.test_dependency_bytes_participate_in_key) ... ok
+test_editor_metadata_is_not_picture_input (test_engine.EngineTests.test_editor_metadata_is_not_picture_input) ... ok
+test_empty_review_is_rejected (test_engine.EngineTests.test_empty_review_is_rejected) ... ok
+test_failed_receipt_is_not_reused (test_engine.EngineTests.test_failed_receipt_is_not_reused) ... ok
+test_malformed_cache_receipt_is_a_miss (test_engine.EngineTests.test_malformed_cache_receipt_is_a_miss) ... ok
+test_missing_output_invalidates_cache (test_engine.EngineTests.test_missing_output_invalidates_cache) ... ok
+test_no_second_speed_pass (test_engine.EngineTests.test_no_second_speed_pass) ... ok
+test_non_m10_scene_and_question_mapping (test_engine.EngineTests.test_non_m10_scene_and_question_mapping) ... ok
+test_output_tampering_invalidates_cache (test_engine.EngineTests.test_output_tampering_invalidates_cache) ... ok
+test_package_keeps_unrelated_custody_notes_local (test_engine.EngineTests.test_package_keeps_unrelated_custody_notes_local) ... ok
+test_preview_cache_is_not_an_input (test_engine.EngineTests.test_preview_cache_is_not_an_input) ... ok
+test_process_lock_excludes_second_writer (test_engine.EngineTests.test_process_lock_excludes_second_writer) ... ok
+test_recipe_includes_resolved_expansion (test_engine.EngineTests.test_recipe_includes_resolved_expansion) ... ok
+test_recipe_key_is_stable_under_reordering (test_engine.EngineTests.test_recipe_key_is_stable_under_reordering) ... ok
+test_redirected_progress_has_no_ansi (test_engine.EngineTests.test_redirected_progress_has_no_ansi) ... ok
+test_rendered_assets_are_inputs (test_engine.EngineTests.test_rendered_assets_are_inputs) ... ok
+test_review_is_bound_to_captured_image (test_engine.EngineTests.test_review_is_bound_to_captured_image) ... ok
+test_review_is_bound_to_source (test_engine.EngineTests.test_review_is_bound_to_source) ... ok
+test_secret_redaction (test_engine.EngineTests.test_secret_redaction) ... ok
+test_token_expansion_preserves_canonical_input (test_engine.EngineTests.test_token_expansion_preserves_canonical_input) ... ok
+test_unrelated_pronunciation_change_does_not_invalidate (test_engine.EngineTests.test_unrelated_pronunciation_change_does_not_invalidate) ... ok
+test_voice_and_silence_are_explicit (test_engine.EngineTests.test_voice_and_silence_are_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.500s
+
+OK

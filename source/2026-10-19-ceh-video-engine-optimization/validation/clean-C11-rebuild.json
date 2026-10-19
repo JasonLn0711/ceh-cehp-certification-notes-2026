@@ -1,0 +1,21 @@
+{
+  "status": "actual_clean_environment_rebuild_verified",
+  "python_environment": "fresh Python 3.12.3 venv; not copied reference environment",
+  "python_packages": [
+    "cffi==2.1.1",
+    "numpy==2.5.4",
+    "pillow==13.0.0",
+    "pycparser==3.11",
+    "soundfile==0.14.0",
+    "typing_extensions==4.16.0"
+  ],
+  "node_install": "npm ci from reconciled lockfile",
+  "hyperframes": "0.8.174",
+  "native_states": 38,
+  "same_native_capture_manifest": true,
+  "input_sha256": "a975211fd2ee847cd73d908eec0fb1f9ed18a9de2c9b9855cc483ff571b4a3b2",
+  "output_sha256": "26d69ff7c3334baa83a1f912e95bb4c17038bc5fb80f4b004a285cedc4edbb83",
+  "frames": "23553",
+  "new_tts_inferences": 0,
+  "scope": "Actual C11 prepare/browser/capture/review/render in fresh dependencies, using approved speech/model/assets. Human listening remains pending."
+}
