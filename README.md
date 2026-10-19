@@ -188,4 +188,4 @@ For this capture, the current [Planning CEH locator](../planning-everything-trac
 <a id="ceh-m10-masterclass"></a>
 ## M10 English Masterclass
 
-[Denial-of-Service source and production](notes/m10-denial-of-service/video-production-2026-10-19.md): verified 11-chapter/58-scene source package, 10,241 spoken words, editable assets and offline cases. Complete film production is active under the existing v1.0 standard.
+[M10 Denial-of-Service delivery](notes/m10-denial-of-service/video-production-2026-10-19.md): complete 71:23.733 English film, 11 chapters/58 native animated scenes, 10,241 canonical words, 1,371 subtitle cues and verified source/editable ZIPs. Initial series v1.0 applies; human viewing/listening remains separate.

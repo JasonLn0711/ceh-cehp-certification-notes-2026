@@ -1,6 +1,6 @@
 # M10 Denial-of-Service — English Masterclass production
 
-Recorded 2026-10-19, Asia/Taipei. **source_ready; full-film production in progress.** The newly authored lesson contains 11 chapters, 58 scenes and 10,241 canonical spoken words. Jason requested the M10 package and approved complete source-plus-film production. Codex owns authoring, execution and verification; full human viewing/listening remains a separate acceptance layer.
+Recorded 2026-10-19, Asia/Taipei. **rendered_and_automated_QA_passed:** complete **71:23.733**, 128,512 frames and 1,371 subtitle cues at 1920×1080/30fps H.264/AAC. The newly authored lesson contains 11 chapters, 58 scenes and 10,241 canonical spoken words. Jason requested the M10 package and approved complete source-plus-film production. Codex owns authoring, execution and verification; full human viewing/listening remains a separate acceptance layer.
 
 [Exact request and scope](../../source/2026-10-19-ceh-m10-video-production/source.md) → [source release](../../source/2026-10-19-ceh-m10-video-production/README.md) → [initial series standard v1.0](../../docs/video-production/PRODUCTION_STANDARD_v1.0.md).
 
@@ -29,4 +29,19 @@ Scarce resources are study attention, trustworthy evidence, local compute and st
 - [Course route](../../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns topic selection and learner capacity.
 - [Planning day](../../../planning-everything-track/weeks/2026-W43/days/2026-10-19.md#ceh-m10-masterclass), [week](../../../planning-everything-track/weeks/2026-W43/weekly-plan.md#ceh-m10-masterclass) and [project](../../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#ceh-m10-masterclass) mirror status.
 
-Next production gate: finish actual narration/alignment, check each native composition, inspect chapter frames, render all chapters and master, verify encoded output and editable archive. No completed MP4, human acceptance, learner progress, Blog or public video release is claimed at this stage.
+Jason owns full timecoded viewing/listening acceptance when capacity permits. Public video release requires a separate authorized action and verified URL. Production adds no learner answers, practical acceptance, attendance, Blog completion or study minutes.
+
+## Complete local media and verification
+
+- Full film: `output/CEH_M10_Denial_of_Service_en-US_1_5x_1s_master.mp4`; SHA-256 `5fc53be79a9774ae4a3e297b323f79e582e59bdd144c95f040bdf701e9f101c8`.
+- Eleven chapter MP4s and chapter marks: `output/chapters/` and `output/chapters.txt`.
+- Aligned subtitles: `output/captions.en-US.srt` and `.vtt`; captions are also burned into picture.
+- Lossless audio: `output/master.reference.pcm.wav`.
+- Editable production: `output/CEH_M10_Denial_of_Service_v1_0_EDITABLE.zip`, 3,316,113,495 bytes, 5,506 entries and 5,505 extracted payload hashes verified. SHA-256 `34088176765ac3ff5b2ad448f5c575fa184340d06ec84fb3fddb056d55f21bd1`.
+- Local report and samples: `output/render_report.md`, `output/inspection_frames/`, `output/qa_evidence/` and `output/DELIVERY_SHA256.txt`.
+
+[Actual render evidence](../../source/2026-10-19-ceh-m10-video-production/render-validation/README.md) records all 11 chapter fingerprints, full-root browser checks, 64 question-boundary assertions, 174 repeated/backward scene seeks, full decode and 11 embedded chapter marks. The 115 primary encoded samples and 50 late diagram samples were inspected separately from source previews. Full PCM/AAC continuity has its own receipt. [Recovery implementation](../../source/2026-10-19-ceh-m10-video-production/rebuild-inputs/full-production/README.md) preserves the exact native motion and production scripts.
+
+All eight reference holds contain exactly 48,000 stereo zero PCM frames at 48 kHz. Decoded lossy AAC has maximum full-window peak 2.838985529e-05 and 49,152 nonzero channel samples across the holds; the residue measurement does not change the exact reference silence claim. Raw clip speech measures 155.8303 WPM; the separate −50 dBFS edge-trimmed estimate is 158.1438 WPM. No speed retuning or second pass was applied.
+
+All 58 real WAVs have independent unprompted fixed-runtime transcript receipts under availability_validation / LIVE_FULL_COMPLETED. Accuracy and latency remain not_evaluated. Known-text alignment preserves 157 timing flags as listening leads, not confirmed pronunciation errors. Full human viewing/listening remains open.

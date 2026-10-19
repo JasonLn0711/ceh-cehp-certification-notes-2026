@@ -25,4 +25,4 @@ The [initial series standard v1.0](PRODUCTION_STANDARD_v1.0.md) adopts the appro
 <a id="ceh-m10-masterclass"></a>
 ## M10 Denial-of-Service — October 19
 
-[Canonical M10 record](../../notes/m10-denial-of-service/video-production-2026-10-19.md) owns the verified source ZIP and ongoing complete-film production. The unchanged initial v1.0 standard preserves M04 v3, Tally/Northstar, 1.5× narration only and eight 1.000-second holds.
+[Canonical M10 delivery](../../notes/m10-denial-of-service/video-production-2026-10-19.md) provides the complete 71:23.733 film, 11 chapters, 58 animated scenes, 10,241 words and 1,371 subtitle cues. [Actual source QA](../../source/2026-10-19-ceh-m10-video-production/validation/README.md) and [render QA](../../source/2026-10-19-ceh-m10-video-production/render-validation/README.md) retain separate receipts. Initial v1.0 and full human review boundaries remain unchanged.
