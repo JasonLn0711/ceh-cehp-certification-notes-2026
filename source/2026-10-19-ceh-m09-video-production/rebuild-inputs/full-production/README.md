@@ -1,5 +1,5 @@
-# M09 production recovery inputs
+# M09 full-production recovery inputs
 
-Exact native-animation, narration, alignment, caption, chapter-render, master-assembly, validation and packaging scripts, together with pinned configuration and media provenance. Use them in the complete local project under ~/Videos/CEH_M09_v1_0/project/. This compact Git subset keeps large models, source assets, WAVs and videos in their owning Videos workspace.
+Exact copies of actual production scripts, package/configuration locks, media provenance and local design/editing records. They supplement the [canonical source interfaces](../../content/AGENT_PROMPT.md) and [actual film evidence](../../render-validation/README.md). The complete asset/model/audio workspace is in the local editable ZIP; this compact Git subset is not a standalone renderable project.
 
-The [source interfaces](../../content/AGENT_PROMPT.md) and [canonical production record](../../../../notes/m09-social-engineering/video-production-2026-10-19.md) explain the approved scope. Local-reference Markdown is preserved verbatim as .local.md.txt; its paths resolve in the complete project. The source ZIP and extracted inputs remain immutable. Checked implementation, actual rendered media and full human acceptance have separate evidence.
+Run chapter/assembly/audit commands from the complete extracted project and follow EDITING.md. Preserve valid clip caches and unchanged chapter fingerprints. Local-reference Markdown is retained verbatim as .local.md.txt because its media links resolve inside that full workspace. Raw source bytes, models, voice WAVs and final videos remain in Videos. Orchestration scripts retain the original GX10 paths as provenance; review paths before recovery on another machine.

@@ -133,3 +133,8 @@ The [M07 Malware Threats rendered production record](../notes/m07-malware-threat
 ## M08 English Masterclass production connection — October 18
 
 The [M08 Sniffing rendered Masterclass and preserved sources](../notes/m08-sniffing/video-production-2026-10-18.md) connects the official module to 11 chapters, 58 editable boards, offline packet analysis, evidence limits, mechanism-specific defenses and the P3 capstone. The [series standard](../docs/video-production/PRODUCTION_STANDARD_v1.0.md) retains narration-only speed and one-second holds. The full 65:57.933 film and actual render QA support later study; prepared/rendered teaching adds no accepted P3 task or learner result.
+
+<a id="ceh-m09-masterclass"></a>
+## M09 English Masterclass connection — October 19
+
+The [M09 Social Engineering film and sources](../notes/m09-social-engineering/video-production-2026-10-19.md) connect official scope and insider-risk coverage to trust verification, human/computer/mobile techniques, social channels, identity/recovery, assessment, response and the cross-cutting human-risk evidence-review capstone. Eight film questions use M09-film-v1. Prepared content and offline synthetic parsing add no original bank answers or accepted learner practical. The [current course-aligned route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) governs actual learning and capacity.

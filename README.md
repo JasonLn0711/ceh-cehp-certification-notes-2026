@@ -179,3 +179,8 @@ For this capture, the current [Planning CEH locator](../planning-everything-trac
 ## M08 English Masterclass complete film
 
 [M08 Sniffing complete film and QA](notes/m08-sniffing/video-production-2026-10-18.md) provides a new 9,097-word lesson, 58 SVGs, 18-slide editable deck, four motion references and six synthetic PCAPs. [Initial standard v1.0](docs/video-production/PRODUCTION_STANDARD_v1.0.md) applies. The complete 65:57.933 film, 11 chapter MP4s, 1,213 caption cues and verified editable ZIP are delivered locally; actual render evidence and human acceptance remain separate.
+
+<a id="ceh-m09-masterclass"></a>
+## M09 English Masterclass
+
+[Social Engineering delivery and evidence](notes/m09-social-engineering/video-production-2026-10-19.md): complete 69:26.267 English film,11 chapters/58 native animated scenes,9,814 spoken words,subtitles,source ZIP and editable production ZIP. The [initial series standard v1.0](docs/video-production/PRODUCTION_STANDARD_v1.0.md) preserves M04 v3,Tally/Northstar,narration-only 1.5× and eight 1.000-second quiz holds. Full human viewing/listening remains separate.

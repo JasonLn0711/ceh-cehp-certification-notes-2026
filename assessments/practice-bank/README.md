@@ -88,3 +88,8 @@ Run `python3 assessments/practice-bank/check.py` from the CEH repo root. It chec
 ## M08 video-source connection
 
 The [M08 English Masterclass](../../notes/m08-sniffing/video-production-2026-10-18.md) supplies eight film questions and an offline capstone. M08-film-v1 is independent of this bank; original answers, retests and practical acceptance retain their own evidence.
+
+<a id="ceh-m09-masterclass"></a>
+## M09 teaching-media connection
+
+The [M09 English Masterclass](../../notes/m09-social-engineering/video-production-2026-10-19.md) supplies eight graded film questions and a four-case inert-evidence capstone. M09-film-v1 is separate from this bank. Existing original answers, confidence, retests and practical acceptance retain their own records.

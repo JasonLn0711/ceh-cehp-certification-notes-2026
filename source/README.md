@@ -132,3 +132,8 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 ## October 18 M08 Sniffing source package
 
 [Request, plan and source receipt](2026-10-18-ceh-m08-video-production/README.md) → [M08 record](../notes/m08-sniffing/video-production-2026-10-18.md) → [actual QA](2026-10-18-ceh-m08-video-production/validation/README.md). New English content and synthetic PCAPs use the shared initial standard; source-ready and full-film execution remain distinct.
+
+<a id="ceh-m09-masterclass"></a>
+## October 19 M09 Social Engineering production
+
+[Exact request and source](2026-10-19-ceh-m09-video-production/README.md) → [canonical delivery](../notes/m09-social-engineering/video-production-2026-10-19.md) → [source QA](2026-10-19-ceh-m09-video-production/validation/README.md) / [actual film QA](2026-10-19-ceh-m09-video-production/render-validation/README.md). Source bytes, full production and human acceptance retain distinct evidence.

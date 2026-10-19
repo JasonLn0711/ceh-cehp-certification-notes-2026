@@ -12,6 +12,10 @@ Source ZIP: ~/Videos/CEH_M09_v1_0/output/CEH_M09_English_Masterclass_HandDrawn_E
 
 ## Execution and acceptance
 
-Jason selected source package plus complete film and approved execution. Full production is active in the separate project; this source-stage receipt establishes its own layer. Actual narration, final captions, native motion, chapter/master renders, editable-project integrity and human acceptance require their respective receipts. The source ZIP and extracted inputs remain immutable.
+Jason selected source package plus complete film and approved execution. The source-stage checkpoint above preceded actual production in the separate project; its receipt establishes its own layer. Actual narration, final captions, native motion, chapter/master renders and editable-project integrity now have their separate receipts below. Full human acceptance remains open. The source ZIP and extracted inputs remain immutable.
 
 CEH owns technical evidence and learning connections; Planning holds thin day/week/project locators, status, capacity and next action. Production adds no learner answers, study minutes, practical acceptance or public video URL.
+
+## Actual full-film delivery
+
+The authorized source-plus-film workflow has completed and passed automated delivery checks. [Actual render receipts](render-validation/README.md), [recovery inputs](rebuild-inputs/full-production/README.md) and [canonical M09 delivery](../../notes/m09-social-engineering/video-production-2026-10-19.md) establish the final media layer. The source checkpoint above retains its historical scope. Human full viewing/listening and public release remain separate.
