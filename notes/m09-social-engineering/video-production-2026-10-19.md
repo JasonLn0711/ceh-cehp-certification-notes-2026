@@ -56,3 +56,9 @@ Scarce resources are study attention, trustworthy evidence, local compute and st
 | Source and delivery | [Source index](../../source/README.md#ceh-m09-masterclass) / [video index](../../docs/video-production/README.md#ceh-m09-masterclass) | One adopted standard, separate source/render/human/publication receipts |
 
 Prepared media add no learner answers, practical acceptance, attendance, Blog publication, used study minutes or new deadline. Jason owns full timecoded viewing/listening acceptance when capacity allows. Public video release retains a separate authorized action and verified URL; Git publishes documentation, recovery code and compact evidence. Record corrections in this note and retain the affected chapter's original evidence.
+
+## Git publication
+
+The [verified publication receipt](../../source/2026-10-19-ceh-m09-video-production/render-validation/git-publication.json) records six logical CEH production commits through af3206c and the Planning mirror/integration through d31241d0. Both repositories were pushed with `origin HEAD:main`, fetched again and verified at zero local-only and remote-only commits. Planning preserves all six concurrent remote commits, both complete M09/SIEM weekly sections and the unrelated uncommitted coursework file. This receipt precedes its own subsequent documentation commits.
+
+[Closeout validation](../../source/2026-10-19-ceh-m09-video-production/render-validation/closeout-validation.json) checks exact archived copies and owned navigation; the [closed delivery manifest recheck](../../source/2026-10-19-ceh-m09-video-production/render-validation/delivery-manifest-recheck.json) covers all 5,888 delivered files. Planning repository and knowledge checks pass with 44 grandfathered warnings, zero new warnings and 181 catalog entries. Git publication covers source, recovery code and compact evidence; full human review and public media release remain separate.

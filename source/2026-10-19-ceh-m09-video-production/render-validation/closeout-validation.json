@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "exact_source_code_and_QA_copies": 255,
+  "owned_markdown_files": 46,
+  "new_local_links": 130,
+  "fragments": 9,
+  "delivery_manifest_files": 5888,
+  "planning_repository_validation": "passed; 44 grandfathered warnings, 0 new",
+  "planning_knowledge_validation": "passed; 181 metadata/catalog entries",
+  "unrelated_coursework_bytes_preserved": true,
+  "scope": "M09 source/production copies and new owned navigation only; imported historical links outside the M09 blocks retain their own scope."
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "delivery_files": 5888,
+  "manifest_sha256": "1710bb62e1de8a669e846e9e9c4d4cbf35accaf0dee73e3a82f1d58eba8b9bbc",
+  "elapsed_seconds": 6.494261495012324,
+  "scope": "Every closed delivery file matches its manifest, including both archives, master, chapters, reference audio and editable workspace."
+}

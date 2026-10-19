@@ -1,0 +1,94 @@
+{
+  "status": "both_main_publications_verified",
+  "verified_at": "2026-10-19T09:30:57.573375+08:00",
+  "verification": "Both successful git push origin HEAD:main operations were followed by git fetch origin main, exact tip and divergence checks.",
+  "repositories": [
+    {
+      "repository": "ceh-cehp-certification-notes-2026",
+      "remote": "https://github.com/JasonLn0711/ceh-cehp-certification-notes-2026.git",
+      "target": "main",
+      "push_refspec": "HEAD:main",
+      "published_head": "af3206c41a89c65e4ae2422a65078ce3ad4cb511",
+      "post_fetch_remote_tip": "af3206c41a89c65e4ae2422a65078ce3ad4cb511",
+      "local_only": 0,
+      "remote_only": 0,
+      "working_tree_clean_at_verification": true,
+      "logical_commits": [
+        {
+          "sha": "8b2d5bc83a28e648beea721b007a14141f0aef49",
+          "subject": "docs: adopt M09 full-film production under initial standard"
+        },
+        {
+          "sha": "5c9dcba985fc0a6825da1648e9de7028431724b1",
+          "subject": "feat: preserve M09 source package and verified inert cases"
+        },
+        {
+          "sha": "0dda29e5bcf533369b4d89c7abe5b6c1a4324e87",
+          "subject": "feat: implement M09 native film and measured audio pipeline"
+        },
+        {
+          "sha": "665a9457be22de877d5a9c1a27ca864115f0d3bd",
+          "subject": "fix: reconcile verified M09 timing metadata at handoff"
+        },
+        {
+          "sha": "24a766d07457bd79fb81798a3c989ef1c13ed8d3",
+          "subject": "test: preserve actual M09 film and archive verification"
+        },
+        {
+          "sha": "af3206c41a89c65e4ae2422a65078ce3ad4cb511",
+          "subject": "docs: connect M09 delivery to course and planning records"
+        }
+      ]
+    },
+    {
+      "repository": "planning-everything-track",
+      "remote": "https://github.com/JasonLn0711/planning-everything-track.git",
+      "target": "main",
+      "push_refspec": "HEAD:main",
+      "published_head": "d31241d0fd13076a53c403d4fe692a63c6db290e",
+      "post_fetch_remote_tip": "d31241d0fd13076a53c403d4fe692a63c6db290e",
+      "local_only": 0,
+      "remote_only": 0,
+      "working_tree_clean_at_verification": false,
+      "logical_commits": [
+        {
+          "sha": "714fbd72c2f896b0672fcc6d3780283e31c2b268",
+          "subject": "plan: mirror verified M09 full-film delivery and next gate"
+        },
+        {
+          "sha": "d31241d0fd13076a53c403d4fe692a63c6db290e",
+          "subject": "merge: preserve M09 delivery and remote SIEM weekly records"
+        }
+      ],
+      "concurrent_remote_commits_preserved": [
+        "c75433949cc38dd747011b5fcc5b4dfce35e5850",
+        "9219271252644a4eafe2f8768e7a213047823f91",
+        "5bbd8f4fe04fe1ef0a73441d141aab229e354622",
+        "25156252745d43850168cf127b5d9a300c349e19",
+        "8e061ecf9088bea15b56c874eeb1429b8265be72",
+        "69140f25a3f73e34b3a018c7f8166c6845873166"
+      ],
+      "reconciliation": {
+        "kind": "non_destructive_merge",
+        "merge_commit": "d31241d0fd13076a53c403d4fe692a63c6db290e",
+        "conflict_path": "weeks/2026-W43/weekly-plan.md",
+        "resolution": "Preserved both complete appended M09 and SIEM sections without changing their text."
+      },
+      "unrelated_dirty_work": {
+        "path": "data/projects/2026-09-nycu-115-1-coursework.md",
+        "bytes_preserved": true,
+        "unstaged": true,
+        "committed_by_this_work": false
+      }
+    }
+  ],
+  "validation": {
+    "closeout": "passed: 255 exact copies, 130 owned local links, 9 fragments and 5,888 closed delivery files",
+    "planning_after_merge_repository": "passed: 44 grandfathered warnings, 0 new",
+    "planning_after_merge_knowledge": "passed: 181 metadata/catalog entries",
+    "diff_check": "passed in both repositories"
+  },
+  "history_policy": "Separate logical commits; all local and six concurrent Planning remote commits retained. No force push or history rewrite.",
+  "scope": "Documentation, recovery code and compact evidence. Large Videos media remain local; no public video upload.",
+  "receipt_boundary": "This receipt describes verified production, mirror and integration commits and precedes its own subsequent documentation commits. Full human viewing/listening and public video release retain separate acceptance."
+}
