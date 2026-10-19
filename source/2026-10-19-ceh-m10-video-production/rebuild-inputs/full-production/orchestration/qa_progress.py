@@ -1,0 +1,7 @@
+from pathlib import Path
+import json
+w=Path(__file__).parent;q=w/'qa'
+state={p.stem:json.loads(p.read_text())['status'] for p in q.glob('*-process.json')}
+result={'source':'source_ready','source_zip_sha256':'5541e68e98096ea998201b445e8ad565b31ce22e809b638e717510854a16cdf0','audio_scenes':len(list((w/'project/data').glob('S*.audio.json'))),'checked_chapters':[p.name[:3] for p in sorted(q.glob('C??-checked-fingerprint.json'))],'rendered_chapters':[p.name[:3] for p in sorted(q.glob('C??-render.json'))],'stages':state,'human_acceptance':'pending','public_media_release':'not_activated'}
+(q/'current-progress.json').write_text(json.dumps(result,indent=2)+'\n');(w/'RUN_STATE.md').write_text('# M10 active production\n\nSource package sealed and independently verified: 332 files, 330 payload hashes, 627 source / 94 browser / 44 offline evidence checks. Canonical content: 10,241 words, 11 chapters / 58 scenes. All stage process records and append-only logs are in qa/. Do not restart active workers. Rendering requires actual chapter check and concrete visual review.\n\nCurrent measured progress:\n\n```json\n'+json.dumps(result,indent=2)+'\n```\n\nCEH source and v1 adoption commits: dc68652 / 0e69233, pushed to main. Planning progress commit 3a11b603 and history-preserving merge e8957f04 pushed to main. Unrelated coursework insertion remains unstaged; exact insertion and remote content preservation receipt is qa/unrelated-coursework-preservation.json. Full-film QA, editable packaging and final docs/publication remain in progress.\n')
+print(json.dumps(result))

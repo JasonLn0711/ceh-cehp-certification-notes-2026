@@ -1,0 +1,302 @@
+{
+  "S01": [
+    "Northstar",
+    "Learning access",
+    "Enrollment",
+    "Availability"
+  ],
+  "S02": [
+    "Name lookup",
+    "Network path",
+    "Connection",
+    "Application"
+  ],
+  "S03": [
+    "Success",
+    "Delay",
+    "Errors",
+    "Time window"
+  ],
+  "S04": [
+    "Written scope",
+    "Offline evidence",
+    "Stop conditions",
+    "Evidence custody"
+  ],
+  "S05": [
+    "Resource",
+    "Demand",
+    "Evidence",
+    "Control"
+  ],
+  "S06": [
+    "Service failure",
+    "Resource pressure",
+    "Mechanism",
+    "Intent"
+  ],
+  "S07": [
+    "Bits per second",
+    "Packets per second",
+    "Requests per second",
+    "Same window"
+  ],
+  "S08": [
+    "Arrival",
+    "Capacity",
+    "Queue",
+    "Completion"
+  ],
+  "S09": [
+    "One source",
+    "Many sources",
+    "Observed address",
+    "Attribution"
+  ],
+  "S10": [
+    "Bandwidth",
+    "Packet work",
+    "Connection state",
+    "Application work"
+  ],
+  "S11": [
+    "Baseline",
+    "Enrollment",
+    "Offered load",
+    "Accepted load"
+  ],
+  "S12": [
+    "Provider view",
+    "Ingress limit",
+    "Discarded traffic",
+    "Server view"
+  ],
+  "S13": [
+    "Packet size",
+    "Packet rate",
+    "Processing cost",
+    "Measured limit"
+  ],
+  "S14": [
+    "Direct traffic",
+    "Coordinated devices",
+    "Shared bottleneck",
+    "Source uncertainty"
+  ],
+  "S15": [
+    "Packet analyzer",
+    "Flow records",
+    "Interface counters",
+    "Service checks"
+  ],
+  "S16": [
+    "Campus filter",
+    "Upstream filter",
+    "Protected link",
+    "User outcome"
+  ],
+  "S17": [
+    "Synchronize",
+    "Acknowledge",
+    "Pending state",
+    "Established"
+  ],
+  "S18": [
+    "Half-open entries",
+    "Backlog capacity",
+    "New attempts",
+    "Completed handshakes"
+  ],
+  "S19": [
+    "Link load",
+    "State pressure",
+    "Client success",
+    "Alternative causes"
+  ],
+  "S20": [
+    "Larger backlog",
+    "Shorter timeout",
+    "Smaller state",
+    "Client tradeoff"
+  ],
+  "S21": [
+    "Cookie response",
+    "Return acknowledgment",
+    "State allocation",
+    "Remaining limits"
+  ],
+  "S22": [
+    "Screening proxy",
+    "Protected server",
+    "New bottleneck",
+    "Separate validation"
+  ],
+  "S23": [
+    "Sender",
+    "Reflector",
+    "Claimed source",
+    "Victim"
+  ],
+  "S24": [
+    "Paired exchange",
+    "Packet bytes",
+    "Fifty times",
+    "Same basis"
+  ],
+  "S25": [
+    "Packet layer",
+    "Ethernet layer",
+    "Different ratio",
+    "Count once"
+  ],
+  "S26": [
+    "Recursive service",
+    "Intended clients",
+    "Authoritative data",
+    "Separate roles"
+  ],
+  "S27": [
+    "Allowed source range",
+    "Network boundary",
+    "Forged address",
+    "Residual risk"
+  ],
+  "S28": [
+    "Origin network",
+    "Reflector owner",
+    "Victim provider",
+    "Shared response"
+  ],
+  "S29": [
+    "Request rate",
+    "Work per request",
+    "Core budget",
+    "Demand estimate"
+  ],
+  "S30": [
+    "Legitimate surge",
+    "Cheaper work",
+    "Measured latency",
+    "User success"
+  ],
+  "S31": [
+    "Open connection",
+    "Waiting state",
+    "Progress deadline",
+    "Useful traffic"
+  ],
+  "S32": [
+    "Shared dependency",
+    "Busy slots",
+    "Bounded queue",
+    "Backpressure"
+  ],
+  "S33": [
+    "Parallel streams",
+    "Early cancellation",
+    "Residual work",
+    "Connection policy"
+  ],
+  "S34": [
+    "Comparable window",
+    "Expected pattern",
+    "Resource pressure",
+    "User outcome"
+  ],
+  "S35": [
+    "Upstream view",
+    "Campus view",
+    "Application view",
+    "Aligned time"
+  ],
+  "S36": [
+    "Rate alone",
+    "Supporting signal",
+    "Alternative cause",
+    "Confidence level"
+  ],
+  "S37": [
+    "Saved capture",
+    "Flow summary",
+    "Host counters",
+    "Known limits"
+  ],
+  "S38": [
+    "Preserve originals",
+    "Test calculation",
+    "State uncertainty",
+    "Choose next check"
+  ],
+  "S39": [
+    "Upstream capacity",
+    "Connection state",
+    "Application work",
+    "User continuity"
+  ],
+  "S40": [
+    "Admission budget",
+    "Reusable response",
+    "Bounded work",
+    "Dependency isolation"
+  ],
+  "S41": [
+    "Baseline threshold",
+    "Protective action",
+    "False rejection",
+    "Rollback condition"
+  ],
+  "S42": [
+    "Incident owner",
+    "Provider handoff",
+    "Change record",
+    "Recovery evidence"
+  ],
+  "S43": [
+    "Offered traffic",
+    "Accepted traffic",
+    "User success",
+    "Upstream action"
+  ],
+  "S44": [
+    "Connection attempts",
+    "Half-open state",
+    "Completed handshakes",
+    "Control trial"
+  ],
+  "S45": [
+    "Request bytes",
+    "Response bytes",
+    "Amplification ratio",
+    "Control location"
+  ],
+  "S46": [
+    "Request rate",
+    "Work demand",
+    "Dependency pool",
+    "Bounded work"
+  ],
+  "S47": [
+    "Service impact",
+    "Evidence window",
+    "Control owner",
+    "Decision record"
+  ],
+  "S48": [
+    "User checks",
+    "Resource checks",
+    "Stable recovery",
+    "Follow-up owner"
+  ],
+  "S49": [
+    "Allowed evidence",
+    "Source reference",
+    "Claim review",
+    "Human decision"
+  ],
+  "S58": [
+    "Evidence map",
+    "Resource explanation",
+    "Control plan",
+    "Acceptance check"
+  ]
+}

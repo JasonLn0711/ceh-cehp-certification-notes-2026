@@ -1,0 +1,49 @@
+# Editing and rebuilding CEH M10
+
+Open this `project/` folder in Codex or HyperFrames. The root composition mounts all 58 final measured scenes after assembly. BRIEF.md, DESIGN.md and PRODUCTION_STANDARD_v1.0.md preserve the approved design and delivery scope. The original source ZIP and extraction remain immutable under `../inputs/`.
+
+## Runtime and preview
+
+Use Node 24, Python 3.12, FFmpeg 6.1+, Chromium, `npm ci` and a Python environment created from requirements-lock.txt. Models, local fonts, GSAP, source notices and hashes are included. On GX10 `.venv` refers to the existing approved shared environment, read without upgrades. Environments and caches are excluded from the editable ZIP; create your own environment on another machine.
+
+```bash
+export HYPERFRAMES_BROWSER_PATH=/absolute/path/to/chromium
+npm run dev -- --port 3005
+```
+
+The renderer is pinned to HyperFrames 0.8.173. Earlier CEH module projects retain their versions and outputs. The optional animation-map helper uses isolated, published matching 0.8.173 producer/core packages and records its separate scope.
+
+## Edit the owning layer
+
+- `data/scenes.json` and `data/questions.json`: all 10,241 canonical spoken words and eight graded questions. Preserve their content unless a content change is requested.
+- `scripts/scene_art.py`, `scene_art_start.py`, `scene_art_mid.py`, `scene_art_end.py`, `art_common.py`, `cues_m10.json` and `editorial.py`: native diagrams, exact canonical phrase anchors and original Tally rig.
+- `scripts/build_film.py`: deterministic scene HTML, final-audio caption timing, question geometry and answer states.
+- `data/Sxx.audio.json`, `assets/voice/` and `assets/voice-baseline/`: sample ledger, processed clips and native baseline clips.
+- `data/forced-alignment/`: known-text alignment and preserved timing review leads.
+- `compositions/` and `chapters/`: generated editable scene layers, motion sidecars and independently checked chapter projects.
+
+For art-only changes, preserve valid audio. Prepare the affected chapter, inspect actual middle/reason frames, write its concrete review record and render it. Reassemble the root preview and metadata after changed chapters are prepared. Rebuild the master and rerun checks affected by the edit. Reuse unchanged chapter hashes and narration caches.
+
+```bash
+python scripts/chapter.py prepare C01
+node scripts/inspect_direct.mjs C01
+python scripts/chapter.py render C01
+python scripts/assemble_project.py
+python scripts/export_metadata.py
+python scripts/assemble_master.py
+python scripts/audit_rendered.py
+python scripts/capture_late_diagrams.py
+python scripts/validate_delivery.py
+```
+
+`chapter.py render` requires a matching current checked fingerprint and an actual `../qa/Cxx-visual-review.md` containing `review_status: pass`. `render_remaining.py` allows at most two active chapter renders. `launch_stage.py` records durable process status and logs under `../qa/`; inspect a live stage before launching another. `prepare_master.py` runs the full project and 64 actual quiz assertions. Seek, PCM continuity and encoded visual audits have separate receipts. Do not infer completion from a running process or source-only check.
+
+## Voice, captions and silence
+
+Kokoro af_heart / en-US uses baseline 0.73, then exactly one `atempo=1.5` on each spoken clip. Video and animation retain rate1.0; BGM is off. The fixed recipe is not recalibrated. Regenerate only changed clips. Cache identities bind text, voice, models, native baseline and processing. Captions preserve canonical spelling and use the final processed clip alignment.
+
+Each full stem and A–D set precedes exactly 48,000 stereo zero PCM frames at 48kHz, then the answer. Eight holds total8.000seconds. Caption windows exclude them. Digital-zero PCM and decoded lossy AAC measurements are separate claims. Native snapshots and actual encoded frames are separate evidence; inspect both progressive and complete diagrams.
+
+All Northstar case data are fictional SIMULATED OUTPUT. The CSV, JSON and constructed reflector-side DNS PCAP are under `../inputs/package/CEH_M10_English_Editorial_Masterclass/`. Offline parsing proves supplied bytes and stipulated arithmetic; proposed-control rows do not establish deployed mitigation. No network traffic, replay or load test is part of this package. Generated film questions do not alter learner records.
+
+The authored motion sidecars retain their input-state labels. External chapter fingerprints, scene_qa_ledger.csv and delivery-validation.json establish actual rendering. Full human viewing/listening and public media publication remain separately governed. Review leads are available in `../qa/audio-audition/index.html`.

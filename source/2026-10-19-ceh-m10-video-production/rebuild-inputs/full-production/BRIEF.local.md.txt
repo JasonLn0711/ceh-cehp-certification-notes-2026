@@ -1,0 +1,25 @@
+---
+workflow: general-video
+flow: automation
+storyboard: no
+message: "Locate the exhausted resource, connect evidence to impact, and protect legitimate Northstar service."
+audience: "Jason and CEH learners; complete English masterclass"
+language: en-US
+aspect: 1920x1080
+length: "Measured speech, explanatory motion and reading needs; no ceiling"
+---
+# M10 full-production activation
+
+Jason explicitly selected source package plus complete film and approved the complete plan. Produce 11 chapters, 58 genuinely animated scenes, full canonical narration, aligned/burned captions, chapter/master MP4s and source/editable ZIPs. Proceed without pilot or renewed rendering permission.
+
+## Assets and design
+
+Reuse original M04 v3 Tally, paper editorial tokens and locked Northstar map/assets inherited through M09. Author new Denial-of-Service teaching and four offline SIMULATED OUTPUT cases plus a legitimate-demand counterexample. Preserve earlier modules and shared environments.
+
+## Voice and timing
+
+Approved Kokoro af_heart/en-US baseline0.73, one atempo=1.5 per spoken clip; picture/animation rate1.0, no recalibration or BGM. Eight complete question/A–D sets each precede exactly48000 stereo zero PCM frames at48kHz, then answer. Measured samples own the final timeline. Keep captions outside holds and disclose AAC residue separately.
+
+## Evidence layers
+
+Source-ready, actual runtime, rendered media, human review, learner practice and public media release retain separate receipts. No external traffic generation, campaigns, credential collection or public media upload. Large assets live in Videos; technical evidence in CEH; thin locator/status/capacity/next gate in Planning.

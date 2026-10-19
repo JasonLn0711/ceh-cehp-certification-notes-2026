@@ -1,0 +1,823 @@
+---
+format: 1920x1080
+message: "Protect legitimate availability by matching evidence and controls to the constrained resource."
+arc: "Availability → resource mechanisms → evidence → layered protection → four cases → assessment"
+audience: "Jason and CEH learners"
+mode: autonomous
+---
+
+# M10 actual production storyboard
+
+All 58 scenes are required. The canonical source owns the lesson. Durations below are measured from the final 48kHz sample ledgers. Animated status records checked native motion; actual chapter/master render acceptance is held by the separate QA receipts. Full source and rendering are authorized without a pilot approval. Source geometry, measured audio alignment, browser checks and encoded-film verification remain distinct evidence layers.
+
+## Frame 1 — Keep the learning service available
+
+- status: animated
+- src: compositions/S01.html
+- duration: 65.766666667s
+- transition_in: cut
+- scene: Availability begins with a user completing a useful task.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Welcome to Northstar Learning Center. Tally is helping the school protect a simple promise: students can reach the services they need. Learning access means opening a lesson and continuing useful work. Enrollment means choosing a class and receiving a reliable confirmation. Availability describes whether an authorized user can obtain that service when needed. A server can have power, answer a basic check, and still fail this promise if students cannot finish enrollment. Our lesson is about denial of service and distributed denial of service. We will connect each mechanism to a limited resource, examine evidence, and choose a control that can reach that resource. Every campus incident in this lesson is simulated output. The files support offline reasoning; they are not reports of a real school attack. By the end, you should explain what is constrained, which observations support that conclusion, and how to check recovery. Begin with the student's task. The most impressive traffic chart matters only when we can explain its relationship to the service people actually need.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Northstar", "Learning access", "Enrollment", "Availability"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 2 — Trace the complete service path
+
+- status: animated
+- src: compositions/S02.html
+- duration: 66.033333333s
+- transition_in: cut
+- scene: A service depends on a chain of reachable resources.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Follow one student opening the Northstar portal. Name lookup translates the portal name into an address the client can use. The network path carries packets between the student and the service. A connection lets the endpoints organize their exchange. The application checks the request, obtains needed data, and returns a useful result. These steps can depend on other services, including identity and storage. A failure anywhere along this path can prevent enrollment. That is why a healthy application processor does not prove that the whole service is reachable. Likewise, a busy network link does not tell us whether the application itself has a defect. Tally draws each dependency as a separate box so we can ask a precise question at every boundary: what entered, what completed, and what waited or failed? This map is a starting model, not a complete inventory of every real deployment. During an actual authorized assessment, confirm the architecture with its owner. Here, we use the supplied fictional map and keep every investigation inside the offline evidence package.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Name lookup", "Network path", "Connection", "Application"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 3 — Measure the user's result
+
+- status: animated
+- src: compositions/S03.html
+- duration: 66.200000000s
+- transition_in: cut
+- scene: Compare user outcomes inside an explicitly defined observation window.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Before diagnosing a traffic pattern, define the result we want to protect. Success means a specified task reached its intended endpoint. For enrollment, that could mean receiving a confirmation, rather than merely loading the first page. Delay describes how long the task takes. Record the part being timed and whether failed attempts are included. Errors describe failed outcomes, with enough detail to distinguish a rejected connection from an application response. The time window places these observations on a shared clock. A one minute traffic average cannot be compared casually with a whole day of help desk tickets. Our fixtures provide aligned sixty second windows where stated. We will also keep the number of attempted user checks visible so a success fraction has a clear denominator. These are simulated observations, not a promise about production performance. A good incident note can therefore say which task failed, for how many sampled attempts, during which interval. That statement gives the resource measurements a purpose and lets another analyst check the reasoning without guessing what the chart represents.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Success", "Delay", "Errors", "Time window"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 4 — Keep the assessment inside its authority
+
+- status: animated
+- src: compositions/S04.html
+- duration: 72.466666667s
+- transition_in: cut
+- scene: This lesson analyzes local fixtures without generating network traffic.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Availability testing can affect other people's work, so authority must describe the action, not just the topic. Written scope identifies the owner, systems, permitted methods, time, and responsible contacts. In this course package, our authorized action is reading and analyzing offline evidence. We do not send packets, replay captures, contact reflectors, or load a public service. Stop conditions belong in any future separately approved exercise: unexpected impact, loss of monitoring, or uncertainty about the target should trigger the agreed response. Evidence custody means keeping the original fixture, its label, and the analysis result distinguishable. A generated table remains simulated output even when a parser successfully reads it. A proposed control remains a proposal until it is tested under its own authority. These distinctions protect both people and the quality of our conclusions. Tally keeps the scope card beside the technical diagram because a familiar tool does not grant permission. You can complete every learner task in this film using local files and written reasoning. No live disruption is needed to understand the mechanisms.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Written scope", "Offline evidence", "Stop conditions", "Evidence custody"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 5 — Ask four questions from first principles
+
+- status: animated
+- src: compositions/S05.html
+- duration: 68.500000000s
+- transition_in: cut
+- scene: Select protection by explaining the constrained resource first.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Our working method has four questions. Resource asks what finite thing the service needs: link capacity, packet processing, connection memory, or application work. Demand asks how much of that resource arriving work requires, and for how long. Evidence asks what we observed at a named location, with units and a time window. Control asks which change can reduce the relevant demand, preserve useful work, or increase appropriate capacity. Work through these questions in order. Buying a faster server may leave an upstream link full. Dropping packets on a server may save application work while leaving that same access link congested. A control can be useful without protecting every resource in the path. We will use four connected Northstar cases to practice choosing the right boundary. Their observations are simulated output, and their proposed improvements require separate validation. The method also leaves room for uncertainty: when a record cannot establish intent or causation, say so. A well bounded conclusion is more useful than a confident attack label that the available measurements cannot support.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Resource", "Demand", "Evidence", "Control"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 6 — Separate the outcome from the cause
+
+- status: animated
+- src: compositions/S06.html
+- duration: 70.433333333s
+- transition_in: cut
+- scene: An availability symptom supports investigation before attribution.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Service failure is an observed outcome: a legitimate user cannot obtain the expected service. Resource pressure is one possible explanation, such as a full link or an exhausted connection queue. A mechanism explains how particular work consumes that resource. Intent asks whether someone deliberately caused the harmful condition. These are related questions, but they need different evidence. A popular class opening can create heavy demand. A software problem can waste capacity. A hostile flood can also overwhelm a service. Similar charts may appear in each situation. When we use the term denial of service attack, we are describing deliberate interference with availability; a slow page alone does not establish that conclusion. Start the Northstar record with the task and symptom, then test resource explanations. Keep suspicious behavior as a hypothesis until the evidence supports it. This approach does not require waiting to protect users. An owner may apply an appropriate protective control while attribution remains open. Document the operational reason for that action and keep the later conclusion tied to the facts actually available.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Service failure", "Resource pressure", "Mechanism", "Intent"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 7 — Read rates with their units
+
+- status: animated
+- src: compositions/S07.html
+- duration: 70.266666667s
+- transition_in: cut
+- scene: Different rate units describe different kinds of work.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Bits per second measures a volume of transmitted data over time. Packets per second counts packets over time. Requests per second counts application requests over time. Each can be important, and none is a universal substitute for the others. Many small packets can require substantial packet processing without consuming the same byte volume as large packets. One application request can require much more work than another. A connection can contain several requests, and network retransmissions can add packets without adding new user tasks. Before comparing measurements, choose the same window and confirm the observation point. Also name the counted layer. Internet protocol bytes and Ethernet bytes include different information, so a calculation must keep that definition consistent. In Northstar case one, the stated rates use Internet protocol octets converted to bits per second across aligned sixty second windows. That definition makes its arithmetic checkable. When a dashboard uses a different basis, record it rather than silently combining unlike counters. Units are part of the evidence, not decoration beside a number.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Bits per second", "Packets per second", "Requests per second", "Same window"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 8 — Understand finite capacity and waiting work
+
+- status: animated
+- src: compositions/S08.html
+- duration: 65.200000000s
+- transition_in: cut
+- scene: Persistent excess demand grows waiting work or forces rejection.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Imagine a service desk that can finish a limited amount of work each second. Arrival brings new work to that desk. Capacity describes what the resource can handle under the stated conditions. A queue holds work that cannot be handled immediately. Completion removes finished work. If arrivals keep requiring more work than the desk can supply, the queue cannot grow forever. A bounded system eventually delays, rejects, or drops some work. This picture explains a mechanism; it is not a measured performance model for every computer. Real services have several queues, shared resources, and variable request costs. Even a short burst can fill a small queue while a long average looks comfortable. For Northstar, we therefore ask both how much work arrived and what happened to waiting work. We also check whether useful completions continued. A capacity number without its conditions is incomplete. A queue count without its limit is difficult to interpret. Keeping arrival, capacity, waiting, and completion separate helps us locate the constraint before choosing an intervention.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Arrival", "Capacity", "Queue", "Completion"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 9 — Describe distribution without inventing identity
+
+- status: animated
+- src: compositions/S09.html
+- duration: 69.266666667s
+- transition_in: cut
+- scene: Traffic distribution and actor identity are different conclusions.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: A denial of service attack may originate from one source. A distributed denial of service attack coordinates activity across many sources. Distribution can make simple source blocking less effective, but the resource being exhausted still needs to be identified. An observed address is a value recorded at a particular point in the network. It is not automatically a person, a device count, or proof of control. Address sharing can place many clients behind one address. A single device may use several addresses, and some packet sources can be forged. Attribution connects the harmful activity to an actor and requires evidence beyond a source list. In this lesson, a drawing with many devices explains a possible distributed architecture. It does not establish that the Northstar fixture came from a botnet. We will keep that distinction visible in every case. First describe the traffic pattern that is supported. Then state what additional evidence would be needed for a stronger conclusion. Operational protection can focus on harmful resource consumption while the identity and coordination questions remain unresolved.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["One source", "Many sources", "Observed address", "Attribution"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 10 — Build a map of resource exhaustion
+
+- status: animated
+- src: compositions/S10.html
+- duration: 67.733333333s
+- transition_in: cut
+- scene: The same availability failure can begin at different resource limits.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Use four resource families to organize the next chapters. Bandwidth limits the data that a link can carry. Packet work limits how quickly a device can inspect and forward arriving packets. Connection state uses memory and bookkeeping for communication that is pending or established. Application work includes the processing and dependencies needed to answer a request. These families can interact. A single incident may stress several of them, and a control may move the bottleneck to another place. The map is therefore an analysis aid, not a rule that every event belongs to exactly one box. For example, packets bearing a synchronize flag might fill a server's pending connection state, or their arrival rate might overwhelm an intermediate device first. The packet name does not decide which mechanism dominates. Tally will keep the resource map available as we inspect each Northstar fixture. Choose a hypothesis by correlating measurements at the relevant boundary. The next step is to examine network capacity, then compare that pattern with connection state pressure on a link that still has room.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Bandwidth", "Packet work", "Connection state", "Application work"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 11 — Read Northstar's constrained access link
+
+- status: animated
+- src: compositions/S11.html
+- duration: 66.266666667s
+- transition_in: cut
+- scene: An ingress cap can hide a much larger offered load upstream.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Northstar case one begins with three aligned sixty second windows. All of these values are simulated output. Baseline traffic offers fifty megabits per second to a campus access link with a capacity of two hundred megabits per second. Normal enrollment offers one hundred fifty megabits per second. Increased demand during enrollment fits inside this stated link budget. In the incident window, the provider observes offered load of two thousand four hundred megabits per second toward the campus. Accepted load at the constrained ingress is two hundred megabits per second. These figures describe different observation points. The campus value does not mean that only two hundred megabits per second tried to arrive. In this fixture, the difference is an equivalent discarded rate of two thousand two hundred megabits per second at the constrained ingress. Keep the labels attached to the numbers as Tally draws the link. The evidence supports severe capacity pressure at this boundary. It does not identify an attacker, explain every discarded packet, or establish the exact experience of every student.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Baseline", "Enrollment", "Offered load", "Accepted load"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 12 — Connect the link evidence to user impact
+
+- status: animated
+- src: compositions/S12.html
+- duration: 68.566666667s
+- transition_in: cut
+- scene: A lightly loaded server can sit behind an unavailable access path.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: The provider view and the campus view answer different questions. The provider view describes traffic offered toward the access boundary. The ingress limit describes the maximum rate accepted through that constrained point in our fixture. Discarded traffic is the equivalent rate that does not pass this boundary during the same window. The server view describes a downstream machine after this loss has already occurred. In Northstar case one, server processor use is twenty five percent, while only twenty of one hundred simulated user checks succeed. Those facts can coexist: a server cannot process requests that fail to reach it. Low processor use therefore does not clear the network path. At the same time, the success fraction is a sampled outcome, not proof that every failure has one cause. Preserve its denominator and time window. The analysis should connect the provider record, campus counters, and client checks, while retaining their separate meanings. This is how a resource explanation becomes useful: it accounts for both the constrained link and the otherwise puzzling downstream observation without inventing actor identity.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Provider view", "Ingress limit", "Discarded traffic", "Server view"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 13 — Count packet handling as well as bytes
+
+- status: animated
+- src: compositions/S13.html
+- duration: 68.000000000s
+- transition_in: cut
+- scene: A device may reach its packet-processing limit before its bit-rate limit.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Packet size affects how many packets carry a given amount of data. Packet rate tells us how many individual packets arrive each second. Processing cost includes the work a device performs for those packets, such as examining headers or checking a rule. A measured limit tells us what that specific device and configuration can sustain under defined conditions. Consequently, a link that looks comfortable in bits per second can still carry more packets than a component can handle. This is a general resource model, not a measured finding about the Northstar router. Packet sizes, hardware paths, enabled features, and traffic mix all affect real performance. We would need relevant device counters and an authorized measurement before asserting its actual limit. Do not borrow a marketing throughput number and treat it as the answer for every packet pattern. In an incident record, place byte rate beside packet rate, drops, and device health. That combination helps distinguish a full transmission link from overloaded packet processing. It also explains why two traffic streams with similar byte volume may have different effects.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Packet size", "Packet rate", "Processing cost", "Measured limit"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 14 — Understand direct and coordinated traffic
+
+- status: animated
+- src: compositions/S14.html
+- duration: 73.933333333s
+- transition_in: cut
+- scene: Multiple senders can combine pressure at one constrained destination path.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Direct traffic reaches a destination without first using another service to reflect replies toward it. That describes a traffic path, not permission or intent. Coordinated devices can contribute traffic toward a shared bottleneck. If those devices are compromised and controlled together, the collection is commonly called a botnet. The defender may then face combined demand larger than any one device contributes. This diagram explains the architecture without teaching how to build or operate it. Source uncertainty still matters. A set of addresses in a flow record does not prove that each address represents a compromised device or that one actor coordinates them. For Northstar case one, the supplied evidence establishes offered and accepted rates, sampled user impact, and downstream processor use. It does not supply device compromise records or a command channel investigation. Keep the traffic hypothesis and the attribution question separate. Protecting the constrained access path can be justified by the availability evidence itself. Later chapters will examine how reflected traffic changes the path and why defense responsibilities can sit with several different network operators.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Direct traffic", "Coordinated devices", "Shared bottleneck", "Source uncertainty"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 15 — Choose tools by the evidence they can read
+
+- status: animated
+- src: compositions/S15.html
+- duration: 72.433333333s
+- transition_in: cut
+- scene: Each tool view establishes a bounded part of the incident story.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: A packet analyzer helps inspect individual packet fields and timing in an authorized capture. Wireshark is one familiar example; in this package, any packet inspection stays on the supplied local files. Flow records summarize communication over intervals, often preserving endpoints, volume, and duration without the full payload. Interface counters help locate accepted bytes, discarded packets, and device conditions at a named boundary. Service checks test whether a defined user task can complete. These views complement one another. A packet capture may miss traffic that was discarded before its capture point. A flow summary may be sampled or aggregated. An interface counter may combine several services. A service check may use a different path from the affected students. Record those limits before making a broad claim. A tool's presence is not proof that a mechanism was reproduced or a control was validated. Our learner workflow parses fixtures and compares their meanings. It generates no network traffic. Select the smallest evidence view that can answer the current question, then add another view only when a specific uncertainty requires it.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Packet analyzer", "Flow records", "Interface counters", "Service checks"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 16 — Place protection before the constrained resource
+
+- status: animated
+- src: compositions/S16.html
+- duration: 70.800000000s
+- transition_in: cut
+- scene: A control must act early enough to spare the resource at risk.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Suppose Northstar applies a campus filter after its constrained access boundary. That filter may protect a downstream application or reduce later processing. It cannot undo the capacity already consumed while unwanted traffic approached and crossed the protected link. An upstream filter can act before that access constraint, provided the upstream operator can distinguish the traffic appropriately and has the capacity to handle it. This placement principle explains why an owner may need provider coordination during a volumetric event. It does not promise that a particular filter will preserve every legitimate request. Rules need evidence, an accountable owner, and a way to check unintended impact. The user outcome remains the deciding measure: can students complete the intended task after protection is applied? For Northstar, any recovery rows in the supplied package are simulated output, not a report of an installed filter. We will discuss control selection and escalation more fully later. For now, keep one causal question beside the diagram: does this control reduce demand before the resource we are trying to protect is consumed?
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Campus filter", "Upstream filter", "Protected link", "User outcome"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 17 — Follow a normal TCP handshake
+
+- status: animated
+- src: compositions/S17.html
+- duration: 75.700000000s
+- transition_in: cut
+- scene: Connection establishment can require temporary server state before completion.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Transmission Control Protocol, or T C P, establishes a connection with a three message exchange in the ordinary example shown here. Synchronize marks the client's opening request and carries its starting sequence information. The server responds with its own synchronize information and an acknowledgment of the client's opening. Acknowledge marks the client's confirming reply. The server can then regard the connection as established. Pending state represents the server's temporary bookkeeping while it awaits that confirmation. This is a simplified normal handshake; the protocol also handles retransmission and other valid situations. The exchange coordinates sequence information. It does not authenticate the human using the connection. A completed handshake also does not prove that a later application request is harmless. For availability analysis, notice the timing of resource commitment. Depending on the implementation and active defenses, a server may reserve resources before the final confirmation arrives. That gap creates the connection state question we will examine next. Tally keeps the pending box separate from the established box so completed connections and incomplete attempts are never silently counted as the same thing.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Synchronize", "Acknowledge", "Pending state", "Established"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 18 — Read the half-open connection fixture
+
+- status: animated
+- src: compositions/S18.html
+- duration: 74.700000000s
+- transition_in: cut
+- scene: Occupancy is a current stock while attempts and completions are interval counts.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Northstar case two supplies a different pattern. These values are simulated output for the same sixty second interval. Half-open entries are pending handshake records in this fixture. Their reported occupancy reaches one thousand twenty four. Backlog capacity is also one thousand twenty four, so the modeled pending state is full at the reported observation. New attempts total six thousand unique connection attempts during the interval. Completed handshakes total sixty. The fixture explicitly separates retransmissions from these unique counters. We must preserve that definition instead of counting every repeated synchronize packet as a new attempt. Occupancy and interval totals also differ: a full backlog is a state observation, while attempts and completions accumulate over time. Six thousand attempts do not mean six thousand simultaneous entries. The completion count alone cannot tell us exactly which attempts are still pending at the end. This record supports a hypothesis of connection state pressure. To interpret a real operating system, confirm its queue definitions, counter behavior, and active defenses. Our supplied capacity is a teaching model, not a universal default for all servers.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Half-open entries", "Backlog capacity", "New attempts", "Completed handshakes"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 19 — Distinguish state pressure from a full link
+
+- status: animated
+- src: compositions/S19.html
+- duration: 75.366666667s
+- transition_in: cut
+- scene: A connection-state bottleneck can coexist with modest network volume.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Link load in Northstar case two is thirty megabits per second. That is well below the stated two hundred megabit access capacity used in our campus model. State pressure appears in the full pending handshake backlog, rather than a full link. Client success is five completed user checks out of one hundred simulated attempts. Together, these observations make connection establishment a useful investigation target. They do not by themselves establish malicious intent or identify a source. Alternative causes deserve explicit consideration. Lost replies, a routing problem, or severe legitimate connection demand can also affect completion patterns. A capture at one point may fail to see both directions, so missing acknowledgments there do not automatically prove that clients never sent them. Correlate the server's state counters with the appropriate bidirectional observations and client results. In our fixture, the counters are stipulated facts with documented meanings. The next step is to compare mechanism-specific protections while preserving uncertainty about attribution. The low byte rate also explains why simply adding access bandwidth may leave this particular modeled resource constraint unchanged.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Link load", "State pressure", "Client success", "Alternative causes"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 20 — Understand the tradeoffs of holding less state
+
+- status: animated
+- src: compositions/S20.html
+- duration: 75.400000000s
+- transition_in: cut
+- scene: Changing pending-state handling trades capacity, lifetime, and client compatibility.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: A larger backlog provides room for more pending connection records. It changes a finite budget, but sustained excess demand can still fill it, and implementation costs matter. A shorter timeout removes incomplete records sooner. It may also remove legitimate attempts on slow or lossy paths before their handshake finishes. Smaller state means keeping a compact pending record instead of committing the full connection structure immediately. A SYN cache, or compact pending connection cache, is one approach to that idea. Each choice has a client tradeoff and requires implementation-specific review. These are explanations of defensive mechanisms, not a recommendation to change a production setting during this film. Northstar's backlog capacity is stipulated, and its proposed recovery values remain simulated output. A useful evaluation would examine legitimate completion, delay, resource use, and failure behavior under an approved test plan. It would also check what happens when the defense itself reaches its limit. Compare that evidence with the service objective. Enlarging a queue or shortening its lifetime is not enough unless the resulting system preserves useful access for the clients it serves.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Larger backlog", "Shorter timeout", "Smaller state", "Client tradeoff"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 21 — Explain SYN cookies and their boundary
+
+- status: animated
+- src: compositions/S21.html
+- duration: 78.666666667s
+- transition_in: cut
+- scene: Cookies can defer pending connection state while leaving other resource limits in place.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: SYN cookies take a different approach to the pending record. A cookie response encodes enough information into the server's initial sequence value to check a later reply, using implementation-controlled validation information. The return acknowledgment allows the server to validate that response and recover the needed connection information. State allocation can therefore be deferred instead of reserving an ordinary pending record for every opening request. This helps address a particular state exhaustion mechanism. Remaining limits include packet processing, bandwidth, completed connection resources, and application work. A client that completes a handshake can still request expensive work. Details also depend on the operating system and supported protocol options; consult its current documentation and validate client behavior. Linux documentation describes cookies as a fallback facility, rather than a substitute for provisioning legitimate connection demand. For Northstar, cookies are a proposed control requiring a separate test. A generated improvement row does not prove they were enabled or worked. The expected benefit should be stated narrowly: reducing pressure from incomplete handshakes while checking that legitimate users still establish usable connections.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Cookie response", "Return acknowledgment", "State allocation", "Remaining limits"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 22 — Evaluate a screening proxy as its own system
+
+- status: animated
+- src: compositions/S22.html
+- duration: 74.366666667s
+- transition_in: cut
+- scene: Moving handshake work to a proxy moves responsibility for its capacity too.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: A screening proxy can handle or validate the client side of connection establishment before allowing corresponding work at the protected server. The exact behavior depends on the product and network design. This can reduce the server's exposure to incomplete handshakes. It also creates a new bottleneck to evaluate: the proxy has its own packet processing, state, and link limits. Placing a device in front of a server does not create unlimited capacity. Separate validation must check the proxy path, legitimate clients, failure behavior, and the resource the design intends to protect. For Northstar case two, a proxy and cookies are candidate approaches, not deployed results. Any supplied recovery rows are simulated output. They help practice comparison without claiming a live operating system test. Keep the original incident evidence unchanged and record the control hypothesis separately. We now have two distinct resource patterns: an access boundary overwhelmed by offered volume, and a pending connection budget full while byte rate remains modest. The next chapter adds reflection and amplification, where different systems send the initiating requests and the replies that reach the victim.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Screening proxy", "Protected server", "New bottleneck", "Separate validation"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 23 — Follow the reflected reply
+
+- status: animated
+- src: compositions/S23.html
+- duration: 71.000000000s
+- transition_in: cut
+- scene: Trace the request and reply through two observation points.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Reflection changes where a reply goes. The Sender creates a request, while the Reflector is a service that answers it. The Claimed source is the address written into the request. If that address belongs to the Victim, the service sends its reply toward the victim instead of the actual sender. Our Northstar fixture constructs that false source field explicitly. We know it was forged because the exercise defines it that way. A source address seen in an unrelated capture would require additional evidence before reaching that conclusion. In the general path, requests arriving at a reflector and replies arriving at Northstar have different observation points. This fixture constructs the reflector-side request and response; it supplies no separate victim capture. Keep their timestamps, directions, and packet lengths separate. A reflection path can redirect traffic even when the reply is small. Amplification adds a second property, where a small request produces a larger response. All arrows here represent stored, simulated packets. Reading them creates no traffic. Tally follows the return address to explain the path, while leaving the human identity behind the request unknown.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Sender", "Reflector", "Claimed source", "Victim"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 24 — Measure one comparable exchange
+
+- status: animated
+- src: compositions/S24.html
+- duration: 62.033333333s
+- transition_in: cut
+- scene: Divide response bytes by request bytes at one measurement layer.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: The Paired exchange in case three contains one constructed request and its associated response. Count Packet bytes at the Internet Protocol layer. The request has sixty bytes, and the response has three thousand bytes. Divide three thousand by sixty to obtain Fifty times. This is the amplification ratio for this particular exchange and accounting method. It does not say that every query to this service has the same ratio. It also does not describe the complete attack rate, the number of reflectors, or the amount of traffic a real victim received. Same basis means the numerator and denominator use the same layer, direction rules, and inclusion rules. Comparing a response frame with only the request payload would inflate the result. The saved evidence allows us to inspect lengths and repeat the arithmetic without sending either packet. To estimate a traffic rate, we would additionally need counts over a defined interval. Tally places the two byte totals beside their layer name before drawing the division line.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Paired exchange", "Packet bytes", "Fifty times", "Same basis"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 25 — Ethernet changes the denominator
+
+- status: animated
+- src: compositions/S25.html
+- duration: 66.766666667s
+- transition_in: cut
+- scene: Keep frame accounting separate from packet accounting.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: The same stored exchange can produce different byte totals at different layers. The Packet layer has sixty request bytes and three thousand response bytes. At the Ethernet layer, our supplied frames have seventy four and three thousand fourteen bytes. Each includes fourteen bytes of Ethernet header beyond the corresponding packet. Dividing three thousand fourteen by seventy four produces about forty point seven. That Different ratio is correct for these frame lengths, while the packet ratio remains fifty. Neither number describes every physical bit used on a wire. These saved frame lengths do not include every possible link overhead. State the accounting boundary whenever a report compares volume. Count once also matters when adding evidence from several sensors. A packet observed at a provider and again at a campus router is not automatically two independent arrivals. Identify the observation point and any duplicated records before summing. Northstar's worksheet keeps both length columns, allowing reviewers to reproduce each calculation and see why changing the denominator changes the result.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Packet layer", "Ethernet layer", "Different ratio", "Count once"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 26 — Limit recursive service to its audience
+
+- status: animated
+- src: compositions/S26.html
+- duration: 68.900000000s
+- transition_in: cut
+- scene: Distinguish recursive answers from authoritative publication.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: A name server can perform different jobs. Recursive service looks up an answer on behalf of a client, possibly contacting other servers. Intended clients are the users and networks that the operator has chosen to serve. A campus resolver usually has a defined audience. Restricting recursion to that audience reduces the chance that arbitrary outsiders can use the resolver as a reflector. Authoritative data has a different purpose. An authoritative server publishes records for zones it serves, and public access may be necessary for that role. Separate roles helps us choose a control that preserves the required service. Turning off all external name resolution would break ordinary functions at Northstar. The Internet best practice on recursive reflectors recommends serving the intended clients and separating recursive and authoritative service where practical. These principles guide a configuration review; they do not prove that a particular server is correctly configured. Our reserved test name and saved packets illustrate the distinction. We perform no open resolver search and send no queries to outside systems.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Recursive service", "Intended clients", "Authoritative data", "Separate roles"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 27 — Validate sources at the origin boundary
+
+- status: animated
+- src: compositions/S27.html
+- duration: 69.400000000s
+- transition_in: cut
+- scene: Place source-address validation where forged traffic originates.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: An Allowed source range describes which addresses may legitimately originate behind a particular connection. At that Network boundary, an operator can reject outbound traffic whose claimed source falls outside the permitted range. The historical ingress filtering practice describes this check from the provider's receiving side. It can stop a Forged address from leaving an originating network when that address violates the boundary policy. Northstar can apply the principle to traffic leaving its own network, while its provider has responsibilities at other boundaries. Residual risk remains. A permitted source range can still contain abusive traffic, and a forged address inside that range may pass a simple prefix check. Complex routing and legitimate exceptions also require careful design. Source validation reduces a spoofing opportunity; it does not establish that all allowed traffic is harmless. Our exercise reviews a policy diagram rather than changing router configuration. Tally marks the originating boundary and the victim boundary separately so the class can identify which operator can act on each part of the path.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Allowed source range", "Network boundary", "Forged address", "Residual risk"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 28 — Different controls belong to different owners
+
+- status: animated
+- src: compositions/S28.html
+- duration: 71.833333333s
+- transition_in: cut
+- scene: Match each reflection control to the operator who can apply it.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: The Origin network can reduce forged traffic through source-address validation. The Reflector owner can restrict recursive service and review response rate limiting where supported. Those controls act on different parts of the reflection path. Response rate limiting may reduce repetitive response traffic, but its settings and side effects depend on the service and implementation. Restricting recursion addresses who may request that recursive work. Neither action increases Northstar's incoming link capacity. The Victim provider can help filter or divert unwanted traffic before it reaches a constrained campus connection. Northstar's own firewall acts later along that path. A Shared response therefore needs clear observations and owners, rather than a single control name on a checklist. Record the traffic pattern, affected service, time window, and proposed action. Check that legitimate name resolution and campus access remain usable after an authorized change. In our offline case, these are recommendations supported by simulated evidence. No provider change has occurred, and any generated recovery rows remain examples until a separate real deployment is validated.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Origin network", "Reflector owner", "Victim provider", "Shared response"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 29 — Calculate application work demand
+
+- status: animated
+- src: compositions/S29.html
+- duration: 65.800000000s
+- transition_in: cut
+- scene: Multiply request rate by CPU service demand before judging capacity.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Request rate alone does not describe application cost. Work per request tells us how much processing each request needs. In Northstar's toy baseline, one hundred requests each second require twenty milliseconds of processor time apiece. Multiplying them gives two processor core seconds of work every second. The incident example has one hundred twenty requests each second, with two hundred milliseconds of work per request. That produces twenty four core seconds of demand every second. Compare it with the Core budget of eight cores, which can supply at most eight core seconds each second under the simplified assumptions. The Demand estimate exceeds that budget even though request count increased only slightly. Queues, contention, and response times can then worsen. These values are teaching inputs, not a measured benchmark or a guarantee about a real server. Actual systems require profiling and resource measurements. Tally expands each request into its work cost so the class can see why counting requests without measuring their cost can hide an application bottleneck.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Request rate", "Work per request", "Core budget", "Demand estimate"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 30 — A larger rate can need less work
+
+- status: animated
+- src: compositions/S30.html
+- duration: 66.433333333s
+- transition_in: cut
+- scene: Compare request cost and outcomes before labeling a surge.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: A Legitimate surge can be easier to serve than a smaller expensive workload. Northstar's counterexample contains three hundred requests each second, with five milliseconds of processor work per request. Multiplication gives one point five core seconds of demand each second. That is less than the ordinary two-core demand in the previous toy baseline, despite the higher request rate. Cheaper work might come from a different endpoint or an effective cache, but the fixture does not establish which cause produced it. Investigators would inspect the request mix and supporting telemetry. Measured latency helps show whether users wait longer. User success shows whether the intended task still works. Use both with processor demand, errors, and dependency health to judge availability. A high rate can be a useful alert signal while leaving intent unresolved. Low rates can also hide expensive operations. The class should explain the calculation and its limits before choosing a response. Automatically blocking the busiest apparent source could reject many legitimate learners who share a gateway.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Legitimate surge", "Cheaper work", "Measured latency", "User success"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 31 — Waiting connections consume resources
+
+- status: animated
+- src: compositions/S31.html
+- duration: 70.466666667s
+- transition_in: cut
+- scene: Show how long-lived waiting can hold finite service capacity.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: An Open connection may consume memory, a socket, a worker, or a slot in another limited pool. The exact resources depend on the server architecture. Waiting state becomes a problem when many connections remain incomplete or make very little useful progress. A service can run out of available slots while total bandwidth stays modest. Some slow traffic is legitimate. A learner on an unreliable connection may need more time than someone on the campus network. A Progress deadline should therefore reflect the operation and the expected clients. Operators can combine time limits, connection budgets, and minimum progress rules, then observe the effect on Useful traffic. A single aggressive timeout can reject legitimate uploads or long-running responses. Northstar's diagram illustrates held slots and elapsed time without opening any connections. The next evidence check would compare active connections, their ages, progress, errors, and available service capacity. Those observations help distinguish connection pressure from a saturated link or expensive processor work, each of which calls for a different response.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Open connection", "Waiting state", "Progress deadline", "Useful traffic"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 32 — Protect the shared dependency
+
+- status: animated
+- src: compositions/S32.html
+- duration: 69.900000000s
+- transition_in: cut
+- scene: Follow a request into its limited downstream pool.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: The application can depend on a database, an identity service, or another remote component. A Shared dependency may become the narrowest resource even when the front end has free capacity. Northstar's simulated pool has thirty two slots. During the incident, all thirty two are occupied and four hundred requests wait in the queue. Busy slots describe current occupancy; they do not reveal why each operation is slow. Inspect dependency latency, timeouts, and the work holding those slots. A Bounded queue limits how much waiting work the system accepts. Backpressure tells an earlier stage to slow down or reject additional work when the downstream stage cannot keep up. Operators also need deadlines and cancellation behavior so abandoned requests do not hold resources indefinitely. Repeated retries can add more work to an already stressed dependency, so retry policies need limits. Separating critical operations into protected budgets can preserve important tasks. Our fixture establishes pool pressure, while root cause and the effectiveness of any proposed control still require their own evidence.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Shared dependency", "Busy slots", "Bounded queue", "Backpressure"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 33 — Historical case: HTTP two Rapid Reset
+
+- status: animated
+- src: compositions/S33.html
+- duration: 77.700000000s
+- transition_in: cut
+- scene: Explain the 2023 cost imbalance without replaying attack traffic.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: In October twenty twenty three, Google published its analysis of HTTP two Rapid Reset attacks observed earlier that year. Parallel streams let several requests share one transport connection. Early cancellation can leave servers with Residual work already spent accepting, decoding, or routing requests. Google's report describes an imbalance between the client's cost and the server's cost. It also explains why counting only currently open streams can miss repeated creation and cancellation. Connection policy therefore needs signals about behavior over time, alongside appropriate software fixes and implementation-specific protections. Cancellation itself is legitimate protocol behavior, including when a browser no longer needs a resource. Defenders must evaluate patterns and service impact before treating a cancellation as hostile. This is a dated historical case, rather than a claim about the largest attack today. Northstar's abstract timeline explains the cost relationship without constructing a traffic generator or an attack trace. When reviewing a real deployment, use its vendor guidance and verified version information. A canceled request count alone does not prove that the server stopped every downstream operation.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Parallel streams", "Early cancellation", "Residual work", "Connection policy"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 34 — Build a useful availability baseline
+
+- status: animated
+- src: compositions/S34.html
+- duration: 72.266666667s
+- transition_in: cut
+- scene: Compare like time windows and meaningful service outcomes.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: A baseline gives an incident comparison a defined context. A Comparable window uses the same duration, units, observation point, and relevant service conditions. Northstar's network fixture uses aligned sixty-second windows. Its ordinary offered traffic is fifty megabits per second, while a normal enrollment period reaches one hundred fifty. Both values sit below the two hundred megabit link capacity in the simplified example. Expected pattern includes calendar events, time of day, and changes in who uses the service. Resource pressure asks how close a particular resource is to its useful limit. User outcome asks whether a learner can finish the intended task. A rate graph alone answers neither question completely. The fixture's values are simulated teaching observations and do not define a universal alert threshold. A real baseline should retain variation and known exceptions, then be reviewed when applications or capacity change. Tally aligns the ordinary and enrollment windows before adding the incident, so the class can compare demand without mistaking a legitimate busy period for proof of malicious intent.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Comparable window", "Expected pattern", "Resource pressure", "User outcome"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 35 — Correlate the views of one incident
+
+- status: animated
+- src: compositions/S35.html
+- duration: 70.266666667s
+- transition_in: cut
+- scene: Keep offered load, accepted load, and application health distinct.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: The Upstream view can show traffic that a campus sensor never receives. In the incident fixture, the provider observes two thousand four hundred megabits per second offered toward Northstar. The Campus view records two hundred accepted, with an equivalent two thousand two hundred discarded at the constrained ingress. These values describe different observation points in the same simplified accounting model. The Application view shows processor use at twenty five percent, while only twenty of one hundred simulated user attempts succeed. Low processor use does not rule out a network bottleneck. Requests may fail before the server receives enough work to become busy. Aligned time keeps these observations tied to the same sixty-second window. In a real investigation, verify clock alignment, counter meaning, sampling, and packet-loss visibility before combining dashboards. A campus graph capped at link capacity cannot by itself reveal all offered upstream demand. The class can support an ingress-capacity finding from these stipulated observations while leaving attacker identity and intent open. Every value on this board is simulated output.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Upstream view", "Campus view", "Application view", "Aligned time"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 36 — Separate detection from attribution
+
+- status: animated
+- src: compositions/S36.html
+- duration: 72.766666667s
+- transition_in: cut
+- scene: Turn an alert into a bounded evidence statement.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Rate alone can trigger a useful investigation, but it cannot identify the actor or establish malicious intent. A Supporting signal might include a saturated resource, unusual request behavior, rising failures, or a matching provider observation. Each signal has a measurement boundary. A high reset count has different meaning from high processor demand, and both differ from user failure. An Alternative cause could be a scheduled enrollment event, a broken client retrying requests, an application regression, or a failing dependency. These causes can also overlap. State a Confidence level for the specific claim you can support. For example, the simulated evidence can show that a dependency pool is full while leaving the reason unresolved. Preserve that distinction when escalating. Blocking by source address can affect unrelated people behind shared gateways, and address changes can weaken simplistic rules. Northstar's analyst records observed impact first, the suspected mechanism next, and attribution as a separate question. A cautious interpretation still permits an authorized protective response when service availability is at risk.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Rate alone", "Supporting signal", "Alternative cause", "Confidence level"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 37 — Use tools on saved evidence
+
+- status: animated
+- src: compositions/S37.html
+- duration: 70.666666667s
+- transition_in: cut
+- scene: Choose a read-only tool for each evidence question.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: A Saved capture lets a packet analyzer inspect the constructed exchange without sending it. In this course, Wireshark can help read packet structure, direction, protocol fields, and captured lengths from the provided file. A Flow summary groups traffic into records with defined counters and time windows. It can reveal broad changes while omitting details that only packets contain. Host counters show server resources such as connection state, processor use, pool occupancy, and queue size. Northstar's supplied files model those counters offline. Known limits belong beside each result. A capture may be truncated, sampled, or taken after packets were dropped. A flow exporter may count bytes differently from a switch. A host snapshot can miss a short event between samples. The selected tool should answer a specific question, and its input should remain identifiable. We read the fixture files and verify calculations; we do not activate a listener, generate traffic, replay packets, or scan remote systems. A screenshot proves what a tool displayed, while the saved input and calculation support reproducibility.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Saved capture", "Flow summary", "Host counters", "Known limits"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 38 — Make the evidence reproducible
+
+- status: animated
+- src: compositions/S38.html
+- duration: 72.333333333s
+- transition_in: cut
+- scene: Carry source files and calculation assumptions into the finding.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Preserve originals before transforming evidence. Keep the supplied file, its origin, its collection description, and a hash that helps detect later byte changes. A matching hash does not prove that the original observation was truthful or complete. Test calculation means checking the units and arithmetic against the recorded inputs. For case three, compare packet lengths with packet lengths. For case four, convert milliseconds into seconds before multiplying by requests each second. State uncertainty where the record stops. Synthetic rows show the relationships the exercise stipulates, while a production claim needs real target observations. Missing timestamps, sampling details, or counter definitions can change an interpretation. Choose next check according to the unresolved decision. A full dependency pool suggests checking which operations hold slots; a capped campus link suggests asking the provider about offered traffic. Avoid collecting unrelated data simply because a tool can display it. Tally attaches each claim to its file and calculation, giving another reviewer enough information to repeat the analysis and challenge the conclusion.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Preserve originals", "Test calculation", "State uncertainty", "Choose next check"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 39 — Protect the resource that is constrained
+
+- status: animated
+- src: compositions/S39.html
+- duration: 74.400000000s
+- transition_in: cut
+- scene: Select a control by resource and placement.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Upstream capacity requires a response before unwanted traffic consumes the constrained link. Provider filtering or an appropriate traffic-cleaning service may help there. A firewall behind a saturated campus connection cannot recover capacity already spent carrying that traffic. Connection state needs protections appropriate to the handshake or connection resource. Application work needs budgets that reflect request cost, downstream limits, and useful tasks. A web application firewall can inspect supported application traffic, while a content delivery network can absorb or cache suitable traffic. Their coverage depends on architecture, configuration, and which paths reach the origin. Neither name guarantees protection against every availability mechanism. User continuity keeps the response tied to the learning service. A control that drops all access can reduce load while leaving the intended service unavailable. Northstar maps its four simulated cases to different constrained resources before recommending a control. The class should identify what the control protects, where it acts, who can authorize it, and which legitimate operation must still succeed during validation.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Upstream capacity", "Connection state", "Application work", "User continuity"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 40 — Bound application work and dependencies
+
+- status: animated
+- src: compositions/S40.html
+- duration: 74.833333333s
+- transition_in: cut
+- scene: Prevent expensive requests from consuming every shared resource.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: An Admission budget limits how much work a service accepts. The budget may depend on authenticated users, operations, or estimated cost, rather than only source address. Shared addresses and uneven request costs make one simple counter incomplete. A Reusable response can avoid repeating suitable computation, but cache rules must preserve correctness and the privacy of user-specific data. Bounded work places limits on processing, waiting, and retries. Dependency isolation reserves capacity so one slow operation cannot consume every slot needed by another. In Northstar's toy case, these ideas address different parts of the twenty four-core demand estimate and the full thirty two-slot pool. A cache may reduce processor work while leaving a blocked dependency unchanged. Queue limits can prevent unlimited waiting while requiring a clear rejection or retry response to clients. Treat each change as a proposed control with an expected measurable effect. Our supplied recovery examples are simulated output. Operators would still need authorized configuration changes and real observations of latency, errors, resource use, and successful learner tasks.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Admission budget", "Reusable response", "Bounded work", "Dependency isolation"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 41 — Tune protective thresholds with outcomes
+
+- status: animated
+- src: compositions/S41.html
+- duration: 71.466666667s
+- transition_in: cut
+- scene: Measure service benefit and legitimate rejection together.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: A Baseline threshold should reflect the relevant resource and expected service pattern. A request-rate threshold chosen for a quiet period can be inappropriate during normal enrollment. A Protective action might slow admission, challenge a supported client, reject excess work, or request upstream assistance. Choose it within the operator's authority and document what should improve. False rejection measures legitimate tasks that the control prevents or delays beyond an acceptable limit. Watching only the volume dropped can hide that harm. A Rollback condition defines when an authorized change should be revised or reversed because its effects differ from expectations. Compare equivalent windows and keep track of other changes that could explain recovery. Lower load after a rule is applied does not alone prove that the rule caused improvement; the traffic source may have stopped independently. In this course, post-control rows are generated examples that support calculation practice. They do not establish deployment success. Tally keeps the predicted result and the observed result in separate boxes until real validation evidence is available.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Baseline threshold", "Protective action", "False rejection", "Rollback condition"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 42 — Escalate with a useful handoff
+
+- status: animated
+- src: compositions/S42.html
+- duration: 72.900000000s
+- transition_in: cut
+- scene: Send the mechanism, evidence boundary, and requested action to the right owner.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: The Incident owner coordinates the availability response and keeps technical actions connected to service priorities. A Provider handoff should identify the affected service, incident window, observation point, traffic units, and the suspected constrained resource. Include relevant evidence and a clear request within the existing support agreement. Protect private identifiers and operational details through the approved channel. A Change record names the operator, authorization, action, expected result, and rollback condition. That record allows later reviewers to connect recovery observations with the actual sequence of decisions. Recovery evidence should include the intended learner task as well as resource counters. A quiet graph is insufficient when users still cannot sign in or retrieve their lessons. Northstar's offline exercise prepares this handoff as a draft and performs no external contact. The final finding can explain why upstream help, protocol protection, or an application change fits a particular case. It must also state what remains unknown and which observation would resolve that uncertainty before the team declares the service restored.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Incident owner", "Provider handoff", "Change record", "Recovery evidence"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 43 — E01: Follow the constrained WAN
+
+- status: animated
+- src: compositions/S43.html
+- duration: 74.266666667s
+- transition_in: cut
+- scene: Locate each measurement before choosing where to protect the constrained link.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Northstar case E zero one joins network measurements with user impact. Every record is simulated output. Offered traffic is what the provider observes approaching the campus connection. During the incident, it is twenty-four hundred megabits per second. Accepted traffic is measured at the constrained campus ingress. Its two hundred megabits per second matches the stated link capacity. The fixture accounts for the remaining twenty-two hundred as discarded traffic at that boundary. We are comparing the same sixty-second window and the same Internet Protocol byte convention. User success falls to twenty of one hundred stipulated checks, while server processor use is twenty-five percent. That combination directs attention toward the connection before the server. It does not identify an attacker. Normal enrollment traffic reaches one hundred fifty megabits per second, which also shows why increased demand alone needs context. Upstream action means asking the provider to evaluate protection before the constrained ingress. A filter after the saturated connection cannot recover bandwidth already consumed on that connection. Record the provider's observation point and validate any proposed control separately.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Offered traffic", "Accepted traffic", "User success", "Upstream action"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 44 — E02: State fills before the link
+
+- status: animated
+- src: compositions/S44.html
+- duration: 75.033333333s
+- transition_in: cut
+- scene: Interpret connection progress and state capacity within one aligned window.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: In case E zero two, the simulated link carries thirty megabits per second, while the backlog contains all one thousand twenty-four available half-open entries. Connection attempts counts six thousand unique attempts during the same sixty-second window. Retransmissions have a separate counter, so we do not inflate that number by counting the same attempt again. Half-open state describes unfinished connection setup retained by the server. Completed handshakes counts sixty, giving a stipulated completion fraction of one percent for this window. Client success is five of one hundred checks. These observations support pressure on connection state even though bandwidth remains below the campus link capacity. They do not prove who generated the requests or why completion failed. Control trial is the next evidence requirement. A suitable server might use SYN cookies to reduce retained state, or an appropriate proxy might complete validation before forwarding a connection. Their behavior and tradeoffs depend on the actual implementation. The supplied recovery rows are simulated outputs. They support an analysis exercise, while a real deployment decision still requires controlled validation and legitimate-client checks.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Connection attempts", "Half-open state", "Completed handshakes", "Control trial"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 45 — E03: Match the amplification layer
+
+- status: animated
+- src: compositions/S45.html
+- duration: 72.433333333s
+- transition_in: cut
+- scene: Pair comparable byte counts and place defenses at their actual actors.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Case E zero three contains constructed name-service packets for a reserved example name. The files are simulated output, and the exercise sends no packets. Request bytes equals sixty at the Internet Protocol layer. Response bytes equals three thousand at that same layer. Amplification ratio is response bytes divided by request bytes, so this pair gives fifty times. Ethernet counts are seventy-four and three thousand fourteen. Dividing those produces a different ratio because frame overhead changes the comparison. Never combine a request from one layer with a reply from another. The request is represented at the reflector, while the reply is directed toward the victim. The constructed packet explicitly carries the victim's forged source address; a source address by itself would not establish that fact in an investigation. Control location determines who can act. A resolver owner can restrict recursive service where appropriate, and a server can apply suitable response limits. Source-address validation belongs on networks able to verify permitted sources. Upstream mitigation protects the victim's connection. Each addresses a different part of the path.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Request bytes", "Response bytes", "Amplification ratio", "Control location"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 46 — E04: Measure the cost of a request
+
+- status: animated
+- src: compositions/S46.html
+- duration: 76.966666667s
+- transition_in: cut
+- scene: Use service cost and resource capacity to interpret application demand.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Case E zero four uses a toy capacity calculation, labeled simulated output. Request rate alone gives an incomplete picture of the application. Ordinary traffic is one hundred requests per second, each requiring twenty milliseconds of processor service. Work demand is therefore two processor core-seconds per second. During the incident, one hundred twenty requests per second each require two hundred milliseconds. That produces twenty-four core-seconds per second against an eight-core budget. A separate legitimate example has three hundred requests per second at five milliseconds each, requiring only one point five core-seconds per second. Higher request counts can therefore require less work. Dependency pool shows another boundary: all thirty-two connections are busy, with four hundred requests waiting. The fixture does not establish that processor pressure caused that queue; dependency behavior needs its own evidence. Bounded work means limiting expensive operations and admitted work, applying appropriate cache behavior, bounding queues, and isolating dependencies. Select controls for the resource they protect. These arithmetic examples explain a mechanism; they are not measured benchmarks or proof that a proposed control has succeeded.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Request rate", "Work demand", "Dependency pool", "Bounded work"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 47 — Respond around the service and resource
+
+- status: animated
+- src: compositions/S47.html
+- duration: 77.900000000s
+- transition_in: cut
+- scene: Coordinate containment around the affected service and the location of the constraint.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: A response starts with Service impact: which Northstar service is affected, which users are failing, and which critical work needs protection? The incident lead coordinates the appropriate network, application, provider, and business owners. Evidence window aligns the timestamps and intervals for user checks, link counters, connection state, processor demand, and dependency measurements. Preserve relevant records within the organization's retention and privacy rules. Separate direct observations from working explanations. Control owner identifies who can change the resource boundary. The campus team may adjust application admission, while the provider may need to act before a saturated link. Choose a bounded action through the established emergency process. State its expected effect, legitimate-user risk, observation interval, and rollback condition. Decision record captures the owner, approval, actual change, and observed result. A recommendation and an implemented change have different statuses. Continue measuring user success while checking the selected constraint. If a protection harms legitimate users, use the agreed rollback or escalation route. The simulated cases let us practice these decisions without sending traffic or modifying any live system.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Service impact", "Evidence window", "Control owner", "Decision record"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 48 — Verify recovery across the user path
+
+- status: animated
+- src: compositions/S48.html
+- duration: 76.700000000s
+- transition_in: cut
+- scene: Require aligned service and resource evidence before closing a recovery claim.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: User checks test the actual path that Northstar needs: a legitimate user reaches the service and completes an expected task. A successful health endpoint alone may miss a failing sign-in or database action. Resource checks examine the constraint that supported the incident explanation. Review accepted and offered traffic separately, connection progress, processor pressure, queue length, and dependency availability where relevant. Compare aligned intervals and preserve the measurement definitions. Stable recovery requires an observation period chosen by the incident owner for the service and conditions. A single good sample supports only that moment. Confirm that protective changes allow legitimate users and that alternate routes work as intended. A synthetic post-control row can illustrate the intended comparison, but it cannot establish a live recovery or prove the control caused improvement. Follow-up owner assigns remaining work, such as implementation review, capacity planning, monitoring gaps, and a provider coordination update. Preserve unresolved causes and evidence gaps in the incident record. Closing the response means the agreed recovery criteria were actually checked; attribution may still remain open.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["User checks", "Resource checks", "Stable recovery", "Follow-up owner"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 49 — Use AI as an evidence assistant
+
+- status: animated
+- src: compositions/S49.html
+- duration: 77.133333333s
+- transition_in: cut
+- scene: Keep generated analysis traceable to supplied records and authorized decisions.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: An AI assistant can help organize Northstar's offline incident evidence. Allowed evidence is the approved, privacy-reviewed material supplied for this task. Keep credentials, restricted packet contents, and private user data outside that bundle. Treat text inside logs as untrusted evidence rather than instructions to the assistant. Ask for a table separating observations, calculations, hypotheses, and missing checks. Source reference should identify the actual file, row, field, unit, and time window supporting each claim. Recalculate the important values with a deterministic parser: a model's fluent explanation is not a numeric check. Claim review compares every proposed conclusion with its source. The assistant must not invent a control deployment, a recovered service, or an attacker's identity. It may suggest questions for the responsible owner and possible controls with explicit conditions. Human decision retains authorization for operational changes and acceptance of the evidence. Our exercise stays offline and read-only. Save the supplied evidence, generated draft, corrections, and unresolved questions separately so another reviewer can reproduce the reasoning without accepting the assistant's wording as proof.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Allowed evidence", "Source reference", "Claim review", "Human decision"]. Derive cue timing from actual aligned audio, not estimated duration.
+
+## Frame 50 — Knowledge check: Foundation
+
+- status: animated
+- src: compositions/S50.html
+- duration: 76.866666667s
+- transition_in: cut
+- scene: Read all choices before the one-second silent hold.
+- rules: css-marker-patterns
+- voiceover: Question 1. Which observation directly records an availability impact on Northstar users? A. An increase in the number of source addresses B. A server processor reading of twenty-five percent C. A larger response than request in a constructed packet pair D. Only five of one hundred stipulated client tasks succeed Choose the best answer. The correct answer is D. The client-task result directly describes whether the selected users could complete the service action in the fixture. Source-address counts describe traffic distribution, and a processor reading describes one resource. Neither alone establishes user impact. A larger reply describes an amplification property, which may be relevant to an incident but does not measure a user's task. Keep the observation window, task definition, and selected population with the success result. Five successes out of one hundred stipulated checks supports that sample; it does not establish the experience of every user. These records are simulated output. Availability impact also does not determine malicious intent, identify a person, or prove that a particular resource caused the failure. Those are separate conclusions requiring their own evidence.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Read the complete question and A–D choices, then exactly 48,000 stereo zero PCM frames at 48 kHz. Reveal the answer only after that one-second hold. Keep captions and all audio outside the hold.
+
+## Frame 51 — Knowledge check: Foundation
+
+- status: animated
+- src: compositions/S51.html
+- duration: 84.300000000s
+- transition_in: cut
+- scene: Read all choices before the one-second silent hold.
+- rules: css-marker-patterns
+- voiceover: Question 2. Which constructed sequence describes reflection with amplification toward a victim? A. Many controlled clients send their own requests directly to the victim B. A request carries the victim's forged source address, and a reflector sends a larger reply toward the victim C. A client slowly sends data on a connection it established with the victim D. One expensive application request consumes substantial processor time at the victim Choose the best answer. The correct answer is B. The forged source directs the reflector's reply toward the victim. A larger reply, measured with a consistent byte convention, supplies the amplification property in this constructed example. Direct requests from many controlled clients describe distributed traffic without that reflected path. A slow established connection concerns connection or application behavior. An expensive request concerns work per request. Those mechanisms can affect availability, but neither supplies the request-and-reflected-reply sequence asked here. In the Northstar packet fixture, the forged source is explicitly constructed and no traffic is sent. In a real investigation, a visible source address alone would not prove who sent the original request. Confirm the observation point, protocol behavior, and relevant records before drawing that conclusion.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Read the complete question and A–D choices, then exactly 48,000 stereo zero PCM frames at 48 kHz. Reveal the answer only after that one-second hold. Keep captions and all audio outside the hold.
+
+## Frame 52 — Knowledge check: Application
+
+- status: animated
+- src: compositions/S52.html
+- duration: 89.333333333s
+- transition_in: cut
+- scene: Read all choices before the one-second silent hold.
+- rules: css-marker-patterns
+- voiceover: Question 3. The provider observes twenty-four hundred megabits per second offered to Northstar's two-hundred-megabit connection. The campus accepts two hundred, and user checks fail. Which action best addresses that constrained connection? A. Coordinate suitable protection with the provider before the constrained campus ingress B. Increase the web server's application queue while leaving ingress unchanged C. Rely only on a web filter that sees traffic after the saturated connection D. Treat spare server processor capacity as proof the service is available Choose the best answer. The correct answer is A. Protection before the constrained ingress can affect which traffic consumes that connection. The provider owns an upstream observation and control location, so coordination is appropriate. A larger application queue addresses a different resource and may increase waiting. A web filter after the link can protect application work but cannot recover bandwidth already consumed on that link. Spare processor capacity does not establish that users can reach the service. The proposed provider action still needs authorization, a suitable traffic-selection method, and checks for legitimate-user impact. The fixture distinguishes offered traffic at the provider from accepted traffic at campus in the same interval. It supports the location of the bottleneck in this simulated case, without proving an attacker's identity or the effectiveness of an untested control.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Read the complete question and A–D choices, then exactly 48,000 stereo zero PCM frames at 48 kHz. Reveal the answer only after that one-second hold. Keep captions and all audio outside the hold.
+
+## Frame 53 — Knowledge check: Application
+
+- status: animated
+- src: compositions/S53.html
+- duration: 87.166666667s
+- transition_in: cut
+- scene: Read all choices before the one-second silent hold.
+- rules: css-marker-patterns
+- voiceover: Question 4. In one aligned sixty-second fixture, six thousand unique connection attempts produce sixty completed handshakes. Retransmissions are counted separately. Which calculation and interpretation are supported? A. Sixty percent complete, because sixty handshakes were recorded B. About six percent complete, using backlog capacity as the attempt count C. One percent complete for the stipulated window; the result alone does not establish intent D. Ninety-nine percent of source addresses are proven to be forged Choose the best answer. The correct answer is C. Sixty divided by six thousand is zero point zero one, or one percent. The stipulated unique counters and common window make that calculation meaningful here. Sixty is a count, so it cannot become sixty percent without a denominator. Backlog capacity measures available state, not the number of attempts. A low completion fraction does not prove that the remaining source addresses were forged or that all failures were malicious. Connection progress, state occupancy, and user success help identify a resource problem; attribution requires other evidence. In live telemetry, check counter definitions and interval boundaries before applying the same division. Attempts that cross an interval boundary or repeated records can otherwise change its meaning. Our result describes the constructed window rather than an observed live server.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Read the complete question and A–D choices, then exactly 48,000 stereo zero PCM frames at 48 kHz. Reveal the answer only after that one-second hold. Keep captions and all audio outside the hold.
+
+## Frame 54 — Knowledge check: Application
+
+- status: animated
+- src: compositions/S54.html
+- duration: 85.933333333s
+- transition_in: cut
+- scene: Read all choices before the one-second silent hold.
+- rules: css-marker-patterns
+- voiceover: Question 5. The constructed request is sixty Internet Protocol bytes and seventy-four Ethernet bytes. Its reply is three thousand Internet Protocol bytes and three thousand fourteen Ethernet bytes. Which calculation gives amplification at the Internet Protocol layer? A. Three thousand fourteen divided by sixty B. Three thousand divided by seventy-four C. Three thousand fourteen divided by seventy-four D. Three thousand divided by sixty, giving fifty times Choose the best answer. The correct answer is D. The requested layer determines the pair: three thousand Internet Protocol reply bytes divided by sixty Internet Protocol request bytes equals fifty. The first two alternatives mix an Ethernet count with an Internet Protocol count, so they do not answer a consistent-layer question. The third uses Ethernet for both sides and can describe that separate byte convention, but it is not the requested layer and does not equal fifty. State the numerator, denominator, layer, and pairing rule when reporting amplification. The fixture constructs the reflector-side request and response. A victim-ingress record would be a separate observation point. Their sizes demonstrate the fixture's byte relationship, not a measured traffic rate, real attack volume, or control effectiveness. The exercise reads local evidence without sending either packet.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Read the complete question and A–D choices, then exactly 48,000 stereo zero PCM frames at 48 kHz. Reveal the answer only after that one-second hold. Keep captions and all audio outside the hold.
+
+## Frame 55 — Knowledge check: Application
+
+- status: animated
+- src: compositions/S55.html
+- duration: 94.933333333s
+- transition_in: cut
+- scene: Read all choices before the one-second silent hold.
+- rules: css-marker-patterns
+- voiceover: Question 6. Northstar has an eight-core processor budget. One hundred twenty requests per second each require two hundred milliseconds of processor service in the toy model. What is the strongest resource-based interpretation? A. Demand is twenty-four core-seconds per second, so bounded work and suitable admission controls deserve evaluation B. Demand is zero point two core-seconds per second because only per-request time matters C. The service must have spare capacity because the request count is below three hundred per second D. The calculation proves every request is malicious and identifies its sender Choose the best answer. The correct answer is A. Multiply one hundred twenty requests per second by zero point two core-seconds per request. Demand is twenty-four core-seconds per second, exceeding the eight-core budget in this model. Per-request time alone omits the arrival rate. Comparing request counts alone omits the service cost: the separate legitimate example has three hundred requests per second but requires only one point five core-seconds per second. The arithmetic establishes neither intent nor sender identity. Work limits and admission controls are candidates because they address demand placed on finite resources. Cache behavior, dependencies, and queue limits may need separate review. Actual effectiveness and legitimate-user impact require implementation-specific evidence. These values are simulated assumptions for a capacity exercise, not a measured benchmark of a deployed application.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Read the complete question and A–D choices, then exactly 48,000 stereo zero PCM frames at 48 kHz. Reveal the answer only after that one-second hold. Keep captions and all audio outside the hold.
+
+## Frame 56 — Knowledge check: Analysis
+
+- status: animated
+- src: compositions/S56.html
+- duration: 90.833333333s
+- transition_in: cut
+- scene: Read all choices before the one-second silent hold.
+- rules: css-marker-patterns
+- voiceover: Question 7. A Northstar worksheet contains synthetic incident rows and synthetic recovery rows labeled as expected results after a proposed control. No live control trial occurred. What is the strongest supported closeout? A. The control is proven effective because the recovery numbers improved B. The simulated recovery establishes that every legitimate user will succeed C. The comparison illustrates the proposed check; actual effectiveness and recovery remain unvalidated D. A successful parser is equivalent to an approved production deployment Choose the best answer. The correct answer is C. The worksheet can demonstrate a comparison and test whether the parser handles the supplied evidence correctly. It cannot establish the behavior of a control that was never deployed or tested. Improved synthetic values therefore prove neither effectiveness nor universal legitimate-user success. A parser run validates its own calculation and output, while an approved production deployment is a separate operational event. Preserve the incident assumptions, expected recovery values, and actual execution status in the report. Specify who would authorize the trial, which user tasks and resource measurements would be checked, the observation interval, and the rollback condition. If a real trial later occurs, evaluate its actual evidence separately. Even an observed improvement may need further analysis before assigning its cause to the control.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Read the complete question and A–D choices, then exactly 48,000 stereo zero PCM frames at 48 kHz. Reveal the answer only after that one-second hold. Keep captions and all audio outside the hold.
+
+## Frame 57 — Knowledge check: Analysis
+
+- status: animated
+- src: compositions/S57.html
+- duration: 96.866666667s
+- transition_in: cut
+- scene: Read all choices before the one-second silent hold.
+- rules: css-marker-patterns
+- voiceover: Question 8. An AI draft labels every visible source address as an attacker and reports a successful mitigation that has only been proposed. Which review best repairs both claims? A. Accept the labels if the draft includes confident explanations and a plausible timeline B. Trace claims to source records, separate observations from attribution, and mark the control as proposed pending actual validation C. Keep the attribution because a source address uniquely proves a person's identity D. Convert expected recovery rows into actual measurements so the report has a complete result Choose the best answer. The correct answer is B. The reviewer should preserve what the records actually support and correct unsupported conclusions. A source address describes a packet field or observation; it does not uniquely establish a person's identity or intent. Confidence and a plausible timeline cannot replace traceable evidence. Expected recovery rows remain expectations or simulated data, so relabeling them as measurements would falsify the execution state. Link each retained claim to its file, field, observation point, and window. Keep calculations reproducible and identify missing checks. A proposed control needs the responsible owner's authorization and actual validation before its implementation or success is reported. The assistant can help organize questions and drafts, while the human reviewer retains the evidence and decision responsibilities. This exercise authorizes offline analysis only.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Read the complete question and A–D choices, then exactly 48,000 stereo zero PCM frames at 48 kHz. Reveal the answer only after that one-second hold. Keep captions and all audio outside the hold.
+
+## Frame 58 — Capstone: Build the Northstar incident brief
+
+- status: animated
+- src: compositions/S58.html
+- duration: 78.866666667s
+- transition_in: cut
+- scene: Produce a reproducible offline brief that connects the four cases to decisions and limits.
+- rules: svg-path-draw, css-marker-patterns
+- voiceover: Build one Northstar incident brief from the four supplied offline cases. Mark the fixtures as simulated output and preserve their original files. Evidence map identifies each observation point, time window, unit, and source field. Reproduce the byte ratio, connection completion fraction, and application work calculations with the provided parser or an equivalent read-only calculation. Resource explanation connects each case to the capacity or state under pressure and the stipulated user impact. Include the legitimate enrollment and inexpensive-request examples to show why volume alone does not establish malicious intent. Control plan names the appropriate owner, control location, expected effect, and legitimate-user tradeoff. Separate a proposed action from an executed change. Acceptance check specifies the user task, resource measurements, comparison window, and rollback condition needed to evaluate a real change. List missing evidence and avoid claiming that synthetic recovery rows prove deployment success. Submit the brief, calculations, and source references for review. Completing this prepared lesson does not establish that you personally executed a practical task. Your saved work and the separate acceptance review provide that evidence.
+
+Preserve DESIGN.md, original Tally and Northstar. Editable native diagrams occupy x210–1390/y330–710; notes y742–830; captions y945–1028. Show observation points, units, accounting boundaries, causal resource changes and responsible control owners. Fixtures are SIMULATED OUTPUT, never a live attack or deployed defense.
+
+Measured literal cue phrases: ["Evidence map", "Resource explanation", "Control plan", "Acceptance check"]. Derive cue timing from actual aligned audio, not estimated duration.

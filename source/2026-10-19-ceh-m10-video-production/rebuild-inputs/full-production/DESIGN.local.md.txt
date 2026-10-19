@@ -1,0 +1,9 @@
+# M10 design truth
+
+M04 v3 warm paper editorial: paper #F0EBE4, ink #292421, terracotta #C8755D, apricot #F2D4B7, mustard #E9B94D, white #FFFAF3. Local Liberation Sans and DejaVu Sans Mono. Original Tally parts/rig only; preserve inherited map and asset hashes.
+
+Canvas 1920×1080 at 30fps. Chapter anchor at top-left, title 54px or larger, native semantic diagram y280–810, teaching cue near y850, captions y945–1028. Main labels 30–38px. Right-side Northstar campus anchor and original Tally. Meaningful native resources, queues, paths, budgets, observations and control states follow narration anchors. No still-board playback, invented positive acceptance marks, gradients or stock photographic substitutions.
+
+Use varied campus flows, resource budgets, TCP state queues, reflection paths, comparison ledgers and incident-response timelines. Palette and character remain stable; composition follows each mechanism. Show SIMULATED OUTPUT on fictional artifacts. Known, unknown, proposed and actually measured states remain distinct. Caption area is reserved before geometry is laid out.
+
+Quiz scenes show one full prompt/options set at a time. Complete choices precede exactly one second of reference-zero PCM, then the answer letter/highlight and complete narrated explanation. Use measured text fitting and preserve question order.

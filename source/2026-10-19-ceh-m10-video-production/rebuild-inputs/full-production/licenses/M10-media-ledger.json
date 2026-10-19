@@ -1,0 +1,499 @@
+{
+  "module": "M10",
+  "assets": [
+    {
+      "path": "assets/props/PROP_ATLAS.svg",
+      "sha256": "979f9bbf47dc555bd5e1107717b67c7926ec0b734b261e6193b31c7a25bc6218",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/ai_sorter.svg",
+      "sha256": "bec5d78ab8e99b468abbd4e9fe0c8774452fbfd4e725dd5affe94d693c83d5b6",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/analog_clock.svg",
+      "sha256": "dd8add18dd2e79335cb97c0f25169ce1db4c9d52a741add9b06afc2a9b2f86a3",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/cvss_gauge.svg",
+      "sha256": "843969ad70dd651576030133843c3a8cd2a2f999cd20dfaadfcd20b25846136d",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/dns_drawer.svg",
+      "sha256": "d77e2af8eb5cfe6511e99f22060a1b8e2d0b783c53c80f183e9568df2207fabe",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/edge_router.svg",
+      "sha256": "0e744f17f35ae6b0649fc314d38609a7253085d6656edff3564a98b96a503801",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/evidence_slip.svg",
+      "sha256": "524ea428926a4f2bd55a9d3f4ad40900396c8132cbd5a8e2f2775ec8cc586f99",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/evidence_thread.svg",
+      "sha256": "b54f6fdca9da0d518a361df014b89d87337329eaf25ffaac30ebb5a5a9835184",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/false_positive.svg",
+      "sha256": "fb9d079c4faf11231e9937d0bfdcfca371bb5bb202501e241a8a8917ad254b12",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/inventory_tag.svg",
+      "sha256": "f8168aad07f1059b1eb8f54176a37f263cf799189841dd1607eb7ea410cca1f4",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/mail_envelope.svg",
+      "sha256": "76c168d7e5bc4d1db3755c1da41470bd52ed0da9c7dbf7234682669f937d624a",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/managed_switch.svg",
+      "sha256": "51f2149363765e2268c248b965ef160629af5257286567f6f502c4eef09bebdc",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/network_printer.svg",
+      "sha256": "f5211dc8e38d48b1ff5c971fdf1a0107b5d0473b897a3b7e74dd6cee5916cfc2",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/office_server.svg",
+      "sha256": "4131c99a5fbb7e66604561f3b601fb39b22437d7196e83c01ef88a64cd5bbf80",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/patch_package.svg",
+      "sha256": "0faf9f6d06db77680f8725ba082012c614a7aea42490186073c9091590eb1483",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/priority_cards.svg",
+      "sha256": "89f2dbed5c11c8475beaf4fb2145e791ee5354dcf589c86313f5e36b24864929",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/report_file.svg",
+      "sha256": "9a740f8a4a816da459fcbbca9fb91ce00a85b261f694a621ec7671d207c24937",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/retake_check.svg",
+      "sha256": "df17e6c22513cbe2f58625250473fe968cd57ad84a8df2afe3e99c578c0fcd55",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/risk_scale.svg",
+      "sha256": "349cd32e210ce83ebd769e006288e8ebc21870c81b4731483e6c95ff7e49ccc3",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/scanner_magnifier.svg",
+      "sha256": "a54c92e68616521431c3c17dbd138b4a9a2b18ad8620e616db5777ae9c06e9a9",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/school_building.svg",
+      "sha256": "e0302e4f9281ca4be8a875af4cd17afaf328b275bb6da796a7f6d1e6fdc707b5",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/school_laptop.svg",
+      "sha256": "5f333005e40864f379d8aff4ec3e4f4c18ffc986318f0e69ee49223927151be5",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/scope_sheet.svg",
+      "sha256": "03046aea90c4b3b9fcac2a455003992ca79c2c879ba6593e1ef12892a20ace83",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/sealed_folder.svg",
+      "sha256": "bc9c7977693f58d1641e511882d9ec523a89be0077299d3379e008c447dc5278",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/shared_folder.svg",
+      "sha256": "67f1727659b2d1862daeb0fb3261aa7ed0ca176d456a2e4dd381989ee36d7dc9",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/shield_lock.svg",
+      "sha256": "cecbc9c6763dccfcebe98b4c481a35c01b87df664af48f47c6f6511ca2fb17e7",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/vendor_bulletin.svg",
+      "sha256": "9ae12470730779d0b2359312d7f7f2f08b6ab5c0c5c6d53de17daecc935cea74",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/vulnerability_notice.svg",
+      "sha256": "e7930e26fd137b5f56b786f0bf76e629281bdc4a5a9e42302a1a1f861215c329",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/props/web_window.svg",
+      "sha256": "c7a6887073d5f0f4836cd8f0ab6176651791dd4f9eebbe661559791c95fa4834",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/fonts/DejaVuSans-Bold.ttf",
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/fonts/DejaVuSans.ttf",
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/fonts/DejaVuSansMono.ttf",
+      "sha256": "c805f9436dbc268644c1d9584f01a601a653e028e08fd74b9b949f6cf8304d88",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/fonts/LiberationSans-Bold.ttf",
+      "sha256": "3973aa5054fb467dd5627245d3dc82e37bf16fe075756156a570455871351582",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/fonts/LiberationSans-Italic.ttf",
+      "sha256": "830c5fa600505fb4c1a271b4271c53c44bae43f492b2a240d0e98a3a7a380121",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/fonts/LiberationSans-Regular.ttf",
+      "sha256": "4659bc0c58c5028dd488ec928d41d9265db43d9b669fc14ca8b0832daca7b144",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/CHARACTER_REFERENCE_SHEET.png",
+      "sha256": "1194ff1b5f48a2e9e4d7171fe7b53bebf3daf301641adc3559b825c4e6a59d8c",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/CHARACTER_REFERENCE_SHEET.svg",
+      "sha256": "6a5e278b6b7f61bb107419e1d0dc098d198ca59c57a76a5a8b3100fe47138f3d",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/body.svg",
+      "sha256": "7496965322ddfa7c9b2d78b86b7169612a7b2c002f882fea9aff13992a82bed9",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/face_celebrate.svg",
+      "sha256": "7317e477a2e1449fbe1547186ec9dd122b40dee223c03f36b36f61ce575a5337",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/face_concerned.svg",
+      "sha256": "3b7398a7dbc7dec844d42d8512470762cd371198c08e03f63087f675f938c9bc",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/face_neutral.svg",
+      "sha256": "3e1a8036ca677fe7cbb0fd6e004fe14b2ca1eb9fe3ec0fe3ea2da564fcff9e20",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/face_point.svg",
+      "sha256": "d3cd2b1af68b9cbd2a94b16b2a29b8a0406bda88b0dffbcb9d6d153c27e1035e",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/face_surprised.svg",
+      "sha256": "c906b917437af68965c9e031e219d32a89d7a1be146239f46aecf056dcf6381a",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/face_think.svg",
+      "sha256": "761cf30f7d4ccc798f3becd6f182af6b53ecd47c1c1ebce2ae7a931cb9ce360d",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/face_wave.svg",
+      "sha256": "5da9184f996348aee4f73363e826bb0f2e45e3b737345b9c1d010214a7a71882",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/left_arm_celebrate.svg",
+      "sha256": "b70506db4ae95b3fc5c29973d9b786b1722205bf0eb27281d970f9dccd665ed5",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/left_arm_concerned.svg",
+      "sha256": "ccecb425b74e26783b230f7696ccf0b6495212a642edf8dad7f4542334f93870",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/left_arm_neutral.svg",
+      "sha256": "3bf99774ebca8c2c9552091b55d6fb7c15c17a9c2b9eb1087206af09705fe3e3",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/left_arm_point.svg",
+      "sha256": "9e79fe3492bcf872bd887400717e1dbc116734091a599e5dee7771144c2c4543",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/left_arm_surprised.svg",
+      "sha256": "5c00d6bb171a2c2e9d82783128434960ac620153dff351770135528d9820cb34",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/left_arm_think.svg",
+      "sha256": "c280a45661234e517f9d152d8484783d632340af7d3a96e24e2817ebff6d5741",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/left_arm_wave.svg",
+      "sha256": "20f8c4288fcd5b925113841df852a439b95d79fa0b1d5e3b6cdadef54b8525b7",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/legs.svg",
+      "sha256": "4dda5dba5b429a7513b3268c2c1630b7b0b52b448aaa0ab569209ba4278735de",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/right_arm_celebrate.svg",
+      "sha256": "efa2d7ca78ffff5febbd4295d243108d24c7e7afd17d404d907b9c10cc67982b",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/right_arm_concerned.svg",
+      "sha256": "93d431b150ea14959a67c37f1dbbe4252a1c9cd8d00d8a02999a4ec52c1cf5e0",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/right_arm_neutral.svg",
+      "sha256": "362f6ada3bcdfa0e3d8b4e9869235c20942d8a397c531a78ed069544e9e7765f",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/right_arm_point.svg",
+      "sha256": "328da0d2e8f15f38e86edfbb6a50146b0543f710ea3fab4a39a0229170a6917d",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/right_arm_surprised.svg",
+      "sha256": "42f743a678522143ea89871f3ee21a949d584ef180ccafb471d238e4a5b76a20",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/right_arm_think.svg",
+      "sha256": "d330b458cdcb24ec27891486113b61bc35dc30720a60d188ffbfe6c6c83d0742",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/parts/right_arm_wave.svg",
+      "sha256": "77145a0f21ce1eacc4a93744ec9cd137e5862fa811883e99ec6a0afec1f73eee",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/rig_anchors.json",
+      "sha256": "a74389323b82bfcdf63db1c784495828bb34df3ef0024bab97449ad1d6a94217",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_celebrate.png",
+      "sha256": "a2ce1c535be44d59584739dedbf7a8725f620b17100c128abf173ab1d3e192bf",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_celebrate.svg",
+      "sha256": "1d72b3def203269d4370472e3716fa3a94d1d59a333316f0a17da967f22d40ce",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_concerned.png",
+      "sha256": "3d18c7840d1fcff37d6836728a12ba955eb86869a78ce8d3afe4741a31082df3",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_concerned.svg",
+      "sha256": "2efc51858aa76fed533864fccb867626e6d963ec97a0ae108116a12fef7afcca",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_neutral.png",
+      "sha256": "b34110abf3126195cb81b85e04b067462e83f034973698cd6b4ba02816910b27",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_neutral.svg",
+      "sha256": "068d38f3b102fb3fe6bf994c32ff7631b82b54a0e3d91193e75fb5a930e68304",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_point.png",
+      "sha256": "a18c3742bfe2adf7921146e807b4686004f9d6069dc730ebb427d9ce0383dc6e",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_point.svg",
+      "sha256": "22e7dfaba39acabfe60f032590b9f4adc2f28cf4754d10ae189965d8d34ae75c",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_surprised.png",
+      "sha256": "805e75b5b0ab17419a6e51a81f309d7f49852fe9afb5dd7f7f6f6782a841a201",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_surprised.svg",
+      "sha256": "0624b021692f1ffd422dfe87e1c409a91cb40436bb1aa9e59b76634bfe692b9b",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_think.png",
+      "sha256": "04e1340b5d9ff3ec6e90d12c45c994bdcc92df2fdbf256a7a1342790e0c5b1c8",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_think.svg",
+      "sha256": "82673ba077c67b3edd8c66f564371e2b81443e664d78006f6566ee4d91a91249",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_wave.png",
+      "sha256": "c35b33d3ca8be816421fe3b386199001c765b4427a68b9206631c764f6249ebd",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/mascot/tally_wave.svg",
+      "sha256": "5b3667b36c4ba9c8c02ac6486ebf964a7001494a57c7e868ab40e3102ed1bbb4",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "assets/vendor/gsap.min.js",
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "origin": "Immutable M10 source ZIP; inherited M04 v3 artwork and notices retained",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "models/faster-whisper-base.en/config.json",
+      "sha256": "f3bc3821e9fc76a27bae538e11ae5b677dcdd352b4600429ce7951d398569aeb",
+      "origin": "Approved M08 production dependency; physically copied unchanged",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "models/faster-whisper-base.en/model.bin",
+      "sha256": "2a166925539a16005f14ff328359f9b9adb9dc4fb631bb3b227526862e93e2ef",
+      "origin": "Approved M08 production dependency; physically copied unchanged",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "models/faster-whisper-base.en/tokenizer.json",
+      "sha256": "929c5252409436dce1b38a75d1abbcb5e132d170d8e324e4e04ed915fa2d22df",
+      "origin": "Approved M08 production dependency; physically copied unchanged",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "models/faster-whisper-base.en/vocabulary.txt",
+      "sha256": "ff77588746d3a2595d32ab5b69ffd7b95ce2441ac57533cb66fc3eb575a115cf",
+      "origin": "Approved M08 production dependency; physically copied unchanged",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "models/kokoro-v1.0.onnx",
+      "sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+      "origin": "Approved M08 production dependency; physically copied unchanged",
+      "scope": "Local CEH teaching production; no provider upload"
+    },
+    {
+      "path": "models/voices-v1.0.bin",
+      "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+      "origin": "Approved M08 production dependency; physically copied unchanged",
+      "scope": "Local CEH teaching production; no provider upload"
+    }
+  ],
+  "model_policy": "Public non-cloned af_heart; model cards and licenses included",
+  "source_scope": "44 inherited locks are verified separately. M04 v3 assets and neutral owned series props reused; M10 content and native case geometry newly authored. Generated audio has separate per-clip and delivery manifests."
+}
