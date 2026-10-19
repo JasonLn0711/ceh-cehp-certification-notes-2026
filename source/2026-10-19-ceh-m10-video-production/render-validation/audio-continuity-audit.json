@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "reference_frames": 205619200,
+  "decoded_frames": 205619200,
+  "codec_tail_padding_frames": 0,
+  "channels": 2,
+  "sample_rate": 48000,
+  "all_reference_frames_compared": true,
+  "chapters": [
+    {
+      "chapter": "C01",
+      "reference_frames": 16270400,
+      "blocks_checked": 68,
+      "signal_to_codec_error_db": 38.92785339725227,
+      "correlation": 0.999936859185535,
+      "all_zero_replacements": 0
+    },
+    {
+      "chapter": "C02",
+      "reference_frames": 16459200,
+      "blocks_checked": 69,
+      "signal_to_codec_error_db": 39.357228984195956,
+      "correlation": 0.9999429497045188,
+      "all_zero_replacements": 0
+    },
+    {
+      "chapter": "C03",
+      "reference_frames": 20160000,
+      "blocks_checked": 84,
+      "signal_to_codec_error_db": 39.147000330026366,
+      "correlation": 0.9999399820888041,
+      "all_zero_replacements": 0
+    },
+    {
+      "chapter": "C04",
+      "reference_frames": 21801600,
+      "blocks_checked": 91,
+      "signal_to_codec_error_db": 39.008380815719136,
+      "correlation": 0.999938049562657,
+      "all_zero_replacements": 0
+    },
+    {
+      "chapter": "C05",
+      "reference_frames": 19676800,
+      "blocks_checked": 82,
+      "signal_to_codec_error_db": 38.71762893888196,
+      "correlation": 0.9999336932223793,
+      "all_zero_replacements": 0
+    },
+    {
+      "chapter": "C06",
+      "reference_frames": 16814400,
+      "blocks_checked": 71,
+      "signal_to_codec_error_db": 39.04808640649337,
+      "correlation": 0.9999386037047336,
+      "all_zero_replacements": 0
+    },
+    {
+      "chapter": "C07",
+      "reference_frames": 17198400,
+      "blocks_checked": 72,
+      "signal_to_codec_error_db": 39.033502795436654,
+      "correlation": 0.999938421827378,
+      "all_zero_replacements": 0
+    },
+    {
+      "chapter": "C08",
+      "reference_frames": 14092800,
+      "blocks_checked": 59,
+      "signal_to_codec_error_db": 38.465404253623554,
+      "correlation": 0.9999296876498798,
+      "all_zero_replacements": 0
+    },
+    {
+      "chapter": "C09",
+      "reference_frames": 14337600,
+      "blocks_checked": 60,
+      "signal_to_codec_error_db": 37.28974230413476,
+      "correlation": 0.9999075184691204,
+      "all_zero_replacements": 0
+    },
+    {
+      "chapter": "C10",
+      "reference_frames": 11123200,
+      "blocks_checked": 47,
+      "signal_to_codec_error_db": 39.394588187515126,
+      "correlation": 0.9999433335988404,
+      "all_zero_replacements": 0
+    },
+    {
+      "chapter": "C11",
+      "reference_frames": 37684800,
+      "blocks_checked": 158,
+      "signal_to_codec_error_db": 38.354207575130204,
+      "correlation": 0.99992781608677,
+      "all_zero_replacements": 0
+    }
+  ],
+  "scope": "Sample-aligned codec/reference signal integrity and full-track continuity. Not ASR accuracy, pronunciation, naturalness or human listening acceptance."
+}

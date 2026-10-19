@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "files": 6091,
+  "manifest_sha256": "b7b08fa4b8a7cc9dcd491fb2a63872fc8c5b5429acd6d89ba3595f45e92a0c34",
+  "scope": "Every listed closed delivery file independently rehashed"
+}

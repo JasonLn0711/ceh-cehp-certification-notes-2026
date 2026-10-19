@@ -1,0 +1,647 @@
+{
+  "scene_count": 58,
+  "chapters": 11,
+  "duration": 4283.733333333335,
+  "captions": 1371,
+  "silent_intervals": [
+    {
+      "scene": "S50",
+      "start": 3520.149791666668,
+      "end": 3521.149791666668,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S51",
+      "start": 3604.5812500000015,
+      "end": 3605.5812500000015,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S52",
+      "start": 3694.085833333335,
+      "end": 3695.085833333335,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S53",
+      "start": 3781.6624166666684,
+      "end": 3782.6624166666684,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S54",
+      "start": 3867.0455000000015,
+      "end": 3868.0455000000015,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S55",
+      "start": 3960.2091250000017,
+      "end": 3961.2091250000017,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S56",
+      "start": 4053.136125000002,
+      "end": 4054.136125000002,
+      "samples": 48000,
+      "nonzero_samples": 0
+    },
+    {
+      "scene": "S57",
+      "start": 4145.539208333335,
+      "end": 4146.539208333335,
+      "samples": 48000,
+      "nonzero_samples": 0
+    }
+  ],
+  "audio": [
+    {
+      "scene": "S01",
+      "chapter": "C01",
+      "start": 0,
+      "duration": 65.76666666666667,
+      "peak": 0.601409912109375,
+      "rms_dbfs": -26.03612825657836,
+      "audio_sha256": "df3c6b1597757e15426c165a0625022229fee9b666809936f2c2983e733a625f",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S02",
+      "chapter": "C01",
+      "start": 65.76666666666667,
+      "duration": 66.03333333333333,
+      "peak": 0.6488037109375,
+      "rms_dbfs": -26.013914150866945,
+      "audio_sha256": "650d414d9855e1cad9fff60efa1a9d2540a552397fa961fcf59beb60f27ba9c4",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S03",
+      "chapter": "C01",
+      "start": 131.8,
+      "duration": 66.2,
+      "peak": 0.66375732421875,
+      "rms_dbfs": -26.09206351930699,
+      "audio_sha256": "11ceedf0e14f7c10efc62f568998aa6e5180c165de3fa6b8f78e69e663dded99",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S04",
+      "chapter": "C01",
+      "start": 198.0,
+      "duration": 72.46666666666667,
+      "peak": 0.667510986328125,
+      "rms_dbfs": -25.88095753514628,
+      "audio_sha256": "71c2525ea5b5f565643eb69b9afed009aa6348bca71253804c9d26ca7c9fb086",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S05",
+      "chapter": "C01",
+      "start": 270.4666666666667,
+      "duration": 68.5,
+      "peak": 0.535888671875,
+      "rms_dbfs": -25.98181931936706,
+      "audio_sha256": "a245e94f54ad8e7e0f0cb2c90f9b7ab944a3163c55fded8359c71db3342ecd76",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S06",
+      "chapter": "C02",
+      "start": 338.9666666666667,
+      "duration": 70.43333333333334,
+      "peak": 0.637451171875,
+      "rms_dbfs": -26.099623469805785,
+      "audio_sha256": "a0d38559240a9a2421fd09eaa9d4f7dd69397329069cb880d519a8c461b16e12",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S07",
+      "chapter": "C02",
+      "start": 409.40000000000003,
+      "duration": 70.26666666666667,
+      "peak": 0.609222412109375,
+      "rms_dbfs": -25.933849787984215,
+      "audio_sha256": "c4357f94e4610fc7b30f6b430efdbec59d235750aa1288702b90bcbe454c48bc",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S08",
+      "chapter": "C02",
+      "start": 479.6666666666667,
+      "duration": 65.2,
+      "peak": 0.556060791015625,
+      "rms_dbfs": -26.055131455389233,
+      "audio_sha256": "8a483a5ab3fa1960563bdcf55299d751b8670ae045770273fd5330cc75b1e611",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S09",
+      "chapter": "C02",
+      "start": 544.8666666666667,
+      "duration": 69.26666666666667,
+      "peak": 0.5560302734375,
+      "rms_dbfs": -26.01982640506232,
+      "audio_sha256": "efe77022e5e862abb8481d7f59b1319505eb067781befeb37c6ba9af55e24813",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S10",
+      "chapter": "C02",
+      "start": 614.1333333333333,
+      "duration": 67.73333333333333,
+      "peak": 0.664398193359375,
+      "rms_dbfs": -26.127551330149057,
+      "audio_sha256": "76aae24f76ec3da2baebc5342b657602f58ec9c711c302c0d201ce9dbc22ed58",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S11",
+      "chapter": "C03",
+      "start": 681.8666666666667,
+      "duration": 66.26666666666667,
+      "peak": 0.68524169921875,
+      "rms_dbfs": -25.99321706588187,
+      "audio_sha256": "2e9acd7513be539f96d24bf063a1bc7134fb0c8d2b0dbcebdf02dfc5c07de3a4",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S12",
+      "chapter": "C03",
+      "start": 748.1333333333333,
+      "duration": 68.56666666666666,
+      "peak": 0.67535400390625,
+      "rms_dbfs": -25.981883253549377,
+      "audio_sha256": "b69f94ee89c0d997c44dcdc7bedfb72bd979ba08d8a7d2f43e91cba3a011d95e",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S13",
+      "chapter": "C03",
+      "start": 816.7,
+      "duration": 68.0,
+      "peak": 0.463134765625,
+      "rms_dbfs": -25.986483277922847,
+      "audio_sha256": "9bbb8c046fdf9225d48cff2aca389dc641c010d259632a81cc0fcae5e1798023",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S14",
+      "chapter": "C03",
+      "start": 884.7,
+      "duration": 73.93333333333334,
+      "peak": 0.633453369140625,
+      "rms_dbfs": -25.975304788979194,
+      "audio_sha256": "306e32e5aa5e601113cf6d7bb1f2aae21d42594dfd1631e28a8fd82f82639113",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S15",
+      "chapter": "C03",
+      "start": 958.6333333333334,
+      "duration": 72.43333333333334,
+      "peak": 0.66461181640625,
+      "rms_dbfs": -26.010670745903845,
+      "audio_sha256": "234097dc0f3c93231f944679a98ac7136609f0154619e1a2262449fc1d556b6e",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S16",
+      "chapter": "C03",
+      "start": 1031.0666666666668,
+      "duration": 70.8,
+      "peak": 0.652984619140625,
+      "rms_dbfs": -25.90761923592021,
+      "audio_sha256": "f228979da07faec87d9c711e3c834777783bfae09349ddc488aec3cf8b1c58ff",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S17",
+      "chapter": "C04",
+      "start": 1101.8666666666668,
+      "duration": 75.7,
+      "peak": 0.663482666015625,
+      "rms_dbfs": -25.94310000875824,
+      "audio_sha256": "760a410f07ac5ed032d8c8690e05e91917bded038581eeb0af0dda372fd44fbc",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S18",
+      "chapter": "C04",
+      "start": 1177.5666666666668,
+      "duration": 74.7,
+      "peak": 0.56494140625,
+      "rms_dbfs": -25.909095751915597,
+      "audio_sha256": "ad6619ab15b9d30f55fd94391018b59cda40604a8740ecd8e7e214706cf6a7d3",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S19",
+      "chapter": "C04",
+      "start": 1252.2666666666669,
+      "duration": 75.36666666666666,
+      "peak": 0.5589599609375,
+      "rms_dbfs": -25.95369723544152,
+      "audio_sha256": "06dcaaf029c5c747da81ec867dc534262dc7dc8a33228fb0d8cbda80c34f178a",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S20",
+      "chapter": "C04",
+      "start": 1327.6333333333334,
+      "duration": 75.4,
+      "peak": 0.6051025390625,
+      "rms_dbfs": -25.885979096793395,
+      "audio_sha256": "d51f4ebefeedc517dd17c48df6643b949e7dce6dd4fcd963613796bec8837c1b",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S21",
+      "chapter": "C04",
+      "start": 1403.0333333333335,
+      "duration": 78.66666666666667,
+      "peak": 0.680389404296875,
+      "rms_dbfs": -25.99671448114584,
+      "audio_sha256": "cc74eb6572af92bc09ead42393ae45af8acc136a322a18f79ec141776501865e",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S22",
+      "chapter": "C04",
+      "start": 1481.7000000000003,
+      "duration": 74.36666666666666,
+      "peak": 0.6837158203125,
+      "rms_dbfs": -26.038436790550872,
+      "audio_sha256": "6012e11ed90eb030e998bd174b95cf1753413a41e43a6bda1eda84c8e19951e4",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S23",
+      "chapter": "C05",
+      "start": 1556.0666666666668,
+      "duration": 71.0,
+      "peak": 0.567840576171875,
+      "rms_dbfs": -25.9766035032927,
+      "audio_sha256": "df6f1795570df80370ae7982a3d732e430695430ba49b5af2ee57d63fd99c901",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S24",
+      "chapter": "C05",
+      "start": 1627.0666666666668,
+      "duration": 62.03333333333333,
+      "peak": 0.664398193359375,
+      "rms_dbfs": -26.008515199956083,
+      "audio_sha256": "fe1e951cb05ff42b6aa0f5d644fc9fa4fb9973edfb94e7e47dc6d30d4d17349e",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S25",
+      "chapter": "C05",
+      "start": 1689.1000000000001,
+      "duration": 66.76666666666667,
+      "peak": 0.531097412109375,
+      "rms_dbfs": -26.089776986811604,
+      "audio_sha256": "06bb88c521fb71f4b87c8b08086e7fa35a292ff304e2203896723afeb9351cba",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S26",
+      "chapter": "C05",
+      "start": 1755.8666666666668,
+      "duration": 68.9,
+      "peak": 0.56597900390625,
+      "rms_dbfs": -26.042917719474406,
+      "audio_sha256": "746d6cf6d7e0703dc444edcbe4a53d6662a3a8ea145461a487a2eaf9c25f0b1b",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S27",
+      "chapter": "C05",
+      "start": 1824.7666666666669,
+      "duration": 69.4,
+      "peak": 0.62786865234375,
+      "rms_dbfs": -26.01257319368451,
+      "audio_sha256": "d8246a0a3f38d69038cbcf3611498f5eac24de9e21e480904ad91bd835917b5a",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S28",
+      "chapter": "C05",
+      "start": 1894.166666666667,
+      "duration": 71.83333333333333,
+      "peak": 0.597747802734375,
+      "rms_dbfs": -25.92102265975276,
+      "audio_sha256": "c441e8091c0e104a8ec1d6153eca3e40d9b0e21fd0f1877a9f475054c7d02002",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S29",
+      "chapter": "C06",
+      "start": 1966.0000000000002,
+      "duration": 65.8,
+      "peak": 0.664398193359375,
+      "rms_dbfs": -25.96242117743501,
+      "audio_sha256": "43287efe6e3bb3fe600479022111cafdabeeadcf60f42357f31c512dde14002e",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S30",
+      "chapter": "C06",
+      "start": 2031.8000000000002,
+      "duration": 66.43333333333334,
+      "peak": 0.451507568359375,
+      "rms_dbfs": -25.976808816581986,
+      "audio_sha256": "374d568fa4a39b326b950d8c38f8f5bfac6ba32c144eb3fdc2ad1e020d545b93",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S31",
+      "chapter": "C06",
+      "start": 2098.2333333333336,
+      "duration": 70.46666666666667,
+      "peak": 0.591644287109375,
+      "rms_dbfs": -25.989783558324625,
+      "audio_sha256": "4ab2aba2ebcf7feabc16fe79736d91656d7369ab7efc7087957e26e964d6011e",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S32",
+      "chapter": "C06",
+      "start": 2168.7000000000003,
+      "duration": 69.9,
+      "peak": 0.6756591796875,
+      "rms_dbfs": -26.06992623359116,
+      "audio_sha256": "2242ff9837a6be8f3915aab95314fc7ac9a43f169a199922089c270c73b9ec99",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S33",
+      "chapter": "C06",
+      "start": 2238.6000000000004,
+      "duration": 77.7,
+      "peak": 0.4854736328125,
+      "rms_dbfs": -25.891505320610033,
+      "audio_sha256": "febacd8d86d56ce36d3f9d910f0a3b850afd197d5ec8f9f3f3a70b801bf4574b",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S34",
+      "chapter": "C07",
+      "start": 2316.3,
+      "duration": 72.26666666666667,
+      "peak": 0.6240234375,
+      "rms_dbfs": -25.923721711689236,
+      "audio_sha256": "5fbd3496028f78d8498c35ff45e18a631fea9637f39207259deaf1a9dc1e11c3",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S35",
+      "chapter": "C07",
+      "start": 2388.566666666667,
+      "duration": 70.26666666666667,
+      "peak": 0.66473388671875,
+      "rms_dbfs": -26.104255977370183,
+      "audio_sha256": "bed2984b94bbc7ffface3d41f3aa9b23f42ba0c87e1dc5fcff91eacf510a4814",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S36",
+      "chapter": "C07",
+      "start": 2458.833333333334,
+      "duration": 72.76666666666667,
+      "peak": 0.66424560546875,
+      "rms_dbfs": -25.99922457572952,
+      "audio_sha256": "4fc5a8d3f496e5377f8d75f3bdddec9a0c7b9d086d4229031f08d3beda3a16ca",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S37",
+      "chapter": "C07",
+      "start": 2531.600000000001,
+      "duration": 70.66666666666667,
+      "peak": 0.5301513671875,
+      "rms_dbfs": -25.92056547277601,
+      "audio_sha256": "3450c76afd2cf607f5f037fd42274ab4c78b29b4457e6868bbccd9d82ffeb69f",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S38",
+      "chapter": "C07",
+      "start": 2602.2666666666673,
+      "duration": 72.33333333333333,
+      "peak": 0.6553955078125,
+      "rms_dbfs": -26.022038092136846,
+      "audio_sha256": "c12d740166bdd20e1df97967a07ad40683bf252e19d929bc6f788ac3bfb43b63",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S39",
+      "chapter": "C08",
+      "start": 2674.600000000001,
+      "duration": 74.4,
+      "peak": 0.60626220703125,
+      "rms_dbfs": -25.885595696416132,
+      "audio_sha256": "da83311180d8cd1afbb5f9f10370afda6554569a15280365990aae6b9be278ef",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S40",
+      "chapter": "C08",
+      "start": 2749.000000000001,
+      "duration": 74.83333333333333,
+      "peak": 0.663360595703125,
+      "rms_dbfs": -25.93977253602614,
+      "audio_sha256": "562abe72ddda45f7339093c0d0cbac8201e0050f8a19e4e1b3e8b1bf82c3596d",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S41",
+      "chapter": "C08",
+      "start": 2823.8333333333344,
+      "duration": 71.46666666666667,
+      "peak": 0.60479736328125,
+      "rms_dbfs": -25.976319792521355,
+      "audio_sha256": "774fde23264b27a16ae3423ed4fdceb7bad59dcdb8d8c7b4b711165fd54abd85",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S42",
+      "chapter": "C08",
+      "start": 2895.300000000001,
+      "duration": 72.9,
+      "peak": 0.63848876953125,
+      "rms_dbfs": -25.92353583155717,
+      "audio_sha256": "5abdb318f6a79f4b73862095af941a59ca17cd057eb14db885a9d0c40ccd5fda",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S43",
+      "chapter": "C09",
+      "start": 2968.200000000001,
+      "duration": 74.26666666666667,
+      "peak": 0.66033935546875,
+      "rms_dbfs": -25.97147742437949,
+      "audio_sha256": "558c26ae76f73f43a537f74ad04b32115abfa7a5a1e7b14c44f13ba8ecdb6382",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S44",
+      "chapter": "C09",
+      "start": 3042.466666666668,
+      "duration": 75.03333333333333,
+      "peak": 0.5797119140625,
+      "rms_dbfs": -25.95228082540914,
+      "audio_sha256": "1e77c2a79152e8951dfc506b58618f176f96821a01f8f871177e9a8f2f566d4a",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S45",
+      "chapter": "C09",
+      "start": 3117.5000000000014,
+      "duration": 72.43333333333334,
+      "peak": 0.679901123046875,
+      "rms_dbfs": -26.120434978163733,
+      "audio_sha256": "240336544d11ffec7bfd2f1e68d3a90d2c40a95211c0eeaae047d09b31279c35",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S46",
+      "chapter": "C09",
+      "start": 3189.9333333333348,
+      "duration": 76.96666666666667,
+      "peak": 0.470458984375,
+      "rms_dbfs": -25.828704458047895,
+      "audio_sha256": "fcba98180bf581e46ae91f41d2a68f6a4f4a9cc43b7d92d6eebf7bdbd01e704e",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S47",
+      "chapter": "C10",
+      "start": 3266.9000000000015,
+      "duration": 77.9,
+      "peak": 0.6893310546875,
+      "rms_dbfs": -26.002692620882573,
+      "audio_sha256": "3a4fc294f8673717c23e563888620703fdf28c7ac6c1ea94cc805c68a5cc56d4",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S48",
+      "chapter": "C10",
+      "start": 3344.8000000000015,
+      "duration": 76.7,
+      "peak": 0.5345458984375,
+      "rms_dbfs": -25.918523821248513,
+      "audio_sha256": "5d2a0163f8d41d1e3ad24e8cedfcb5d74308b352c1c13f03d70736c1c8aca129",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S49",
+      "chapter": "C10",
+      "start": 3421.5000000000014,
+      "duration": 77.13333333333334,
+      "peak": 0.629791259765625,
+      "rms_dbfs": -25.9695237828484,
+      "audio_sha256": "9c917348f9ccdb9290f32bc9bef6a7de8dbbd395ccbc11cedbb09c3fa0d552be",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S50",
+      "chapter": "C11",
+      "start": 3498.6333333333346,
+      "duration": 76.86666666666666,
+      "peak": 0.41595458984375,
+      "rms_dbfs": -26.119337384687622,
+      "audio_sha256": "af7b32ff99f72d3b5e18102b92b1d91e910c1a1c1a1530324099193118d9540a",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S51",
+      "chapter": "C11",
+      "start": 3575.5000000000014,
+      "duration": 84.3,
+      "peak": 0.652801513671875,
+      "rms_dbfs": -25.948908061743815,
+      "audio_sha256": "8b7628307287e27cef0b7e8f5e90dd8f912f2642a7b8dbc13d004eb65babd47c",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S52",
+      "chapter": "C11",
+      "start": 3659.8000000000015,
+      "duration": 89.33333333333333,
+      "peak": 0.66363525390625,
+      "rms_dbfs": -25.930362272417394,
+      "audio_sha256": "90503f909ea5e9cf099530d8e5989b0117eda8be7b6307b0eb9320aefbfc73ca",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S53",
+      "chapter": "C11",
+      "start": 3749.133333333335,
+      "duration": 87.16666666666667,
+      "peak": 0.525787353515625,
+      "rms_dbfs": -25.97831586602233,
+      "audio_sha256": "dd948a855f19ceaa36347a107ec477541740bf60e8b88ee5d47fc020079d80dc",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S54",
+      "chapter": "C11",
+      "start": 3836.3000000000015,
+      "duration": 85.93333333333334,
+      "peak": 0.598876953125,
+      "rms_dbfs": -26.000829468997818,
+      "audio_sha256": "6bc6665253d59f8fea805e037fc29dcab133d273126ac982828c4bd0be13ef69",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S55",
+      "chapter": "C11",
+      "start": 3922.233333333335,
+      "duration": 94.93333333333334,
+      "peak": 0.63525390625,
+      "rms_dbfs": -25.883045506862654,
+      "audio_sha256": "03b81bdf366e33a665451e24881bfd9a12af6323564a4bb477c0979e50542157",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S56",
+      "chapter": "C11",
+      "start": 4017.1666666666683,
+      "duration": 90.83333333333333,
+      "peak": 0.589630126953125,
+      "rms_dbfs": -25.89748012993363,
+      "audio_sha256": "714306cee31dedcba469f6956e4afbfac0c2c0a54a08de78a65636168c469dcd",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S57",
+      "chapter": "C11",
+      "start": 4108.000000000002,
+      "duration": 96.86666666666666,
+      "peak": 0.688201904296875,
+      "rms_dbfs": -26.027219563011016,
+      "audio_sha256": "7f9a7d9b84c263ac29a709cee04a4aea5a67fa46dfe01e53e1b134d1f93a6b92",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    },
+    {
+      "scene": "S58",
+      "chapter": "C11",
+      "start": 4204.866666666669,
+      "duration": 78.86666666666666,
+      "peak": 0.644073486328125,
+      "rms_dbfs": -25.87037899395593,
+      "audio_sha256": "ffeea5a152899d556fee536f7d0825bbdf45e97797b6b6e1e0a2a84a04360c89",
+      "status": "authored_audio_and_alignment_checked_visual_review_pending"
+    }
+  ],
+  "scope": "Sample structure and canonical alignment; not listening or full-film acceptance"
+}

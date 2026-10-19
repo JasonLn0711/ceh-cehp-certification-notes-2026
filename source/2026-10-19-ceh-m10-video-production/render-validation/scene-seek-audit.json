@@ -1,0 +1,588 @@
+{
+  "status": "passed",
+  "scenes": 58,
+  "comparisons": 174,
+  "scope": "Actual native DOM timeline-state comparisons, including backward/repeated seeks. Raster output and encoded film are separate gates.",
+  "rows": [
+    {
+      "scene": "S01",
+      "timeline_duration": 65.7666667,
+      "measured_scene_duration": 65.76666666666667,
+      "paused": true,
+      "targets": 52,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "cb7f1fd466e0f1b3d8f49406e8b78a8aab5604235f3528cfe711e0073fb51050"
+    },
+    {
+      "scene": "S02",
+      "timeline_duration": 66.0333333,
+      "measured_scene_duration": 66.03333333333333,
+      "paused": true,
+      "targets": 64,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "ae9ee12924cde6238b94eebab8937f0cc6f3937b71a5ea0517d1c738f42d7099"
+    },
+    {
+      "scene": "S03",
+      "timeline_duration": 66.2,
+      "measured_scene_duration": 66.2,
+      "paused": true,
+      "targets": 51,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "c5cea1502318c5fbce928903f677e49d618295866f248d088de1d6b8931fb4ea"
+    },
+    {
+      "scene": "S04",
+      "timeline_duration": 72.4666667,
+      "measured_scene_duration": 72.46666666666667,
+      "paused": true,
+      "targets": 55,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "b51690dd3ed308bda0d150632f5fe67469e3dd8fa4d5cfe1c72c8f614670c2d5"
+    },
+    {
+      "scene": "S05",
+      "timeline_duration": 68.5,
+      "measured_scene_duration": 68.5,
+      "paused": true,
+      "targets": 64,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "bcadb271129ea9c8d31e36b487ff3467dc3350c76c91b71e5b28bfe434007b78"
+    },
+    {
+      "scene": "S06",
+      "timeline_duration": 70.4333333,
+      "measured_scene_duration": 70.43333333333334,
+      "paused": true,
+      "targets": 63,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "9c1caf8957855c910cab19f8e84b753a4df69d2780443635f8c59c4539379fa8"
+    },
+    {
+      "scene": "S07",
+      "timeline_duration": 70.2666667,
+      "measured_scene_duration": 70.26666666666667,
+      "paused": true,
+      "targets": 52,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "6f5a8e76a56663f33af1ad11866eceb17be35cf2f7f7510cb432ba66575fddda"
+    },
+    {
+      "scene": "S08",
+      "timeline_duration": 65.2,
+      "measured_scene_duration": 65.2,
+      "paused": true,
+      "targets": 67,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "2a37f971410a392d32bc2773bdd686909bc5004da444fabe31cd8dbde5d21a32"
+    },
+    {
+      "scene": "S09",
+      "timeline_duration": 69.2666667,
+      "measured_scene_duration": 69.26666666666667,
+      "paused": true,
+      "targets": 60,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "0d481e271e7e144603572a3bcc4ba4f6c8fbb267dcb4b312d1180296824110ab"
+    },
+    {
+      "scene": "S10",
+      "timeline_duration": 67.7333333,
+      "measured_scene_duration": 67.73333333333333,
+      "paused": true,
+      "targets": 70,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "be53f05453fe8aa2a07c21c0053894e11ded851eeced8f9d1b4120430ab433fc"
+    },
+    {
+      "scene": "S11",
+      "timeline_duration": 66.2666667,
+      "measured_scene_duration": 66.26666666666667,
+      "paused": true,
+      "targets": 53,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "7feffdb290905a47107fa62d0336258e56addbfd26e490b1a3a54022590ea3a8"
+    },
+    {
+      "scene": "S12",
+      "timeline_duration": 68.5666667,
+      "measured_scene_duration": 68.56666666666666,
+      "paused": true,
+      "targets": 57,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "5b7f7b7eb46cad1433849c169bc3a9a27ecdae83551f06e0e17f4b983e15f6b4"
+    },
+    {
+      "scene": "S13",
+      "timeline_duration": 68,
+      "measured_scene_duration": 68,
+      "paused": true,
+      "targets": 63,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "124f335efc15597b33b7a115b216ffd3b8734d01bfe521c32a03b2368205c8fe"
+    },
+    {
+      "scene": "S14",
+      "timeline_duration": 73.9333333,
+      "measured_scene_duration": 73.93333333333334,
+      "paused": true,
+      "targets": 62,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "2e850d2c7b8d1540eecd3f358e044372ec26b71744b9aa116a89fb124e0640ad"
+    },
+    {
+      "scene": "S15",
+      "timeline_duration": 72.4333333,
+      "measured_scene_duration": 72.43333333333334,
+      "paused": true,
+      "targets": 55,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "4324b43edeecc4f5d571505ce0fc8d6881b7036f28c792b17ef78b94146719b1"
+    },
+    {
+      "scene": "S16",
+      "timeline_duration": 70.8,
+      "measured_scene_duration": 70.8,
+      "paused": true,
+      "targets": 60,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "7c6c74d5608ba5dca01a16b5f5d17bacb0eadeed71da655ad6839f9f4b2b6902"
+    },
+    {
+      "scene": "S17",
+      "timeline_duration": 75.7,
+      "measured_scene_duration": 75.7,
+      "paused": true,
+      "targets": 57,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "667fe32e1936040871b7eb7e6aba108181cd6c76f61082c8daa6abca61df2c78"
+    },
+    {
+      "scene": "S18",
+      "timeline_duration": 74.7,
+      "measured_scene_duration": 74.7,
+      "paused": true,
+      "targets": 62,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "603a0dbdf49d84585d61ba7cb7e79988905270771fa3c4be799b58a92a9af9c9"
+    },
+    {
+      "scene": "S19",
+      "timeline_duration": 75.3666667,
+      "measured_scene_duration": 75.36666666666666,
+      "paused": true,
+      "targets": 52,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "73b8492d72277496d745bda76240a85d9122f09de7b2aa46a0f88915883cebe2"
+    },
+    {
+      "scene": "S20",
+      "timeline_duration": 75.4,
+      "measured_scene_duration": 75.4,
+      "paused": true,
+      "targets": 61,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "ee2966381ea757b8d0b28073d4505a209c1f4c65ac4f94a868a5eabec2ad8984"
+    },
+    {
+      "scene": "S21",
+      "timeline_duration": 78.6666667,
+      "measured_scene_duration": 78.66666666666667,
+      "paused": true,
+      "targets": 62,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "492ba75354b3903a51497beaa4184c9600e9593e3b533d7a17d3ecdfd4e2ef31"
+    },
+    {
+      "scene": "S22",
+      "timeline_duration": 74.3666667,
+      "measured_scene_duration": 74.36666666666666,
+      "paused": true,
+      "targets": 61,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "2403387948bd95efa02983bda8b5ebb03e80175dc9a4fc7af22270279dfe76af"
+    },
+    {
+      "scene": "S23",
+      "timeline_duration": 71,
+      "measured_scene_duration": 71,
+      "paused": true,
+      "targets": 52,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "c424b4af9104c8a15d5b2958ced54b39b4d83b7220be571cb3ae33c6dca00a8b"
+    },
+    {
+      "scene": "S24",
+      "timeline_duration": 62.0333333,
+      "measured_scene_duration": 62.03333333333333,
+      "paused": true,
+      "targets": 48,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "ad56115fc17fc0e5c0784a83f342b56cbda48407c870b95ffa1c6eb7146a5ef7"
+    },
+    {
+      "scene": "S25",
+      "timeline_duration": 66.7666667,
+      "measured_scene_duration": 66.76666666666667,
+      "paused": true,
+      "targets": 53,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "738be98ca317bbfb1812ca2733fa61777a47f6f90a31e5b6fb7cf0aa79431222"
+    },
+    {
+      "scene": "S26",
+      "timeline_duration": 68.9,
+      "measured_scene_duration": 68.9,
+      "paused": true,
+      "targets": 51,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "b33144f0d5605b4111898fa90831cee72f5822cbd8961ac41d16f0fe798bb506"
+    },
+    {
+      "scene": "S27",
+      "timeline_duration": 69.4,
+      "measured_scene_duration": 69.4,
+      "paused": true,
+      "targets": 49,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "3cafc95af987fd98982ac3d0da886d1fc488d4278f022806201f5fadc2701f38"
+    },
+    {
+      "scene": "S28",
+      "timeline_duration": 71.8333333,
+      "measured_scene_duration": 71.83333333333333,
+      "paused": true,
+      "targets": 47,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "2177746fc2d1ffcd35fef38eadfc789abb0dcdb72ccb19edcde2dbda8bc35f2e"
+    },
+    {
+      "scene": "S29",
+      "timeline_duration": 65.8,
+      "measured_scene_duration": 65.8,
+      "paused": true,
+      "targets": 46,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "054dee679d03166efc88f9a5a3acc70a63c94e4afa0d2c7b92dee181cef5fd02"
+    },
+    {
+      "scene": "S30",
+      "timeline_duration": 66.4333333,
+      "measured_scene_duration": 66.43333333333334,
+      "paused": true,
+      "targets": 49,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "0e6745007a1e0f0ddfefac58aa977b353f694317ab49c55c2de154930d2f4333"
+    },
+    {
+      "scene": "S31",
+      "timeline_duration": 70.4666667,
+      "measured_scene_duration": 70.46666666666667,
+      "paused": true,
+      "targets": 52,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "ef58c890f464db619c89dec3cebde9056770dc0c8af75cf99002226fca8c349c"
+    },
+    {
+      "scene": "S32",
+      "timeline_duration": 69.9,
+      "measured_scene_duration": 69.9,
+      "paused": true,
+      "targets": 115,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "478a07fd02dd9c24a2d2c01228b0433765e29bbb161fc92b7338b325fc33c277"
+    },
+    {
+      "scene": "S33",
+      "timeline_duration": 77.7,
+      "measured_scene_duration": 77.7,
+      "paused": true,
+      "targets": 53,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "80759411dee6f27cf491c44e766ea5f79058a282122e43f0137abe45c460af4f"
+    },
+    {
+      "scene": "S34",
+      "timeline_duration": 72.2666667,
+      "measured_scene_duration": 72.26666666666667,
+      "paused": true,
+      "targets": 47,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "ef646c02dfd9d24c1a3bac623d9b000f3e705a456252af31d82ded25f93a2455"
+    },
+    {
+      "scene": "S35",
+      "timeline_duration": 70.2666667,
+      "measured_scene_duration": 70.26666666666667,
+      "paused": true,
+      "targets": 46,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "175ba358c1664e33377344cafaab498a3b82975ff11ad7e7519466952af9dcee"
+    },
+    {
+      "scene": "S36",
+      "timeline_duration": 72.7666667,
+      "measured_scene_duration": 72.76666666666667,
+      "paused": true,
+      "targets": 47,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "3ee45dabd8920094793350ba182a3babfe06822e150bb11fb4fd3bae66114105"
+    },
+    {
+      "scene": "S37",
+      "timeline_duration": 70.6666667,
+      "measured_scene_duration": 70.66666666666667,
+      "paused": true,
+      "targets": 46,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "07fb02f698179ce9fc812161bdec9a0a080adc9dedbad17a5700cee5451d5e58"
+    },
+    {
+      "scene": "S38",
+      "timeline_duration": 72.3333333,
+      "measured_scene_duration": 72.33333333333333,
+      "paused": true,
+      "targets": 49,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "9ba65839aa1ace8a44038ccf27fbd85f97613ecce3d86da8c227dfc831b829a2"
+    },
+    {
+      "scene": "S39",
+      "timeline_duration": 74.4,
+      "measured_scene_duration": 74.4,
+      "paused": true,
+      "targets": 54,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "e5b79a38e38820180c38f4aecba14f42b960a1c80830e22149252cc664a880fc"
+    },
+    {
+      "scene": "S40",
+      "timeline_duration": 74.8333333,
+      "measured_scene_duration": 74.83333333333333,
+      "paused": true,
+      "targets": 53,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "86d85870faec79bc966601701f1ee24670d9bf786f272f1b490261166a2cbef6"
+    },
+    {
+      "scene": "S41",
+      "timeline_duration": 71.4666667,
+      "measured_scene_duration": 71.46666666666667,
+      "paused": true,
+      "targets": 46,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "20d1c6563cde090a5d47d325dee16542b75c0b4c831261a4694bc618bba79dee"
+    },
+    {
+      "scene": "S42",
+      "timeline_duration": 72.9,
+      "measured_scene_duration": 72.9,
+      "paused": true,
+      "targets": 50,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "31942fb3c176586b018420ae19c44478c8681412e54c007f58e72698c6ae150f"
+    },
+    {
+      "scene": "S43",
+      "timeline_duration": 74.2666667,
+      "measured_scene_duration": 74.26666666666667,
+      "paused": true,
+      "targets": 50,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "bfede833f429852bbc96f6bb1469f0056cddafe566c710ca07859f22316797b8"
+    },
+    {
+      "scene": "S44",
+      "timeline_duration": 75.0333333,
+      "measured_scene_duration": 75.03333333333333,
+      "paused": true,
+      "targets": 62,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "612dd31b569cf32889c01dd368b498ff0df5236cda465b4666dff094b2fff78d"
+    },
+    {
+      "scene": "S45",
+      "timeline_duration": 72.4333333,
+      "measured_scene_duration": 72.43333333333334,
+      "paused": true,
+      "targets": 46,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "f889ea760f161d514b63317931538902b11ea1ba3d76960cb0485fa29f8164df"
+    },
+    {
+      "scene": "S46",
+      "timeline_duration": 76.9666667,
+      "measured_scene_duration": 76.96666666666667,
+      "paused": true,
+      "targets": 47,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "a870b9de19c56190e39a7451e8389246f042da899b1825154c6ced95276fe6bc"
+    },
+    {
+      "scene": "S47",
+      "timeline_duration": 77.9,
+      "measured_scene_duration": 77.9,
+      "paused": true,
+      "targets": 58,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "7f5f57b84497d241f8cfc0924fe7dd937513a504346cc647092af988b21b45c5"
+    },
+    {
+      "scene": "S48",
+      "timeline_duration": 76.7,
+      "measured_scene_duration": 76.7,
+      "paused": true,
+      "targets": 46,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "f6efd72da71c1a88346dff1a71e877649b51115c9e6d445d4820abc1d1db546a"
+    },
+    {
+      "scene": "S49",
+      "timeline_duration": 77.1333333,
+      "measured_scene_duration": 77.13333333333334,
+      "paused": true,
+      "targets": 46,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "29b57bab47b0f5bdea52e23e061f430b1c161c038d2da72810462d0391424ec4"
+    },
+    {
+      "scene": "S50",
+      "timeline_duration": 76.8666667,
+      "measured_scene_duration": 76.86666666666666,
+      "paused": true,
+      "targets": 34,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "4553b16ec45331e15eca71d088dec743dbb02362318d948170108fb7896ce5f2"
+    },
+    {
+      "scene": "S51",
+      "timeline_duration": 84.3,
+      "measured_scene_duration": 84.3,
+      "paused": true,
+      "targets": 38,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "b9a8e184e11359b00f8c32bf666b9913461b6eea845dd9412d57a191d5428546"
+    },
+    {
+      "scene": "S52",
+      "timeline_duration": 89.3333333,
+      "measured_scene_duration": 89.33333333333333,
+      "paused": true,
+      "targets": 41,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "e1a1334aed718ed70e8f093a5659bc96041e4438f1ce137e07576c4542ef48df"
+    },
+    {
+      "scene": "S53",
+      "timeline_duration": 87.1666667,
+      "measured_scene_duration": 87.16666666666667,
+      "paused": true,
+      "targets": 39,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "d9866ae45e629a4bb333e26a8790da097ffb85ff88d1b4ff069847768bb8ca59"
+    },
+    {
+      "scene": "S54",
+      "timeline_duration": 85.9333333,
+      "measured_scene_duration": 85.93333333333334,
+      "paused": true,
+      "targets": 37,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "4667b5793b31934fc626823051630482c5265a4fba3c3195ebfa3ce299fa07cd"
+    },
+    {
+      "scene": "S55",
+      "timeline_duration": 94.9333333,
+      "measured_scene_duration": 94.93333333333334,
+      "paused": true,
+      "targets": 41,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "5c1c3f4b28c8b07f5169bcbeadda0227751c920fc551d0052bee508ee19af6d0"
+    },
+    {
+      "scene": "S56",
+      "timeline_duration": 90.8333333,
+      "measured_scene_duration": 90.83333333333333,
+      "paused": true,
+      "targets": 40,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "ac3b13cba3db9e3b220bd5e56d6c0ddc81d38f5c1043ba6d99106056ffca1115"
+    },
+    {
+      "scene": "S57",
+      "timeline_duration": 96.8666667,
+      "measured_scene_duration": 96.86666666666666,
+      "paused": true,
+      "targets": 39,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "cc257a912fbe45ad9062ceebe22810083780c20a8922777ce347470f8e17c31c"
+    },
+    {
+      "scene": "S58",
+      "timeline_duration": 78.8666667,
+      "measured_scene_duration": 78.86666666666666,
+      "paused": true,
+      "targets": 56,
+      "comparisons": 3,
+      "status": "native_DOM_seek_states_match",
+      "state_sha256": "e43f288041ced5e821e92be884dc26b541082f931938a00eed1300f56b25d1bd"
+    }
+  ]
+}

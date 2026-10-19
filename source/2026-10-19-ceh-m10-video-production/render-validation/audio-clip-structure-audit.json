@@ -1,0 +1,535 @@
+{
+  "status": "passed",
+  "scenes": 58,
+  "canonical_words": 10241,
+  "spoken_clips": 781,
+  "quiz_holds": [
+    {
+      "scene": "S50",
+      "start_sample": 1032790,
+      "end_sample": 1080790,
+      "stereo_frames": 48000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "scene": "S51",
+      "start_sample": 1395900,
+      "end_sample": 1443900,
+      "stereo_frames": 48000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "scene": "S52",
+      "start_sample": 1645720,
+      "end_sample": 1693720,
+      "stereo_frames": 48000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "scene": "S53",
+      "start_sample": 1561396,
+      "end_sample": 1609396,
+      "stereo_frames": 48000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "scene": "S54",
+      "start_sample": 1475784,
+      "end_sample": 1523784,
+      "stereo_frames": 48000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "scene": "S55",
+      "start_sample": 1822838,
+      "end_sample": 1870838,
+      "stereo_frames": 48000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "scene": "S56",
+      "start_sample": 1726534,
+      "end_sample": 1774534,
+      "stereo_frames": 48000,
+      "nonzero_channel_samples": 0
+    },
+    {
+      "scene": "S57",
+      "start_sample": 1801882,
+      "end_sample": 1849882,
+      "stereo_frames": 48000,
+      "nonzero_channel_samples": 0
+    }
+  ],
+  "total_hold_seconds": 8,
+  "sample_rate": 48000,
+  "channels": 2,
+  "recipe": "af_heart/en-us baseline0.73; one atempo1.5 per speech clip",
+  "scope": "Actual PCM, clip recipes, canonical coverage and digital-zero buffers; no full human listening or pronunciation score.",
+  "rows": [
+    {
+      "scene": "S01",
+      "samples": 3156800,
+      "frames": 1973,
+      "spoken_clips": 13,
+      "canonical_words": 170,
+      "peak_pcm": 19707
+    },
+    {
+      "scene": "S02",
+      "samples": 3169600,
+      "frames": 1981,
+      "spoken_clips": 13,
+      "canonical_words": 172,
+      "peak_pcm": 21260
+    },
+    {
+      "scene": "S03",
+      "samples": 3177600,
+      "frames": 1986,
+      "spoken_clips": 13,
+      "canonical_words": 174,
+      "peak_pcm": 21750
+    },
+    {
+      "scene": "S04",
+      "samples": 3478400,
+      "frames": 2174,
+      "spoken_clips": 12,
+      "canonical_words": 173,
+      "peak_pcm": 21873
+    },
+    {
+      "scene": "S05",
+      "samples": 3288000,
+      "frames": 2055,
+      "spoken_clips": 13,
+      "canonical_words": 172,
+      "peak_pcm": 17560
+    },
+    {
+      "scene": "S06",
+      "samples": 3380800,
+      "frames": 2113,
+      "spoken_clips": 15,
+      "canonical_words": 174,
+      "peak_pcm": 20888
+    },
+    {
+      "scene": "S07",
+      "samples": 3372800,
+      "frames": 2108,
+      "spoken_clips": 14,
+      "canonical_words": 170,
+      "peak_pcm": 19963
+    },
+    {
+      "scene": "S08",
+      "samples": 3129600,
+      "frames": 1956,
+      "spoken_clips": 15,
+      "canonical_words": 169,
+      "peak_pcm": 18221
+    },
+    {
+      "scene": "S09",
+      "samples": 3324800,
+      "frames": 2078,
+      "spoken_clips": 14,
+      "canonical_words": 174,
+      "peak_pcm": 18220
+    },
+    {
+      "scene": "S10",
+      "samples": 3251200,
+      "frames": 2032,
+      "spoken_clips": 13,
+      "canonical_words": 175,
+      "peak_pcm": 21771
+    },
+    {
+      "scene": "S11",
+      "samples": 3180800,
+      "frames": 1988,
+      "spoken_clips": 13,
+      "canonical_words": 172,
+      "peak_pcm": 22454
+    },
+    {
+      "scene": "S12",
+      "samples": 3291200,
+      "frames": 2057,
+      "spoken_clips": 12,
+      "canonical_words": 176,
+      "peak_pcm": 22130
+    },
+    {
+      "scene": "S13",
+      "samples": 3264000,
+      "frames": 2040,
+      "spoken_clips": 12,
+      "canonical_words": 178,
+      "peak_pcm": 15176
+    },
+    {
+      "scene": "S14",
+      "samples": 3548800,
+      "frames": 2218,
+      "spoken_clips": 13,
+      "canonical_words": 176,
+      "peak_pcm": 20757
+    },
+    {
+      "scene": "S15",
+      "samples": 3476800,
+      "frames": 2173,
+      "spoken_clips": 15,
+      "canonical_words": 177,
+      "peak_pcm": 21778
+    },
+    {
+      "scene": "S16",
+      "samples": 3398400,
+      "frames": 2124,
+      "spoken_clips": 11,
+      "canonical_words": 174,
+      "peak_pcm": 21397
+    },
+    {
+      "scene": "S17",
+      "samples": 3633600,
+      "frames": 2271,
+      "spoken_clips": 14,
+      "canonical_words": 179,
+      "peak_pcm": 21741
+    },
+    {
+      "scene": "S18",
+      "samples": 3585600,
+      "frames": 2241,
+      "spoken_clips": 15,
+      "canonical_words": 178,
+      "peak_pcm": 18512
+    },
+    {
+      "scene": "S19",
+      "samples": 3617600,
+      "frames": 2261,
+      "spoken_clips": 13,
+      "canonical_words": 176,
+      "peak_pcm": 18316
+    },
+    {
+      "scene": "S20",
+      "samples": 3619200,
+      "frames": 2262,
+      "spoken_clips": 13,
+      "canonical_words": 179,
+      "peak_pcm": 19828
+    },
+    {
+      "scene": "S21",
+      "samples": 3776000,
+      "frames": 2360,
+      "spoken_clips": 12,
+      "canonical_words": 175,
+      "peak_pcm": 22295
+    },
+    {
+      "scene": "S22",
+      "samples": 3569600,
+      "frames": 2231,
+      "spoken_clips": 12,
+      "canonical_words": 181,
+      "peak_pcm": 22404
+    },
+    {
+      "scene": "S23",
+      "samples": 3408000,
+      "frames": 2130,
+      "spoken_clips": 15,
+      "canonical_words": 182,
+      "peak_pcm": 18607
+    },
+    {
+      "scene": "S24",
+      "samples": 2977600,
+      "frames": 1861,
+      "spoken_clips": 12,
+      "canonical_words": 165,
+      "peak_pcm": 21771
+    },
+    {
+      "scene": "S25",
+      "samples": 3204800,
+      "frames": 2003,
+      "spoken_clips": 13,
+      "canonical_words": 166,
+      "peak_pcm": 17403
+    },
+    {
+      "scene": "S26",
+      "samples": 3307200,
+      "frames": 2067,
+      "spoken_clips": 13,
+      "canonical_words": 170,
+      "peak_pcm": 18546
+    },
+    {
+      "scene": "S27",
+      "samples": 3331200,
+      "frames": 2082,
+      "spoken_clips": 11,
+      "canonical_words": 168,
+      "peak_pcm": 20574
+    },
+    {
+      "scene": "S28",
+      "samples": 3448000,
+      "frames": 2155,
+      "spoken_clips": 13,
+      "canonical_words": 168,
+      "peak_pcm": 19587
+    },
+    {
+      "scene": "S29",
+      "samples": 3158400,
+      "frames": 1974,
+      "spoken_clips": 12,
+      "canonical_words": 166,
+      "peak_pcm": 21771
+    },
+    {
+      "scene": "S30",
+      "samples": 3188800,
+      "frames": 1993,
+      "spoken_clips": 13,
+      "canonical_words": 166,
+      "peak_pcm": 14795
+    },
+    {
+      "scene": "S31",
+      "samples": 3382400,
+      "frames": 2114,
+      "spoken_clips": 12,
+      "canonical_words": 166,
+      "peak_pcm": 19387
+    },
+    {
+      "scene": "S32",
+      "samples": 3355200,
+      "frames": 2097,
+      "spoken_clips": 12,
+      "canonical_words": 168,
+      "peak_pcm": 22140
+    },
+    {
+      "scene": "S33",
+      "samples": 3729600,
+      "frames": 2331,
+      "spoken_clips": 12,
+      "canonical_words": 174,
+      "peak_pcm": 15908
+    },
+    {
+      "scene": "S34",
+      "samples": 3468800,
+      "frames": 2168,
+      "spoken_clips": 12,
+      "canonical_words": 169,
+      "peak_pcm": 20448
+    },
+    {
+      "scene": "S35",
+      "samples": 3372800,
+      "frames": 2108,
+      "spoken_clips": 12,
+      "canonical_words": 170,
+      "peak_pcm": 21782
+    },
+    {
+      "scene": "S36",
+      "samples": 3492800,
+      "frames": 2183,
+      "spoken_clips": 12,
+      "canonical_words": 167,
+      "peak_pcm": 21766
+    },
+    {
+      "scene": "S37",
+      "samples": 3392000,
+      "frames": 2120,
+      "spoken_clips": 13,
+      "canonical_words": 170,
+      "peak_pcm": 17372
+    },
+    {
+      "scene": "S38",
+      "samples": 3472000,
+      "frames": 2170,
+      "spoken_clips": 13,
+      "canonical_words": 166,
+      "peak_pcm": 21476
+    },
+    {
+      "scene": "S39",
+      "samples": 3571200,
+      "frames": 2232,
+      "spoken_clips": 12,
+      "canonical_words": 164,
+      "peak_pcm": 19866
+    },
+    {
+      "scene": "S40",
+      "samples": 3592000,
+      "frames": 2245,
+      "spoken_clips": 12,
+      "canonical_words": 168,
+      "peak_pcm": 21737
+    },
+    {
+      "scene": "S41",
+      "samples": 3430400,
+      "frames": 2144,
+      "spoken_clips": 12,
+      "canonical_words": 169,
+      "peak_pcm": 19818
+    },
+    {
+      "scene": "S42",
+      "samples": 3499200,
+      "frames": 2187,
+      "spoken_clips": 11,
+      "canonical_words": 165,
+      "peak_pcm": 20922
+    },
+    {
+      "scene": "S43",
+      "samples": 3564800,
+      "frames": 2228,
+      "spoken_clips": 15,
+      "canonical_words": 175,
+      "peak_pcm": 21638
+    },
+    {
+      "scene": "S44",
+      "samples": 3601600,
+      "frames": 2251,
+      "spoken_clips": 13,
+      "canonical_words": 177,
+      "peak_pcm": 18996
+    },
+    {
+      "scene": "S45",
+      "samples": 3476800,
+      "frames": 2173,
+      "spoken_clips": 15,
+      "canonical_words": 174,
+      "peak_pcm": 22279
+    },
+    {
+      "scene": "S46",
+      "samples": 3694400,
+      "frames": 2309,
+      "spoken_clips": 13,
+      "canonical_words": 176,
+      "peak_pcm": 15416
+    },
+    {
+      "scene": "S47",
+      "samples": 3739200,
+      "frames": 2337,
+      "spoken_clips": 14,
+      "canonical_words": 173,
+      "peak_pcm": 22588
+    },
+    {
+      "scene": "S48",
+      "samples": 3681600,
+      "frames": 2301,
+      "spoken_clips": 12,
+      "canonical_words": 172,
+      "peak_pcm": 17516
+    },
+    {
+      "scene": "S49",
+      "samples": 3702400,
+      "frames": 2314,
+      "spoken_clips": 13,
+      "canonical_words": 171,
+      "peak_pcm": 20637
+    },
+    {
+      "scene": "S50",
+      "samples": 3689600,
+      "frames": 2306,
+      "spoken_clips": 16,
+      "canonical_words": 180,
+      "peak_pcm": 13630
+    },
+    {
+      "scene": "S51",
+      "samples": 4046400,
+      "frames": 2529,
+      "spoken_clips": 16,
+      "canonical_words": 193,
+      "peak_pcm": 21391
+    },
+    {
+      "scene": "S52",
+      "samples": 4288000,
+      "frames": 2680,
+      "spoken_clips": 17,
+      "canonical_words": 213,
+      "peak_pcm": 21746
+    },
+    {
+      "scene": "S53",
+      "samples": 4184000,
+      "frames": 2615,
+      "spoken_clips": 18,
+      "canonical_words": 206,
+      "peak_pcm": 17229
+    },
+    {
+      "scene": "S54",
+      "samples": 4124800,
+      "frames": 2578,
+      "spoken_clips": 17,
+      "canonical_words": 198,
+      "peak_pcm": 19624
+    },
+    {
+      "scene": "S55",
+      "samples": 4556800,
+      "frames": 2848,
+      "spoken_clips": 18,
+      "canonical_words": 219,
+      "peak_pcm": 20816
+    },
+    {
+      "scene": "S56",
+      "samples": 4360000,
+      "frames": 2725,
+      "spoken_clips": 17,
+      "canonical_words": 209,
+      "peak_pcm": 19321
+    },
+    {
+      "scene": "S57",
+      "samples": 4649600,
+      "frames": 2906,
+      "spoken_clips": 17,
+      "canonical_words": 219,
+      "peak_pcm": 22551
+    },
+    {
+      "scene": "S58",
+      "samples": 3785600,
+      "frames": 2366,
+      "spoken_clips": 13,
+      "canonical_words": 175,
+      "peak_pcm": 21105
+    }
+  ]
+}

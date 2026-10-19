@@ -1,0 +1,8 @@
+{
+  "status": "sealed_source_activated",
+  "source_zip_sha256": "5541e68e98096ea998201b445e8ad565b31ce22e809b638e717510854a16cdf0",
+  "canonical_words": 10241,
+  "canonical_scene_content_matches_frozen_synthesis_input": true,
+  "source_archive_entries": 332,
+  "scope": "Actual CRC/extraction/hash verification and complete canonical staging; generated narration and rendering remain separate evidence."
+}

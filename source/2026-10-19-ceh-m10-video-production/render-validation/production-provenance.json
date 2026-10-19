@@ -1,0 +1,231 @@
+{
+  "module": "M10",
+  "source_zip_sha256": "5541e68e98096ea998201b445e8ad565b31ce22e809b638e717510854a16cdf0",
+  "hyperframes": "0.8.173",
+  "node": "v24.22.0",
+  "python": "3.12.3",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5+esm15 Copyright (c) 2000-2023 the FFmpeg developers",
+  "files": [
+    {
+      "path": "scripts/align_parallel.py",
+      "sha256": "d52115b17b3a2d36726e68ad467077970bf3e4c7c1ed525717df0d0316d802c4"
+    },
+    {
+      "path": "scripts/art_common.py",
+      "sha256": "356d02305f046713a7f0cf95806a10fdf36db37442ae1640b31410bb3db4c145"
+    },
+    {
+      "path": "scripts/asr_receipt.py",
+      "sha256": "18df4b52329750389932fb20a8e55f66b8a30e4c45913714ae336f583ed24543"
+    },
+    {
+      "path": "scripts/assemble_master.py",
+      "sha256": "c0e17b8e98e205e056aa91378cd2cf64c94c232b2196387f6fb3ab28ac205f05"
+    },
+    {
+      "path": "scripts/assemble_project.py",
+      "sha256": "7bd11a9340ee4aacc2b0d55b113ff85a4e01fb94b408d8f4d5154500b78cba5a"
+    },
+    {
+      "path": "scripts/audit_animation_map.py",
+      "sha256": "417d88b758c3425923f9299ab3a246a1a33caf046b4a3b944e0c9f68a0b6de82"
+    },
+    {
+      "path": "scripts/audit_audio_clips.py",
+      "sha256": "5132246b1ac2a70eabf6f013eb4427973c62977669e62a6823e429664b1eb776"
+    },
+    {
+      "path": "scripts/audit_audio_continuity.py",
+      "sha256": "f64130df8715f2d6e1bf871b5f43351201ec3945db5cdcd7a37962d49168ab3a"
+    },
+    {
+      "path": "scripts/audit_rendered.py",
+      "sha256": "b399fdb4c191d1233131ec9d2f471bbcb86156dae4dbe57c7b0ed57b43bd4c66"
+    },
+    {
+      "path": "scripts/audit_scene_seek_stage.py",
+      "sha256": "3c61eb092962914d26cd2274ccbebd4ad8caa8de9df75994a5134543daa43a92"
+    },
+    {
+      "path": "scripts/build_film.py",
+      "sha256": "2f4a50435ef0231b2025dc023c968d10405014430bef2c7bfb774950340a8c69"
+    },
+    {
+      "path": "scripts/capture_late_diagrams.py",
+      "sha256": "256466e06db25f98addc7c056347466a67e2cb9ae10a670f5b4a94674cef052d"
+    },
+    {
+      "path": "scripts/chapter.py",
+      "sha256": "4765ad29063cd67ec6c0ef55fe7a26f9636d6e59d47e65d1a8f18ae86e10b2f3"
+    },
+    {
+      "path": "scripts/contact_native.py",
+      "sha256": "39183cc12d3d11ca669666972972a6cf5255c0af250f1d972f1c6f37717f7fab"
+    },
+    {
+      "path": "scripts/contact_sheet.py",
+      "sha256": "4561d2986ee5d95ef82e062b758236a153645c3d8e84973d5b502ed57fdf7295"
+    },
+    {
+      "path": "scripts/editorial.py",
+      "sha256": "1484123e97174c0a46f9366f6691fd250bef9dd5daa6964f9e8af743fc6dd40d"
+    },
+    {
+      "path": "scripts/export_metadata.py",
+      "sha256": "d6efd44fbe58325d4221b630d44fa8844e73ddf07bc2e40e24129fb9214cff68"
+    },
+    {
+      "path": "scripts/final_pipeline.py",
+      "sha256": "4a545a80b1452f21d735b321e1a27a6393c78bc467bdb7508f2e6a3d43fd1678"
+    },
+    {
+      "path": "scripts/force_align.py",
+      "sha256": "b7b4ab931db0aac8135324872499fbbd105d1e3f1d7990f0679a59369ca68e5b"
+    },
+    {
+      "path": "scripts/launch_stage.py",
+      "sha256": "c2680eae39d04064ebc734eb609aa5ab67de8a17c5c0e4bf5be41ded8fd96e8a"
+    },
+    {
+      "path": "scripts/make_audio_review.py",
+      "sha256": "a38270d8236c966e880be16fd27db91290fa57011173eb148ba3a6ac754695d3"
+    },
+    {
+      "path": "scripts/measure_speech.py",
+      "sha256": "8e6729ab8f1727431958c99c5590b841395de685613aaeedded4c703dde04804"
+    },
+    {
+      "path": "scripts/narrate_parallel.py",
+      "sha256": "96872753e56dd568c0bb8cb84b37486e2c701e265256b0fb673c35ff6ba88c7d"
+    },
+    {
+      "path": "scripts/package_delivery.py",
+      "sha256": "2437f5e0c7b467693bdeb316745f69340a7559953312d8153b7a148892389bb9"
+    },
+    {
+      "path": "scripts/post_audio.py",
+      "sha256": "c3845e3713ff6ed35dbdae0f386f34ca8539adab8eecf95bc84108ccfee6fdb8"
+    },
+    {
+      "path": "scripts/post_master.py",
+      "sha256": "3aecbbac6f8432c182323257ffc7fbf4cefbda5bc815db47bb9c4079ff5d82b0"
+    },
+    {
+      "path": "scripts/post_root_checks.py",
+      "sha256": "214dcdf7ea46d0c9d1a37574e102797bc5782b1b0bf4aa9b910a36e51ab85be0"
+    },
+    {
+      "path": "scripts/prepare_master.py",
+      "sha256": "5948d2921f3e94be5bb0fd4e201aa166f80197261a1cdf0341054fa94c7b7c87"
+    },
+    {
+      "path": "scripts/production_settings.py",
+      "sha256": "cef9d5cfaf3fc6861c1d60bb86e336617f839022f4a3671336462e2084cf46b5"
+    },
+    {
+      "path": "scripts/recognition_audit.py",
+      "sha256": "58158f21bcc0d9a78e221982397fec91522dd96636a22785b50cafadb2d846f4"
+    },
+    {
+      "path": "scripts/recognize_parallel.py",
+      "sha256": "c4f22db6cf40d6fd841b312776da7dbf74fd92227209c70c9d658464d32c2530"
+    },
+    {
+      "path": "scripts/render_remaining.py",
+      "sha256": "5eba9d4b6d3c59ce0b63a1473b31f676f6c464a502def081ef107c93fda437aa"
+    },
+    {
+      "path": "scripts/revalidate_source.py",
+      "sha256": "afa2d0286d961baf92157d433b703fae80bbb297d474c68c15c7ee259a8172b0"
+    },
+    {
+      "path": "scripts/review_audio.py",
+      "sha256": "b001d0e07c310b3ac10796759683cbef4ca5f1c3e3b0cca6c2c2a56482fe7f29"
+    },
+    {
+      "path": "scripts/run_stage.py",
+      "sha256": "d68673f161f0ed7706c23938c8d0e9da17858469ada34a2b3327c90f323c6c8d"
+    },
+    {
+      "path": "scripts/scene_art.py",
+      "sha256": "67d6944c50e47e7ac7e08c84d668b4697109c3f595e1ab7f0fa3a4f317675eb6"
+    },
+    {
+      "path": "scripts/scene_art_end.py",
+      "sha256": "dc89eab7d5d7224a4d00b40385d379358d3bdbee377fe0935cb5024145f49c88"
+    },
+    {
+      "path": "scripts/scene_art_mid.py",
+      "sha256": "5cd44acdc26ab639fd799c1a28acf674beebf27543477092b9815a4eeb579eb5"
+    },
+    {
+      "path": "scripts/scene_art_start.py",
+      "sha256": "00863037a9e53dc61663d5951fc2e4249d3ab686b0e95aa0a59cf3ef716c5c3c"
+    },
+    {
+      "path": "scripts/sync_storyboard.py",
+      "sha256": "33656f94b4aef48973b9f54c86c915988f37402c6a35d372a366930a04196ddc"
+    },
+    {
+      "path": "scripts/synthesize.py",
+      "sha256": "f62d77b642b4b07d163d96497c56c75fdd1a46d8c90fbc25b9f232af96f0b4e4"
+    },
+    {
+      "path": "scripts/validate_delivery.py",
+      "sha256": "17d3a880277f5184e6765a31d1e4c8e87cd33335a92f4c84a84c18ee7c628af7"
+    },
+    {
+      "path": "scripts/write_media_ledger.py",
+      "sha256": "03e2db68bee4ef4136ce5f5c0b7881a6202471fb6b01c98dbd5c075bea41aa6a"
+    },
+    {
+      "path": "scripts/write_project_state.py",
+      "sha256": "ded1f4a50001fe925a9815c9cf96ac5a4d74f7fdfc6691e7164cfdd321db2ef8"
+    },
+    {
+      "path": "scripts/write_render_report.py",
+      "sha256": "9057cf60e09d5240b88ea047c8d078e759b9fc3371d3bd9039ad9da6670b22f5"
+    },
+    {
+      "path": "scripts/audit_quiz.mjs",
+      "sha256": "b0b37c78f6ec6c6c7bc25b6cb40c5efc3a31756636bb3a85a921e7eb7dda30c5"
+    },
+    {
+      "path": "scripts/audit_scene_seek.mjs",
+      "sha256": "fc040082bec8991a7f70524894408bc868afd0fdab1edf1a69f48a6491cbe9c8"
+    },
+    {
+      "path": "scripts/inspect_direct.mjs",
+      "sha256": "21c604cb6361a8b6d029ab920f76201fff94f764fad8b0d211e886297211ce72"
+    },
+    {
+      "path": "scripts/inspect_scene.mjs",
+      "sha256": "26d1555c29eca366889357105c0d193f0df157d2e1ff5b2b20321a5305d34844"
+    },
+    {
+      "path": "scripts/cues_m10.json",
+      "sha256": "f547f1b9f796dcf37655ee44432cab5ba73649b127877ece804cb73c8e1ebad4"
+    },
+    {
+      "path": "package.json",
+      "sha256": "e055da91d1de0a5426a62d2821d99683ffea28b88363c3ebfb8ddbfb37e9b570"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "fcb17d9a20b32f1956783e8cf170171b1135779019cd4afc0c22261ae0703366"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "sha256": "7b55433a477d75b4cddfd37664abca65b104fee6723db936d17a3ea7740c5c74"
+    },
+    {
+      "path": "data/production-overrides.json",
+      "sha256": "6e3ab14213b0539ac278ec2f5db7b310fe2ccc72d8f40c0d710b9cc064650ebc"
+    },
+    {
+      "path": "data/voice-calibration.json",
+      "sha256": "d99a0d5d203d99eb9eb518aa469081a8762c8b4d99533c991497d73eb19730e6"
+    }
+  ],
+  "scope": "Actual production implementation and pinned runtime identity; media payloads have separate delivery/extraction manifests."
+}

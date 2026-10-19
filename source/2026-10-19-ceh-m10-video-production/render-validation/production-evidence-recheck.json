@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "passed": 44,
+  "failed": 0,
+  "live_network_execution": false,
+  "actual_validation": "File hashes, CSV arithmetic and independent PCAP/IP/DNS field parsing.",
+  "inference_boundary": "Toy output is not observed Internet traffic, actual mitigation efficacy or learner acceptance."
+}

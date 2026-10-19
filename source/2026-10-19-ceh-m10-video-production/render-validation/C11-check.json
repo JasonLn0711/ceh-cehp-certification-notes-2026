@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 10
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 785.1,
+    "samples": [
+      9.224,
+      21.616,
+      22.016,
+      22.616,
+      38.433,
+      69.18,
+      86.983,
+      106.048,
+      106.448,
+      107.048,
+      119.017,
+      152.737,
+      171.887,
+      195.553,
+      195.953,
+      196.553,
+      205.833,
+      241.567,
+      260.96,
+      283.129,
+      283.529,
+      284.129,
+      294.083,
+      328.95,
+      347.979,
+      368.512,
+      368.912,
+      369.512,
+      380.633,
+      415.007,
+      434.992,
+      461.676,
+      462.076,
+      462.676,
+      471.067,
+      509.04,
+      529.433,
+      554.603,
+      555.003,
+      555.603,
+      563.95,
+      600.283,
+      620.991,
+      647.006,
+      647.406,
+      648.006,
+      657.8,
+      696.547,
+      715.697,
+      745.667,
+      777.213
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      9.224,
+      171.887,
+      368.512,
+      554.603,
+      777.213
+    ],
+    "checked": 70,
+    "passed": 70
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "fdaa5f07-aac7-4638-b00c-ee683c75d6ac",
+    "revision": null,
+    "report": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/chapters/C11/.hyperframes/artifacts/checks/fdaa5f07-aac7-4638-b00c-ee683c75d6ac.json",
+    "attribution": "unversioned"
+  },
+  "_meta": {
+    "version": "0.8.173",
+    "latestVersion": "0.8.173",
+    "updateAvailable": false
+  }
+}

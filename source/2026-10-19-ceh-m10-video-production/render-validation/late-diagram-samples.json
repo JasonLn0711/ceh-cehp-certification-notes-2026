@@ -1,0 +1,309 @@
+{
+  "status": "sampled_visual_checks_passed",
+  "reason": "Every complete non-quiz diagram is sampled four seconds before its scene end, supplementing progressive midpoint samples.",
+  "master_sha256": "5fc53be79a9774ae4a3e297b323f79e582e59bdd144c95f040bdf701e9f101c8",
+  "count": 50,
+  "samples": [
+    {
+      "scene": "S01",
+      "time": 61.766666666666666,
+      "local_time": 61.766666666666666,
+      "file": "S01-late.png"
+    },
+    {
+      "scene": "S02",
+      "time": 127.80000000000001,
+      "local_time": 62.03333333333333,
+      "file": "S02-late.png"
+    },
+    {
+      "scene": "S03",
+      "time": 194.0,
+      "local_time": 62.2,
+      "file": "S03-late.png"
+    },
+    {
+      "scene": "S04",
+      "time": 266.4666666666667,
+      "local_time": 68.46666666666667,
+      "file": "S04-late.png"
+    },
+    {
+      "scene": "S05",
+      "time": 334.9666666666667,
+      "local_time": 64.5,
+      "file": "S05-late.png"
+    },
+    {
+      "scene": "S06",
+      "time": 405.40000000000003,
+      "local_time": 66.43333333333334,
+      "file": "S06-late.png"
+    },
+    {
+      "scene": "S07",
+      "time": 475.6666666666667,
+      "local_time": 66.26666666666667,
+      "file": "S07-late.png"
+    },
+    {
+      "scene": "S08",
+      "time": 540.8666666666667,
+      "local_time": 61.2,
+      "file": "S08-late.png"
+    },
+    {
+      "scene": "S09",
+      "time": 610.1333333333333,
+      "local_time": 65.26666666666667,
+      "file": "S09-late.png"
+    },
+    {
+      "scene": "S10",
+      "time": 677.8666666666667,
+      "local_time": 63.733333333333334,
+      "file": "S10-late.png"
+    },
+    {
+      "scene": "S11",
+      "time": 744.1333333333333,
+      "local_time": 62.266666666666666,
+      "file": "S11-late.png"
+    },
+    {
+      "scene": "S12",
+      "time": 812.7,
+      "local_time": 64.56666666666666,
+      "file": "S12-late.png"
+    },
+    {
+      "scene": "S13",
+      "time": 880.7,
+      "local_time": 64.0,
+      "file": "S13-late.png"
+    },
+    {
+      "scene": "S14",
+      "time": 954.6333333333334,
+      "local_time": 69.93333333333334,
+      "file": "S14-late.png"
+    },
+    {
+      "scene": "S15",
+      "time": 1027.0666666666668,
+      "local_time": 68.43333333333334,
+      "file": "S15-late.png"
+    },
+    {
+      "scene": "S16",
+      "time": 1097.8666666666668,
+      "local_time": 66.8,
+      "file": "S16-late.png"
+    },
+    {
+      "scene": "S17",
+      "time": 1173.5666666666668,
+      "local_time": 71.7,
+      "file": "S17-late.png"
+    },
+    {
+      "scene": "S18",
+      "time": 1248.2666666666669,
+      "local_time": 70.7,
+      "file": "S18-late.png"
+    },
+    {
+      "scene": "S19",
+      "time": 1323.6333333333334,
+      "local_time": 71.36666666666666,
+      "file": "S19-late.png"
+    },
+    {
+      "scene": "S20",
+      "time": 1399.0333333333335,
+      "local_time": 71.4,
+      "file": "S20-late.png"
+    },
+    {
+      "scene": "S21",
+      "time": 1477.7000000000003,
+      "local_time": 74.66666666666667,
+      "file": "S21-late.png"
+    },
+    {
+      "scene": "S22",
+      "time": 1552.0666666666668,
+      "local_time": 70.36666666666666,
+      "file": "S22-late.png"
+    },
+    {
+      "scene": "S23",
+      "time": 1623.0666666666668,
+      "local_time": 67.0,
+      "file": "S23-late.png"
+    },
+    {
+      "scene": "S24",
+      "time": 1685.1000000000001,
+      "local_time": 58.03333333333333,
+      "file": "S24-late.png"
+    },
+    {
+      "scene": "S25",
+      "time": 1751.8666666666668,
+      "local_time": 62.766666666666666,
+      "file": "S25-late.png"
+    },
+    {
+      "scene": "S26",
+      "time": 1820.7666666666669,
+      "local_time": 64.9,
+      "file": "S26-late.png"
+    },
+    {
+      "scene": "S27",
+      "time": 1890.166666666667,
+      "local_time": 65.4,
+      "file": "S27-late.png"
+    },
+    {
+      "scene": "S28",
+      "time": 1962.0000000000002,
+      "local_time": 67.83333333333333,
+      "file": "S28-late.png"
+    },
+    {
+      "scene": "S29",
+      "time": 2027.8000000000002,
+      "local_time": 61.8,
+      "file": "S29-late.png"
+    },
+    {
+      "scene": "S30",
+      "time": 2094.2333333333336,
+      "local_time": 62.43333333333334,
+      "file": "S30-late.png"
+    },
+    {
+      "scene": "S31",
+      "time": 2164.7000000000003,
+      "local_time": 66.46666666666667,
+      "file": "S31-late.png"
+    },
+    {
+      "scene": "S32",
+      "time": 2234.6000000000004,
+      "local_time": 65.9,
+      "file": "S32-late.png"
+    },
+    {
+      "scene": "S33",
+      "time": 2312.3,
+      "local_time": 73.7,
+      "file": "S33-late.png"
+    },
+    {
+      "scene": "S34",
+      "time": 2384.566666666667,
+      "local_time": 68.26666666666667,
+      "file": "S34-late.png"
+    },
+    {
+      "scene": "S35",
+      "time": 2454.833333333334,
+      "local_time": 66.26666666666667,
+      "file": "S35-late.png"
+    },
+    {
+      "scene": "S36",
+      "time": 2527.600000000001,
+      "local_time": 68.76666666666667,
+      "file": "S36-late.png"
+    },
+    {
+      "scene": "S37",
+      "time": 2598.2666666666673,
+      "local_time": 66.66666666666667,
+      "file": "S37-late.png"
+    },
+    {
+      "scene": "S38",
+      "time": 2670.600000000001,
+      "local_time": 68.33333333333333,
+      "file": "S38-late.png"
+    },
+    {
+      "scene": "S39",
+      "time": 2745.000000000001,
+      "local_time": 70.4,
+      "file": "S39-late.png"
+    },
+    {
+      "scene": "S40",
+      "time": 2819.8333333333344,
+      "local_time": 70.83333333333333,
+      "file": "S40-late.png"
+    },
+    {
+      "scene": "S41",
+      "time": 2891.300000000001,
+      "local_time": 67.46666666666667,
+      "file": "S41-late.png"
+    },
+    {
+      "scene": "S42",
+      "time": 2964.200000000001,
+      "local_time": 68.9,
+      "file": "S42-late.png"
+    },
+    {
+      "scene": "S43",
+      "time": 3038.466666666668,
+      "local_time": 70.26666666666667,
+      "file": "S43-late.png"
+    },
+    {
+      "scene": "S44",
+      "time": 3113.5000000000014,
+      "local_time": 71.03333333333333,
+      "file": "S44-late.png"
+    },
+    {
+      "scene": "S45",
+      "time": 3185.9333333333348,
+      "local_time": 68.43333333333334,
+      "file": "S45-late.png"
+    },
+    {
+      "scene": "S46",
+      "time": 3262.9000000000015,
+      "local_time": 72.96666666666667,
+      "file": "S46-late.png"
+    },
+    {
+      "scene": "S47",
+      "time": 3340.8000000000015,
+      "local_time": 73.9,
+      "file": "S47-late.png"
+    },
+    {
+      "scene": "S48",
+      "time": 3417.5000000000014,
+      "local_time": 72.7,
+      "file": "S48-late.png"
+    },
+    {
+      "scene": "S49",
+      "time": 3494.6333333333346,
+      "local_time": 73.13333333333334,
+      "file": "S49-late.png"
+    },
+    {
+      "scene": "S58",
+      "time": 4279.733333333335,
+      "local_time": 74.86666666666666,
+      "file": "S58-late.png"
+    }
+  ],
+  "review": "Inspected all six actual encoded contact sheets covering S01\u2013S49 and S58. Completed diagrams, quantities, units, case boundaries, captions and inherited visual design are legible and separated. This is sampled visual review, not full human viewing/listening."
+}

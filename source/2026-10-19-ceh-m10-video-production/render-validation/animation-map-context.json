@@ -1,0 +1,169 @@
+{
+  "status": "actual_motion_diagnostics_context_reviewed",
+  "helper_version": "0.8.173",
+  "render_version": "0.8.173",
+  "duration": 4283.733333333,
+  "total_tweens": 24624,
+  "mapped_tweens": 4191,
+  "flag_counts": {
+    "collision": 3249,
+    "paced-slow": 243,
+    "degenerate": 21
+  },
+  "helper_paced_entries": {
+    "clock_driver": 24,
+    "finite_2_4_second_moves": 219
+  },
+  "flagged_entries_with_all_samples_hidden": 948,
+  "degenerate_context": [
+    {
+      "selector": "#S30-legitimate-count-fill",
+      "flagged_start": 0.895,
+      "scene_start": 2031.8000000000002,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S19-link-headroom-fill",
+      "flagged_start": 1.045,
+      "scene_start": 1252.2666666666669,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S29-ordinary-demand-fill",
+      "flagged_start": 4.312,
+      "scene_start": 1966.0000000000002,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S34-baseline-0-fill",
+      "flagged_start": 4.631,
+      "scene_start": 2316.3,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S24-request-sixty-fill",
+      "flagged_start": 6.765,
+      "scene_start": 1627.0666666666668,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S24-response-three-thousand-fill",
+      "flagged_start": 6.765,
+      "scene_start": 1627.0666666666668,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S43-offered-fill",
+      "flagged_start": 7.845,
+      "scene_start": 2968.200000000001,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S11-rate-0-fill",
+      "flagged_start": 7.885,
+      "scene_start": 681.8666666666667,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S19-full-state-fill",
+      "flagged_start": 10.325,
+      "scene_start": 1252.2666666666669,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S33-work-0",
+      "flagged_start": 12.872,
+      "scene_start": 2238.6000000000004,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S33-work-1",
+      "flagged_start": 12.872,
+      "scene_start": 2238.6000000000004,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S33-work-2",
+      "flagged_start": 12.872,
+      "scene_start": 2238.6000000000004,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S11-rate-1-fill",
+      "flagged_start": 15.338,
+      "scene_start": 681.8666666666667,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S43-accepted-fill",
+      "flagged_start": 15.688,
+      "scene_start": 2968.200000000001,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S46-work-fill",
+      "flagged_start": 16.699,
+      "scene_start": 3189.9333333333348,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S46-budget-fill",
+      "flagged_start": 16.699,
+      "scene_start": 3189.9333333333348,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S11-rate-2-fill",
+      "flagged_start": 23.29,
+      "scene_start": 681.8666666666667,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S30-cheap-work-fill",
+      "flagged_start": 23.506,
+      "scene_start": 2031.8000000000002,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S34-baseline-1-fill",
+      "flagged_start": 27.637,
+      "scene_start": 2316.3,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S11-rate-3-fill",
+      "flagged_start": 29.799,
+      "scene_start": 681.8666666666667,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    },
+    {
+      "selector": "#S29-incident-demand-fill",
+      "flagged_start": 36.479,
+      "scene_start": 1966.0000000000002,
+      "all_flagged_samples_hidden": true,
+      "visible_nonzero_counterparts": 2
+    }
+  ],
+  "dead_zone_advisories": 227,
+  "acceptance": "Retain heuristic findings; active-window browser checks, repeated seeks and sampled encoded review establish separate layers. Human full-film acceptance remains open."
+}

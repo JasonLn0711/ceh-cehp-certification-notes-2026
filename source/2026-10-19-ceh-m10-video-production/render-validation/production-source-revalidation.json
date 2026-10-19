@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "source_zip_sha256": "5541e68e98096ea998201b445e8ad565b31ce22e809b638e717510854a16cdf0",
+  "source_entries": 332,
+  "payload_hashes": 330,
+  "locked_assets": 44,
+  "offline_evidence_assertions": 44,
+  "scope": "Toy output is not observed Internet traffic, actual mitigation efficacy or learner acceptance."
+}

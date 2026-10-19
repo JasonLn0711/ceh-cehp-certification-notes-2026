@@ -1,0 +1,1090 @@
+{
+  "source_hashes": 330,
+  "scenes": 58,
+  "chapters": 11,
+  "canonical_spoken_words": 10241,
+  "baseline_seconds": 5908.245333333341,
+  "post_speed_spoken_seconds": 3943.134416666665,
+  "effective_spoken_wpm": 158.14384434235424,
+  "speech_wpm_method": "Edge-trimmed signal estimate at -50dBFS, 10ms RMS windows/guard; internal pauses retained; audio unchanged",
+  "raw_clip_wpm": 155.8303458798736,
+  "measured_baseline_to_final_duration_ratio": 1.498362649865709,
+  "speed_method": "Exactly one atempo=1.5 on each native24k baseline speech clip, resampled to48k stereo",
+  "silence_intervals": 8,
+  "silent_seconds": 8,
+  "pcm_zero_frames_per_hold": 48000,
+  "pcm_channels": 2,
+  "aac_boundary_residues": "Measured and disclosed separately; not bit-exact zero claim",
+  "duration": 4283.733333333335,
+  "frames": 128512,
+  "primary_encoded_samples": 115,
+  "targeted_late_encoded_samples": 50,
+  "embedded_chapter_marks": 11,
+  "alignment_review_flags": [
+    {
+      "scene": "S02",
+      "sentence": 0,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.03705904260277748
+    },
+    {
+      "scene": "S02",
+      "sentence": 5,
+      "word": 7,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S03",
+      "sentence": 8,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.026999078691005707
+    },
+    {
+      "scene": "S05",
+      "sentence": 1,
+      "word": 8,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S06",
+      "sentence": 10,
+      "word": 9,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S07",
+      "sentence": 2,
+      "word": 5,
+      "reason": "low_alignment_probability",
+      "probability": 0.008430613204836845
+    },
+    {
+      "scene": "S07",
+      "sentence": 10,
+      "word": 18,
+      "reason": "low_alignment_probability",
+      "probability": 0.032577842473983765
+    },
+    {
+      "scene": "S08",
+      "sentence": 3,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.04215236380696297
+    },
+    {
+      "scene": "S08",
+      "sentence": 8,
+      "word": 5,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S08",
+      "sentence": 13,
+      "word": 1,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S08",
+      "sentence": 13,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.00849639531224966
+    },
+    {
+      "scene": "S09",
+      "sentence": 0,
+      "word": 1,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S10",
+      "sentence": 8,
+      "word": 2,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S10",
+      "sentence": 12,
+      "word": 8,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S11",
+      "sentence": 0,
+      "word": 7,
+      "reason": "low_alignment_probability",
+      "probability": 0.020878270268440247
+    },
+    {
+      "scene": "S11",
+      "sentence": 2,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.013689964078366756
+    },
+    {
+      "scene": "S11",
+      "sentence": 3,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.0033209933899343014
+    },
+    {
+      "scene": "S11",
+      "sentence": 4,
+      "word": 6,
+      "reason": "low_alignment_probability",
+      "probability": 0.0009923045290634036
+    },
+    {
+      "scene": "S11",
+      "sentence": 5,
+      "word": 10,
+      "reason": "low_alignment_probability",
+      "probability": 0.008351879194378853
+    },
+    {
+      "scene": "S11",
+      "sentence": 6,
+      "word": 7,
+      "reason": "low_alignment_probability",
+      "probability": 0.017427872866392136
+    },
+    {
+      "scene": "S11",
+      "sentence": 8,
+      "word": 8,
+      "reason": "low_alignment_probability",
+      "probability": 0.021894395351409912
+    },
+    {
+      "scene": "S11",
+      "sentence": 9,
+      "word": 11,
+      "reason": "low_alignment_probability",
+      "probability": 0.004338908474892378
+    },
+    {
+      "scene": "S11",
+      "sentence": 10,
+      "word": 5,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S12",
+      "sentence": 5,
+      "word": 8,
+      "reason": "low_alignment_probability",
+      "probability": 0.02790536731481552
+    },
+    {
+      "scene": "S12",
+      "sentence": 7,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.03298698738217354
+    },
+    {
+      "scene": "S12",
+      "sentence": 11,
+      "word": 23,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S13",
+      "sentence": 3,
+      "word": 1,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S15",
+      "sentence": 12,
+      "word": 4,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S17",
+      "sentence": 0,
+      "word": 5,
+      "reason": "low_alignment_probability",
+      "probability": 0.0003672234888654202
+    },
+    {
+      "scene": "S17",
+      "sentence": 5,
+      "word": 9,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S18",
+      "sentence": 1,
+      "word": 8,
+      "reason": "low_alignment_probability",
+      "probability": 0.020122777670621872
+    },
+    {
+      "scene": "S18",
+      "sentence": 3,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.009490866214036942
+    },
+    {
+      "scene": "S18",
+      "sentence": 4,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.014992264099419117
+    },
+    {
+      "scene": "S18",
+      "sentence": 5,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.014767139218747616
+    },
+    {
+      "scene": "S18",
+      "sentence": 6,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.04009526968002319
+    },
+    {
+      "scene": "S19",
+      "sentence": 0,
+      "word": 7,
+      "reason": "low_alignment_probability",
+      "probability": 0.019363531842827797
+    },
+    {
+      "scene": "S19",
+      "sentence": 1,
+      "word": 6,
+      "reason": "low_alignment_probability",
+      "probability": 0.0063024708069860935
+    },
+    {
+      "scene": "S19",
+      "sentence": 3,
+      "word": 9,
+      "reason": "low_alignment_probability",
+      "probability": 0.013927868567407131
+    },
+    {
+      "scene": "S20",
+      "sentence": 5,
+      "word": 1,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S21",
+      "sentence": 7,
+      "word": 11,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S21",
+      "sentence": 11,
+      "word": 7,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S22",
+      "sentence": 3,
+      "word": 8,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S23",
+      "sentence": 0,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.006375718396157026
+    },
+    {
+      "scene": "S23",
+      "sentence": 3,
+      "word": 6,
+      "reason": "low_alignment_probability",
+      "probability": 0.0053489916026592255
+    },
+    {
+      "scene": "S24",
+      "sentence": 0,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.02386658638715744
+    },
+    {
+      "scene": "S24",
+      "sentence": 1,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.03223125636577606
+    },
+    {
+      "scene": "S24",
+      "sentence": 3,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.02152426354587078
+    },
+    {
+      "scene": "S24",
+      "sentence": 3,
+      "word": 7,
+      "reason": "low_alignment_probability",
+      "probability": 0.0007169044693000615
+    },
+    {
+      "scene": "S24",
+      "sentence": 10,
+      "word": 2,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S25",
+      "sentence": 1,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.033058591187000275
+    },
+    {
+      "scene": "S25",
+      "sentence": 2,
+      "word": 8,
+      "reason": "low_alignment_probability",
+      "probability": 0.003015710972249508
+    },
+    {
+      "scene": "S25",
+      "sentence": 4,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.0492708683013916
+    },
+    {
+      "scene": "S25",
+      "sentence": 5,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.006152616813778877
+    },
+    {
+      "scene": "S25",
+      "sentence": 5,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.026430433616042137
+    },
+    {
+      "scene": "S27",
+      "sentence": 0,
+      "word": 6,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S27",
+      "sentence": 1,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.010381294414401054
+    },
+    {
+      "scene": "S27",
+      "sentence": 3,
+      "word": 11,
+      "reason": "low_alignment_probability",
+      "probability": 0.025056416168808937
+    },
+    {
+      "scene": "S28",
+      "sentence": 6,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.013381297700107098
+    },
+    {
+      "scene": "S28",
+      "sentence": 8,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.04446372017264366
+    },
+    {
+      "scene": "S29",
+      "sentence": 2,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.043449923396110535
+    },
+    {
+      "scene": "S29",
+      "sentence": 2,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.022120028734207153
+    },
+    {
+      "scene": "S29",
+      "sentence": 4,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.00809362530708313
+    },
+    {
+      "scene": "S29",
+      "sentence": 5,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.01580500416457653
+    },
+    {
+      "scene": "S29",
+      "sentence": 7,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.01301540620625019
+    },
+    {
+      "scene": "S30",
+      "sentence": 1,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.03466174006462097
+    },
+    {
+      "scene": "S30",
+      "sentence": 2,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.027064131572842598
+    },
+    {
+      "scene": "S30",
+      "sentence": 3,
+      "word": 11,
+      "reason": "low_alignment_probability",
+      "probability": 0.004989120177924633
+    },
+    {
+      "scene": "S31",
+      "sentence": 0,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.004943098872900009
+    },
+    {
+      "scene": "S31",
+      "sentence": 7,
+      "word": 16,
+      "reason": "low_alignment_probability",
+      "probability": 2.9238002753118053e-05
+    },
+    {
+      "scene": "S32",
+      "sentence": 2,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.01027020625770092
+    },
+    {
+      "scene": "S32",
+      "sentence": 3,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.0049196695908904076
+    },
+    {
+      "scene": "S32",
+      "sentence": 6,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.004625004716217518
+    },
+    {
+      "scene": "S32",
+      "sentence": 6,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.02987353689968586
+    },
+    {
+      "scene": "S33",
+      "sentence": 0,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.00525707146152854
+    },
+    {
+      "scene": "S33",
+      "sentence": 0,
+      "word": 12,
+      "reason": "low_alignment_probability",
+      "probability": 0.012422640807926655
+    },
+    {
+      "scene": "S34",
+      "sentence": 0,
+      "word": 1,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S34",
+      "sentence": 1,
+      "word": 8,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S34",
+      "sentence": 2,
+      "word": 5,
+      "reason": "low_alignment_probability",
+      "probability": 0.006162059493362904
+    },
+    {
+      "scene": "S34",
+      "sentence": 3,
+      "word": 5,
+      "reason": "low_alignment_probability",
+      "probability": 0.014055578038096428
+    },
+    {
+      "scene": "S34",
+      "sentence": 4,
+      "word": 5,
+      "reason": "low_alignment_probability",
+      "probability": 0.008629942312836647
+    },
+    {
+      "scene": "S34",
+      "sentence": 7,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.00566084124147892
+    },
+    {
+      "scene": "S35",
+      "sentence": 1,
+      "word": 7,
+      "reason": "low_alignment_probability",
+      "probability": 0.013936827890574932
+    },
+    {
+      "scene": "S35",
+      "sentence": 2,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.007368400692939758
+    },
+    {
+      "scene": "S35",
+      "sentence": 4,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.028574777767062187
+    },
+    {
+      "scene": "S35",
+      "sentence": 4,
+      "word": 7,
+      "reason": "low_alignment_probability",
+      "probability": 0.005253941286355257
+    },
+    {
+      "scene": "S35",
+      "sentence": 7,
+      "word": 9,
+      "reason": "low_alignment_probability",
+      "probability": 0.014391214586794376
+    },
+    {
+      "scene": "S36",
+      "sentence": 1,
+      "word": 8,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S36",
+      "sentence": 4,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.0045063309371471405
+    },
+    {
+      "scene": "S36",
+      "sentence": 4,
+      "word": 9,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S37",
+      "sentence": 0,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.03776165097951889
+    },
+    {
+      "scene": "S37",
+      "sentence": 5,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.04056209325790405
+    },
+    {
+      "scene": "S38",
+      "sentence": 8,
+      "word": 2,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S39",
+      "sentence": 6,
+      "word": 5,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S40",
+      "sentence": 6,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.007264365442097187
+    },
+    {
+      "scene": "S40",
+      "sentence": 6,
+      "word": 11,
+      "reason": "low_alignment_probability",
+      "probability": 0.010499433614313602
+    },
+    {
+      "scene": "S40",
+      "sentence": 7,
+      "word": 1,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S41",
+      "sentence": 0,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.029748588800430298
+    },
+    {
+      "scene": "S42",
+      "sentence": 0,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.03796371445059776
+    },
+    {
+      "scene": "S42",
+      "sentence": 1,
+      "word": 8,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S42",
+      "sentence": 4,
+      "word": 6,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S42",
+      "sentence": 4,
+      "word": 7,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S42",
+      "sentence": 9,
+      "word": 8,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S43",
+      "sentence": 0,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.006041296292096376
+    },
+    {
+      "scene": "S43",
+      "sentence": 3,
+      "word": 5,
+      "reason": "low_alignment_probability",
+      "probability": 0.008841329254209995
+    },
+    {
+      "scene": "S43",
+      "sentence": 5,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.007292388938367367
+    },
+    {
+      "scene": "S43",
+      "sentence": 6,
+      "word": 6,
+      "reason": "low_alignment_probability",
+      "probability": 0.002510265912860632
+    },
+    {
+      "scene": "S43",
+      "sentence": 7,
+      "word": 5,
+      "reason": "low_alignment_probability",
+      "probability": 0.005291572771966457
+    },
+    {
+      "scene": "S43",
+      "sentence": 11,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.005065077915787697
+    },
+    {
+      "scene": "S44",
+      "sentence": 0,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.011590298265218735
+    },
+    {
+      "scene": "S44",
+      "sentence": 0,
+      "word": 9,
+      "reason": "low_alignment_probability",
+      "probability": 0.041884154081344604
+    },
+    {
+      "scene": "S44",
+      "sentence": 1,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.030813757330179214
+    },
+    {
+      "scene": "S44",
+      "sentence": 4,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.005129249766469002
+    },
+    {
+      "scene": "S44",
+      "sentence": 5,
+      "word": 5,
+      "reason": "low_alignment_probability",
+      "probability": 0.017825519666075706
+    },
+    {
+      "scene": "S45",
+      "sentence": 0,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.005569653119891882
+    },
+    {
+      "scene": "S45",
+      "sentence": 2,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.017678359523415565
+    },
+    {
+      "scene": "S45",
+      "sentence": 5,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.00817575678229332
+    },
+    {
+      "scene": "S46",
+      "sentence": 0,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.0026933869812637568
+    },
+    {
+      "scene": "S46",
+      "sentence": 2,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.04310283064842224
+    },
+    {
+      "scene": "S46",
+      "sentence": 4,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.019191429018974304
+    },
+    {
+      "scene": "S46",
+      "sentence": 5,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.016031956300139427
+    },
+    {
+      "scene": "S46",
+      "sentence": 6,
+      "word": 5,
+      "reason": "low_alignment_probability",
+      "probability": 0.021966133266687393
+    },
+    {
+      "scene": "S46",
+      "sentence": 8,
+      "word": 6,
+      "reason": "low_alignment_probability",
+      "probability": 0.030880196020007133
+    },
+    {
+      "scene": "S46",
+      "sentence": 10,
+      "word": 11,
+      "reason": "low_alignment_probability",
+      "probability": 0.031223248690366745
+    },
+    {
+      "scene": "S47",
+      "sentence": 0,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.04120101034641266
+    },
+    {
+      "scene": "S47",
+      "sentence": 0,
+      "word": 5,
+      "reason": "low_alignment_probability",
+      "probability": 0.018687741830945015
+    },
+    {
+      "scene": "S47",
+      "sentence": 2,
+      "word": 12,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S47",
+      "sentence": 9,
+      "word": 6,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S49",
+      "sentence": 2,
+      "word": 2,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S50",
+      "sentence": 3,
+      "word": 5,
+      "reason": "low_alignment_probability",
+      "probability": 0.006685483269393444
+    },
+    {
+      "scene": "S50",
+      "sentence": 5,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.02721015363931656
+    },
+    {
+      "scene": "S50",
+      "sentence": 5,
+      "word": 9,
+      "reason": "low_alignment_probability",
+      "probability": 0.01981615275144577
+    },
+    {
+      "scene": "S50",
+      "sentence": 12,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.04318005591630936
+    },
+    {
+      "scene": "S51",
+      "sentence": 5,
+      "word": 8,
+      "reason": "low_alignment_probability",
+      "probability": 0.01882888749241829
+    },
+    {
+      "scene": "S51",
+      "sentence": 5,
+      "word": 11,
+      "reason": "low_alignment_probability",
+      "probability": 0.006373433396220207
+    },
+    {
+      "scene": "S51",
+      "sentence": 15,
+      "word": 4,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S52",
+      "sentence": 1,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.01914803497493267
+    },
+    {
+      "scene": "S52",
+      "sentence": 2,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.014896382577717304
+    },
+    {
+      "scene": "S52",
+      "sentence": 7,
+      "word": 11,
+      "reason": "low_alignment_probability",
+      "probability": 0.011637278832495213
+    },
+    {
+      "scene": "S53",
+      "sentence": 1,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.012372381053864956
+    },
+    {
+      "scene": "S53",
+      "sentence": 7,
+      "word": 10,
+      "reason": "low_alignment_probability",
+      "probability": 0.024752721190452576
+    },
+    {
+      "scene": "S54",
+      "sentence": 1,
+      "word": 4,
+      "reason": "low_alignment_probability",
+      "probability": 0.009975076653063297
+    },
+    {
+      "scene": "S54",
+      "sentence": 2,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.033363547176122665
+    },
+    {
+      "scene": "S54",
+      "sentence": 4,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.020811520516872406
+    },
+    {
+      "scene": "S54",
+      "sentence": 7,
+      "word": 8,
+      "reason": "low_alignment_probability",
+      "probability": 0.002447947394102812
+    },
+    {
+      "scene": "S54",
+      "sentence": 9,
+      "word": 6,
+      "reason": "low_alignment_probability",
+      "probability": 0.01892481930553913
+    },
+    {
+      "scene": "S54",
+      "sentence": 9,
+      "word": 10,
+      "reason": "low_alignment_probability",
+      "probability": 0.013675681315362453
+    },
+    {
+      "scene": "S55",
+      "sentence": 4,
+      "word": 3,
+      "reason": "low_alignment_probability",
+      "probability": 0.01349541824311018
+    },
+    {
+      "scene": "S55",
+      "sentence": 5,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.017457909882068634
+    },
+    {
+      "scene": "S55",
+      "sentence": 6,
+      "word": 12,
+      "reason": "low_alignment_probability",
+      "probability": 0.031720202416181564
+    },
+    {
+      "scene": "S55",
+      "sentence": 7,
+      "word": 11,
+      "reason": "low_alignment_probability",
+      "probability": 0.004593988414853811
+    },
+    {
+      "scene": "S55",
+      "sentence": 9,
+      "word": 1,
+      "reason": "low_alignment_probability",
+      "probability": 0.002514778869226575
+    },
+    {
+      "scene": "S55",
+      "sentence": 10,
+      "word": 2,
+      "reason": "low_alignment_probability",
+      "probability": 0.006739806849509478
+    },
+    {
+      "scene": "S55",
+      "sentence": 10,
+      "word": 6,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S56",
+      "sentence": 7,
+      "word": 10,
+      "reason": "low_alignment_probability",
+      "probability": 0.0075330245308578014
+    },
+    {
+      "scene": "S56",
+      "sentence": 15,
+      "word": 6,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S57",
+      "sentence": 4,
+      "word": 5,
+      "reason": "zero_duration"
+    },
+    {
+      "scene": "S58",
+      "sentence": 3,
+      "word": 4,
+      "reason": "zero_duration"
+    }
+  ],
+  "source_corrections": "None; complete canonical M10 content preserved",
+  "master_sha256": "5fc53be79a9774ae4a3e297b323f79e582e59bdd144c95f040bdf701e9f101c8",
+  "status": "automated_delivery_checks_passed",
+  "review_limit": "Sampled visual review and ASR/waveform diagnostics; full human viewing/listening acceptance separate."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "editable_zip_crc_extraction_hashes_verified",
+  "zip": "CEH_M10_Denial_of_Service_v1_0_EDITABLE.zip",
+  "bytes": 3316113495,
+  "entries": 5506,
+  "payload_hashes": 5505,
+  "sha256": "34088176765ac3ff5b2ad448f5c575fa184340d06ec84fb3fddb056d55f21bd1",
+  "scope": "All editable payloads were extracted and hash checked; environments/caches excluded. Final media remain outside the archive."
+}

@@ -1,0 +1,7 @@
+{
+  "CEH_owned_closeout": "passed: 267 exact copies, 35 Markdown files, 95 local links",
+  "planning_repository": "passed: 44 grandfathered warnings, 0 new",
+  "planning_knowledge": "passed: 181 metadata notes and catalog entries",
+  "git_diff_check": "Passed with cr-at-eol for the exact generated CSV evidence; standard default check flags its preserved CRLF line endings only.",
+  "unrelated_coursework": "preserved and unstaged"
+}
