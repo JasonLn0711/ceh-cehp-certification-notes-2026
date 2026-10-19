@@ -11,6 +11,8 @@ from ceh_video.speech import spoken,sentences
 
 class EngineTests(unittest.TestCase):
     def setUp(self):
+        from ceh_video.runner import STOP_REQUESTED
+        STOP_REQUESTED.clear()
         self.temp=tempfile.TemporaryDirectory();self.base=Path(self.temp.name);self.root=self.base/'project';self.root.mkdir()
         profile={'schema_version':1,'voice':{'name':'af_heart','language':'en-us','baseline_speed':.73,'atempo':1.5,'speed_applications':1},'output':{'width':1920,'height':1080,'fps':30,'sample_rate':48000,'channels':2,'video_rate':1.0,'bgm':False},'quiz_silence_seconds':1,'runtime':{'max_chapter_renders':2,'render_workers':4,'hyperframes':'test','ffmpeg':'fixture-ffmpeg','browser':'/fixture/browser'},'expected':{'scenes':1,'chapters':1,'questions':0,'canonical_words':2},'alignment':{},'models':{},'diagram_inputs':{},'master_filename':'master.mp4','editable_filename':'editable.zip'}
         write(self.root/'production.json',profile);write(self.root/'data/scenes.json',{'scenes':[{'id':'S99','chapter_id':'C99','narration_en_US':'Hello world.','audio_segments':[{'kind':'spoken','text':'Hello world.'}],'on_screen_copy':['Hello']} ]})
@@ -88,6 +90,16 @@ class EngineTests(unittest.TestCase):
         self.assertEqual(inspect_node(self.p,n)['action'],'reuse')
         (q/'state.png').write_bytes(b'changed')
         with self.assertRaisesRegex(RuntimeError,'Stale'):inspect_node(self.p,n)
+    def test_batch_review_gate_runs_before_dispatch(self):
+        from ceh_video.runner import review_batch,ReviewPending
+        self.make_chapter()
+        with self.assertRaises(ReviewPending):review_batch(self.p,[{'node':'prepare:C99','action':'reuse'},{'node':'render:C99','action':'run'}],lambda r:None)
+        self.assertEqual(read(self.p.state/'review-gate.json')['status'],'waiting_review')
+    def test_cancelled_queue_cannot_spawn_another_child(self):
+        from ceh_video.runner import cancel_children,subprocess_stage,RunCancelled
+        cancel_children();target=self.root/'must-not-exist'
+        with self.assertRaises(RunCancelled):subprocess_stage(self.p,[sys.executable,'-c','from pathlib import Path;Path('+repr(str(target))+').write_text("unexpected")'],'cancelled-child',lambda r:None)
+        self.assertFalse(target.exists())
     def test_automation_cannot_clear_listening_lead(self):
         write(self.p.qa/'audio-review-decisions.json',{'items':{'x':{}}})
         with self.assertRaisesRegex(ValueError,'Human'):audio_decision(self.p,'x','reviewed_no_defect','automated_technical','No actual listening')

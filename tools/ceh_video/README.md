@@ -22,6 +22,8 @@ export PYTHONPATH=vendor
 
 The examples assume the local dependencies have been installed. Archives exclude `.venv`, `node_modules` and caches. Run `npm ci` and recreate Python using the included environment inventory before rendering; provision the browser path in `production.json`. Model files, local fonts, approved assets, raw and processed speech, alignment, module adapters and pronunciation policy travel with the editable project. Rebuilding one chapter needs the rendering dependencies; generating new speech also needs Kokoro and alignment dependencies.
 
+On the first use of an extracted release, run the baseline `root` target before editing canonical copy or pronunciation. This verifies the shipped identity manifest and imports its approved clips/alignment without needing the original workspace. Subsequent edits follow normal dependency invalidation.
+
 From this repository, use `PYTHONPATH=tools/ceh_video` and an explicit `--project /absolute/project`. `status` reports recorded stage outcomes. Progress goes to stderr; stdout contains final JSON. `--plain` suppresses interactive styling. Failures preserve the actual nonzero child exit code, and interruption terminates the child process group. Quiet-process heartbeats explicitly report unknown progress.
 
 ## Production profile and extension points
@@ -56,10 +58,10 @@ Listening dispositions persist by canonical text and audio identity. Use `review
 
 ## Validation and troubleshooting
 
-Run `PYTHONPATH=tools/ceh_video python3 -m unittest discover -s tools/ceh_video/tests -v` from the repository. `tests/live_m10.py` explicitly runs real fixture TTS/cache/diagram checks; `tests/live_preflight.py` exercises actual diagram and quiz failures. Both use separate fixture directories and preserve earlier attempts. Their evidence establishes the exercised engineering behavior; it does not replace human listening or final encoded review.
+Run `PYTHONPATH=tools/ceh_video python3 -m unittest discover -s tools/ceh_video/tests -v` from the repository. `tests/live_m10.py` explicitly runs real fixture TTS/cache/diagram checks; `tests/live_preflight.py` exercises actual diagram and quiz failures. `tests/live_relocation.py` checks first-run imports with the original workspace unavailable. These scripts use separate fixture directories and preserve earlier attempts. Their evidence establishes the exercised engineering behavior; it does not replace human listening or final encoded review.
 
 Preflight checks canonical coverage, scene/question/hold mappings, AST syntax, approved asset/model identities, real diagram construction, narration anchors, local fonts and quiz geometry before model or encode work. Browser checks, repeated seeks, native semantic captures, full master decode, codec/frame/chapter counts, captions, quiz boundaries and audio continuity run at later stages. Packaging checks ZIP CRC, extracts the archive and verifies every payload hash.
 
-If a review is stale, recapture current states and inspect them before replacing its receipt. If installed HyperFrames differs from the profile, reconcile `package.json`, lockfile, installed package and profile together, then recheck. Inspect the stage log named in the error for child failures. An existing closed package is preserved: use a new release workspace for changed deliverables. Old Markdown review notes and historical QA remain provenance; the structured current receipts govern this engine.
+If a review is stale, recapture current states and inspect them before replacing its receipt. If installed HyperFrames differs from the profile, reconcile `package.json`, lockfile, installed package and profile together, then recheck. Inspect the stage log named in the error for child failures; detailed renderer events are in `qa/Cxx-render.log`. Quiet-child heartbeats report liveness, with progress unknown. An existing closed package is preserved: use a new release workspace for changed deliverables. Old Markdown review notes and historical QA remain provenance; the structured current receipts govern this engine.
 
 The [M10 optimization record](../../docs/video-production/M10_ENGINE_OPTIMIZATION.md) owns the exercised rollout, limitations and artifact locators. The engine has been migrated on M10; M04–M09 adoption requires explicit module migration and its own checks. Existing module releases remain preserved.

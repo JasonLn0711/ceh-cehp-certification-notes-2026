@@ -7,9 +7,13 @@ from .graph import nodes, planning, receipt_path, commit_receipt, inspect_node, 
 
 ACTIVE_CHILDREN={}
 ACTIVE_LOCK=threading.Lock()
+STOP_REQUESTED=threading.Event()
+
+class RunCancelled(RuntimeError):pass
 
 def cancel_children():
     with ACTIVE_LOCK:
+        STOP_REQUESTED.set()
         for proc in list(ACTIVE_CHILDREN.values()):
             if proc.poll() is None:
                 try:os.killpg(proc.pid,signal.SIGTERM)
@@ -26,9 +30,11 @@ def subprocess_stage(p,command,name,emit):
     log=p.qa/(name.replace(':','--')+'.log');log.parent.mkdir(exist_ok=True,parents=True)
     emit({'phase':'child_start','node':name,'command':command[:4],'log':str(log)})
     with log.open('a') as target:
-        proc=subprocess.Popen(command,cwd=p.root,env=p.environment(),stdin=subprocess.DEVNULL,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,start_new_session=True)
+        with ACTIVE_LOCK:
+            if STOP_REQUESTED.is_set():raise RunCancelled('Run cancelled before child dispatch: '+name)
+            proc=subprocess.Popen(command,cwd=p.root,env=p.environment(),stdin=subprocess.DEVNULL,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,start_new_session=True)
+            ACTIVE_CHILDREN[proc.pid]=proc
         from .progress import sanitize
-        with ACTIVE_LOCK:ACTIVE_CHILDREN[proc.pid]=proc
         messages=queue.Queue()
         def drain():
             try:
@@ -52,10 +58,13 @@ def subprocess_stage(p,command,name,emit):
                     emit({'phase':'child_alive_progress_unknown','node':name,'last_actual_output_at':last_output,'log':str(log)})
             code=proc.wait()
         except BaseException:
-            os.killpg(proc.pid,signal.SIGTERM)
+            try:os.killpg(proc.pid,signal.SIGTERM)
+            except ProcessLookupError:pass
             try:proc.wait(timeout=15)
             except subprocess.TimeoutExpired:os.killpg(proc.pid,signal.SIGKILL);proc.wait()
             write(child,{'status':'interrupted','pid':proc.pid,'cleanup':'child_process_group_terminated'});raise
+        finally:
+            with ACTIVE_LOCK:ACTIVE_CHILDREN.pop(proc.pid,None)
     with ACTIVE_LOCK:ACTIVE_CHILDREN.pop(proc.pid,None)
     write(child,{'status':'completed' if code==0 else 'failed','pid':proc.pid,'exit_code':code,'last_actual_output_at':last_output})
     if code:raise StageFailure(name,code,log)
@@ -147,15 +156,31 @@ def action(p,node,emit,force=False):
     worker(p,node.action[0],node.action[1:],emit);return 'executed'
 
 
+def review_batch(p,rows,emit):
+    """Catch stale current reviews before launching any expensive chapter jobs."""
+    if any(r['node'].startswith('prepare:') and r['action']=='run' for r in rows):return
+    from .review import require_review
+    for row in rows:
+        if not row['node'].startswith('render:'):continue
+        ch=row['node'].split(':')[1]
+        try:require_review(p,ch)
+        except (FileNotFoundError,RuntimeError) as exc:
+            record={'status':'waiting_review','chapter':ch,'error':str(exc)}
+            write(p.state/'review-gate.json',record);emit(record);raise ReviewPending(str(exc))
+
+
 def run(p,target,forced,emit):
     from .preflight import preflight
     began=time.monotonic();p.state.mkdir(exist_ok=True);completed=[];reused=[]
     with lock(p.state/'run.lock'):
+        STOP_REQUESTED.clear()
         preflight(p);seed_audio(p)
         rows=planning(p,target);force_set=set(forced)
         unknown=force_set-set(nodes(p))
         if unknown:raise ValueError('Unknown forced nodes '+str(unknown))
+        review_batch(p,rows,emit)
         def execute(name):
+            if STOP_REQUESTED.is_set():raise RunCancelled('Run cancelled before node dispatch: '+name)
             node=nodes(p)[name];current=inspect_node(p,node)
             if current['action']=='reuse' and name not in force_set:
                 reused.append(name);emit({'phase':'cache_reused','node':name});return
@@ -182,8 +207,8 @@ def run(p,target,forced,emit):
                 else:execute(name)
             for future in futures:future.result()
         except BaseException:
-            cancel_children()
             for future in futures:future.cancel()
+            cancel_children()
             pool.shutdown(wait=True,cancel_futures=True)
             raise
         else:pool.shutdown(wait=True)
