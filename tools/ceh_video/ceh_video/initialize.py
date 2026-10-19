@@ -58,6 +58,7 @@ def initialize(reference, workspace, emit):
              'models':{f.name:sha(f) for f in [project/'models/kokoro-v1.0.onnx',project/'models/voices-v1.0.bin']},'locked_assets':resolved}
     profile['diagram_inputs']={s['id']:['scripts/scene_art.py','scripts/'+('scene_art_start.py' if int(s['id'][1:])<=22 else 'scene_art_mid.py' if int(s['id'][1:])<=42 else 'scene_art_end.py')] for s in scenes if s['id'] not in {q['scene_id'] for q in questions}}
     profile['alignment']['models_sha256']={str(f.relative_to(project/'models/faster-whisper-base.en')):sha(f) for f in (project/'models/faster-whisper-base.en').rglob('*') if f.is_file()}
+    profile['metadata_title']=read(reference/'qa/master-ffprobe.json')['format']['tags']['title']
     write(project/'production.json',profile)
     # Only adapters remain project-owned; shared scripts become explicit engine entrypoints.
     for script in (engine/'runtime').glob('*.py'):

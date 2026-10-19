@@ -112,6 +112,13 @@ class EngineTests(unittest.TestCase):
     def test_non_m10_scene_and_question_mapping(self):
         from ceh_video.graph import nodes
         graph=nodes(self.p);self.assertIn('scene:S99',graph);self.assertIn('render:C99',graph)
+    def test_master_metadata_uses_module_profile(self):
+        import ast
+        source=Path(__file__).parents[1]/'ceh_video/runtime/assemble_master.py'
+        tree=ast.parse(source.read_text());function=next(n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name=='metadata_lines')
+        context={};exec(compile(ast.Module(body=[function],type_ignores=[]),str(source),'exec'),context)
+        rows=context['metadata_lines']({'title':'M99 Example'},[{'id':'C99','title':'Title; test','start':0,'duration':1}])
+        self.assertEqual(rows[1],'title=M99 Example');self.assertIn('END=48000',rows);self.assertIn('title=C99 Title\\; test',rows)
     def test_art_override_does_not_change_speech_key(self):
         from ceh_video.graph import nodes
         a=nodes(self.p);write(self.root/'data/visual-overrides.json',{'S99':{'offset_x':1}});b=nodes(self.p)

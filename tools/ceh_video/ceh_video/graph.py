@@ -43,7 +43,7 @@ def nodes(p):
     recognition={s['id']:sha(p.qa/'recognition'/f'{s["id"]}.json') for s in p.scenes if (p.qa/'recognition'/f'{s["id"]}.json').exists()}
     add('audio-review',['speech:'+s['id'] for s in p.scenes]+['align:'+s['id'] for s in p.scenes],{'recognition':recognition},[p.qa/'audio-audition/manifest.json',p.qa/'audio-clip-structure-audit.json'],['audio-review'],['recognition_audit.py','audit_audio_clips.py','review_audio.py','measure_speech.py','asr_receipt.py'])
     result['audio-review'].inputs['implementation']['review.py']=sha(Path(__file__).parent/'review.py')
-    add('master',['render:'+x for x in p.chapters]+['root'],{},[p.output/p.profile['master_filename'],p.output/'master.reference.pcm.wav',p.qa/'master-ffprobe.json'],['assemble_master'],['assemble_master.py'])
+    add('master',['render:'+x for x in p.chapters]+['root'],{'metadata_title':p.profile.get('metadata_title',p.profile.get('title','CEH'))},[p.output/p.profile['master_filename'],p.output/'master.reference.pcm.wav',p.qa/'master-ffprobe.json'],['assemble_master'],['assemble_master.py'])
     add('checks',['master','audio-review'],{},[p.qa/'rendered-artifact-audit.json',p.qa/'audio-continuity-audit.json',p.qa/'late-diagram-samples.json'],['checks'],['audit_rendered.py','audit_audio_continuity.py','capture_late_diagrams.py'])
     add('delivery',['checks'],{},[p.qa/'engine-delivery.json',p.output/'engine-render-report.md'],['delivery'],[])
     add('package',['delivery'],{},[p.output/p.profile['editable_filename'],p.qa/'engine-packaging.json'],['package'],[])

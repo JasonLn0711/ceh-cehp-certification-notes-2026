@@ -60,7 +60,7 @@
     "source_sha256": "c0e17b8e98e205e056aa91378cd2cf64c94c232b2196387f6fb3ab28ac205f05",
     "engine_file": "assemble_master.py",
     "initial_engine_sha256": "e9b68d0483d490ad2817674bb901d02eceda9e574cfc60e7dfc11dc0e6924515",
-    "maintained_engine_sha256": "3a59bbcece9e9f6a0a09a275a83a5f974b4a56daad7437345cbeab8875420800"
+    "maintained_engine_sha256": "c83ff6b68c0855678e07bf7a9f0b8b313fd3f5c3da895095f9ceccdc7435c561"
   },
   {
     "source": "/home/jnlngx10/Videos/CEH_M10_v1_0/project/scripts/audit_audio_clips.py",
