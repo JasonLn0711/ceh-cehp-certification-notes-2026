@@ -1,0 +1,7 @@
+# M10 licenses and provenance
+
+Original user-provided M04 v3 Tally, shared campus design and layered assets are reused within the approved CEH production series. LOCKED_SOURCE_SHA256.json identifies original immutable assets. Additional approved vector props inherited from the working M09 production are separately included in the payload manifest; no new mascot is generated.
+
+Consult licenses/ and reference/ for preserved upstream source/license text. Licensed local Liberation Sans and DejaVu fonts and GSAP retain their notices. Production models, speech runtime and other dependencies retain their own model cards/licenses and hashes in the full editable project. Reusing a local dependency does not replace its license obligations.
+
+The M10 narration, questions, diagrams and campus records are independently authored educational material. Source references support specified mechanisms and scope; their pages are linked and retrieval-hashed rather than redistributed wholesale. Full raw retrievals remain local QA. All constructed records are SIMULATED OUTPUT; no live attack, control deployment, participant test or personal learner result is claimed.

@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "passed": 44,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "hash:E01_wan_windows.csv",
+      "passed": true
+    },
+    {
+      "name": "hash:E02_connection_state.csv",
+      "passed": true
+    },
+    {
+      "name": "hash:E03_observation_contract.json",
+      "passed": true
+    },
+    {
+      "name": "hash:E03_reflector_fixture.pcap",
+      "passed": true
+    },
+    {
+      "name": "hash:E04_request_work.csv",
+      "passed": true
+    },
+    {
+      "name": "hash:README.md",
+      "passed": true
+    },
+    {
+      "name": "hash:case_status.json",
+      "passed": true
+    },
+    {
+      "name": "E01 conservation:baseline",
+      "passed": true
+    },
+    {
+      "name": "E01 ingress capacity:baseline",
+      "passed": true
+    },
+    {
+      "name": "E01 simulation:baseline",
+      "passed": true
+    },
+    {
+      "name": "E01 conservation:legitimate_enrollment",
+      "passed": true
+    },
+    {
+      "name": "E01 ingress capacity:legitimate_enrollment",
+      "passed": true
+    },
+    {
+      "name": "E01 simulation:legitimate_enrollment",
+      "passed": true
+    },
+    {
+      "name": "E01 conservation:incident",
+      "passed": true
+    },
+    {
+      "name": "E01 ingress capacity:incident",
+      "passed": true
+    },
+    {
+      "name": "E01 simulation:incident",
+      "passed": true
+    },
+    {
+      "name": "E01 conservation:proposed_control_fixture",
+      "passed": true
+    },
+    {
+      "name": "E01 ingress capacity:proposed_control_fixture",
+      "passed": true
+    },
+    {
+      "name": "E01 simulation:proposed_control_fixture",
+      "passed": true
+    },
+    {
+      "name": "E01 offered 2400Mbps",
+      "passed": true
+    },
+    {
+      "name": "E02 backlog full",
+      "passed": true
+    },
+    {
+      "name": "E02 unique completion fraction",
+      "passed": true
+    },
+    {
+      "name": "E02 retransmissions separate",
+      "passed": true
+    },
+    {
+      "name": "PCAP Ethernet link",
+      "passed": true
+    },
+    {
+      "name": "PCAP complete frame",
+      "passed": true
+    },
+    {
+      "name": "PCAP IPv4 type",
+      "passed": true
+    },
+    {
+      "name": "IP total length",
+      "passed": true
+    },
+    {
+      "name": "IP UDP protocol",
+      "passed": true
+    },
+    {
+      "name": "PCAP complete frame",
+      "passed": true
+    },
+    {
+      "name": "PCAP IPv4 type",
+      "passed": true
+    },
+    {
+      "name": "IP total length",
+      "passed": true
+    },
+    {
+      "name": "IP UDP protocol",
+      "passed": true
+    },
+    {
+      "name": "Two constructed packets",
+      "passed": true
+    },
+    {
+      "name": "DNS transaction matches",
+      "passed": true
+    },
+    {
+      "name": "DNS flags request response",
+      "passed": true
+    },
+    {
+      "name": "Reflected IP directions",
+      "passed": true
+    },
+    {
+      "name": "IP amplification 50",
+      "passed": true
+    },
+    {
+      "name": "Ethernet ratio distinct",
+      "passed": true
+    },
+    {
+      "name": "Reserved DNS question",
+      "passed": true
+    },
+    {
+      "name": "E04 baseline2cores",
+      "passed": true
+    },
+    {
+      "name": "E04 offered24cores",
+      "passed": true
+    },
+    {
+      "name": "Legitimate enrollment1.5cores",
+      "passed": true
+    },
+    {
+      "name": "Offered work exceeds8corebudget",
+      "passed": true
+    },
+    {
+      "name": "No live deployment",
+      "passed": true
+    }
+  ],
+  "live_network_execution": false,
+  "actual_validation": "File hashes, CSV arithmetic and independent PCAP/IP/DNS field parsing.",
+  "inference_boundary": "Toy output is not observed Internet traffic, actual mitigation efficacy or learner acceptance."
+}

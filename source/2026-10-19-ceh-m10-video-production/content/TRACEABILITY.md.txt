@@ -1,0 +1,20 @@
+# M10 teaching and acceptance traceability
+
+Canonical speech: [SCRIPT_en-US.md](SCRIPT_en-US.md). Scene/audio interface: [scenes.json](scenes.json). Film items: [questions.json](questions.json), namespace M10-film-v1. Companion assessments: M10-source-v1, prepared content only. [Coverage data](coverage.json) enumerates every scene.
+
+| Learning result | Scenes | Prepared diagnostic | Offline evidence or acceptance |
+| --- | --- | --- | --- |
+| Define availability and scope | S01–S06 | PRE01, PRE10; film Q01 / POST01 | Defined user task, denominator, authority and outcome boundary |
+| Distinguish resource rates and traffic distribution | S07–S10,S13–S14 | PRE02; POST10 | Units, source uncertainty and resource explanation |
+| Locate the WAN constraint | S11–S16,S34–S35,S43 | PRE03; film Q03 / POST03 | [E01](lab_mock/E01_wan_windows.csv), aligned offered/accepted/discarded accounting |
+| Interpret state pressure | S17–S22,S44 | PRE04–PRE05; film Q04 / POST04 | [E02](lab_mock/E02_connection_state.csv), snapshot/interval distinction and 1% fraction |
+| Explain reflected amplification and ownership | S23–S28,S45 | PRE06–PRE07; film Q02,Q05 / POST02,POST05 | [PCAP](lab_mock/E03_reflector_fixture.pcap), [observation contract](lab_mock/E03_observation_contract.json), consistent-layer ratios |
+| Compute work demand and evaluate dependencies | S29–S33,S46 | PRE08–PRE09; film Q06 / POST06; POST09 | [E04](lab_mock/E04_request_work.csv), toy arithmetic and separate pool evidence |
+| Make a reproducible protective decision | S36–S42,S47–S49 | PRE10; film Q07–Q08 / POST07–POST08; POST10 | Claim-to-source mapping, owner, proposal status, user check and rollback |
+| Produce a bounded incident brief | S58 | [Student capstone](ASSESSMENT_STUDENT.md) | [Instructor rubric](ASSESSMENT_INSTRUCTOR.md), learner command/output and saved brief |
+
+## Evidence layers
+
+The [verifier](tooling/verify_evidence.py) establishes only the parsing and arithmetic described in [its actual local report](validation/evidence-verification.json). Case events and expected recovery values remain SIMULATED OUTPUT. The [motion references](examples/index.html) illustrate animation and timing; they contain no generated narration and prove no full-film delivery. A rendered master, human viewing/listening, learner first answers, accepted practical work and public media release each need their own evidence.
+
+Record learner work in the [worksheet](WORKSHEET.md) and [closeout](CLOSEOUT.md). PRE/POST preparation and repeated film items do not add to the existing 600-bank first-answer count.

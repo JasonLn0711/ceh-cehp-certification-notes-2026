@@ -1,0 +1,144 @@
+[
+  {
+    "topic": "Service availability and evidence scope",
+    "scenes": "S01–S06",
+    "scene_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "teaching": "Define useful completion, authority, resource explanations and evidence limits."
+  },
+  {
+    "topic": "Rates, capacity and distribution",
+    "scenes": "S07–S10",
+    "scene_ids": [
+      "S07",
+      "S08",
+      "S09",
+      "S10"
+    ],
+    "teaching": "Separate bits, packets, requests, state, waiting work and actor attribution."
+  },
+  {
+    "topic": "Volumetric and packet-processing pressure",
+    "scenes": "S11–S16",
+    "scene_ids": [
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16"
+    ],
+    "teaching": "Correlate offered/accepted traffic, user impact, packet work and control placement."
+  },
+  {
+    "topic": "TCP connection-state pressure",
+    "scenes": "S17–S22",
+    "scene_ids": [
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22"
+    ],
+    "teaching": "Explain handshakes, backlog, counters, cache/cookie/proxy mechanisms and tradeoffs."
+  },
+  {
+    "topic": "Reflection and amplification",
+    "scenes": "S23–S28",
+    "scene_ids": [
+      "S23",
+      "S24",
+      "S25",
+      "S26",
+      "S27",
+      "S28"
+    ],
+    "teaching": "Pair consistent layers; distinguish sender, reflector, victim and their defense owners."
+  },
+  {
+    "topic": "Application and dependency exhaustion",
+    "scenes": "S29–S32",
+    "scene_ids": [
+      "S29",
+      "S30",
+      "S31",
+      "S32"
+    ],
+    "teaching": "Compute toy work demand; bound waiting and protect shared dependency capacity."
+  },
+  {
+    "topic": "Historical HTTP/2 Rapid Reset",
+    "scenes": "S33",
+    "scene_ids": [
+      "S33"
+    ],
+    "teaching": "Explain residual work after cancellation without replaying traffic or making current-largest claims."
+  },
+  {
+    "topic": "Detection and offline tool roles",
+    "scenes": "S34–S38",
+    "scene_ids": [
+      "S34",
+      "S35",
+      "S36",
+      "S37",
+      "S38"
+    ],
+    "teaching": "Use baseline, aligned views, alternatives, local packet analysis and reproducible calculations."
+  },
+  {
+    "topic": "Layered controls and incident handoff",
+    "scenes": "S39–S42",
+    "scene_ids": [
+      "S39",
+      "S40",
+      "S41",
+      "S42"
+    ],
+    "teaching": "Match controls to resource and owner; evaluate false rejection, rollback and escalation."
+  },
+  {
+    "topic": "Four connected evidence cases",
+    "scenes": "S43–S46",
+    "scene_ids": [
+      "S43",
+      "S44",
+      "S45",
+      "S46"
+    ],
+    "teaching": "Integrate E01–E04 observations, supported findings and missing validation."
+  },
+  {
+    "topic": "Response, recovery and AI review",
+    "scenes": "S47–S49",
+    "scene_ids": [
+      "S47",
+      "S48",
+      "S49"
+    ],
+    "teaching": "Coordinate changes, test useful recovery and trace AI claims to source evidence."
+  },
+  {
+    "topic": "Film assessment and offline capstone",
+    "scenes": "S50–S58",
+    "scene_ids": [
+      "S50",
+      "S51",
+      "S52",
+      "S53",
+      "S54",
+      "S55",
+      "S56",
+      "S57",
+      "S58"
+    ],
+    "teaching": "Eight questions with individual one-second holds and one reproducible incident brief."
+  }
+]

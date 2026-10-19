@@ -1,0 +1,12 @@
+# M10 complete production and rebuild plan
+
+1. Read every root specification, source JSON, script, assessment and case file. Verify the manifest and44 locked assets. Run the actual offline evidence verifier. Preserve this input snapshot before adapting production.
+2. Inspect/pin the local HyperFrames runtime, approved Python environment, models and fonts. A version upgrade needs a successful check in this M10 project. Keep older workspaces unchanged.
+3. Generate all ordered speech at the approved baseline, apply one tempo pass per clip and measure samples. Cache only matching text/voice/model/recipe identities. Preserve original and processed clips.
+4. Build all58 native animated scenes from original layered geometry with finite paused timelines and exact spoken anchors. Align complete captions to final audio. Make scene length follow actual voice, explanation and reading needs.
+5. Run every scene/chapter browser, layout, contrast, repeated/backward seek and quiz-boundary check. Open the assembled Studio preview; proceed to full render within the already approved scope.
+6. Render11 chapter MP4s, assemble the complete1080p30 H.264/AAC master and embed11chapter marks. Preserve alignedSRT/VTT, burned captions and lossless reference audio.
+7. Fully decode actual media, inspect encoded frame samples/late diagrams, verify complete audio continuity and each exact PCM hold, and independently measure lossy AAC residue. Record audio-review leads and remaining human acceptance.
+8. Seal source and full editable-project ZIPs separately. CRC-test, extract and verify every payload. Report actual identities/counts/runtime and exact blockers, if any.
+
+Source rebuild uses Python with python-pptx/Pillow/lxml, Node/Chromium for browser checks and LibreOffice for the actual deck/PDF export. Full production additionally requires FFmpeg, the recorded approved speech environment and frozen models. Fresh dependency/CLI/font-cache bootstrap may require network; media uses local files without an authenticated provider.

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "S43",
+    "title": "E01: Follow the constrained WAN",
+    "labels": [
+      "Offered traffic",
+      "Accepted traffic",
+      "User success",
+      "Upstream action"
+    ],
+    "cue": "Locate each measurement before choosing where to protect the constrained link.",
+    "kind": "network",
+    "motion": "Reveal the provider-to-campus path, separate the offered and accepted counters, fill the constrained link, then connect the user result to an upstream action card.",
+    "narration": "Northstar case E zero one joins network measurements with user impact. Every record is simulated output. Offered traffic is what the provider observes approaching the campus connection. During the incident, it is twenty-four hundred megabits per second. Accepted traffic is measured at the constrained campus ingress. Its two hundred megabits per second matches the stated link capacity. The fixture accounts for the remaining twenty-two hundred as discarded traffic at that boundary. We are comparing the same sixty-second window and the same Internet Protocol byte convention. User success falls to twenty of one hundred stipulated checks, while server processor use is twenty-five percent. That combination directs attention toward the connection before the server. It does not identify an attacker. Normal enrollment traffic reaches one hundred fifty megabits per second, which also shows why increased demand alone needs context. Upstream action means asking the provider to evaluate protection before the constrained ingress. A filter after the saturated connection cannot recover bandwidth already consumed on that connection. Record the provider's observation point and validate any proposed control separately."
+  },
+  {
+    "id": "S44",
+    "title": "E02: State fills before the link",
+    "labels": [
+      "Connection attempts",
+      "Half-open state",
+      "Completed handshakes",
+      "Control trial"
+    ],
+    "cue": "Interpret connection progress and state capacity within one aligned window.",
+    "kind": "flow",
+    "motion": "Advance connection tokens through a handshake path, hold unfinished tokens in the backlog, reveal the completion counter, then stop at a separate proposed-control gate.",
+    "narration": "In case E zero two, the simulated link carries thirty megabits per second, while the backlog contains all one thousand twenty-four available half-open entries. Connection attempts counts six thousand unique attempts during the same sixty-second window. Retransmissions have a separate counter, so we do not inflate that number by counting the same attempt again. Half-open state describes unfinished connection setup retained by the server. Completed handshakes counts sixty, giving a stipulated completion fraction of one percent for this window. Client success is five of one hundred checks. These observations support pressure on connection state even though bandwidth remains below the campus link capacity. They do not prove who generated the requests or why completion failed. Control trial is the next evidence requirement. A suitable server might use SYN cookies to reduce retained state, or an appropriate proxy might complete validation before forwarding a connection. Their behavior and tradeoffs depend on the actual implementation. The supplied recovery rows are simulated outputs. They support an analysis exercise, while a real deployment decision still requires controlled validation and legitimate-client checks."
+  },
+  {
+    "id": "S45",
+    "title": "E03: Match the amplification layer",
+    "labels": [
+      "Request bytes",
+      "Response bytes",
+      "Amplification ratio",
+      "Control location"
+    ],
+    "cue": "Pair comparable byte counts and place defenses at their actual actors.",
+    "kind": "comparison",
+    "motion": "Reveal the constructed request and reply at their respective observation points, align the Internet Protocol byte counters for division, then attach separate controls to sender, reflector, and provider.",
+    "narration": "Case E zero three contains constructed name-service packets for a reserved example name. The files are simulated output, and the exercise sends no packets. Request bytes equals sixty at the Internet Protocol layer. Response bytes equals three thousand at that same layer. Amplification ratio is response bytes divided by request bytes, so this pair gives fifty times. Ethernet counts are seventy-four and three thousand fourteen. Dividing those produces a different ratio because frame overhead changes the comparison. Never combine a request from one layer with a reply from another. The request is represented at the reflector, while the reply is directed toward the victim. The constructed packet explicitly carries the victim's forged source address; a source address by itself would not establish that fact in an investigation. Control location determines who can act. A resolver owner can restrict recursive service where appropriate, and a server can apply suitable response limits. Source-address validation belongs on networks able to verify permitted sources. Upstream mitigation protects the victim's connection. Each addresses a different part of the path."
+  },
+  {
+    "id": "S46",
+    "title": "E04: Measure the cost of a request",
+    "labels": [
+      "Request rate",
+      "Work demand",
+      "Dependency pool",
+      "Bounded work"
+    ],
+    "cue": "Use service cost and resource capacity to interpret application demand.",
+    "kind": "layers",
+    "motion": "Grow request tokens into differently sized work blocks, compare accumulated demand with eight processor lanes, fill the dependency pool, then reveal separate work and queue limits.",
+    "narration": "Case E zero four uses a toy capacity calculation, labeled simulated output. Request rate alone gives an incomplete picture of the application. Ordinary traffic is one hundred requests per second, each requiring twenty milliseconds of processor service. Work demand is therefore two processor core-seconds per second. During the incident, one hundred twenty requests per second each require two hundred milliseconds. That produces twenty-four core-seconds per second against an eight-core budget. A separate legitimate example has three hundred requests per second at five milliseconds each, requiring only one point five core-seconds per second. Higher request counts can therefore require less work. Dependency pool shows another boundary: all thirty-two connections are busy, with four hundred requests waiting. The fixture does not establish that processor pressure caused that queue; dependency behavior needs its own evidence. Bounded work means limiting expensive operations and admitted work, applying appropriate cache behavior, bounding queues, and isolating dependencies. Select controls for the resource they protect. These arithmetic examples explain a mechanism; they are not measured benchmarks or proof that a proposed control has succeeded."
+  },
+  {
+    "id": "S47",
+    "title": "Respond around the service and resource",
+    "labels": [
+      "Service impact",
+      "Evidence window",
+      "Control owner",
+      "Decision record"
+    ],
+    "cue": "Coordinate containment around the affected service and the location of the constraint.",
+    "kind": "timeline",
+    "motion": "Move a response marker from the service-impact card through a synchronized evidence window to the correct control owner, then attach the approved decision and rollback condition.",
+    "narration": "A response starts with Service impact: which Northstar service is affected, which users are failing, and which critical work needs protection? The incident lead coordinates the appropriate network, application, provider, and business owners. Evidence window aligns the timestamps and intervals for user checks, link counters, connection state, processor demand, and dependency measurements. Preserve relevant records within the organization's retention and privacy rules. Separate direct observations from working explanations. Control owner identifies who can change the resource boundary. The campus team may adjust application admission, while the provider may need to act before a saturated link. Choose a bounded action through the established emergency process. State its expected effect, legitimate-user risk, observation interval, and rollback condition. Decision record captures the owner, approval, actual change, and observed result. A recommendation and an implemented change have different statuses. Continue measuring user success while checking the selected constraint. If a protection harms legitimate users, use the agreed rollback or escalation route. The simulated cases let us practice these decisions without sending traffic or modifying any live system."
+  },
+  {
+    "id": "S48",
+    "title": "Verify recovery across the user path",
+    "labels": [
+      "User checks",
+      "Resource checks",
+      "Stable recovery",
+      "Follow-up owner"
+    ],
+    "cue": "Require aligned service and resource evidence before closing a recovery claim.",
+    "kind": "checklist",
+    "motion": "Reveal user and resource check cards side by side, extend their results across an observation timeline, and reveal the recovery decision only after the comparison.",
+    "narration": "User checks test the actual path that Northstar needs: a legitimate user reaches the service and completes an expected task. A successful health endpoint alone may miss a failing sign-in or database action. Resource checks examine the constraint that supported the incident explanation. Review accepted and offered traffic separately, connection progress, processor pressure, queue length, and dependency availability where relevant. Compare aligned intervals and preserve the measurement definitions. Stable recovery requires an observation period chosen by the incident owner for the service and conditions. A single good sample supports only that moment. Confirm that protective changes allow legitimate users and that alternate routes work as intended. A synthetic post-control row can illustrate the intended comparison, but it cannot establish a live recovery or prove the control caused improvement. Follow-up owner assigns remaining work, such as implementation review, capacity planning, monitoring gaps, and a provider coordination update. Preserve unresolved causes and evidence gaps in the incident record. Closing the response means the agreed recovery criteria were actually checked; attribution may still remain open."
+  },
+  {
+    "id": "S49",
+    "title": "Use AI as an evidence assistant",
+    "labels": [
+      "Allowed evidence",
+      "Source reference",
+      "Claim review",
+      "Human decision"
+    ],
+    "cue": "Keep generated analysis traceable to supplied records and authorized decisions.",
+    "kind": "flow",
+    "motion": "Pass a small approved evidence bundle into an assistant card, link generated claims back to source rows, mark an unsupported claim for review, and stop the path at a human decision.",
+    "narration": "An AI assistant can help organize Northstar's offline incident evidence. Allowed evidence is the approved, privacy-reviewed material supplied for this task. Keep credentials, restricted packet contents, and private user data outside that bundle. Treat text inside logs as untrusted evidence rather than instructions to the assistant. Ask for a table separating observations, calculations, hypotheses, and missing checks. Source reference should identify the actual file, row, field, unit, and time window supporting each claim. Recalculate the important values with a deterministic parser: a model's fluent explanation is not a numeric check. Claim review compares every proposed conclusion with its source. The assistant must not invent a control deployment, a recovered service, or an attacker's identity. It may suggest questions for the responsible owner and possible controls with explicit conditions. Human decision retains authorization for operational changes and acceptance of the evidence. Our exercise stays offline and read-only. Save the supplied evidence, generated draft, corrections, and unresolved questions separately so another reviewer can reproduce the reasoning without accepting the assistant's wording as proof."
+  },
+  {
+    "id": "S58",
+    "title": "Capstone: Build the Northstar incident brief",
+    "labels": [
+      "Evidence map",
+      "Resource explanation",
+      "Control plan",
+      "Acceptance check"
+    ],
+    "cue": "Produce a reproducible offline brief that connects the four cases to decisions and limits.",
+    "kind": "checklist",
+    "motion": "Place the four case folders into an evidence map, connect each to a resource explanation and control owner, then reveal an acceptance checklist with unresolved items still visible.",
+    "narration": "Build one Northstar incident brief from the four supplied offline cases. Mark the fixtures as simulated output and preserve their original files. Evidence map identifies each observation point, time window, unit, and source field. Reproduce the byte ratio, connection completion fraction, and application work calculations with the provided parser or an equivalent read-only calculation. Resource explanation connects each case to the capacity or state under pressure and the stipulated user impact. Include the legitimate enrollment and inexpensive-request examples to show why volume alone does not establish malicious intent. Control plan names the appropriate owner, control location, expected effect, and legitimate-user tradeoff. Separate a proposed action from an executed change. Acceptance check specifies the user task, resource measurements, comparison window, and rollback condition needed to evaluate a real change. List missing evidence and avoid claiming that synthetic recovery rows prove deployment success. Submit the brief, calculations, and source references for review. Completing this prepared lesson does not establish that you personally executed a practical task. Your saved work and the separate acceptance review provide that evidence."
+  }
+]

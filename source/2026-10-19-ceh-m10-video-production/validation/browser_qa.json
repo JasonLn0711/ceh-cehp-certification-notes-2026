@@ -1,0 +1,712 @@
+{
+  "scope": "58 static source boards and four actual animation examples only; no full-film runtime claim",
+  "checks": [
+    {
+      "label": "S01 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S02 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S03 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S04 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S05 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S06 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S07 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S08 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S09 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S10 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S11 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S12 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S13 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S14 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S15 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S16 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S17 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S18 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S19 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S20 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S21 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S22 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S23 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S24 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S25 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S26 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S27 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S28 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S29 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S30 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S31 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S32 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S33 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S34 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S35 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S36 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S37 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S38 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S39 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S40 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S41 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S42 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S43 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S44 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S45 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S46 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S47 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S48 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S49 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S50 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S51 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S52 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S53 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S54 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S55 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S56 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S57 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "S58 SVG text inside safe region",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "resource-budget composition contract",
+      "pass": true,
+      "details": {
+        "id": "resource-budget",
+        "width": "1920",
+        "height": "1080",
+        "duration": "12",
+        "paused": true
+      }
+    },
+    {
+      "label": "resource-budget reverse/direct seek 3",
+      "pass": true,
+      "details": {
+        "expected": "4f879a3217067cb326abdb2a309cf8ea55ef89df54204eb66efa8e0c77f49761",
+        "actual": "4f879a3217067cb326abdb2a309cf8ea55ef89df54204eb66efa8e0c77f49761",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "resource-budget reverse/direct seek 0",
+      "pass": true,
+      "details": {
+        "expected": "b95f348773cbb201a2f388dc8d7e2dc088f8c67558c939f4cf797987dbb8272c",
+        "actual": "b95f348773cbb201a2f388dc8d7e2dc088f8c67558c939f4cf797987dbb8272c",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "resource-budget reverse/direct seek 10",
+      "pass": true,
+      "details": {
+        "expected": "8fcfd2459c5a1281778096f0499e7dd39f4d8f0204e2738d5454bd6b03562591",
+        "actual": "8fcfd2459c5a1281778096f0499e7dd39f4d8f0204e2738d5454bd6b03562591",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "resource-budget actual visible motion",
+      "pass": true,
+      "details": {
+        "unique_frames": 5
+      }
+    },
+    {
+      "label": "resource-budget no browser errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "resource-budget no missing resources",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "tcp-state composition contract",
+      "pass": true,
+      "details": {
+        "id": "tcp-state",
+        "width": "1920",
+        "height": "1080",
+        "duration": "12",
+        "paused": true
+      }
+    },
+    {
+      "label": "tcp-state reverse/direct seek 3",
+      "pass": true,
+      "details": {
+        "expected": "a88ad0df7d0413a2953a23878922b38f015c9388be60837a811726135ebec4ff",
+        "actual": "a88ad0df7d0413a2953a23878922b38f015c9388be60837a811726135ebec4ff",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "tcp-state reverse/direct seek 0",
+      "pass": true,
+      "details": {
+        "expected": "dc1e4c831942d618f86c0b0946a09ba2ce53a084c81d38de0a4c76d04a0bf089",
+        "actual": "dc1e4c831942d618f86c0b0946a09ba2ce53a084c81d38de0a4c76d04a0bf089",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "tcp-state reverse/direct seek 10",
+      "pass": true,
+      "details": {
+        "expected": "ac0535418d6a184b4dc772cc816a17203a6dd556d11b32adabd6d5566622ecf6",
+        "actual": "ac0535418d6a184b4dc772cc816a17203a6dd556d11b32adabd6d5566622ecf6",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "tcp-state actual visible motion",
+      "pass": true,
+      "details": {
+        "unique_frames": 5
+      }
+    },
+    {
+      "label": "tcp-state no browser errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "tcp-state no missing resources",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "reflection-path composition contract",
+      "pass": true,
+      "details": {
+        "id": "reflection-path",
+        "width": "1920",
+        "height": "1080",
+        "duration": "12",
+        "paused": true
+      }
+    },
+    {
+      "label": "reflection-path reverse/direct seek 3",
+      "pass": true,
+      "details": {
+        "expected": "153c5432a11d1d4204da2f1b0b2b4c59ec0698cc3c90ee108d7bb33d42aa21cf",
+        "actual": "153c5432a11d1d4204da2f1b0b2b4c59ec0698cc3c90ee108d7bb33d42aa21cf",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "reflection-path reverse/direct seek 0",
+      "pass": true,
+      "details": {
+        "expected": "811e09d53da69ba60d5a2b38831a025e5bda5776e56e443a7c8b606be2e5d61c",
+        "actual": "811e09d53da69ba60d5a2b38831a025e5bda5776e56e443a7c8b606be2e5d61c",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "reflection-path reverse/direct seek 10",
+      "pass": true,
+      "details": {
+        "expected": "8ff4856c37a76ce3528797d82b9af4d91dd3237a234f6789a4e24cbf78f0a802",
+        "actual": "8ff4856c37a76ce3528797d82b9af4d91dd3237a234f6789a4e24cbf78f0a802",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "reflection-path actual visible motion",
+      "pass": true,
+      "details": {
+        "unique_frames": 4
+      }
+    },
+    {
+      "label": "reflection-path no browser errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "reflection-path no missing resources",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "quiz-one-second composition contract",
+      "pass": true,
+      "details": {
+        "id": "quiz-one-second",
+        "width": "1920",
+        "height": "1080",
+        "duration": "12",
+        "paused": true
+      }
+    },
+    {
+      "label": "quiz-one-second reverse/direct seek 3",
+      "pass": true,
+      "details": {
+        "expected": "d2cdccd5deabf42338f5bf354335fa7d6bade7b7ceba20df9144ea24fc13b9a4",
+        "actual": "d2cdccd5deabf42338f5bf354335fa7d6bade7b7ceba20df9144ea24fc13b9a4",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "quiz-one-second reverse/direct seek 0",
+      "pass": true,
+      "details": {
+        "expected": "7f3c80230bc0a76096f06e3ebdc6aa4955a832e611f8eac88fc421fa463bbeb5",
+        "actual": "7f3c80230bc0a76096f06e3ebdc6aa4955a832e611f8eac88fc421fa463bbeb5",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "quiz-one-second reverse/direct seek 10",
+      "pass": true,
+      "details": {
+        "expected": "a8ca557cf924ca1f17f78a8e7d3115abcb108c5f53b976ab2ee40c14e3876d3f",
+        "actual": "a8ca557cf924ca1f17f78a8e7d3115abcb108c5f53b976ab2ee40c14e3876d3f",
+        "identical_computed_state": true,
+        "raster": {
+          "different_pixels": 0,
+          "max_channel_delta": 0
+        },
+        "tolerance": "At most 2 of 2,073,600 pixels and channel delta <=32, with identical computed state; accommodates isolated Chromium edge rasterization."
+      }
+    },
+    {
+      "label": "quiz-one-second actual visible motion",
+      "pass": true,
+      "details": {
+        "unique_frames": 4
+      }
+    },
+    {
+      "label": "Q01 hold/answer boundary 5.999",
+      "pass": true,
+      "details": {
+        "answer": 0,
+        "hold": 0
+      }
+    },
+    {
+      "label": "Q01 hold/answer boundary 6",
+      "pass": true,
+      "details": {
+        "answer": 0,
+        "hold": 1
+      }
+    },
+    {
+      "label": "Q01 hold/answer boundary 6.5",
+      "pass": true,
+      "details": {
+        "answer": 0,
+        "hold": 1
+      }
+    },
+    {
+      "label": "Q01 hold/answer boundary 6.999",
+      "pass": true,
+      "details": {
+        "answer": 0,
+        "hold": 1
+      }
+    },
+    {
+      "label": "Q01 hold/answer boundary 7",
+      "pass": true,
+      "details": {
+        "answer": 1,
+        "hold": 0
+      }
+    },
+    {
+      "label": "Q01 hold/answer boundary 7.001",
+      "pass": true,
+      "details": {
+        "answer": 1,
+        "hold": 0
+      }
+    },
+    {
+      "label": "Q01 hold/answer boundary 6.5",
+      "pass": true,
+      "details": {
+        "answer": 0,
+        "hold": 1
+      }
+    },
+    {
+      "label": "Q01 hold/answer boundary 5.999",
+      "pass": true,
+      "details": {
+        "answer": 0,
+        "hold": 0
+      }
+    },
+    {
+      "label": "quiz-one-second no browser errors",
+      "pass": true,
+      "details": []
+    },
+    {
+      "label": "quiz-one-second no missing resources",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "passed": 94,
+  "failed": 0,
+  "examples": [
+    {
+      "id": "resource-budget",
+      "contract": {
+        "id": "resource-budget",
+        "width": "1920",
+        "height": "1080",
+        "duration": "12",
+        "paused": true
+      },
+      "frame_hashes": {
+        "0": "b95f348773cbb201a2f388dc8d7e2dc088f8c67558c939f4cf797987dbb8272c",
+        "3": "4f879a3217067cb326abdb2a309cf8ea55ef89df54204eb66efa8e0c77f49761",
+        "7": "9a793e0847a750084925ad2b8998f46962dce342e0e2bae5241c44a027b40fed",
+        "10": "8fcfd2459c5a1281778096f0499e7dd39f4d8f0204e2738d5454bd6b03562591",
+        "6.5": "bf587801fda40430400bb4eb4cdb81e948d2d7437167f04ddedf6bde1ba6d633"
+      }
+    },
+    {
+      "id": "tcp-state",
+      "contract": {
+        "id": "tcp-state",
+        "width": "1920",
+        "height": "1080",
+        "duration": "12",
+        "paused": true
+      },
+      "frame_hashes": {
+        "0": "dc1e4c831942d618f86c0b0946a09ba2ce53a084c81d38de0a4c76d04a0bf089",
+        "3": "a88ad0df7d0413a2953a23878922b38f015c9388be60837a811726135ebec4ff",
+        "7": "70f2b760709609640e9663edb68466f5a165c9d79323a4a29901649bbf181391",
+        "10": "ac0535418d6a184b4dc772cc816a17203a6dd556d11b32adabd6d5566622ecf6",
+        "6.5": "473153ed4bb6d2274668e0ad45a55a3884e37599dd908c2076dcd8033bfeefeb"
+      }
+    },
+    {
+      "id": "reflection-path",
+      "contract": {
+        "id": "reflection-path",
+        "width": "1920",
+        "height": "1080",
+        "duration": "12",
+        "paused": true
+      },
+      "frame_hashes": {
+        "0": "811e09d53da69ba60d5a2b38831a025e5bda5776e56e443a7c8b606be2e5d61c",
+        "3": "153c5432a11d1d4204da2f1b0b2b4c59ec0698cc3c90ee108d7bb33d42aa21cf",
+        "7": "0734811b8feba89a5fc9b51d22db1f21bcbdf1e8cf4d8ca7d67e59a99719e55f",
+        "10": "8ff4856c37a76ce3528797d82b9af4d91dd3237a234f6789a4e24cbf78f0a802",
+        "6.5": "0734811b8feba89a5fc9b51d22db1f21bcbdf1e8cf4d8ca7d67e59a99719e55f"
+      }
+    },
+    {
+      "id": "quiz-one-second",
+      "contract": {
+        "id": "quiz-one-second",
+        "width": "1920",
+        "height": "1080",
+        "duration": "12",
+        "paused": true
+      },
+      "frame_hashes": {
+        "0": "7f3c80230bc0a76096f06e3ebdc6aa4955a832e611f8eac88fc421fa463bbeb5",
+        "3": "d2cdccd5deabf42338f5bf354335fa7d6bade7b7ceba20df9144ea24fc13b9a4",
+        "7": "a8ca557cf924ca1f17f78a8e7d3115abcb108c5f53b976ab2ee40c14e3876d3f",
+        "10": "a8ca557cf924ca1f17f78a8e7d3115abcb108c5f53b976ab2ee40c14e3876d3f",
+        "6.5": "398b23cc6abca23ed1d491b35541f9c33c241960314148509d6e007bd4312f10"
+      }
+    }
+  ],
+  "elapsed_seconds": 9.08
+}

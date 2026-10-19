@@ -1,0 +1,65 @@
+# M10 independent posttest key
+
+Namespace: M10-source-v1/POST01–POST10. POST01–POST08 reuse M10-film-v1; POST09–POST10 transfer the concepts. Preserve exposure, original answers and retests separately.
+
+## POST01 — D
+
+Mapping: M10-source-v1/POST01 reuses M10-film-v1/Q01 at S50.
+
+The client-task result directly describes whether the selected users could complete the service action in the fixture. Source-address counts describe traffic distribution, and a processor reading describes one resource. Neither alone establishes user impact. A larger reply describes an amplification property, which may be relevant to an incident but does not measure a user's task. Keep the observation window, task definition, and selected population with the success result. Five successes out of one hundred stipulated checks supports that sample; it does not establish the experience of every user. These records are simulated output. Availability impact also does not determine malicious intent, identify a person, or prove that a particular resource caused the failure. Those are separate conclusions requiring their own evidence.
+
+## POST02 — B
+
+Mapping: M10-source-v1/POST02 reuses M10-film-v1/Q02 at S51.
+
+The forged source directs the reflector's reply toward the victim. A larger reply, measured with a consistent byte convention, supplies the amplification property in this constructed example. Direct requests from many controlled clients describe distributed traffic without that reflected path. A slow established connection concerns connection or application behavior. An expensive request concerns work per request. Those mechanisms can affect availability, but neither supplies the request-and-reflected-reply sequence asked here. In the Northstar packet fixture, the forged source is explicitly constructed and no traffic is sent. In a real investigation, a visible source address alone would not prove who sent the original request. Confirm the observation point, protocol behavior, and relevant records before drawing that conclusion.
+
+## POST03 — A
+
+Mapping: M10-source-v1/POST03 reuses M10-film-v1/Q03 at S52.
+
+Protection before the constrained ingress can affect which traffic consumes that connection. The provider owns an upstream observation and control location, so coordination is appropriate. A larger application queue addresses a different resource and may increase waiting. A web filter after the link can protect application work but cannot recover bandwidth already consumed on that link. Spare processor capacity does not establish that users can reach the service. The proposed provider action still needs authorization, a suitable traffic-selection method, and checks for legitimate-user impact. The fixture distinguishes offered traffic at the provider from accepted traffic at campus in the same interval. It supports the location of the bottleneck in this simulated case, without proving an attacker's identity or the effectiveness of an untested control.
+
+## POST04 — C
+
+Mapping: M10-source-v1/POST04 reuses M10-film-v1/Q04 at S53.
+
+Sixty divided by six thousand is zero point zero one, or one percent. The stipulated unique counters and common window make that calculation meaningful here. Sixty is a count, so it cannot become sixty percent without a denominator. Backlog capacity measures available state, not the number of attempts. A low completion fraction does not prove that the remaining source addresses were forged or that all failures were malicious. Connection progress, state occupancy, and user success help identify a resource problem; attribution requires other evidence. In live telemetry, check counter definitions and interval boundaries before applying the same division. Attempts that cross an interval boundary or repeated records can otherwise change its meaning. Our result describes the constructed window rather than an observed live server.
+
+## POST05 — D
+
+Mapping: M10-source-v1/POST05 reuses M10-film-v1/Q05 at S54.
+
+The requested layer determines the pair: three thousand Internet Protocol reply bytes divided by sixty Internet Protocol request bytes equals fifty. The first two alternatives mix an Ethernet count with an Internet Protocol count, so they do not answer a consistent-layer question. The third uses Ethernet for both sides and can describe that separate byte convention, but it is not the requested layer and does not equal fifty. State the numerator, denominator, layer, and pairing rule when reporting amplification. The fixture constructs the reflector-side request and response. A victim-ingress record would be a separate observation point. Their sizes demonstrate the fixture's byte relationship, not a measured traffic rate, real attack volume, or control effectiveness. The exercise reads local evidence without sending either packet.
+
+## POST06 — A
+
+Mapping: M10-source-v1/POST06 reuses M10-film-v1/Q06 at S55.
+
+Multiply one hundred twenty requests per second by zero point two core-seconds per request. Demand is twenty-four core-seconds per second, exceeding the eight-core budget in this model. Per-request time alone omits the arrival rate. Comparing request counts alone omits the service cost: the separate legitimate example has three hundred requests per second but requires only one point five core-seconds per second. The arithmetic establishes neither intent nor sender identity. Work limits and admission controls are candidates because they address demand placed on finite resources. Cache behavior, dependencies, and queue limits may need separate review. Actual effectiveness and legitimate-user impact require implementation-specific evidence. These values are simulated assumptions for a capacity exercise, not a measured benchmark of a deployed application.
+
+## POST07 — C
+
+Mapping: M10-source-v1/POST07 reuses M10-film-v1/Q07 at S56.
+
+The worksheet can demonstrate a comparison and test whether the parser handles the supplied evidence correctly. It cannot establish the behavior of a control that was never deployed or tested. Improved synthetic values therefore prove neither effectiveness nor universal legitimate-user success. A parser run validates its own calculation and output, while an approved production deployment is a separate operational event. Preserve the incident assumptions, expected recovery values, and actual execution status in the report. Specify who would authorize the trial, which user tasks and resource measurements would be checked, the observation interval, and the rollback condition. If a real trial later occurs, evaluate its actual evidence separately. Even an observed improvement may need further analysis before assigning its cause to the control.
+
+## POST08 — B
+
+Mapping: M10-source-v1/POST08 reuses M10-film-v1/Q08 at S57.
+
+The reviewer should preserve what the records actually support and correct unsupported conclusions. A source address describes a packet field or observation; it does not uniquely establish a person's identity or intent. Confidence and a plausible timeline cannot replace traceable evidence. Expected recovery rows remain expectations or simulated data, so relabeling them as measurements would falsify the execution state. Link each retained claim to its file, field, observation point, and window. Keep calculations reproducible and identify missing checks. A proposed control needs the responsible owner's authorization and actual validation before its implementation or success is reported. The assistant can help organize questions and drafts, while the human reviewer retains the evidence and decision responsibilities. This exercise authorizes offline analysis only.
+
+## POST09 — D
+
+Mapping: M10-source-v1/POST09 is a new transfer item.
+
+The defined enrollment task still fails for most sampled checks, and the dependency remains full. Lower request rate alone does not satisfy the user objective or show that the rule caused improvement. Processor use can be low while another resource prevents completion. Keep the recovery claim open, review the dependency's operations and timing, and apply the incident owner's agreed criteria. These are separate simulated transfer values, not additional E04 observations. A further authorized check needs aligned user and resource evidence, a named owner and an appropriate rollback or escalation condition.
+
+## POST10 — A
+
+Mapping: M10-source-v1/POST10 is a new transfer item.
+
+Protection must be evaluated against both the constrained resource and the intended users. Record legitimate-task rejection, service outcomes and resource changes in comparable windows, then use the agreed revision or rollback condition. Dropped traffic alone can make a damaging control appear successful. Shared addresses do not establish a single person or common intent, and removing unfavorable outcomes would corrupt the record. This transfer scenario illustrates a validation decision. It does not establish that Northstar deployed such a rule or that a particular replacement control will work without its own evidence.
+
+[Return to questions](POSTTEST.md) · [Actual closeout](CLOSEOUT.md).

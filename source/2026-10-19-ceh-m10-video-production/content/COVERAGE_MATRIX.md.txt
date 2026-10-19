@@ -1,0 +1,20 @@
+# M10 official-topic coverage
+
+The module backbone is Denial-of-Service in the EC-Council public course scope. These teaching labels are independently authored. [Complete narration](SCRIPT_en-US.md) and [machine-readable coverage](coverage.json) carry the scene mapping. The package's dated primary-source record supplies official references; prepared coverage is not official exam weighting or learner mastery.
+
+| Topic | Scenes | Teaching |
+| --- | --- | --- |
+| Service availability and evidence scope | S01–S06 | Define useful completion, authority, resource explanations and evidence limits. |
+| Rates, capacity and distribution | S07–S10 | Separate bits, packets, requests, state, waiting work and actor attribution. |
+| Volumetric and packet-processing pressure | S11–S16 | Correlate offered/accepted traffic, user impact, packet work and control placement. |
+| TCP connection-state pressure | S17–S22 | Explain handshakes, backlog, counters, cache/cookie/proxy mechanisms and tradeoffs. |
+| Reflection and amplification | S23–S28 | Pair consistent layers; distinguish sender, reflector, victim and their defense owners. |
+| Application and dependency exhaustion | S29–S32 | Compute toy work demand; bound waiting and protect shared dependency capacity. |
+| Historical HTTP/2 Rapid Reset | S33 | Explain residual work after cancellation without replaying traffic or making current-largest claims. |
+| Detection and offline tool roles | S34–S38 | Use baseline, aligned views, alternatives, local packet analysis and reproducible calculations. |
+| Layered controls and incident handoff | S39–S42 | Match controls to resource and owner; evaluate false rejection, rollback and escalation. |
+| Four connected evidence cases | S43–S46 | Integrate E01–E04 observations, supported findings and missing validation. |
+| Response, recovery and AI review | S47–S49 | Coordinate changes, test useful recovery and trace AI claims to source evidence. |
+| Film assessment and offline capstone | S50–S58 | Eight questions with individual one-second holds and one reproducible incident brief. |
+
+[Source assessments](PRETEST.md) use M10-source-v1. [Film items](ASSESSMENT_STUDENT.md) use M10-film-v1. [Practical criteria](ASSESSMENT_INSTRUCTOR.md) require the learner's actual saved evidence. Existing 600-bank records remain unchanged.

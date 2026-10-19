@@ -1,0 +1,29 @@
+# M10 blank learner closeout
+
+This is a blank record for an activated learning block. Current learner result: **not_recorded**. Source preparation and builder validation do not fill any field below.
+
+Date/timezone: ____ · Learner: ____ · Topic/blocker: ____ · Actual used minutes: ____ · Remaining confirmed capacity: ____ · Agreed endpoint: ____.
+
+## Conceptual assessment
+
+Namespace and item IDs: ____ · Original actually answered / selected: ____ / ____ · Original correct / answered: ____ / ____ · Unanswered: ____ · Prior exposure/assistance: ____.
+
+Confidence captured before key: ____ · Low-confidence correct items checked: ____ · Misconceptions and corrections: ____ · Varied retests completed / required: ____ / ____ · Retest correct / answered: ____ / ____ · Remaining corrections: ____.
+
+Select the evidence-based posttest result after review: **pass / review / activation_needed**. Use pass for demonstrated understanding of the declared concepts with required corrections resolved; review for identified errors or incomplete correction; activation_needed where actual learner assessment or necessary execution has not occurred. State the evidence and any unresolved critical error: ____.
+
+## Offline practical acceptance
+
+Practical state, recorded independently: **planned / attempted / blocked / accepted**. Actual state: ____.
+
+Input identities/hashes: ____ · Interpreter/tool and command: ____ · Actual output or blocker: ____ · Saved incident brief and calculations: ____ · Rubric checks: ____ · Reviewer: ____ · Acceptance evidence: ____.
+
+A generated fixture, prepared scaffold, reading or package-builder parser run does not establish the learner's accepted task. Operational-control deployment and service recovery are separate from this offline exercise. Official readiness retains the current learning route's requirements.
+
+## Next action and publication
+
+Exact next question, varied retest or practical check: ____ · Owner: ____ · Required input/authority: ____ · Next activation condition: ____.
+
+If the daily learning Blog route is active, record the learner's actual explanation, confirmed bilingual article and verified public URL through the existing route. Article review and publication remain partial until their own gates pass. No public media release or completed Blog is supplied by this template.
+
+See [traceability](TRACEABILITY.md), the [worksheet](WORKSHEET.md) and [capstone rubric](ASSESSMENT_INSTRUCTOR.md). Keep source QA, film delivery, human viewing/listening, learner evidence and publication records distinct.

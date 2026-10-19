@@ -1,0 +1,9 @@
+# M10 approved voice and audio
+
+Canonical source contains 10,241 words by the source Unicode token counter; the source is newly authored. Use local Kokoro af_heart/en-US at baseline 0.73, then exactly one atempo=1.5 per spoken clip. Keep native baseline clips, processed clips and text/model/voice/speed recipe hashes. Approved speed is fixed; measured WPM is descriptive and does not drive retuning. Picture, animation and reading buffers retain rate1.0. Background music is off.
+
+Technical spelling/expansion can make synthesis readable while preserving canonical meaning. Record canonical and synthesis-only text per clip, including TCP/UDP/DNS/IP/HTTP/CPU letters, SYN pronounced sin, ACK pronounced ack, DoS/DDoS expansions and Mbps/Gbps units. Pronunciation adjustments never silently alter canonical captions or questions.
+
+audio_segments owns ordered speech and holds. Each full question and all four choices precede 48,000 stereo zero-valued PCM frames at48kHz, exactly1.000 second; answer/explanation follow. Eight holds total8.000seconds. Keep extra reading holds and captions outside these windows. Align captions against final processed speech and preserve complete canonical spelling and coverage.
+
+The delivered H.264/AAC MP4 is lossy. Preserve a lossless reference mix, verify every zero buffer sample and measure decoded AAC boundary residue separately. Signal continuity and known-text/ASR flags are diagnostics; human pronunciation, naturalness and full listening remain separate acceptance. Fixed ASR availability validation does not report accuracy or latency.

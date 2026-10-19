@@ -1,0 +1,9 @@
+# M10 source and film acceptance
+
+- Source: actual canonical coverage/counts, chapter/scene/question mapping, eight ordered holds, all44 original asset hashes, valid editableSVG/PPTX, actualPDF/previews, complete learner/instructor separation and primary-source retrieval receipts.
+- Cases: reproducible offline CSV/JSON/PCAP parsing, IP-versus-Ethernet accounting, aligned rate windows, unique counters and toy-demand arithmetic. No network execution is implied.
+- Examples/runtime: four real seekable examples plus all58 actual native film scenes, finite timelines, readable complete diagram states, caption clearance and repeated/backward seek checks.
+- Audio: all canonical speech/options/answers generated, exactly one spoken tempo pass, model/voice fingerprints and eight exact48,000-frame stereo-zero buffers. Captions cover speech and exclude holds. AAC residue has its own measurement.
+- Encoded output:11chapters and complete master, correct codecs/resolution/frame rate/marks, full decode/black checks, every scene/late diagram plus quiz boundaries inspected, audio/reference continuity and final hashes.
+- Packaging: source/editableZIP CRC, extraction and every payload hash verified. Counts and statuses derive from actual M10 files, never another module's receipt.
+- Acceptance: preserve source, runtime, rendered, human and public-release layers. Alignment/ASR flags do not prove an omission or human acceptance. Report exact failed command and next check for actual blockers.

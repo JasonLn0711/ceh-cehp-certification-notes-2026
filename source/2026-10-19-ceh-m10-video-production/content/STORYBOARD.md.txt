@@ -1,0 +1,583 @@
+# Editorial storyboard: all 58 scenes
+
+These are editable design boards with explicit motion plans. Four executable animation examples accompany them. Full-film scene animation is a later production task.
+
+## S01 · Keep the learning service available
+
+**network** — Availability begins with a user completing a useful task.
+
+Visible labels: Northstar / Learning access / Enrollment / Availability.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S01.svg) · [Narration](SCRIPT_en-US.md)
+
+## S02 · Trace the complete service path
+
+**flow** — A service depends on a chain of reachable resources.
+
+Visible labels: Name lookup / Network path / Connection / Application.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S02.svg) · [Narration](SCRIPT_en-US.md)
+
+## S03 · Measure the user's result
+
+**checklist** — Compare user outcomes inside an explicitly defined observation window.
+
+Visible labels: Success / Delay / Errors / Time window.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S03.svg) · [Narration](SCRIPT_en-US.md)
+
+## S04 · Keep the assessment inside its authority
+
+**checklist** — This lesson analyzes local fixtures without generating network traffic.
+
+Visible labels: Written scope / Offline evidence / Stop conditions / Evidence custody.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S04.svg) · [Narration](SCRIPT_en-US.md)
+
+## S05 · Ask four questions from first principles
+
+**flow** — Select protection by explaining the constrained resource first.
+
+Visible labels: Resource / Demand / Evidence / Control.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S05.svg) · [Narration](SCRIPT_en-US.md)
+
+## S06 · Separate the outcome from the cause
+
+**layers** — An availability symptom supports investigation before attribution.
+
+Visible labels: Service failure / Resource pressure / Mechanism / Intent.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S06.svg) · [Narration](SCRIPT_en-US.md)
+
+## S07 · Read rates with their units
+
+**comparison** — Different rate units describe different kinds of work.
+
+Visible labels: Bits per second / Packets per second / Requests per second / Same window.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S07.svg) · [Narration](SCRIPT_en-US.md)
+
+## S08 · Understand finite capacity and waiting work
+
+**flow** — Persistent excess demand grows waiting work or forces rejection.
+
+Visible labels: Arrival / Capacity / Queue / Completion.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S08.svg) · [Narration](SCRIPT_en-US.md)
+
+## S09 · Describe distribution without inventing identity
+
+**comparison** — Traffic distribution and actor identity are different conclusions.
+
+Visible labels: One source / Many sources / Observed address / Attribution.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S09.svg) · [Narration](SCRIPT_en-US.md)
+
+## S10 · Build a map of resource exhaustion
+
+**layers** — The same availability failure can begin at different resource limits.
+
+Visible labels: Bandwidth / Packet work / Connection state / Application work.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S10.svg) · [Narration](SCRIPT_en-US.md)
+
+## S11 · Read Northstar's constrained access link
+
+**comparison** — An ingress cap can hide a much larger offered load upstream.
+
+Visible labels: Baseline / Enrollment / Offered load / Accepted load.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S11.svg) · [Narration](SCRIPT_en-US.md)
+
+## S12 · Connect the link evidence to user impact
+
+**network** — A lightly loaded server can sit behind an unavailable access path.
+
+Visible labels: Provider view / Ingress limit / Discarded traffic / Server view.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S12.svg) · [Narration](SCRIPT_en-US.md)
+
+## S13 · Count packet handling as well as bytes
+
+**comparison** — A device may reach its packet-processing limit before its bit-rate limit.
+
+Visible labels: Packet size / Packet rate / Processing cost / Measured limit.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S13.svg) · [Narration](SCRIPT_en-US.md)
+
+## S14 · Understand direct and coordinated traffic
+
+**network** — Multiple senders can combine pressure at one constrained destination path.
+
+Visible labels: Direct traffic / Coordinated devices / Shared bottleneck / Source uncertainty.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S14.svg) · [Narration](SCRIPT_en-US.md)
+
+## S15 · Choose tools by the evidence they can read
+
+**checklist** — Each tool view establishes a bounded part of the incident story.
+
+Visible labels: Packet analyzer / Flow records / Interface counters / Service checks.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S15.svg) · [Narration](SCRIPT_en-US.md)
+
+## S16 · Place protection before the constrained resource
+
+**flow** — A control must act early enough to spare the resource at risk.
+
+Visible labels: Campus filter / Upstream filter / Protected link / User outcome.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S16.svg) · [Narration](SCRIPT_en-US.md)
+
+## S17 · Follow a normal TCP handshake
+
+**timeline** — Connection establishment can require temporary server state before completion.
+
+Visible labels: Synchronize / Acknowledge / Pending state / Established.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S17.svg) · [Narration](SCRIPT_en-US.md)
+
+## S18 · Read the half-open connection fixture
+
+**comparison** — Occupancy is a current stock while attempts and completions are interval counts.
+
+Visible labels: Half-open entries / Backlog capacity / New attempts / Completed handshakes.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S18.svg) · [Narration](SCRIPT_en-US.md)
+
+## S19 · Distinguish state pressure from a full link
+
+**comparison** — A connection-state bottleneck can coexist with modest network volume.
+
+Visible labels: Link load / State pressure / Client success / Alternative causes.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S19.svg) · [Narration](SCRIPT_en-US.md)
+
+## S20 · Understand the tradeoffs of holding less state
+
+**comparison** — Changing pending-state handling trades capacity, lifetime, and client compatibility.
+
+Visible labels: Larger backlog / Shorter timeout / Smaller state / Client tradeoff.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S20.svg) · [Narration](SCRIPT_en-US.md)
+
+## S21 · Explain SYN cookies and their boundary
+
+**flow** — Cookies can defer pending connection state while leaving other resource limits in place.
+
+Visible labels: Cookie response / Return acknowledgment / State allocation / Remaining limits.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S21.svg) · [Narration](SCRIPT_en-US.md)
+
+## S22 · Evaluate a screening proxy as its own system
+
+**network** — Moving handshake work to a proxy moves responsibility for its capacity too.
+
+Visible labels: Screening proxy / Protected server / New bottleneck / Separate validation.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S22.svg) · [Narration](SCRIPT_en-US.md)
+
+## S23 · Follow the reflected reply
+
+**network** — Trace the request and reply through two observation points.
+
+Visible labels: Sender / Reflector / Claimed source / Victim.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S23.svg) · [Narration](SCRIPT_en-US.md)
+
+## S24 · Measure one comparable exchange
+
+**comparison** — Divide response bytes by request bytes at one measurement layer.
+
+Visible labels: Paired exchange / Packet bytes / Fifty times / Same basis.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S24.svg) · [Narration](SCRIPT_en-US.md)
+
+## S25 · Ethernet changes the denominator
+
+**layers** — Keep frame accounting separate from packet accounting.
+
+Visible labels: Packet layer / Ethernet layer / Different ratio / Count once.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S25.svg) · [Narration](SCRIPT_en-US.md)
+
+## S26 · Limit recursive service to its audience
+
+**tree** — Distinguish recursive answers from authoritative publication.
+
+Visible labels: Recursive service / Intended clients / Authoritative data / Separate roles.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S26.svg) · [Narration](SCRIPT_en-US.md)
+
+## S27 · Validate sources at the origin boundary
+
+**network** — Place source-address validation where forged traffic originates.
+
+Visible labels: Allowed source range / Network boundary / Forged address / Residual risk.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S27.svg) · [Narration](SCRIPT_en-US.md)
+
+## S28 · Different controls belong to different owners
+
+**flow** — Match each reflection control to the operator who can apply it.
+
+Visible labels: Origin network / Reflector owner / Victim provider / Shared response.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S28.svg) · [Narration](SCRIPT_en-US.md)
+
+## S29 · Calculate application work demand
+
+**comparison** — Multiply request rate by CPU service demand before judging capacity.
+
+Visible labels: Request rate / Work per request / Core budget / Demand estimate.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S29.svg) · [Narration](SCRIPT_en-US.md)
+
+## S30 · A larger rate can need less work
+
+**comparison** — Compare request cost and outcomes before labeling a surge.
+
+Visible labels: Legitimate surge / Cheaper work / Measured latency / User success.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S30.svg) · [Narration](SCRIPT_en-US.md)
+
+## S31 · Waiting connections consume resources
+
+**timeline** — Show how long-lived waiting can hold finite service capacity.
+
+Visible labels: Open connection / Waiting state / Progress deadline / Useful traffic.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S31.svg) · [Narration](SCRIPT_en-US.md)
+
+## S32 · Protect the shared dependency
+
+**flow** — Follow a request into its limited downstream pool.
+
+Visible labels: Shared dependency / Busy slots / Bounded queue / Backpressure.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S32.svg) · [Narration](SCRIPT_en-US.md)
+
+## S33 · Historical case: HTTP two Rapid Reset
+
+**timeline** — Explain the 2023 cost imbalance without replaying attack traffic.
+
+Visible labels: Parallel streams / Early cancellation / Residual work / Connection policy.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S33.svg) · [Narration](SCRIPT_en-US.md)
+
+## S34 · Build a useful availability baseline
+
+**timeline** — Compare like time windows and meaningful service outcomes.
+
+Visible labels: Comparable window / Expected pattern / Resource pressure / User outcome.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S34.svg) · [Narration](SCRIPT_en-US.md)
+
+## S35 · Correlate the views of one incident
+
+**layers** — Keep offered load, accepted load, and application health distinct.
+
+Visible labels: Upstream view / Campus view / Application view / Aligned time.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S35.svg) · [Narration](SCRIPT_en-US.md)
+
+## S36 · Separate detection from attribution
+
+**tree** — Turn an alert into a bounded evidence statement.
+
+Visible labels: Rate alone / Supporting signal / Alternative cause / Confidence level.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S36.svg) · [Narration](SCRIPT_en-US.md)
+
+## S37 · Use tools on saved evidence
+
+**checklist** — Choose a read-only tool for each evidence question.
+
+Visible labels: Saved capture / Flow summary / Host counters / Known limits.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S37.svg) · [Narration](SCRIPT_en-US.md)
+
+## S38 · Make the evidence reproducible
+
+**flow** — Carry source files and calculation assumptions into the finding.
+
+Visible labels: Preserve originals / Test calculation / State uncertainty / Choose next check.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S38.svg) · [Narration](SCRIPT_en-US.md)
+
+## S39 · Protect the resource that is constrained
+
+**layers** — Select a control by resource and placement.
+
+Visible labels: Upstream capacity / Connection state / Application work / User continuity.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S39.svg) · [Narration](SCRIPT_en-US.md)
+
+## S40 · Bound application work and dependencies
+
+**flow** — Prevent expensive requests from consuming every shared resource.
+
+Visible labels: Admission budget / Reusable response / Bounded work / Dependency isolation.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S40.svg) · [Narration](SCRIPT_en-US.md)
+
+## S41 · Tune protective thresholds with outcomes
+
+**comparison** — Measure service benefit and legitimate rejection together.
+
+Visible labels: Baseline threshold / Protective action / False rejection / Rollback condition.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S41.svg) · [Narration](SCRIPT_en-US.md)
+
+## S42 · Escalate with a useful handoff
+
+**flow** — Send the mechanism, evidence boundary, and requested action to the right owner.
+
+Visible labels: Incident owner / Provider handoff / Change record / Recovery evidence.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S42.svg) · [Narration](SCRIPT_en-US.md)
+
+## S43 · E01: Follow the constrained WAN
+
+**network** — Locate each measurement before choosing where to protect the constrained link.
+
+Visible labels: Offered traffic / Accepted traffic / User success / Upstream action.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S43.svg) · [Narration](SCRIPT_en-US.md)
+
+## S44 · E02: State fills before the link
+
+**flow** — Interpret connection progress and state capacity within one aligned window.
+
+Visible labels: Connection attempts / Half-open state / Completed handshakes / Control trial.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S44.svg) · [Narration](SCRIPT_en-US.md)
+
+## S45 · E03: Match the amplification layer
+
+**comparison** — Pair comparable byte counts and place defenses at their actual actors.
+
+Visible labels: Request bytes / Response bytes / Amplification ratio / Control location.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S45.svg) · [Narration](SCRIPT_en-US.md)
+
+## S46 · E04: Measure the cost of a request
+
+**layers** — Use service cost and resource capacity to interpret application demand.
+
+Visible labels: Request rate / Work demand / Dependency pool / Bounded work.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S46.svg) · [Narration](SCRIPT_en-US.md)
+
+## S47 · Respond around the service and resource
+
+**timeline** — Coordinate containment around the affected service and the location of the constraint.
+
+Visible labels: Service impact / Evidence window / Control owner / Decision record.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S47.svg) · [Narration](SCRIPT_en-US.md)
+
+## S48 · Verify recovery across the user path
+
+**checklist** — Require aligned service and resource evidence before closing a recovery claim.
+
+Visible labels: User checks / Resource checks / Stable recovery / Follow-up owner.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S48.svg) · [Narration](SCRIPT_en-US.md)
+
+## S49 · Use AI as an evidence assistant
+
+**flow** — Keep generated analysis traceable to supplied records and authorized decisions.
+
+Visible labels: Allowed evidence / Source reference / Claim review / Human decision.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S49.svg) · [Narration](SCRIPT_en-US.md)
+
+## S50 · Knowledge check: Foundation
+
+**quiz** — Read all choices before the one-second silent hold.
+
+Visible labels: Q01 / Read all choices / One-second hold / Explain the answer.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S50.svg) · [Narration](SCRIPT_en-US.md)
+
+## S51 · Knowledge check: Foundation
+
+**quiz** — Read all choices before the one-second silent hold.
+
+Visible labels: Q02 / Read all choices / One-second hold / Explain the answer.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S51.svg) · [Narration](SCRIPT_en-US.md)
+
+## S52 · Knowledge check: Application
+
+**quiz** — Read all choices before the one-second silent hold.
+
+Visible labels: Q03 / Read all choices / One-second hold / Explain the answer.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S52.svg) · [Narration](SCRIPT_en-US.md)
+
+## S53 · Knowledge check: Application
+
+**quiz** — Read all choices before the one-second silent hold.
+
+Visible labels: Q04 / Read all choices / One-second hold / Explain the answer.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S53.svg) · [Narration](SCRIPT_en-US.md)
+
+## S54 · Knowledge check: Application
+
+**quiz** — Read all choices before the one-second silent hold.
+
+Visible labels: Q05 / Read all choices / One-second hold / Explain the answer.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S54.svg) · [Narration](SCRIPT_en-US.md)
+
+## S55 · Knowledge check: Application
+
+**quiz** — Read all choices before the one-second silent hold.
+
+Visible labels: Q06 / Read all choices / One-second hold / Explain the answer.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S55.svg) · [Narration](SCRIPT_en-US.md)
+
+## S56 · Knowledge check: Analysis
+
+**quiz** — Read all choices before the one-second silent hold.
+
+Visible labels: Q07 / Read all choices / One-second hold / Explain the answer.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S56.svg) · [Narration](SCRIPT_en-US.md)
+
+## S57 · Knowledge check: Analysis
+
+**quiz** — Read all choices before the one-second silent hold.
+
+Visible labels: Q08 / Read all choices / One-second hold / Explain the answer.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S57.svg) · [Narration](SCRIPT_en-US.md)
+
+## S58 · Capstone: Build the Northstar incident brief
+
+**checklist** — Produce a reproducible offline brief that connects the four cases to decisions and limits.
+
+Visible labels: Evidence map / Resource explanation / Control plan / Acceptance check.
+
+Motion: orient → reveal relationships → explain the evidence limit → reading hold. Preserve the lower caption zone. For quiz scenes, show one complete stem and A–D set at a time, read all choices, hold exactly 1.000 second with zero PCM, then reveal the answer. Each source quiz board shows one complete question for editorial review.
+
+[Editable SVG](boards/S58.svg) · [Narration](SCRIPT_en-US.md)

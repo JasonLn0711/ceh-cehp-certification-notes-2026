@@ -1,0 +1,360 @@
+{
+  "scope": "Exact source-stage recovery copies; full assets remain in the immutable local source archive.",
+  "files": [
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/AGENT_PROMPT.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/AGENT_PROMPT.md.txt",
+      "sha256": "f1ebf47c0f98f394d966540a56f53f7757309e4f27f4ab3f8ec41df71a5d4eb5"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/ASSESSMENT_INSTRUCTOR.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/ASSESSMENT_INSTRUCTOR.md.txt",
+      "sha256": "4c5d42473ca0997370230bbb1feff8d9f35cfa45e1968b29c9a327c59d79d603"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/ASSESSMENT_STUDENT.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/ASSESSMENT_STUDENT.md.txt",
+      "sha256": "26f1f875ce81e6d6ec59b5775029a69d7d24f6c4d943eccf174b696292b4fb7c"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/CLOSEOUT.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/CLOSEOUT.md.txt",
+      "sha256": "e4fa973737b4409bd18d345d6254a27aaf0145937f140b34e58d66e7b8d4d824"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/CONCEPT_CONNECTIONS.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/CONCEPT_CONNECTIONS.md.txt",
+      "sha256": "7c247851702f4bc77683911ed6583b6a1bd65f2a3e5446090176d84dc017b16a"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/COURSE_STRUCTURE.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/COURSE_STRUCTURE.md.txt",
+      "sha256": "bc95064452d0de9ed951663e72f028b7ea03805b7cff7731119fc8b15c33a544"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/COVERAGE_MATRIX.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/COVERAGE_MATRIX.md.txt",
+      "sha256": "1cb67ed31361c183870232e352a6d606d9ca3a6e7efb170282b16476d6f4c162"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/EXAM_FOCUS.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/EXAM_FOCUS.md.txt",
+      "sha256": "15bd69ee5cc6c9a860aa52e9875e615b07fca5d12da5c142f4695a9505ab4911"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/LICENSES_AND_PROVENANCE.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/LICENSES_AND_PROVENANCE.md.txt",
+      "sha256": "50871c543b1eb39402ecf7fa6fd13ce9d7507ad1696e652345eb18708f0ed344"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/LOCKED_SOURCE_SHA256.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/LOCKED_SOURCE_SHA256.json",
+      "sha256": "30b580aeb138f9621ef482b02bb04deba84001f2fecd744f2e1e09212b9716c5"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/POSTTEST.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/POSTTEST.md.txt",
+      "sha256": "1ed67bee1e8bef63f88fc8a3f3a54dbf32341d51d61651a87e85f884c542c396"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/POSTTEST_KEY.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/POSTTEST_KEY.md.txt",
+      "sha256": "8ff83fedf1f4475612ad4808930fed472c1073b67d312b5deba059e9de06568e"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/PRETEST.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/PRETEST.md.txt",
+      "sha256": "3df4efa491f9beae5ddf9789cb7609a397835257c49a87866b85bbe6e6d66f4b"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/PRETEST_KEY.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/PRETEST_KEY.md.txt",
+      "sha256": "6f3da7c630727ca6197e93becc72a1ffe24b23cdc890c9ae153877e61489a024"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/PRODUCTION_STANDARD_v1.0.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/PRODUCTION_STANDARD_v1.0.md.txt",
+      "sha256": "ddef1df0e537452e6689bd34520836d1ecfcf5a37bf90ccf1e6bf12b83ade331"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/QA_CHECKLIST.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/QA_CHECKLIST.md.txt",
+      "sha256": "db5185bbf821dc95fc5bdd535300b70d00157fb1972ed445881ca159aaf6622d"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/README.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/README.md.txt",
+      "sha256": "579e9108ee4b74f15ef2d79bfaff8b73c0f84df0f7e88b8d8c5c35c33b32449d"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/RENDER_PLAN.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/RENDER_PLAN.md.txt",
+      "sha256": "f6270228bb6023ea41864ba57a74e5c879d7ed16ce64ed63cb4171a33aa4f3a1"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/SCRIPT_en-US.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/SCRIPT_en-US.md.txt",
+      "sha256": "d96ab8529a634ccb2479a5abe005eee9b6e184bbe4b62aaba3cbeb9e668d991e"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/SOURCES.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/SOURCES.md.txt",
+      "sha256": "561d9dc0c6711931184a12efe6f451429c9182e3413db3e6d447c36237ec2046"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/START_HERE_zh-TW.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/START_HERE_zh-TW.md.txt",
+      "sha256": "586110c39fb26b162546ac10ec21b0ff0f4f0d898a1f15208073f0db557e5ec0"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/STORYBOARD.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/STORYBOARD.md.txt",
+      "sha256": "95a76282b39863833ab9a4fbb22332971e2e2b485874dd9c31435aa7938614b5"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/STUDY_GUIDE.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/STUDY_GUIDE.md.txt",
+      "sha256": "7b389ee2e88a2943ec52f4ded4d660663a4079408c28e425a0a053738b04306a"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/STYLE_INHERITANCE.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/STYLE_INHERITANCE.md.txt",
+      "sha256": "cbd8cf3780c9b2dcbaabfb87d9979d3795bd5297f097d9401e95d0f4e864f6dc"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/STYLE_TOKENS.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/STYLE_TOKENS.json",
+      "sha256": "8b235a281ed1a8a12b01d107578b544a21babe5acb73ce60e1ab40100f7554f1"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/TRACEABILITY.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/TRACEABILITY.md.txt",
+      "sha256": "b305ec8598de8d2389863542dacd6894b3857a4c7e3b3f23bec057662beeefc6"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/VOICE_AND_AUDIO.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/VOICE_AND_AUDIO.md.txt",
+      "sha256": "e7ad0f5569cdc70401b20e0e6972e3155bf5134229e829b02e31fd9bc8310687"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/WORKSHEET.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/WORKSHEET.md.txt",
+      "sha256": "895d2b1acbb8e3e8b604b8d7bfc894b28d39c75464244cf73511cc4c178b0746"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/chapters.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/chapters.json",
+      "sha256": "e752d0f64902e667ad91fd414dbcd3a5d60791a914c2237d9be8449243875b1a"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/coverage.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/coverage.json",
+      "sha256": "f88475eac547b2235f537468942ac861330dd1918576cd476166efe4a10ff838"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/network_map.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/network_map.json",
+      "sha256": "30daf97a17ae2c5a8ddd95a331ebd234fd16f02d680eb058275ce8f13bf671f0"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/questions.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/questions.json",
+      "sha256": "2610dfa171aad03eb00ea440b3bbd03a0191ddb6a8e3a88301619e4e4ea02be0"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/scenes.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/scenes.json",
+      "sha256": "f531992d04801681a2b76cb82dd21848d0fd28bc47ada164d0fef21bbea6b0ff"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/visual_scenes.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/content/visual_scenes.json",
+      "sha256": "a9eb353a2cb8220cd31153c12301fe2a0b9624fc338e0f544d0cdf3316770ba8"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/authored_chapters.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/authored_chapters.json",
+      "sha256": "c861e77dade3430be0cd2a41e955eb1d94f65417685bccd33b5b7589d840bd31"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/authored_questions.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/authored_questions.json",
+      "sha256": "eb2b838155ae3c4309b8261f45ee56d358edde832bb84bbcdd1a13f67c88cd2d"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/authored_scenes_01_22.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/authored_scenes_01_22.json",
+      "sha256": "ac221f53314644289506a33727812ce6849068ae43e81d62ea118b1a398ab489"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/authored_scenes_23_42.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/authored_scenes_23_42.json",
+      "sha256": "b2eff7aae41196ee16611e6100e8c5737d4ddf35d038a91d912e69f6c79083b7"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/authored_scenes_43_58.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/authored_scenes_43_58.json",
+      "sha256": "47051c53c54e6aabc58b5849f8869b0a5f38f2f32834d03aefe85c9acb84f6d0"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/browser_qa.cjs",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/browser_qa.cjs",
+      "sha256": "f0b707a344d34bdb16b06ec27253c5032e7570dfdcf2e2823b0fd51f2d47cb40"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/build_companions.py",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/build_companions.py",
+      "sha256": "61bb89a506b5f5786d316588113e41656f36af9298fa0352e595e99cdf96ffc3"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/build_evidence.py",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/build_evidence.py",
+      "sha256": "858654e7eb49422427161523517a4f91ee51bc1fc2355dcb680ff95d34a26211"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/build_release.py",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/build_release.py",
+      "sha256": "e7a48aaab6fa9c2e373f2cebd62000f6c54bfe8cbd056661fc0e0139e53ec29e"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/build_source.py",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/build_source.py",
+      "sha256": "bac34ab10f7fe64631017d161e6b4d7a102c8ea89c0247343b8c67ee66270b16"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/compare_png.py",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/compare_png.py",
+      "sha256": "945c231a2b741a86800b5c3bb55b9e3eddf1dba0acb753d7ecad1bcdc9d7a0f9"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/contact_sheets.py",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/contact_sheets.py",
+      "sha256": "4347387777ba98812ef3250b5b39935bb729e43eccfc99beb24ed47507dec999"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/validate_pack.py",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/validate_pack.py",
+      "sha256": "96a7aa50be35c6137ed0d03c3ed805553cf5adf27762021b963eb28153789252"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/verify_evidence.py",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/verify_evidence.py",
+      "sha256": "8d0eb3aca00acca16886e4447a6db78e6de74d5e8d87fe6347a31be99557269b"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/tooling/write_previews.py",
+      "copy": "source/2026-10-19-ceh-m10-video-production/rebuild-inputs/write_previews.py",
+      "sha256": "87ee2df364064231e5887e45252e50392c59c6be9c8a864dac37ee2050b51702"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/case/EVIDENCE_CARDS.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/case/EVIDENCE_CARDS.md",
+      "sha256": "b4bde5da1bfc40f5fdcb7a9069d4f1ed3e3ee397bcf83199f264d5f7f224bf18"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/lab_mock/E01_wan_windows.csv",
+      "copy": "source/2026-10-19-ceh-m10-video-production/lab_mock/E01_wan_windows.csv",
+      "sha256": "357ace225bf21f4baa4340591804e35d83b531b0ac8492177a4db788ea01714d"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/lab_mock/E02_connection_state.csv",
+      "copy": "source/2026-10-19-ceh-m10-video-production/lab_mock/E02_connection_state.csv",
+      "sha256": "e1cc193fcd099af596c89ec2dfcbb033bfda8726f1f1e4043b8bc074540f3096"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/lab_mock/E03_observation_contract.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/lab_mock/E03_observation_contract.json",
+      "sha256": "b04ba9340392024d1e3011270df5eb9998b5f98f11f4b584a205d1bea6e696b7"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/lab_mock/E03_reflector_fixture.pcap",
+      "copy": "source/2026-10-19-ceh-m10-video-production/lab_mock/E03_reflector_fixture.pcap",
+      "sha256": "f01a55ab8f5a10c7faf20b6aaecd7525d5d0f9af275b069d4138ce896c600569"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/lab_mock/E04_request_work.csv",
+      "copy": "source/2026-10-19-ceh-m10-video-production/lab_mock/E04_request_work.csv",
+      "sha256": "ebb3dfe0554908ff2c744e4024c2bb23bbdfa94a0111fe27513e41fe0200fc4c"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/lab_mock/FILES_SHA256.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/lab_mock/FILES_SHA256.json",
+      "sha256": "d3eb552622e40fa4057bda5de5fb015d22e9f5e5bf628ae044c4efa33b3784fb"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/lab_mock/README.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/lab_mock/README.md",
+      "sha256": "a3d0b248ddc3fb0cf5a0cd3613c4e5f2b1940067e9f40f299fe4ff66473ce997"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/lab_mock/case_status.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/lab_mock/case_status.json",
+      "sha256": "a67f6358b8d730a97357bbc08ed030efdd8595de41b82d5f64136c9ea32d31cf"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/validation/board_qa.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/board_qa.json",
+      "sha256": "043c988d32ce94478dee2d8ff966edbd4aab66fc77e4d29d8a74a018d9094178"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/validation/browser_qa.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/browser_qa.json",
+      "sha256": "e2673071e21a491efa4991df88a2bc14708d8c620c62b5a3c169030fde802675"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/validation/evidence-verification.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/evidence-verification.json",
+      "sha256": "ce0c9b85c5c62075e85b907af17936e904712716961ff544d64f9f4e73c5e49e"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/validation/hyperframes-quiz-one-second.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/hyperframes-quiz-one-second.json",
+      "sha256": "87a62f93f9c8199ce5763ef4645a8c5905b40566747c7fe202d07083c43c1b54"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/validation/hyperframes-reflection-path.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/hyperframes-reflection-path.json",
+      "sha256": "3db536cfe781e8eb0472e991fc70eb0c7899dc6a73bf57062633d5432c1d1125"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/validation/hyperframes-resource-budget.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/hyperframes-resource-budget.json",
+      "sha256": "da432d8447101fc9cd1e9ac339e7012f37279804bea8ae824d03a502e2546d70"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/validation/hyperframes-tcp-state.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/hyperframes-tcp-state.json",
+      "sha256": "732e146762cc0454af618fdec6336c19e7197476cc2d25b5c7e9ab4bf4b9b22c"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/validation/reference-retrieval.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/reference-retrieval.json",
+      "sha256": "159decbbf2525fe4464e9fe8d0cf7dce102d5483f7e8f28d97e50b9c066c711d"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/validation/source_qa.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/source_qa.json",
+      "sha256": "9485aea08beaf4a1a41b22a1596efed015a1495c673eb5bee57cd9617ceac3d7"
+    },
+    {
+      "origin": "inputs/package/CEH_M10_English_Editorial_Masterclass/validation/visual-review.md",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/visual-review.md",
+      "sha256": "68761aa56b8b4b79e028e6123f8e223b4a7a489fc39756cf40b56cdf92d9158e"
+    },
+    {
+      "origin": "output/release_receipt.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/release_receipt.json",
+      "sha256": "ecbf7d02b385ccb94509cbede904e40a78a5d287fedb41bbf70acd4ca744c03c"
+    },
+    {
+      "origin": "qa/skills-refresh-receipt.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/skills-refresh-receipt.json",
+      "sha256": "9bbf0d0c1fa7a88aa1b58c2f5006c96bc66edbd96d2ac224dddaae1b91e6a9cc"
+    },
+    {
+      "origin": "qa/content-review.json",
+      "copy": "source/2026-10-19-ceh-m10-video-production/validation/content-review.json",
+      "sha256": "eddda96da34e10b6baf380784a5a9c3243b403fa07087675af11537941d3aa98"
+    }
+  ]
+}

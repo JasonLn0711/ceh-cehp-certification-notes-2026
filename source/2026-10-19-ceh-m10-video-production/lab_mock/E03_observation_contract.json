@@ -1,0 +1,14 @@
+{
+  "provenance": "SIMULATED OUTPUT",
+  "case_id": "E03",
+  "fixture": "E03_reflector_fixture.pcap",
+  "purpose": "Two constructed packets; not a captured or replayed attack.",
+  "observation_point": "Constructed reflector-side request and response; victim ingress is a separate viewpoint.",
+  "network": "Reserved documentation IPv4 addresses, reserved example.test name; teaching MTU 9000.",
+  "source_claim": "Victim address is deliberately assigned by this constructor; source identity is not authenticated.",
+  "ip_request_octets": 60,
+  "ip_response_octets": 3000,
+  "ethernet_request_octets_without_FCS": 74,
+  "ethernet_response_octets_without_FCS": 3014,
+  "deployment": "No packets sent; no resolver or collection service started."
+}

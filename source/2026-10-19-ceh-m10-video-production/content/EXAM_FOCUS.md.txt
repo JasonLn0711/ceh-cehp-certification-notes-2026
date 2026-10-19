@@ -1,0 +1,13 @@
+# M10 CEH exam-focus advice
+
+Use the [official-topic coverage](COVERAGE_MATRIX.md) and [complete narration](SCRIPT_en-US.md) as the content map. These prepared items are independently authored; they make no prediction about question frequency and supply no recalled exam content.
+
+For a scenario question, identify the required user task, constrained resource, observation point and units before choosing a technique name. DoS and DDoS concern deliberate availability interference; source distribution, resource pressure and malicious intent require distinct evidence. A source address does not uniquely identify a device or person.
+
+Practice the distinction between a full link, packet-processing pressure, pending connection state, expensive application work and a shared dependency. Know the ordinary TCP handshake and what SYN cookies, compact state, timeouts or a proxy can and cannot protect. Compare reflection with direct traffic, and amplification with simple redirection. Retain the IP/Ethernet accounting boundary when dividing byte counts.
+
+Select the control that can reach the constraint. Provider protection, source-address validation, restricted recursion, response limits, a CDN, a WAF, admission budgets, caching and dependency isolation serve different architectures and resources. A product category is not a universal guarantee. Legitimate users and rollback criteria belong in the validation.
+
+Interpret tool roles by the evidence they can read: saved packet fields, flow summaries, interface counters, host state and defined service tasks. This package uses local analysis only. A successful parser does not prove attack execution, control efficacy or official Practical readiness.
+
+Use [PRETEST](PRETEST.md) to find a real gap, preserve first choice/confidence, then review the separate key. [POSTTEST](POSTTEST.md) explicitly marks eight reused film items and two new transfers. Keep original, exposed, assisted and retest records separate. The existing 600-question bank and the declared P4 learner acceptance retain their own requirements; production of this package adds no first answers or accepted task.

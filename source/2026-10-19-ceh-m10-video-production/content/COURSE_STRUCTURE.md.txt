@@ -1,0 +1,15 @@
+# Course structure
+
+| Chapter | Scenes | Goal | Spoken words |
+| --- | --- | --- | --- |
+| C01 · Availability at Northstar | S01–S05 | Identify service, user impact, authorization and evidence. | 861 |
+| C02 · Resources, rates and distributed demand | S06–S10 | Separate availability impact, resource exhaustion and source distribution. | 862 |
+| C03 · Network capacity and volumetric pressure | S11–S16 | Locate bandwidth and packet-processing bottlenecks. | 1053 |
+| C04 · TCP state and protocol exhaustion | S17–S22 | Explain half-open state and mechanism-specific defenses. | 1068 |
+| C05 · Reflection and amplification | S23–S28 | Trace reflected replies and measure comparable byte counts. | 1019 |
+| C06 · Application work and modern protocols | S29–S33 | Bound expensive work, connections and dependencies. | 840 |
+| C07 · Evidence-driven detection | S34–S38 | Correlate telemetry and distinguish demand from hostile activity. | 842 |
+| C08 · Layered protection and escalation | S39–S42 | Place controls where they can protect the constrained resource. | 666 |
+| C09 · Four connected Northstar cases | S43–S46 | Evaluate four incident records and retain uncertainty. | 702 |
+| C10 · Response, recovery and AI assistance | S47–S49 | Restore service and verify evidence-based decisions. | 516 |
+| C11 · Knowledge checks and capstone | S50–S58 | Apply the lesson through eight questions and an offline incident brief. | 1812 |

@@ -1,0 +1,52 @@
+{
+  "identity": "Northstar warm paper editorial",
+  "output_locked": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "language": "en-US",
+    "canvas_source": "previous production brief, unchanged"
+  },
+  "colors": {
+    "paper": "#F0EBE4",
+    "ink": "#292421",
+    "terracotta": "#C8755D",
+    "apricot": "#F2D4B7",
+    "gray": "#B8B0A9",
+    "mustard": "#E9B94D",
+    "paper_white": "#FFFAF3",
+    "paper_shadow": "#DCD3C8"
+  },
+  "fonts": {
+    "display": "Inter with Arial fallback (no fonts are redistributed)",
+    "technical": "DejaVu Sans Mono / system monospace",
+    "font_install": "Use only legally installed fonts in runtime."
+  },
+  "safe_area": {
+    "horizontal_fraction": 0.07,
+    "vertical_fraction": 0.08
+  },
+  "stroke_px": {
+    "props": 4,
+    "focus": 5,
+    "fine": 2
+  },
+  "typography_px": {
+    "dominant_claim": "54-74",
+    "subtitle": "captions from existing rules",
+    "main_label": "34-42",
+    "technical_output": "30-38",
+    "small_metadata": "22-28"
+  },
+  "figure": "Tally original notebook",
+  "anti_patterns": [
+    "neon",
+    "cyberpunk",
+    "3d plastic",
+    "photoreal stock",
+    "slide parade",
+    "baked text in images",
+    "flat still as fake animation",
+    "creator mascot recreation"
+  ]
+}

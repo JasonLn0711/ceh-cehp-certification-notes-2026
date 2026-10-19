@@ -1,0 +1,11 @@
+# M10 concept and learning connections
+
+The reusable reasoning chain is required task → finite resource → incoming demand → named observation → supported mechanism → control owner/location → two-sided validation → observed recovery. The [study guide](STUDY_GUIDE.md) supplies formulas; [E01–E04](lab_mock/README.md) ground the chain in connected offline evidence.
+
+M03 and M04 help identify services and their exposure. M05 separates a suspected weakness from verified impact and a remediation claim. M06 connects resource symptoms to host state; M07 adds behavior and containment evidence. M08 explains packet directions, capture points and observation limits. M09 reinforces that plausible claims do not replace authority or independent verification. M10 applies those distinctions to availability and owner-specific response.
+
+M11 distinguishes connection establishment from a protected application session. M12 examines what controls and telemetry can observe. M13–M15 connect server/application behavior and costly operations to service outcomes. M18 requires additional operational and safety stewardship when availability affects physical processes. M19 adds provider boundaries and shared responsibility. M20 preserves evidence identities through hashes while retaining the distinction between byte integrity and truth.
+
+In the adopted local Practical map, P4 system attack analysis connects M06, M07, M10 and M12. M08 remains mapped to P3 traffic analysis; M09 supplies cross-cutting human risk. This package prepares an M10 offline incident brief but does not independently accept a P4 learner task or satisfy the official Practical domains.
+
+The [coverage matrix](COVERAGE_MATRIX.md) links the lesson, [traceability map](TRACEABILITY.md) links the assessments and evidence, and [closeout](CLOSEOUT.md) records actual learner results. Existing 600-bank IDs, capacity limits, declared practical checks and publication gates retain their own owners and evidence.

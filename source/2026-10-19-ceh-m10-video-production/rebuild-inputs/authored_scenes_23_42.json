@@ -1,0 +1,282 @@
+[
+  {
+    "id": "S23",
+    "title": "Follow the reflected reply",
+    "labels": [
+      "Sender",
+      "Reflector",
+      "Claimed source",
+      "Victim"
+    ],
+    "cue": "Trace the request and reply through two observation points.",
+    "kind": "network",
+    "narration": "Reflection changes where a reply goes. The Sender creates a request, while the Reflector is a service that answers it. The Claimed source is the address written into the request. If that address belongs to the Victim, the service sends its reply toward the victim instead of the actual sender. Our Northstar fixture constructs that false source field explicitly. We know it was forged because the exercise defines it that way. A source address seen in an unrelated capture would require additional evidence before reaching that conclusion. In the general path, requests arriving at a reflector and replies arriving at Northstar have different observation points. This fixture constructs the reflector-side request and response; it supplies no separate victim capture. Keep their timestamps, directions, and packet lengths separate. A reflection path can redirect traffic even when the reply is small. Amplification adds a second property, where a small request produces a larger response. All arrows here represent stored, simulated packets. Reading them creates no traffic. Tally follows the return address to explain the path, while leaving the human identity behind the request unknown.",
+    "motion": "A request token reaches the reflector, then a separate reply token follows the claimed return address toward Northstar."
+  },
+  {
+    "id": "S24",
+    "title": "Measure one comparable exchange",
+    "labels": [
+      "Paired exchange",
+      "Packet bytes",
+      "Fifty times",
+      "Same basis"
+    ],
+    "cue": "Divide response bytes by request bytes at one measurement layer.",
+    "kind": "comparison",
+    "narration": "The Paired exchange in case three contains one constructed request and its associated response. Count Packet bytes at the Internet Protocol layer. The request has sixty bytes, and the response has three thousand bytes. Divide three thousand by sixty to obtain Fifty times. This is the amplification ratio for this particular exchange and accounting method. It does not say that every query to this service has the same ratio. It also does not describe the complete attack rate, the number of reflectors, or the amount of traffic a real victim received. Same basis means the numerator and denominator use the same layer, direction rules, and inclusion rules. Comparing a response frame with only the request payload would inflate the result. The saved evidence allows us to inspect lengths and repeat the arithmetic without sending either packet. To estimate a traffic rate, we would additionally need counts over a defined interval. Tally places the two byte totals beside their layer name before drawing the division line.",
+    "motion": "The sixty-byte request bar and three-thousand-byte response bar appear beside a division bracket labeled with the common packet layer."
+  },
+  {
+    "id": "S25",
+    "title": "Ethernet changes the denominator",
+    "labels": [
+      "Packet layer",
+      "Ethernet layer",
+      "Different ratio",
+      "Count once"
+    ],
+    "cue": "Keep frame accounting separate from packet accounting.",
+    "kind": "layers",
+    "narration": "The same stored exchange can produce different byte totals at different layers. The Packet layer has sixty request bytes and three thousand response bytes. At the Ethernet layer, our supplied frames have seventy four and three thousand fourteen bytes. Each includes fourteen bytes of Ethernet header beyond the corresponding packet. Dividing three thousand fourteen by seventy four produces about forty point seven. That Different ratio is correct for these frame lengths, while the packet ratio remains fifty. Neither number describes every physical bit used on a wire. These saved frame lengths do not include every possible link overhead. State the accounting boundary whenever a report compares volume. Count once also matters when adding evidence from several sensors. A packet observed at a provider and again at a campus router is not automatically two independent arrivals. Identify the observation point and any duplicated records before summing. Northstar's worksheet keeps both length columns, allowing reviewers to reproduce each calculation and see why changing the denominator changes the result.",
+    "motion": "Fourteen-byte header strips attach to both packet bars and a second ratio appears on a separate Ethernet row."
+  },
+  {
+    "id": "S26",
+    "title": "Limit recursive service to its audience",
+    "labels": [
+      "Recursive service",
+      "Intended clients",
+      "Authoritative data",
+      "Separate roles"
+    ],
+    "cue": "Distinguish recursive answers from authoritative publication.",
+    "kind": "tree",
+    "narration": "A name server can perform different jobs. Recursive service looks up an answer on behalf of a client, possibly contacting other servers. Intended clients are the users and networks that the operator has chosen to serve. A campus resolver usually has a defined audience. Restricting recursion to that audience reduces the chance that arbitrary outsiders can use the resolver as a reflector. Authoritative data has a different purpose. An authoritative server publishes records for zones it serves, and public access may be necessary for that role. Separate roles helps us choose a control that preserves the required service. Turning off all external name resolution would break ordinary functions at Northstar. The Internet best practice on recursive reflectors recommends serving the intended clients and separating recursive and authoritative service where practical. These principles guide a configuration review; they do not prove that a particular server is correctly configured. Our reserved test name and saved packets illustrate the distinction. We perform no open resolver search and send no queries to outside systems.",
+    "motion": "A name-server node separates into recursive and authoritative branches, with an audience gate appearing only on the recursive branch."
+  },
+  {
+    "id": "S27",
+    "title": "Validate sources at the origin boundary",
+    "labels": [
+      "Allowed source range",
+      "Network boundary",
+      "Forged address",
+      "Residual risk"
+    ],
+    "cue": "Place source-address validation where forged traffic originates.",
+    "kind": "network",
+    "narration": "An Allowed source range describes which addresses may legitimately originate behind a particular connection. At that Network boundary, an operator can reject outbound traffic whose claimed source falls outside the permitted range. The historical ingress filtering practice describes this check from the provider's receiving side. It can stop a Forged address from leaving an originating network when that address violates the boundary policy. Northstar can apply the principle to traffic leaving its own network, while its provider has responsibilities at other boundaries. Residual risk remains. A permitted source range can still contain abusive traffic, and a forged address inside that range may pass a simple prefix check. Complex routing and legitimate exceptions also require careful design. Source validation reduces a spoofing opportunity; it does not establish that all allowed traffic is harmless. Our exercise reviews a policy diagram rather than changing router configuration. Tally marks the originating boundary and the victim boundary separately so the class can identify which operator can act on each part of the path.",
+    "motion": "A source-range gate appears beside the originating network, while a separate outline preserves the distant victim boundary."
+  },
+  {
+    "id": "S28",
+    "title": "Different controls belong to different owners",
+    "labels": [
+      "Origin network",
+      "Reflector owner",
+      "Victim provider",
+      "Shared response"
+    ],
+    "cue": "Match each reflection control to the operator who can apply it.",
+    "kind": "flow",
+    "narration": "The Origin network can reduce forged traffic through source-address validation. The Reflector owner can restrict recursive service and review response rate limiting where supported. Those controls act on different parts of the reflection path. Response rate limiting may reduce repetitive response traffic, but its settings and side effects depend on the service and implementation. Restricting recursion addresses who may request that recursive work. Neither action increases Northstar's incoming link capacity. The Victim provider can help filter or divert unwanted traffic before it reaches a constrained campus connection. Northstar's own firewall acts later along that path. A Shared response therefore needs clear observations and owners, rather than a single control name on a checklist. Record the traffic pattern, affected service, time window, and proposed action. Check that legitimate name resolution and campus access remain usable after an authorized change. In our offline case, these are recommendations supported by simulated evidence. No provider change has occurred, and any generated recovery rows remain examples until a separate real deployment is validated.",
+    "motion": "Three control cards attach to their owning networks before a shared-response line connects the owners without merging their responsibilities."
+  },
+  {
+    "id": "S29",
+    "title": "Calculate application work demand",
+    "labels": [
+      "Request rate",
+      "Work per request",
+      "Core budget",
+      "Demand estimate"
+    ],
+    "cue": "Multiply request rate by CPU service demand before judging capacity.",
+    "kind": "comparison",
+    "narration": "Request rate alone does not describe application cost. Work per request tells us how much processing each request needs. In Northstar's toy baseline, one hundred requests each second require twenty milliseconds of processor time apiece. Multiplying them gives two processor core seconds of work every second. The incident example has one hundred twenty requests each second, with two hundred milliseconds of work per request. That produces twenty four core seconds of demand every second. Compare it with the Core budget of eight cores, which can supply at most eight core seconds each second under the simplified assumptions. The Demand estimate exceeds that budget even though request count increased only slightly. Queues, contention, and response times can then worsen. These values are teaching inputs, not a measured benchmark or a guarantee about a real server. Actual systems require profiling and resource measurements. Tally expands each request into its work cost so the class can see why counting requests without measuring their cost can hide an application bottleneck.",
+    "motion": "Request tokens expand into processor-time blocks, then the incident demand extends beyond the eight-core budget line."
+  },
+  {
+    "id": "S30",
+    "title": "A larger rate can need less work",
+    "labels": [
+      "Legitimate surge",
+      "Cheaper work",
+      "Measured latency",
+      "User success"
+    ],
+    "cue": "Compare request cost and outcomes before labeling a surge.",
+    "kind": "comparison",
+    "narration": "A Legitimate surge can be easier to serve than a smaller expensive workload. Northstar's counterexample contains three hundred requests each second, with five milliseconds of processor work per request. Multiplication gives one point five core seconds of demand each second. That is less than the ordinary two-core demand in the previous toy baseline, despite the higher request rate. Cheaper work might come from a different endpoint or an effective cache, but the fixture does not establish which cause produced it. Investigators would inspect the request mix and supporting telemetry. Measured latency helps show whether users wait longer. User success shows whether the intended task still works. Use both with processor demand, errors, and dependency health to judge availability. A high rate can be a useful alert signal while leaving intent unresolved. Low rates can also hide expensive operations. The class should explain the calculation and its limits before choosing a response. Automatically blocking the busiest apparent source could reject many legitimate learners who share a gateway.",
+    "motion": "A taller request-count column appears beside a shorter work-demand column, followed by separate latency and success indicators."
+  },
+  {
+    "id": "S31",
+    "title": "Waiting connections consume resources",
+    "labels": [
+      "Open connection",
+      "Waiting state",
+      "Progress deadline",
+      "Useful traffic"
+    ],
+    "cue": "Show how long-lived waiting can hold finite service capacity.",
+    "kind": "timeline",
+    "narration": "An Open connection may consume memory, a socket, a worker, or a slot in another limited pool. The exact resources depend on the server architecture. Waiting state becomes a problem when many connections remain incomplete or make very little useful progress. A service can run out of available slots while total bandwidth stays modest. Some slow traffic is legitimate. A learner on an unreliable connection may need more time than someone on the campus network. A Progress deadline should therefore reflect the operation and the expected clients. Operators can combine time limits, connection budgets, and minimum progress rules, then observe the effect on Useful traffic. A single aggressive timeout can reject legitimate uploads or long-running responses. Northstar's diagram illustrates held slots and elapsed time without opening any connections. The next evidence check would compare active connections, their ages, progress, errors, and available service capacity. Those observations help distinguish connection pressure from a saturated link or expensive processor work, each of which calls for a different response.",
+    "motion": "Connection slots remain occupied along a timeline until a progress checkpoint releases stalled examples and retains advancing ones."
+  },
+  {
+    "id": "S32",
+    "title": "Protect the shared dependency",
+    "labels": [
+      "Shared dependency",
+      "Busy slots",
+      "Bounded queue",
+      "Backpressure"
+    ],
+    "cue": "Follow a request into its limited downstream pool.",
+    "kind": "flow",
+    "narration": "The application can depend on a database, an identity service, or another remote component. A Shared dependency may become the narrowest resource even when the front end has free capacity. Northstar's simulated pool has thirty two slots. During the incident, all thirty two are occupied and four hundred requests wait in the queue. Busy slots describe current occupancy; they do not reveal why each operation is slow. Inspect dependency latency, timeouts, and the work holding those slots. A Bounded queue limits how much waiting work the system accepts. Backpressure tells an earlier stage to slow down or reject additional work when the downstream stage cannot keep up. Operators also need deadlines and cancellation behavior so abandoned requests do not hold resources indefinitely. Repeated retries can add more work to an already stressed dependency, so retry policies need limits. Separating critical operations into protected budgets can preserve important tasks. Our fixture establishes pool pressure, while root cause and the effectiveness of any proposed control still require their own evidence.",
+    "motion": "Thirty-two dependency slots fill, a labeled waiting queue grows, and a backpressure arrow reaches an admission gate upstream."
+  },
+  {
+    "id": "S33",
+    "title": "Historical case: HTTP two Rapid Reset",
+    "labels": [
+      "Parallel streams",
+      "Early cancellation",
+      "Residual work",
+      "Connection policy"
+    ],
+    "cue": "Explain the 2023 cost imbalance without replaying attack traffic.",
+    "kind": "timeline",
+    "narration": "In October twenty twenty three, Google published its analysis of HTTP two Rapid Reset attacks observed earlier that year. Parallel streams let several requests share one transport connection. Early cancellation can leave servers with Residual work already spent accepting, decoding, or routing requests. Google's report describes an imbalance between the client's cost and the server's cost. It also explains why counting only currently open streams can miss repeated creation and cancellation. Connection policy therefore needs signals about behavior over time, alongside appropriate software fixes and implementation-specific protections. Cancellation itself is legitimate protocol behavior, including when a browser no longer needs a resource. Defenders must evaluate patterns and service impact before treating a cancellation as hostile. This is a dated historical case, rather than a claim about the largest attack today. Northstar's abstract timeline explains the cost relationship without constructing a traffic generator or an attack trace. When reviewing a real deployment, use its vendor guidance and verified version information. A canceled request count alone does not prove that the server stopped every downstream operation.",
+    "motion": "Several stream lanes share one connection line, cancellation markers appear, and already-started server-work blocks remain visible afterward."
+  },
+  {
+    "id": "S34",
+    "title": "Build a useful availability baseline",
+    "labels": [
+      "Comparable window",
+      "Expected pattern",
+      "Resource pressure",
+      "User outcome"
+    ],
+    "cue": "Compare like time windows and meaningful service outcomes.",
+    "kind": "timeline",
+    "narration": "A baseline gives an incident comparison a defined context. A Comparable window uses the same duration, units, observation point, and relevant service conditions. Northstar's network fixture uses aligned sixty-second windows. Its ordinary offered traffic is fifty megabits per second, while a normal enrollment period reaches one hundred fifty. Both values sit below the two hundred megabit link capacity in the simplified example. Expected pattern includes calendar events, time of day, and changes in who uses the service. Resource pressure asks how close a particular resource is to its useful limit. User outcome asks whether a learner can finish the intended task. A rate graph alone answers neither question completely. The fixture's values are simulated teaching observations and do not define a universal alert threshold. A real baseline should retain variation and known exceptions, then be reviewed when applications or capacity change. Tally aligns the ordinary and enrollment windows before adding the incident, so the class can compare demand without mistaking a legitimate busy period for proof of malicious intent.",
+    "motion": "Three equal-duration windows align on one timeline while a shared capacity line stays fixed above the ordinary and enrollment demand bars."
+  },
+  {
+    "id": "S35",
+    "title": "Correlate the views of one incident",
+    "labels": [
+      "Upstream view",
+      "Campus view",
+      "Application view",
+      "Aligned time"
+    ],
+    "cue": "Keep offered load, accepted load, and application health distinct.",
+    "kind": "layers",
+    "narration": "The Upstream view can show traffic that a campus sensor never receives. In the incident fixture, the provider observes two thousand four hundred megabits per second offered toward Northstar. The Campus view records two hundred accepted, with an equivalent two thousand two hundred discarded at the constrained ingress. These values describe different observation points in the same simplified accounting model. The Application view shows processor use at twenty five percent, while only twenty of one hundred simulated user attempts succeed. Low processor use does not rule out a network bottleneck. Requests may fail before the server receives enough work to become busy. Aligned time keeps these observations tied to the same sixty-second window. In a real investigation, verify clock alignment, counter meaning, sampling, and packet-loss visibility before combining dashboards. A campus graph capped at link capacity cannot by itself reveal all offered upstream demand. The class can support an ingress-capacity finding from these stipulated observations while leaving attacker identity and intent open. Every value on this board is simulated output.",
+    "motion": "Provider, campus, and application rows align vertically, with offered traffic narrowing at ingress before reaching the server row."
+  },
+  {
+    "id": "S36",
+    "title": "Separate detection from attribution",
+    "labels": [
+      "Rate alone",
+      "Supporting signal",
+      "Alternative cause",
+      "Confidence level"
+    ],
+    "cue": "Turn an alert into a bounded evidence statement.",
+    "kind": "tree",
+    "narration": "Rate alone can trigger a useful investigation, but it cannot identify the actor or establish malicious intent. A Supporting signal might include a saturated resource, unusual request behavior, rising failures, or a matching provider observation. Each signal has a measurement boundary. A high reset count has different meaning from high processor demand, and both differ from user failure. An Alternative cause could be a scheduled enrollment event, a broken client retrying requests, an application regression, or a failing dependency. These causes can also overlap. State a Confidence level for the specific claim you can support. For example, the simulated evidence can show that a dependency pool is full while leaving the reason unresolved. Preserve that distinction when escalating. Blocking by source address can affect unrelated people behind shared gateways, and address changes can weaken simplistic rules. Northstar's analyst records observed impact first, the suspected mechanism next, and attribution as a separate question. A cautious interpretation still permits an authorized protective response when service availability is at risk.",
+    "motion": "An alert branches into supporting evidence and alternative causes, then joins a claim card with a bounded confidence marker."
+  },
+  {
+    "id": "S37",
+    "title": "Use tools on saved evidence",
+    "labels": [
+      "Saved capture",
+      "Flow summary",
+      "Host counters",
+      "Known limits"
+    ],
+    "cue": "Choose a read-only tool for each evidence question.",
+    "kind": "checklist",
+    "narration": "A Saved capture lets a packet analyzer inspect the constructed exchange without sending it. In this course, Wireshark can help read packet structure, direction, protocol fields, and captured lengths from the provided file. A Flow summary groups traffic into records with defined counters and time windows. It can reveal broad changes while omitting details that only packets contain. Host counters show server resources such as connection state, processor use, pool occupancy, and queue size. Northstar's supplied files model those counters offline. Known limits belong beside each result. A capture may be truncated, sampled, or taken after packets were dropped. A flow exporter may count bytes differently from a switch. A host snapshot can miss a short event between samples. The selected tool should answer a specific question, and its input should remain identifiable. We read the fixture files and verify calculations; we do not activate a listener, generate traffic, replay packets, or scan remote systems. A screenshot proves what a tool displayed, while the saved input and calculation support reproducibility.",
+    "motion": "A saved packet file, a flow table, and a host snapshot slide into separate tool panels with their limits displayed underneath."
+  },
+  {
+    "id": "S38",
+    "title": "Make the evidence reproducible",
+    "labels": [
+      "Preserve originals",
+      "Test calculation",
+      "State uncertainty",
+      "Choose next check"
+    ],
+    "cue": "Carry source files and calculation assumptions into the finding.",
+    "kind": "flow",
+    "narration": "Preserve originals before transforming evidence. Keep the supplied file, its origin, its collection description, and a hash that helps detect later byte changes. A matching hash does not prove that the original observation was truthful or complete. Test calculation means checking the units and arithmetic against the recorded inputs. For case three, compare packet lengths with packet lengths. For case four, convert milliseconds into seconds before multiplying by requests each second. State uncertainty where the record stops. Synthetic rows show the relationships the exercise stipulates, while a production claim needs real target observations. Missing timestamps, sampling details, or counter definitions can change an interpretation. Choose next check according to the unresolved decision. A full dependency pool suggests checking which operations hold slots; a capped campus link suggests asking the provider about offered traffic. Avoid collecting unrelated data simply because a tool can display it. Tally attaches each claim to its file and calculation, giving another reviewer enough information to repeat the analysis and challenge the conclusion.",
+    "motion": "Original evidence cards remain fixed while calculation and claim cards connect to them, ending at one unresolved next-check card."
+  },
+  {
+    "id": "S39",
+    "title": "Protect the resource that is constrained",
+    "labels": [
+      "Upstream capacity",
+      "Connection state",
+      "Application work",
+      "User continuity"
+    ],
+    "cue": "Select a control by resource and placement.",
+    "kind": "layers",
+    "narration": "Upstream capacity requires a response before unwanted traffic consumes the constrained link. Provider filtering or an appropriate traffic-cleaning service may help there. A firewall behind a saturated campus connection cannot recover capacity already spent carrying that traffic. Connection state needs protections appropriate to the handshake or connection resource. Application work needs budgets that reflect request cost, downstream limits, and useful tasks. A web application firewall can inspect supported application traffic, while a content delivery network can absorb or cache suitable traffic. Their coverage depends on architecture, configuration, and which paths reach the origin. Neither name guarantees protection against every availability mechanism. User continuity keeps the response tied to the learning service. A control that drops all access can reduce load while leaving the intended service unavailable. Northstar maps its four simulated cases to different constrained resources before recommending a control. The class should identify what the control protects, where it acts, who can authorize it, and which legitimate operation must still succeed during validation.",
+    "motion": "Four resource layers appear, and control tokens stop at their matching layers before a learner-success path is traced through them."
+  },
+  {
+    "id": "S40",
+    "title": "Bound application work and dependencies",
+    "labels": [
+      "Admission budget",
+      "Reusable response",
+      "Bounded work",
+      "Dependency isolation"
+    ],
+    "cue": "Prevent expensive requests from consuming every shared resource.",
+    "kind": "flow",
+    "narration": "An Admission budget limits how much work a service accepts. The budget may depend on authenticated users, operations, or estimated cost, rather than only source address. Shared addresses and uneven request costs make one simple counter incomplete. A Reusable response can avoid repeating suitable computation, but cache rules must preserve correctness and the privacy of user-specific data. Bounded work places limits on processing, waiting, and retries. Dependency isolation reserves capacity so one slow operation cannot consume every slot needed by another. In Northstar's toy case, these ideas address different parts of the twenty four-core demand estimate and the full thirty two-slot pool. A cache may reduce processor work while leaving a blocked dependency unchanged. Queue limits can prevent unlimited waiting while requiring a clear rejection or retry response to clients. Treat each change as a proposed control with an expected measurable effect. Our supplied recovery examples are simulated output. Operators would still need authorized configuration changes and real observations of latency, errors, resource use, and successful learner tasks.",
+    "motion": "Requests pass an admission gate, reusable responses bypass computation, and separate bounded lanes protect the shared dependency pool."
+  },
+  {
+    "id": "S41",
+    "title": "Tune protective thresholds with outcomes",
+    "labels": [
+      "Baseline threshold",
+      "Protective action",
+      "False rejection",
+      "Rollback condition"
+    ],
+    "cue": "Measure service benefit and legitimate rejection together.",
+    "kind": "comparison",
+    "narration": "A Baseline threshold should reflect the relevant resource and expected service pattern. A request-rate threshold chosen for a quiet period can be inappropriate during normal enrollment. A Protective action might slow admission, challenge a supported client, reject excess work, or request upstream assistance. Choose it within the operator's authority and document what should improve. False rejection measures legitimate tasks that the control prevents or delays beyond an acceptable limit. Watching only the volume dropped can hide that harm. A Rollback condition defines when an authorized change should be revised or reversed because its effects differ from expectations. Compare equivalent windows and keep track of other changes that could explain recovery. Lower load after a rule is applied does not alone prove that the rule caused improvement; the traffic source may have stopped independently. In this course, post-control rows are generated examples that support calculation practice. They do not establish deployment success. Tally keeps the predicted result and the observed result in separate boxes until real validation evidence is available.",
+    "motion": "A proposed threshold moves onto the baseline chart while predicted and observed outcome boxes remain distinct beside rollback criteria."
+  },
+  {
+    "id": "S42",
+    "title": "Escalate with a useful handoff",
+    "labels": [
+      "Incident owner",
+      "Provider handoff",
+      "Change record",
+      "Recovery evidence"
+    ],
+    "cue": "Send the mechanism, evidence boundary, and requested action to the right owner.",
+    "kind": "flow",
+    "narration": "The Incident owner coordinates the availability response and keeps technical actions connected to service priorities. A Provider handoff should identify the affected service, incident window, observation point, traffic units, and the suspected constrained resource. Include relevant evidence and a clear request within the existing support agreement. Protect private identifiers and operational details through the approved channel. A Change record names the operator, authorization, action, expected result, and rollback condition. That record allows later reviewers to connect recovery observations with the actual sequence of decisions. Recovery evidence should include the intended learner task as well as resource counters. A quiet graph is insufficient when users still cannot sign in or retrieve their lessons. Northstar's offline exercise prepares this handoff as a draft and performs no external contact. The final finding can explain why upstream help, protocol protection, or an application change fits a particular case. It must also state what remains unknown and which observation would resolve that uncertainty before the team declares the service restored.",
+    "motion": "Evidence cards assemble into an owner-specific handoff, followed by a change marker and a separate learner-task recovery check."
+  }
+]

@@ -1,0 +1,46 @@
+# M10 learner worksheet
+
+Prepared namespace: M10-source-v1; film references: M10-film-v1. Current learner result: **not_recorded**. Use the [study guide](STUDY_GUIDE.md), [questions](ASSESSMENT_STUDENT.md) and [independent key](ASSESSMENT_INSTRUCTOR.md) at the agreed endpoint. The shared learning route retains its existing capacity; this worksheet adds no time quota.
+
+## Activate one bounded block
+
+Date/timezone: ____ · Actual topic/blocker: ____ · Used minutes before start: ____ · Remaining capacity: ____ · Endpoint: ____.
+
+Mode: new concept, one question at a time / familiar concept, ten-item drill. Prior exposure or assistance: ____. Save the first choice and low / medium / high confidence before feedback. Original score is correct / actually answered; record unanswered items separately. Feedback does not overwrite a first answer.
+
+| Item and namespace | First choice | Confidence | Reasoning | Exposure/assistance | Key result |
+| --- | --- | --- | --- | --- | --- |
+| ____ | ____ | ____ | ____ | ____ | ____ |
+
+## Analyze the four cases
+
+| Case | File/field and observation point | Interval/unit | Supported resource finding | Unknown | Owner and proposed next check |
+| --- | --- | --- | --- | --- | --- |
+| [E01 WAN](lab_mock/E01_wan_windows.csv) | ____ | ____ | ____ | ____ | ____ |
+| [E02 state](lab_mock/E02_connection_state.csv) | ____ | ____ | ____ | ____ | ____ |
+| [E03 packet](lab_mock/E03_reflector_fixture.pcap) and [contract](lab_mock/E03_observation_contract.json) | ____ | ____ | ____ | ____ | ____ |
+| [E04 work](lab_mock/E04_request_work.csv) | ____ | ____ | ____ | ____ | ____ |
+
+Calculations to save: E01 incident conservation and rate conversion; E02 unique completion fraction; E03 paired IP and Ethernet ratios; E04 ordinary, incident and legitimate-counterexample CPU demand. State why pool occupancy does not by itself prove its cause.
+
+Command and tool identity: ____ · Input hashes: ____ · Actual output: ____ · Saved brief/calculation paths: ____ · Blocker if any: ____.
+
+The [local verifier](tooling/verify_evidence.py) parses supplied files and writes [its local report](validation/evidence-verification.json). A builder-created report is source QA. Your own activation, command and saved result establish what you personally executed.
+
+## Correct an observed error
+
+Original item/choice/confidence: ____ · Specific misconception: ____ · Plain-English correction: ____ · Supporting scene/source: ____.
+
+Assign at least three varied retests that require the corrected reasoning in different situations. Give each a distinct retest ID and preserve its relation to the original. A wrong retest needs its own correction and varied retests; retain unfinished work at the endpoint. Low-confidence correct answers need a reasoning check.
+
+| Retest | New situation/question ID | Choice and confidence | Result and correction | Evidence |
+| --- | --- | --- | --- | --- |
+| 1 | ____ | ____ | ____ | ____ |
+| 2 | ____ | ____ | ____ | ____ |
+| 3 | ____ | ____ | ____ | ____ |
+
+## Plan two-sided validation
+
+Proposed control/location/owner: ____ · Expected resource effect: ____ · Required legitimate-user task: ____ · Unwanted condition to address: ____ · Observation interval and counters: ____ · Approval needed for a real test: ____ · Rollback condition: ____.
+
+All case records remain SIMULATED OUTPUT. Offline calculation, a proposed test, a real operational result and accepted learner practice each have their own evidence. Complete the [blank closeout](CLOSEOUT.md) using only the layer actually executed.

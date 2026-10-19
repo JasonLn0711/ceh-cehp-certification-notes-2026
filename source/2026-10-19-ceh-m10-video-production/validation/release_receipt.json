@@ -1,0 +1,14 @@
+{
+  "status": "source_ready",
+  "archive": "/home/jnlngx10/Videos/CEH_M10_v1_0/output/CEH_M10_English_Masterclass_HandDrawn_Editorial_v1_FULL.zip",
+  "archive_bytes": 11876530,
+  "archive_sha256": "5541e68e98096ea998201b445e8ad565b31ce22e809b638e717510854a16cdf0",
+  "archive_file_count": 332,
+  "payload_hashes_verified": 330,
+  "crc_failures": 0,
+  "extraction_hash_failures": 0,
+  "source_qa_passed": 627,
+  "source_qa_failed": 0,
+  "actual_final_mp4_rendered": false,
+  "elapsed_seconds": 1.483
+}

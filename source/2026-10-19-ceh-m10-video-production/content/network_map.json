@@ -1,0 +1,287 @@
+{
+  "organization": "Northstar Learning Center (fictional)",
+  "domain": "northstar.example.test (reserved test namespace)",
+  "scope_warning": "These are made-up training devices and role labels. Commands are static teaching illustrations, not permission to contact hosts.",
+  "zones": {
+    "Office": "10.44.10.0/24",
+    "Servers": "10.44.20.0/24",
+    "Devices": "10.44.30.0/24",
+    "Voice": "10.44.40.0/24",
+    "Edge": "10.44.40.0/24",
+    "Remote": "10.45.0.0/16",
+    "External documentation": "203.0.113.0/24"
+  },
+  "nodes": [
+    {
+      "id": "ANALYST",
+      "name": "Authorized Analyst",
+      "role": "Audit workstation",
+      "training_ip": "10.44.10.10",
+      "zone": "Office",
+      "typical_authorized_users": "read-only practice account",
+      "related_topics": [
+        "evidence",
+        "scope"
+      ]
+    },
+    {
+      "id": "STAFF",
+      "name": "Teacher Laptop",
+      "role": "Employee endpoint",
+      "training_ip": "10.44.10.21",
+      "zone": "Office",
+      "typical_authorized_users": "teachers",
+      "related_topics": [
+        "DNS",
+        "SMB",
+        "SMTP"
+      ]
+    },
+    {
+      "id": "WINDOWS",
+      "name": "Legacy Windows PC",
+      "role": "Office endpoint",
+      "training_ip": "10.44.10.42",
+      "zone": "Office",
+      "typical_authorized_users": "office operations",
+      "related_topics": [
+        "NetBIOS",
+        "SMB"
+      ]
+    },
+    {
+      "id": "DNS",
+      "name": "Name Server",
+      "role": "DNS resolver + training zone",
+      "training_ip": "10.44.20.53",
+      "zone": "Servers",
+      "typical_authorized_users": "IT",
+      "related_topics": [
+        "DNS",
+        "DNSSEC"
+      ]
+    },
+    {
+      "id": "DIR",
+      "name": "Directory Server",
+      "role": "LDAP directory",
+      "training_ip": "10.44.20.30",
+      "zone": "Servers",
+      "typical_authorized_users": "help desk",
+      "related_topics": [
+        "LDAP"
+      ]
+    },
+    {
+      "id": "SMB",
+      "name": "File Server",
+      "role": "Windows file services and approved management RPC",
+      "training_ip": "10.44.20.40",
+      "zone": "Servers",
+      "typical_authorized_users": "staff",
+      "related_topics": [
+        "SMB",
+        "RPC"
+      ]
+    },
+    {
+      "id": "NFS",
+      "name": "Linux Lab Server",
+      "role": "File exports + local users",
+      "training_ip": "10.44.20.50",
+      "zone": "Servers",
+      "typical_authorized_users": "lab team",
+      "related_topics": [
+        "NFS",
+        "Linux accounts"
+      ]
+    },
+    {
+      "id": "LINUX",
+      "name": "Linux Workstation",
+      "role": "Authorized local identity examples",
+      "training_ip": "10.44.20.55",
+      "zone": "Servers",
+      "typical_authorized_users": "science lab",
+      "related_topics": [
+        "Unix/Linux"
+      ]
+    },
+    {
+      "id": "SMTP",
+      "name": "Mail Server",
+      "role": "Mail transfer",
+      "training_ip": "10.44.20.25",
+      "zone": "Servers",
+      "typical_authorized_users": "IT",
+      "related_topics": [
+        "SMTP"
+      ]
+    },
+    {
+      "id": "NTP",
+      "name": "Time Server",
+      "role": "Time synchronization",
+      "training_ip": "10.44.20.123",
+      "zone": "Servers",
+      "typical_authorized_users": "IT",
+      "related_topics": [
+        "NTP"
+      ]
+    },
+    {
+      "id": "SWITCH",
+      "name": "Core Switch",
+      "role": "Managed office switch",
+      "training_ip": "10.44.30.2",
+      "zone": "Devices",
+      "typical_authorized_users": "network admins",
+      "related_topics": [
+        "SNMP"
+      ]
+    },
+    {
+      "id": "PRINTER",
+      "name": "Print Room Printer",
+      "role": "Managed printer",
+      "training_ip": "10.44.30.60",
+      "zone": "Devices",
+      "typical_authorized_users": "office staff",
+      "related_topics": [
+        "SNMP"
+      ]
+    },
+    {
+      "id": "VOIP",
+      "name": "Phone System",
+      "role": "SIP registration/signaling",
+      "training_ip": "10.44.40.70",
+      "zone": "Voice",
+      "typical_authorized_users": "telephony admins",
+      "related_topics": [
+        "VoIP",
+        "SIP"
+      ]
+    },
+    {
+      "id": "LEGACY",
+      "name": "Device Setup Station",
+      "role": "Isolated old service example",
+      "training_ip": "10.44.30.90",
+      "zone": "Devices",
+      "typical_authorized_users": "device admins",
+      "related_topics": [
+        "FTP",
+        "TFTP",
+        "Telnet"
+      ]
+    },
+    {
+      "id": "EDGE",
+      "name": "Campus Edge",
+      "role": "Edge router, firewall, IKE gateway",
+      "training_ip": "10.44.40.1",
+      "zone": "Edge",
+      "typical_authorized_users": "network admins",
+      "related_topics": [
+        "IPsec",
+        "IKE",
+        "BGP"
+      ]
+    },
+    {
+      "id": "REMOTE",
+      "name": "Remote Campus",
+      "role": "Second site",
+      "training_ip": "10.45.0.0/16",
+      "zone": "Remote",
+      "typical_authorized_users": "remote staff",
+      "related_topics": [
+        "IPsec"
+      ]
+    },
+    {
+      "id": "ISP",
+      "name": "Training ISP",
+      "role": "Synthetic upstream peer",
+      "training_ip": "203.0.113.1",
+      "zone": "External documentation",
+      "typical_authorized_users": "upstream",
+      "related_topics": [
+        "BGP"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "from": "STAFF",
+      "to": "DNS",
+      "meaning": "Ask for names"
+    },
+    {
+      "from": "STAFF",
+      "to": "SMB",
+      "meaning": "Open approved shares"
+    },
+    {
+      "from": "STAFF",
+      "to": "SMTP",
+      "meaning": "Send mail"
+    },
+    {
+      "from": "ANALYST",
+      "to": "DIR",
+      "meaning": "Approved directory query"
+    },
+    {
+      "from": "ANALYST",
+      "to": "SMB",
+      "meaning": "Approved share list"
+    },
+    {
+      "from": "ANALYST",
+      "to": "SWITCH",
+      "meaning": "SNMP management check"
+    },
+    {
+      "from": "SWITCH",
+      "to": "PRINTER",
+      "meaning": "Office connectivity"
+    },
+    {
+      "from": "LINUX",
+      "to": "NFS",
+      "meaning": "Approved lab mount"
+    },
+    {
+      "from": "SMTP",
+      "to": "DNS",
+      "meaning": "Look up mail destination"
+    },
+    {
+      "from": "SMB",
+      "to": "DIR",
+      "meaning": "May rely on identity data; design-dependent"
+    },
+    {
+      "from": "NFS",
+      "to": "NTP",
+      "meaning": "Consistent timestamps"
+    },
+    {
+      "from": "VOIP",
+      "to": "STAFF",
+      "meaning": "Phone signaling relationships"
+    },
+    {
+      "from": "EDGE",
+      "to": "REMOTE",
+      "meaning": "Protected site link"
+    },
+    {
+      "from": "EDGE",
+      "to": "ISP",
+      "meaning": "Synthetic BGP route exchange"
+    }
+  ]
+}

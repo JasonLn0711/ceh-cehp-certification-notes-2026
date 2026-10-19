@@ -1,0 +1,157 @@
+# M10 prepared pretest
+
+Prepared assessment namespace: **M10-source-v1**. The eight film items retain **M10-film-v1/Q01–Q08**. These are original teaching items, not official exam questions. Existing 600-question bank IDs, first answers and scores remain unchanged.
+
+At an activated learning block, record the learner's used minutes, remaining capacity and endpoint. New concepts use one question at a time with choice and low / medium / high confidence before feedback. Familiar concepts may use a ten-item drill with feedback after the batch or endpoint. Preserve original answers before showing the independent key. Mark prior exposure or assistance. For each actual error, explain the mechanism and assign at least three varied retests; retain their results separately. At the endpoint, save partial work and the exact next question. Prepared questions and package QA are not learner progress.
+
+These ten independently authored prepared questions are PRE01–PRE10 under M10-source-v1. [Answer key](PRETEST_KEY.md) stays separate. An unanswered item remains unanswered.
+
+## PRE01
+
+A portal answers its basic health endpoint, but authorized students cannot finish enrollment. Which measure best tests the required availability?
+
+A. Whether the machine has electrical power
+B. Whether the defined enrollment task reaches its confirmation
+C. Whether every source address is different
+D. Whether the application has the newest visual theme
+
+Mapping: M10-source-v1/PRE01. Scenes: S01, S02, S03.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## PRE02
+
+Two links carry the same byte rate, but one carries many more small packets. Which additional measurement helps examine packet-handling pressure?
+
+A. Only the total number of domain names
+B. Only the display resolution of the server
+C. Packets per second with relevant device drops and health
+D. The number of letters in each source address
+
+Mapping: M10-source-v1/PRE02. Scenes: S07, S13.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## PRE03
+
+A campus counter stops at link capacity while an aligned provider counter reports greater offered demand. Which interpretation preserves both observations?
+
+A. The counters can describe accepted traffic and offered traffic at different points
+B. The provider value must be added to the campus value as independent arrivals
+C. The campus value proves that no other traffic tried to arrive
+D. The larger value identifies a particular human attacker
+
+Mapping: M10-source-v1/PRE03. Scenes: S11, S12, S35.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## PRE04
+
+A fixture reports 1,024 half-open entries at one observation and 6,000 unique attempts during a minute. What must an analyst preserve?
+
+A. Every attempt must occupy state simultaneously
+B. The number of attempts is the server's backlog capacity
+C. Every repeated packet creates a distinct new user
+D. A state snapshot and an interval total measure different things
+
+Mapping: M10-source-v1/PRE04. Scenes: S17, S18, S19.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## PRE05
+
+Which remaining limit can still affect a server using suitable SYN cookies?
+
+A. Packet-processing or application-work capacity
+B. No limit, because cookies create unlimited resources
+C. Only the color of the operating-system interface
+D. No legitimate-client tradeoffs need review
+
+Mapping: M10-source-v1/PRE05. Scenes: S20, S21, S22.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## PRE06
+
+The same request and reply have IP lengths of 60 and 3,000 bytes and Ethernet lengths of 74 and 3,014 bytes. Why do the two consistent-layer ratios differ?
+
+A. The packet file must have sent the reply twice
+B. Added Ethernet header bytes change both totals and the denominator
+C. Ethernet byte totals always equal IP byte totals
+D. Any larger ratio proves the fixture came from the Internet
+
+Mapping: M10-source-v1/PRE06. Scenes: S24, S25.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## PRE07
+
+Which operator is positioned to reject traffic with an invalid source prefix as it enters from the originating customer's network?
+
+A. Only a finance employee reviewing invoices
+B. Only the destination web application after every constrained link
+C. The network operator at that source-validation boundary
+D. Any analyst who opens a local packet file
+
+Mapping: M10-source-v1/PRE07. Scenes: S26, S27, S28.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## PRE08
+
+In a separate toy calculation, 250 requests per second each need 40 milliseconds of CPU service. What is the offered processor demand?
+
+A. 0.04 core-seconds per second
+B. 250 core-seconds per second
+C. 6.25 core-seconds per second
+D. 10 core-seconds per second
+
+Mapping: M10-source-v1/PRE08. Scenes: S29, S30.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## PRE09
+
+A saved record contains many HTTP/2 stream cancellations. Which next interpretation is justified before declaring a Rapid Reset attack?
+
+A. Every cancellation proves a malicious user
+B. Examine behavior over time, implementation costs, resource pressure and user impact
+C. A canceled request proves all downstream work stopped instantly
+D. Count only bandwidth because stream behavior cannot affect work
+
+Mapping: M10-source-v1/PRE09. Scenes: S31, S32, S33.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## PRE10
+
+Which action is authorized by this source package's practical exercise?
+
+A. Replay the PCAP toward a public resolver
+B. Load-test a school service without separate scope
+C. Parse the supplied local files and write an evidence-based incident brief
+D. Deploy a provider filter based only on an AI recommendation
+
+Mapping: M10-source-v1/PRE10. Scenes: S04, S37, S49, S58.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.

@@ -1,0 +1,7 @@
+# M10 style inheritance
+
+The approved M04 v3 original Tally, campus identities, map, palette, stroke widths and safe areas are inherited through M09. LOCKED_SOURCE_SHA256.json preserves all44 original locked identities. New teaching labels, resource diagrams and case records are separately authored; the original mascot is reused.
+
+STYLE_TOKENS.json retains historical display-font wording unchanged as a locked source. Actual source/runtime uses shipped licensed Liberation Sans and DejaVu Sans Mono; consult included license records. The included local font files and actual renderer receipts establish what was used. Source boards are editable references; final native animations require separate actual browser/encoded checks.
+
+Resource diagrams reserve the bottom caption zone and show SIMULATED OUTPUT for invented records. Distinct measurement points and layers stay visible. A drawn arrow states its relationship; it never silently grants identity, intent or a successful control outcome.

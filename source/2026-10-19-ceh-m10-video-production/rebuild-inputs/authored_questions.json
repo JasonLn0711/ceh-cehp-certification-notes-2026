@@ -1,0 +1,218 @@
+[
+  {
+    "id": "Q01",
+    "scene_id": "S50",
+    "level": "Foundation",
+    "prompt": "Which observation directly records an availability impact on Northstar users?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "An increase in the number of source addresses"
+      },
+      {
+        "letter": "B",
+        "text": "A server processor reading of twenty-five percent"
+      },
+      {
+        "letter": "C",
+        "text": "A larger response than request in a constructed packet pair"
+      },
+      {
+        "letter": "D",
+        "text": "Only five of one hundred stipulated client tasks succeed"
+      }
+    ],
+    "correct_letter": "D",
+    "silent_think_seconds": 1,
+    "explanation": "The client-task result directly describes whether the selected users could complete the service action in the fixture. Source-address counts describe traffic distribution, and a processor reading describes one resource. Neither alone establishes user impact. A larger reply describes an amplification property, which may be relevant to an incident but does not measure a user's task. Keep the observation window, task definition, and selected population with the success result. Five successes out of one hundred stipulated checks supports that sample; it does not establish the experience of every user. These records are simulated output. Availability impact also does not determine malicious intent, identify a person, or prove that a particular resource caused the failure. Those are separate conclusions requiring their own evidence."
+  },
+  {
+    "id": "Q02",
+    "scene_id": "S51",
+    "level": "Foundation",
+    "prompt": "Which constructed sequence describes reflection with amplification toward a victim?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Many controlled clients send their own requests directly to the victim"
+      },
+      {
+        "letter": "B",
+        "text": "A request carries the victim's forged source address, and a reflector sends a larger reply toward the victim"
+      },
+      {
+        "letter": "C",
+        "text": "A client slowly sends data on a connection it established with the victim"
+      },
+      {
+        "letter": "D",
+        "text": "One expensive application request consumes substantial processor time at the victim"
+      }
+    ],
+    "correct_letter": "B",
+    "silent_think_seconds": 1,
+    "explanation": "The forged source directs the reflector's reply toward the victim. A larger reply, measured with a consistent byte convention, supplies the amplification property in this constructed example. Direct requests from many controlled clients describe distributed traffic without that reflected path. A slow established connection concerns connection or application behavior. An expensive request concerns work per request. Those mechanisms can affect availability, but neither supplies the request-and-reflected-reply sequence asked here. In the Northstar packet fixture, the forged source is explicitly constructed and no traffic is sent. In a real investigation, a visible source address alone would not prove who sent the original request. Confirm the observation point, protocol behavior, and relevant records before drawing that conclusion."
+  },
+  {
+    "id": "Q03",
+    "scene_id": "S52",
+    "level": "Application",
+    "prompt": "The provider observes twenty-four hundred megabits per second offered to Northstar's two-hundred-megabit connection. The campus accepts two hundred, and user checks fail. Which action best addresses that constrained connection?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Coordinate suitable protection with the provider before the constrained campus ingress"
+      },
+      {
+        "letter": "B",
+        "text": "Increase the web server's application queue while leaving ingress unchanged"
+      },
+      {
+        "letter": "C",
+        "text": "Rely only on a web filter that sees traffic after the saturated connection"
+      },
+      {
+        "letter": "D",
+        "text": "Treat spare server processor capacity as proof the service is available"
+      }
+    ],
+    "correct_letter": "A",
+    "silent_think_seconds": 1,
+    "explanation": "Protection before the constrained ingress can affect which traffic consumes that connection. The provider owns an upstream observation and control location, so coordination is appropriate. A larger application queue addresses a different resource and may increase waiting. A web filter after the link can protect application work but cannot recover bandwidth already consumed on that link. Spare processor capacity does not establish that users can reach the service. The proposed provider action still needs authorization, a suitable traffic-selection method, and checks for legitimate-user impact. The fixture distinguishes offered traffic at the provider from accepted traffic at campus in the same interval. It supports the location of the bottleneck in this simulated case, without proving an attacker's identity or the effectiveness of an untested control."
+  },
+  {
+    "id": "Q04",
+    "scene_id": "S53",
+    "level": "Application",
+    "prompt": "In one aligned sixty-second fixture, six thousand unique connection attempts produce sixty completed handshakes. Retransmissions are counted separately. Which calculation and interpretation are supported?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Sixty percent complete, because sixty handshakes were recorded"
+      },
+      {
+        "letter": "B",
+        "text": "About six percent complete, using backlog capacity as the attempt count"
+      },
+      {
+        "letter": "C",
+        "text": "One percent complete for the stipulated window; the result alone does not establish intent"
+      },
+      {
+        "letter": "D",
+        "text": "Ninety-nine percent of source addresses are proven to be forged"
+      }
+    ],
+    "correct_letter": "C",
+    "silent_think_seconds": 1,
+    "explanation": "Sixty divided by six thousand is zero point zero one, or one percent. The stipulated unique counters and common window make that calculation meaningful here. Sixty is a count, so it cannot become sixty percent without a denominator. Backlog capacity measures available state, not the number of attempts. A low completion fraction does not prove that the remaining source addresses were forged or that all failures were malicious. Connection progress, state occupancy, and user success help identify a resource problem; attribution requires other evidence. In live telemetry, check counter definitions and interval boundaries before applying the same division. Attempts that cross an interval boundary or repeated records can otherwise change its meaning. Our result describes the constructed window rather than an observed live server."
+  },
+  {
+    "id": "Q05",
+    "scene_id": "S54",
+    "level": "Application",
+    "prompt": "The constructed request is sixty Internet Protocol bytes and seventy-four Ethernet bytes. Its reply is three thousand Internet Protocol bytes and three thousand fourteen Ethernet bytes. Which calculation gives amplification at the Internet Protocol layer?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Three thousand fourteen divided by sixty"
+      },
+      {
+        "letter": "B",
+        "text": "Three thousand divided by seventy-four"
+      },
+      {
+        "letter": "C",
+        "text": "Three thousand fourteen divided by seventy-four"
+      },
+      {
+        "letter": "D",
+        "text": "Three thousand divided by sixty, giving fifty times"
+      }
+    ],
+    "correct_letter": "D",
+    "silent_think_seconds": 1,
+    "explanation": "The requested layer determines the pair: three thousand Internet Protocol reply bytes divided by sixty Internet Protocol request bytes equals fifty. The first two alternatives mix an Ethernet count with an Internet Protocol count, so they do not answer a consistent-layer question. The third uses Ethernet for both sides and can describe that separate byte convention, but it is not the requested layer and does not equal fifty. State the numerator, denominator, layer, and pairing rule when reporting amplification. The fixture constructs the reflector-side request and response. A victim-ingress record would be a separate observation point. Their sizes demonstrate the fixture's byte relationship, not a measured traffic rate, real attack volume, or control effectiveness. The exercise reads local evidence without sending either packet."
+  },
+  {
+    "id": "Q06",
+    "scene_id": "S55",
+    "level": "Application",
+    "prompt": "Northstar has an eight-core processor budget. One hundred twenty requests per second each require two hundred milliseconds of processor service in the toy model. What is the strongest resource-based interpretation?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Demand is twenty-four core-seconds per second, so bounded work and suitable admission controls deserve evaluation"
+      },
+      {
+        "letter": "B",
+        "text": "Demand is zero point two core-seconds per second because only per-request time matters"
+      },
+      {
+        "letter": "C",
+        "text": "The service must have spare capacity because the request count is below three hundred per second"
+      },
+      {
+        "letter": "D",
+        "text": "The calculation proves every request is malicious and identifies its sender"
+      }
+    ],
+    "correct_letter": "A",
+    "silent_think_seconds": 1,
+    "explanation": "Multiply one hundred twenty requests per second by zero point two core-seconds per request. Demand is twenty-four core-seconds per second, exceeding the eight-core budget in this model. Per-request time alone omits the arrival rate. Comparing request counts alone omits the service cost: the separate legitimate example has three hundred requests per second but requires only one point five core-seconds per second. The arithmetic establishes neither intent nor sender identity. Work limits and admission controls are candidates because they address demand placed on finite resources. Cache behavior, dependencies, and queue limits may need separate review. Actual effectiveness and legitimate-user impact require implementation-specific evidence. These values are simulated assumptions for a capacity exercise, not a measured benchmark of a deployed application."
+  },
+  {
+    "id": "Q07",
+    "scene_id": "S56",
+    "level": "Analysis",
+    "prompt": "A Northstar worksheet contains synthetic incident rows and synthetic recovery rows labeled as expected results after a proposed control. No live control trial occurred. What is the strongest supported closeout?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "The control is proven effective because the recovery numbers improved"
+      },
+      {
+        "letter": "B",
+        "text": "The simulated recovery establishes that every legitimate user will succeed"
+      },
+      {
+        "letter": "C",
+        "text": "The comparison illustrates the proposed check; actual effectiveness and recovery remain unvalidated"
+      },
+      {
+        "letter": "D",
+        "text": "A successful parser is equivalent to an approved production deployment"
+      }
+    ],
+    "correct_letter": "C",
+    "silent_think_seconds": 1,
+    "explanation": "The worksheet can demonstrate a comparison and test whether the parser handles the supplied evidence correctly. It cannot establish the behavior of a control that was never deployed or tested. Improved synthetic values therefore prove neither effectiveness nor universal legitimate-user success. A parser run validates its own calculation and output, while an approved production deployment is a separate operational event. Preserve the incident assumptions, expected recovery values, and actual execution status in the report. Specify who would authorize the trial, which user tasks and resource measurements would be checked, the observation interval, and the rollback condition. If a real trial later occurs, evaluate its actual evidence separately. Even an observed improvement may need further analysis before assigning its cause to the control."
+  },
+  {
+    "id": "Q08",
+    "scene_id": "S57",
+    "level": "Analysis",
+    "prompt": "An AI draft labels every visible source address as an attacker and reports a successful mitigation that has only been proposed. Which review best repairs both claims?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Accept the labels if the draft includes confident explanations and a plausible timeline"
+      },
+      {
+        "letter": "B",
+        "text": "Trace claims to source records, separate observations from attribution, and mark the control as proposed pending actual validation"
+      },
+      {
+        "letter": "C",
+        "text": "Keep the attribution because a source address uniquely proves a person's identity"
+      },
+      {
+        "letter": "D",
+        "text": "Convert expected recovery rows into actual measurements so the report has a complete result"
+      }
+    ],
+    "correct_letter": "B",
+    "silent_think_seconds": 1,
+    "explanation": "The reviewer should preserve what the records actually support and correct unsupported conclusions. A source address describes a packet field or observation; it does not uniquely establish a person's identity or intent. Confidence and a plausible timeline cannot replace traceable evidence. Expected recovery rows remain expectations or simulated data, so relabeling them as measurements would falsify the execution state. Link each retained claim to its file, field, observation point, and window. Keep calculations reproducible and identify missing checks. A proposed control needs the responsible owner's authorization and actual validation before its implementation or success is reported. The assistant can help organize questions and drafts, while the human reviewer retains the evidence and decision responsibilities. This exercise authorizes offline analysis only."
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "id": "C01",
+    "title": "Availability at Northstar",
+    "learning_goal": "Identify service, user impact, authorization and evidence.",
+    "scene_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 323.846,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 861
+  },
+  {
+    "id": "C02",
+    "title": "Resources, rates and distributed demand",
+    "learning_goal": "Separate availability impact, resource exhaustion and source distribution.",
+    "scene_ids": [
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 324.176,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 862
+  },
+  {
+    "id": "C03",
+    "title": "Network capacity and volumetric pressure",
+    "learning_goal": "Locate bandwidth and packet-processing bottlenecks.",
+    "scene_ids": [
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16"
+    ],
+    "scene_count": 6,
+    "editorial_estimate_seconds": 395.143,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 1053
+  },
+  {
+    "id": "C04",
+    "title": "TCP state and protocol exhaustion",
+    "learning_goal": "Explain half-open state and mechanism-specific defenses.",
+    "scene_ids": [
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22"
+    ],
+    "scene_count": 6,
+    "editorial_estimate_seconds": 400.087,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 1068
+  },
+  {
+    "id": "C05",
+    "title": "Reflection and amplification",
+    "learning_goal": "Trace reflected replies and measure comparable byte counts.",
+    "scene_ids": [
+      "S23",
+      "S24",
+      "S25",
+      "S26",
+      "S27",
+      "S28"
+    ],
+    "scene_count": 6,
+    "editorial_estimate_seconds": 383.935,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 1019
+  },
+  {
+    "id": "C06",
+    "title": "Application work and modern protocols",
+    "learning_goal": "Bound expensive work, connections and dependencies.",
+    "scene_ids": [
+      "S29",
+      "S30",
+      "S31",
+      "S32",
+      "S33"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 316.923,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 840
+  },
+  {
+    "id": "C07",
+    "title": "Evidence-driven detection",
+    "learning_goal": "Correlate telemetry and distinguish demand from hostile activity.",
+    "scene_ids": [
+      "S34",
+      "S35",
+      "S36",
+      "S37",
+      "S38"
+    ],
+    "scene_count": 5,
+    "editorial_estimate_seconds": 317.582,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 842
+  },
+  {
+    "id": "C08",
+    "title": "Layered protection and escalation",
+    "learning_goal": "Place controls where they can protect the constrained resource.",
+    "scene_ids": [
+      "S39",
+      "S40",
+      "S41",
+      "S42"
+    ],
+    "scene_count": 4,
+    "editorial_estimate_seconds": 251.561,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 666
+  },
+  {
+    "id": "C09",
+    "title": "Four connected Northstar cases",
+    "learning_goal": "Evaluate four incident records and retain uncertainty.",
+    "scene_ids": [
+      "S43",
+      "S44",
+      "S45",
+      "S46"
+    ],
+    "scene_count": 4,
+    "editorial_estimate_seconds": 263.429,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 702
+  },
+  {
+    "id": "C10",
+    "title": "Response, recovery and AI assistance",
+    "learning_goal": "Restore service and verify evidence-based decisions.",
+    "scene_ids": [
+      "S47",
+      "S48",
+      "S49"
+    ],
+    "scene_count": 3,
+    "editorial_estimate_seconds": 194.11,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 516
+  },
+  {
+    "id": "C11",
+    "title": "Knowledge checks and capstone",
+    "learning_goal": "Apply the lesson through eight questions and an offline incident brief.",
+    "scene_ids": [
+      "S50",
+      "S51",
+      "S52",
+      "S53",
+      "S54",
+      "S55",
+      "S56",
+      "S57",
+      "S58"
+    ],
+    "scene_count": 9,
+    "editorial_estimate_seconds": 677.363,
+    "editing_rule": "Derive final duration from actual speech, animation and reading needs; no runtime ceiling.",
+    "narration_words": 1812
+  }
+]

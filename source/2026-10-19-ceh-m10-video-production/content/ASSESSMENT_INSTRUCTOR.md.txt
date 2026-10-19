@@ -1,0 +1,49 @@
+# M10 independent instructor reference
+
+Open after recording the original choice and confidence. Keep original and retest scores separate. Film items use M10-film-v1; prepared answers do not add 600-bank first answers.
+
+## Q01 — D
+
+The client-task result directly describes whether the selected users could complete the service action in the fixture. Source-address counts describe traffic distribution, and a processor reading describes one resource. Neither alone establishes user impact. A larger reply describes an amplification property, which may be relevant to an incident but does not measure a user's task. Keep the observation window, task definition, and selected population with the success result. Five successes out of one hundred stipulated checks supports that sample; it does not establish the experience of every user. These records are simulated output. Availability impact also does not determine malicious intent, identify a person, or prove that a particular resource caused the failure. Those are separate conclusions requiring their own evidence.
+
+## Q02 — B
+
+The forged source directs the reflector's reply toward the victim. A larger reply, measured with a consistent byte convention, supplies the amplification property in this constructed example. Direct requests from many controlled clients describe distributed traffic without that reflected path. A slow established connection concerns connection or application behavior. An expensive request concerns work per request. Those mechanisms can affect availability, but neither supplies the request-and-reflected-reply sequence asked here. In the Northstar packet fixture, the forged source is explicitly constructed and no traffic is sent. In a real investigation, a visible source address alone would not prove who sent the original request. Confirm the observation point, protocol behavior, and relevant records before drawing that conclusion.
+
+## Q03 — A
+
+Protection before the constrained ingress can affect which traffic consumes that connection. The provider owns an upstream observation and control location, so coordination is appropriate. A larger application queue addresses a different resource and may increase waiting. A web filter after the link can protect application work but cannot recover bandwidth already consumed on that link. Spare processor capacity does not establish that users can reach the service. The proposed provider action still needs authorization, a suitable traffic-selection method, and checks for legitimate-user impact. The fixture distinguishes offered traffic at the provider from accepted traffic at campus in the same interval. It supports the location of the bottleneck in this simulated case, without proving an attacker's identity or the effectiveness of an untested control.
+
+## Q04 — C
+
+Sixty divided by six thousand is zero point zero one, or one percent. The stipulated unique counters and common window make that calculation meaningful here. Sixty is a count, so it cannot become sixty percent without a denominator. Backlog capacity measures available state, not the number of attempts. A low completion fraction does not prove that the remaining source addresses were forged or that all failures were malicious. Connection progress, state occupancy, and user success help identify a resource problem; attribution requires other evidence. In live telemetry, check counter definitions and interval boundaries before applying the same division. Attempts that cross an interval boundary or repeated records can otherwise change its meaning. Our result describes the constructed window rather than an observed live server.
+
+## Q05 — D
+
+The requested layer determines the pair: three thousand Internet Protocol reply bytes divided by sixty Internet Protocol request bytes equals fifty. The first two alternatives mix an Ethernet count with an Internet Protocol count, so they do not answer a consistent-layer question. The third uses Ethernet for both sides and can describe that separate byte convention, but it is not the requested layer and does not equal fifty. State the numerator, denominator, layer, and pairing rule when reporting amplification. The fixture constructs the reflector-side request and response. A victim-ingress record would be a separate observation point. Their sizes demonstrate the fixture's byte relationship, not a measured traffic rate, real attack volume, or control effectiveness. The exercise reads local evidence without sending either packet.
+
+## Q06 — A
+
+Multiply one hundred twenty requests per second by zero point two core-seconds per request. Demand is twenty-four core-seconds per second, exceeding the eight-core budget in this model. Per-request time alone omits the arrival rate. Comparing request counts alone omits the service cost: the separate legitimate example has three hundred requests per second but requires only one point five core-seconds per second. The arithmetic establishes neither intent nor sender identity. Work limits and admission controls are candidates because they address demand placed on finite resources. Cache behavior, dependencies, and queue limits may need separate review. Actual effectiveness and legitimate-user impact require implementation-specific evidence. These values are simulated assumptions for a capacity exercise, not a measured benchmark of a deployed application.
+
+## Q07 — C
+
+The worksheet can demonstrate a comparison and test whether the parser handles the supplied evidence correctly. It cannot establish the behavior of a control that was never deployed or tested. Improved synthetic values therefore prove neither effectiveness nor universal legitimate-user success. A parser run validates its own calculation and output, while an approved production deployment is a separate operational event. Preserve the incident assumptions, expected recovery values, and actual execution status in the report. Specify who would authorize the trial, which user tasks and resource measurements would be checked, the observation interval, and the rollback condition. If a real trial later occurs, evaluate its actual evidence separately. Even an observed improvement may need further analysis before assigning its cause to the control.
+
+## Q08 — B
+
+The reviewer should preserve what the records actually support and correct unsupported conclusions. A source address describes a packet field or observation; it does not uniquely establish a person's identity or intent. Confidence and a plausible timeline cannot replace traceable evidence. Expected recovery rows remain expectations or simulated data, so relabeling them as measurements would falsify the execution state. Link each retained claim to its file, field, observation point, and window. Keep calculations reproducible and identify missing checks. A proposed control needs the responsible owner's authorization and actual validation before its implementation or success is reported. The assistant can help organize questions and drafts, while the human reviewer retains the evidence and decision responsibilities. This exercise authorizes offline analysis only.
+
+## Capstone reference and acceptance criteria
+
+| Case | Supported result | Evidence limit | Appropriate next decision |
+| --- | --- | --- | --- |
+| E01 | In the aligned 60-second incident, provider offered demand is 2,400 Mbps, campus acceptance is 200 Mbps and equivalent constrained-ingress discard is 2,200 Mbps. Sampled user success is 20/100; server CPU is 25%. | Observation points differ. Saturation does not identify an attacker. | Ask the provider to evaluate protection before constrained ingress, with legitimate-user checks. |
+| E02 | Half-open occupancy and capacity are both 1,024. The stipulated completion fraction is 60/6,000 = 1%. Link traffic is 30 Mbps; client success is 5/100. | Occupancy is a snapshot, attempts/completions are interval totals, and retransmissions are separate. No deployed cookie or proxy test is supplied. | Define an implementation-specific connection-state control trial and legitimate-client criteria. |
+| E03 | IP sizes 60/3,000 yield 50×; Ethernet sizes 74/3,014 yield about 40.7×. Two constructed packets support local field parsing. | Forged source is constructed, no traffic is sent, and the teaching MTU is stipulated rather than an Internet path measurement. | Assign source validation, resolver/response controls and victim upstream protection to the appropriate owners. |
+| E04 | Toy CPU demand is 2 core-seconds/second ordinarily, 24 in the incident and 1.5 in the legitimate counterexample, against an eight-core budget. Incident dependency occupancy is 32/32 with queue 400. | Offered work is a toy calculation, not a benchmark. Pool occupancy does not prove its cause. | Evaluate bounded work, admission, queues, appropriate caching and dependency isolation at their respective resources. |
+
+Accept the offline brief only when the learner's own saved output demonstrates all of the following: identifiable input/tool/command and reproducible calculations; correct observation points and units; correct resource explanation without unsupported attribution; proposed controls matched to owner and location; both legitimate-task and resource validation criteria; and explicit unresolved questions and execution status. Review conceptual or calculation errors and their required varied retests. Missing learner execution requires activation before practical acceptance. This rubric supplies criteria; it records no accepted practical task.
+
+
+Use the [blank closeout](CLOSEOUT.md) for the actual learner record.

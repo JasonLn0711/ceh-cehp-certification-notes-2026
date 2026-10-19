@@ -1,0 +1,45 @@
+# M10 independent pretest key
+
+Namespace: M10-source-v1/PRE01–PRE10. Read after first choice/confidence. These explanations support correction, not an automatic score or readiness claim.
+
+## PRE01 — B
+
+The service objective is a completed enrollment, so test that task and record its result, time window and denominator. Electrical power and a basic endpoint can remain healthy while another part of the user path fails. Source distribution does not measure completion, and a visual theme does not establish reachability. A failed task records an availability symptom; its cause and any malicious intent need separate evidence.
+
+## PRE02 — C
+
+Packets per second describes the number of packet-processing events. Device drops and health can help determine whether that processing is constrained. Equal byte rates can contain different packet counts. Domain-name counts, display resolution and address-string length do not measure this resource. A real device limit still depends on its configuration and traffic mix; the comparison alone does not establish a specific measured capacity.
+
+## PRE03 — A
+
+Keep the accepted campus traffic and the offered provider demand tied to their observation points and aligned interval. A constrained ingress can accept less than is offered. Adding both as independent arrivals can double-count traffic, while the campus counter cannot reveal all upstream demand by itself. Neither value identifies a person or establishes intent. Verify the counter definitions before combining real measurements.
+
+## PRE04 — D
+
+Half-open occupancy is a state observation; attempts accumulate across the interval. The two values cannot establish simultaneous occupancy for every attempt. Capacity is a separate stipulated limit, and retransmissions must not silently become new unique attempts. Keep the clock, definitions and active defenses with the counters. This distinction helps explain resource pressure without inventing an exact connection history.
+
+## PRE05 — A
+
+SYN cookies address a particular incomplete-handshake state problem. They do not create unlimited bandwidth, packet-processing capacity, completed-connection resources or application capacity. Their implementation and legitimate-client behavior still need review. Interface colors do not address the mechanism, and removing tradeoff checks would omit important evidence. Treat cookies as a candidate with a narrow expected benefit, followed by an authorized validation plan.
+
+## PRE06 — B
+
+The Ethernet header adds bytes to each saved frame. Dividing 3,000 by 60 gives 50, while dividing 3,014 by 74 gives about 40.7. Both describe their stated accounting boundary. Neither includes every possible physical-link overhead or proves an Internet observation. The different results do not imply duplicate transmission. Use paired values from the same layer and state the inclusion rule.
+
+## PRE07 — C
+
+Source-address validation belongs at a network boundary where the operator can determine the permitted source ranges. That operator can reject source values outside the policy. A finance role or local file inspection does not grant network-change authority. A destination application sits at a different point. Prefix validation still allows some abusive traffic and requires appropriate routing exceptions; it is not a universal proof that permitted traffic is harmless.
+
+## PRE08 — D
+
+Convert 40 milliseconds into 0.04 core-seconds per request, then multiply by 250 requests per second. The result is 10 core-seconds per second. Per-request time alone omits the rate, while the other alternatives omit or reverse the conversion. These invented inputs are a separate simulated transfer example, not another row in E04. The result estimates offered work under the toy assumptions, not measured response time or malicious intent.
+
+## PRE09 — B
+
+Cancellation is legitimate protocol behavior. A useful investigation checks patterns over time, the implementation's work, resource pressure and actual service impact. A count alone establishes neither intent nor whether downstream work stopped. Bandwidth is only one resource. The historical Rapid Reset discussion explains a cost imbalance and implementation-specific defenses; it does not authorize replaying an attack or establish the state of an uninspected deployment.
+
+## PRE10 — C
+
+The package authorizes offline reading, local parsing and written reasoning over supplied synthetic evidence. It sends no packets and grants no scope to stress a service or deploy operational controls. Replaying the PCAP, loading a public service, or changing a provider filter would require separate appropriate authority and validation. Keep the learner's actual command, result and saved brief distinct from the builder's prepared materials.
+
+[Return to questions](PRETEST.md) · [Correction record](WORKSHEET.md).

@@ -1,0 +1,310 @@
+[
+  {
+    "id": "S01",
+    "title": "Keep the learning service available",
+    "labels": [
+      "Northstar",
+      "Learning access",
+      "Enrollment",
+      "Availability"
+    ],
+    "cue": "Availability begins with a user completing a useful task.",
+    "kind": "network",
+    "narration": "Welcome to Northstar Learning Center. Tally is helping the school protect a simple promise: students can reach the services they need. Learning access means opening a lesson and continuing useful work. Enrollment means choosing a class and receiving a reliable confirmation. Availability describes whether an authorized user can obtain that service when needed. A server can have power, answer a basic check, and still fail this promise if students cannot finish enrollment. Our lesson is about denial of service and distributed denial of service. We will connect each mechanism to a limited resource, examine evidence, and choose a control that can reach that resource. Every campus incident in this lesson is simulated output. The files support offline reasoning; they are not reports of a real school attack. By the end, you should explain what is constrained, which observations support that conclusion, and how to check recovery. Begin with the student's task. The most impressive traffic chart matters only when we can explain its relationship to the service people actually need.",
+    "motion": "Reveal the Northstar campus first, then connect the student to learning and enrollment before highlighting the availability promise."
+  },
+  {
+    "id": "S02",
+    "title": "Trace the complete service path",
+    "labels": [
+      "Name lookup",
+      "Network path",
+      "Connection",
+      "Application"
+    ],
+    "cue": "A service depends on a chain of reachable resources.",
+    "kind": "flow",
+    "narration": "Follow one student opening the Northstar portal. Name lookup translates the portal name into an address the client can use. The network path carries packets between the student and the service. A connection lets the endpoints organize their exchange. The application checks the request, obtains needed data, and returns a useful result. These steps can depend on other services, including identity and storage. A failure anywhere along this path can prevent enrollment. That is why a healthy application processor does not prove that the whole service is reachable. Likewise, a busy network link does not tell us whether the application itself has a defect. Tally draws each dependency as a separate box so we can ask a precise question at every boundary: what entered, what completed, and what waited or failed? This map is a starting model, not a complete inventory of every real deployment. During an actual authorized assessment, confirm the architecture with its owner. Here, we use the supplied fictional map and keep every investigation inside the offline evidence package.",
+    "motion": "Trace a single request through the four service boxes, pausing at each boundary before revealing the complete dependency path."
+  },
+  {
+    "id": "S03",
+    "title": "Measure the user's result",
+    "labels": [
+      "Success",
+      "Delay",
+      "Errors",
+      "Time window"
+    ],
+    "cue": "Compare user outcomes inside an explicitly defined observation window.",
+    "kind": "checklist",
+    "narration": "Before diagnosing a traffic pattern, define the result we want to protect. Success means a specified task reached its intended endpoint. For enrollment, that could mean receiving a confirmation, rather than merely loading the first page. Delay describes how long the task takes. Record the part being timed and whether failed attempts are included. Errors describe failed outcomes, with enough detail to distinguish a rejected connection from an application response. The time window places these observations on a shared clock. A one minute traffic average cannot be compared casually with a whole day of help desk tickets. Our fixtures provide aligned sixty second windows where stated. We will also keep the number of attempted user checks visible so a success fraction has a clear denominator. These are simulated observations, not a promise about production performance. A good incident note can therefore say which task failed, for how many sampled attempts, during which interval. That statement gives the resource measurements a purpose and lets another analyst check the reasoning without guessing what the chart represents.",
+    "motion": "Build a four-part observation card, then align the success, delay, and error markers to one shared time window."
+  },
+  {
+    "id": "S04",
+    "title": "Keep the assessment inside its authority",
+    "labels": [
+      "Written scope",
+      "Offline evidence",
+      "Stop conditions",
+      "Evidence custody"
+    ],
+    "cue": "This lesson analyzes local fixtures without generating network traffic.",
+    "kind": "checklist",
+    "narration": "Availability testing can affect other people's work, so authority must describe the action, not just the topic. Written scope identifies the owner, systems, permitted methods, time, and responsible contacts. In this course package, our authorized action is reading and analyzing offline evidence. We do not send packets, replay captures, contact reflectors, or load a public service. Stop conditions belong in any future separately approved exercise: unexpected impact, loss of monitoring, or uncertainty about the target should trigger the agreed response. Evidence custody means keeping the original fixture, its label, and the analysis result distinguishable. A generated table remains simulated output even when a parser successfully reads it. A proposed control remains a proposal until it is tested under its own authority. These distinctions protect both people and the quality of our conclusions. Tally keeps the scope card beside the technical diagram because a familiar tool does not grant permission. You can complete every learner task in this film using local files and written reasoning. No live disruption is needed to understand the mechanisms.",
+    "motion": "Reveal the scope checklist around a locked local evidence folder and finish with the offline boundary visibly closed."
+  },
+  {
+    "id": "S05",
+    "title": "Ask four questions from first principles",
+    "labels": [
+      "Resource",
+      "Demand",
+      "Evidence",
+      "Control"
+    ],
+    "cue": "Select protection by explaining the constrained resource first.",
+    "kind": "flow",
+    "narration": "Our working method has four questions. Resource asks what finite thing the service needs: link capacity, packet processing, connection memory, or application work. Demand asks how much of that resource arriving work requires, and for how long. Evidence asks what we observed at a named location, with units and a time window. Control asks which change can reduce the relevant demand, preserve useful work, or increase appropriate capacity. Work through these questions in order. Buying a faster server may leave an upstream link full. Dropping packets on a server may save application work while leaving that same access link congested. A control can be useful without protecting every resource in the path. We will use four connected Northstar cases to practice choosing the right boundary. Their observations are simulated output, and their proposed improvements require separate validation. The method also leaves room for uncertainty: when a record cannot establish intent or causation, say so. A well bounded conclusion is more useful than a confident attack label that the available measurements cannot support.",
+    "motion": "Advance a highlight through the four questions, then connect the selected control back to the resource it must protect."
+  },
+  {
+    "id": "S06",
+    "title": "Separate the outcome from the cause",
+    "labels": [
+      "Service failure",
+      "Resource pressure",
+      "Mechanism",
+      "Intent"
+    ],
+    "cue": "An availability symptom supports investigation before attribution.",
+    "kind": "layers",
+    "narration": "Service failure is an observed outcome: a legitimate user cannot obtain the expected service. Resource pressure is one possible explanation, such as a full link or an exhausted connection queue. A mechanism explains how particular work consumes that resource. Intent asks whether someone deliberately caused the harmful condition. These are related questions, but they need different evidence. A popular class opening can create heavy demand. A software problem can waste capacity. A hostile flood can also overwhelm a service. Similar charts may appear in each situation. When we use the term denial of service attack, we are describing deliberate interference with availability; a slow page alone does not establish that conclusion. Start the Northstar record with the task and symptom, then test resource explanations. Keep suspicious behavior as a hypothesis until the evidence supports it. This approach does not require waiting to protect users. An owner may apply an appropriate protective control while attribution remains open. Document the operational reason for that action and keep the later conclusion tied to the facts actually available.",
+    "motion": "Stack the outcome, resource, mechanism, and intent layers while keeping separate evidence markers beside each claim."
+  },
+  {
+    "id": "S07",
+    "title": "Read rates with their units",
+    "labels": [
+      "Bits per second",
+      "Packets per second",
+      "Requests per second",
+      "Same window"
+    ],
+    "cue": "Different rate units describe different kinds of work.",
+    "kind": "comparison",
+    "narration": "Bits per second measures a volume of transmitted data over time. Packets per second counts packets over time. Requests per second counts application requests over time. Each can be important, and none is a universal substitute for the others. Many small packets can require substantial packet processing without consuming the same byte volume as large packets. One application request can require much more work than another. A connection can contain several requests, and network retransmissions can add packets without adding new user tasks. Before comparing measurements, choose the same window and confirm the observation point. Also name the counted layer. Internet protocol bytes and Ethernet bytes include different information, so a calculation must keep that definition consistent. In Northstar case one, the stated rates use Internet protocol octets converted to bits per second across aligned sixty second windows. That definition makes its arithmetic checkable. When a dashboard uses a different basis, record it rather than silently combining unlike counters. Units are part of the evidence, not decoration beside a number.",
+    "motion": "Reveal three distinct rate gauges and align them beneath one time window without merging their units."
+  },
+  {
+    "id": "S08",
+    "title": "Understand finite capacity and waiting work",
+    "labels": [
+      "Arrival",
+      "Capacity",
+      "Queue",
+      "Completion"
+    ],
+    "cue": "Persistent excess demand grows waiting work or forces rejection.",
+    "kind": "flow",
+    "narration": "Imagine a service desk that can finish a limited amount of work each second. Arrival brings new work to that desk. Capacity describes what the resource can handle under the stated conditions. A queue holds work that cannot be handled immediately. Completion removes finished work. If arrivals keep requiring more work than the desk can supply, the queue cannot grow forever. A bounded system eventually delays, rejects, or drops some work. This picture explains a mechanism; it is not a measured performance model for every computer. Real services have several queues, shared resources, and variable request costs. Even a short burst can fill a small queue while a long average looks comfortable. For Northstar, we therefore ask both how much work arrived and what happened to waiting work. We also check whether useful completions continued. A capacity number without its conditions is incomplete. A queue count without its limit is difficult to interpret. Keeping arrival, capacity, waiting, and completion separate helps us locate the constraint before choosing an intervention.",
+    "motion": "Move a finite set of work tokens from arrival through a bounded queue to completion and stop new tokens when capacity is exceeded."
+  },
+  {
+    "id": "S09",
+    "title": "Describe distribution without inventing identity",
+    "labels": [
+      "One source",
+      "Many sources",
+      "Observed address",
+      "Attribution"
+    ],
+    "cue": "Traffic distribution and actor identity are different conclusions.",
+    "kind": "comparison",
+    "narration": "A denial of service attack may originate from one source. A distributed denial of service attack coordinates activity across many sources. Distribution can make simple source blocking less effective, but the resource being exhausted still needs to be identified. An observed address is a value recorded at a particular point in the network. It is not automatically a person, a device count, or proof of control. Address sharing can place many clients behind one address. A single device may use several addresses, and some packet sources can be forged. Attribution connects the harmful activity to an actor and requires evidence beyond a source list. In this lesson, a drawing with many devices explains a possible distributed architecture. It does not establish that the Northstar fixture came from a botnet. We will keep that distinction visible in every case. First describe the traffic pattern that is supported. Then state what additional evidence would be needed for a stronger conclusion. Operational protection can focus on harmful resource consumption while the identity and coordination questions remain unresolved.",
+    "motion": "Compare one and many source nodes, then detach the observed address card from the separate attribution card."
+  },
+  {
+    "id": "S10",
+    "title": "Build a map of resource exhaustion",
+    "labels": [
+      "Bandwidth",
+      "Packet work",
+      "Connection state",
+      "Application work"
+    ],
+    "cue": "The same availability failure can begin at different resource limits.",
+    "kind": "layers",
+    "narration": "Use four resource families to organize the next chapters. Bandwidth limits the data that a link can carry. Packet work limits how quickly a device can inspect and forward arriving packets. Connection state uses memory and bookkeeping for communication that is pending or established. Application work includes the processing and dependencies needed to answer a request. These families can interact. A single incident may stress several of them, and a control may move the bottleneck to another place. The map is therefore an analysis aid, not a rule that every event belongs to exactly one box. For example, packets bearing a synchronize flag might fill a server's pending connection state, or their arrival rate might overwhelm an intermediate device first. The packet name does not decide which mechanism dominates. Tally will keep the resource map available as we inspect each Northstar fixture. Choose a hypothesis by correlating measurements at the relevant boundary. The next step is to examine network capacity, then compare that pattern with connection state pressure on a link that still has room.",
+    "motion": "Reveal the four resource layers and route one sample packet through them while highlighting alternative possible bottlenecks."
+  },
+  {
+    "id": "S11",
+    "title": "Read Northstar's constrained access link",
+    "labels": [
+      "Baseline",
+      "Enrollment",
+      "Offered load",
+      "Accepted load"
+    ],
+    "cue": "An ingress cap can hide a much larger offered load upstream.",
+    "kind": "comparison",
+    "narration": "Northstar case one begins with three aligned sixty second windows. All of these values are simulated output. Baseline traffic offers fifty megabits per second to a campus access link with a capacity of two hundred megabits per second. Normal enrollment offers one hundred fifty megabits per second. Increased demand during enrollment fits inside this stated link budget. In the incident window, the provider observes offered load of two thousand four hundred megabits per second toward the campus. Accepted load at the constrained ingress is two hundred megabits per second. These figures describe different observation points. The campus value does not mean that only two hundred megabits per second tried to arrive. In this fixture, the difference is an equivalent discarded rate of two thousand two hundred megabits per second at the constrained ingress. Keep the labels attached to the numbers as Tally draws the link. The evidence supports severe capacity pressure at this boundary. It does not identify an attacker, explain every discarded packet, or establish the exact experience of every student.",
+    "motion": "Compare the baseline and enrollment bars, then grow the provider offered-load bar while holding accepted load at the ingress cap."
+  },
+  {
+    "id": "S12",
+    "title": "Connect the link evidence to user impact",
+    "labels": [
+      "Provider view",
+      "Ingress limit",
+      "Discarded traffic",
+      "Server view"
+    ],
+    "cue": "A lightly loaded server can sit behind an unavailable access path.",
+    "kind": "network",
+    "narration": "The provider view and the campus view answer different questions. The provider view describes traffic offered toward the access boundary. The ingress limit describes the maximum rate accepted through that constrained point in our fixture. Discarded traffic is the equivalent rate that does not pass this boundary during the same window. The server view describes a downstream machine after this loss has already occurred. In Northstar case one, server processor use is twenty five percent, while only twenty of one hundred simulated user checks succeed. Those facts can coexist: a server cannot process requests that fail to reach it. Low processor use therefore does not clear the network path. At the same time, the success fraction is a sampled outcome, not proof that every failure has one cause. Preserve its denominator and time window. The analysis should connect the provider record, campus counters, and client checks, while retaining their separate meanings. This is how a resource explanation becomes useful: it accounts for both the constrained link and the otherwise puzzling downstream observation without inventing actor identity.",
+    "motion": "Place the three ingress observations before the server, then reveal low server use beside the separate client-success result."
+  },
+  {
+    "id": "S13",
+    "title": "Count packet handling as well as bytes",
+    "labels": [
+      "Packet size",
+      "Packet rate",
+      "Processing cost",
+      "Measured limit"
+    ],
+    "cue": "A device may reach its packet-processing limit before its bit-rate limit.",
+    "kind": "comparison",
+    "narration": "Packet size affects how many packets carry a given amount of data. Packet rate tells us how many individual packets arrive each second. Processing cost includes the work a device performs for those packets, such as examining headers or checking a rule. A measured limit tells us what that specific device and configuration can sustain under defined conditions. Consequently, a link that looks comfortable in bits per second can still carry more packets than a component can handle. This is a general resource model, not a measured finding about the Northstar router. Packet sizes, hardware paths, enabled features, and traffic mix all affect real performance. We would need relevant device counters and an authorized measurement before asserting its actual limit. Do not borrow a marketing throughput number and treat it as the answer for every packet pattern. In an incident record, place byte rate beside packet rate, drops, and device health. That combination helps distinguish a full transmission link from overloaded packet processing. It also explains why two traffic streams with similar byte volume may have different effects.",
+    "motion": "Compare equal data volumes represented by few large and many small packets, then highlight their different packet-handling counts."
+  },
+  {
+    "id": "S14",
+    "title": "Understand direct and coordinated traffic",
+    "labels": [
+      "Direct traffic",
+      "Coordinated devices",
+      "Shared bottleneck",
+      "Source uncertainty"
+    ],
+    "cue": "Multiple senders can combine pressure at one constrained destination path.",
+    "kind": "network",
+    "narration": "Direct traffic reaches a destination without first using another service to reflect replies toward it. That describes a traffic path, not permission or intent. Coordinated devices can contribute traffic toward a shared bottleneck. If those devices are compromised and controlled together, the collection is commonly called a botnet. The defender may then face combined demand larger than any one device contributes. This diagram explains the architecture without teaching how to build or operate it. Source uncertainty still matters. A set of addresses in a flow record does not prove that each address represents a compromised device or that one actor coordinates them. For Northstar case one, the supplied evidence establishes offered and accepted rates, sampled user impact, and downstream processor use. It does not supply device compromise records or a command channel investigation. Keep the traffic hypothesis and the attribution question separate. Protecting the constrained access path can be justified by the availability evidence itself. Later chapters will examine how reflected traffic changes the path and why defense responsibilities can sit with several different network operators.",
+    "motion": "Send a fixed set of illustrative arrows from multiple device nodes into one bottleneck, then reveal a source-uncertainty note."
+  },
+  {
+    "id": "S15",
+    "title": "Choose tools by the evidence they can read",
+    "labels": [
+      "Packet analyzer",
+      "Flow records",
+      "Interface counters",
+      "Service checks"
+    ],
+    "cue": "Each tool view establishes a bounded part of the incident story.",
+    "kind": "checklist",
+    "narration": "A packet analyzer helps inspect individual packet fields and timing in an authorized capture. Wireshark is one familiar example; in this package, any packet inspection stays on the supplied local files. Flow records summarize communication over intervals, often preserving endpoints, volume, and duration without the full payload. Interface counters help locate accepted bytes, discarded packets, and device conditions at a named boundary. Service checks test whether a defined user task can complete. These views complement one another. A packet capture may miss traffic that was discarded before its capture point. A flow summary may be sampled or aggregated. An interface counter may combine several services. A service check may use a different path from the affected students. Record those limits before making a broad claim. A tool's presence is not proof that a mechanism was reproduced or a control was validated. Our learner workflow parses fixtures and compares their meanings. It generates no network traffic. Select the smallest evidence view that can answer the current question, then add another view only when a specific uncertainty requires it.",
+    "motion": "Reveal four evidence-view cards beside the same campus path and illuminate the different segment each view can observe."
+  },
+  {
+    "id": "S16",
+    "title": "Place protection before the constrained resource",
+    "labels": [
+      "Campus filter",
+      "Upstream filter",
+      "Protected link",
+      "User outcome"
+    ],
+    "cue": "A control must act early enough to spare the resource at risk.",
+    "kind": "flow",
+    "narration": "Suppose Northstar applies a campus filter after its constrained access boundary. That filter may protect a downstream application or reduce later processing. It cannot undo the capacity already consumed while unwanted traffic approached and crossed the protected link. An upstream filter can act before that access constraint, provided the upstream operator can distinguish the traffic appropriately and has the capacity to handle it. This placement principle explains why an owner may need provider coordination during a volumetric event. It does not promise that a particular filter will preserve every legitimate request. Rules need evidence, an accountable owner, and a way to check unintended impact. The user outcome remains the deciding measure: can students complete the intended task after protection is applied? For Northstar, any recovery rows in the supplied package are simulated output, not a report of an installed filter. We will discuss control selection and escalation more fully later. For now, keep one causal question beside the diagram: does this control reduce demand before the resource we are trying to protect is consumed?",
+    "motion": "Place a campus filter after the bottleneck and an upstream filter before it, then trace which segment each can spare."
+  },
+  {
+    "id": "S17",
+    "title": "Follow a normal TCP handshake",
+    "labels": [
+      "Synchronize",
+      "Acknowledge",
+      "Pending state",
+      "Established"
+    ],
+    "cue": "Connection establishment can require temporary server state before completion.",
+    "kind": "timeline",
+    "narration": "Transmission Control Protocol, or T C P, establishes a connection with a three message exchange in the ordinary example shown here. Synchronize marks the client's opening request and carries its starting sequence information. The server responds with its own synchronize information and an acknowledgment of the client's opening. Acknowledge marks the client's confirming reply. The server can then regard the connection as established. Pending state represents the server's temporary bookkeeping while it awaits that confirmation. This is a simplified normal handshake; the protocol also handles retransmission and other valid situations. The exchange coordinates sequence information. It does not authenticate the human using the connection. A completed handshake also does not prove that a later application request is harmless. For availability analysis, notice the timing of resource commitment. Depending on the implementation and active defenses, a server may reserve resources before the final confirmation arrives. That gap creates the connection state question we will examine next. Tally keeps the pending box separate from the established box so completed connections and incomplete attempts are never silently counted as the same thing.",
+    "motion": "Draw the three handshake arrows in sequence and move the server marker from pending state to established only after the final acknowledgment."
+  },
+  {
+    "id": "S18",
+    "title": "Read the half-open connection fixture",
+    "labels": [
+      "Half-open entries",
+      "Backlog capacity",
+      "New attempts",
+      "Completed handshakes"
+    ],
+    "cue": "Occupancy is a current stock while attempts and completions are interval counts.",
+    "kind": "comparison",
+    "narration": "Northstar case two supplies a different pattern. These values are simulated output for the same sixty second interval. Half-open entries are pending handshake records in this fixture. Their reported occupancy reaches one thousand twenty four. Backlog capacity is also one thousand twenty four, so the modeled pending state is full at the reported observation. New attempts total six thousand unique connection attempts during the interval. Completed handshakes total sixty. The fixture explicitly separates retransmissions from these unique counters. We must preserve that definition instead of counting every repeated synchronize packet as a new attempt. Occupancy and interval totals also differ: a full backlog is a state observation, while attempts and completions accumulate over time. Six thousand attempts do not mean six thousand simultaneous entries. The completion count alone cannot tell us exactly which attempts are still pending at the end. This record supports a hypothesis of connection state pressure. To interpret a real operating system, confirm its queue definitions, counter behavior, and active defenses. Our supplied capacity is a teaching model, not a universal default for all servers.",
+    "motion": "Fill a bounded pending-state tray to its stated capacity while separate interval counters track unique attempts and completions."
+  },
+  {
+    "id": "S19",
+    "title": "Distinguish state pressure from a full link",
+    "labels": [
+      "Link load",
+      "State pressure",
+      "Client success",
+      "Alternative causes"
+    ],
+    "cue": "A connection-state bottleneck can coexist with modest network volume.",
+    "kind": "comparison",
+    "narration": "Link load in Northstar case two is thirty megabits per second. That is well below the stated two hundred megabit access capacity used in our campus model. State pressure appears in the full pending handshake backlog, rather than a full link. Client success is five completed user checks out of one hundred simulated attempts. Together, these observations make connection establishment a useful investigation target. They do not by themselves establish malicious intent or identify a source. Alternative causes deserve explicit consideration. Lost replies, a routing problem, or severe legitimate connection demand can also affect completion patterns. A capture at one point may fail to see both directions, so missing acknowledgments there do not automatically prove that clients never sent them. Correlate the server's state counters with the appropriate bidirectional observations and client results. In our fixture, the counters are stipulated facts with documented meanings. The next step is to compare mechanism-specific protections while preserving uncertainty about attribution. The low byte rate also explains why simply adding access bandwidth may leave this particular modeled resource constraint unchanged.",
+    "motion": "Keep the link gauge below capacity while filling the pending-state indicator, then branch to supported findings and alternative explanations."
+  },
+  {
+    "id": "S20",
+    "title": "Understand the tradeoffs of holding less state",
+    "labels": [
+      "Larger backlog",
+      "Shorter timeout",
+      "Smaller state",
+      "Client tradeoff"
+    ],
+    "cue": "Changing pending-state handling trades capacity, lifetime, and client compatibility.",
+    "kind": "comparison",
+    "narration": "A larger backlog provides room for more pending connection records. It changes a finite budget, but sustained excess demand can still fill it, and implementation costs matter. A shorter timeout removes incomplete records sooner. It may also remove legitimate attempts on slow or lossy paths before their handshake finishes. Smaller state means keeping a compact pending record instead of committing the full connection structure immediately. A SYN cache, or compact pending connection cache, is one approach to that idea. Each choice has a client tradeoff and requires implementation-specific review. These are explanations of defensive mechanisms, not a recommendation to change a production setting during this film. Northstar's backlog capacity is stipulated, and its proposed recovery values remain simulated output. A useful evaluation would examine legitimate completion, delay, resource use, and failure behavior under an approved test plan. It would also check what happens when the defense itself reaches its limit. Compare that evidence with the service objective. Enlarging a queue or shortening its lifetime is not enough unless the resulting system preserves useful access for the clients it serves.",
+    "motion": "Compare a larger tray, a shorter retention clock, and a compact record, then reveal a client-impact marker beside each option."
+  },
+  {
+    "id": "S21",
+    "title": "Explain SYN cookies and their boundary",
+    "labels": [
+      "Cookie response",
+      "Return acknowledgment",
+      "State allocation",
+      "Remaining limits"
+    ],
+    "cue": "Cookies can defer pending connection state while leaving other resource limits in place.",
+    "kind": "flow",
+    "narration": "SYN cookies take a different approach to the pending record. A cookie response encodes enough information into the server's initial sequence value to check a later reply, using implementation-controlled validation information. The return acknowledgment allows the server to validate that response and recover the needed connection information. State allocation can therefore be deferred instead of reserving an ordinary pending record for every opening request. This helps address a particular state exhaustion mechanism. Remaining limits include packet processing, bandwidth, completed connection resources, and application work. A client that completes a handshake can still request expensive work. Details also depend on the operating system and supported protocol options; consult its current documentation and validate client behavior. Linux documentation describes cookies as a fallback facility, rather than a substitute for provisioning legitimate connection demand. For Northstar, cookies are a proposed control requiring a separate test. A generated improvement row does not prove they were enabled or worked. The expected benefit should be stated narrowly: reducing pressure from incomplete handshakes while checking that legitimate users still establish usable connections.",
+    "motion": "Replace the ordinary pending record with a cookie-bearing response, validate the returning acknowledgment, and allocate state only on that path."
+  },
+  {
+    "id": "S22",
+    "title": "Evaluate a screening proxy as its own system",
+    "labels": [
+      "Screening proxy",
+      "Protected server",
+      "New bottleneck",
+      "Separate validation"
+    ],
+    "cue": "Moving handshake work to a proxy moves responsibility for its capacity too.",
+    "kind": "network",
+    "narration": "A screening proxy can handle or validate the client side of connection establishment before allowing corresponding work at the protected server. The exact behavior depends on the product and network design. This can reduce the server's exposure to incomplete handshakes. It also creates a new bottleneck to evaluate: the proxy has its own packet processing, state, and link limits. Placing a device in front of a server does not create unlimited capacity. Separate validation must check the proxy path, legitimate clients, failure behavior, and the resource the design intends to protect. For Northstar case two, a proxy and cookies are candidate approaches, not deployed results. Any supplied recovery rows are simulated output. They help practice comparison without claiming a live operating system test. Keep the original incident evidence unchanged and record the control hypothesis separately. We now have two distinct resource patterns: an access boundary overwhelmed by offered volume, and a pending connection budget full while byte rate remains modest. The next chapter adds reflection and amplification, where different systems send the initiating requests and the replies that reach the victim.",
+    "motion": "Insert a screening proxy before the server, redirect pending work to it, and highlight its own capacity boundary before the validation checklist appears."
+  }
+]

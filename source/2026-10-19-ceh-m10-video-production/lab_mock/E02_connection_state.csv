@@ -1,0 +1,4 @@
+provenance,case_id,phase,window_seconds,backlog_capacity,half_open_entries,unique_attempts,completed_unique_handshakes,separately_counted_retransmissions,link_mbps,stipulated_probe_attempts,stipulated_probe_success
+SIMULATED OUTPUT,E02,baseline,60,1024,24,600,594,12,25,100,99
+SIMULATED OUTPUT,E02,incident,60,1024,1024,6000,60,9000,30,100,5
+SIMULATED OUTPUT,E02,proposed_control_fixture,60,1024,128,6000,5400,400,32,100,90

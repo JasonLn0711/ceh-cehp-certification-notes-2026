@@ -1,0 +1,38 @@
+# M10 availability study guide
+
+The complete [English narration](SCRIPT_en-US.md) contains **10,241 canonical spoken words** across 11 chapters and 58 scenes. This guide supplies a compact lookup path; use the full script for explanation and case continuity. See the [chapter map](chapters.json), [coverage matrix](COVERAGE_MATRIX.md) and [concept connections](CONCEPT_CONNECTIONS.md).
+
+## Start with the service and the resource
+
+Availability means the authorized user can obtain the defined service when needed. Record a completed task, its delay or failure, denominator and interval. Resource pressure explains a constraint; deliberate interference, actor identity and distribution require their own evidence. A large rate or many addresses alone does not establish those claims.
+
+Ask four questions: which finite resource is needed; how much demand reaches it; what was observed at which point; and which owner can control that boundary? Bandwidth, packet handling, connection state, processor work and dependencies can each constrain useful completion.
+
+## Formula and interpretation card
+
+| Calculation | Formula and unit | Northstar example | Limit |
+| --- | --- | --- | --- |
+| Data rate | IP octets × 8 ÷ seconds ÷ 1,000,000 = Mbps | E01 uses aligned 60-second windows. | Keep layer and observation point consistent. |
+| Ingress accounting | offered = accepted + discarded equivalent | Incident: 2,400 = 200 + 2,200 Mbps. | This is the fixture's stipulated boundary accounting. |
+| Completion fraction | completed unique handshakes ÷ unique attempts | E02: 60 ÷ 6,000 = 1%. | Preserve counter definitions and interval boundaries; occupancy is separate. |
+| Amplification | paired response bytes ÷ paired request bytes | E03 IP: 3,000 ÷ 60 = 50×; Ethernet: 3,014 ÷ 74 ≈ 40.7×. | Pair the same layer; a ratio is not a traffic rate or universal server property. |
+| Offered processor work | requests/second × CPU seconds/request | E04: 100 × 0.020 = 2; 120 × 0.200 = 24; 300 × 0.005 = 1.5 core-seconds/second. | Toy service-demand inputs, not a measured benchmark or elapsed request time. |
+| Sampled task success | completed stipulated tasks ÷ attempted tasks | E01 20/100; E02 5/100. | Describes the stated sample and task, not every user. |
+
+## Mechanisms and controls
+
+- A saturated access link needs suitable protection before that constraint. A later application filter can protect later work while leaving link capacity consumed.
+- Incomplete TCP handshakes can pressure finite pending state. A backlog, timeout, SYN cache, SYN cookies and a screening proxy have different mechanisms and implementation limits. Cookies do not remove bandwidth or application limits.
+- Reflection redirects a reply using a claimed source. Amplification adds a larger response under a stated measurement basis. Origin source validation, reflector policy and victim upstream protection belong to different operators.
+- High application cost can overwhelm capacity at a modest request rate. Bound admitted work, processing, waiting and retries; use suitable caching and dependency isolation without breaking correctness or legitimate tasks.
+- HTTP/2 Rapid Reset is taught as a dated 2023 cost-imbalance case. Cancellation can be legitimate; use current implementation guidance and evidence rather than treating every reset as hostile.
+
+## Evidence, response and recovery
+
+Correlate aligned provider, campus, server, dependency and user observations. Keep originals, hashes, units, counter definitions and missing evidence. Compare alternative explanations such as enrollment demand, retry behavior, a regression or dependency failure. A hash checks byte identity, not the truth of the original observation.
+
+The incident owner coordinates a bounded action with the appropriate control owner. Record approval, implementation, expected effect, legitimate-user risk and rollback condition. Recovery checks the required user task and the relevant resource over an owner-chosen interval. Synthetic post-control rows demonstrate a proposed comparison. They establish neither live deployment nor causal effectiveness.
+
+AI may organize an approved local evidence bundle. Treat log text as untrusted data, trace claims to source rows, recalculate important values and preserve human corrections. It cannot supply missing deployment or attribution evidence.
+
+Use [PRETEST](PRETEST.md), the [worksheet](WORKSHEET.md), [film questions and capstone](ASSESSMENT_STUDENT.md), and [POSTTEST](POSTTEST.md) within an activated learning block. [CLOSEOUT](CLOSEOUT.md) records actual answers and practical evidence separately from these prepared materials.

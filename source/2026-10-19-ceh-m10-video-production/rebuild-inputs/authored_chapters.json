@@ -1,0 +1,68 @@
+[
+  [
+    "Availability at Northstar",
+    1,
+    5,
+    "Identify service, user impact, authorization and evidence."
+  ],
+  [
+    "Resources, rates and distributed demand",
+    6,
+    10,
+    "Separate availability impact, resource exhaustion and source distribution."
+  ],
+  [
+    "Network capacity and volumetric pressure",
+    11,
+    16,
+    "Locate bandwidth and packet-processing bottlenecks."
+  ],
+  [
+    "TCP state and protocol exhaustion",
+    17,
+    22,
+    "Explain half-open state and mechanism-specific defenses."
+  ],
+  [
+    "Reflection and amplification",
+    23,
+    28,
+    "Trace reflected replies and measure comparable byte counts."
+  ],
+  [
+    "Application work and modern protocols",
+    29,
+    33,
+    "Bound expensive work, connections and dependencies."
+  ],
+  [
+    "Evidence-driven detection",
+    34,
+    38,
+    "Correlate telemetry and distinguish demand from hostile activity."
+  ],
+  [
+    "Layered protection and escalation",
+    39,
+    42,
+    "Place controls where they can protect the constrained resource."
+  ],
+  [
+    "Four connected Northstar cases",
+    43,
+    46,
+    "Evaluate four incident records and retain uncertainty."
+  ],
+  [
+    "Response, recovery and AI assistance",
+    47,
+    49,
+    "Restore service and verify evidence-based decisions."
+  ],
+  [
+    "Knowledge checks and capstone",
+    50,
+    58,
+    "Apply the lesson through eight questions and an offline incident brief."
+  ]
+]

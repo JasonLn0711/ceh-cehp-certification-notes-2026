@@ -1,0 +1,157 @@
+# M10 prepared posttest
+
+Prepared assessment namespace: **M10-source-v1**. The eight film items retain **M10-film-v1/Q01–Q08**. These are original teaching items, not official exam questions. Existing 600-question bank IDs, first answers and scores remain unchanged.
+
+At an activated learning block, record the learner's used minutes, remaining capacity and endpoint. New concepts use one question at a time with choice and low / medium / high confidence before feedback. Familiar concepts may use a ten-item drill with feedback after the batch or endpoint. Preserve original answers before showing the independent key. Mark prior exposure or assistance. For each actual error, explain the mechanism and assign at least three varied retests; retain their results separately. At the endpoint, save partial work and the exact next question. Prepared questions and package QA are not learner progress.
+
+POST01–POST08 reproduce the eight film items with explicit mappings. Prior film exposure means they are review items rather than fresh unseen measurements. POST09–POST10 are new transfer items; their invented values are simulated examples, not added case observations. [Independent key](POSTTEST_KEY.md).
+
+## POST01
+
+Which observation directly records an availability impact on Northstar users?
+
+A. An increase in the number of source addresses
+B. A server processor reading of twenty-five percent
+C. A larger response than request in a constructed packet pair
+D. Only five of one hundred stipulated client tasks succeed
+
+Mapping: M10-source-v1/POST01 reuses M10-film-v1/Q01 at S50. Scenes: S50.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## POST02
+
+Which constructed sequence describes reflection with amplification toward a victim?
+
+A. Many controlled clients send their own requests directly to the victim
+B. A request carries the victim's forged source address, and a reflector sends a larger reply toward the victim
+C. A client slowly sends data on a connection it established with the victim
+D. One expensive application request consumes substantial processor time at the victim
+
+Mapping: M10-source-v1/POST02 reuses M10-film-v1/Q02 at S51. Scenes: S51.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## POST03
+
+The provider observes twenty-four hundred megabits per second offered to Northstar's two-hundred-megabit connection. The campus accepts two hundred, and user checks fail. Which action best addresses that constrained connection?
+
+A. Coordinate suitable protection with the provider before the constrained campus ingress
+B. Increase the web server's application queue while leaving ingress unchanged
+C. Rely only on a web filter that sees traffic after the saturated connection
+D. Treat spare server processor capacity as proof the service is available
+
+Mapping: M10-source-v1/POST03 reuses M10-film-v1/Q03 at S52. Scenes: S52.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## POST04
+
+In one aligned sixty-second fixture, six thousand unique connection attempts produce sixty completed handshakes. Retransmissions are counted separately. Which calculation and interpretation are supported?
+
+A. Sixty percent complete, because sixty handshakes were recorded
+B. About six percent complete, using backlog capacity as the attempt count
+C. One percent complete for the stipulated window; the result alone does not establish intent
+D. Ninety-nine percent of source addresses are proven to be forged
+
+Mapping: M10-source-v1/POST04 reuses M10-film-v1/Q04 at S53. Scenes: S53.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## POST05
+
+The constructed request is sixty Internet Protocol bytes and seventy-four Ethernet bytes. Its reply is three thousand Internet Protocol bytes and three thousand fourteen Ethernet bytes. Which calculation gives amplification at the Internet Protocol layer?
+
+A. Three thousand fourteen divided by sixty
+B. Three thousand divided by seventy-four
+C. Three thousand fourteen divided by seventy-four
+D. Three thousand divided by sixty, giving fifty times
+
+Mapping: M10-source-v1/POST05 reuses M10-film-v1/Q05 at S54. Scenes: S54.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## POST06
+
+Northstar has an eight-core processor budget. One hundred twenty requests per second each require two hundred milliseconds of processor service in the toy model. What is the strongest resource-based interpretation?
+
+A. Demand is twenty-four core-seconds per second, so bounded work and suitable admission controls deserve evaluation
+B. Demand is zero point two core-seconds per second because only per-request time matters
+C. The service must have spare capacity because the request count is below three hundred per second
+D. The calculation proves every request is malicious and identifies its sender
+
+Mapping: M10-source-v1/POST06 reuses M10-film-v1/Q06 at S55. Scenes: S55.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## POST07
+
+A Northstar worksheet contains synthetic incident rows and synthetic recovery rows labeled as expected results after a proposed control. No live control trial occurred. What is the strongest supported closeout?
+
+A. The control is proven effective because the recovery numbers improved
+B. The simulated recovery establishes that every legitimate user will succeed
+C. The comparison illustrates the proposed check; actual effectiveness and recovery remain unvalidated
+D. A successful parser is equivalent to an approved production deployment
+
+Mapping: M10-source-v1/POST07 reuses M10-film-v1/Q07 at S56. Scenes: S56.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## POST08
+
+An AI draft labels every visible source address as an attacker and reports a successful mitigation that has only been proposed. Which review best repairs both claims?
+
+A. Accept the labels if the draft includes confident explanations and a plausible timeline
+B. Trace claims to source records, separate observations from attribution, and mark the control as proposed pending actual validation
+C. Keep the attribution because a source address uniquely proves a person's identity
+D. Convert expected recovery rows into actual measurements so the report has a complete result
+
+Mapping: M10-source-v1/POST08 reuses M10-film-v1/Q08 at S57. Scenes: S57.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## POST09
+
+In a separate simulated recovery review, request rate drops after a rule, but enrollment success remains 10 of 100 and the database pool stays full. Which closeout is best supported?
+
+A. Declare service recovery because fewer requests arrived
+B. Treat the rule as the proven cause of improvement
+C. Close the incident because processor use is low
+D. Keep recovery open and investigate the user path and constrained dependency
+
+Mapping: M10-source-v1/POST09 is a new transfer item. Scenes: S32, S41, S48.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.
+
+## POST10
+
+A security rule blocks a shared campus address, reducing load while preventing legitimate students behind that gateway from enrolling. Which validation improvement best addresses this tradeoff?
+
+A. Measure legitimate-task rejection alongside resource benefit and define revision or rollback conditions
+B. Count dropped traffic as the only success measure
+C. Treat the shared address as proof that all users are one attacker
+D. Hide failed legitimate tasks from the incident record
+
+Mapping: M10-source-v1/POST10 is a new transfer item. Scenes: S09, S36, S39, S41.
+
+First choice: ____ · Confidence: low / medium / high.
+
+Reasoning before key: ____ · Assistance or prior exposure: ____.

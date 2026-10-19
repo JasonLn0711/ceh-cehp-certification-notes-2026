@@ -1,0 +1,18 @@
+{
+  "scope": "Third-party HyperFrames CLI skill refreshed by required workflow update; no owned policy or memory change",
+  "command": "npx hyperframes skills update general-video",
+  "updated_skill": "hyperframes-cli",
+  "installed_copies": [
+    {
+      "path": "/home/jnlngx10/.agents/skills/hyperframes-cli/SKILL.md",
+      "sha256": "be481984f8d3c871c353a4ba82bb295a416634e11938de2081b950e9e488a3ff"
+    },
+    {
+      "path": "/home/jnlngx10/.claude/skills/hyperframes-cli/SKILL.md",
+      "sha256": "be481984f8d3c871c353a4ba82bb295a416634e11938de2081b950e9e488a3ff"
+    }
+  ],
+  "quick_validation": "passed",
+  "project_pin": "0.8.173",
+  "prior_modules_changed": false
+}

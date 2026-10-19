@@ -1,0 +1,5 @@
+provenance,window_seconds,layer,case_id,phase,capacity_mbps,provider_offered_ip_octets,campus_accepted_ip_octets,constrained_ingress_discarded_ip_octets,cpu_percent,stipulated_probe_attempts,stipulated_probe_success
+SIMULATED OUTPUT,60,IPv4 IP octets,E01,baseline,200,375000000,375000000,0,30,100,100
+SIMULATED OUTPUT,60,IPv4 IP octets,E01,legitimate_enrollment,200,1125000000,1125000000,0,40,100,99
+SIMULATED OUTPUT,60,IPv4 IP octets,E01,incident,200,18000000000,1500000000,16500000000,25,100,20
+SIMULATED OUTPUT,60,IPv4 IP octets,E01,proposed_control_fixture,200,600000000,600000000,0,35,100,98
