@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "executed_nodes": 0,
+  "reused_nodes": 202,
+  "target": "package",
+  "artifact_hashes_verified": true,
+  "human_listening": "pending"
+}

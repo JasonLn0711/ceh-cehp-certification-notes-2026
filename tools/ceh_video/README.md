@@ -28,7 +28,7 @@ From this repository, use `PYTHONPATH=tools/ceh_video` and an explicit `--projec
 
 ## Production profile and extension points
 
-`production.json` declares the module/release, filenames, expected content counts, voice/output contracts, immutable asset identities, speech and alignment model hashes, renderer identity, browser path, diagram input files and concurrency. `data/scenes.json` and `data/questions.json` supply the chapter and quiz mappings. Shared code does not select quiz scenes by a numeric scene range.
+`production.json` declares the module/release, filenames, expected content counts, voice/output contracts, immutable asset identities, speech and alignment model hashes, renderer identity, browser path, diagram input files and concurrency. `metadata_title` can preserve an established exported title; otherwise the assembler uses the profile title. `data/scenes.json` and `data/questions.json` supply the chapter and quiz mappings. Shared code does not select quiz scenes by a numeric scene range.
 
 The approved defaults remain 1920×1080/30 fps, warm paper editorial design, Tally, Northstar, `af_heart` American English, calibrated baseline speed 0.73 and exactly one `atempo=1.5` narration transformation. Picture runs at 1×. Each quiz hold contains exactly 48,000 stereo zero PCM frames. AAC residue has a separate decoded-audio check.
 

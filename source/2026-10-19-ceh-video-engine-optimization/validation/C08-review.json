@@ -1,0 +1,42 @@
+{
+  "source_sha256": "5b1aaf946452b6d2cd8cf7918afd75f68c583526fa832affa6ff65798abb3e1d",
+  "captures": {
+    "S39-complete-70.400.png": "a5842c0d5613dbc633a8cca745bfabf1746b12589d71951bda59373b07d81e0b",
+    "S39-midpoint-37.200.png": "23b271a5d8ac7c2097379c178e2528eac7e927257b42b98bf4c5e4b39059a5a9",
+    "S39-teaching-1-7.133.png": "bf74a97e386afea4399c6059a2388a8e88ec7aa3d0e64388d1179204a8caaa9b",
+    "S39-teaching-2-23.200.png": "522b33fe4d4256203387eab76b98b0b76169459d1efc71f2a7d06becb4c7440f",
+    "S39-teaching-3-29.033.png": "542b06b37e909cff522dc9fff025a0fa1bbd6d286ea912aeee12ce4bb8795cf3",
+    "S39-teaching-4-51.000.png": "d20f36a30921140b55397b8229b7822f92465ac6f5e750147039e759a6b64812",
+    "S40-complete-70.833.png": "6253d1b6fb37a5712aebc882a971c5d4f524bd3148c1f120033f39ce2ceb3963",
+    "S40-midpoint-37.433.png": "d7b2b82fba4073690bef5e642fade5f8014a6545814d0157aa0200fdf9357375",
+    "S40-teaching-1-4.567.png": "5ec89ff63c0239f2f8b18a3f193de4b097510f8d17fbe89b84df5dbaeafe161b",
+    "S40-teaching-2-25.267.png": "ae1ee94098e6a3b3862c9e3adb3903de67f781b3bbb74e6697955f43f1307a08",
+    "S40-teaching-3-29.033.png": "f8f85eb4b4e716f7e1656caa614de4d5b2b2bd280558e11017fc98953ac0b7e9",
+    "S40-teaching-4-36.367.png": "d7b2b82fba4073690bef5e642fade5f8014a6545814d0157aa0200fdf9357375",
+    "S41-complete-67.467.png": "986e9051c595c56bdb5505d5228d223fee55a98a8cb7079f87f2ecc27d9a416a",
+    "S41-midpoint-35.733.png": "19e2f76ab3465fac9b0a649102f5324497b08195ab89a80cecf7abd230da3d3f",
+    "S41-teaching-1-6.400.png": "f1b708f818ef897a0b10f114a02a390463aa5c5d1e8e7393fa22fd25d4e02a5f",
+    "S41-teaching-2-19.933.png": "fc31d2738697b29e27ad8950b86c1a6e1bf74b52b51a89121ebd399ff42ad155",
+    "S41-teaching-3-30.267.png": "d0becbd3d5d2bfca1d62e02fe750fb52486293e5e5d4ec175ad7ee9976422599",
+    "S41-teaching-4-41.200.png": "f99b94ffb5623cf1f4b0d3e9fe4119ba3610179cabaeef833ce6816393ba6974",
+    "S42-complete-68.900.png": "62778df4b1a557883c27cd205c5ee0a14761aaadb56767ccf713da99953e3602",
+    "S42-midpoint-36.467.png": "8f70b2dc497149a5db92bec699a3f0f585895b24fc5c3908f2780013c6de6163",
+    "S42-teaching-1-8.067.png": "b9faad0da33b572469b6ac602ad30dd2e0dcafaf3218d6ab8bd43afd14ff0872",
+    "S42-teaching-2-17.100.png": "50f3f1319ee8608d1f991030e9d81e67ac14fc9c5ece42bb00db8478045f4392",
+    "S42-teaching-3-32.667.png": "1dac6bce9e0ad82262758ef5d20c3d003ef1645c86bf8630d6f83ac84eadf760",
+    "S42-teaching-4-43.867.png": "390043ecc22d58e6eafb08204587f841282808ebcee3b8832c4848774ebe83de"
+  },
+  "capture_recipe": "a18e27501ec8764204581e9a2d5edbb2e5881fb7fc26acff81e7de022cffd7cf",
+  "renderer": {
+    "hyperframes": "0.8.174",
+    "browser": "/home/jnlngx10/.cache/ms-playwright/chromium_headless_shell-1234/chrome-linux/headless_shell",
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5+esm15 Copyright (c) 2000-2023 the FFmpeg developers",
+    "max_chapter_renders": 2,
+    "render_workers": 4
+  },
+  "decision": "pass",
+  "reviewer_type": "agent",
+  "findings": "Inspected contact pages 01 and 03. Resource/control mapping, admission boundaries and recovery handoff show their intended owners and checks. This is sampled agent picture review; machine geometry covers all captured states. Full human viewing/listening remains pending.",
+  "recorded_at": 1792402749.6041775,
+  "scope": "Captured native visual states; full human watching/listening separate"
+}

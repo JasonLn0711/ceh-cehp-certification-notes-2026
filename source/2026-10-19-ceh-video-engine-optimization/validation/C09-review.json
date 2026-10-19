@@ -1,0 +1,42 @@
+{
+  "source_sha256": "72a7353c14cb48765fbc9b0a7a32edcee68db528efb4dc69f3048ffe982c7b29",
+  "captures": {
+    "S43-complete-70.267.png": "d8cad2694c9d41eafb47606c170fab181f9fcb9247899595f9ca06761181451e",
+    "S43-midpoint-37.133.png": "9bba6ec0d4017ddb049f1e5a0bba0be319ea9fcff4dc943aa237a414ab789825",
+    "S43-teaching-1-12.300.png": "bde931c8f983921a21ac8fe3b2fdf9308374a5f0cc6b469757e85112f0297934",
+    "S43-teaching-2-19.733.png": "4ac33ae4690f4822fb1119e1845d882fd03b1fe6849ae59f018311f6efbe92c9",
+    "S43-teaching-3-41.000.png": "b9cf7500186732376f732e85a91b55175bc497844097a4af4dbb9f51c8976d91",
+    "S43-teaching-4-61.033.png": "471e7cb78c059a01d1f5c1bff22d52b5fc9609727ccaad66ea6cfe8676f25166",
+    "S44-complete-71.033.png": "4272cdf827283b4fc9c3fde043d3a69a69c7833a547a3f6b9554a501397160d7",
+    "S44-midpoint-37.533.png": "1c51ade3fe0c8e9711897cb2377008250a1636840559613514da558f0715b01f",
+    "S44-teaching-1-16.167.png": "d412bbe38bea9ff603edbeb40ce3e855a5a5580a9d0f706e134465298ca953d3",
+    "S44-teaching-2-26.833.png": "89ecb15e65ffddb8ad19802e38bae169a2cd3acd4c1e6a25d6cc252994dc52f5",
+    "S44-teaching-3-32.900.png": "4cb081c5de8c980c1cb8d7f1670e060334753687539f3ee1fc1f6017d57dc67c",
+    "S44-teaching-4-49.300.png": "b7c2201f208e92f8e1cc64dfe501a319b280da417f8d6dc833974865be4232af",
+    "S45-complete-68.433.png": "88f720f47dcdaf7f0e7d7267b9ebbfb41d0668e835f8c60f14f263a697c1879f",
+    "S45-midpoint-36.233.png": "0c1ad9274025b603bffe54fd8a5ccb34b83d25ba391aea864caf74bb61e06c57",
+    "S45-teaching-1-14.500.png": "517f2c7d3bb491230ce1ef73577df2e1ba57b706dcd5cf18724ea1a5a7d6a052",
+    "S45-teaching-2-17.867.png": "651fe72a2782f4c454238306c01200c9fd05dd5aa5992b6cd73262773c82aa1f",
+    "S45-teaching-3-24.033.png": "3effcb1a04b5695c8dcb66cc354a3d55a2bea67e8beaa88267db93f8843bfa33",
+    "S45-teaching-4-53.333.png": "1172afcc6f3e1c98064190d2e65677423e087e6b89e043db3a90d231bfd86a6d",
+    "S46-complete-72.967.png": "8d7657ece1e2638881aee3a38f90cd76359a5dc7f77942a70148684ba4321fc7",
+    "S46-midpoint-38.500.png": "232518dd1f0db643dccb9eb8a7be98e285b00e1288e000e7890f575da6683bd9",
+    "S46-teaching-1-10.467.png": "4fde61e863f939bbddf6d19b7a73395f6680fa04cbc11b0b0a64493baed88548",
+    "S46-teaching-2-20.567.png": "23438cb3f716c91ac88e82e7e0b2ef97e9a84639f29b94edbc56ebe67a0af635",
+    "S46-teaching-3-49.133.png": "3c67024bf5074ae2d305c651d186cf6abd9d8cc2cb1a58432b18032d159a2b84",
+    "S46-teaching-4-64.833.png": "e3343a2e92101552d67c0cfdf0174feccbe1284ae4412bc3d19e9da6cd5c9281"
+  },
+  "capture_recipe": "a18e27501ec8764204581e9a2d5edbb2e5881fb7fc26acff81e7de022cffd7cf",
+  "renderer": {
+    "hyperframes": "0.8.174",
+    "browser": "/home/jnlngx10/.cache/ms-playwright/chromium_headless_shell-1234/chrome-linux/headless_shell",
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5+esm15 Copyright (c) 2000-2023 the FFmpeg developers",
+    "max_chapter_renders": 2,
+    "render_workers": 4
+  },
+  "decision": "pass",
+  "reviewer_type": "agent",
+  "findings": "Inspected contact pages 01 and 03. WAN offer/acceptance, 1024 backlog, 24-core demand/8-core budget and dependency limits retain the stipulated values and simulated-output labels. This is sampled agent picture review; machine geometry covers all captured states. Full human viewing/listening remains pending.",
+  "recorded_at": 1792402749.7015724,
+  "scope": "Captured native visual states; full human watching/listening separate"
+}

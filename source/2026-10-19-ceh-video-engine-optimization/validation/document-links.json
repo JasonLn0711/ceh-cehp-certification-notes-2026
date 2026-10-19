@@ -1,6 +1,7 @@
 {
   "status": "passed",
-  "markdown_files": 7,
-  "local_links_checked": 89,
-  "missing": []
+  "markdown_files": 8,
+  "local_links_checked": 117,
+  "missing": [],
+  "git_diff_check": "passed"
 }

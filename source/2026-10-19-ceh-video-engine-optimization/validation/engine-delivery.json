@@ -1,0 +1,27 @@
+{
+  "status": "automated_delivery_checks_passed",
+  "module": "M10",
+  "engine_version": "0.1.0",
+  "runtime": {
+    "hyperframes": "0.8.174",
+    "browser": "/home/jnlngx10/.cache/ms-playwright/chromium_headless_shell-1234/chrome-linux/headless_shell",
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5+esm15 Copyright (c) 2000-2023 the FFmpeg developers",
+    "max_chapter_renders": 2,
+    "render_workers": 4
+  },
+  "source_hashes": 330,
+  "canonical_words": 10241,
+  "clips": 781,
+  "scenes": 58,
+  "chapters": 11,
+  "captions": 1371,
+  "duration": 4283.733333333335,
+  "frames": 128512,
+  "zero_pcm_holds": 8,
+  "pcm_frames_per_hold": 48000,
+  "master_sha256": "64d31b284dd80fe4d099d7394bb140f845473eee2bb974a4bdf1c8cc2677a46a",
+  "encoded_samples": 165,
+  "human_listening": "pending",
+  "pronunciation_accuracy": "not_evaluated",
+  "public_media_release": "not_activated"
+}

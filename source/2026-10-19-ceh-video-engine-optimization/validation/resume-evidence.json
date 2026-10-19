@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "verified_chapter_outputs_retained": 9,
+  "resumed_render_nodes": [
+    "render:C07",
+    "render:C09"
+  ],
+  "source_unchanged": true,
+  "scope": "Actual failed C07 review guard, refreshed current review and resumed production; nine already verified chapter receipts/output bytes retained. Cancellation dispatch guard added after the observed queue race."
+}

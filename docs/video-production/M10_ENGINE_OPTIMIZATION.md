@@ -43,4 +43,28 @@ M04–M09 remain on their released workflows until explicitly migrated. Bulk rer
 
 ## Rollout evidence
 
-Implemented checks pass: 34 regression tests; six live cache/art scenarios with two real fixture TTS inferences; five actual preflight scenarios covering three early failures; relocated baseline import with 27 reusable clip entries; and a fresh-environment C11 render. The art fixture originally ran on HyperFrames 0.8.173 and passes a separate actual 0.8.174 browser recheck. All 839 production WAV files remain byte-identical to the reference, with zero new production TTS inferences. The technical review queue contains 479 pending listening items and no confirmed technical defects across 781 clips. The actual original-release rehash passes all 6,091 payloads. Final master/ZIP closeout follows the remaining artifact checks. The [engine operator guide](../../tools/ceh_video/README.md) describes the executable interface and troubleshooting.
+Implemented checks pass: 35 regression tests; six live cache/art scenarios with two real fixture TTS inferences; five actual preflight scenarios covering three early failures; relocated baseline import with 27 reusable clip entries; and a fresh-environment C11 render. The art fixture originally ran on HyperFrames 0.8.173 and passes a separate actual 0.8.174 browser recheck. All 839 production WAV files remain byte-identical to the reference, with zero new production TTS inferences. The technical review queue contains 479 pending listening items and no confirmed technical defects across 781 clips. The actual original-release rehash passes all 6,091 payloads. The completed reference result and artifact identities follow below. The [engine operator guide](../../tools/ceh_video/README.md) describes the executable interface and troubleshooting.
+
+
+## Validated reference result — October 19
+
+Priorities 1–4 are implemented and validated on M10. All 11 chapters were actually rendered on HyperFrames 0.8.174, including the fresh-environment C11 encode. The final film remains **71:23.733**, **128,512 frames**, **58 scenes**, **10,241 canonical words** and **1,371 subtitle cues**. All 44 inherited locks and 330 source payload hashes pass. Each of eight quiz holds contains exactly 48,000 stereo zero PCM frames; decoded AAC boundary residue is reported separately.
+
+The full browser/quiz/repeated-seek checks, complete decode, audio continuity and sampled picture review passed. The engine captured 328 unique native states and checked their text geometry. Scoped agent chapter findings name the inspected pages. Agent encoded review covers 165 mandatory samples through 20 contact pages, plus two full-resolution opening frames. Final metadata comes from the module profile and preserves M10's existing exported title. The final master and all 165 sampled picture hashes match the inspected candidate.
+
+A real stale C07 capture receipt stopped the render path. The refreshed frame and all current C07 contact pages were inspected; resume preserved nine verified chapter output/receipt pairs and rendered only C07/C09. A batch review gate now checks existing reviews before costly dispatch, and cancellation blocks new child starts. The final unchanged build reused **all 202 nodes and executed zero**. These are exercised engineering results, with no claimed end-to-end speedup or ASR quality ranking.
+
+The editable ZIP contains **5,706 entries**, **3,329,559,090 bytes** and **5,705 extracted payload hashes**, all verified with ZIP CRC and actual extraction. It includes the bundled engine, profile, pronunciation policy, approved audio, models, alignment, module adapters, original source, 58 transcript receipts and production review evidence. Runtime environments/caches and unrelated Planning/coursework custody notes are excluded.
+
+Local outputs:
+
+- Film: `~/Videos/CEH_M10_optimization_v1/output/CEH_M10_Denial_of_Service_en-US_1_5x_1s_master.mp4`.
+- Editable archive: `~/Videos/CEH_M10_optimization_v1/output/CEH_M10_optimization_v1_EDITABLE.zip`.
+- Subtitle files, 11 chapter MP4s, continuous PCM and `engine-render-report.md` are adjacent.
+- Listening queue: `~/Videos/CEH_M10_optimization_v1/qa/audio-audition/index.html`.
+
+Master SHA-256: `64d31b284dd80fe4d099d7394bb140f845473eee2bb974a4bdf1c8cc2677a46a`. ZIP SHA-256: `5f552a5b14b9fa0728fbcd9ae2f90a3269fbe565e2410215594d848ee54975f2`.
+
+[Compact runtime and archive evidence](../../source/2026-10-19-ceh-video-engine-optimization/validation/README.md) separates 35 regression tests, live fixtures, actual media, cache reuse and archive verification. Human pronunciation/naturalness and full-film listening remain pending for 479 prioritized items; public media release remains unactivated. Git publication concerns implementation/docs/compact evidence only. Existing M04–M10 releases remain preserved.
+
+Planning keeps thin mirrors in the [October 19 day note](../../../planning-everything-track/weeks/2026-W43/days/2026-10-19.md#ceh-video-engine-optimization), [W43 plan](../../../planning-everything-track/weeks/2026-W43/weekly-plan.md#ceh-video-engine-optimization) and [CEH project locator](../../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#ceh-video-engine-optimization). The original learning route and independent human listening gate remain in force.

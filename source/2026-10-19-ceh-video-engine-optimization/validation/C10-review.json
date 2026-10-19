@@ -1,0 +1,36 @@
+{
+  "source_sha256": "68d8895364cf467be2938c8d0a0735d048a1f6de30a3b4d3878aefb069c52fe7",
+  "captures": {
+    "S47-complete-73.900.png": "c38f14dbb2fe861a2531a62fff16cf363dc5ad95ddba233b264f18b0bafd0973",
+    "S47-midpoint-38.967.png": "51910b9b6e62ce84c7f54a7009cd6b55e41619f95915efba3839f88da23472b2",
+    "S47-teaching-1-9.500.png": "a5a64f88f11b9dd77ad58cdf8984a652dcfd52de52ea9ce75550b1e01a2c006c",
+    "S47-teaching-2-23.933.png": "4f3a294ee6069c8bc29398dd06f5b717fdb13b068fd627c03dc1be9d0185de1f",
+    "S47-teaching-3-35.833.png": "413fab3c380eb87e4f8a5679eadfcf20402cdacbe3636b81f6e70c4183bfecee",
+    "S47-teaching-4-56.000.png": "cf86dbe82956e4c548c21279bf17e01150e6d2f9eb94f2a225dc455a7f8352c1",
+    "S48-complete-72.700.png": "00dbcd4f87f99b24629b854e98a9a42ac2b0fedb5520c21a50bdeba0853a257b",
+    "S48-midpoint-38.367.png": "b32f042826b3c2f266da442e603d635af76bdd5e537c377b0ac4932fb0fd9aee",
+    "S48-teaching-1-8.733.png": "3150d7161c74b565aa9d8687332ddcfe82913175ca55bed6f4a0b14cf966d228",
+    "S48-teaching-2-18.400.png": "32dc218c6ef395240e1a421a32aa85f44501d46b5a39fb13104189cd1706a009",
+    "S48-teaching-3-36.567.png": "b32f042826b3c2f266da442e603d635af76bdd5e537c377b0ac4932fb0fd9aee",
+    "S48-teaching-4-63.500.png": "c9d9895b2991fe8738bb581b1e7184c5c266decff5d4899ce1e5ff164b478dd1",
+    "S49-complete-73.133.png": "35949ec5e161401aee1ae6e1a55a195c7253a296b94065fc89d5af4237f25c48",
+    "S49-midpoint-38.567.png": "df174e8f9cb03eeb515393a260e4ffa39f00f652a37157fb114d2b54c485d579",
+    "S49-teaching-1-10.667.png": "758c353c96098ddf1add28e2fb05c483f1feac9e98c86d6d95a76e225afea274",
+    "S49-teaching-2-33.300.png": "c7eeab35957c4551778d16e7db7033c581d09f0a9355c323ec07753038fbaa7d",
+    "S49-teaching-3-44.167.png": "a10cc8f7b8581ac8c9efbb3c280469f7761ad1049f3323213240420032d9c41f",
+    "S49-teaching-4-61.433.png": "0be2731326514ac6e71243ed6828400483f994c5c4d1c6db1c90be685774cd9a"
+  },
+  "capture_recipe": "a18e27501ec8764204581e9a2d5edbb2e5881fb7fc26acff81e7de022cffd7cf",
+  "renderer": {
+    "hyperframes": "0.8.174",
+    "browser": "/home/jnlngx10/.cache/ms-playwright/chromium_headless_shell-1234/chrome-linux/headless_shell",
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5+esm15 Copyright (c) 2000-2023 the FFmpeg developers",
+    "max_chapter_renders": 2,
+    "render_workers": 4
+  },
+  "decision": "pass",
+  "reviewer_type": "agent",
+  "findings": "Inspected contact pages 01 and 02. Response/evidence/control-owner/rollback sequence, recovery user path and AI human-decision boundary remain clear. This is sampled agent picture review; machine geometry covers all captured states. Full human viewing/listening remains pending.",
+  "recorded_at": 1792402749.7758613,
+  "scope": "Captured native visual states; full human watching/listening separate"
+}

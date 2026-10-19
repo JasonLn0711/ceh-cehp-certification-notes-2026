@@ -1,0 +1,9 @@
+{
+  "status": "crc_extraction_hashes_verified",
+  "files": 5706,
+  "payload_hashes": 5705,
+  "bytes": 3329559090,
+  "sha256": "5f552a5b14b9fa0728fbcd9ae2f90a3269fbe565e2410215594d848ee54975f2",
+  "archive": "CEH_M10_optimization_v1_EDITABLE.zip",
+  "human_listening": "pending"
+}

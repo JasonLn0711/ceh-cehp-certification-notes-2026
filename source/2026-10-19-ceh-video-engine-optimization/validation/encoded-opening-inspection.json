@@ -1,0 +1,18 @@
+{
+  "scope": "Additional full-resolution opening samples; visual review required",
+  "samples": [
+    {
+      "time": 10,
+      "file": "opening-10.png",
+      "sha256": "607d40916004291fd131427fa1dba4b4cdf769e88f6a821c39dccead33fb7454"
+    },
+    {
+      "time": 25,
+      "file": "opening-25.png",
+      "sha256": "22109a44fedb7b769a250b9ee8e0c9788cf490866841b379d5b3e6811ad574bb"
+    }
+  ],
+  "master_sha256": "64d31b284dd80fe4d099d7394bb140f845473eee2bb974a4bdf1c8cc2677a46a",
+  "status": "agent_visual_review_passed",
+  "findings": "Inspected the actual 10-second and 25-second encoded opening at native resolution. The authorized-student/access/enrollment progression is legible, with Tally/Northstar intact and caption clearance. Full human watching/listening remains pending."
+}

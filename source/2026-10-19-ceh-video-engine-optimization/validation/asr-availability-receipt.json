@@ -1,0 +1,46 @@
+{
+  "mode": "availability_validation",
+  "status": "LIVE_FULL_COMPLETED",
+  "runtime_validity": "valid_target_runtime",
+  "functional_result": "available_and_working",
+  "real_inputs": 58,
+  "persisted_transcripts": 58,
+  "errors": 0,
+  "runtime": {
+    "package": "faster-whisper",
+    "version": "1.2.1",
+    "device": "cpu",
+    "compute_type": "int8",
+    "model": "base.en",
+    "beam_size": 1,
+    "temperature": 0,
+    "canonical_prompt": false,
+    "vad_filter": false
+  },
+  "models": [
+    {
+      "path": "models/faster-whisper-base.en/config.json",
+      "sha256": "f3bc3821e9fc76a27bae538e11ae5b677dcdd352b4600429ce7951d398569aeb"
+    },
+    {
+      "path": "models/faster-whisper-base.en/model.bin",
+      "sha256": "2a166925539a16005f14ff328359f9b9adb9dc4fb631bb3b227526862e93e2ef"
+    },
+    {
+      "path": "models/faster-whisper-base.en/tokenizer.json",
+      "sha256": "929c5252409436dce1b38a75d1abbcb5e132d170d8e324e4e04ed915fa2d22df"
+    },
+    {
+      "path": "models/faster-whisper-base.en/vocabulary.txt",
+      "sha256": "ff77588746d3a2595d32ab5b69ffd7b95ce2441ac57533cb66fc3eb575a115cf"
+    }
+  ],
+  "accuracy": "not_evaluated",
+  "latency": "not_evaluated",
+  "new_inferences": 0,
+  "refresh_receipt": "recognition-refresh.json",
+  "provenance": "verified_reference_transcripts",
+  "source_process": "reference-recognition-process.json",
+  "source_process_sha256": "3a1bd710eb522f6a8b516faa771716527729fa42241bf6acf0fffe57219c040f",
+  "scope": "Revalidates real functional transcript receipts; recognition-refresh.json distinguishes reused transcripts and new fixed-runtime inference. This receipt command itself runs no inference. No model ranking or timing/accuracy endpoint; human audio acceptance remains separate."
+}
