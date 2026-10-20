@@ -193,3 +193,8 @@ For this capture, the current [Planning CEH locator](../planning-everything-trac
 ## Reusable CEH video engine
 
 [Engine operator guide](tools/ceh_video/README.md) and [M10 reference rollout](docs/video-production/M10_ENGINE_OPTIMIZATION.md) connect the approved series standard to verified audio reuse, resumable execution, early source checks and artifact-bound review. Existing module releases retain their own delivery and human acceptance evidence.
+
+
+## M10 efficiency and scoped retries — October 20
+
+The [current production route](docs/video-production/README.md#ceh-m10-efficiency-2026-10-20) connects the completed v1.2 local film, preserved timing/design contracts, and engine 0.5.2 maintenance. [Measured findings and remaining checks](docs/video-production/M10_HIGH_IMPACT_FIXES.md) distinguish full-film evidence from bounded benchmarks and retry-control tests. The one-hour production target and full human viewing/listening remain open.

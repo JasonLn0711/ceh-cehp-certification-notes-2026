@@ -53,3 +53,8 @@ All 58 real WAVs have independent unprompted fixed-runtime transcript receipts u
 ## Isolated engine optimization rollout
 
 [Priorities 1–4 and reference evidence](../../docs/video-production/M10_ENGINE_OPTIMIZATION.md) extend this M10 production thread. The new workspace `~/Videos/CEH_M10_optimization_v1/` validates shared execution, cache recovery, audio triage and current review receipts. The v1.0 artifacts and hashes above remain the preserved original release. Follow the linked rollout record for the new candidate and its independent acceptance state.
+
+
+## October 20 successor releases and engineering maintenance
+
+This record retains the original v1.0 delivery above. The [current production index](../../docs/video-production/README.md#ceh-m10-efficiency-2026-10-20) routes to the completed v1.2 local film (74:55.733), its [sample-accurate timing policy](../../docs/video-production/AUDIO_TIMING_POLICY.md), and [performance / scoped-retry evidence](../../docs/video-production/M10_HIGH_IMPACT_FIXES.md). New English production uses spoken-only 1.4×, 0.3-second sentence gaps and 0.8-second chapter boundaries; historical media and records remain intact. [Planning October 20](../../../planning-everything-track/weeks/2026-W43/days/2026-10-20.md#ceh-m10-efficiency-2026-10-20) carries capacity and the next acceptance layer.

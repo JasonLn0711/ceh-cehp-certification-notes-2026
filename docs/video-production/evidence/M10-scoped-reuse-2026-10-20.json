@@ -1,0 +1,139 @@
+{
+  "experiment_id": "EXP-20261020-03-scoped-retries",
+  "engine": "0.5.2",
+  "execution_status": "LIVE_MINIMUM_COMPLETED",
+  "runtime_validity": "target_decode_probe_only",
+  "decision": "reject_decoder_thread_limits; adopt_tested_scoped_retry_control",
+  "gate_outcome": {
+    "decode_speedup": "fail",
+    "regression_tests": "pass",
+    "full_native_render_retry": "not_evaluated",
+    "human_acceptance": "not_evaluated"
+  },
+  "implemented": [
+    "current_verified_chapter_reuse_after_live_gates",
+    "independent_encoded_QA_nodes_and_image_output_integrity"
+  ],
+  "tests": {
+    "count": 116,
+    "seconds": 24.373,
+    "log": "/home/jnlngx10/Videos/CEH_M10_decode_tuning_20261020/tests-final.log",
+    "fixture_scope": "real FFmpeg small video with substituted native worker; actual runner and graph receipts"
+  },
+  "medians_seconds": {
+    "chapter": {
+      "0": 3.3570468459947733,
+      "1": 3.9697822829984943,
+      "4": 6.95970444699924
+    },
+    "master": {
+      "0": 7.13095180199889,
+      "1": 20.720316546001413,
+      "4": 8.77280599000369
+    }
+  },
+  "source_hashes": {
+    "tools/ceh_video/ceh_video/render_reuse.py": "fe49933fc639454e337e5e923b801d10b4335a69df8ceaf63fca33fc9ff9b96d",
+    "tools/ceh_video/ceh_video/runner.py": "01a2fc293b3d3fdc5dc508f64d78785843bcb3b34fa7d7c976936e8ff7fd9777",
+    "tools/ceh_video/ceh_video/graph.py": "a7596e302c32e2ea5551fbf64441bb0cbd7b4ffa6f13d64a83fdb90dfb3fa5f8",
+    "tools/ceh_video/tests/test_scoped_reuse.py": "861de7043ce166f70446bad83e7aa710fceba77d1f6e34cb987e4c1849130bd3",
+    "tools/ceh_video/ceh_video/__init__.py": "ac649672865c70259f2e841f4d86059093aa956e12480eb3cc42de419d219ee8",
+    "tools/ceh_video/pyproject.toml": "c035659183ff9690b25c646500f7087ac2d71d26ceab2ce70351bfa871f7c228",
+    "tools/ceh_video/README.md": "150d2542a8c48b2bf9bd23d29bdd51dcf7411e8248fa3ef9291b618919f3cd2c",
+    "docs/video-production/M10_HIGH_IMPACT_FIXES.md": "c6e9ae7a0275fac04d5bfbb9668a3755daf31db4df3ae64261b5d4bcd7116dec"
+  },
+  "protected_release_hashes": {
+    "CEH_M10_Denial_of_Service_en-US_Editorial_v1_2_1_4x_0_3gap_master.mp4": "a6022560e6cd77f432461157882826b0e89c3500d8645374085740cdc8e3e281",
+    "CEH_M10_efficiency_v1_2_EDITABLE.zip": "bdae800b242376b09ee4817270eaa7a3b611eda160e8a2491abb0d072934b825"
+  },
+  "locked_assets_verified": 74,
+  "visual_exceptions_added": [],
+  "readonly_release_check": {
+    "checks:frames": {
+      "outputs": 131,
+      "missing": []
+    },
+    "checks:audio": {
+      "outputs": 2,
+      "missing": []
+    },
+    "checks:late": {
+      "outputs": 57,
+      "missing": []
+    },
+    "native_C01_identity_seconds": 0.794056177001039,
+    "native_runtime_files": 310
+  },
+  "failures": [
+    {
+      "stage": "probe launch",
+      "reason": "python executable absent; rerun with python3",
+      "included_in_measurements": false
+    },
+    {
+      "stage": "initial scoped regression",
+      "reason": "test expected only late QA invalidation; package correctly invalidated because bundled engine changed; expectation corrected"
+    }
+  ],
+  "remaining": [
+    "native cold/warm chapter execution in a new workspace",
+    "full-film time saving",
+    "first-run GPU capture speedup",
+    "combined AAC decode optimization"
+  ],
+  "evidence_root": "/home/jnlngx10/Videos/CEH_M10_decode_tuning_20261020",
+  "evidence_hashes": {
+    "master-1-4.stderr": "01df971644af824aebec68f41e5409e375d0e8b669a50f4ed1becc6ed741dca9",
+    "master-2-1.progress": "4ef52e52ec10db1a05227686676be633ca7ce87d26547196c8dec8e2129cc0dd",
+    "chapter-2-1.stdout": "b1b3500b35e9fd9f21ec7a30ae3acd51434e49da59332c74ebe942f41aa0b3fa",
+    "master-2-0.stderr": "9b166a6e732721697a94b2df7fe0d93a98c9c5eeb9a7d36ceb5e759a10fa098a",
+    "chapter-0-0.stdout": "c69bddf4ebb5fdfa0c29a561f5ec851a1aeacc0f784c433921c5b1df057fc91a",
+    "master-1-1.progress": "653e4266adadc051de5a6f41ee357e536777ec521488b6b12e3612690a830035",
+    "master-1-0.progress": "b4536bf75ec9198dd58581347a44b574c31d3bd2cef441a7f67107e5f232c91b",
+    "chapter-0-1.stdout": "b1b3500b35e9fd9f21ec7a30ae3acd51434e49da59332c74ebe942f41aa0b3fa",
+    "chapter-0-1.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "master-1-1.stderr": "8767ed7d10ec5b8388f8bcfe649b89e87cdfe6e21dd7a8c23903863ec03cf176",
+    "chapter-1-1.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "master-2-0.progress": "c10a06707ad0edb92c45bf77e934e7de8f4d7e624bdd9a432616c7045ba23f8d",
+    "chapter-0-0.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "master-2-1.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "master-2-1.stderr": "81adf5819d17ec4ac2fcb32344195aaf7be6f12adc19893d7863f13b3a968292",
+    "master-1-0.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "measurements.json": "6c63bde113d846bf626f98d1f4554227120860aca177bb540b13845df91bc8bb",
+    "master-2-4.progress": "5e6c2ba0f7e1ce397329a1effde749a699e31f554721d0f6c0e0586b6643caa7",
+    "chapter-2-0.stdout": "c69bddf4ebb5fdfa0c29a561f5ec851a1aeacc0f784c433921c5b1df057fc91a",
+    "chapter-1-4.stdout": "c69bddf4ebb5fdfa0c29a561f5ec851a1aeacc0f784c433921c5b1df057fc91a",
+    "chapter-1-1.stdout": "b1b3500b35e9fd9f21ec7a30ae3acd51434e49da59332c74ebe942f41aa0b3fa",
+    "master-0-1.progress": "f56e1ab2b122858db88680d24790b6cd3bf502e62f4a24989cd1dcc336338c52",
+    "master-2-4.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "master-1-1.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "readonly-existing-release.json": "29ada7fe181fb75ce0abd39dd6e56e3a9a218679ab76c1983fbf95d7d8888194",
+    "master-1-4.progress": "9129640f714e55cfa04d08202d5fe5af5285e3a9f0688ae09742d407e3a8dec3",
+    "tests-final.log": "103fb4585eaa3c1b1bd0b5c56d9c832e3e7e028c3e2052598727f51da7935b27",
+    "probe.py": "aee8621629aea8584bae7772a4e1c53f715cdec9fe3ac546bb29b57be9580fe7",
+    "chapter-0-4.stdout": "c69bddf4ebb5fdfa0c29a561f5ec851a1aeacc0f784c433921c5b1df057fc91a",
+    "chapter-2-4.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chapter-1-0.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chapter-1-4.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chapter-1-0.stdout": "c69bddf4ebb5fdfa0c29a561f5ec851a1aeacc0f784c433921c5b1df057fc91a",
+    "master-1-0.stderr": "b8ca0ec27069e7b93fe5b2e5dd07af685a0a2e17ce9280eaf10dfe70d5a1801c",
+    "scoped-tests.log": "3d148f3aa1f14fc84fae8a99e4c1155dc576bc14f23f4c617f7892f72e94b411",
+    "closeout.py": "d8e04b9aab448e732246b994217126b6b17a688cd35fac5b3bb3aa2483379343",
+    "master-1-4.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "master-2-0.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "master-0-4.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chapter-2-1.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "master-0-0.stderr": "7f269f72dd8589a627610146b1cb3cbce24d6b84e27561a98911ff60105f87fd",
+    "master-2-4.stderr": "fa7292be42fd89bf838626c6e11d83a297ad8dfb517bba1011ab2da90ac8cfec",
+    "master-0-0.progress": "9d09d98adad84ae45f44509113249919b7fc6b043696c588c7211f9a6ba2e670",
+    "chapter-2-0.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "master-0-0.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "chapter-0-4.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "master-0-4.stderr": "2f19e939f3de7b13f70dd8e732ff8081d3020cb5c837ba58410e4bfa725c6c1b",
+    "master-0-1.stderr": "ce331ba84d6897838aaf10e7b954d837c685b1f72d177e5c56627e8ab13f2e2a",
+    "chapter-2-4.stdout": "c69bddf4ebb5fdfa0c29a561f5ec851a1aeacc0f784c433921c5b1df057fc91a",
+    "tests.log": "efc4ee2535885bad8e2094b59a9416e2d4d05c6472f69d1c36131ad686cd8021",
+    "master-0-4.progress": "67dccbf941d6ff94d3c7be7b9730c71bccd64179bfe7d58958bf7986c71fe77a",
+    "master-0-1.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

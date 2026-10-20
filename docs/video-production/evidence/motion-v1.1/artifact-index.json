@@ -1,0 +1,73 @@
+{
+  "status": "interim",
+  "workspace": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1",
+  "artifacts": {
+    "audio-policy-v1.1.json": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/audio-policy-v1.1.json",
+      "sha256": "c056bc77bad3bf6e6ec4e53d7c31639e037d4905e022463f43908f76da9d4283",
+      "bytes": 18662
+    },
+    "audio-rebuild.json": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/audio-rebuild.json",
+      "sha256": "8716e6472233316f075e3ec2eca0343fa0b2c95d275622c59467ff3287bf861a",
+      "bytes": 5107
+    },
+    "migration.json": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/migration.json",
+      "sha256": "235da74bd13be2548b9f98423d400bcc01b1afe843d69954ff4f4a9bc2f17d61",
+      "bytes": 5287
+    },
+    "historical-preservation.json": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/historical-preservation.json",
+      "sha256": "dcb2814cb0ec7d81d927ed39798fd2490f88fdee67aa33ea58f85eff2fb30619",
+      "bytes": 442
+    },
+    "alignment-summary.json": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/alignment-summary.json",
+      "sha256": "7293249f967fc8064311f8e222a29ff8808fb7db129db934b4d973c519f8b94a",
+      "bytes": 31107
+    },
+    "aac-boundary-report.json": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/aac-boundary-report.json",
+      "sha256": "c2685504a9a07b2858b08844918f50b116c25b9abd9e002d466060cfa1fcfa23",
+      "bytes": 4217
+    },
+    "representative-encodes.json": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/representative-encodes.json",
+      "sha256": "6d91bf1e2752f5f0ed95316131e8e3c5e874ee2eaf7368c36f1399421f34b8f2",
+      "bytes": 5026
+    },
+    "preflight.json": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/preflight.json",
+      "sha256": "41a13072e53b9445775fc77f0bb0d9c1044997e74f45ff68b18a850112b39872",
+      "bytes": 220
+    },
+    "unit-tests.log": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/unit-tests.log",
+      "sha256": "5b0995dce37f1055fadb34118235a6dc9e0915d1a93c53aea4cc572290992c74",
+      "bytes": 690
+    },
+    "geometry-tests.log": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/geometry-tests.log",
+      "sha256": "edc48d9aec90b7e894fc94341d1aee7a5c1d0028a6fb06c0c7ddcb668d9f2b52",
+      "bytes": 585
+    },
+    "visual/fixtures/manifest.json": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/visual/fixtures/manifest.json",
+      "sha256": "c6a814d31bfd0bab8669b41991c865bf54e5938c68523727f89047d07ce81d3b",
+      "bytes": 23239
+    },
+    "visual/scenes/manifest.json": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/visual/scenes/manifest.json",
+      "sha256": "8a3ee05c037705cf69289cb2a4c4bc15628ed9c1bc1edec89184809510a75866",
+      "bytes": 214688
+    },
+    "all-text-geometry/report.json": {
+      "path": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1/qa/all-text-geometry/report.json",
+      "sha256": "88a99fd67f4c8790bd1948cac2a9afb49e911bb67280f398dd0881e6f968440d",
+      "bytes": 13110
+    }
+  },
+  "full_master": "not_rendered",
+  "publication": "not_requested"
+}
