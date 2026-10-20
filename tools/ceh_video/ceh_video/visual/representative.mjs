@@ -52,6 +52,6 @@ fs.writeFileSync(path.join(out,`${backend}.html`),html);
 const standalone=path.join(project,'engineering-'+backend);fs.mkdirSync(standalone,{recursive:true});
 fs.cpSync(path.join(project,'assets/fonts'),path.join(standalone,'assets/fonts'),{recursive:true});fs.cpSync(path.join(project,'assets/vendor'),path.join(standalone,'assets/vendor'),{recursive:true});
 for(const name of ['geometry.mjs','pixi.min.js','PixiPlugin.min.js'])fs.copyFileSync(path.join(out,name),path.join(standalone,name));
-fs.writeFileSync(path.join(standalone,'index.html'),html.replaceAll('../assets/','assets/').replace('<script src="../node_modules/hyperframes/dist/hyperframe-runtime.js"></script>','')); 
+fs.writeFileSync(path.join(standalone,'index.html'),html.replaceAll('../assets/','assets/').replace('<script src="../node_modules/hyperframes/dist/hyperframe-runtime.js"></script>',''));
 }
 console.log(JSON.stringify({status:'implemented',output:out,scope:'Six-second S23 geometry fixture; not a replacement for narration-length S23'}));
