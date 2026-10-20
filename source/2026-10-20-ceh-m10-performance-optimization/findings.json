@@ -1,0 +1,146 @@
+[
+  {
+    "id": "PERF-001",
+    "title": "總工作時間缺少共同起訖",
+    "detail": "四小時與一小時尚無同範圍統一計時，不能逐分鐘分攤。",
+    "status": "observed",
+    "implementation": "implemented; targeted tests/real audio evidence below; full release pending",
+    "validation": "initial run-ID/append-only tests passed; new detailed timing tests pending rerun",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-002",
+    "title": "片長增加不足以解釋回退",
+    "detail": "128512→132727 frames；71:23.733→73:44.233；增加3.279849%。",
+    "status": "observed",
+    "implementation": "implemented; targeted tests/real audio evidence below; full release pending",
+    "validation": "tested: qa/audio-policy-v1.2.json; 58 scenes, 781 reused clips, 0 new inference, 0 tempo passes",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-003",
+    "title": "渲染工時回退",
+    "detail": "原始4365.641497s、最佳化1853.826443s、新版10630.082889s；章節加總含平行重疊，非wall time。",
+    "status": "observed",
+    "implementation": "benchmark implemented; runtime optimization candidate implemented; production activation pending paired measurements",
+    "validation": "fixed-workload benchmark running; no speed target claimed",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-004",
+    "title": "實際主流程",
+    "detail": "7631.377713s；章節窗口6338.707376s包含於主流程，不相加。",
+    "status": "observed",
+    "implementation": "implemented; targeted tests/real audio evidence below; full release pending",
+    "validation": "initial run-ID/append-only tests passed; new detailed timing tests pending rerun",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-005",
+    "title": "主要執行階段",
+    "detail": "capture_streaming合計9298.811s，占章節receipt工時87.476%；含串流編碼，不能獨斷SVG或GPU成本。",
+    "status": "observed",
+    "implementation": "benchmark implemented; runtime optimization candidate implemented; production activation pending paired measurements",
+    "validation": "fixed-workload benchmark running; no speed target claimed",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-006",
+    "title": "worker選型範圍不足",
+    "detail": "4改2；先前只比較1/2、S44十秒、同機QA負載，不證明優於4。",
+    "status": "observed",
+    "implementation": "benchmark implemented; runtime optimization candidate implemented; production activation pending paired measurements",
+    "validation": "fixed-workload benchmark running; no speed target claimed",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-007",
+    "title": "長章節尾段",
+    "detail": "C11 14:01:44開始；C09 14:04:59最後其他章完成；C11 14:37:15完成；單章尾段1936.212783s。",
+    "status": "observed",
+    "implementation": "implemented; targeted tests/real audio evidence below; full release pending",
+    "validation": "pending final acceptance",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-008",
+    "title": "封裝連結展開",
+    "detail": "61006 files、82853930346 bytes暫存；中止並狹義排除boundary hosts，來源保留。",
+    "status": "observed",
+    "implementation": "manifest-first archive and restore implemented; complete extraction test pending",
+    "validation": "pending final acceptance",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-009",
+    "title": "封裝導致影音重驗",
+    "detail": "delivery.py整檔進audio-review指紋，包裝修正導致853.967594s重驗；master與165圖片未變。",
+    "status": "observed",
+    "implementation": "implemented; targeted tests/real audio evidence below; full release pending",
+    "validation": "pending final acceptance",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-010",
+    "title": "較晚發現共用幾何缺陷",
+    "detail": "shared connector、port normal與文字間距缺陷使多輪完整截圖、準備及審查失效。",
+    "status": "observed",
+    "implementation": "implemented; targeted tests/real audio evidence below; full release pending",
+    "validation": "58-scene precheck passed; scoped capture failed final coverage calculation; corrected harness pending rerun",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-011",
+    "title": "重複全域驗證",
+    "detail": "規劃與執行反覆建立graph、檢查render guard；獨立成本尚未量測。",
+    "status": "observed",
+    "implementation": "single execution graph implemented; repeated whole-film guard caching deferred until safe invalidation has evidence",
+    "validation": "pending final acceptance",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-012",
+    "title": "語音並非本輪主要成本",
+    "detail": "781 clips reused，完整remaster零Kokoro推論，processed1.4身分保留。",
+    "status": "observed",
+    "implementation": "implemented; targeted tests/real audio evidence below; full release pending",
+    "validation": "tested: qa/audio-policy-v1.2.json; 58 scenes, 781 reused clips, 0 new inference, 0 tempo passes",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-013",
+    "title": "卡片限制圖解",
+    "detail": "scene_art先為所有node畫card-frame，圖示被迫嵌入卡片。既有29個SVG道具可沿用。",
+    "status": "observed",
+    "implementation": "implemented; targeted tests/real audio evidence below; full release pending",
+    "validation": "pending final acceptance",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-014",
+    "title": "可重建重素材副本",
+    "detail": "章節資源、review hosts與合成音軌有重複；封裝需要明確來源與衍生產物清單。",
+    "status": "observed",
+    "implementation": "manifest-first archive and restore implemented; complete extraction test pending",
+    "validation": "pending final acceptance",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-015",
+    "title": "歷史計時覆寫",
+    "detail": "run-checks.json已被包裝修正重驗覆寫；full-production-run.log保有原7631秒結果。",
+    "status": "observed",
+    "implementation": "implemented; targeted tests/real audio evidence below; full release pending",
+    "validation": "initial run-ID/append-only tests passed; new detailed timing tests pending rerun",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  },
+  {
+    "id": "PERF-016",
+    "title": "政策字串分支",
+    "detail": "多處ceh-en-v1.1判斷，新增政策可能漏驗，需登錄與fail-closed。",
+    "status": "observed",
+    "implementation": "implemented; targeted tests/real audio evidence below; full release pending",
+    "validation": "tested: qa/audio-policy-v1.2.json; 58 scenes, 781 reused clips, 0 new inference, 0 tempo passes",
+    "evidence_workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/qa"
+  }
+]
