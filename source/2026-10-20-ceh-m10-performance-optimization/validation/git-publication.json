@@ -1,0 +1,111 @@
+{
+  "verified_at_utc": "2026-10-20T15:07:55.302540+00:00",
+  "scope": "Implementation/documentation/Planning publication; subsequent receipt-only commits are descendants of these verified tips. No media upload or new film acceptance.",
+  "repositories": {
+    "ceh-cehp-certification-notes-2026": {
+      "verified_tip": "3a8360cd5c5b105c3bb27ea37a006a196f90e252",
+      "verified_remote_tip": "3a8360cd5c5b105c3bb27ea37a006a196f90e252",
+      "target": "origin HEAD:main",
+      "divergence": [
+        0,
+        0
+      ],
+      "commits": [
+        {
+          "sha": "a7e1b0db389c61f67494cf2755d4e07981cda64a",
+          "subject": "docs(video): preserve M10 efficiency decisions and publication scope"
+        },
+        {
+          "sha": "758c75293c1702d498517fdc1081d831986655f1",
+          "subject": "feat(video): implement M10 timing motion and scoped production reuse"
+        },
+        {
+          "sha": "f6b5c59118fa469c74433ea707a355e052c877a3",
+          "subject": "style(video): normalize newly versioned runtime whitespace"
+        },
+        {
+          "sha": "1de033e86984bcb917f89a6ce2bae42a231e37ad",
+          "subject": "test(video): cover timing geometry media integrity and scoped retries"
+        },
+        {
+          "sha": "5c1978187c86e154fa14fc74800082c56e202e65",
+          "subject": "docs(video): publish M10 standards evidence rollback and Planning connections"
+        },
+        {
+          "sha": "3a8360cd5c5b105c3bb27ea37a006a196f90e252",
+          "subject": "docs(video): archive initial performance findings with current outcome links"
+        }
+      ]
+    },
+    "planning-everything-track": {
+      "verified_tip": "ef89998cfa16fb73c016d63d435b03d98b1794d5",
+      "verified_remote_tip": "ef89998cfa16fb73c016d63d435b03d98b1794d5",
+      "target": "origin HEAD:main",
+      "divergence": [
+        0,
+        0
+      ],
+      "commits": [
+        {
+          "sha": "0f7c6bdb130303261d61239df2a7a351fccaae41",
+          "subject": "plan: record M10 efficiency evidence capacity and next validation gate"
+        },
+        {
+          "sha": "ef89998cfa16fb73c016d63d435b03d98b1794d5",
+          "subject": "merge: retain remote TA updates and local M10 engineering closeout"
+        }
+      ]
+    }
+  },
+  "validation": {
+    "python_tests": {
+      "count": 116,
+      "status": "passed",
+      "seconds": 22.139,
+      "command": "PYTHONPATH=tools/ceh_video /home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/project/.venv/bin/python -m unittest discover -s tools/ceh_video/tests",
+      "log_sha256": "e89d65f1c6371a64c59c90312383f7afd586ba1a2177c7ceca8a9d46abdfd4e0"
+    },
+    "node_geometry": {
+      "count": 16,
+      "status": "passed",
+      "command": "npm test --prefix tools/ceh_video/ceh_video/visual"
+    },
+    "planning_knowledge": {
+      "notes": 181,
+      "catalog_entries": 181,
+      "status": "passed"
+    },
+    "planning_repository": {
+      "status": "passed",
+      "grandfathered_warnings": 44,
+      "new_warnings": 0
+    },
+    "added_link_targets": {
+      "checked": 58,
+      "missing": 0,
+      "preexisting_missing_sibling_or_local_targets": 10
+    },
+    "whitespace": "CEH full change and Planning local changes against merged origin/main pass; remote verbatim source trailing space retained"
+  },
+  "merge": {
+    "repository": "planning-everything-track",
+    "remote_commits_preserved": 15,
+    "remote_tip_before_merge": "d6a503b970ad1f5c382e42062dfc5e065c060664",
+    "local_note_commit": "0f7c6bdb130303261d61239df2a7a351fccaae41",
+    "merge_commit": "ef89998cfa16fb73c016d63d435b03d98b1794d5",
+    "conflicts_resolved": [
+      "weeks/2026-W43/days/2026-10-20.md",
+      "weeks/2026-W43/weekly-plan.md"
+    ],
+    "method": "both independent append blocks retained; every remote content line checked"
+  },
+  "transport": "HTTPS using existing gh auth git-credential helper per command; configured remotes and credentials unchanged",
+  "unrelated_preserved": [
+    "ceh-cehp-certification-notes-2026/btop/"
+  ],
+  "remaining": [
+    "native full cold/warm retry measurement",
+    "one-hour full production target",
+    "full human viewing/listening acceptance"
+  ]
+}
