@@ -42,3 +42,10 @@
 上方 implementation in progress 保留為當時狀態。後續 [v1.2 執行紀錄](../../docs/video-production/M10_EFFICIENCY_IMPLEMENTATION.md)已有完整本機交付；[0.5.1／0.5.2 維護報告](../../docs/video-production/M10_HIGH_IMPACT_FIXES.md)分別記錄實測改善、拒絕的候選與尚未執行的原生續跑驗證。公開程式碼提交與完整影片人工驗收分開。
 
 FIRST PRINCIPLE：稀缺資源為製片／覆核等待與可信效能證據。CEH 持原文、規範、程式與驗證；大型媒體留在既有本機 Videos workspace。Planning 僅持 [10/20 日誌](../../../planning-everything-track/weeks/2026-W43/days/2026-10-20.md#ceh-m10-efficiency-2026-10-20)、[專案狀態](../../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#ceh-m10-efficiency-2026-10-20)與容量／下一關。這次授權涵蓋兩個 repository 的分開提交與 main 推送；btop、其他工作及公開影片上傳保持各自範圍。
+
+
+## 第三輪 0.5.3 與本次發布接續 — 2026-10-20
+
+使用者再次提出上方逐字保存的「請再修正影響最大的兩大因素，謝謝」，完成後再提出同一段 FIRST PRINCIPLE 日誌、分開 commit、推送 main 並保留雙邊歷史的要求。本節記錄這次重複授權的適用對象為 engine 0.5.3。
+
+採納／驗證分層：master 實際素材與證據重用、QA 依消費內容判定失效已 implemented／tested；[第三輪詳細報告](../../docs/video-production/M10_HIGH_IMPACT_FIXES.md#ceh-m10-reuse-053-2026-10-20)與[機器證據](../../docs/video-production/evidence/M10-master-material-reuse-2026-10-20.json)保存 122 項測試、60 秒片段量測、失敗輸入及拒絕的抽圖候選。全片原生 cold/warm 與首次製片一小時目標仍待驗證。Planning 的[第三輪日誌](../../../planning-everything-track/weeks/2026-W43/days/2026-10-20.md#ceh-m10-reuse-053-2026-10-20)持薄層成果與下一關。
