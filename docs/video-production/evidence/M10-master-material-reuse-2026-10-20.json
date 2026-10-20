@@ -1,0 +1,139 @@
+{
+  "experiment_id": "EXP-20261020-04-master-material-reuse",
+  "recorded_at_utc": "2026-10-20T15:23:31.612945+00:00",
+  "engine": "0.5.3",
+  "execution_status": "LIVE_MINIMUM_COMPLETED",
+  "runtime_validity": "target_excerpt",
+  "gate_outcome": "pass",
+  "decision": "implemented_for_ceh-en-v1.2; full_pipeline_pending",
+  "implementation_base_commit": "ac2fe15ca6ee585e13b005930eee5afdfd86c531",
+  "measurements": {
+    "baseline_median": 9.224059952997777,
+    "warm_median": 0.8221812609990593,
+    "rows": 3,
+    "source_video_sha256": "a3ab879a141f62c5b47a8fb5071dca4858c27c83a4cfa8176cc5ba25f90a30ba",
+    "source_PCM_excerpt_sha256": "b1d96271b5e2a38124510f627dbfda084a7cdb37cb580b9ae6054daa0d2f1140",
+    "baseline_script_sha256": "327b27e9bb0795a7e0d8f07a91c4cd1c766071b28faed8b725d1cd55ac927493",
+    "candidate_script_sha256": "d968a03dc32510778ebed853a72720bf0b6cf2c793588c37d4c40d6840b3e4ea",
+    "qa": {
+      "node": "checks:audio",
+      "key": "d290396b0569c31ccc28662a27ee4d8471966e2162e9beb7575af3fa193fc3e4",
+      "action": "reuse",
+      "reasons": [
+        "verified inputs and output hashes match"
+      ]
+    }
+  },
+  "audio_QA": {
+    "audio_qa_seconds": 2.773778595001204,
+    "reuse_check_seconds": 0.02714484400348738,
+    "action": "reuse",
+    "outputs_unchanged": {
+      "/home/jnlngx10/Videos/CEH_M10_retry_capture_20261020/v2/live/qa/audio-continuity-audit.json": "3caff1cab683d6eb7effa05836c7a17ab8adacddcf129be5803f00b34d30f751",
+      "/home/jnlngx10/Videos/CEH_M10_retry_capture_20261020/v2/live/qa/master-aac-boundaries.json": "0d5bd8806fb76a2094c7abdaa6bbd7ddee4a05ca30283ad6da778c4e12df1f6e"
+    },
+    "native_audio_qa_calls": 1,
+    "reference_frames": 2880000,
+    "scope": "60s excerpt; no quiz holds; full M10 acceptance remains separate"
+  },
+  "tests": {
+    "count": 122,
+    "seconds": 38.758,
+    "status": "passed",
+    "log": "/home/jnlngx10/Videos/CEH_M10_retry_capture_20261020/tests-final-v2.log",
+    "command": "PYTHONPATH=tools/ceh_video /home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/project/.venv/bin/python -m unittest discover -s tools/ceh_video/tests"
+  },
+  "protected_assets": {
+    "verified": 74,
+    "master_and_zip": {
+      "CEH_M10_Denial_of_Service_en-US_Editorial_v1_2_1_4x_0_3gap_master.mp4": "a6022560e6cd77f432461157882826b0e89c3500d8645374085740cdc8e3e281",
+      "CEH_M10_efficiency_v1_2_EDITABLE.zip": "bdae800b242376b09ee4817270eaa7a3b611eda160e8a2491abb0d072934b825"
+    }
+  },
+  "source_hashes": {
+    "tools/ceh_video/ceh_video/master_reuse.py": "579f971cc1bb878f65735e47c7d977657c188436f720687675ebdc7b2d26a53b",
+    "tools/ceh_video/ceh_video/qa_inputs.py": "6bf2deae1e573cfe3fd94b7ca439bcac85ff43ba8f21abb9b9e5892d4ccc1fbc",
+    "tools/ceh_video/ceh_video/graph.py": "1b56e8c1f9508caa6a0d831090bc22379305f6db23c575fbd242444d3017acbd",
+    "tools/ceh_video/ceh_video/runner.py": "e1dabbfb8d4a1fecd93985a68e7f78aa165daa3a673bb9497a44d5289954042e",
+    "tools/ceh_video/ceh_video/runtime/assemble_master.py": "d968a03dc32510778ebed853a72720bf0b6cf2c793588c37d4c40d6840b3e4ea",
+    "tools/ceh_video/tests/test_master_reuse.py": "711323f70cb616d383d61b6271cf6312cc365a0c518d92671d582e788afe3f72",
+    "tools/ceh_video/tests/test_qa_material_inputs.py": "cb6ab9600e11ef7448d128751be47ba4c7a1cdd4dd58aae674e2fb55b2c104f4",
+    "tools/ceh_video/ceh_video/__init__.py": "aad2b0eff72ebe93abc6ed761b8fa6d127ae6631668a630c47b23982f0a1c4d9",
+    "tools/ceh_video/pyproject.toml": "c38ad09e9891f58e2afa5b58b942afef7cc768f45a95b7215004fbfe915550ca",
+    "tools/ceh_video/README.md": "7507f12eb676ec14ed175cdc555051b2a8f78b2a235619d2db62433349aeacf8",
+    "docs/video-production/README.md": "48a4e4fcca6ed24151df1fed3a9aa2c463b931160e690ca946e5aa009e7b6183",
+    "docs/video-production/MIGRATION_AND_ROLLBACK.md": "2dae6ef6c168cf670ae7d8d13b85d740c91729f12fbc081f9a45e0bdf6413fc9",
+    "docs/video-production/M10_HIGH_IMPACT_FIXES.md": "f85a6e18c2556072911ed280863d1411935dc10de91d4b81d0da71e4b80f84f6"
+  },
+  "evidence_hashes": {
+    "green-qa.log": "b623fbf0a59cd818607a4b0a03a31c2b1977374cbbc8fce638eca7146c4ba9f2",
+    "live_probe.py": "f80955aae91d545c9edb8a57e9d15b350402387434797224cb14059bf6cc7315",
+    "capture-results.json": "35bf32675056ce55b2914db203bbb23ea757dd9213e636bc07b561d912f107ef",
+    "green-master.log": "167507ae884fe34d29d2e1653a1b06b3cd24105e452e622c7cfb4e05015b7222",
+    "red-master.log": "d27989037da1aa03733523a0381402ac1083d37433c0916b34ddd38d663ed6b5",
+    "tests-final.log": "60efeee5d24baeef0f467b3c0675c87c0023ead26d48e8d0430aeb34fd396c20",
+    "seed.log": "4f3ddebcd6a20f99805d6a5c70d94f080c99b3d860726c196c0bffd8da512fb0",
+    "closeout.py": "58b278c06cfc1491a7a518083169f1482d29c2a7c7f2eb5ef4782f5278568d26",
+    "capture_probe.py": "4244be5fbba1e3744567582c8bcf825202a2250b6560a6abb3b50c3b04eb6a0c",
+    "tests-final-v2.log": "96895bbe7c4ab6c2df4b81edbd54dc8a8a2cd0be5d3071d03d8f961d5f281995",
+    "red-qa.log": "c985d4d37b3d75591519fa2ac805081878b9e1155ff6f7f8d042be37a0688b50",
+    "assemble-master-0.5.2.py": "327b27e9bb0795a7e0d8f07a91c4cd1c766071b28faed8b725d1cd55ac927493",
+    "v2/actual-audio-qa.log": "68fc3b06735979f86956ac539ddea7af0519dcf4e7f8074a529fd8e3274fb3b9",
+    "v2/live_probe.py": "4221d7e79e08084d547b376c1b6811bc10eb1440cb14e001986b8a17b2d98f56",
+    "v2/live-summary.json": "558056e2b8ac4f3612c73d6f69d1f1e214407631d128596e47771b389ed1d702",
+    "v2/warm-2.log": "159541dad0675cf22ebda5ed6c783d2ee900eb2afefe0a2c47e38fdbe5c1c619",
+    "v2/baseline-0.log": "43a7230f61d32e13554a7ae8301e73789ddf6e32192613d0bb07fd2887d18896",
+    "v2/prepare-0.log": "53446b16299330354a4238b67094e69eeeb8aae6c79dd046d2bde5fc8ded557f",
+    "v2/seed.log": "bd5a3e9d217ec1f62681f81037ea4dadc2ba84959dc81accade89ed9a58cad24",
+    "v2/prepare-2.log": "ce8ab05983cd5a68a621cd4f350c097914fbbaf5a1d3e2d000d238f2849c39a2",
+    "v2/master-comparison.json": "91910dc0568326ef2838408c5e52c5fd85e5aef96b948b3be4cde25acf564eaa",
+    "v2/baseline-2.log": "dc7167898e8cde3ea6b85776bb20ed0b233daeaffd77ffb088fd3ad626d77c0c",
+    "v2/qa-live-reuse.json": "bb575808b1bd49ab24e3b91a2db2d42e01afba999b874203132670aaba03ebd1",
+    "v2/prepare-1.log": "c6ae6537eecf162befc2773452bb17caf85341a94873dc800132b1c50dc7542e",
+    "v2/warm-1.log": "ee760acad2982742f26481e8a1199ee99abfa165238bed8321060c46f5c0c98a",
+    "v2/baseline-1.log": "2e88d50d2865f4eebba0e7fb0506a419ee93163ad8b101f0289f25b9b173c0f3",
+    "v2/assemble-master-0.5.2.py": "327b27e9bb0795a7e0d8f07a91c4cd1c766071b28faed8b725d1cd55ac927493",
+    "v2/warm-0.log": "86bb6ae2842671bc114fc3bdfc5de26bc025213f03e53019027c4d799282820d"
+  },
+  "evidence_root": "/home/jnlngx10/Videos/CEH_M10_retry_capture_20261020",
+  "rejected_candidate": {
+    "name": "single-thread encoded PNG extraction",
+    "baseline_median_seconds": 2.622195310999814,
+    "candidate_median_seconds": 3.332352716999594,
+    "png_hashes_equal": true,
+    "renders": 36,
+    "performance_gate": "fail",
+    "adopted": false
+  },
+  "attempts": [
+    {
+      "id": "ATT-20261020-04-01",
+      "runtime_validity": "invalid_fixture_for_concat",
+      "gate_outcome": "fail",
+      "observed_frames": 1799,
+      "expected_frames": 1800,
+      "source_start_time": 0.021029,
+      "successful_cache_written": false,
+      "evidence": "seed.log"
+    },
+    {
+      "id": "ATT-20261020-04-02",
+      "runtime_validity": "target_excerpt",
+      "gate_outcome": "pass",
+      "observed_frames": 1800,
+      "source_start_time": 0,
+      "evidence": "v2/"
+    }
+  ],
+  "boundaries": {
+    "full_film_render": "not_run",
+    "human_acceptance": "not_evaluated",
+    "native_GPU_speedup": "not_established",
+    "new_visual_exceptions": [],
+    "new_quiz_acceptance": "not_run; excerpt has zero quizzes",
+    "warm_comparison": "Three fixed-order pairs; same local runtime; continuous AAC cache populated before comparison; setup/retention excluded from warm time and reported separately",
+    "cold_seed_seconds": 24.132397057997878,
+    "forced_new_assembly_median_seconds": 10.331784403999336
+  },
+  "next_gate": "New full production workspace: QA-only upstream change, verified chapter/master reuse, no native render/mux/full decode, all current gates preserved."
+}

@@ -56,3 +56,9 @@ Engine 0.5.1 / 0.5.2 maintenance: [continuous AAC reuse, combined decode, measur
 The [source and adopted decisions](../../source/2026-10-20-ceh-m10-performance-optimization/source.md) connect the [performance diagnosis](M10_PRODUCTION_PERFORMANCE_AUDIT.md), [v1.2 delivery](M10_EFFICIENCY_IMPLEMENTATION.md), and [two maintenance rounds](M10_HIGH_IMPACT_FIXES.md). Engine 0.5.2 adds current-gated chapter reuse and independent encoded QA stages. The latest receipt records 116 Python tests, preserved release hashes and 74 locked assets; full native cold/warm retry performance remains pending.
 
 [Planning day](../../../planning-everything-track/weeks/2026-W43/days/2026-10-20.md#ceh-m10-efficiency-2026-10-20) → [project locator](../../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#ceh-m10-efficiency-2026-10-20) → [W43 capacity](../../../planning-everything-track/weeks/2026-W43/weekly-plan.md#ceh-m10-efficiency-2026-10-20) carries status and the next gate. Production remains separate from Jason's learner evidence and human film acceptance.
+
+
+Engine 0.5.3 adds [verified master reuse and consumed-content QA keys](M10_HIGH_IMPACT_FIXES.md).
+The change targets repeated assembly and validation after upstream QA updates.
+Full native first-run production speed remains a separate measurement; completed
+v1.2 media and all historical receipts remain preserved.

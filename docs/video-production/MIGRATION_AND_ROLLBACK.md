@@ -1,3 +1,16 @@
+# Engine 0.5.3 master and QA reuse
+
+[Third-round evidence](M10_HIGH_IMPACT_FIXES.md) covers verified master reuse and
+encoded QA keys based on consumed content. The local `.production/master-reuse.json`
+receipt is optional; first use performs a complete assembly and validation.
+Historical master receipts alone do not seed it. New key semantics conservatively
+invalidate existing QA receipts once; they do not import old QA as new acceptance.
+
+Rollback restores `assemble_master.py`, runner force dispatch and graph key handling
+together, removes the `master_reuse.py` / `qa_inputs.py` integration, and restores
+0.5.2 version metadata and tests. Keep every original validation gate. Cache receipts
+can remain unused. Historical releases and their bundled engines remain intact.
+
 # Engine 0.5.2 scoped-retry maintenance
 
 [Second-round evidence and rollback](M10_HIGH_IMPACT_FIXES.md) covers `.production/encoded-chapters` and independent `checks:frames`, `checks:audio`, `checks:late` nodes. Apply in a new workspace. Existing archives retain their own engines; old generic render receipts do not seed the new cache. Current QA/review gates and exact source/runtime/output hashes govern reuse. Revert graph and runner routing together to restore sequential checks; keep all validation gates. Full native cold/warm retry timing remains pending.

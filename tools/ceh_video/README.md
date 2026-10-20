@@ -1,4 +1,4 @@
-# CEH video engine 0.5.2
+# CEH video engine 0.5.3
 
 Local production engine for the [CEH English series standard](../../docs/video-production/PRODUCTION_STANDARD_v1.2.md). M10 is the reference migration. The engine owns execution, verified reuse, process receipts and review guards; each module owns its canonical script, native diagrams, quiz, evidence, assets and production profile. Full human listening remains a separate acceptance step.
 
@@ -19,7 +19,7 @@ Full-film timing improvements require their own measured run. This patch does no
 
 ## M10 v1.2 efficiency upgrade — preserved release record
 
-The paths in this section identify the completed 0.5.0 reference release. Use a new owned workspace for 0.5.2; do not point modifying commands at the frozen release.
+The paths in this section identify the completed 0.5.0 reference release. Use a new owned workspace for 0.5.3; do not point modifying commands at the frozen release.
 
 The active new-work contract is [production standard v1.2](../../docs/video-production/PRODUCTION_STANDARD_v1.2.md). The prior completed v1.1 release remains unchanged. New workspace: `/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/project`. New `init`/`migrate` runs default to `ceh-en-v1.2`; `--audio-policy ceh-en-v1.1` explicitly selects historical timing. The v1.2 migration reuses pinned runtime directories through local links, omits regenerated combined audio, and imports validated 1.4× clips and relative alignment when compatible. This migration route still requires its own real-workspace acceptance; fixture tests do not establish a delivered film.
 
@@ -163,3 +163,21 @@ Inspection PNGs and contact sheets are verified outputs, so missing or modified
 images invalidate the owning check. This reduces retry work; full-film first-run
 speedup has not been measured. See the second round in
 [the performance report](../../docs/video-production/M10_HIGH_IMPACT_FIXES.md).
+
+### Master reuse and material QA inputs (engine 0.5.3)
+
+English v1.2 assembly retains `.production/master-reuse.json` after successful
+mux, full decode, metadata verification and PCM retention. The receipt binds
+actual chapter MP4s, scene WAVs, timing/profile, FFmpeg and implementation to
+all master outputs and scan evidence. A repeat with identical inputs validates
+those hashes and the current decode receipt without rewriting the movie or PCM.
+Current upstream gates remain required; explicit `--force master` bypasses reuse.
+Old releases are not automatically imported into the cache.
+
+Encoded QA keys retain master output identities and declared consumed files,
+including the timing ledger, relevant chapter MP4s, font, PCM and scene audio
+annotations. An upstream execution-key change alone no longer repeats QA.
+Missing/changed inputs or outputs, validator changes and failed upstream receipts
+still invalidate reuse. Planning stays conservative until upstream work finishes.
+See the third round in [the performance report](../../docs/video-production/M10_HIGH_IMPACT_FIXES.md)
+for real excerpt measurements, rejected capture tuning and full-film limits.

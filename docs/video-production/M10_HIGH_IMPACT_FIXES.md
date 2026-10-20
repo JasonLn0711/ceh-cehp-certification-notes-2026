@@ -186,3 +186,68 @@ v1.2 English graph 新增：
 ## Source, ownership and publication route — October 20
 
 [Preserved request and publication authorization](../../source/2026-10-20-ceh-m10-performance-optimization/source.md) → [production index](README.md#ceh-m10-efficiency-2026-10-20) → [engine guide](../../tools/ceh_video/README.md#scoped-retries-engine-052). The [Planning day](../../../planning-everything-track/weeks/2026-W43/days/2026-10-20.md#ceh-m10-efficiency-2026-10-20), [project](../../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#ceh-m10-efficiency-2026-10-20) and [week](../../../planning-everything-track/weeks/2026-W43/weekly-plan.md#ceh-m10-efficiency-2026-10-20) retain outcome, capacity and next-gate links. Local raw evidence remains at the paths above; publishing code and compact receipts does not publish the large film or establish human acceptance. Historical source hashes in receipts identify their captured revision; later connection-only edits do not replace those snapshots.
+
+<a id="ceh-m10-reuse-053-2026-10-20"></a>
+## 第三輪：停止相同媒體引起的連鎖重跑（engine 0.5.3）
+
+### FIRST PRINCIPLE 與實際原因
+
+使用者再次要求優先修正影響最大的兩項因素。稀缺資源仍是製片與覆核等待、運算與可信驗證；CEH 持程式／詳細證據，既有完整影片維持凍結。這輪承接 0.5.2 已完成的章節重用與 QA 分項，處理其下游仍會發生的重跑：
+
+1. 章節重用後，prepare／root 的 QA 收據或依賴 key 更新仍可使 master node 失效。舊 `assemble_master.py` 無條件重建 PCM、mux，並再次全片解碼，沒有檢查實際組裝輸入是否相同。
+2. 三個 QA node 雖各自獨立，原 key 仍納入 master 的 execution key。即使 master 的影片、PCM、掃描證據完全相同，僅上游執行收據更新仍會使三項 QA 失效。
+
+新的回歸測試先在原程式得到失敗：相同組裝輸入的重跑改寫影片與 full-decode log；只更新 master receipt key，QA key 也改變；直接改動 timing／章節媒體／字體，舊 QA key 未單獨綁定這些消費來源。`red-master.log` 與 `red-qa.log` 保留原始失敗。正常 runner 原先會依賴上游失效來補驗；新增直接來源身分讓重用界線更明確。
+
+### 修正一：驗證實際輸入後重用 master
+
+[master_reuse.py](../../tools/ceh_video/ceh_video/master_reuse.py) 綁定每章 MP4、每幕 WAV、master timing、完整 production profile、FFmpeg decoder 身分與相關實作。正常組裝、全片解碼、章節 metadata 核對及 PCM 保存全部成功後，才保存 `.production/master-reuse.json`。它只保存收據，不複製重素材。
+
+[assembly](../../tools/ceh_video/ceh_video/runtime/assemble_master.py) 重跑時驗證全部 master 輸出、PCM、probe、scan/log/progress、組裝及 timing 證據，並再次呼叫 `require_scan` 核對當前影片／decoder。相同輸入可直接重用，保留原檔雜湊與修改時間；stdout 的 `verified_master_reused` 記錄本次查核耗時，不覆寫原始組裝耗時。runner 仍先處理上游的來源與審查 gates。
+
+來源或證據變更／缺失時重新組裝。明確 `--force master` 經 runner 轉送至 assembly，會跳過重用；開始新嘗試前撤除舊成功收據，失敗不留下可用的 master cache。歷史發行不會自動升格成新快取，冷啟動仍須完整執行。
+
+狀態：`implemented`、`tested`。小型真實 FFmpeg 測試涵蓋零改寫重用、明確 force、PCM 改變、壞 MP4、缺少掃描 log、失敗重跑與 runner force 轉送；另有真實 M10 60 秒片段三輪實測。
+
+### 修正二：QA 按實際內容決定失效
+
+[qa_inputs.py](../../tools/ceh_video/ceh_video/qa_inputs.py) 與 [graph.py](../../tools/ceh_video/ceh_video/graph.py) 的 `resolved_key` 共用於 planning 與實際執行。三個 English v1.2 QA node 保留 master 所有輸出雜湊及 upstream receipt status，但移除單獨的 upstream execution key，另直接綁定該檢查使用的檔案：
+
+| 檢查 | 直接追蹤的輸入（另保留 master outputs） |
+| --- | --- |
+| 全部 | production profile、master timing、master MP4 |
+| `checks:frames` | 章節 MP4、contact-sheet 字體 |
+| `checks:audio` | 無損 PCM、questions、各幕 audio annotations |
+| `checks:late` | scenes、contact-sheet 字體 |
+
+validator 實作、消費來源、輸出圖片／報告或 master scan 證據變更仍須重驗；failed parent receipt 不能視為相同的通過證據。上游尚有待執行工作時，planner 保守列為待重新判定；上游完成後才根據當前內容決定 reuse。delivery、人工審查、音訊精度與 legacy／其他語言規則維持。
+
+狀態：`implemented`、`tested`。實際 node／receipt 測試驗證 QA-only upstream key 更新可以 reuse；變更影片、時間帳、章節、字體、PCM 或 silence annotations 必須失效；v1.1 沿用原 key 規則。另實際執行一次 60 秒完整 AAC／PCM continuity，更新 master execution receipt 後再次判定為 reuse，兩份 QA 輸出雜湊保持。
+
+### 實測結果與適用範圍
+
+原始來源、命令、log、逐次計時、失敗與重試位於 `/home/jnlngx10/Videos/CEH_M10_retry_capture_20261020/`；成功的媒體對照在 `v2/`。Experiment `EXP-20261020-04-master-material-reuse` 為 `LIVE_MINIMUM_COMPLETED`、runtime `target_excerpt`、gate `pass`，尚非完整新版 M10 端到端驗收。
+
+| 60 秒、1800 幀的相同 M10 媒體 | 原路徑 | 新路徑 | 驗證範圍 |
+| --- | ---: | ---: | --- |
+| master 再次組裝，三輪中位數 | 9.224060 s | 0.822181 s | 約 91.09% 較少；影片、PCM、完整解碼 log 的 hash／mtime 不變 |
+| 完整 AAC／PCM QA 與後續 reuse 判定 | 2.773779 s | 0.027145 s | 單次完整比對 2,880,000 stereo frames；後續只查核相同材料與證據，非第二次解碼 |
+
+master 原路徑是 Git 中的 0.5.2 assembly，兩路徑都已有連續 AAC cache。初始化花 24.132397 秒；三次新路徑的強制建置／保留收據中位數為 10.331784 秒，另行記帳，不從 warm 查核時間抹除。新增身分／證據雜湊有成本，冷啟動不享有暖快取收益。三輪固定先準備、warm、baseline；未隔離主機背景負載，也未隨機化順序，這些數字為描述性階段比較。
+
+完整影片第一次 GPU 擷取／編碼、一小時目標、全片人工觀影／聽驗與正式完整流水線的省時幅度仍待驗證。60 秒片段沒有 quiz holds，不能把這次 continuity 成功描述為八題新驗收；既有完整 M10 quiz 證據仍屬原發行。沒有降低原 timing、影格數、黑畫面或音訊門檻。
+
+### 拒絕的候選與輸入失敗
+
+- PNG 抽圖限制 decoder threads=1：六個固定時間點、四程序、三輪，共 36 張圖片雜湊全部相同；原 threads=0 中位數 2.622195 秒，threads=1 為 3.332353 秒。較慢，維持原設定。這是 `LIVE_MINIMUM_COMPLETED`、performance gate `fail`，沒有當作加速成果。
+- 初次 assembly fixture 沿用前輪固定片段，其 video start_time 為 0.021029 秒；再次 concat／截止後實際僅 1799 幀，strict gate 正確失敗，未留下成功 master cache。保留初次 `live/` 與 `seed.log`，未調整期望影格數。`v2/` 改從凍結 C01 MP4 以 stream copy 取 60 秒純 video；先驗證 start_time=0、duration=60、實際 decode=1800，再使用原參考 PCM 的前 2,880,000 frames 完成測試。未重做旁白或更改 production timestamp 規則。
+
+### 檢查、回滾與下一關
+
+新增 [master 實際組裝測試](../../tools/ceh_video/tests/test_master_reuse.py) 與 [QA 材料失效測試](../../tools/ceh_video/tests/test_qa_material_inputs.py)，執行既有 unittest discover 命令；最終結果與程式／來源雜湊記在 `evidence/M10-master-material-reuse-2026-10-20.json`。本輪沿用原設計／字體／語音，沒有新視覺例外或 golden 更新。
+
+回滾需一起還原 assembly／runner force dispatch、graph key handling 及新增 helper 整合至 0.5.2；恢復按 execution key 重新組裝與驗證，保留全部品質門檻。新 `.production/master-reuse.json` 可以留存而不使用；原發行不受影響。
+
+下一個完整製片 workspace 應驗證：先完成原生章節與 master，再只修正上游 QA，確認 chapter／master 媒體未改寫、未呼叫 mux／全片解碼且三項 QA 按內容正確重用，並保留 RunRecord。任何實際來源或檢查程式變動仍應重跑必要階段。這一關仍為 `proposed`，不以本輪片段結果代替。
+
+本輪發布接續：[來源與授權](../../source/2026-10-20-ceh-m10-performance-optimization/source.md) → [機器證據](evidence/M10-master-material-reuse-2026-10-20.json) → [Planning 第三輪日誌](../../../planning-everything-track/weeks/2026-W43/days/2026-10-20.md#ceh-m10-reuse-053-2026-10-20)。
