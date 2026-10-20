@@ -1,0 +1,49 @@
+{
+  "recorded_at_utc": "2026-10-20T15:29:11.855010+00:00",
+  "scope": "Engine 0.5.3 implementation, tests, source, evidence and Planning mirrors",
+  "publication_status": "published",
+  "verified_substantive_tips": {
+    "ceh-cehp-certification-notes-2026": {
+      "head": "690ac7e9b483bb413736af21a6182c8b4e3cfe69",
+      "remote_main": "690ac7e9b483bb413736af21a6182c8b4e3cfe69",
+      "divergence": "0\t0",
+      "commits": [
+        "690ac7e9b483bb413736af21a6182c8b4e3cfe69 docs(video): retain 0.5.3 measurements limits and rollback evidence",
+        "46528865d5770e5614d173b8ee43e6bfd0f99746 docs(source): record third-round maintenance and publication scope",
+        "bbbf537071497fd2d751f55431700227f1f46a33 test(video): cover master reuse and material QA invalidation",
+        "70c1d100c091ceaf6d2b31c72ec43d7aa9924eb3 perf(video): reuse verified masters and bind QA to material inputs"
+      ]
+    },
+    "planning-everything-track": {
+      "head": "a1a589eae69fdae7ded53908f295d27b2a199976",
+      "remote_main": "a1a589eae69fdae7ded53908f295d27b2a199976",
+      "divergence": "0\t0",
+      "commits": [
+        "a1a589eae69fdae7ded53908f295d27b2a199976 plan(ceh): connect M10 0.5.3 retry evidence and next gate"
+      ]
+    }
+  },
+  "checks": {
+    "recorded_python_tests": 122,
+    "code_test_version_hashes": "match recorded 122-test source",
+    "raw_evidence_hashes": "all match",
+    "added_local_links": 28,
+    "planning_knowledge": "passed: 181 metadata notes / 181 catalog entries",
+    "planning_repository": "passed: 44 grandfathered warnings, 0 new",
+    "git_diff_check": "passed both repositories"
+  },
+  "history_preservation": {
+    "planning_remote_commits_retained": 9,
+    "planning_integration": "fast-forward from 1ef1609e to 55b06943 before new edits",
+    "conflicts": 0,
+    "force_push": false
+  },
+  "boundaries": {
+    "full_native_cold_warm_pipeline": "pending",
+    "first_full_production_one_hour_target": "not established",
+    "human_acceptance": "not evaluated",
+    "large_media": "retained locally; no new upload",
+    "unrelated_btop": "untouched"
+  },
+  "receipt_scope": "This receipt binds the verified substantive tips. Receipt-only commits follow those tips; it does not contain its own commit hash."
+}
