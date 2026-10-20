@@ -2,7 +2,7 @@ from ceh_video.common import project_root, Project
 #!/usr/bin/env python3
 """Join frame-exact video chapters with one continuously encoded narration track."""
 from pathlib import Path
-import json,subprocess,time
+import json,subprocess,time,sys
 from contextlib import contextmanager
 from ceh_video.common import sha,write
 import soundfile as sf
@@ -30,6 +30,14 @@ def metadata_lines(profile,chapters):
  return marks
 def main():
  rows=[];started=time.monotonic()
+ p=Project(ROOT);reuse_key=None
+ if p.profile.get('audio_policy')=='ceh-en-v1.2':
+  from ceh_video.master_reuse import identity,reusable,retain,receipt
+  reuse_key=identity(p)
+  if '--force' not in sys.argv and reusable(p,reuse_key):
+   print(json.dumps({'phase':'verified_master_reused','elapsed_seconds':time.monotonic()-started,'scope':'Current input/output hashes and full-decode receipt verified; downstream QA remains required'}),flush=True)
+   return
+  receipt(p).unlink(missing_ok=True)
  m=json.load(open(ROOT/'data/master-timing.json'));audio=ROOT/'assets/audio/master.wav';total=0
  with sf.SoundFile(audio,'w',samplerate=48000,channels=2,subtype='PCM_16') as dest:
   for row in m['scenes']:
@@ -76,4 +84,5 @@ def main():
    import shutil;shutil.copyfile(audio,reference)
  write(QA/'master-stage-timing.json',{'stages':rows,'wall_seconds':time.monotonic()-started})
  (QA/'master-ffprobe.json').write_text(json.dumps(probe,indent=2));print(json.dumps({'master':str(target),'frames':m['frames'],'duration':m['duration']}))
+ if reuse_key is not None:retain(p,reuse_key)
 if __name__=='__main__':main()

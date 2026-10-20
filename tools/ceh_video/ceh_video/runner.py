@@ -187,6 +187,8 @@ def action(p,node,emit,force=False):
         for script in ['recognition_audit','audit_audio_clips','review_audio','measure_speech','asr_receipt']:worker(p,script,[],emit)
         r=audio_queue(p);assert not r['technical_defects'],r
         return 'executed'
+    if name=='master' and force:
+        worker(p,'assemble_master',['--force'],emit);return 'executed'
     if name=='checks' and p.profile.get('audio_policy')=='ceh-en-v1.2':
         return 'verified_independent_qa_stages'
     if name=='checks':

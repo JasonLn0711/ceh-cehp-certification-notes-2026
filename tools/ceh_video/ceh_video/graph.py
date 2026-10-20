@@ -93,6 +93,7 @@ def nodes(p):
     result['delivery'].inputs['implementation']['media_scan.py']=sha(Path(__file__).parent/'media_scan.py')
     result['delivery'].inputs['implementation']['master_audio_cache.py']=sha(Path(__file__).parent/'master_audio_cache.py')
     if p.profile.get('audio_policy')=='ceh-en-v1.2':
+        result['master'].inputs['implementation']['master_reuse.py']=sha(Path(__file__).parent/'master_reuse.py')
         # Independent QA receipts: changing one validator does not repeat the others.
         add('checks:frames',['master'],{},[p.qa/'rendered-artifact-audit.json',p.qa/'encoded-quiz-silence.json'],['audit_rendered'],['audit_rendered.py'])
         add('checks:audio',['master'],{},[p.qa/'audio-continuity-audit.json',p.qa/'master-aac-boundaries.json'],['audit_audio_continuity'],['audit_audio_continuity.py'])
@@ -110,6 +111,7 @@ def nodes(p):
         result['checks:late'].outputs += [str(images/f'late-repairs-contact-{i:02}.jpg') for i in range(1,(len(late)+8)//9+1)]
         result['checks:frames'].inputs['implementation']['media_scan.py']=sha(Path(__file__).parent/'media_scan.py')
         for part in ('frames','audio','late'):
+            result['checks:'+part].inputs['implementation']['qa_inputs.py']=sha(Path(__file__).parent/'qa_inputs.py')
             result['checks:'+part].inputs['implementation']['common.py']=sha(Path(__file__).parent/'common.py')
         result['checks'].dependencies=['checks:frames','checks:audio','checks:late','audio-review']
         result['checks'].inputs['implementation']={}
@@ -154,12 +156,19 @@ def output_hashes(p,node):
     return result
 
 
+def resolved_key(p,node,dependencies):
+    from .qa_inputs import applies,material
+    if applies(p,node):
+        return digest({'inputs':node.inputs,'material':material(p,node,dependencies)})
+    return digest({'inputs':node.inputs,'dependencies':dependencies})
+
+
 def node_key(p,node):
     dependencies={}
     for name in node.dependencies:
         f=receipt_path(p,name);r=read(f) if f.exists() else {}
         dependencies[name]={'key':r.get('key'),'outputs':r.get('outputs',{})}
-    return digest({'inputs':node.inputs,'dependencies':dependencies})
+    return resolved_key(p,node,dependencies)
 
 
 def inspect_node(p,node):
@@ -187,7 +196,7 @@ def planning(p,target):
         if name in visited: return visited[name]
         if name in visiting: raise ValueError('Dependency cycle '+name)
         visiting.add(name);node=graph[name];depkeys={n:{'key':walk(n)['key'],'outputs':read(receipt_path(p,n)).get('outputs',{}) if receipt_path(p,n).exists() else {}} for n in node.dependencies}
-        key=digest({'inputs':node.inputs,'dependencies':depkeys});path=receipt_path(p,name);old=read(path) if path.exists() else None
+        key=resolved_key(p,node,depkeys);path=receipt_path(p,name);old=read(path) if path.exists() else None
         reasons=[]
         if not old: reasons.append('no verified receipt')
         elif old.get('key')!=key: reasons.append('declared input or dependency changed')
