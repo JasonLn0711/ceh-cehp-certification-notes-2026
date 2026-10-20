@@ -3,10 +3,6 @@ from ceh_video.common import project_root, Project
 """Align known spoken text to real audio using Whisper attention/DTW, not duration division."""
 from pathlib import Path
 import json,re,hashlib,subprocess,os,time,argparse
-import numpy as np
-from faster_whisper import WhisperModel
-from faster_whisper.tokenizer import Tokenizer
-from faster_whisper.audio import pad_or_trim
 from ceh_video.speech import spoken as expand
 def spoken(text):return expand(text,__import__('json').load(open(project_root()/'pronunciation.json')))
 ROOT=project_root()
@@ -14,8 +10,7 @@ RECIPE='base.en-int8-forced-dtw-v1'
 def norm(s):return re.sub(r'[^a-z0-9]','',s.lower())
 def main():
  p=argparse.ArgumentParser();p.add_argument('--scene');p.add_argument('--start',type=int);p.add_argument('--end',type=int);args=p.parse_args()
- model=WhisperModel(str(ROOT/'models/faster-whisper-base.en'),device='cpu',compute_type='int8',cpu_threads=2)
- tok=Tokenizer(model.hf_tokenizer,model.model.is_multilingual,task='transcribe',language='en')
+ model=None;tok=None
  dest=ROOT/'data/forced-alignment';dest.mkdir(exist_ok=True)
  for scene in json.load(open(ROOT/'data/scenes.json'))['scenes']:
   if args.start is not None and int(scene['id'][1:])<args.start:continue
@@ -33,6 +28,13 @@ def main():
    if out.exists():
     old=json.load(open(out))
     if old.get('audio_sha256')==key and old.get('recipe')==RECIPE and old.get('canonical')==r['canonical'] and old.get('spoken',r['spoken'])==r['spoken']:continue
+   if model is None:
+    import numpy as np
+    from faster_whisper import WhisperModel
+    from faster_whisper.tokenizer import Tokenizer
+    from faster_whisper.audio import pad_or_trim
+    model=WhisperModel(str(ROOT/'models/faster-whisper-base.en'),device='cpu',compute_type='int8',cpu_threads=2)
+    tok=Tokenizer(model.hf_tokenizer,model.model.is_multilingual,task='transcribe',language='en')
    pcm=subprocess.check_output(['ffmpeg','-v','error','-i',str(wav),'-ar','16000','-ac','1','-f','f32le','pipe:1'])
    a=np.frombuffer(pcm,dtype=np.float32);duration=len(a)/16000
    assert duration<30,(scene['id'],r['sentence'],duration)

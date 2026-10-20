@@ -1,3 +1,4 @@
+from ceh_video.audio_policy import modern
 from ceh_video.common import project_root, Project
 #!/usr/bin/env python3
 """Compile editable scene compositions from locked copy and measured audio samples."""
@@ -98,7 +99,7 @@ def host(scenes,name):
      pcm,sr=sf.read(ROOT/'assets/voice'/f'{scene["id"]}.wav',dtype='int16');assert sr==48000;dest.write(pcm)
    os.replace(str(audio_file)+'.tmp.wav',audio_file);cache.write_text(json.dumps(recipe))
  slots.append(f'<audio class="clip" id="narration-{name}" src="{audio_path}" data-start="0" data-duration="{duration:.9f}" data-track-index="10"></audio>')
- return f'<!doctype html><html lang="en-US"><head><meta charset="utf-8"><script src="assets/vendor/gsap.min.js"></script><style>{CSS}</style></head><body><div id="root" data-composition-id="{name}" data-width="1920" data-height="1080" data-duration="{duration:.9f}">'+''.join(slots)+f'</div><script>window.__timelines=window.__timelines||{{}};window.__timelines["{name}"]=gsap.timeline({{paused:true}});</script></body></html>'
+ return f'<!doctype html><html lang="en-US"><head><meta charset="utf-8"><script src="assets/vendor/gsap.min.js"></script><style>{active_css()}</style></head><body><div id="root" data-composition-id="{name}" data-width="1920" data-height="1080" data-duration="{duration:.9f}">'+''.join(slots)+f'</div><script>window.__timelines=window.__timelines||{{}};window.__timelines["{name}"]=gsap.timeline({{paused:true}});</script></body></html>'
 
 def write_host(folder,content):
  target=ROOT/folder;target.mkdir(parents=True,exist_ok=True)
@@ -125,9 +126,20 @@ def write_host(folder,content):
   if wave.exists() and not os.path.samefile(source_wave,wave):wave.unlink()
   if not wave.exists():os.link(source_wave,wave)
 
+def active_css():
+ profile=Project(ROOT).profile
+ if not modern(profile):return CSS
+ active=CSS.replace('top:85px','top:87px').replace('top:945px','top:940px')
+ if profile.get('design_profile')=='m10-editorial-remaster-v1.1':
+  active+='''.editorial-rule{position:absolute;left:155px;top:248px;width:1610px;border-top:2px solid #B8B0A9}.simulation-label{position:absolute;left:155px;top:267px;font-size:24px;line-height:28px}.remaster-art{color:#292421;fill:#292421}.option{border:2px solid #B8B0A9;border-radius:8px;background:#FFFAF3}.question{line-height:1.15}.quiz-clock{border-width:4px}.teaching{max-height:none}.caption{max-height:53.6px}.remaster-node{transform-box:view-box}'''
+ return active
+
 def main():
  for folder in ['compositions','assets/audio','review','chapters']:(ROOT/folder).mkdir(parents=True,exist_ok=True)
  parser=argparse.ArgumentParser();parser.add_argument('--scene');parser.add_argument('--chapter');parser.add_argument('--scenes');args=parser.parse_args();allscenes=json.load(open(ROOT/'data/scenes.json'))['scenes'];ready=[];ledger=[]
+ if Project(ROOT).profile.get('design_profile')=='m10-editorial-remaster-v1.1':
+  from ceh_video.remaster import compile_project
+  compile_project(Project(ROOT),args,globals());return
  selected=set(args.scenes.split(',')) if args.scenes else None
  prior={row['scene']:row for row in json.load(open(ROOT/'data/build-ledger.json'))} if selected else {}
  for scene in allscenes:
@@ -172,7 +184,7 @@ def main():
   for i,cap in enumerate(caps):
    ident=sid+'-caption'+str(i);art+=f'<div class="caption" id="{ident}">{esc(cap["text"])}</div>';visibility(moves,ident,cap['start'],cap['end'])
   markup=f'<div class="chapter">{scene["chapter_id"]} · {esc(scene["chapter_title"])}</div><h1 class="heading">{esc(scene["title"])}</h1>'+art
-  out=f'<!doctype html><html lang="en-US"><body><template><style>{CSS}</style><div id="root" data-composition-id="{sid}" data-width="1920" data-height="1080" data-duration="{d:.9f}">{markup}</div><script>{script(moves,sid,d)}</script></template></body></html>'
+  out=f'<!doctype html><html lang="en-US"><body><template><style>{active_css()}</style><div id="root" data-composition-id="{sid}" data-width="1920" data-height="1080" data-duration="{d:.9f}">{markup}</div><script>{script(moves,sid,d)}</script></template></body></html>'
   (ROOT/'compositions'/f'{sid}.html').write_text(out);(ROOT/'compositions'/f'{sid}.motion.json').write_text(json.dumps({'scene':sid,'duration':d,'assertions':[{'kind':'staysInFrame','selector':'.heading'},{'kind':'staysInFrame','selector':'.caption'}],'source':'measured audio samples','moves':moves,'status':'authored; visual QA pending'},indent=2));(ROOT/'data'/f'{sid}.captions.json').write_text(json.dumps(caps,indent=2))
   ready.append((scene,audio));ledger.append({'scene':sid,'duration':d,'movements':len(moves),'captions':len(caps),'status':'authored_pending_runtime_QA'})
   write_host('review/'+sid,host([(scene,audio)],'review-'+sid))

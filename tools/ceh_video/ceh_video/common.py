@@ -75,5 +75,7 @@ class Project:
         env = os.environ.copy()
         env.update(CEH_VIDEO_PROJECT=str(self.root), PYTHONUNBUFFERED='1', OMP_NUM_THREADS='4', OMP_WAIT_POLICY='PASSIVE')
         env['PYTHONPATH'] = str(Path(__file__).parents[1])+os.pathsep+env.get('PYTHONPATH', '')
+        if hasattr(self,'run_record'):env['CEH_RUN_ID']=self.run_record.id
         env['HYPERFRAMES_BROWSER_PATH'] = self.profile['runtime']['browser']
+        if 'browser_gpu_mode' in self.profile['runtime']:env['PRODUCER_BROWSER_GPU_MODE']=self.profile['runtime']['browser_gpu_mode']
         return env

@@ -1,3 +1,4 @@
+from ceh_video.audio_policy import modern
 """Execute a resumable dependency plan and require artifact-bound reviews."""
 from pathlib import Path
 import concurrent.futures, json, os, signal, subprocess, sys, time,queue,threading
@@ -64,6 +65,8 @@ def subprocess_stage(p,command,name,emit):
             except subprocess.TimeoutExpired:os.killpg(proc.pid,signal.SIGKILL);proc.wait()
             write(child,{'status':'interrupted','pid':proc.pid,'cleanup':'child_process_group_terminated'});raise
         finally:
+            reader.join(timeout=1)
+            proc.stdout.close()
             with ACTIVE_LOCK:ACTIVE_CHILDREN.pop(proc.pid,None)
     with ACTIVE_LOCK:ACTIVE_CHILDREN.pop(proc.pid,None)
     write(child,{'status':'completed' if code==0 else 'failed','pid':proc.pid,'exit_code':code,'last_actual_output_at':last_output})
@@ -75,6 +78,7 @@ def worker(p,name,args,emit):
 
 
 def seed_audio(p):
+    if modern(p.profile):return
     """Import only hash-verified original audio/alignment; visual review is never inferred."""
     marker=p.state/'audio-import.json'
     if marker.exists():return
@@ -105,6 +109,18 @@ def seed_audio(p):
     write(marker,{'status':'verified_reference_audio_and_alignment_imported','scenes':len(p.scenes),'source':imported['reference_manifest_sha256']})
 
 
+def checked_prepare_ready(p,ch):
+    """Only current zero-finding checks with artifact-bound review permit reuse."""
+    from .review import require_review
+    try:
+        fingerprint=read(p.qa/f'{ch}-checked-fingerprint.json');check=read(p.qa/f'{ch}-check.json')
+        if fingerprint['sha256']!=p.chapter_inputs(ch) or not check['ok'] or check['browserSkipped']:return False
+        if any(check[layer]['errorCount']!=0 or check[layer]['warningCount']!=0 for layer in ['lint','runtime','layout','contrast']):return False
+        require_review(p,ch)
+        return True
+    except (OSError,ValueError,KeyError,TypeError,RuntimeError):return False
+
+
 def action(p,node,emit,force=False):
     if p.profile.get('schema_version') == 2:
         from .mandarin import action as mandarin_action
@@ -115,38 +131,64 @@ def action(p,node,emit,force=False):
         synthesize(p,name.split(':')[1],emit);return 'executed'
     if name.startswith('prepare:'):
         ch=name.split(':')[1]
+        if not force and checked_prepare_ready(p,ch):return 'verified_current_checked_review_reused'
         fingerprint=p.qa/f'{ch}-checked-fingerprint.json';check=p.qa/f'{ch}-check.json'
-        if not (fingerprint.exists() and check.exists() and read(fingerprint)['sha256']==p.chapter_inputs(ch) and read(check)['ok'] and not read(check)['browserSkipped']):worker(p,'chapter',['prepare',ch],emit)
+        if not (fingerprint.exists() and check.exists() and read(fingerprint)['sha256']==p.chapter_inputs(ch) and read(check)['ok'] and not read(check)['browserSkipped'] and all(read(check).get(layer,{}).get('errorCount')==0 and read(check).get(layer,{}).get('warningCount')==0 for layer in ['lint','runtime','layout','contrast'])):worker(p,'chapter',['prepare',ch],emit)
         subprocess_stage(p,['node',str(Path(__file__).parent/'capture.mjs'),ch],name+'-captures',emit)
         worker(p,'contact_sheet',[str(p.qa/(ch+'-states'))],emit)
         return 'executed'
     if name.startswith('render:'):
+        from .visual_gate import require_visual
+        require_visual(p,[s['id'] for s in p.chapter_scenes(name.split(':')[1])])
         from .review import require_review
         ch=name.split(':')[1]
         try:require_review(p,ch)
         except (FileNotFoundError,RuntimeError) as exc:raise ReviewPending(str(exc))
-        old=read(p.qa/'reference-import.json')['chapters'][ch];video=p.output/'chapters'/f'{ch}.mp4'
-        if not force and p.chapter_inputs(ch)==old['input_sha256'] and video.exists() and sha(video)==old['mp4_sha256']:
+        from .render_reuse import identity, reusable, retain, receipt as render_receipt
+        reuse_key=identity(p,ch) if p.profile.get('audio_policy')=='ceh-en-v1.2' else None
+        if reuse_key is not None and not force and reusable(p,ch,reuse_key) and checked_prepare_ready(p,ch):
+            emit({'phase':'encoded_chapter_reused_after_current_gates','chapter':ch})
+            return 'verified_current_encoded_chapter_reused'
+        old=read(p.qa/'reference-import.json')['chapters'][ch] if (p.qa/'reference-import.json').exists() else {};video=p.output/'chapters'/f'{ch}.mp4'
+        if not force and p.chapter_inputs(ch)==old.get('input_sha256') and video.exists() and sha(video)==old['mp4_sha256']:
             # The new compiler/check/capture/review have run; encoded bytes are the verified identical inputs' artifact.
             previous=read(p.qa/f'{ch}-render.json');previous.update(source_sha256=p.chapter_inputs(ch),origin='verified_reference_render_reused')
             write(p.qa/f'{ch}-render.json',previous);return 'verified_reference_render_reused'
-        worker(p,'chapter',['render',ch],emit);return 'executed'
+        if reuse_key is not None:render_receipt(p,ch).unlink(missing_ok=True)
+        worker(p,'chapter',['render',ch],emit)
+        if reuse_key is not None:retain(p,ch,reuse_key)
+        return 'executed'
     if name=='root':
         worker(p,'assemble_project',[],emit);worker(p,'export_metadata',[],emit)
         m=read(p.root/'data/master-timing.json');times=[s['start']+s['duration']/2 for s in m['scenes']]+[(s['start']+s['end'])/2 for s in m['silences']]
+        if p.profile.get('audio_policy')=='ceh-en-v1.2':
+            from .root_check import check as check_visual_root
+            from .visual_gate import require_visual
+            check_visual_root(p,times,emit)
+            require_visual(p,list(p.by_id))
+            return 'executed'
         check=p.qa/'master-project-check.json'
         command=[str(p.root/'node_modules/.bin/hyperframes'),'check',str(p.root),'--at',','.join(f'{t:.6f}' for t in times),'--json']
         with check.open('w') as f:
             subprocess.run(command,cwd=p.root,env=p.environment(),stdout=f,check=True)
         result=read(check);assert result['ok'] and not result['browserSkipped']
         for layer in ['lint','runtime','layout','contrast']:assert result[layer]['errorCount']==0 and result[layer]['warningCount']==0
+        if p.profile.get('design_profile')=='m10-editorial-remaster-v1.1':
+            from .visual_gate import require_visual
+            require_visual(p,list(p.by_id));return 'executed'
         for script in ['audit_quiz.mjs','audit_scene_seek.mjs']:subprocess_stage(p,['node',str(p.root/'scripts'/script)],name+'-'+script,emit)
         return 'executed'
     if name=='audio-review':
+        if p.profile.get('design_profile')=='m10-editorial-remaster-v1.1':
+            from .audio_review import remaster_audio_review
+            worker(p,'audit_audio_clips',[],emit)
+            remaster_audio_review(p);return 'executed'
         from .review import audio_queue
         for script in ['recognition_audit','audit_audio_clips','review_audio','measure_speech','asr_receipt']:worker(p,script,[],emit)
         r=audio_queue(p);assert not r['technical_defects'],r
         return 'executed'
+    if name=='checks' and p.profile.get('audio_policy')=='ceh-en-v1.2':
+        return 'verified_independent_qa_stages'
     if name=='checks':
         for script in ['audit_rendered','audit_audio_continuity','capture_late_diagrams']:worker(p,script,[],emit)
         return 'executed'
@@ -154,7 +196,10 @@ def action(p,node,emit,force=False):
         from .delivery import validate
         validate(p);return 'executed'
     if name=='package':
-        from .delivery import package
+        if p.profile.get('audio_policy')=='ceh-en-v1.2':
+            from .packaging import package
+        else:
+            from .delivery import package
         package(p,emit);return 'executed'
     worker(p,node.action[0],node.action[1:],emit);return 'executed'
 
@@ -172,49 +217,104 @@ def review_batch(p,rows,emit):
             write(p.state/'review-gate.json',record);emit(record);raise ReviewPending(str(exc))
 
 
-def run(p,target,forced,emit):
+def _run(p,target,forced,emit):
     from .preflight import preflight
     began=time.monotonic();p.state.mkdir(exist_ok=True);completed=[];reused=[]
     with lock(p.state/'run.lock'):
         STOP_REQUESTED.clear()
         preflight(p)
+        frozen_sources={rel:sha(p.root/rel) for rel in
+                        ('production.json','data/scenes.json','data/questions.json')}
         if p.profile.get('schema_version') == 1:seed_audio(p)
-        rows=planning(p,target);force_set=set(forced)
-        unknown=force_set-set(nodes(p))
+        rows=planning(p,target);force_set=set(forced);graph=nodes(p)
+        unknown=force_set-set(graph)
         if unknown:raise ValueError('Unknown forced nodes '+str(unknown))
         review_batch(p,rows,emit)
         def execute(name):
             if STOP_REQUESTED.is_set():raise RunCancelled('Run cancelled before node dispatch: '+name)
-            node=nodes(p)[name];current=inspect_node(p,node)
+            node=graph[name]
+            if name.startswith('align:'):
+                node.outputs=[str(p.root/'data/forced-alignment'/f'{name.split(":")[1]}-{x["sentence"]:03}.json') for x in p.audio(name.split(':')[1])['segments'] if x['kind']=='spoken']
+            current=inspect_node(p,node)
             if current['action']=='reuse' and name not in force_set:
                 reused.append(name);emit({'phase':'cache_reused','node':name});return
             process=p.state/'processes'/(name.replace(':','--')+'.json')
+            emit({'phase':'node_start','node':name});node_started=time.monotonic()
             record={'node':name,'status':'running','pid':os.getpid(),'started':time.time(),'key':current['key']};write(process,record)
             try:
                 with lock(p.state/'locks'/(name.replace(':','--')+'.lock')):origin=action(p,node,emit,name in force_set)
-                node=nodes(p)[name];commit_receipt(p,node,node_key(p,node),origin)
-                record.update(status='verified',origin=origin);completed.append(name)
+                commit_receipt(p,node,node_key(p,node),origin)
+                record.update(status='verified',origin=origin,finished=time.time(),elapsed_seconds=time.monotonic()-node_started);completed.append(name)
             except BaseException as exc:
-                record.update(status='waiting_review' if isinstance(exc,ReviewPending) else 'interrupted' if isinstance(exc,KeyboardInterrupt) else 'failed',error=str(exc));write(process,record)
-                emit({'phase':record['status'],'node':name,'error':str(exc),'receipt':str(process)});raise
-            write(process,record);emit({'phase':'node_verified','node':name,'completed':len(completed),'reused':len(reused),'total_nodes':len(rows)})
+                record.update(status='waiting_review' if isinstance(exc,ReviewPending) else 'interrupted' if isinstance(exc,KeyboardInterrupt) else 'failed',error=str(exc),finished=time.time(),elapsed_seconds=time.monotonic()-node_started);write(process,record)
+                emit({'phase':record['status'],'node':name,'error':str(exc),'elapsed_seconds':record['elapsed_seconds'],'receipt':str(process)});raise
+            write(process,record);emit({'phase':'node_verified','node':name,'elapsed_seconds':record['elapsed_seconds'],'completed':len(completed),'reused':len(reused),'total_nodes':len(rows)})
         pool=concurrent.futures.ThreadPoolExecutor(max_workers=p.profile['runtime']['max_chapter_renders']);futures=[]
         try:
-            for row in rows:
-                name=row['node'];node=nodes(p)[name]
-                if any(d in force_set for d in node.dependencies):force_set.add(name)
-                for future in futures:
-                    if future.done():future.result()
-                if name=='master':
-                    for future in futures:future.result()
-                if name.startswith('render:'):futures.append(pool.submit(execute,name))
-                else:execute(name)
-            for future in futures:future.result()
+            if p.profile.get('audio_policy')=='ceh-en-v1.2':
+                from .scheduling import render_order
+                renders=[r['node'] for r in rows if r['node'].startswith('render:')]
+                downstream={'master','checks','delivery','package'} | {n for n in graph if n.startswith('checks:')}
+                # Prepare all dependencies first. No expensive render starts with stale reviews.
+                for row in rows:
+                    name=row['node']
+                    if name in downstream or name in renders:continue
+                    if any(d in force_set for d in graph[name].dependencies):force_set.add(name)
+                    execute(name)
+                review_batch(p,[dict(r,action='reuse') if r['node'].startswith('prepare:') else r for r in rows],emit)
+                ordered=render_order(p,renders)
+                emit({'phase':'render_schedule','strategy':'longest_first','order':ordered})
+                for name in ordered:
+                    if any(d in force_set for d in graph[name].dependencies):force_set.add(name)
+                    emit({'phase':'node_queued','node':name});futures.append(pool.submit(execute,name))
+                for future in futures:future.result()
+                for row in rows:
+                    name=row['node']
+                    if name not in downstream:continue
+                    if any(d in force_set for d in graph[name].dependencies):force_set.add(name)
+                    execute(name)
+            else:
+                for row in rows:
+                    name=row['node'];node=graph[name]
+                    if any(d in force_set for d in node.dependencies):force_set.add(name)
+                    for future in futures:
+                        if future.done():future.result()
+                    if name=='master':
+                        for future in futures:future.result()
+                    if name.startswith('render:'):futures.append(pool.submit(execute,name))
+                    else:execute(name)
+                for future in futures:future.result()
         except BaseException:
             for future in futures:future.cancel()
             cancel_children()
             pool.shutdown(wait=True,cancel_futures=True)
             raise
         else:pool.shutdown(wait=True)
+        refreshed=nodes(p)
+        changed=[name for name,node in graph.items()
+                 if node.inputs!=refreshed[name].inputs]
+        changed += [rel for rel,expected in frozen_sources.items() if sha(p.root/rel)!=expected]
+        if changed:
+            raise RuntimeError('Source inputs changed during run; replan affected nodes: '+', '.join(changed))
         result={'status':'verified','target':target,'executed':completed,'reused':reused,'elapsed_seconds':time.monotonic()-began,'human_listening':'pending'}
         write(p.qa/('run-'+target.replace(':','--')+'.json'),result);return result
+
+
+def run(p,target,forced,emit,kind='routine',parent_run=None):
+    from .run_record import RunRecord
+    record=RunRecord(p,target,kind,parent_run);p.run_record=record
+    def observed(row):record.event(row);emit(row)
+    try:
+        result=_run(p,target,forced,observed)
+    except BaseException as exc:
+        record.finish('interrupted' if isinstance(exc,KeyboardInterrupt) else 'failed',error=str(exc))
+        raise
+    else:
+        result.update(record.finish('verified',executed=result['executed'],reused=result['reused']))
+        write(p.qa/('run-'+target.replace(':','--')+'.json'),result)
+        return result
+    finally:
+        import shutil
+        for f in p.qa.glob('*.log*'):
+            if f.is_file() and f.stat().st_mtime>=record.wall_started:shutil.copy2(f,record.directory/f.name)
+        del p.run_record

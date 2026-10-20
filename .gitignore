@@ -14,3 +14,9 @@ projects/weekly-incident-projects/2026-W37-forgotten-portal-discovery/continuati
 # Python material checks create no publishable bytecode.
 __pycache__/
 *.pyc
+
+# Local engineering dependencies and generated QA artifacts
+tools/ceh_video/ceh_video/visual/node_modules/
+
+tools/ceh_video/build/
+tools/ceh_video/*.egg-info/

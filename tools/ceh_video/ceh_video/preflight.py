@@ -9,10 +9,19 @@ def validate_profile(data):
         from .mandarin import validate_profile as validate_mandarin
         return validate_mandarin(data)
     assert data['schema_version']==1, 'Unsupported production profile'
-    assert data['voice']=={'name':'af_heart','language':'en-us','baseline_speed':0.73,'atempo':1.5,'speed_applications':1}, 'Approved voice contract changed'
+    from .audio_policy import timing
+    try:contract=timing(data)
+    except ValueError as exc:raise AssertionError(str(exc)) from exc
+    assert data['voice']=={'name':'af_heart','language':'en-us','baseline_speed':0.73,'atempo':contract['atempo'],'speed_applications':1}, 'Approved voice contract changed'
     assert data['output']=={'width':1920,'height':1080,'fps':30,'sample_rate':48000,'channels':2,'video_rate':1.0,'bgm':False}, 'Approved output contract changed'
     assert data['quiz_silence_seconds']==1, 'Quiz holds must be exactly 1.000 seconds'
-    assert data['runtime']['max_chapter_renders']==2 and data['runtime']['render_workers']==4
+    if data.get('design_profile')=='m10-editorial-remaster-v1.1':
+        assert data['runtime']['browser_gpu_mode']=='hardware', 'Remaster GPU mode must be explicitly hardware'
+        assert data['runtime']['expected_gpu_renderer']=='ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)', 'Remaster hardware renderer identity changed'
+        assert data['runtime']['max_chapter_renders'] in (1,2) and data['runtime']['render_workers'] in (1,2,4)
+        assert data['runtime']['max_chapter_renders']*data['runtime']['render_workers'] <= (8 if data.get('audio_policy')=='ceh-en-v1.2' else 4)
+    else:
+        assert data['runtime']['max_chapter_renders']==2 and data['runtime']['render_workers']==4
 
 
 def preflight(p, diagrams=True):

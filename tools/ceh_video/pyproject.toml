@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ceh-video"
-version = "0.2.0"
+version = "0.5.2"
 description = "Editorial teaching video production, verified caching and evidence-bound review"
 requires-python = ">=3.12"
 
@@ -12,4 +12,4 @@ requires-python = ">=3.12"
 ceh-video = "ceh_video.__main__:main"
 
 [tool.setuptools.package-data]
-ceh_video = ["runtime/*.py", "runtime/*.mjs", "*.mjs"]
+ceh_video = ["runtime/*.py", "runtime/*.mjs", "*.mjs", "visual/*.mjs", "visual/*.js", "visual/*.json", "visual/*.md"]

@@ -1,0 +1,16 @@
+{
+  "name": "ceh-motion-engineering-qa",
+  "private": true,
+  "version": "0.4.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test geometry.test.mjs remaster-geometry.test.mjs"
+  },
+  "dependencies": {
+    "@playwright/test": "1.62.1",
+    "pixi.js": "8.22.0",
+    "gsap": "3.14.2",
+    "pixelmatch": "7.1.0",
+    "pngjs": "7.0.0"
+  }
+}

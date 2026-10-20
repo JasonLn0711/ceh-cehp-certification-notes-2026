@@ -1,0 +1,175 @@
+{
+  "version": "1.2.0",
+  "source": {
+    "path": "STYLE_TOKENS.json",
+    "sha256": "8b235a281ed1a8a12b01d107578b544a21babe5acb73ce60e1ab40100f7554f1"
+  },
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "colors": {
+    "paper": "#F0EBE4",
+    "ink": "#292421",
+    "terracotta": "#C8755D",
+    "apricot": "#F2D4B7",
+    "gray": "#B8B0A9",
+    "mustard": "#E9B94D",
+    "paper_white": "#FFFAF3",
+    "paper_shadow": "#DCD3C8"
+  },
+  "safeArea": {
+    "horizontal": 0.07,
+    "vertical": 0.08
+  },
+  "fonts": {
+    "editorial": {
+      "family": "Editorial",
+      "regular": "assets/fonts/LiberationSans-Regular.ttf",
+      "bold": "assets/fonts/LiberationSans-Bold.ttf"
+    },
+    "technical": {
+      "family": "Technical",
+      "regular": "assets/fonts/DejaVuSansMono.ttf"
+    }
+  },
+  "fontHashes": {
+    "assets/fonts/LiberationSans-Bold.ttf": "3973aa5054fb467dd5627245d3dc82e37bf16fe075756156a570455871351582",
+    "assets/fonts/LiberationSans-Regular.ttf": "4659bc0c58c5028dd488ec928d41d9265db43d9b669fc14ca8b0832daca7b144",
+    "assets/fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+    "assets/fonts/DejaVuSans.ttf": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+    "assets/fonts/DejaVuSansMono.ttf": "c805f9436dbc268644c1d9584f01a601a653e028e08fd74b9b949f6cf8304d88",
+    "assets/fonts/LiberationSans-Italic.ttf": "830c5fa600505fb4c1a271b4271c53c44bae43f492b2a240d0e98a3a7a380121"
+  },
+  "typography": {
+    "heading": 54,
+    "caption": 34,
+    "label": 36,
+    "metadata": 27,
+    "lineHeight": 1.15,
+    "body": 30,
+    "note": 28,
+    "chapterLineHeight": 1.15,
+    "headingLineHeight": 1.08,
+    "measurementGuard": 8
+  },
+  "radius": {
+    "card": 8,
+    "legacyPanel": 4
+  },
+  "stroke": {
+    "props": 4,
+    "focus": 5,
+    "fine": 2
+  },
+  "motion": {
+    "entrance": 0.8,
+    "draw": 1.3,
+    "packet": 2.4,
+    "armOut": 0.45,
+    "armReturn": 0.5,
+    "ease": "power2.out",
+    "stagger": 0,
+    "quizReveal": 0.35
+  },
+  "zones": {
+    "title": {
+      "x": 155,
+      "y": 125,
+      "width": 1600,
+      "height": 130
+    },
+    "diagram": {
+      "x": 155,
+      "y": 272,
+      "width": 1610,
+      "height": 550
+    },
+    "teaching": {
+      "x": 200,
+      "y": 850,
+      "width": 1520,
+      "height": 86
+    },
+    "subtitle": {
+      "x": 230,
+      "y": 940,
+      "width": 1460,
+      "height": 53.6
+    }
+  },
+  "spacing": {
+    "small": 8,
+    "medium": 16,
+    "large": 32
+  },
+  "layers": {
+    "paper": 0,
+    "diagram": 10,
+    "character": 20,
+    "teaching": 30,
+    "subtitle": 40,
+    "connector": 9
+  },
+  "geometry": {
+    "tolerance": 0.25,
+    "linecap": "round",
+    "linejoin": "round",
+    "arrowLength": 16,
+    "arrowHalfHeight": 10
+  },
+  "texture": {
+    "source": "locked assets; no generated deformation"
+  },
+  "governance": {
+    "spacing": "Versioned production remaster variants; no scene-local overrides",
+    "fonts": "Actual approved M10 font binaries supersede descriptive Inter/Arial token text",
+    "motion": "Inherited editorial.py durations; no new stagger introduced",
+    "textMeasurement": "8px reserved width for PIL/Chromium metric and glyph-bearing differences; actual SVG bounds remain strictly validated at 0.25px"
+  },
+  "layout": {
+    "body": {
+      "x": 155,
+      "y": 304,
+      "width": 1280,
+      "height": 416
+    },
+    "rail": {
+      "x": 1490,
+      "y": 304,
+      "width": 275,
+      "height": 500
+    },
+    "note": {
+      "x": 155,
+      "y": 760,
+      "width": 1280,
+      "height": 64
+    },
+    "gridGap": 40,
+    "objectPadding": 16,
+    "entranceOffset": 16,
+    "cardMaxHeight": 188,
+    "tableRowGap": 8
+  },
+  "components": {
+    "deviceInline": {
+      "iconSize": 72,
+      "gap": 16
+    },
+    "deviceStackedCompact": {
+      "iconSize": 40,
+      "gap": 8
+    },
+    "resourceBar": {
+      "height": 32,
+      "reservedHeight": 50
+    },
+    "resourceQueue": {
+      "height": 24,
+      "gap": 4,
+      "reservedHeight": 50
+    }
+  }
+}
