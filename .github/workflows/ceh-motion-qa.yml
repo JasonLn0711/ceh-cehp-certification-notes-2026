@@ -1,0 +1,25 @@
+name: CEH motion contracts
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'tools/ceh_video/**'
+      - 'docs/video-production/**'
+concurrency:
+  group: ceh-motion-native-workspace
+  cancel-in-progress: false
+jobs:
+  motion:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: [self-hosted, Linux, ARM64, ceh-motion]
+    timeout-minutes: 180
+    permissions:
+      contents: read
+    env:
+      CEH_PROJECT: /home/jnlngx10/Videos/CEH_M10_editorial_remaster_ci/project
+      CEH_PY: /home/jnlngx10/Videos/CEH_M10_editorial_remaster_ci/project/.venv/bin/python
+      CEH_CI_ISOLATED: "1"
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Verify source, timing, geometry and reviewed snapshots
+        run: tools/ceh_video/ci/verify-remaster.sh
