@@ -13,6 +13,10 @@ try{for(const scene of scenes){
  const sid=scene.id,a=JSON.parse(fs.readFileSync(`data/${sid}.audio.json`)),times=new Map();
  const add=(label,t)=>times.set(Math.round(t*30)/30,label);
  add('midpoint',a.duration/2);add('complete',a.duration-4);
+ const panelFile=`data/${sid}.panels.json`;
+ if(profile.teaching_panels&&fs.existsSync(panelFile)){
+  for(const [i,state]of JSON.parse(fs.readFileSync(panelFile)).states.entries())add('source-'+(i+1),Math.min(state.end-.05,state.start+1));
+ }
  if(questions.some(q=>q.scene_id===sid)){
   for(const hold of a.segments.filter(x=>x.kind==='silence')){add('hold', (hold.start_sample+hold.end_sample)/96000);add('answer',hold.end_sample/48000+.45);}
  }else{

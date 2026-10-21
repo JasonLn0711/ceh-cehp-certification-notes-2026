@@ -1,16 +1,37 @@
 """Locale-v2 production adapter; stages use the shared cache/process/review engine."""
 from pathlib import Path
-import json,os,subprocess,sys,time
+import json,os,subprocess,sys,time,re
 from .common import read,write,sha
 
 def validate_profile(d):
     assert d.get('schema_version')==2
     assert d.get('content')=={'locale':'zh-TW','narration_key':'narration_zh_TW'},'Explicit Mandarin content contract required'
-    assert d.get('voice')=={'provider':'edge-tts','provider_version':'7.3.1','name':'zh-TW-HsiaoChenNeural','language':'zh-TW','baseline_rate':'+0%','atempo':1.5,'speed_applications':1},'Mandarin voice or single-speed contract changed'
+    from .mandarin_policy import voice_rate, CONCEPTS_13
+    assert d.get('voice')=={'provider':'edge-tts','provider_version':'7.3.1','name':'zh-TW-HsiaoChenNeural','language':'zh-TW','baseline_rate':'+0%','atempo':voice_rate(d),'speed_applications':1},'Mandarin voice or single-speed contract changed'
+    if d.get('audio_policy') == CONCEPTS_13:
+        assert d.get('quiet_tail') == {'threshold_pcm16':32,'retain_seconds':.18}, 'Versioned quiet-tail contract required'
+    else:
+        assert not d.get('quiet_tail'), 'Quiet-tail optimization requires its own policy version'
     assert d['output']=={'width':1920,'height':1080,'fps':30,'sample_rate':48000,'channels':2,'video_rate':1.0,'bgm':False}
-    assert d['quiz_silence_seconds']==1
+    from .mandarin_policy import timing
+    timing(d)
     assert d['alignment']['backend']=='provider_word_boundaries'
     assert d['runtime']['max_chapter_renders']==2 and d['runtime']['render_workers']==4
+    if d['runtime'].get('gpu_encoding'):
+        assert d['runtime'].get('browser_gpu_mode')=='hardware'
+        assert d['runtime'].get('expected_gpu_renderer'), 'GPU renderer identity required'
+
+def verify_gpu(p,log,probe):
+    if not p.profile['runtime'].get('gpu_encoding'):return None
+    text=log.read_text();expected=p.profile['runtime']['expected_gpu_renderer']
+    probes=re.findall(r'browserGpuMode probe → (hardware|software) \(WebGL renderer vendor="([^"]*)" renderer="([^"]*)"\)',text)
+    assert probes and all(mode=='hardware' and renderer==expected for mode,vendor,renderer in probes), 'Actual hardware GPU probe missing or fallback detected'
+    assert 'UNVERIFIED' not in text
+    assert 'encoding with libx264' not in text, 'Software encoding fallback detected'
+    video=next(x for x in probe['streams'] if x['codec_type']=='video')
+    encoder=video.get('tags',{}).get('encoder','')
+    assert 'nvenc' in encoder.lower() or 'h264_nvenc' in text, 'NVENC execution evidence missing'
+    return {'requested_capture':'hardware','observed_renderer':expected,'encoding':'h264_nvenc','stream_encoder_tag':encoder,'log_sha256':sha(log),'software_fallback_accepted':False}
 
 def preflight(p,diagrams=True):
     validate_profile(p.profile);errors=[]
@@ -35,7 +56,8 @@ def preflight(p,diagrams=True):
     for rel in p.profile['fonts'].values():check((p.root/rel).is_file(),'local font '+rel)
     check((p.root/'assets/vendor/hw-arrow-helpers.js').is_file(),'local registry helper')
     check(read(p.root/'node_modules/hyperframes/package.json')['version']==p.profile['runtime']['hyperframes'],'renderer pin')
-    coverage=read(p.root/'data/coverage.json');check(coverage['source_subquestion_groups']==15 and bool(coverage['targets']),'assessment coverage map')
+    coverage=read(p.root/'data/coverage.json');check(coverage['source_subquestion_groups']==exp.get('coverage_groups',15) and bool(coverage['targets']),'assessment coverage map')
+    check(coverage.get('source_major_questions',5)==exp.get('source_major_questions',5),'source major-question coverage')
     row={'status':'passed' if not errors else 'failed','errors':errors,'scenes':len(ids),'chapters':len(p.chapters),'questions':len(p.questions),'scope':'Source, profile, locked assets and real diagram geometry; actual media separate'}
     write(p.qa/'preflight.json',row)
     if errors:raise RuntimeError('Mandarin preflight failed: '+'; '.join(errors))
@@ -82,12 +104,14 @@ def action(p,node,emit,force=False):
         assert read(p.qa/f'{ch}-checked-fingerprint.json')['sha256']==before
         target=p.output/'chapters'/f'{ch}.mp4';target.parent.mkdir(exist_ok=True);started=time.monotonic()
         command=[str(p.root/'node_modules/.bin/hyperframes'),'render',str(p.root/'chapters'/ch),'--output',str(target),'--fps','30','--quality','delivery','--workers','4','--no-best-effort','--strict']
+        if p.profile['runtime'].get('gpu_encoding'):command+=['--browser-gpu','--gpu']
         subprocess_stage(p,command,'render-'+ch,emit)
         probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(target)]))
         video=next(x for x in probe['streams'] if x['codec_type']=='video');audio=next(x for x in probe['streams'] if x['codec_type']=='audio');expected=read(p.qa/f'{ch}-timing.json')
         assert (video['codec_name'],video['width'],video['height'],video['r_frame_rate'],audio['codec_name'])==('h264',1920,1080,'30/1','aac')
         assert abs(float(video['duration'])-expected['duration'])<.001 and before==p.chapter_inputs(ch)
-        write(p.qa/f'{ch}-render.json',{'status':'rendered_codec_verified','source_sha256':before,'output_sha256':sha(target),'elapsed_seconds':time.monotonic()-started,'probe':probe})
+        gpu=verify_gpu(p,p.qa/('render-'+ch+'.log'),probe)
+        write(p.qa/f'{ch}-render.json',{'status':'rendered_codec_verified','source_sha256':before,'output_sha256':sha(target),'elapsed_seconds':time.monotonic()-started,'probe':probe,'gpu':gpu})
     elif name=='root':
         info=assemble(p);m=read(p.root/'data/master-timing.json');times=[s['start']+s['duration']/2 for s in m['scenes']]+[(h['start']+h['end'])/2 for h in m['silences']]
         hf_check(p,p.root,times,'master-project-check.json',emit)

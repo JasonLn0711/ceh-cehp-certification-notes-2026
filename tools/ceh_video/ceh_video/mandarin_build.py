@@ -24,7 +24,7 @@ def font(p,size,bold=False):
 
 def text_svg(p,o):
     lines=wrap(o['text'],font(p,o['size'],o.get('bold',False)),o['w'])
-    return f'<text x="{o["x"]}" y="{o["y"]+o["size"]}" font-size="{o["size"]}" font-weight="{700 if o.get("bold") else 400}" fill="{o.get("color",INK)}" text-anchor="{o.get("anchor","middle")}">'+''.join(f'<tspan x="{o["x"]}" dy="{0 if i==0 else o["size"]*1.25}">{esc(t)}</tspan>' for i,t in enumerate(lines))+'</text>'
+    return f'<text x="{o["x"]}" y="{o["y"]+o["size"]}" font-family="{'Technical' if o.get('technical') else 'EditorialTC'}" font-size="{o["size"]}" font-weight="{700 if o.get("bold") else 400}" fill="{o.get("color",INK)}" text-anchor="{o.get("anchor","middle")}">'+''.join(f'<tspan x="{o["x"]}" dy="{0 if i==0 else o["size"]*1.25}">{esc(t)}</tspan>' for i,t in enumerate(lines))+'</text>'
 
 def object_svg(p,o,hidden=False):
     k=o['kind']
@@ -42,6 +42,8 @@ def object_svg(p,o,hidden=False):
     return f'<g id="{o["id"]}"'+(' style="opacity:0"' if hidden and k!='line' else '')+' class="'+('hw-arrow' if k=='line' and not o.get('dash') else 'native-object')+'">'+body+'</g>'
 
 def tally(p,sid,pose='point'):
+    if p.profile.get('art_profile')=='island-workshop-v1':
+        return f'<g id="{sid}-tally" transform="translate(1640 650)" stroke="{INK}" stroke-width="4" stroke-linecap="round"><path d="M15 70 Q45 20 85 70 L85 105 L15 105Z" fill="{INK}"/><circle cx="50" cy="80" r="31" fill="{SOFT}"/><path d="M15 67 Q45 20 85 67" fill="{INK}"/><path d="M20 123 Q50 106 80 123 L93 204 L7 204Z" fill="{ACCENT}"/><path d="M20 137 L-8 161 M78 135 L109 103 M25 205 L22 245 M73 205 L77 245" fill="none"/><circle cx="40" cy="79" r="2"/><circle cx="61" cy="79" r="2"/><path d="M42 94 Q50 100 59 93" fill="none"/></g>'
     svg=(p.root/'assets/mascot'/f'tally_{pose}.svg').read_text()
     inner=re.sub(r'^.*?<svg[^>]*>|</svg>\s*$','',svg,flags=re.S)
     ids=re.findall(r'id="([^"]+)"',inner)
@@ -82,6 +84,9 @@ def background():
 
 def scene_body(p,scene,audio):
     sid=scene['id'];parts=[background()];js=[];objects=build(scene)
+    from .mandarin_panels import specification,layout_objects,markup
+    has_panel=bool(specification(p,sid))
+    if has_panel:objects=layout_objects(objects)
     spoken=[r for r in audio['segments'] if r['kind']=='spoken'];phases=[r['start_sample']/48000 for r in spoken]
     def show(ident,start,end=None):
         js.append(f'gsap.set("#{ident}",{{opacity:0}});tl.set("#{ident}",{{opacity:1}},{start:.8f});')
@@ -92,7 +97,7 @@ def scene_body(p,scene,audio):
         option_heights=[len(wrap(c['letter']+'．'+c['text'],font(p,34),1260))*34*1.25+28 for c in q['choices']]
         assert top+sum(option_heights)+36<850,(sid,top,option_heights)
         parts.append(f'<div class="question-title">{esc(q["level"])}練習・需要時可暫停</div><div class="question">{esc(q["prompt"])}</div><div class="choices" style="top:{top}px">'+''.join(f'<div class="option" id="{sid}-{c["letter"]}">{c["letter"]}．{esc(c["text"])}</div>' for c in q['choices'])+'</div>')
-        parts.append(f'<div class="quiz-clock" id="{sid}-clock" data-quiz-scene="{sid}" data-pause-start="{hold["start_sample"]/48000}" data-pause-end="{answer}">1</div>')
+        parts.append(f'<div class="quiz-clock" id="{sid}-clock" data-quiz-scene="{sid}" data-pause-start="{hold["start_sample"]/48000}" data-pause-end="{answer}">{p.profile["quiz_silence_seconds"]:g}</div>')
         show(sid+'-clock',hold['start_sample']/48000,answer)
         parts.append(f'<div class="answer-mark" id="{sid}-answer">正確答案：{q["correct_letter"]}</div>');show(sid+'-answer',answer)
         js.append(f'tl.to("#{sid}-{q["correct_letter"]}",{{backgroundColor:"{SOFT}",borderColor:"{INK}",duration:.35}},{answer});')
@@ -114,9 +119,11 @@ def scene_body(p,scene,audio):
                 token=ident+'-token';start=at+.8;duration=min(2.4,max(.5,audio['duration']-start-1))
                 parts.append(f'<svg class="art" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg"><g id="{token}"><rect x="-14" y="-9" width="28" height="18" rx="3" fill="{ACCENT}" stroke="{INK}" stroke-width="2"/></g></svg>')
                 js.append(f'tl.set("#{token}",{{opacity:0}},0);tl.fromTo("#{token}",{{x:{o["x1"]},y:{o["y1"]},opacity:1}},{{x:{o["x2"]},y:{o["y2"]},opacity:1,duration:{duration},ease:"none",immediateRender:false}},{start});tl.set("#{token}",{{opacity:0}},{start+duration});')
-        parts.append(f'<div class="teaching" id="{sid}-takeaway">{esc(scene["takeaway"])}</div>');show(sid+'-takeaway',phases[-1])
+        parts.append(f'<div class="teaching" style="{"left:145px;width:1130px" if has_panel else ""}" id="{sid}-takeaway">{esc(scene["takeaway"])}</div>');show(sid+'-takeaway',phases[-1])
     parts.append(f'<div class="chapter">{esc(scene["chapter_id"]+"　"+scene["chapter_title"])}</div><h1 class="heading">{esc(scene["title"])}</h1>')
-    parts.append(f'<svg class="art" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg"><text x="1790" y="900" text-anchor="end" font-size="22" fill="{INK}">教學用模擬資料</text></svg>')
+    parts.append(f'<svg class="art" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg"><text x="1790" y="900" text-anchor="end" font-size="22" fill="{INK}">{"圖片來源見右側標示" if has_panel else "教學用模擬資料"}</text></svg>')
+    if has_panel:
+        panel,panel_motion=markup(p,sid,audio);parts.append(panel);js.append(panel_motion)
     captions=caption_rows(p,sid,audio)
     for i,cap in enumerate(captions):
         ident=f'{sid}-caption-{i}';parts.append(f'<div class="caption" id="{ident}">{esc(cap["text"])}</div>');show(ident,cap['start'],cap['end'])
@@ -126,7 +133,8 @@ def build_scene(p,sid):
     scene=p.by_id[sid];audio=p.audio(sid);body,motion,objects,captions=scene_body(p,scene,audio)
     helper=(p.root/'assets/vendor/hw-arrow-helpers.js').read_text()
     script=helper+'\nconst tl=gsap.timeline({paused:true});\n'+motion+f'\nwindow.__timelines["{sid}"]=tl;'
-    markup=f'<template><style>{css(p)}</style><div id="root" data-composition-id="{sid}" data-width="1920" data-height="1080" data-duration="{audio["duration"]:.9f}">{body}</div><script>{script}</script></template>'
+    from .mandarin_panels import CSS
+    markup=f'<template><style>{css(p)+CSS if p.profile.get("teaching_panels") else css(p)}</style><div id="root" data-composition-id="{sid}" data-width="1920" data-height="1080" data-duration="{audio["duration"]:.9f}">{body}</div><script>{script}</script></template>'
     (p.root/'compositions'/f'{sid}.html').write_text(markup)
     write(p.root/'compositions'/f'{sid}.motion.json',{'scene':sid,'duration':audio['duration'],'rules':scene['motion_rules'],
       'entry':{'vector':'0 px/s','from_rest':True},'exit':{'vector':'0 px/s','still_moving':False},'objects':len(objects),'audio_sha256':sha(p.root/'assets/voice'/f'{sid}.wav')})
@@ -229,8 +237,21 @@ def deck(p):
             for i,ch in enumerate(q['choices']):shape(slide,dict(kind='text',x=230,y=410+i*100,text=ch['letter']+'．'+ch['text'],size=34,w=1280,anchor='start'))
         shape(slide,dict(kind='text',x=145,y=125,text=scene['title'],size=62,w=1610,bold=True,anchor='start'))
         shape(slide,dict(kind='text',x=145,y=80,text=scene['chapter_id']+'　'+scene['chapter_title'],size=27,w=1600,anchor='start'))
-        shape(slide,dict(kind='text',x=850,y=875,text=scene['takeaway'],size=35,w=1400,bold=True))
-        slide.shapes.add_picture(str(p.root/'assets/mascot/tally_point.png'),int(1620*scale),int(640*scale),width=int(200*scale))
+        from .mandarin_panels import specification,assets,resolved,image_box
+        panel_spec=specification(p,scene['id'])
+        shape(slide,dict(kind='text',x=710 if panel_spec else 850,y=875,text=scene['takeaway'],size=35,w=1130 if panel_spec else 1400,bold=True))
+        if panel_spec:
+            state=resolved(p,scene['id'],p.audio(scene['id']))[-1];asset=assets(p)[state['asset']]
+            shape(slide,dict(kind='rect',x=1340,y=260,w=450,h=380,fill=WHITE,stroke=GRAY))
+            shape(slide,dict(kind='text',x=1358,y=270,text=state['title'],size=28,w=414,bold=True,anchor='start'))
+            ix,iy,iw,ih=image_box(p.root/asset['file'])
+            slide.shapes.add_picture(str(p.root/asset.get('deck_file',asset['file'])),int((1340+ix)*scale),int((260+iy)*scale),width=int(iw*scale),height=int(ih*scale))
+            shape(slide,dict(kind='text',x=1358,y=576,text=state['caption'],size=21,w=414,anchor='start'))
+            tx=1340+ix+iw*state['point'][0];ty=260+iy+ih*state['point'][1]
+            shape(slide,dict(kind='line',x1=min(1765,tx+75),y1=max(325,ty-55),x2=tx,y2=ty,color='#C62828',arrow=True))
+        if p.profile.get('art_profile')!='island-workshop-v1':
+            slide.shapes.add_picture(str(p.root/'assets/mascot/tally_point.png'),int(1620*scale),int(640*scale),width=int(200*scale))
         slide.notes_slide.notes_text_frame.text=scene['narration_zh_TW']
-    target=p.output/'Digital_Everyday_Masterclass_zh-TW_EDITABLE.pptx';prs.save(target)
+    from .mandarin_policy import deck_filename
+    target=p.output/deck_filename(p.profile);prs.save(target)
     return {'slides':len(prs.slides),'path':str(target),'native_editable_shapes':sum(len(s.shapes) for s in prs.slides)}

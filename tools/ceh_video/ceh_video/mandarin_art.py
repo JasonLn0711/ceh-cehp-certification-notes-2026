@@ -44,6 +44,9 @@ class Canvas:
         self.text(x,y+140,label,phase,32,340)
 
 def build(scene):
+    if scene['kind'].startswith('island_'):
+        from .island_art import build as island_build
+        return island_build(scene)
     c=Canvas(scene['id']);k=scene['kind'];labels=scene['labels']
     if k=='office':
         c.box(180,290,1280,475,0,PAPER,GRAY);c.text(820,315,'禾日選物・辦公室',0,38,1000,True)

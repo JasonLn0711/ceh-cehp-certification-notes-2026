@@ -22,7 +22,7 @@ def payload_files(p):
         files.append((f, 'project/'+str(rel)))
     for f in walk_files(p.output):
         rel = f.relative_to(p.output)
-        media = f.suffix in {'.mp4','.wav','.srt','.vtt','.pptx','.md'}
+        media = f.suffix in {'.mp4','.wav','.srt','.vtt','.pptx','.pdf','.md'}
         review = 'inspection_frames' in rel.parts and f.suffix in {'.png','.jpg'}
         if media or review: files.append((f,'output/'+str(rel)))
     for f in walk_files(p.qa):
@@ -39,6 +39,9 @@ def source_inputs(p):
     paths = set(root.glob('*.md')) | set(root.glob('*.lock'))
     paths.update(root/f for f in ['package.json','package-lock.json','production.json','pronunciation.json'])
     paths.update(root/'data'/f for f in ['scenes.json','questions.json','chapters.json','coverage.json','coverage-contract.json'])
+    if getattr(p,'profile',{}).get('teaching_panels'):
+        paths.update([root/p.profile['teaching_panels'],root/'data/teaching-assets.json'])
+        paths.update(walk_files(root/'assets/teaching'))
     for rel in ['assets/licenses','assets/registry','scripts']:
         if (root/rel).exists(): paths.update(walk_files(root/rel))
     return {str(f.relative_to(root)):sha(f) for f in sorted(paths) if f.is_file()}

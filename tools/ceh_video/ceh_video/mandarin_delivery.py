@@ -2,11 +2,12 @@
 from pathlib import Path
 import json,subprocess,shutil,zipfile,hashlib,html,re,os
 from .common import read,write,sha,digest
+from .mandarin_policy import timing, archive_prefix, chapter_gap_rows, duration_limit
 
 def audio_review(p,emit):
     import numpy as np,soundfile as sf
     from .mandarin_speech import valid_cache
-    items=[];errors=[];holds=[];clips=0
+    items=[];errors=[];holds=[];clips=0;quiz_samples=timing(p.profile)['quiz_samples']
     decisions=p.qa/'audio-review-decisions.json';prior=read(decisions)['items'] if decisions.exists() else {}
     for scene in p.scenes:
         sid=scene['id'];a=p.audio(sid);pcm,sr=sf.read(p.root/'assets/voice'/f'{sid}.wav',dtype='int16',always_2d=True)
@@ -14,10 +15,16 @@ def audio_review(p,emit):
         for seg in a['segments']:
             data=pcm[seg['start_sample']:seg['end_sample']]
             if seg['kind']=='silence':
-                assert len(data)==48000 and not np.any(data);holds.append({'scene':sid,'frames':len(data),'all_zero':True});continue
+                assert len(data)==quiz_samples and not np.any(data);holds.append({'scene':sid,'frames':len(data),'all_zero':True});continue
             f=p.root/seg['path'];baseline=p.root/seg['baseline_path'];source=read(f.with_suffix('.json'));clips+=1
             assert sha(f)==seg['sha256'] and valid_cache(p,seg['canonical'])
-            assert source['speed_applications']==1 and source['atempo']==1.5 and source['baseline_rate']=='+0%'
+            assert source['speed_applications']==1 and source['atempo']==p.profile['voice']['atempo'] and source['baseline_rate']=='+0%'
+            if p.profile.get('quiet_tail'):
+                window=source['source_window']
+                assert window['start_sample']==0 and window['end_sample']<=window['baseline_samples']
+                assert window['removed_tail_peak']<=p.profile['quiet_tail']['threshold_pcm16']
+                assert window['end_sample']/window['sample_rate']>=window['provider_last_end_seconds']
+                assert window['filter'].count('atempo=')==1
             assert np.any(data) and np.max(np.abs(data.astype('int32')))<32767
             alignment=read(p.root/'data/forced-alignment'/f'{sid}-{seg["sentence"]:03}.json')
             assert alignment['audio_sha256']==seg['sha256'] and ''.join(w['text'] for w in alignment['words'])==seg['canonical']
@@ -46,6 +53,9 @@ def checks(p,emit):
     import soundfile as sf,numpy as np
     from .runner import subprocess_stage
     m=read(p.root/'data/master-timing.json');movie=p.output/p.profile['master_filename'];probe=read(p.qa/'master-ffprobe.json')
+    quiz_samples=timing(p.profile)['quiz_samples'];chapter_gaps=chapter_gap_rows(p)
+    assert m['duration']<=duration_limit(p.profile),'Master exceeds configured duration limit'
+    assert float(probe['format']['duration'])<=duration_limit(p.profile),'Encoded master exceeds configured duration limit'
     video=next(s for s in probe['streams'] if s['codec_type']=='video');assert int(video['nb_read_frames'])==m['frames']
     subprocess_stage(p,['ffmpeg','-v','error','-nostdin','-i',str(movie),'-f','null','-'],'master-full-decode',emit)
     reference,sr=sf.read(p.output/'master.reference.pcm.wav',dtype='int16',always_2d=True);assert sr==48000 and len(reference)==round(m['duration']*48000)
@@ -58,20 +68,26 @@ def checks(p,emit):
     subprocess.run(['ffmpeg','-v','error','-y','-nostdin','-i',str(movie),'-vn','-ar','48000','-ac','2','-c:a','pcm_s16le',str(decoded)],check=True)
     lossy,rate=sf.read(decoded,dtype='int16',always_2d=True);holds=[]
     for h in m['silences']:
-        lo=h['start_sample'];hi=h['end_sample'];assert hi-lo==48000 and not np.any(reference[lo:hi])
+        lo=h['start_sample'];hi=h['end_sample'];assert hi-lo==quiz_samples and not np.any(reference[lo:hi])
         interior=lossy[lo+2400:hi-2400].astype('int32');boundary=lossy[lo:hi].astype('int32')
         assert np.max(np.abs(interior))<=16,'Unexpected decoded speech in quiz hold'
-        holds.append({'scene':h['scene'],'reference_zero_frames':48000,'decoded_interior_peak':int(np.max(np.abs(interior))),'decoded_interval_peak':int(np.max(np.abs(boundary))),'scope':'AAC boundary residue separate from exact reference PCM'})
+        holds.append({'scene':h['scene'],'reference_zero_frames':quiz_samples,'decoded_interior_peak':int(np.max(np.abs(interior))),'decoded_interval_peak':int(np.max(np.abs(boundary))),'scope':'AAC boundary residue separate from exact reference PCM'})
     continuity=[]
     for ch in m['chapters'][1:]:
         center=round(ch['start']*48000);lo=center-24000;hi=center+24000
         difference=(lossy[lo:hi].astype('float64')-reference[lo:hi].astype('float64'))
         continuity.append({'chapter':ch['id'],'reference_sample':center,'decoded_reference_rms_difference':float(np.sqrt(np.mean(difference*difference)))})
-    write(p.qa/'audio-continuity-audit.json',{'status':'passed','reference_order':'all scene PCM tracks match master sample-for-sample','quiz_holds':holds,'chapter_boundaries':continuity,'scope':'Exact reference reconstruction and decoded AAC checks; human listening pending'})
+    write(p.qa/'audio-continuity-audit.json',{'status':'passed','reference_order':'all scene PCM tracks match master sample-for-sample','quiz_holds':holds,'chapter_boundaries':continuity,'chapter_added_gaps':chapter_gaps,'scope':'Exact reference reconstruction and decoded AAC checks; human listening pending'})
     folder=p.output/'inspection_frames';folder.mkdir(exist_ok=True);times=[]
     for scene in m['scenes']:
         for phase,fraction in [('midpoint',.5),('late',.94)]:times.append((scene['scene'],phase,scene['start']+scene['duration']*fraction))
     for h in m['silences']:times.extend([(h['scene'],'quiz-hold',(h['start']+h['end'])/2),(h['scene'],'quiz-answer',h['end']+.6)])
+    if p.profile.get('teaching_panels'):
+        for scene in m['scenes']:
+            panel_file=p.root/'data'/f"{scene['scene']}.panels.json"
+            if panel_file.exists():
+                for i,state in enumerate(read(panel_file)['states']):
+                    times.append((scene['scene'],f'source-{i+1}',scene['start']+min(state['end']-.05,state['start']+1)))
     samples=[]
     for sid,phase,t in times:
         name=f'{sid}-{phase}.png';target=folder/name
@@ -100,15 +116,27 @@ def delivery(p,emit):
     for ch in p.chapters:require_review(p,ch)
     m=read(p.root/'data/master-timing.json');caps=read(p.root/'data/master-captions.json');audio=read(p.qa/'audio-clip-structure-audit.json');deck_result=deck(p)
     contract=read(p.root/'data/coverage-contract.json');coverage=read(p.root/'data/coverage.json')['targets']
-    assert len(contract['groups'])==15 and all(target in coverage for targets in contract['groups'].values() for target in targets)
+    assert len(contract['groups'])==p.profile['expected'].get('coverage_groups',15) and all(target in coverage for targets in contract['groups'].values() for target in targets)
     assert all(any(sid in p.by_id and p.by_id[sid]['kind']!='quiz' for sid in coverage[target]) for targets in contract['groups'].values() for target in targets),'Required knowledge needs substantive teaching, not quiz-only coverage'
     with zipfile.ZipFile(deck_result['path']) as z:
-        assert len([n for n in z.namelist() if re.fullmatch(r'ppt/slides/slide\d+.xml',n)])==46
+        assert len([n for n in z.namelist() if re.fullmatch(r'ppt/slides/slide\d+.xml',n)])==len(p.scenes)
         texts=''.join(z.read(n).decode() for n in z.namelist() if re.fullmatch(r'ppt/slides/slide\d+.xml',n))
         assert not any(t in texts for t in ['科技犯罪偵查','警察','查扣','嫌疑人','被害人']) and '<a:t>' in texts
     report={'status':'rendered_automated_checks_passed','scenes':len(p.scenes),'chapters':len(p.chapters),'questions':len(p.questions),'canonical_characters':sum(len(s['narration_zh_TW']) for s in p.scenes),'duration_seconds':m['duration'],'frames':m['frames'],'subtitle_cues':len(caps),'speech_clips':audio['clips'],'deck':deck_result,'master_sha256':sha(p.output/p.profile['master_filename']),'native_review':'artifact_bound_agent_review','encoded_review':'artifact_bound_agent_review','human_watching_listening':'pending','public_release':'not_activated'}
+    if p.profile.get('teaching_panels'):
+        report['teaching_panels']={'scenes':sum((p.root/'data'/f"{s['id']}.panels.json").exists() for s in p.scenes),'states':sum(len(read(f)['states']) for f in (p.root/'data').glob('S*.panels.json'))}
+        report['gpu']={ch:read(p.qa/f'{ch}-render.json')['gpu'] for ch in p.chapters}
     write(p.qa/'engine-delivery.json',report)
-    (p.output/'engine-render-report.md').write_text(f'''# 小公司的數位日常：製片驗收\n\n實際主片：{m['duration']:.6f} 秒，{m['frames']:,} 影格；8章46幕、八題、{report['canonical_characters']:,} 個逐字稿字元、{len(caps)} 則字幕。\n\n台灣華語實際合成 {audio['clips']} 段，正常合成基準僅套用一次1.5倍旁白處理，畫面維持1倍。八次靜音各為48,000個全零立體聲PCM音訊框，AAC邊界另存檢查。\n\n原始角色、紙感色彩、中文字型與場景來源保留雜湊。原始試卷私存，交付內容為虛構公司與原創練習。完整解碼、字幕涵蓋、138次雙向跳轉比較、64項測驗邊界檢查與抽樣編碼畫面驗收，見qa。\n\n人工完整觀看與聽辨待完成；尚未公開發布。本片與教材產製不代表學員已作答、學會或取得評量成績。\n''')
+    (p.output/'engine-render-report.md').write_text(f"""# {p.profile['title']}：製片驗收
+
+實際主片：{m['duration']:.6f} 秒，{m['frames']:,} 影格；{len(p.chapters)} 章、{len(p.scenes)} 幕、{len(p.questions)} 題、{report['canonical_characters']:,} 個逐字稿字元、{len(caps)} 則字幕。
+
+台灣華語旁白 {audio['clips']} 段，正常合成基準僅套用一次 {p.profile['voice']['atempo']} 倍旁白處理，畫面維持 1 倍。各次測驗靜音為 {timing(p.profile)['quiz_samples']:,} 個全零立體聲 PCM 音訊框，AAC 邊界另存檢查。
+
+原始角色、紙感色彩、中文字型與場景來源保留雜湊。原始試卷私存；影片使用虛構情境與原創練習，教材原圖與重繪示意圖分別標示來源。完整解碼、字幕涵蓋、雙向跳轉、測驗邊界與抽樣編碼畫面檢查，見 qa。
+
+人工完整觀看與聽辨待完成；尚未公開發布。本片與教材產製不代表學員已作答、學會或取得評量成績。
+""")
     emit({'phase':'delivery_verified',**report})
 
 def package(p,emit):
@@ -119,7 +147,7 @@ def package(p,emit):
     from .mandarin_package import payload_files
     files=payload_files(p)
     manifest={rel:sha(f) for f,rel in files};manifest_text=''.join(f'{h}  {rel}\n' for rel,h in sorted(manifest.items()))
-    target=p.output/p.profile['editable_filename'];temp=target.with_suffix('.tmp.zip');prefix='Digital_Everyday_Masterclass_zh-TW_v1/'
+    target=p.output/p.profile['editable_filename'];temp=target.with_suffix('.tmp.zip');prefix=archive_prefix(p.profile)
     with zipfile.ZipFile(temp,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as archive:
         for i,(f,rel) in enumerate(files,1):
             archive.write(f,prefix+rel)
