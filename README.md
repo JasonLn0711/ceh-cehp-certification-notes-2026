@@ -200,3 +200,7 @@ For this capture, the current [Planning CEH locator](../planning-everything-trac
 ## M10 efficiency and scoped retries — October 20
 
 The [current production route](docs/video-production/README.md#ceh-m10-efficiency-2026-10-20) connects the completed v1.2 local film, preserved timing/design contracts, and engine 0.5.2 maintenance. [Measured findings and remaining checks](docs/video-production/M10_HIGH_IMPACT_FIXES.md) distinguish full-film evidence from bounded benchmarks and retry-control tests. The one-hour production target and full human viewing/listening remain open.
+
+## Long-form production and storage — October 22
+
+Long-form production and storage now follow [standard v2.0.0](docs/video-production/LONGFORM_STORAGE_STANDARD_v2.0.0.md), dated 2026-10-22: compact offline restoration, verified Mandarin reuse and audited cleanup. [Execution evidence](docs/video-production/evidence/longform-round2-2026-10-22/README.md) records the actual results separately from film acceptance.

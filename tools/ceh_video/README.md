@@ -1,4 +1,4 @@
-# CEH video engine 0.5.3
+# CEH video engine 0.6.0
 
 Local production engine for the [CEH English series standard](../../docs/video-production/PRODUCTION_STANDARD_v1.2.md). M10 is the reference migration. The engine owns execution, verified reuse, process receipts and review guards; each module owns its canonical script, native diagrams, quiz, evidence, assets and production profile. Full human listening remains a separate acceptance step.
 
@@ -181,3 +181,33 @@ Missing/changed inputs or outputs, validator changes and failed upstream receipt
 still invalidate reuse. Planning stays conservative until upstream work finishes.
 See the third round in [the performance report](../../docs/video-production/M10_HIGH_IMPACT_FIXES.md)
 for real excerpt measurements, rejected capture tuning and full-film limits.
+
+## Long-film storage maintenance — 0.5.5, October 22, 2026
+
+[Storage and production standard v1.0.0](../../docs/video-production/LONGFORM_STORAGE_STANDARD_v1.0.0.md) governs new CEH, Mandarin concept and MATLAB practice-film releases. It records dates, ownership, retention, version metadata, failure recovery and unchanged quality gates.
+
+English packaging cleans its own partial ZIP on handled failure. Mandarin packaging references engine sources directly, checks scratch capacity, verifies a temporary extraction and promotes the archive only after all payload hashes pass. Practice-film packaging checks six video hashes and streams CRC/SHA verification without an extracted media tree. Closed releases remain immutable; use a new release workspace. The Mandarin module split conservatively invalidates checks referencing the old shared delivery module once; inspect the plan before migration.
+
+Run the read-only inventory from the repository root:
+
+```bash
+PYTHONPATH=tools/ceh_video python3 -m ceh_video.storage --plain "$CEH_WORKSPACE"
+```
+
+The argument is the release directory containing `project`, `output` and `qa`. JSON goes to stdout and progress to stderr. Categories identify review candidates, not reclaimable bytes or deletion approval. No historical cleanup command is provided. See the [validation receipt](../../docs/video-production/evidence/longform-storage-validation-2026-10-22.json) for engineering test scope; no existing full film was rendered or repackaged for this maintenance update.
+
+### Compact delivery and Mandarin reuse — 0.6.0, 2026-10-22
+
+New English migrations select `"package_format": "compact-v1"` in `production.json`. Set the same field when creating a new Mandarin or practice release workspace. Profiles without the field keep their legacy package format; use a new workspace for a revised release.
+
+Compact delivery writes a ZIP, its `.sha256` sidecar and `RESTORE.py`. Restore offline using Python's standard library:
+
+```bash
+python3 RESTORE.py --archive PACKAGE.zip --destination NEW_DIRECTORY
+```
+
+The destination must not exist. Restoration validates every original path, length, CRC and SHA-256 before promotion, preserves regular permissions, and creates independent files. Duplicate payloads share one ZIP object. New English compact packages include chapter hosts and combined PCM for direct restoration; the package gate also runs the existing zero-inference reconstruction checks. Runtime environments remain outside the archive.
+
+Mandarin chapter and master reuse now bind actual sources, runtime, implementation and output hashes. Current visual gates still run. PCM concatenation and identical host assets avoid unnecessary rewrites; valid full-decode receipts avoid a second video decode in Mandarin QA. Actual audio, quiz and frame checks remain required. `--force` bypasses the selected stage's reuse, and failed attempts cannot retain its success receipt.
+
+See the [v2 standard](../../docs/video-production/LONGFORM_STORAGE_STANDARD_v2.0.0.md) and [measured execution record](../../docs/video-production/evidence/longform-round2-2026-10-22/README.md). Historical ZIPs and unique evidence are preserved; cleanup uses a separately audited fixed allowlist.

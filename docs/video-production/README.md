@@ -62,3 +62,17 @@ Engine 0.5.3 adds [verified master reuse and consumed-content QA keys](M10_HIGH_
 The change targets repeated assembly and validation after upstream QA updates.
 Full native first-run production speed remains a separate measurement; completed
 v1.2 media and all historical receipts remain preserved.
+
+## Long-film production and storage — October 22
+
+[Versioned standard v1.0.0](LONGFORM_STORAGE_STANDARD_v1.0.0.md) · [Source request](../../source/2026-10-22-longform-storage-policy/source.md) · [Capacity inventory](evidence/longform-storage-inventory-2026-10-22.json) · [Validation](evidence/longform-storage-validation-2026-10-22.json).
+
+Engine 0.5.5 improves temporary archive cleanup and verified promotion across CEH English, Mandarin concepts and coursework MATLAB practice packaging. The standard covers incremental production, original audio custody, release metadata and retention. Existing movies, archives and historical evidence remain preserved; new full-film rollout and historical cleanup are separate actions.
+
+## First verified extraction cleanup — October 22
+
+[Cleanup record and receipts](evidence/longform-cleanup-2026-10-22/README.md): four coursework extraction copies removed after exact ZIP/payload checks; observed free space increased by 10.519 GiB. All 564 protected file hashes and the excluded CEH M11 historical partial archive were preserved. Original packaging receipts remain historical records; reconstruction uses the retained ZIPs.
+
+## Long-form storage v2 — 2026-10-22
+
+[Current standard v2.0.0](LONGFORM_STORAGE_STANDARD_v2.0.0.md) specifies engine 0.6.0, exact-byte compact archives, standalone offline restoration, verified Mandarin media reuse, and dependency-aware cleanup. [Round-two execution evidence](evidence/longform-round2-2026-10-22/README.md) separates real restoration, native excerpt comparisons and actual removals. Existing release archives retain their original formats and receipts.
