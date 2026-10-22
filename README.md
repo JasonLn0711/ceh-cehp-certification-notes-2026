@@ -1,6 +1,8 @@
 # CEH / CEHP Certification Notes 2026
 
-> **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
+> **Current CEH reading rule — October 22:** [One concept per reading task](study-plan/concept-reading-2026-10-22.md) governs reading scope and completion: explanation, one example and one small check; resume the same topic when time ends. The 600-item/November 29 target awaits reassessment. Blog and practical work are separately chosen activities. Existing scores and formal practice rules remain intact; older requirements below are historical where they conflict.
+
+> **Historical September 18 course-alignment decision (reading amended October 22):** [CEH / CEHP current route](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
 
 This repo is Jason's canonical workspace for CEH13 and CEHP preparation.
 
@@ -38,7 +40,7 @@ learner completion keep separate evidence gates.
 
 [M06 System Hacking film and QA](notes/m06-system-hacking/video-production-2026-10-18.md) extends the same Northstar editorial design with its own 8,969-word script: 11 chapters, 58 scenes, 58:07.500, eight exact 1-second PCM quiz holds, full English narration and subtitles. Local media, source checks, rendered-media evidence and human acceptance retain separate records.
 
-[UUU-aligned learning](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the active September 18–November 29 route: shared four-hour weekly ceiling, actual class topics, teaching/drill modes, correction and practical work. [The full bank](assessments/practice-bank/README.md) is prepared; [learner coverage](assessment-governance/course-coverage-2026-09-18.md) awaits new answers and execution. No exam date is booked. Historical scores and projects below retain their original scope; old exam-only/Form B requirements no longer govern this lane.
+[Current reading rule](study-plan/concept-reading-2026-10-22.md) and [M04 reading order](notes/m04-enumeration/reading-route.md) now govern CEH reading. One whole concept, one example and one small check form a reading task; unfinished work resumes at the saved point. The [course-aligned record](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) retains dates, history and separately activated practice. Existing scores and practical evidence remain unchanged; the 600-item/November 29 target awaits reassessment.
 
 ## Registration and historical project status
 
@@ -70,14 +72,14 @@ learner completion keep separate evidence gates.
   `../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md`.
 - Scope control: all notes stay educational, lawful, authorized, and
   certification-focused.
-- Adopted preparation: CEH plus CEHP share at most `4 h/week` through November 29, at most 25 minutes on course days; formal course time, commute and recovery remain fixed commitments. Follow the course-aligned route and actual learner gaps.
+- Adopted preparation: CEH plus CEHP share at most `4 h/week` through November 29, at most 25 minutes on course days; formal course time, commute and recovery remain fixed commitments. Follow the current reading rule and actual learner gaps; the November 29 completion target awaits reassessment.
 
 ## How To Use This Repo
 
-1. Open the [current UUU-aligned route](study-plan/uuu-aligned-ceh-cehp-2026-09-18.md), confirm the endpoint and resume pending questions or corrections.
-2. Use the [600-question bank, two reserved mocks and 25 practical tasks](assessments/practice-bank/README.md): professional-English stems and plain-English explanations. Teach new concepts one at a time; drill familiar concepts in ten-item batches.
-3. Save actual class topics, original answers/confidence, separate retests and learner-produced practical evidence. The [coverage register](assessment-governance/course-coverage-2026-09-18.md) distinguishes first pass, corrections and readiness.
-4. Update only status/capacity/locators in Planning. Historical incident projects require separate activation; the current course lane already contains bounded practical work.
+1. Open the [current one-concept reading rule](study-plan/concept-reading-2026-10-22.md) and [M04 reading record](notes/m04-enumeration/reading-route.md#learning-record). Confirm available time and resume the saved topic; the new route begins with Enumeration Concepts.
+2. Read one whole core topic in Taiwan Traditional Chinese with English terms, see one example and answer one small check. Save the exact resume point if time ends. Ten questions, three retests and a Blog are not reading gates.
+3. Record actual understanding separately from [formal question-bank practice](assessments/practice-bank/README.md), practical acceptance and official readiness. The 600-item/November 29 target awaits reassessment; all historical scores remain intact.
+4. Mirror only status, capacity and locators into Planning. Shared CEH/CEHP self-study stays within 240 minutes weekly and 25 minutes on course days. Practical work and publishing require their separately chosen scope.
 
 ## Repo Map
 

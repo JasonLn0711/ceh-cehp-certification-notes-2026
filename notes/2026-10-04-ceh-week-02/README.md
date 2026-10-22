@@ -1,5 +1,7 @@
 # CEH Week 2 — M04–M06 reading and evidence map
 
+> **Current CEH reading rule — October 22:** [One concept per reading task](../../study-plan/concept-reading-2026-10-22.md) governs reading scope and completion: explanation, one example and one small check; resume the same topic when time ends. The 600-item/November 29 target awaits reassessment. Blog and practical work are separately chosen activities. Existing scores and formal practice rules remain intact; older requirements below are historical where they conflict.
+
 This public-safe index connects the October 4 course topics to the existing learning route. Full instructor transcripts, licensed teaching materials, screenshots, credentials and training-target details remain outside this public repository.
 
 ## Topic map

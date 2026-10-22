@@ -1,5 +1,9 @@
 # AGENTS.md
 
+## Current CEH reading exception — October 22
+
+Read [the adopted concept-reading rule](study-plan/concept-reading-2026-10-22.md) before CEH reading or teaching. One important concept means one whole listed core topic (DNS, SMB, etc.), with explanation, one example and one small check in Taiwan Traditional Chinese with English terms. Resume the same topic if unfinished. This user-approved reading exception supersedes ten-question/three-retest/daily-Blog gates and the older mandatory project workflow for reading only. Formal question-bank practice and CEHP practical acceptance keep separate rules. The 600-item and November 29 targets await reassessment; retain the shared 240-minute weekly and 25-minute course-day ceilings. Preserve all existing evidence; begin the new M04 route at Enumeration Concepts without inventing learner completion. Do not change global skills or other subjects.
+
 This repo is the canonical learning workspace for Jason's 2026 CEH13 + CEHP
 course and exam preparation.
 

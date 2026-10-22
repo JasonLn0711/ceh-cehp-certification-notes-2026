@@ -1,5 +1,7 @@
 # CEH knowledge-exam preparation — active September 11, 2026
 
+> **2026-10-22 CEH 閱讀更新：** [一次一個重要概念](concept-reading-2026-10-22.md)優先適用：講解、一個例子、一個小檢核；未完成續讀同一項。600題／11/29目標待重估，Blog與實作另行選擇。下方衝突的舊規劃保留為歷史，既有成績與正式練習規則保留。
+
 > **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
 
 ## Source and decision

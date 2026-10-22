@@ -1,5 +1,7 @@
 # CEH 課後整合、五循環與自學配置 — 2026-09-22
 
+> **2026-10-22 CEH 閱讀更新：** [一次一個重要概念](concept-reading-2026-10-22.md)優先適用：講解、一個例子、一個小檢核；未完成續讀同一項。600題／11/29目標待重估，Blog與實作另行選擇。下方衝突的舊規劃保留為歷史，既有成績與正式練習規則保留。
+
 **目前先鞏固已上課的 M01–M03，接到 M04 Enumeration；不用從 M05 重新開始。** Jason 確認 UUU CEH 共五次課、已完成第一次，內容為 M01–M03，並授權依本分析詳細規劃；原文分鐘數只作重要性參考。以下是現行課程路徑的執行細化，實際學習仍需起始時間、剩餘容量及本人結果。
 
 [完整原文／收件與查核](../source/2026-09-22-course-synced-review/README.md) · [9/18 現行總路徑](uuu-aligned-ceh-cehp-2026-09-18.md) · [官方比重分析](../curriculum/ceh-blueprint-weights-2026-09-22.md) · [Ports／commands 完整核對](../notes/2026-09-22-course-synced-review/ports-and-commands.md) · [個人覆蓋](../assessment-governance/course-coverage-2026-09-18.md)

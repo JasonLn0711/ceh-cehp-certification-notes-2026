@@ -1,5 +1,7 @@
 # Pre-Course Prep Plan
 
+> **Current CEH reading rule — October 22:** [One concept per reading task](concept-reading-2026-10-22.md) governs reading scope and completion: explanation, one example and one small check; resume the same topic when time ends. The 600-item/November 29 target awaits reassessment. Blog and practical work are separately chosen activities. Existing scores and formal practice rules remain intact; older requirements below are historical where they conflict.
+
 > **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
 
 ## Objective

@@ -1,6 +1,8 @@
 # CEH／CEHP 恆逸課程同步學習 — 2026-09-18 至 2026-11-29
 
-## 採用決策與 FIRST PRINCIPLE
+> **2026-10-22 CEH 閱讀更新：** [一次一個重要概念](concept-reading-2026-10-22.md)優先適用：講解、一個例子、一個小檢核；未完成續讀同一項。600題／11/29目標待重估，Blog與實作另行選擇。下方衝突的舊規劃保留為歷史，既有成績與正式練習規則保留。
+
+## September 18 採用決策與 FIRST PRINCIPLE（閱讀由10/22更新）
 
 Jason選擇課程同步、逐步實作；CEH＋CEHP共用每週240分鐘上限；先建立完整題庫，隨實際上課、考綱及相關趨勢調整。題幹、選項與提示用專業英文，解析用plain English。新概念逐題教學，熟悉主題採10題刷題後集中檢討。11/29目標是完整課綱至少一遍、600題全部首答與解析檢討，以及CEHP五類各一次個人實作。
 
@@ -23,6 +25,8 @@ Jason 已確認第一堂 9/20 為 M01–M03；後四堂逐堂內容仍未知。[
 
 <a id="weekly-route"></a>
 ## 每週路徑與600題進度
+
+> 10/22更新：以下保留原決策沿革；CEH閱讀依[新規則](concept-reading-2026-10-22.md)。600題與11/29期限待重估；閱讀不要求十題、三複測或Blog。正式練習與實作依各自啟動範圍處理。
 
 | ISO週／日期 | 自學目標與課程連接 | 新題首答目標 | 累計基準 |
 | --- | --- | ---: | ---: |
@@ -51,6 +55,8 @@ W39–W44各60，加W45／46各75、W47的30與W48的60＝600。若W38完成新�
 <a id="practice-modes"></a>
 ## 教學、刷題與實作
 
+> 10/22更新：以下保留原決策沿革；CEH閱讀依[新規則](concept-reading-2026-10-22.md)。600題與11/29期限待重估；閱讀不要求十題、三複測或Blog。正式練習與實作依各自啟動範圍處理。
+
 使用[完整題庫](../assessments/practice-bank/README.md)與[可複製教授提示](professor-prompt-uuu-aligned-2026-09-18.md)。題幹／選項／提示採專業英文，所有講解採plain English；模型選擇沿用Jason的GPT-6 Pro。
 
 - 教學：一次一題，先收choice與low／medium／high confidence，再講解；提示或看過答案的題標為assisted，不能算未見題測量。
@@ -64,6 +70,8 @@ W39–W44各60，加W45／46各75、W47的30與W48的60＝600。若W38完成新�
 [CEH 二十章比重與複習判斷](../curriculum/ceh-blueprint-weights-2026-09-22.md)核對 v5 配置、v4 差異及第三方題庫界線。原文的 M02–M15 → M17–M18 → 其餘章節排序保留為建議；現行未完成題組／修正、實授主題、先備補強順序與 240 分鐘上限維持。W39 沿用 9/20 實授與 M01–M04 先備，不能依原文「目前念 M05」改寫現況。工具／port／command 的常考頻率與個人時間分配尚無足夠證據，不新增必背表或配額。
 
 ## 準備度與截止驗收
+
+> 10/22更新：以下保留原決策沿革；CEH閱讀依[新規則](concept-reading-2026-10-22.md)。600題與11/29期限待重估；閱讀不要求十題、三複測或Blog。正式練習與實作依各自啟動範圍處理。
 
 11/29首輪完成須同時滿足：20模組子題有教學／閱讀紀錄、每模組30題首答及解析檢討、P1–P5各至少一個個人實作通過宣告的驗收。三變式修正狀態另列；任何未解關鍵觀念或安全錯誤都阻止準備度升級。允許誠實的「首輪已完成、修正仍開放」，不混同精熟。
 
@@ -92,6 +100,8 @@ W39–W44各60，加W45／46各75、W47的30與W48的60＝600。若W38完成新�
 [M06 完整影片與 QA](../notes/m06-system-hacking/video-production-2026-10-18.md)提供 System Hacking 的獨立教材：11 章、58 幕、8,969 字、58:07.500；延續 M04 v3 視覺與 M05 的旁白單次 1.5×，八題各有 1.000 秒零值 PCM 靜音。可依實際觀念缺口分段複習，保留現行 endpoint 與 240 分鐘／上課日 25 分鐘上限。教材產製、人工觀影驗收與本人答題／實作各持證據，片內八題不新增 600 題首答完成數。
 
 ## Daily bilingual Blog acceptance — September 21
+
+> 10/22更新：以下保留原決策沿革；CEH閱讀依[新規則](concept-reading-2026-10-22.md)。600題與11/29期限待重估；閱讀不要求十題、三複測或Blog。正式練習與實作依各自啟動範圍處理。
 
 [Planning's daily Blog contract](../../planning-everything-track/docs/02-operating-rhythm.md#daily-learning-blog--adopted-2026-09-21) adds one confirmed bilingual article to the daily learning path. Reuse the existing ten-question teaching/drill unit with original choice/confidence, explanation and required corrections. Jason explains his actual understanding first; editing and translation follow, with public completion recorded only after he confirms the text and the Pages URL is verified. This replaces quiz-only daily completion; it does not replace P1–P5 practical evidence or change official readiness.
 

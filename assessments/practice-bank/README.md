@@ -1,5 +1,7 @@
 # CEH / CEHP course-aligned practice bank
 
+> **Current CEH reading rule — October 22:** [One concept per reading task](../../study-plan/concept-reading-2026-10-22.md) governs reading scope and completion: explanation, one example and one small check; resume the same topic when time ends. The 600-item/November 29 target awaits reassessment. Blog and practical work are separately chosen activities. Existing scores and formal practice rules remain intact; older requirements below are historical where they conflict.
+
 [Current learning path](../../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) · [Tutor prompt](../../study-plan/professor-prompt-uuu-aligned-2026-09-18.md) · [Learner coverage](../../assessment-governance/course-coverage-2026-09-18.md) · [Technical sources](sources.md)
 
 ## What is ready

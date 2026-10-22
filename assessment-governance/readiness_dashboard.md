@@ -1,10 +1,12 @@
 # Readiness Dashboard
 
-> **Active learning decision — September 18 (course alignment):** [CEH / CEHP current route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
+> **Current CEH reading rule — October 22:** [One concept per reading task](../study-plan/concept-reading-2026-10-22.md) governs reading scope and completion: explanation, one example and one small check; resume the same topic when time ends. The 600-item/November 29 target awaits reassessment. Blog and practical work are separately chosen activities. Existing scores and formal practice rules remain intact; older requirements below are historical where they conflict.
+
+> **Historical September 18 course-alignment decision (reading amended October 22):** [CEH / CEHP current route](../study-plan/uuu-aligned-ceh-cehp-2026-09-18.md) owns the shared 240-minute ceiling, instructor-aligned topics, teaching/drill modes, 600-item first pass by November 29 and bounded practical work. Historical exam-only and project/Form B definitions below retain their original evidence but do not govern this lane. Learner results change only from actual answers and execution.
 
 ## Current course-aligned status
 
-[Coverage register](course-coverage-2026-09-18.md) owns the new route. 600 practice questions, two 125-item mocks and 25 tasks are prepared, with no new learner result. Actual class coverage and focused minutes remain unreported. Historical results below retain their original scope. First-pass target: November 29; feasibility remains unknown until actual pace and capacity are measured. Readiness review begins after the final November 1 CEH class; no exam date is booked.
+[Coverage register](course-coverage-2026-09-18.md) owns the new route. 600 practice questions, two 125-item mocks and 25 tasks are prepared, with no new learner result. Actual class coverage and focused minutes remain unreported. Historical results below retain their original scope. Historical first-pass target: November 29; the October 22 decision puts this deadline and 600-item target pending reassessment. Readiness review begins after the final November 1 CEH class; no exam date is booked.
 
 ## Historical project-led snapshot — 2026-09-11
 
