@@ -32,7 +32,7 @@ Jason reports attending the first UUU class covering M01–M03. [Detailed course
 
 [CEH 公開雙語教材橋接](docs/public-teaching-bridge-2026-10-23.md) records the
 October 23 main-site/learn split and complete bilingual concept articles with
-Q&A. Kairos Learning owns public text and publication; this repo retains
+Q&A. The [published CEH core series](https://learn.cs-kairos.com/courses/ceh/v13/) now covers M01–M20, with technical release evidence in the bridge. Kairos Learning owns public text and publication; this repo retains
 reading progress, formal practice and practical evidence. The M01 editorial
 pilot does not reset the current M04 reading position or add a posting quota.
 

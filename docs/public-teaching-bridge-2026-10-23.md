@@ -1,7 +1,7 @@
 # CEH 公開雙語教材與個人學習橋接
 
 日期：2026-10-23（Asia/Taipei）。狀態：主站＋learn 與每篇完整中英文為 confirmed；
-教材模板、M01 首篇與課程頁為 implementation pending。
+公開教材已實作、驗證並發布；個人學習與獨立讀者接受各自驗收。
 
 ## FIRST PRINCIPLE
 
@@ -18,7 +18,7 @@
 
 - cs-kairos.com 放個人、研究、專案與文章；learn.cs-kairos.com 放課程。
 - CEH 從 M01 起建立重要概念文章與 Q&A；每篇正文、例子、圖說、題目與解析提供完整中英文。
-- M01 首篇「授權與測試範圍」是待審的編輯建議；M01–M20 地圖由公開教材 repo 維護，無固定篇數或截止日。
+- 本人後續要求完整 Phase 0–3 並確認範圍；公開站已提供 M01 授權／CIA 兩篇、M02–M20 各一篇核心概念、雙語 Q&A 與安全練習。完整首版教材由公開 repo 維護，不新增持續篇數配額。
 - 個人閱讀仍依[10/22 一概念規則](../study-plan/concept-reading-2026-10-22.md)，續讀[M04 保存位置](../notes/m04-enumeration/reading-route.md#learning-record)。公開 M01 系列不重設個人閱讀進度。
 - 公開 Q&A 使用獨立 ID，與[正式練習題庫](../assessments/practice-bank/README.md)的題目、首答曝光、分數與複測分開。
 - 來源、準備教材、已閱讀、實際理解、公開文章、正式準備度與 CEHP 實作分別驗收；本次未填入任何新學習完成。
@@ -29,7 +29,7 @@
 私人課程來源、原始紀錄、真實訓練目標與個人作答留在原所有位置。公開教材用
 有來源或明列合成的例子，保留服務開放、資訊揭露、弱點、可利用性與存取權限的證據差異。
 
-Jason 確認中英文內容之後，網站 repo 才依當次發布授權部署。新篇的兩個語言版本
+本輪依 Jason 明確要求完整實作與發布的授權部署，代理完成雙語、來源與技術審閱；這不表示 Jason 已逐篇親自確認或學習完成。後續發布依各次授權與內容驗收執行。新篇的兩個語言版本
 共用概念與題目 ID，各有固定網址；這與主站原有每日 Blog 的同頁雙語格式分開適用。
 CEH 製片的本機交付、人工聽驗及公開影片 URL 保留原驗收，不自動加入網站或上傳。
 
@@ -37,20 +37,26 @@ CEH 製片的本機交付、人工聽驗及公開影片 URL 保留原驗收，�
 
 CEH＋CEHP 每週共用 240 分鐘、課日自學最多 25 分鐘的上限保持；實際剩餘時間
 待當次確認。公開寫作與雙語審稿在現有容量內另行選擇，不恢復每日 Blog 配額、
-600 題或 11/29 完成期限。先完成一篇、核對實際負擔，再評估後續節奏。
+600 題或 11/29 完成期限。工程已交付首版教材，後續本人閱讀與審稿仍依現有容量選擇。
 
-下一關：Kairos Learning 準備 M01 首篇概念稿與靜態雙語模板；Jason 審閱核心
-判讀與兩種語言。個人下一次閱讀仍按保存位置與小檢核啟動。
+下一關：獨立讀者試讀 M01、完成小檢核與安全練習，將難懂段落回報給公開教材 repo。Jason 的個人下一次閱讀仍按 M04 保存位置與小檢核啟動；不得把網站測試答案匯入正式學習紀錄。
+
+## 公開教材與工程證據
+
+- [CEH v13 課程](https://learn.cs-kairos.com/courses/ceh/v13/)與 [M01 概念地圖](https://learn.cs-kairos.com/courses/ceh/v13/m01/)提供完整配對語言、原創題目與練習。v13 二十課程模組和 Exam Blueprint v5 分開處理，核心概念首版不等同官方所有細項覆蓋。
+- [M04 列舉文章](https://learn.cs-kairos.com/courses/ceh/v13/m04/service-responses-and-enumeration/)延續「445 open 不證明取得共用清單」的判讀；它可供回讀，沒有改寫個人的首答曝光或閱讀完成。
+- [教學站發布回執](https://github.com/JasonLn0711/kairos-learning/blob/main/docs/releases/2026-10-23-phase-0-3.md)持有 23 個雙語主題、54 題、30 詞彙、193 項公開檢查、六份原下載雜湊、PR 與部署證據；MATLAB、AI／ML、網路基礎由同一教學站分工承接。
+- [主站實作與回復證據](https://github.com/JasonLn0711/JasonLn0711.github.io/blob/main/docs/phase-0-3-implementation.zh-tw.md)持有網域／www／HTTPS 與實際 rollback。
 
 ## Connections
 
 - [README](../README.md)：個人學習入口與公開教材路線。
 - [課程覆蓋](../assessment-governance/course-coverage-2026-09-18.md)：提供模組範圍，個人完成欄位保持原證據。
-- [CEH Planning locator](../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#kairos-domain-plan-2026-10-23)：容量／狀態鏡像。
-- [10/23 日誌](../../planning-everything-track/weeks/2026-W43/days/2026-10-23.md#kairos-domain-plan-2026-10-23)：決策、貢獻與下一步。
+- [CEH Planning locator](../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#kairos-phase-0-3-2026-10-23)：容量／狀態鏡像。
+- [10/23 日誌](../../planning-everything-track/weeks/2026-W43/days/2026-10-23.md#kairos-phase-0-3-2026-10-23)：決策、貢獻與下一步。
 
 ## Git 文件發布
 
 本橋接已由 `5529fea` 推送至 `origin/main`，推送後 fetch 確認 divergence `0 0`。
 [既有發布阻塞的解決回執](video-production/PUBLICATION_2026-10-22.md#publication-resolved--october-23-2026)
-連接先前六筆本機提交的保留結果。此為文件 Git 發布，CEH 課程頁與公開影片仍待實作／驗收。
+連接先前六筆本機提交的保留結果。這是較早的文件 Git 發布快照；課程上線更新見本頁現行回執，公開影片仍依原驗收規則。
