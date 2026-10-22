@@ -41,9 +41,9 @@ def nodes(p):
             # These inputs belong only to visual compilation, never speech/alignment.
             package=Path(__file__).parent
             visual['design_profile']=p.profile['design_profile']
-            from .remaster import SPECS, SEMANTIC_SCENES
-            visual['resolved_scene_spec']=SPECS.get(sid)
-            visual['presentation']=p.profile.get('visual_variant') if sid in SEMANTIC_SCENES else None
+            from .remaster import project_specs, semantic_scenes
+            visual['resolved_scene_spec']=project_specs(p).get(sid)
+            visual['presentation']=p.profile.get('visual_variant') if sid in semantic_scenes(p) else None
             visual['token_manifest']={p.profile['token_manifest']:sha(root/p.profile['token_manifest'])}
             node=result['scene:'+sid]
             for source in ('remaster.py',

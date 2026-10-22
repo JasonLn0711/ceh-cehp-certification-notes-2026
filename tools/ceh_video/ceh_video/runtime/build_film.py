@@ -63,6 +63,9 @@ def quiz(scene,audio):
   return count
  for q in qs:
   matches=[s for s in audio['segments'] if s['kind']=='spoken' and re.search(r'\bquestion\s+0*'+str(int(q['id'][1:]))+r'[.:]',s['canonical'].lower()) is not None]
+  if not matches and Project(ROOT).profile.get('scene_specs') and len(qs)==1:
+   from ceh_video.remaster import unnumbered_quiz_start
+   matches=[unnumbered_quiz_start(q,audio)]
   assert len(matches)==1,(sid,q['id']);starts.append(matches[0]['start_sample']/48000)
  for i,(q,pause) in enumerate(zip(qs,silences)):
   start=starts[i];end=audio['duration'] if i==len(qs)-1 else starts[i+1];answer=pause['end_sample']/48000;key=sid+'-'+q['id']

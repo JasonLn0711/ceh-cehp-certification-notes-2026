@@ -46,7 +46,7 @@ def execute(p, scope, precheck, emit, kind='routine', parent_run=None):
     env.pop('CEH_QA_SCENES',None)
     env['CEH_QA_RUN_ID']=record.id
     if scope=='representative':
-        selected=REPRESENTATIVES
+        selected=p.profile.get('representative_scenes',REPRESENTATIVES)
     elif scope=='changed':
         manifest=p.qa/'visual/scenes/manifest.json'
         selected=changed_scenes(p,read(manifest) if manifest.is_file() else {})

@@ -14,6 +14,36 @@ SEMANTIC_SCENES = {'S01','S07','S17','S23','S27','S33','S40','S44','S47','S48','
 SPECS = {**EARLY, **LATE}
 
 
+def project_specs(p):
+    """Module-owned specifications; preserve the historical M10 fallback."""
+    source=p.profile.get('scene_specs')
+    if source:
+        specs=read(p.root/source)
+        expected={s['id'] for s in p.scenes}-p.quiz_scenes()
+        if set(specs)!=expected:raise ValueError('Scene specification inventory mismatch')
+        return specs
+    if p.profile.get('module')!='M10':raise ValueError('New module requires explicit scene_specs')
+    return SPECS
+
+
+def semantic_scenes(p):
+    return set(p.profile.get('semantic_scenes',SEMANTIC_SCENES if p.profile.get('module')=='M10' else []))
+
+
+
+def unnumbered_quiz_start(question, audio):
+    """One explicitly mapped question may begin directly with its full prompt."""
+    holds=[r for r in audio['segments'] if r['kind']=='silence']
+    if len(holds)!=1:raise ValueError('One mapped quiz hold required')
+    before=[r for r in audio['segments'] if r['kind']=='spoken' and r['end_sample']<=holds[0]['start_sample']]
+    text=' '.join(r['canonical'] for r in before)
+    if not before or not text.startswith(question['prompt']):
+        raise ValueError('Question prompt must begin the pre-hold narration')
+    for choice in question['choices']:
+        if choice['text'] not in text:raise ValueError('All choices must precede hold')
+    return before[0]
+
+
 def wrap(text, font, width):
     lines=[]
     for paragraph in str(text).split('\n'):
@@ -85,12 +115,12 @@ def device_asset(node):
 
 
 def scene_art(p,scene,audio,tokens,fonts):
-    sid=scene['id'];spec=copy.deepcopy(SPECS[sid]);cues=cue_times(p,scene,audio)
-    semantic=p.profile.get('visual_variant')=='semantic-v1.2' and sid in SEMANTIC_SCENES
-    if semantic and sid=='S01':
+    sid=scene['id'];spec=copy.deepcopy(project_specs(p)[sid]);cues=cue_times(p,scene,audio)
+    semantic=p.profile.get('visual_variant')=='semantic-v1.2' and sid in semantic_scenes(p)
+    if semantic and p.profile.get('module')=='M10' and sid=='S01':
         for n in spec['nodes']:
             if n['id']=='student':n.update(asset='authorized_student',assetProvenance='Original art_common.person used by S01; design/asset-provenance-v1.2.json')
-    if semantic and sid=='S49':
+    if semantic and p.profile.get('module')=='M10' and sid=='S49':
         figures={'allowed':'evidence_slip','draft':'ai_sorter','review':'retake_check'}
         for n in spec['nodes']:
             n.update(asset=figures[n['id']],assetProvenance='Explicit semantic-v1.2 S49 variant; preserved approved props, design/asset-registry-v1.2.json')
@@ -112,7 +142,7 @@ def scene_art(p,scene,audio,tokens,fonts):
         boxes=layout_boxes(spec['template'],nodes,region,gap,tokens['components']['semanticFigure']['maxHeight'] if semantic else tokens['layout']['cardMaxHeight'])
         for node,b in zip(nodes,boxes):
             start=cues[node['cue']]
-            if sid=='S17' and node['id']=='pending':
+            if p.profile.get('module')=='M10' and sid=='S17' and node['id']=='pending':
                 matches=[r for r in audio['segments'] if r['kind']=='spoken' and 'The server responds'.lower() in r['canonical'].lower()]
                 if matches:start=matches[0]['start_sample']/48000
             components.append(dict(**node,box=b,start=start))

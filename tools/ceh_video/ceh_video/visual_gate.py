@@ -5,6 +5,11 @@ from .common import read,sha
 
 
 def require_visual(p,scene_ids):
+    # Mandarin uses the chapter-native check/capture/review gate in runner.
+    if p.profile.get('schema_version') == 2:
+        from .mandarin_policy import timing
+        timing(p.profile)
+        return
     if p.profile.get('design_profile')=='m10-editorial-remaster-v1.1':
         return require_remaster_visual(p,scene_ids)
     if not modern(p.profile):return
@@ -78,6 +83,13 @@ def _checked_rows(report,expected):
 def _hash_matches(path,expected,label):
     if not path.is_file() or expected!=sha(path):raise RuntimeError('Missing or stale '+label+': '+str(path))
 
+def require_frame_coverage(audited, scene_ids, frame_counts):
+    """Require every teaching scene, without inheriting a module's scene count."""
+    if (len(audited)!=len(scene_ids)
+        or {r.get('scene') for r in audited}!=scene_ids
+        or any(r.get('errors')!=[] or r.get('frames')!=frame_counts[r['scene']] for r in audited)):
+        raise RuntimeError('Incomplete all-frame geometry coverage')
+
 
 def require_remaster_visual(p,scene_ids):
     visual=Path(__file__).parent/'visual'
@@ -104,7 +116,7 @@ def require_remaster_visual(p,scene_ids):
     for rel,expected in {**p.profile.get('locked_assets',{}),**tokens['fontHashes']}.items():
         _hash_matches(p.root/rel,expected,'protected asset')
     ids={s['id'] for s in p.scenes};quiz={q['scene_id'] for q in p.questions}
-    if len(ids)!=58 or len(quiz)!=8 or not set(scene_ids)<=ids:raise RuntimeError('Invalid M10 scene inventory')
+    if len(ids)!=p.profile['expected']['scenes'] or len(quiz)!=8 or not set(scene_ids)<=ids:raise RuntimeError('Invalid module scene inventory')
     expected={};holds=set();frame_counts={}
     for sid in sorted(ids):
         audio_file=p.root/'data'/f'{sid}.audio.json';audio=read(audio_file)
@@ -122,13 +134,12 @@ def require_remaster_visual(p,scene_ids):
         for hold in silences:holds.update((sid,f) for f in range(hold['start_sample']//1600,hold['end_sample']//1600))
     rows=_checked_rows(report,expected)
     audited=report.get('allFrames',[])
-    if len(audited)!=50 or {r.get('scene') for r in audited}!=ids-quiz or any(r.get('errors')!=[] or r.get('frames')!=frame_counts[r['scene']] for r in audited):
-        raise RuntimeError('Incomplete all-frame geometry coverage')
+    require_frame_coverage(audited,ids-quiz,frame_counts)
     checked=report.get('holdChecks',[])
     if len(checked)!=240 or len(holds)!=240 or {(r.get('scene'),r.get('frame')) for r in checked}!=holds or any(r.get('answers')!=[] or r.get('captions')!=[] for r in checked):
         raise RuntimeError('Incomplete or nonempty quiz-hold evidence')
     text=report.get('textLayouts',[])
-    if len(text)!=58 or {r.get('scene') for r in text}!=ids or any(not r.get('objects') for r in text):
+    if len(text)!=len(ids) or {r.get('scene') for r in text}!=ids or any(not r.get('objects') for r in text):
         raise RuntimeError('Incomplete text-layout evidence')
     golden=folder/'golden';baseline=read(golden/'manifest.json')
     if not baseline.get('review') or baseline.get('environment')!=environment or baseline.get('requiredStates')!=expected:
@@ -153,8 +164,8 @@ def require_remaster_visual(p,scene_ids):
     ordered=[s['id'] for s in p.scenes]
     expected_boundaries={(f'{a}->{b}',d) for a,b in zip(ordered,ordered[1:]) for d in (-1,0,1)}
     states=boundary.get('rows',[])
-    if len(states)!=171 or {(r.get('boundary'),r.get('offsetFrames')) for r in states}!=expected_boundaries:
-        raise RuntimeError('Incomplete 171-state boundary evidence')
+    if len(states)!=len(expected_boundaries) or {(r.get('boundary'),r.get('offsetFrames')) for r in states}!=expected_boundaries:
+        raise RuntimeError('Incomplete scene boundary evidence')
     for row in states:
         if row.get('status')!='passed' or row.get('pixels')!=0 or len(row.get('comparisons',[]))!=3 or {c.get('mode') for c in row['comparisons']}!={'forward','reverse','repeated'} or any(c.get('pixels')!=0 for c in row['comparisons']):
             raise RuntimeError('Unverified boundary seek')
@@ -173,6 +184,6 @@ def require_remaster_visual(p,scene_ids):
     if set(assets.get('sources',{}))!=ids:raise RuntimeError('Incomplete asset source coverage')
     for sid,expected_hash in assets['sources'].items():_hash_matches(p.root/'compositions'/f'{sid}.html',expected_hash,'asset scene')
     asset_rows=assets.get('rows',[])
-    if {r.get('scene') for r in asset_rows}!=ids-quiz or any(r.get('errors')!=[] or not r.get('assets') for r in asset_rows):raise RuntimeError('Incomplete or failed 50-scene asset geometry')
+    if {r.get('scene') for r in asset_rows}!=ids-quiz or any(r.get('errors')!=[] or not r.get('assets') for r in asset_rows):raise RuntimeError('Incomplete or failed nonquiz asset geometry')
     if not assets.get('assets'):raise RuntimeError('Missing locked asset identities')
     for rel,expected_hash in assets['assets'].items():_hash_matches(p.root/rel,expected_hash,'asset identity')

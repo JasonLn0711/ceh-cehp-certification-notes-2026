@@ -145,7 +145,7 @@ async function capture(page,scene,audio,frame){
 }
 
 try{
- if(scenes.length!==58||quizScenes.size!==8)throw Error('Full M10 release requires58scenes and8quiz scenes');
+ if(scenes.length!==profile.expected.scenes||quizScenes.size!==8)throw Error('Module inventory must match its profile and eight quiz scenes');
  for(const scene of activeScenes){
   const sid=scene.id,sourceFile=path.join(project,'compositions',sid+'.html'),audioFile=path.join(project,'data',sid+'.audio.json'),cueFile=path.join(project,'data',sid+'.label-cues.json');
   const source=fs.readFileSync(sourceFile,'utf8'),audio=read(audioFile),cues=fs.existsSync(cueFile)?read(cueFile):[];

@@ -151,9 +151,9 @@ Actual complete film: {duration:.6f} seconds, {total_samples//1600:,} frames, {l
 
 The approved editorial, voice and silence policies remain intact. All {clips} speech clips have verified recipes. Each of {len(holds)} quiz holds contains exactly 48,000 stereo zero PCM frames. Decoded lossy AAC residue is recorded separately. Full decode, scene seeks, quiz boundaries, chapter/master fingerprints, artifact-bound sampled visual review and PCM/AAC continuity passed.
 
-Source package and M10 v1.0 remain immutable. New implementation, runtime and output identities have separate receipts. Human pronunciation, naturalness and full-film listening acceptance remain pending; the prioritized queue records unresolved review leads. {asr_note}
+Source package and historical releases remain immutable. New implementation, runtime and output identities have separate receipts. Human pronunciation, naturalness and full-film listening acceptance remain pending; the prioritized queue records unresolved review leads. {asr_note}
 
-Start with project/ENGINE_EDITING.md in the editable archive. Production profile, pronunciation policy, bundled engine, models, fonts, native diagrams and regeneration inputs are included. Environments, node_modules and caches are excluded. Final media are adjacent to the ZIP. See qa/engine-delivery.json, reference-import.json, native chapter review receipts, encoded-review.json and integration evidence for the exercised layers.
+Start with project/ENGINE_EDITING.md in the editable archive. Production profile, pronunciation policy, bundled engine, models, fonts, native diagrams and regeneration inputs are included. Environments, node_modules and runtime caches are excluded; verified speech PCM is included for restoration. Final media are adjacent to the ZIP. See qa/engine-delivery.json, qa/visual/golden-approval.json, native chapter review receipts, qa/encoded-review.json and integration evidence for the exercised layers. Historical reference-import receipts apply only to workspaces created by reference import.
 
 Master SHA-256: {result['master_sha256']}.
 ''')

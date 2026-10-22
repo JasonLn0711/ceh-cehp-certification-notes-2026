@@ -91,7 +91,7 @@ From this repository, use `PYTHONPATH=tools/ceh_video` and an explicit `--projec
 
 `production.json` declares the module/release, filenames, expected content counts, voice/output contracts, immutable asset identities, speech and alignment model hashes, renderer identity, browser path, diagram input files and concurrency. `metadata_title` can preserve an established exported title; otherwise the assembler uses the profile title. `data/scenes.json` and `data/questions.json` supply the chapter and quiz mappings. Shared code does not select quiz scenes by a numeric scene range.
 
-The approved defaults remain 1920×1080/30 fps, warm paper editorial design, Tally, Northstar, `af_heart` American English, calibrated baseline speed 0.73 and exactly one `atempo=1.4` spoken-only narration transformation. Opening, sentence gap and ending are exactly 14,400, 9,600 and 24,000 stereo frames at 48 kHz. Historical v1.0 profiles explicitly retain their original policy for reconstruction. Picture runs at 1×. Each quiz hold contains exactly 48,000 stereo zero PCM frames. AAC residue has a separate decoded-audio check.
+The approved defaults remain 1920×1080/30 fps, warm paper editorial design, Tally, Northstar, `af_heart` American English, calibrated baseline speed 0.73 and exactly one `atempo=1.4` spoken-only narration transformation. For active v1.2, opening, sentence gap and ending are exactly 14,400, 14,400 and 24,000 stereo frames at 48 kHz; historical v1.1 retains its 9,600-frame sentence gap. Historical v1.0 profiles explicitly retain their original policy for reconstruction. Picture runs at 1×. Each quiz hold contains exactly 48,000 stereo zero PCM frames. AAC residue has a separate decoded-audio check.
 
 Module adapters live in `scripts/scene_art*.py` and `scripts/cues_*.json`. They return native editable art and narration-anchored moves. Generic compilation, chapter preparation, checks, rendering and assembly live in `ceh_video/runtime`. Thin script wrappers keep existing project commands usable. `extract_reference.py` documents the initial M10 extraction; rerunning it would replace subsequently maintained runtime code and is a migration operation, not a normal build command.
 
@@ -181,6 +181,10 @@ Missing/changed inputs or outputs, validator changes and failed upstream receipt
 still invalidate reuse. Planning stays conservative until upstream work finishes.
 See the third round in [the performance report](../../docs/video-production/M10_HIGH_IMPACT_FIXES.md)
 for real excerpt measurements, rejected capture tuning and full-film limits.
+
+## Module-owned editorial source (engine 0.5.4)
+
+New modules declare `scene_specs`, `semantic_scenes` and `representative_scenes` in their profile. The compiler requires an exact nonquiz specification inventory; unknown modules cannot inherit M10 diagrams. The existing renderer profile name identifies the compatible implementation, not the teaching module. Full visual coverage follows the declared scene count and still requires eight quiz scenes, all text bounds, source-bound goldens, deterministic seeks and protected-asset checks. M10 keeps its historical fallback specifications. [Initial series baseline](../../docs/video-production/INITIAL_SERIES_STANDARD.md) governs new production.
 
 ## Long-film storage maintenance — 0.5.5, October 22, 2026
 

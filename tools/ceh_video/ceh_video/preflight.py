@@ -73,8 +73,12 @@ def preflight(p, diagrams=True):
                 a=p.audio(sid)
                 if sid in p.quiz_scenes(): compiler.quiz(scene,a)
                 else:
-                    art=compiler.build(scene,a)
-                    assert art.parts and art.moves
+                    if p.profile.get('scene_specs'):
+                        from .remaster import project_specs
+                        assert project_specs(p)[sid]['nodes']
+                    else:
+                        art=compiler.build(scene,a)
+                        assert art.parts and art.moves
                     assert len(cue[sid])==len(scene['on_screen_copy']), 'cue count'
                     for phrase in cue[sid]:
                         matches=[x for x in a['segments'] if x['kind']=='spoken' and phrase.lower() in x['canonical'].lower()]

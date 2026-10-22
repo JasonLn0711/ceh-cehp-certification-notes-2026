@@ -29,7 +29,7 @@ let browser;
 const report = {
   status:'failed', scope:'Visual-only nested scene boundaries; no audio decoding or continuity claim',
   sampleRate:48000, fps:30, audioFramesPerVideoFrame:1600,
-  expectedBoundaries:57, expectedStates:171, rows, errors, hosts, sources,
+  expectedBoundaries:scenes.length-1, expectedStates:3*(scenes.length-1), rows, errors, hosts, sources,
   script_sha256:hash(fs.readFileSync(fileURLToPath(import.meta.url))),
   lock_sha256:hash(fs.readFileSync(new URL('./package-lock.json',import.meta.url))),
   geometryTolerance:'Pixel threshold 0.05; antialias pixels excluded; zero unexplained differences',
@@ -83,7 +83,7 @@ try {
     'assets/fonts/LiberationSans-Bold.ttf','assets/fonts/DejaVuSansMono.ttf'])source(path.join(root,file));
   report.runtimePackage_sha256=hash(source(path.join(root,'node_modules/hyperframes/package.json')));
   report.browserExecutable_sha256=hash(source(profile.runtime.browser));
-  if(scenes.length!==58)throw Error(`Expected 58 scenes; found ${scenes.length}`);
+  if(scenes.length!==profile.expected.scenes)throw Error(`Profile scene count mismatch; found ${scenes.length}`);
   let globalFrame=0;
   for(const s of scenes) {
     const m=JSON.parse(source(path.join(root,'data',s.id+'.audio.json')));
@@ -98,7 +98,7 @@ try {
   report.browser=browser.version();report.browserExecutable=profile.runtime.browser;
   const chapters=new Map();
   for(const s of scenes){if(!chapters.has(s.chapter_id))chapters.set(s.chapter_id,[]);chapters.get(s.chapter_id).push(s);}
-  if(chapters.size!==11)throw Error(`Expected 11 chapters; found ${chapters.size}`);
+  if(chapters.size!==profile.expected.chapters)throw Error(`Profile chapter count mismatch; found ${chapters.size}`);
   const chapterHosts=new Map();
   for(const [id,members]of chapters)chapterHosts.set(id,await makeHost('boundary-'+id,members,path.join(root,'chapters',id,'index.html')));
   const tasks=new Map();
@@ -156,16 +156,16 @@ try {
           row.status=row.pixels?'failed':'passed';
         }catch(error){row.status='failed';row.error=error.message;errors.push({state:name,error:error.message});}
       }
-      console.log(JSON.stringify({stage:'remaster-boundary',boundary:`${left.id}->${right.id}`,completedStates:rows.length,totalStates:171}));
+      console.log(JSON.stringify({stage:'remaster-boundary',boundary:`${left.id}->${right.id}`,completedStates:rows.length,totalStates:report.expectedStates}));
     }
     await page.close();
   }
   for(const [relative,expected]of Object.entries(sources))if(hash(fs.readFileSync(path.resolve(root,relative)))!==expected)throw Error(`Source changed while checking: ${relative}`);
-  report.status=rows.length===171&&rows.every(r=>r.status==='passed')&&!errors.length?'passed':'failed';
+  report.status=rows.length===report.expectedStates&&rows.every(r=>r.status==='passed')&&!errors.length?'passed':'failed';
 }catch(error){errors.push({error:error.stack||error.message});}
 finally{
   if(browser)await browser.close();
   fs.writeFileSync(path.join(out,'report.json'),JSON.stringify(report,null,2));
-  console.log(JSON.stringify({status:report.status,states:rows.length,expectedStates:171,errors:errors.length,report:path.join(out,'report.json')}));
+  console.log(JSON.stringify({status:report.status,states:rows.length,expectedStates:report.expectedStates,errors:errors.length,report:path.join(out,'report.json')}));
   if(report.status!=='passed')process.exitCode=1;
 }
