@@ -1,0 +1,137 @@
+{
+  "status": "automated_delivery_and_agent_visual_review_passed",
+  "workspace": "/home/jnlngx10/Videos/CEH_M11_initial_v1",
+  "module": "M11",
+  "engine_version": "0.5.4",
+  "artifacts": {
+    "CEH_M11_Session_Hijacking_en-US_Editorial_v1_master.mp4": {
+      "bytes": 145516716,
+      "sha256": "3e47e52251bad57998473807177ebdb86c57d266fe2654553122634e41ca7743"
+    },
+    "CEH_M11_English_Masterclass_v1_EDITABLE.zip": {
+      "bytes": 1449652005,
+      "sha256": "57b208874881f4f09e8d8388ee06a1eb1e951ea622b458a6da2de3d84dad240d"
+    },
+    "captions.en-US.srt": {
+      "bytes": 87379,
+      "sha256": "44b567c5eb2573f354735489903a6cb308f7747d63d63ff8c20583d4340e76bf"
+    },
+    "captions.en-US.vtt": {
+      "bytes": 83389,
+      "sha256": "3e783ff26df1078413a5d8e4b1ed72ea20e261f2a9e53a94088907c0f7b1966f"
+    },
+    "chapters.txt": {
+      "bytes": 427,
+      "sha256": "653e8fa5d933adf72a872948779053a177b39bdbd72b2898797c2b400c9470ab"
+    },
+    "master.reference.pcm.wav": {
+      "bytes": 649888044,
+      "sha256": "f2bec435999800b38717a788021d55ee8e3739ee32d9f1fea6533a415167e226"
+    },
+    "engine-render-report.md": {
+      "bytes": 1694,
+      "sha256": "beda58baf53c65913faa5356f33492e358a132c0b59a44016361f735f18ae9dd"
+    }
+  },
+  "delivery": {
+    "status": "automated_delivery_checks_passed",
+    "module": "M11",
+    "engine_version": "0.5.4",
+    "runtime": {
+      "hyperframes": "0.8.174",
+      "browser": "/home/jnlngx10/.cache/ms-playwright/chromium_headless_shell-1234/chrome-linux/headless_shell",
+      "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5+esm15 Copyright (c) 2000-2023 the FFmpeg developers",
+      "max_chapter_renders": 2,
+      "render_workers": 4,
+      "browser_gpu_mode": "hardware",
+      "expected_gpu_renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    "source_hashes": 17,
+    "canonical_words": 7603,
+    "clips": 591,
+    "scenes": 48,
+    "chapters": 11,
+    "captions": 1021,
+    "duration": 3384.8333333333335,
+    "frames": 101545,
+    "zero_pcm_holds": 8,
+    "pcm_frames_per_hold": 48000,
+    "master_sha256": "3e47e52251bad57998473807177ebdb86c57d266fe2654553122634e41ca7743",
+    "encoded_samples": 145,
+    "human_listening": "pending",
+    "pronunciation_accuracy": "not_evaluated",
+    "public_media_release": "not_activated",
+    "asr_availability": "LIVE_MINIMUM_COMPLETED"
+  },
+  "archive": {
+    "status": "crc_extraction_hashes_verified",
+    "package_key": "1fe2d9230c7ee7d1e8cbc37d743689fb56f72625d0d38197810d73243b62b56d",
+    "files": 4933,
+    "payload_hashes": 4932,
+    "bytes": 1449652005,
+    "sha256": "57b208874881f4f09e8d8388ee06a1eb1e951ea622b458a6da2de3d84dad240d",
+    "archive": "CEH_M11_English_Masterclass_v1_EDITABLE.zip",
+    "encoded_picture_evidence": {
+      "status": "extracted_encoded_frames_hash_verified",
+      "frames": 145,
+      "master_sha256": "3e47e52251bad57998473807177ebdb86c57d266fe2654553122634e41ca7743"
+    },
+    "golden_review_evidence": {
+      "status": "golden_candidate_and_review_hashes_verified",
+      "approval_sha256": "39698fe411edc5d5c79facdd64a7c2b359611c01b9d1bc24b508c0faac5bc2f7",
+      "candidate_sha256": "6cd080f27549fcdd05f88924b54175a3178c9d133b825d41acb645a516239a72",
+      "review_receipts": {
+        "visual/agent-review-v1.2.json": "8f1d499ee73b3950b51400e3e40bc4c4bfeae86a48c058fadd107906cca7cf39"
+      }
+    },
+    "human_listening": "pending",
+    "source_bytes": 2143551542,
+    "media_staging_bytes": 0,
+    "verification_extraction_bytes": 2146456128
+  },
+  "restoration": {
+    "audio": {
+      "status": "verified_media_cache_restored",
+      "clips": 591,
+      "new_inferences": 0,
+      "tempo_passes": 0
+    },
+    "hosts": {
+      "chapters": 11,
+      "new_inferences": 0,
+      "tempo_passes": 0,
+      "pcm_hashes_verified": 12,
+      "html_identities_verified": 12
+    }
+  },
+  "receipts": {
+    "engine-delivery.json": "9799eac64f22b45f9dfda0fcad22545f3b789fd53c8be45d372643644d5dbe2b",
+    "engine-packaging.json": "98257c4d8346dc57540416424f60cb954002e4326e5cf475df7ab968fae5afde",
+    "engine-extracted-reconstruction.json": "4d677727d1e72f8b7ef4092c24898dd261dc4c27d21725995b281142d4420c3c",
+    "audio-policy-v1.2.json": "e326fd8f53e633d1c2310120fbd9335299266f12c4a86351e0273457ecb2b42c",
+    "master-full-decode.json": "bf0d6afff53326b20fb0c20a3b8472acd2b95c50c50200c03e3ee320941512c0",
+    "audio-continuity-audit.json": "afd246a9c7744d3faf678897325ca4806c069238134f5990f8ff229ede0fe600",
+    "master-aac-boundaries.json": "74b2e3d26704303169f5a6d3b04f1869908f62681da78e27defd5c27a319ec68",
+    "encoded-review.json": "067e32202c0c38c96ba4d8b0100aec3002fbb66e6f5f630fa5483ffd2ebc1948",
+    "visual/scenes/manifest.json": "887a86a4a106a1372a3110217c18917232482ba6bd640dcd91e1e4d0751a7a7e",
+    "visual/golden-approval.json": "39698fe411edc5d5c79facdd64a7c2b359611c01b9d1bc24b508c0faac5bc2f7",
+    "remaster-boundaries/report.json": "eeaca31d763047e29fc8dbbc078ca6194c4ee125f8ac84826f9bf484670d3ead",
+    "remaster-assets/report.json": "d7d4581f44ab548e11507f536d252f6785e4c138910cd7740cfafd34309ffd6f",
+    "quiz-divider-negative/report.json": "edf0dcc691f392ff22b648cc90a66cade50a11756a73a74978c0d59af5e187bb",
+    "source-rebuild-check-final.json": "f04b3df94ac25bf165a2699faffd0513782578f71e611cc2e1c2b6fff6036dc5",
+    "offline-model-checks.json": "abf66bf5de369d6da3b322c89780b1c5fd6f2fa3d023b50ffae65683913c140c",
+    "protected-assets-authoring.json": "1abfb9b22a6a8ee9635a2672130f20506a9473c6b9bd2ce71e61985f497f0dc8"
+  },
+  "visual": {
+    "states": 432,
+    "exceptions": [],
+    "candidate_inspected": 152,
+    "encoded_inspected": 145,
+    "boundary_states": 141,
+    "asset_states": 600
+  },
+  "human_listening": "pending",
+  "human_full_viewing": "pending",
+  "public_media_release": "not_activated",
+  "publication": "not_committed_or_pushed_for_this_task"
+}

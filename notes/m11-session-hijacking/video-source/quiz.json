@@ -1,0 +1,224 @@
+{
+  "language": "en-US",
+  "namespace": "M11-film-v1",
+  "question_count": 8,
+  "silent_think_seconds_each": 1,
+  "questions": [
+    {
+      "id": "Q01",
+      "scene_id": "S37",
+      "level": "Application",
+      "prompt": "Northstar keeps a known anonymous identifier after the user logs in. Which weakness does this describe?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "Session fixation"
+        },
+        {
+          "letter": "B",
+          "text": "Expired certificate"
+        },
+        {
+          "letter": "C",
+          "text": "Cross-site request forgery"
+        },
+        {
+          "letter": "D",
+          "text": "Transport congestion"
+        }
+      ],
+      "correct_letter": "A",
+      "silent_think_seconds": 1,
+      "explanation": "Session fixation concerns a known identifier surviving the transition into authenticated authority. The direct repair is to issue a fresh identifier at authentication and prevent the old context from selecting the new authority. A certificate issue concerns peer authentication, request forgery concerns an unwanted action through a browser, and congestion concerns transport capacity. Test both sides of the corrected transition: the old value is denied and the new value supports the intended authorized task. This scenario is a fictional application model, not evidence about a real school service."
+    },
+    {
+      "id": "Q02",
+      "scene_id": "S38",
+      "level": "Application",
+      "prompt": "Which cookie attribute restricts script access through document.cookie?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "Secure"
+        },
+        {
+          "letter": "B",
+          "text": "HttpOnly"
+        },
+        {
+          "letter": "C",
+          "text": "Path"
+        },
+        {
+          "letter": "D",
+          "text": "SameSite"
+        }
+      ],
+      "correct_letter": "B",
+      "silent_think_seconds": 1,
+      "explanation": "HttpOnly restricts script access to the cookie through that interface. Secure addresses transport conditions, SameSite affects inclusion in cross-site contexts, and Path helps define cookie scope. HttpOnly does not repair the underlying script injection vulnerability or prevent every action that malicious code might initiate in the page. Match the verb in the question to the mechanism: it asks about reading a cookie through script, not sending it over a connection. A complete response to script injection still addresses the injection path and evaluates affected authority."
+    },
+    {
+      "id": "Q03",
+      "scene_id": "S39",
+      "level": "Application",
+      "prompt": "The login screen appears after logout, but a copied old session value still accesses a protected page. Which result needs repair?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "The page title"
+        },
+        {
+          "letter": "B",
+          "text": "The network route"
+        },
+        {
+          "letter": "C",
+          "text": "Server-side session invalidation"
+        },
+        {
+          "letter": "D",
+          "text": "The browser font"
+        }
+      ],
+      "correct_letter": "C",
+      "silent_think_seconds": 1,
+      "explanation": "The service still accepts authority that the logout policy was expected to withdraw. Changing the browser display or deleting its own copy of a cookie does not invalidate another copy. The appropriate repair depends on the session architecture, but the acceptance test follows the old credential to the actual protected request. Verify that it is rejected after logout while a newly authenticated user can still perform legitimate work. The visual login screen proves only the display state in that browser, which is why the server decision is the stronger evidence here."
+    },
+    {
+      "id": "Q04",
+      "scene_id": "S40",
+      "level": "Application",
+      "prompt": "A valid session and a valid request-authenticity token accompany a request to another student's private submission. Which separate check remains necessary?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "A larger receive window"
+        },
+        {
+          "letter": "B",
+          "text": "A new page color"
+        },
+        {
+          "letter": "C",
+          "text": "A longer cookie name"
+        },
+        {
+          "letter": "D",
+          "text": "Resource-level authorization"
+        }
+      ],
+      "correct_letter": "D",
+      "silent_think_seconds": 1,
+      "explanation": "Authorization determines whether this identity may perform the requested action on this particular object. A session establishes application context, and a request-authenticity mechanism addresses a different boundary. Neither automatically grants access to another student's private submission. The negative test should preserve a valid session and valid request structure while changing only the target object to one outside the user's permission. The intended denial then provides evidence about the authorization boundary rather than a failure caused by an unrelated malformed request."
+    },
+    {
+      "id": "Q05",
+      "scene_id": "S41",
+      "level": "Application",
+      "prompt": "Maya remains logged in after her browser establishes a new TCP connection. What best explains this?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "An application session can outlive one transport connection"
+        },
+        {
+          "letter": "B",
+          "text": "TCP sequence numbers are student passwords"
+        },
+        {
+          "letter": "C",
+          "text": "Every connection is permanently open"
+        },
+        {
+          "letter": "D",
+          "text": "A new connection proves session theft"
+        }
+      ],
+      "correct_letter": "A",
+      "silent_think_seconds": 1,
+      "explanation": "Application continuity can be maintained through session credentials across multiple transport connections. TCP maintains byte-stream state, while application identity and lifecycle are managed at a different layer. A new connection does not by itself prove a new login or an account takeover. The diagram separates the browser workflow, transport connection, and application session so the evidence is interpreted at the correct layer. Questions using the word session should be read carefully because transport state and authenticated application context are related but distinct concepts."
+    },
+    {
+      "id": "Q06",
+      "scene_id": "S42",
+      "level": "Application",
+      "prompt": "A correctly protected token intended for the library service is accepted by an administrative service. Which validation is most directly implicated?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "SVG aspect ratio"
+        },
+        {
+          "letter": "B",
+          "text": "Expected audience and token purpose"
+        },
+        {
+          "letter": "C",
+          "text": "The student's screen resolution"
+        },
+        {
+          "letter": "D",
+          "text": "The number of browser tabs"
+        }
+      ],
+      "correct_letter": "B",
+      "silent_think_seconds": 1,
+      "explanation": "The recipient must validate that the token is intended for its service and use. Correct cryptographic protection does not make a token valid for every audience or purpose. The application also needs its complete issuer, time, and policy checks, but the scenario specifically identifies a token intended for a different service. Test an appropriate token as the positive case and a token with the wrong audience as a separate negative case. This keeps the evidence focused on the recipient boundary instead of treating successful decoding as complete token validation."
+    },
+    {
+      "id": "Q07",
+      "scene_id": "S43",
+      "level": "Application",
+      "prompt": "A session stays active indefinitely because every request refreshes its only inactivity timer. Which policy adds a total lifetime limit?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "A wider cookie path"
+        },
+        {
+          "letter": "B",
+          "text": "A decorative countdown only"
+        },
+        {
+          "letter": "C",
+          "text": "An absolute timeout"
+        },
+        {
+          "letter": "D",
+          "text": "A larger packet buffer"
+        }
+      ],
+      "correct_letter": "C",
+      "silent_think_seconds": 1,
+      "explanation": "An absolute timeout bounds the total permitted age of the session independently of continued activity. An idle timeout answers a different question: how long the session has been inactive. Both should be enforced by the server under the adopted policy. A browser countdown can help communicate expiry but cannot be the only authority for rejecting late requests. Test a continuously active session as well as an idle one, and preserve the clock basis and expected boundary. This demonstrates the distinction without inventing a universal timeout value for every application."
+    },
+    {
+      "id": "Q08",
+      "scene_id": "S44",
+      "level": "Application",
+      "prompt": "A local synthetic fixture rejects the old identifier after rotation and accepts the replacement. What has been established?",
+      "choices": [
+        {
+          "letter": "A",
+          "text": "Every production service is secure"
+        },
+        {
+          "letter": "B",
+          "text": "A real attacker has been identified"
+        },
+        {
+          "letter": "C",
+          "text": "The learner has passed the official exam"
+        },
+        {
+          "letter": "D",
+          "text": "The modeled rotation behavior passed its stated checks"
+        }
+      ],
+      "correct_letter": "D",
+      "silent_think_seconds": 1,
+      "explanation": "The evidence establishes the behavior of the supplied model under the stated checks. It supports learning about rotation and provides a reusable test structure. It does not establish the behavior of an unrelated production service, identify a real person, or count as an official certification result. Preserve the implementation, command output, and acceptance condition together. The next validation layer would exercise the actual authorized application path, including its integration and concurrency behavior. Keeping the evidence boundary clear makes the result more useful rather than less valuable."
+    }
+  ]
+}

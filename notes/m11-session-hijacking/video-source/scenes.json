@@ -1,0 +1,1442 @@
+{
+  "title": "CEH Module 11: Session Hijacking — Northstar Session Lab",
+  "version": "1.0",
+  "language": "en-US",
+  "scene_count": 48,
+  "question_count": 8,
+  "estimated_spoken_words": 7603,
+  "status": "source_ready",
+  "narration_speed_multiplier": 1.4,
+  "voice": {
+    "engine": "Kokoro",
+    "voice": "af_heart",
+    "baseline_speed": 0.73,
+    "postprocess": "exactly one atempo=1.4 on spoken clips"
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "chapter_id": "C01",
+      "chapter_title": "Sessions at Northstar",
+      "title": "A lesson after login",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Student identity",
+        "Session credential",
+        "Server decision"
+      ],
+      "narration_en_US": "Welcome back to Northstar Learning Center. Tally is helping the school answer a question that begins after a successful login: how does the next request remain connected to the right student? Imagine Maya opening her course page, choosing a lesson, and returning later to submit her work. The application must connect those actions without asking for her password every few seconds. That convenience creates a valuable security boundary. A session credential carries continuity between requests. In our fictional diagrams, a paper ticket represents that credential. It is an illustration, not a usable secret. Someone who obtains a valid bearer ticket may be able to act within its authority even without knowing the original password. The server must decide whether the ticket remains valid and whether the requested action is permitted. This masterclass connects application sessions, browser behavior, transport connections, and defensive evidence. Every Northstar incident and log is simulated. We will reason from local teaching records, not intercept another person's traffic. Your goal is to explain the mechanism, select a control that addresses it, and describe a test that could show the control actually worked.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Welcome back to Northstar Learning Center. Tally is helping the school answer a question that begins after a successful login: how does the next request remain connected to the right student? Imagine Maya opening her course page, choosing a lesson, and returning later to submit her work. The application must connect those actions without asking for her password every few seconds. That convenience creates a valuable security boundary. A session credential carries continuity between requests. In our fictional diagrams, a paper ticket represents that credential. It is an illustration, not a usable secret. Someone who obtains a valid bearer ticket may be able to act within its authority even without knowing the original password. The server must decide whether the ticket remains valid and whether the requested action is permitted. This masterclass connects application sessions, browser behavior, transport connections, and defensive evidence. Every Northstar incident and log is simulated. We will reason from local teaching records, not intercept another person's traffic. Your goal is to explain the mechanism, select a control that addresses it, and describe a test that could show the control actually worked."
+        }
+      ],
+      "estimated_spoken_words": 185,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S02",
+      "chapter_id": "C01",
+      "chapter_title": "Sessions at Northstar",
+      "title": "Identity is not permission",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Authentication",
+        "Continuity",
+        "Authorization"
+      ],
+      "narration_en_US": "Authentication establishes an identity with an acceptable level of assurance. At Northstar, a student signs in with the school's approved method. That event does not mean every later request should be trusted forever. Its result must be represented, maintained, and eventually withdrawn. A session is part of that continuing relationship. Continuity connects later requests to the established context. A session identifier may point to a record stored by the application. A different design may carry protected claims in a token. Neither design removes the need to validate the incoming credential. A name typed into a request is a claim, while a validated session is evidence interpreted under a policy. Authorization decides whether that identity may perform this action on this object. Maya can read her own submission but cannot read another student's private submission merely because she is logged in. Keep three questions separate: who authenticated, what session is being presented, and what action is allowed now? A failure in one layer cannot be repaired by assuming another layer already answered it.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Authentication establishes an identity with an acceptable level of assurance. At Northstar, a student signs in with the school's approved method. That event does not mean every later request should be trusted forever. Its result must be represented, maintained, and eventually withdrawn. A session is part of that continuing relationship. Continuity connects later requests to the established context. A session identifier may point to a record stored by the application. A different design may carry protected claims in a token. Neither design removes the need to validate the incoming credential. A name typed into a request is a claim, while a validated session is evidence interpreted under a policy. Authorization decides whether that identity may perform this action on this object. Maya can read her own submission but cannot read another student's private submission merely because she is logged in. Keep three questions separate: who authenticated, what session is being presented, and what action is allowed now? A failure in one layer cannot be repaired by assuming another layer already answered it."
+        }
+      ],
+      "estimated_spoken_words": 172,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S03",
+      "chapter_id": "C01",
+      "chapter_title": "Sessions at Northstar",
+      "title": "The ticket and the record",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Browser ticket",
+        "Session store",
+        "Course request"
+      ],
+      "narration_en_US": "The browser ticket in our first model is an opaque random identifier. Its characters do not need to reveal Maya's name, role, or course. The server uses that identifier to find a session record containing the associated user and lifecycle state. Treat the ticket as sensitive even when its text looks meaningless. Its value comes from what the server accepts it to do. The session store is the authority for this model. It can mark a session expired or revoked and can associate fresh authentication with a new identifier. A copied browser cookie does not carry the entire server database. Yet a valid identifier may still select an active record, which is why protecting the transport and the endpoint both matter. The course request contains the ticket and the requested resource. The server validates the session, then checks access to that particular course or submission. In our diagram the final arrow is a decision, not an automatic approval. When you investigate an incident, inspect both the credential's validity and the resource-level permission check rather than treating all successful requests as equivalent.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The browser ticket in our first model is an opaque random identifier. Its characters do not need to reveal Maya's name, role, or course. The server uses that identifier to find a session record containing the associated user and lifecycle state. Treat the ticket as sensitive even when its text looks meaningless. Its value comes from what the server accepts it to do. The session store is the authority for this model. It can mark a session expired or revoked and can associate fresh authentication with a new identifier. A copied browser cookie does not carry the entire server database. Yet a valid identifier may still select an active record, which is why protecting the transport and the endpoint both matter. The course request contains the ticket and the requested resource. The server validates the session, then checks access to that particular course or submission. In our diagram the final arrow is a decision, not an automatic approval. When you investigate an incident, inspect both the credential's validity and the resource-level permission check rather than treating all successful requests as equivalent."
+        }
+      ],
+      "estimated_spoken_words": 181,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S04",
+      "chapter_id": "C01",
+      "chapter_title": "Sessions at Northstar",
+      "title": "Four different failures",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Obtain a ticket",
+        "Choose a ticket",
+        "Reuse a ticket"
+      ],
+      "narration_en_US": "Obtaining a ticket can involve theft or prediction. Theft means a credential was exposed and acquired. Prediction means its construction made a valid value guessable. These are different causes even when the later request looks similar. A log showing use of a valid token may reveal the result without revealing how that token was obtained. Choosing a ticket before the victim authenticates describes the central idea of session fixation. The dangerous transition occurs when the application keeps that identifier as the authenticated session. The attacker benefits from already knowing the value. Issuing a fresh identifier at authentication and retiring the old authenticated authority addresses that transition. Reusing a ticket describes replay. A copied value is presented again and the recipient accepts it. Replay may follow theft, but the words describe different stages. In an exam or investigation, locate the action in the sequence before naming it. Our later cases will ask whether the evidence shows acquisition, fixation, guessing, or reuse, and what additional evidence would distinguish the possibilities.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Obtaining a ticket can involve theft or prediction. Theft means a credential was exposed and acquired. Prediction means its construction made a valid value guessable. These are different causes even when the later request looks similar. A log showing use of a valid token may reveal the result without revealing how that token was obtained. Choosing a ticket before the victim authenticates describes the central idea of session fixation. The dangerous transition occurs when the application keeps that identifier as the authenticated session. The attacker benefits from already knowing the value. Issuing a fresh identifier at authentication and retiring the old authenticated authority addresses that transition. Reusing a ticket describes replay. A copied value is presented again and the recipient accepts it. Replay may follow theft, but the words describe different stages. In an exam or investigation, locate the action in the sequence before naming it. Our later cases will ask whether the evidence shows acquisition, fixation, guessing, or reuse, and what additional evidence would distinguish the possibilities."
+        }
+      ],
+      "estimated_spoken_words": 168,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S05",
+      "chapter_id": "C02",
+      "chapter_title": "The session lifecycle",
+      "title": "Issue only legitimate sessions",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Create",
+        "Validate",
+        "Associate"
+      ],
+      "narration_en_US": "Create session identifiers with a mature framework and a cryptographically secure random source. In the Northstar example, the application creates the anonymous browsing context itself. It does not adopt an arbitrary incoming value as a new authenticated identity. A readable username followed by a timestamp may look unique while still being predictable to someone who knows the pattern. Validate the supplied identifier as untrusted input. An unknown value should not silently become an authenticated session. Format validation and randomness solve different problems: a perfectly formatted string may still be an invalid credential. The server must check the actual session state and enforce the expected exchange mechanism. Associate authentication with the correct record through an explicit transition. Preserve necessary shopping or learning state through controlled application logic, rather than preserving an unsafe credential for convenience. For a test, record the anonymous identifier, complete an authorized login, and verify that the old value cannot select the new authenticated authority. Use disposable lab identities and keep live credentials out of the report.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Create session identifiers with a mature framework and a cryptographically secure random source. In the Northstar example, the application creates the anonymous browsing context itself. It does not adopt an arbitrary incoming value as a new authenticated identity. A readable username followed by a timestamp may look unique while still being predictable to someone who knows the pattern. Validate the supplied identifier as untrusted input. An unknown value should not silently become an authenticated session. Format validation and randomness solve different problems: a perfectly formatted string may still be an invalid credential. The server must check the actual session state and enforce the expected exchange mechanism. Associate authentication with the correct record through an explicit transition. Preserve necessary shopping or learning state through controlled application logic, rather than preserving an unsafe credential for convenience. For a test, record the anonymous identifier, complete an authorized login, and verify that the old value cannot select the new authenticated authority. Use disposable lab identities and keep live credentials out of the report."
+        }
+      ],
+      "estimated_spoken_words": 169,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S06",
+      "chapter_id": "C02",
+      "chapter_title": "The session lifecycle",
+      "title": "Rotate at the boundary",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Before login",
+        "New identifier",
+        "Old authority retired"
+      ],
+      "narration_en_US": "Before login, Northstar gives Maya an anonymous browsing context. Suppose a defective implementation lets a known demonstration identifier survive authentication. The attacker does not need to solve a guessing problem if that identifier was already known. The weakness is the application's decision to promote it into an authenticated context. A new identifier separates the authenticated session from the previous context. The browser receives the replacement and subsequent requests use it. The server's treatment of the old identifier matters as much as the replacement itself. Merely sending a new cookie while keeping the old authenticated session valid can leave a second path into the same account. Retire the old authority and test the transition. Our offline fixture compares a deliberately flawed model with a corrected model. Its values are labels, not real session secrets. The acceptance check is concrete: the old identifier is denied after the transition, while the new identifier supports the intended student action. This tests the modeled boundary without claiming that every production integration has been verified.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Before login, Northstar gives Maya an anonymous browsing context. Suppose a defective implementation lets a known demonstration identifier survive authentication. The attacker does not need to solve a guessing problem if that identifier was already known. The weakness is the application's decision to promote it into an authenticated context. A new identifier separates the authenticated session from the previous context. The browser receives the replacement and subsequent requests use it. The server's treatment of the old identifier matters as much as the replacement itself. Merely sending a new cookie while keeping the old authenticated session valid can leave a second path into the same account. Retire the old authority and test the transition. Our offline fixture compares a deliberately flawed model with a corrected model. Its values are labels, not real session secrets. The acceptance check is concrete: the old identifier is denied after the transition, while the new identifier supports the intended student action. This tests the modeled boundary without claiming that every production integration has been verified."
+        }
+      ],
+      "estimated_spoken_words": 169,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S07",
+      "chapter_id": "C02",
+      "chapter_title": "The session lifecycle",
+      "title": "Time has two meanings",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Idle time",
+        "Absolute lifetime",
+        "Server enforcement"
+      ],
+      "narration_en_US": "Idle time measures how long a session has gone without qualifying activity. It can reduce exposure when a shared classroom computer is abandoned. The exact threshold belongs to the application's risk and usability policy. We will not invent a universal timeout that suits every school, bank, or administrative console. Absolute lifetime measures the total permitted age of the session. This addresses a different problem: a stolen credential may remain active if repeated use continually refreshes the idle timer. A maximum lifetime limits that extension even while requests continue. Renewal and reauthentication can maintain usability, but their transitions must preserve the intended security boundary. Server enforcement makes the policy meaningful. A countdown drawn in the browser can warn Maya, but it cannot be the only control. A request submitted after expiry must be rejected by the service. Test both quiet inactivity and continuous activity in a controlled environment. Record the clock basis and boundary behavior so a disagreement about seconds does not hide a disagreement about which timeout was actually implemented.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Idle time measures how long a session has gone without qualifying activity. It can reduce exposure when a shared classroom computer is abandoned. The exact threshold belongs to the application's risk and usability policy. We will not invent a universal timeout that suits every school, bank, or administrative console. Absolute lifetime measures the total permitted age of the session. This addresses a different problem: a stolen credential may remain active if repeated use continually refreshes the idle timer. A maximum lifetime limits that extension even while requests continue. Renewal and reauthentication can maintain usability, but their transitions must preserve the intended security boundary. Server enforcement makes the policy meaningful. A countdown drawn in the browser can warn Maya, but it cannot be the only control. A request submitted after expiry must be rejected by the service. Test both quiet inactivity and continuous activity in a controlled environment. Record the clock basis and boundary behavior so a disagreement about seconds does not hide a disagreement about which timeout was actually implemented."
+        }
+      ],
+      "estimated_spoken_words": 170,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S08",
+      "chapter_id": "C02",
+      "chapter_title": "The session lifecycle",
+      "title": "Logout must withdraw authority",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "User signs out",
+        "Record revoked",
+        "Old request denied"
+      ],
+      "narration_en_US": "The user signs out and sees the login screen. That visible result is useful, but it does not prove the server has withdrawn the session's authority. A browser can erase its own cookie while another copy of the same credential still exists. The relevant question is what the service does with that copy after logout. The session record should reflect the intended invalidation. For a server-side session, this may mean destroying or revoking the record. For self-contained tokens, the system needs a deliberate expiry and revocation strategy. Each architecture has different tradeoffs; calling a token stateless does not answer how an urgent incident will be contained. The old request must be denied under the adopted logout policy. In our synthetic timeline, an accepted request occurs before logout and a rejected request occurs after invalidation. Preserve both timestamps and outcomes. A single screenshot of the login page proves only what that browser displayed. The acceptance evidence must follow the credential to the server decision that determines whether it still works.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The user signs out and sees the login screen. That visible result is useful, but it does not prove the server has withdrawn the session's authority. A browser can erase its own cookie while another copy of the same credential still exists. The relevant question is what the service does with that copy after logout. The session record should reflect the intended invalidation. For a server-side session, this may mean destroying or revoking the record. For self-contained tokens, the system needs a deliberate expiry and revocation strategy. Each architecture has different tradeoffs; calling a token stateless does not answer how an urgent incident will be contained. The old request must be denied under the adopted logout policy. In our synthetic timeline, an accepted request occurs before logout and a rejected request occurs after invalidation. Preserve both timestamps and outcomes. A single screenshot of the login page proves only what that browser displayed. The acceptance evidence must follow the credential to the server decision that determines whether it still works."
+        }
+      ],
+      "estimated_spoken_words": 169,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S09",
+      "chapter_id": "C03",
+      "chapter_title": "How takeover happens",
+      "title": "Exposure creates opportunity",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Sensitive value",
+        "Exposure path",
+        "Later use"
+      ],
+      "narration_en_US": "A sensitive value can escape through more than one surface. A debugging log, a copied support transcript, a browser extension, or a compromised endpoint may expose a credential even when the network connection is encrypted. Our fictional support ticket contains only a placeholder. Real session values belong in protected handling procedures, not ordinary chat messages or screenshots. The exposure path helps select the response. If the value appeared in a log, restrict and review that log's access, repair the logging behavior, and assess whether affected sessions need revocation. If the endpoint is compromised, rotating one cookie without addressing the endpoint may allow the replacement to be captured again. Controls should match the observed failure. Later use is separate evidence. An exposed value does not by itself prove that someone successfully used it, while a successful request does not by itself identify the person responsible. Connect exposure, validity, use, and resulting actions with timestamps and observation limits. This keeps the incident report useful without overstating what a single record can establish.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "A sensitive value can escape through more than one surface. A debugging log, a copied support transcript, a browser extension, or a compromised endpoint may expose a credential even when the network connection is encrypted. Our fictional support ticket contains only a placeholder. Real session values belong in protected handling procedures, not ordinary chat messages or screenshots. The exposure path helps select the response. If the value appeared in a log, restrict and review that log's access, repair the logging behavior, and assess whether affected sessions need revocation. If the endpoint is compromised, rotating one cookie without addressing the endpoint may allow the replacement to be captured again. Controls should match the observed failure. Later use is separate evidence. An exposed value does not by itself prove that someone successfully used it, while a successful request does not by itself identify the person responsible. Connect exposure, validity, use, and resulting actions with timestamps and observation limits. This keeps the incident report useful without overstating what a single record can establish."
+        }
+      ],
+      "estimated_spoken_words": 170,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S10",
+      "chapter_id": "C03",
+      "chapter_title": "How takeover happens",
+      "title": "Fixation before authentication",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Known old value",
+        "Login transition",
+        "Fresh authority"
+      ],
+      "narration_en_US": "A known old value is the starting condition in the fixation model. Northstar's flawed demonstration keeps the same identifier while moving a browser from anonymous to authenticated state. The security problem is not simply that a cookie exists. It is that knowledge acquired before authentication continues to identify the privileged session afterward. The login transition is where the control belongs. Generate a replacement identifier and make the old context unable to access authenticated resources. If anonymous learning preferences must survive, transfer only the intended state. Do not treat all fields in the previous context as trusted simply because a login succeeded. Fresh authority should be visible in the test outcome. The corrected offline model accepts the newly issued identifier and rejects the previous one. The model is deliberately small so the causal difference can be inspected. A real application also needs concurrency, multiple-tab, retry, and session-store checks. Passing our toy fixture demonstrates the concept; it does not certify an unrelated website.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "A known old value is the starting condition in the fixation model. Northstar's flawed demonstration keeps the same identifier while moving a browser from anonymous to authenticated state. The security problem is not simply that a cookie exists. It is that knowledge acquired before authentication continues to identify the privileged session afterward. The login transition is where the control belongs. Generate a replacement identifier and make the old context unable to access authenticated resources. If anonymous learning preferences must survive, transfer only the intended state. Do not treat all fields in the previous context as trusted simply because a login succeeded. Fresh authority should be visible in the test outcome. The corrected offline model accepts the newly issued identifier and rejects the previous one. The model is deliberately small so the causal difference can be inspected. A real application also needs concurrency, multiple-tab, retry, and session-store checks. Passing our toy fixture demonstrates the concept; it does not certify an unrelated website."
+        }
+      ],
+      "estimated_spoken_words": 161,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S11",
+      "chapter_id": "C03",
+      "chapter_title": "How takeover happens",
+      "title": "Prediction is about uncertainty",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Visible pattern",
+        "Unknown value",
+        "Secure generation"
+      ],
+      "narration_en_US": "A visible pattern can make identifiers guessable. Consider classroom tickets labeled with a student number and an increasing counter. They may be distinct, but distinctness is not the same as uncertainty. Someone who observes one value may infer another without stealing it from the student's browser. An unknown value should remain difficult to guess even when the identifier format and application behavior are public. Assess the random portion rather than counting all printed characters. Fixed prefixes, timestamps, and encoded names do not contribute the same uncertainty as independent unpredictable bits. Encoding predictable information changes its representation, not its security property. Secure generation belongs in established cryptographic facilities and well-maintained frameworks. Our lesson does not run guessing traffic against a service. Instead, a local example shows why a sequential scheme exposes a relationship between values. In a review, pair generator inspection with configuration, lifecycle, and rate controls. Rate limiting can reduce attempts, but it does not turn a predictable identifier into a well-designed credential.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "A visible pattern can make identifiers guessable. Consider classroom tickets labeled with a student number and an increasing counter. They may be distinct, but distinctness is not the same as uncertainty. Someone who observes one value may infer another without stealing it from the student's browser. An unknown value should remain difficult to guess even when the identifier format and application behavior are public. Assess the random portion rather than counting all printed characters. Fixed prefixes, timestamps, and encoded names do not contribute the same uncertainty as independent unpredictable bits. Encoding predictable information changes its representation, not its security property. Secure generation belongs in established cryptographic facilities and well-maintained frameworks. Our lesson does not run guessing traffic against a service. Instead, a local example shows why a sequential scheme exposes a relationship between values. In a review, pair generator inspection with configuration, lifecycle, and rate controls. Rate limiting can reduce attempts, but it does not turn a predictable identifier into a well-designed credential."
+        }
+      ],
+      "estimated_spoken_words": 163,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S12",
+      "chapter_id": "C03",
+      "chapter_title": "How takeover happens",
+      "title": "Replay is a later action",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Valid credential",
+        "Repeated request",
+        "Acceptance decision"
+      ],
+      "narration_en_US": "A valid credential may be presented more than once during normal browsing. That is expected for many session designs. The security question is whether an unauthorized party can present a copied value and obtain the same authority. Bearer credentials depend on possession, which makes custody and lifetime central to their protection. The repeated request in our fixture uses a symbolic ticket from a second client label. The model accepts it while the session remains active. That illustrates a replay property, not a discovery of a real student's account. We then revoke the session and show the same symbolic value being rejected. The change isolates the lifecycle control. The acceptance decision depends on the design. Some systems bind credentials to additional proof, while others rely on bearer possession with transport and endpoint protections. Do not claim every token is replay resistant merely because it is signed or encrypted. A signature can protect the token's contents while a copied intact token remains usable. Ask exactly what the recipient verifies at the moment of use.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "A valid credential may be presented more than once during normal browsing. That is expected for many session designs. The security question is whether an unauthorized party can present a copied value and obtain the same authority. Bearer credentials depend on possession, which makes custody and lifetime central to their protection. The repeated request in our fixture uses a symbolic ticket from a second client label. The model accepts it while the session remains active. That illustrates a replay property, not a discovery of a real student's account. We then revoke the session and show the same symbolic value being rejected. The change isolates the lifecycle control. The acceptance decision depends on the design. Some systems bind credentials to additional proof, while others rely on bearer possession with transport and endpoint protections. Do not claim every token is replay resistant merely because it is signed or encrypted. A signature can protect the token's contents while a copied intact token remains usable. Ask exactly what the recipient verifies at the moment of use."
+        }
+      ],
+      "estimated_spoken_words": 172,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S13",
+      "chapter_id": "C04",
+      "chapter_title": "Browser boundaries",
+      "title": "Cookies are containers",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Cookie storage",
+        "Request inclusion",
+        "Server meaning"
+      ],
+      "narration_en_US": "Cookie storage lets a browser retain name and value pairs under defined scope and policy. Some cookies hold preferences; others carry session credentials. The word cookie describes a browser mechanism, not a guarantee that the value is secret, authenticated, or powerful. Its significance depends on how the application uses it. Request inclusion is governed by attributes and browser rules. A credential-bearing cookie may be attached automatically to a matching request. That convenience helps the application maintain continuity, and it also matters when evaluating cross-site requests. The presence of a cookie does not tell the server whether the user intentionally initiated the particular action. Server meaning completes the picture. Northstar interprets one cookie as a session identifier and ignores a decorative theme preference for authorization. In a review, identify which values actually influence identity, permission, or lifecycle decisions. Inspect the response that sets the cookie and the requests that return it. Keep secret values redacted while preserving the attributes needed to evaluate behavior.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Cookie storage lets a browser retain name and value pairs under defined scope and policy. Some cookies hold preferences; others carry session credentials. The word cookie describes a browser mechanism, not a guarantee that the value is secret, authenticated, or powerful. Its significance depends on how the application uses it. Request inclusion is governed by attributes and browser rules. A credential-bearing cookie may be attached automatically to a matching request. That convenience helps the application maintain continuity, and it also matters when evaluating cross-site requests. The presence of a cookie does not tell the server whether the user intentionally initiated the particular action. Server meaning completes the picture. Northstar interprets one cookie as a session identifier and ignores a decorative theme preference for authorization. In a review, identify which values actually influence identity, permission, or lifecycle decisions. Inspect the response that sets the cookie and the requests that return it. Keep secret values redacted while preserving the attributes needed to evaluate behavior."
+        }
+      ],
+      "estimated_spoken_words": 162,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S14",
+      "chapter_id": "C04",
+      "chapter_title": "Browser boundaries",
+      "title": "Secure and HttpOnly differ",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Transport restriction",
+        "Script access",
+        "Remaining risk"
+      ],
+      "narration_en_US": "The Secure attribute restricts a cookie to secure transport in normal browser use. It addresses a transmission condition. It does not encrypt a server log, repair a compromised browser, or validate an application's authorization checks. Pair the attribute with a properly deployed encrypted connection and the application's broader transport policy. HttpOnly restricts access to the cookie through script interfaces such as document dot cookie. This can reduce direct cookie extraction by injected script. It does not remove the script injection flaw. Malicious code running in the page may still initiate actions through the victim's browser, depending on the application's defenses and available functionality. Remaining risk determines the next control. If Northstar finds script injection, repair the injection path and assess affected sessions rather than declaring the incident solved by one attribute. Test each property independently: whether the browser transmits the cookie under the intended transport conditions, whether script can read it, and whether unauthorized application actions are prevented. Three tests answer three different questions.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The Secure attribute restricts a cookie to secure transport in normal browser use. It addresses a transmission condition. It does not encrypt a server log, repair a compromised browser, or validate an application's authorization checks. Pair the attribute with a properly deployed encrypted connection and the application's broader transport policy. HttpOnly restricts access to the cookie through script interfaces such as document dot cookie. This can reduce direct cookie extraction by injected script. It does not remove the script injection flaw. Malicious code running in the page may still initiate actions through the victim's browser, depending on the application's defenses and available functionality. Remaining risk determines the next control. If Northstar finds script injection, repair the injection path and assess affected sessions rather than declaring the incident solved by one attribute. Test each property independently: whether the browser transmits the cookie under the intended transport conditions, whether script can read it, and whether unauthorized application actions are prevented. Three tests answer three different questions."
+        }
+      ],
+      "estimated_spoken_words": 164,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S15",
+      "chapter_id": "C04",
+      "chapter_title": "Browser boundaries",
+      "title": "SameSite and request intent",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Site context",
+        "Browser inclusion",
+        "Action validation"
+      ],
+      "narration_en_US": "Site context influences whether the browser includes a cookie in cross-site situations. SameSite supplies a useful control, but site and origin are not interchangeable concepts. A deployment with related hosts needs careful analysis of its actual trust boundaries and application flows. Avoid treating a short attribute name as a complete explanation of those boundaries. Browser inclusion is one layer of cross-site request protection. A site must account for the chosen mode, legitimate navigation, and the requests that change state. The lesson's diagram shows a decision boundary rather than promising that one mode blocks every unwanted action. Browser behavior and application integration should be tested against the intended workflow. Action validation remains necessary at the server. For sensitive state changes, use appropriate request authenticity checks and authorization. A request can include a valid session cookie while still being unwanted or unauthorized for the target object. When reading an exam question, identify whether it asks about sending a cookie, reading a cookie, or validating an action. Those verbs point to different controls.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Site context influences whether the browser includes a cookie in cross-site situations. SameSite supplies a useful control, but site and origin are not interchangeable concepts. A deployment with related hosts needs careful analysis of its actual trust boundaries and application flows. Avoid treating a short attribute name as a complete explanation of those boundaries. Browser inclusion is one layer of cross-site request protection. A site must account for the chosen mode, legitimate navigation, and the requests that change state. The lesson's diagram shows a decision boundary rather than promising that one mode blocks every unwanted action. Browser behavior and application integration should be tested against the intended workflow. Action validation remains necessary at the server. For sensitive state changes, use appropriate request authenticity checks and authorization. A request can include a valid session cookie while still being unwanted or unauthorized for the target object. When reading an exam question, identify whether it asks about sending a cookie, reading a cookie, or validating an action. Those verbs point to different controls."
+        }
+      ],
+      "estimated_spoken_words": 170,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S16",
+      "chapter_id": "C04",
+      "chapter_title": "Browser boundaries",
+      "title": "XSS and CSRF are different paths",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Code in the page",
+        "Cross-site action",
+        "Independent controls"
+      ],
+      "narration_en_US": "Code in the page describes the key execution context of cross-site scripting. An injection flaw allows untrusted content to become executable code in an application context. The resulting capabilities depend on the page, browser, and defenses. Our video uses an abstract diagram and contains no credential-stealing payload. A cross-site action can occur without the attacker reading the victim's cookie. In a request-forgery scenario, the browser may supply credentials automatically to a request the victim did not intend. This differs from extracting a token and replaying it elsewhere. Both can lead to unwanted actions, but their prerequisites and evidence are different. Independent controls address these paths. Prevent script injection through context-appropriate output handling and safe application design. Protect state-changing requests with suitable authenticity checks, and always enforce authorization. In the Northstar example, a valid request token does not grant Maya access to another student's record. A successful defense at one boundary never substitutes for the separate permission decision at another.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Code in the page describes the key execution context of cross-site scripting. An injection flaw allows untrusted content to become executable code in an application context. The resulting capabilities depend on the page, browser, and defenses. Our video uses an abstract diagram and contains no credential-stealing payload. A cross-site action can occur without the attacker reading the victim's cookie. In a request-forgery scenario, the browser may supply credentials automatically to a request the victim did not intend. This differs from extracting a token and replaying it elsewhere. Both can lead to unwanted actions, but their prerequisites and evidence are different. Independent controls address these paths. Prevent script injection through context-appropriate output handling and safe application design. Protect state-changing requests with suitable authenticity checks, and always enforce authorization. In the Northstar example, a valid request token does not grant Maya access to another student's record. A successful defense at one boundary never substitutes for the separate permission decision at another."
+        }
+      ],
+      "estimated_spoken_words": 159,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S17",
+      "chapter_id": "C05",
+      "chapter_title": "Transport sessions",
+      "title": "Application and TCP sessions",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Browser workflow",
+        "TCP connection",
+        "Persistent login"
+      ],
+      "narration_en_US": "The browser workflow may continue across several network connections. Maya opens a course, her connection closes, and the browser later establishes another connection while she remains signed in. This is normal in many applications. The application session is maintained by application mechanisms rather than by the lifetime of one TCP connection. A TCP connection maintains transport state for a byte stream between endpoints. Its sequence and acknowledgment mechanisms support ordered delivery and reliability. That state is not a student identity record. A transport connection can carry application messages whose authentication and authorization decisions occur at a different layer. Persistent login therefore does not prove that one old connection stayed open. Likewise, observing a new connection does not prove that the user authenticated again. When diagnosing a takeover claim, first identify the layer being discussed. The word session appears in several contexts, and a correct answer about a browser token may be irrelevant to a question about transport sequence validation.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The browser workflow may continue across several network connections. Maya opens a course, her connection closes, and the browser later establishes another connection while she remains signed in. This is normal in many applications. The application session is maintained by application mechanisms rather than by the lifetime of one TCP connection. A TCP connection maintains transport state for a byte stream between endpoints. Its sequence and acknowledgment mechanisms support ordered delivery and reliability. That state is not a student identity record. A transport connection can carry application messages whose authentication and authorization decisions occur at a different layer. Persistent login therefore does not prove that one old connection stayed open. Likewise, observing a new connection does not prove that the user authenticated again. When diagnosing a takeover claim, first identify the layer being discussed. The word session appears in several contexts, and a correct answer about a browser token may be irrelevant to a question about transport sequence validation."
+        }
+      ],
+      "estimated_spoken_words": 159,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S18",
+      "chapter_id": "C05",
+      "chapter_title": "Transport sessions",
+      "title": "Sequence numbers describe bytes",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Byte position",
+        "Acknowledgment",
+        "Receive window"
+      ],
+      "narration_en_US": "Byte position gives meaning to TCP sequence numbers. In our simplified illustration, the receiver has accepted bytes up to a certain point and expects the next part of the stream. The numbers on the diagram represent a conceptual stream, not a captured connection. We use them to explain why a destination port alone is insufficient to describe transport acceptance. Acknowledgment communicates progress through the stream. The receiver also maintains a window that constrains acceptable incoming data. Actual TCP processing includes additional rules and corner cases, so a three-box diagram is not an implementation specification. It highlights the state that a simplistic account of packet injection would omit. The receive window helps explain why a forged segment may be rejected. Transport acceptance still does not imply valid encrypted application data or permission to change a student's account. Our offline exercise checks a toy interval to make the distinction visible. For implementation details, consult the TCP specification and the actual operating system behavior instead of treating classroom arithmetic as a complete packet-processing model.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Byte position gives meaning to TCP sequence numbers. In our simplified illustration, the receiver has accepted bytes up to a certain point and expects the next part of the stream. The numbers on the diagram represent a conceptual stream, not a captured connection. We use them to explain why a destination port alone is insufficient to describe transport acceptance. Acknowledgment communicates progress through the stream. The receiver also maintains a window that constrains acceptable incoming data. Actual TCP processing includes additional rules and corner cases, so a three-box diagram is not an implementation specification. It highlights the state that a simplistic account of packet injection would omit. The receive window helps explain why a forged segment may be rejected. Transport acceptance still does not imply valid encrypted application data or permission to change a student's account. Our offline exercise checks a toy interval to make the distinction visible. For implementation details, consult the TCP specification and the actual operating system behavior instead of treating classroom arithmetic as a complete packet-processing model."
+        }
+      ],
+      "estimated_spoken_words": 171,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S19",
+      "chapter_id": "C05",
+      "chapter_title": "Transport sessions",
+      "title": "Observation changes capability",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Off-path view",
+        "On-path view",
+        "Endpoint compromise"
+      ],
+      "narration_en_US": "An off-path observer lacks direct visibility into the target traffic path. Their knowledge and opportunities differ from those of a device that can observe or influence communication. Security reasoning should state those assumptions. Otherwise, an explanation may accidentally grant an attacker capabilities that were never established by the scenario. An on-path position can expose traffic characteristics and, when protection is missing, contents. It does not automatically defeat authenticated encryption. A diagram showing a device between two endpoints describes a position, not proof that every secret passing through the network becomes readable. The transport and application protections still matter. Endpoint compromise is another boundary. An endpoint may handle data before encryption or after decryption, so protecting the network alone cannot address every local compromise. In the Northstar incident discussion, identify whether the evidence concerns a route, a browser, an extension, or a server. This classification guides containment and prevents the team from applying a network-only remedy to an application or endpoint failure.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "An off-path observer lacks direct visibility into the target traffic path. Their knowledge and opportunities differ from those of a device that can observe or influence communication. Security reasoning should state those assumptions. Otherwise, an explanation may accidentally grant an attacker capabilities that were never established by the scenario. An on-path position can expose traffic characteristics and, when protection is missing, contents. It does not automatically defeat authenticated encryption. A diagram showing a device between two endpoints describes a position, not proof that every secret passing through the network becomes readable. The transport and application protections still matter. Endpoint compromise is another boundary. An endpoint may handle data before encryption or after decryption, so protecting the network alone cannot address every local compromise. In the Northstar incident discussion, identify whether the evidence concerns a route, a browser, an extension, or a server. This classification guides containment and prevents the team from applying a network-only remedy to an application or endpoint failure."
+        }
+      ],
+      "estimated_spoken_words": 161,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S20",
+      "chapter_id": "C05",
+      "chapter_title": "Transport sessions",
+      "title": "Passive observation and active changes",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Observe",
+        "Alter",
+        "Verify the outcome"
+      ],
+      "narration_en_US": "Observe and alter are distinct capabilities. Passive monitoring may reveal metadata or unprotected content, while active interference changes what another system receives or how communication proceeds. An incident report should describe the observed action without using a dramatic label as a substitute for evidence. Altered traffic may be rejected, disrupt a connection, or affect an application depending on several controls. An attempted action is not the same as a successful takeover. Northstar's teaching record separates a proposed request from the service's acceptance result. That separation prevents a screenshot of a tool or a packet from being mistaken for proof of account access. Verify the outcome at the relevant boundary. For an application claim, inspect the authenticated identity and authorized action. For a transport claim, inspect the actual connection behavior under authorized testing. This film performs neither live interception nor packet injection. Its controlled local records support explanation while preserving the difference between a classroom model, a test attempt, and a verified production finding.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Observe and alter are distinct capabilities. Passive monitoring may reveal metadata or unprotected content, while active interference changes what another system receives or how communication proceeds. An incident report should describe the observed action without using a dramatic label as a substitute for evidence. Altered traffic may be rejected, disrupt a connection, or affect an application depending on several controls. An attempted action is not the same as a successful takeover. Northstar's teaching record separates a proposed request from the service's acceptance result. That separation prevents a screenshot of a tool or a packet from being mistaken for proof of account access. Verify the outcome at the relevant boundary. For an application claim, inspect the authenticated identity and authorized action. For a transport claim, inspect the actual connection behavior under authorized testing. This film performs neither live interception nor packet injection. Its controlled local records support explanation while preserving the difference between a classroom model, a test attempt, and a verified production finding."
+        }
+      ],
+      "estimated_spoken_words": 163,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S21",
+      "chapter_id": "C06",
+      "chapter_title": "Protecting the channel",
+      "title": "TLS protects a relationship",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Client",
+        "Authenticated channel",
+        "Server"
+      ],
+      "narration_en_US": "The client establishes an encrypted channel with a server whose identity it must validate. Encryption and peer authentication work together. If a user ignores a certificate warning or a client accepts an unintended peer, saying that the connection was encrypted leaves an important part of the security question unanswered. The authenticated channel protects application data in transit against relevant network threats. It does not decide which student may read a particular submission, and it does not guarantee that either endpoint is free of malicious code. Draw the protected segment clearly: the channel runs between specific endpoints, not around every component of the entire service. The server still validates the application session and request. In the Northstar diagram, TLS ends at the service boundary while session and authorization decisions continue inside it. This layered view explains why a secure connection is essential but cannot replace lifecycle controls. A copied valid credential presented over a new secure connection may still be accepted if the application has not revoked it.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The client establishes an encrypted channel with a server whose identity it must validate. Encryption and peer authentication work together. If a user ignores a certificate warning or a client accepts an unintended peer, saying that the connection was encrypted leaves an important part of the security question unanswered. The authenticated channel protects application data in transit against relevant network threats. It does not decide which student may read a particular submission, and it does not guarantee that either endpoint is free of malicious code. Draw the protected segment clearly: the channel runs between specific endpoints, not around every component of the entire service. The server still validates the application session and request. In the Northstar diagram, TLS ends at the service boundary while session and authorization decisions continue inside it. This layered view explains why a secure connection is essential but cannot replace lifecycle controls. A copied valid credential presented over a new secure connection may still be accepted if the application has not revoked it."
+        }
+      ],
+      "estimated_spoken_words": 167,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S22",
+      "chapter_id": "C06",
+      "chapter_title": "Protecting the channel",
+      "title": "Follow the credential path",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Browser connection",
+        "Service boundary",
+        "Internal handling"
+      ],
+      "narration_en_US": "The browser connection is only part of a deployed path. Northstar may use an edge service, an application server, and a session store. Identify where encryption terminates and where sensitive headers are forwarded. A diagram that draws one lock over the entire path can conceal differences between these segments. The service boundary includes trust in the components that process credentials. Access to reverse-proxy logs, debugging interfaces, or tracing systems can matter if those systems record sensitive values. Redact secrets at the source where possible, and define how operational evidence is collected without turning telemetry into another credential repository. Internal handling must preserve the same purpose: only the intended service components should receive the authority-bearing value. In a review, trace the request and name each receiving component. Then ask whether the value is necessary there and whether its storage and retention are justified. This is a design exercise on Northstar's fictional architecture, not a claim that a particular vendor's default configuration leaks sessions.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The browser connection is only part of a deployed path. Northstar may use an edge service, an application server, and a session store. Identify where encryption terminates and where sensitive headers are forwarded. A diagram that draws one lock over the entire path can conceal differences between these segments. The service boundary includes trust in the components that process credentials. Access to reverse-proxy logs, debugging interfaces, or tracing systems can matter if those systems record sensitive values. Redact secrets at the source where possible, and define how operational evidence is collected without turning telemetry into another credential repository. Internal handling must preserve the same purpose: only the intended service components should receive the authority-bearing value. In a review, trace the request and name each receiving component. Then ask whether the value is necessary there and whether its storage and retention are justified. This is a design exercise on Northstar's fictional architecture, not a claim that a particular vendor's default configuration leaks sessions."
+        }
+      ],
+      "estimated_spoken_words": 162,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S23",
+      "chapter_id": "C06",
+      "chapter_title": "Protecting the channel",
+      "title": "A secure channel is not revocation",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Copied credential",
+        "New secure channel",
+        "Validity check"
+      ],
+      "narration_en_US": "A copied credential can be sent through a perfectly secure channel. That fact resolves a common confusion: encrypted transport protects the message while traveling, but it does not prove that the sender obtained the credential legitimately. The receiving application must still decide whether the credential should be accepted. A new secure channel may therefore carry an old session value. In the synthetic timeline, the second client presents the same symbolic ticket before revocation and receives an allowed result. After revocation, it receives a denied result. The channel remains secure in both cases; the session validity decision changes. The validity check connects transport protection to lifecycle policy. Keep both controls. Do not respond to this distinction by removing encryption, and do not respond to a replay incident by assuming encryption alone will invalidate exposed sessions. Trace which control prevents interception, which protects endpoints, and which withdraws authority after exposure. Each contributes at a different point in the sequence.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "A copied credential can be sent through a perfectly secure channel. That fact resolves a common confusion: encrypted transport protects the message while traveling, but it does not prove that the sender obtained the credential legitimately. The receiving application must still decide whether the credential should be accepted. A new secure channel may therefore carry an old session value. In the synthetic timeline, the second client presents the same symbolic ticket before revocation and receives an allowed result. After revocation, it receives a denied result. The channel remains secure in both cases; the session validity decision changes. The validity check connects transport protection to lifecycle policy. Keep both controls. Do not respond to this distinction by removing encryption, and do not respond to a replay incident by assuming encryption alone will invalidate exposed sessions. Trace which control prevents interception, which protects endpoints, and which withdraws authority after exposure. Each contributes at a different point in the sequence."
+        }
+      ],
+      "estimated_spoken_words": 157,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S24",
+      "chapter_id": "C06",
+      "chapter_title": "Protecting the channel",
+      "title": "Reauthentication and sensitive actions",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Existing session",
+        "Fresh assurance",
+        "Specific action"
+      ],
+      "narration_en_US": "An existing session may be sufficient for reading an ordinary lesson but insufficient for changing a recovery address or granting administrative privileges. Sensitive actions can require additional assurance. Northstar's fictional policy asks for fresh authentication before a high-impact account change, rather than assuming an old login remains equally trustworthy for every action. Fresh assurance must be connected to the intended transaction or transition. A decorative confirmation page does not automatically prove that the right user approved the right action. The application must check the assurance state, apply authorization, and manage any resulting session or privilege changes consistently. The specific action provides a useful test. Begin with a valid ordinary session, attempt the protected change, and verify that the required additional step is enforced. Then confirm that the completed step authorizes only the intended scope and duration. This lesson describes the acceptance logic; actual testing requires an authorized environment and disposable accounts. A stronger authentication method still needs careful session handling afterward.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "An existing session may be sufficient for reading an ordinary lesson but insufficient for changing a recovery address or granting administrative privileges. Sensitive actions can require additional assurance. Northstar's fictional policy asks for fresh authentication before a high-impact account change, rather than assuming an old login remains equally trustworthy for every action. Fresh assurance must be connected to the intended transaction or transition. A decorative confirmation page does not automatically prove that the right user approved the right action. The application must check the assurance state, apply authorization, and manage any resulting session or privilege changes consistently. The specific action provides a useful test. Begin with a valid ordinary session, attempt the protected change, and verify that the required additional step is enforced. Then confirm that the completed step authorizes only the intended scope and duration. This lesson describes the acceptance logic; actual testing requires an authorized environment and disposable accounts. A stronger authentication method still needs careful session handling afterward."
+        }
+      ],
+      "estimated_spoken_words": 161,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S25",
+      "chapter_id": "C07",
+      "chapter_title": "Defensive architecture",
+      "title": "Stateful and self-contained tokens",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Stored record",
+        "Protected claims",
+        "Revocation choice"
+      ],
+      "narration_en_US": "A stored record makes the session identifier a reference to server-managed state. This can provide a direct place to enforce invalidation and updated session policy. It also creates availability, consistency, and operational requirements for the store. The design should address those requirements rather than hiding them behind the word session. Protected claims can let a recipient validate information carried in a token. The cryptographic protection must be checked correctly, along with the claims relevant to the recipient. Merely decoding readable fields is not validation. A token's format does not itself prove that its issuer, audience, expiration, or purpose matches the request. Revocation remains a design choice that needs an operational answer. Short lifetimes, server-side checks, deny lists, or other mechanisms have different costs and guarantees. In the Northstar design review, write down how an exposed credential stops working and how that decision reaches every relevant service. The choice should follow the application's requirements rather than a claim that one token format solves all session problems.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "A stored record makes the session identifier a reference to server-managed state. This can provide a direct place to enforce invalidation and updated session policy. It also creates availability, consistency, and operational requirements for the store. The design should address those requirements rather than hiding them behind the word session. Protected claims can let a recipient validate information carried in a token. The cryptographic protection must be checked correctly, along with the claims relevant to the recipient. Merely decoding readable fields is not validation. A token's format does not itself prove that its issuer, audience, expiration, or purpose matches the request. Revocation remains a design choice that needs an operational answer. Short lifetimes, server-side checks, deny lists, or other mechanisms have different costs and guarantees. In the Northstar design review, write down how an exposed credential stops working and how that decision reaches every relevant service. The choice should follow the application's requirements rather than a claim that one token format solves all session problems."
+        }
+      ],
+      "estimated_spoken_words": 165,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S26",
+      "chapter_id": "C07",
+      "chapter_title": "Defensive architecture",
+      "title": "Validate the token's meaning",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Cryptographic check",
+        "Intended recipient",
+        "Time and purpose"
+      ],
+      "narration_en_US": "The cryptographic check establishes whether a token's protection is valid under the intended key and algorithm policy. Accepting an algorithm merely because an untrusted header requests it can violate that policy. Use established libraries and explicit validation rules rather than implementing a custom verifier for convenience. The intended recipient matters even when the protection is valid. A token issued for one service should not automatically authorize another. The issuer and audience belong to the recipient's trust decision. In our fictional example, a library-service token is presented to an administrative service; the scenario asks whether the receiving service validates its own expected audience. Time and purpose add further constraints. An expired token or a token issued for a different use should be rejected according to policy. No single decoded field substitutes for the complete validation process. A positive test should show that an appropriate token works, while negative tests isolate wrong audience, expired lifetime, or invalid protection. Keep the result of each check separate in the evidence record.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The cryptographic check establishes whether a token's protection is valid under the intended key and algorithm policy. Accepting an algorithm merely because an untrusted header requests it can violate that policy. Use established libraries and explicit validation rules rather than implementing a custom verifier for convenience. The intended recipient matters even when the protection is valid. A token issued for one service should not automatically authorize another. The issuer and audience belong to the recipient's trust decision. In our fictional example, a library-service token is presented to an administrative service; the scenario asks whether the receiving service validates its own expected audience. Time and purpose add further constraints. An expired token or a token issued for a different use should be rejected according to policy. No single decoded field substitutes for the complete validation process. A positive test should show that an appropriate token works, while negative tests isolate wrong audience, expired lifetime, or invalid protection. Keep the result of each check separate in the evidence record."
+        }
+      ],
+      "estimated_spoken_words": 167,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S27",
+      "chapter_id": "C07",
+      "chapter_title": "Defensive architecture",
+      "title": "Reduce exposed authority",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Minimal scope",
+        "Limited lifetime",
+        "Protected custody"
+      ],
+      "narration_en_US": "Minimal scope limits what a credential can authorize. Northstar's course-viewing session should not silently become a credential for unrelated administration. A well-defined boundary reduces the consequences of exposure, while resource-level authorization ensures that even an authenticated student remains limited to permitted objects and actions. Limited lifetime reduces how long an exposed value can remain useful. It does not guarantee that misuse cannot occur before expiry. Choose lifetimes and renewal behavior with the application owner, then test how they interact with logout, incident revocation, and concurrent use. A policy written in a document is only useful when the receiving services enforce it. Protected custody reduces opportunities for acquisition. Keep credentials out of URLs, routine logs, shared screenshots, and ordinary support conversations. Use secure transport and appropriate browser protections. These measures work together: custody reduces exposure, lifetime bounds duration, and scope bounds authority. In the Northstar review, connect every measure to a concrete failure path and a check that can establish its intended behavior.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Minimal scope limits what a credential can authorize. Northstar's course-viewing session should not silently become a credential for unrelated administration. A well-defined boundary reduces the consequences of exposure, while resource-level authorization ensures that even an authenticated student remains limited to permitted objects and actions. Limited lifetime reduces how long an exposed value can remain useful. It does not guarantee that misuse cannot occur before expiry. Choose lifetimes and renewal behavior with the application owner, then test how they interact with logout, incident revocation, and concurrent use. A policy written in a document is only useful when the receiving services enforce it. Protected custody reduces opportunities for acquisition. Keep credentials out of URLs, routine logs, shared screenshots, and ordinary support conversations. Use secure transport and appropriate browser protections. These measures work together: custody reduces exposure, lifetime bounds duration, and scope bounds authority. In the Northstar review, connect every measure to a concrete failure path and a check that can establish its intended behavior."
+        }
+      ],
+      "estimated_spoken_words": 162,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S28",
+      "chapter_id": "C07",
+      "chapter_title": "Defensive architecture",
+      "title": "Regression tests preserve boundaries",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Positive path",
+        "Negative path",
+        "Repeatable evidence"
+      ],
+      "narration_en_US": "The positive path confirms that an authorized student can still perform the intended task. Security controls that break ordinary learning access need investigation rather than automatic celebration. Northstar's test suite begins with a valid session reading an allowed course, so later denials can be interpreted against a working baseline. The negative path isolates one violated condition at a time. Test an old identifier after rotation, a revoked session after logout, and an otherwise valid identity requesting another student's private object. A test that changes several conditions at once may fail without revealing which boundary produced the rejection. Repeatable evidence records the input category, expected decision, actual result, and relevant implementation version. Use synthetic identifiers rather than live secrets. A passing local model is useful for learning and regression within that model; production acceptance needs the real application path. This distinction keeps the evidence honest while making the test structure reusable for an authorized engineering team.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The positive path confirms that an authorized student can still perform the intended task. Security controls that break ordinary learning access need investigation rather than automatic celebration. Northstar's test suite begins with a valid session reading an allowed course, so later denials can be interpreted against a working baseline. The negative path isolates one violated condition at a time. Test an old identifier after rotation, a revoked session after logout, and an otherwise valid identity requesting another student's private object. A test that changes several conditions at once may fail without revealing which boundary produced the rejection. Repeatable evidence records the input category, expected decision, actual result, and relevant implementation version. Use synthetic identifiers rather than live secrets. A passing local model is useful for learning and regression within that model; production acceptance needs the real application path. This distinction keeps the evidence honest while making the test structure reusable for an authorized engineering team."
+        }
+      ],
+      "estimated_spoken_words": 155,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S29",
+      "chapter_id": "C08",
+      "chapter_title": "Reading offline evidence",
+      "title": "A timeline without secrets",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Event order",
+        "Session label",
+        "Decision result"
+      ],
+      "narration_en_US": "Event order lets an analyst relate creation, authentication, use, and revocation. Our local fixture records a synthetic event number and explicit action. It contains no real student's identity or usable credential. The labels make relationships visible while avoiding the habit of copying sensitive tokens into a report. A session label is a correlation aid in this exercise. In a real system, an approved protected correlation method may be needed instead of raw credential logging. The correlation value must be interpreted with its generation and retention policy. Two records sharing a label support a relationship, but the label alone does not establish which human operated a device. The decision result records allowed or denied behavior. Read it together with the action and lifecycle state. An allowed request before logout and a denied request afterward support the modeled revocation check. They do not prove that every endpoint, replica, or cache in a production deployment behaves identically. The report should state exactly which path the evidence covers.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Event order lets an analyst relate creation, authentication, use, and revocation. Our local fixture records a synthetic event number and explicit action. It contains no real student's identity or usable credential. The labels make relationships visible while avoiding the habit of copying sensitive tokens into a report. A session label is a correlation aid in this exercise. In a real system, an approved protected correlation method may be needed instead of raw credential logging. The correlation value must be interpreted with its generation and retention policy. Two records sharing a label support a relationship, but the label alone does not establish which human operated a device. The decision result records allowed or denied behavior. Read it together with the action and lifecycle state. An allowed request before logout and a denied request afterward support the modeled revocation check. They do not prove that every endpoint, replica, or cache in a production deployment behaves identically. The report should state exactly which path the evidence covers."
+        }
+      ],
+      "estimated_spoken_words": 164,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S30",
+      "chapter_id": "C08",
+      "chapter_title": "Reading offline evidence",
+      "title": "Compare flawed and corrected rotation",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Old identifier",
+        "Authenticated state",
+        "Observed denial"
+      ],
+      "narration_en_US": "The old identifier is deliberately known in the flawed fixture. The model associates it with authenticated state during login, and a later use of that same label succeeds. This is a designed educational example, not a vulnerability discovered in Northstar or another real organization. Its purpose is to make the boundary failure inspectable. The authenticated state in the corrected fixture is assigned to a fresh identifier. The old label loses the ability to select that authority. The new label still supports the legitimate action, which preserves the positive path while changing the insecure transition. Compare both outcomes rather than checking only that one request failed. Observed denial of the old label is the acceptance evidence for this small model. The accompanying script writes a machine-readable result and uses assertions so an unexpected acceptance fails the run. The video explains the result without presenting it as a full web application assessment. When adapting the test, preserve the same distinction between model behavior and target-system evidence.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The old identifier is deliberately known in the flawed fixture. The model associates it with authenticated state during login, and a later use of that same label succeeds. This is a designed educational example, not a vulnerability discovered in Northstar or another real organization. Its purpose is to make the boundary failure inspectable. The authenticated state in the corrected fixture is assigned to a fresh identifier. The old label loses the ability to select that authority. The new label still supports the legitimate action, which preserves the positive path while changing the insecure transition. Compare both outcomes rather than checking only that one request failed. Observed denial of the old label is the acceptance evidence for this small model. The accompanying script writes a machine-readable result and uses assertions so an unexpected acceptance fails the run. The video explains the result without presenting it as a full web application assessment. When adapting the test, preserve the same distinction between model behavior and target-system evidence."
+        }
+      ],
+      "estimated_spoken_words": 164,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S31",
+      "chapter_id": "C08",
+      "chapter_title": "Reading offline evidence",
+      "title": "Interpret anomalies carefully",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "New address",
+        "Concurrent use",
+        "Corroborating evidence"
+      ],
+      "narration_en_US": "A new address can be an anomaly without being proof of takeover. Mobile networks, shared gateways, proxies, and legitimate travel can change an apparent source. A session shared across unexpected contexts may deserve attention, but a single address field cannot establish intent or personal identity. Concurrent use also requires context. Multiple tabs, background requests, retries, and distributed application components can produce overlapping activity. Define the time basis and what the records actually observe. In our synthetic example, two client labels are deliberately distinct; production logs may not provide that same certainty. Corroborating evidence can include endpoint findings, confirmed exposure, unusual resource access, and lifecycle events. Collect it under the organization's authorized process, protecting sensitive material. Explain which observations support concern and which remain ambiguous. A useful incident report offers an actionable hypothesis and a next check rather than transforming every unfamiliar address into a confirmed attacker.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "A new address can be an anomaly without being proof of takeover. Mobile networks, shared gateways, proxies, and legitimate travel can change an apparent source. A session shared across unexpected contexts may deserve attention, but a single address field cannot establish intent or personal identity. Concurrent use also requires context. Multiple tabs, background requests, retries, and distributed application components can produce overlapping activity. Define the time basis and what the records actually observe. In our synthetic example, two client labels are deliberately distinct; production logs may not provide that same certainty. Corroborating evidence can include endpoint findings, confirmed exposure, unusual resource access, and lifecycle events. Collect it under the organization's authorized process, protecting sensitive material. Explain which observations support concern and which remain ambiguous. A useful incident report offers an actionable hypothesis and a next check rather than transforming every unfamiliar address into a confirmed attacker."
+        }
+      ],
+      "estimated_spoken_words": 146,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S32",
+      "chapter_id": "C08",
+      "chapter_title": "Reading offline evidence",
+      "title": "Evidence supports bounded claims",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Observation",
+        "Interpretation",
+        "Next check"
+      ],
+      "narration_en_US": "An observation is what the record directly shows: a request was accepted, a session was revoked, or a particular test assertion passed. Preserve the relevant timestamp, result, and source. Avoid adding an unobserved cause inside the observation itself, such as describing every unexpected request as a stolen session before exposure is established. An interpretation connects observations to a possible mechanism. The same credential appearing in two contexts may be consistent with replay, but the acquisition path may remain unknown. State that distinction. A defensible explanation becomes stronger when its limits are visible because another analyst can identify what evidence would confirm or challenge it. The next check should resolve the most consequential uncertainty. Northstar might inspect authorized endpoint evidence, verify revocation across services, or confirm the meaning of a logging field. Our local fixture cannot answer those production questions. It supplies a repeatable learning example and a model for organizing evidence, while the next layer of validation remains explicitly assigned to an authorized target environment.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "An observation is what the record directly shows: a request was accepted, a session was revoked, or a particular test assertion passed. Preserve the relevant timestamp, result, and source. Avoid adding an unobserved cause inside the observation itself, such as describing every unexpected request as a stolen session before exposure is established. An interpretation connects observations to a possible mechanism. The same credential appearing in two contexts may be consistent with replay, but the acquisition path may remain unknown. State that distinction. A defensible explanation becomes stronger when its limits are visible because another analyst can identify what evidence would confirm or challenge it. The next check should resolve the most consequential uncertainty. Northstar might inspect authorized endpoint evidence, verify revocation across services, or confirm the meaning of a logging field. Our local fixture cannot answer those production questions. It supplies a repeatable learning example and a model for organizing evidence, while the next layer of validation remains explicitly assigned to an authorized target environment."
+        }
+      ],
+      "estimated_spoken_words": 165,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S33",
+      "chapter_id": "C09",
+      "chapter_title": "Response and recovery",
+      "title": "Contain the affected authority",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Scope the session",
+        "Revoke",
+        "Protect the endpoint"
+      ],
+      "narration_en_US": "Scope the session before choosing the containment action. Determine which accounts, session families, services, and time intervals may be affected by the evidence. The right scope may be narrow or broad depending on the incident. A single token event does not automatically justify a claim that every account was compromised. Revoke affected authority through the mechanisms the system actually supports. Coordinate session invalidation, token handling, and necessary reauthentication with the service owners. If multiple services validate credentials independently, confirm how the decision reaches them. A database update in one component is not enough evidence that every relevant request path now rejects the credential. Protect the endpoint and repair the exposure path. Otherwise a newly issued session may be acquired again. In the Northstar scenario, the response team separately tracks credential invalidation, logging repair, and endpoint investigation. These actions have different owners and acceptance checks. The lesson describes incident reasoning, not a universal operational command sequence for an unknown organization's environment.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Scope the session before choosing the containment action. Determine which accounts, session families, services, and time intervals may be affected by the evidence. The right scope may be narrow or broad depending on the incident. A single token event does not automatically justify a claim that every account was compromised. Revoke affected authority through the mechanisms the system actually supports. Coordinate session invalidation, token handling, and necessary reauthentication with the service owners. If multiple services validate credentials independently, confirm how the decision reaches them. A database update in one component is not enough evidence that every relevant request path now rejects the credential. Protect the endpoint and repair the exposure path. Otherwise a newly issued session may be acquired again. In the Northstar scenario, the response team separately tracks credential invalidation, logging repair, and endpoint investigation. These actions have different owners and acceptance checks. The lesson describes incident reasoning, not a universal operational command sequence for an unknown organization's environment."
+        }
+      ],
+      "estimated_spoken_words": 160,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S34",
+      "chapter_id": "C09",
+      "chapter_title": "Response and recovery",
+      "title": "Verify containment and recovery",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Old value denied",
+        "New session works",
+        "Exposure repaired"
+      ],
+      "narration_en_US": "The old value should be denied after the adopted containment action. Test the actual relevant service path in an authorized environment and preserve the outcome without exposing the credential. If a cache or replica still accepts it, record that as an unresolved containment condition rather than interpreting one successful revocation call as complete recovery. The new session should support legitimate activity under the updated policy. Northstar's student must be able to resume learning safely. This positive check prevents a broad outage from being mistaken for a precise security fix. Recovery evidence includes both the withdrawn old authority and the functioning authorized path. The exposure repair needs its own check. Confirm that the sensitive value no longer enters the problematic log or interface, or that the endpoint issue has been addressed through the appropriate process. These checks answer different questions and should remain independently visible. A clear closeout records what passed, what remains uncertain, and which owner will perform the remaining validation.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The old value should be denied after the adopted containment action. Test the actual relevant service path in an authorized environment and preserve the outcome without exposing the credential. If a cache or replica still accepts it, record that as an unresolved containment condition rather than interpreting one successful revocation call as complete recovery. The new session should support legitimate activity under the updated policy. Northstar's student must be able to resume learning safely. This positive check prevents a broad outage from being mistaken for a precise security fix. Recovery evidence includes both the withdrawn old authority and the functioning authorized path. The exposure repair needs its own check. Confirm that the sensitive value no longer enters the problematic log or interface, or that the endpoint issue has been addressed through the appropriate process. These checks answer different questions and should remain independently visible. A clear closeout records what passed, what remains uncertain, and which owner will perform the remaining validation."
+        }
+      ],
+      "estimated_spoken_words": 161,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S35",
+      "chapter_id": "C09",
+      "chapter_title": "Response and recovery",
+      "title": "Explain the risk to people",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Student task",
+        "Concrete impact",
+        "Useful instruction"
+      ],
+      "narration_en_US": "The student task gives the incident meaning. An unauthorized session might expose private work, change enrollment information, or perform another action within the credential's authority. Describe the affected capability in plain language. Avoid assuming the most severe imaginable outcome when the available evidence supports a narrower scope. Concrete impact should be separated from potential impact. A vulnerable path may permit an action even when no record establishes that it occurred. Conversely, an observed unauthorized action deserves a direct statement of its evidence. Northstar's report uses separate fields for observed behavior, possible consequences, and unresolved questions. Useful instructions tell affected people what to do through trusted channels. That could include reauthentication or another owner-approved action, depending on the actual incident. This fictional lesson does not issue a real account notice. Its communication principle is to explain the relevant action, why it matters, and how completion will be checked without disclosing sensitive session values or unverified attribution.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The student task gives the incident meaning. An unauthorized session might expose private work, change enrollment information, or perform another action within the credential's authority. Describe the affected capability in plain language. Avoid assuming the most severe imaginable outcome when the available evidence supports a narrower scope. Concrete impact should be separated from potential impact. A vulnerable path may permit an action even when no record establishes that it occurred. Conversely, an observed unauthorized action deserves a direct statement of its evidence. Northstar's report uses separate fields for observed behavior, possible consequences, and unresolved questions. Useful instructions tell affected people what to do through trusted channels. That could include reauthentication or another owner-approved action, depending on the actual incident. This fictional lesson does not issue a real account notice. Its communication principle is to explain the relevant action, why it matters, and how completion will be checked without disclosing sensitive session values or unverified attribution."
+        }
+      ],
+      "estimated_spoken_words": 155,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S36",
+      "chapter_id": "C09",
+      "chapter_title": "Response and recovery",
+      "title": "Choose the control that matches",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Mechanism",
+        "Matching defense",
+        "Acceptance test"
+      ],
+      "narration_en_US": "The mechanism determines the most direct defense. A known identifier surviving login points toward rotation and old-context invalidation. A session accepted after logout points toward lifecycle enforcement. A token used for the wrong service points toward recipient and claim validation. Naming a fashionable technology is less useful than locating the failing boundary. The matching defense should explain its limits. HttpOnly reduces script access to a cookie but does not repair every consequence of script injection. TLS protects a channel but does not revoke an exposed bearer credential. A request authenticity token addresses request forgery while authorization still governs access to another student's private record. The acceptance test makes the choice concrete. State what should succeed, what should fail, and which evidence will distinguish the two. The next chapter asks eight questions using this method. Read the scenario, locate the boundary, and choose the answer that addresses the stated condition. Each question includes exactly one second of silence after all four options before the answer and explanation appear.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The mechanism determines the most direct defense. A known identifier surviving login points toward rotation and old-context invalidation. A session accepted after logout points toward lifecycle enforcement. A token used for the wrong service points toward recipient and claim validation. Naming a fashionable technology is less useful than locating the failing boundary. The matching defense should explain its limits. HttpOnly reduces script access to a cookie but does not repair every consequence of script injection. TLS protects a channel but does not revoke an exposed bearer credential. A request authenticity token addresses request forgery while authorization still governs access to another student's private record. The acceptance test makes the choice concrete. State what should succeed, what should fail, and which evidence will distinguish the two. The next chapter asks eight questions using this method. Read the scenario, locate the boundary, and choose the answer that addresses the stated condition. Each question includes exactly one second of silence after all four options before the answer and explanation appear."
+        }
+      ],
+      "estimated_spoken_words": 167,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S37",
+      "chapter_id": "C10",
+      "chapter_title": "Eight questions",
+      "title": "Question 1: check the boundary",
+      "tags": [
+        "M11",
+        "quiz"
+      ],
+      "on_screen_copy": [],
+      "narration_en_US": "Northstar keeps a known anonymous identifier after the user logs in. Which weakness does this describe? A. Session fixation. B. Expired certificate. C. Cross-site request forgery. D. Transport congestion. The correct answer is A. Session fixation concerns a known identifier surviving the transition into authenticated authority. The direct repair is to issue a fresh identifier at authentication and prevent the old context from selecting the new authority. A certificate issue concerns peer authentication, request forgery concerns an unwanted action through a browser, and congestion concerns transport capacity. Test both sides of the corrected transition: the old value is denied and the new value supports the intended authorized task. This scenario is a fictional application model, not evidence about a real school service.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Northstar keeps a known anonymous identifier after the user logs in. Which weakness does this describe? A. Session fixation. B. Expired certificate. C. Cross-site request forgery. D. Transport congestion."
+        },
+        {
+          "kind": "silence",
+          "seconds": 1
+        },
+        {
+          "kind": "spoken",
+          "text": "The correct answer is A. Session fixation concerns a known identifier surviving the transition into authenticated authority. The direct repair is to issue a fresh identifier at authentication and prevent the old context from selecting the new authority. A certificate issue concerns peer authentication, request forgery concerns an unwanted action through a browser, and congestion concerns transport capacity. Test both sides of the corrected transition: the old value is denied and the new value supports the intended authorized task. This scenario is a fictional application model, not evidence about a real school service."
+        }
+      ],
+      "estimated_spoken_words": 122,
+      "notes": "Read all options before exact 48000-frame hold"
+    },
+    {
+      "id": "S38",
+      "chapter_id": "C10",
+      "chapter_title": "Eight questions",
+      "title": "Question 2: check the boundary",
+      "tags": [
+        "M11",
+        "quiz"
+      ],
+      "on_screen_copy": [],
+      "narration_en_US": "Which cookie attribute restricts script access through document.cookie? A. Secure. B. HttpOnly. C. Path. D. SameSite. The correct answer is B. HttpOnly restricts script access to the cookie through that interface. Secure addresses transport conditions, SameSite affects inclusion in cross-site contexts, and Path helps define cookie scope. HttpOnly does not repair the underlying script injection vulnerability or prevent every action that malicious code might initiate in the page. Match the verb in the question to the mechanism: it asks about reading a cookie through script, not sending it over a connection. A complete response to script injection still addresses the injection path and evaluates affected authority.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Which cookie attribute restricts script access through document.cookie? A. Secure. B. HttpOnly. C. Path. D. SameSite."
+        },
+        {
+          "kind": "silence",
+          "seconds": 1
+        },
+        {
+          "kind": "spoken",
+          "text": "The correct answer is B. HttpOnly restricts script access to the cookie through that interface. Secure addresses transport conditions, SameSite affects inclusion in cross-site contexts, and Path helps define cookie scope. HttpOnly does not repair the underlying script injection vulnerability or prevent every action that malicious code might initiate in the page. Match the verb in the question to the mechanism: it asks about reading a cookie through script, not sending it over a connection. A complete response to script injection still addresses the injection path and evaluates affected authority."
+        }
+      ],
+      "estimated_spoken_words": 106,
+      "notes": "Read all options before exact 48000-frame hold"
+    },
+    {
+      "id": "S39",
+      "chapter_id": "C10",
+      "chapter_title": "Eight questions",
+      "title": "Question 3: check the boundary",
+      "tags": [
+        "M11",
+        "quiz"
+      ],
+      "on_screen_copy": [],
+      "narration_en_US": "The login screen appears after logout, but a copied old session value still accesses a protected page. Which result needs repair? A. The page title. B. The network route. C. Server-side session invalidation. D. The browser font. The correct answer is C. The service still accepts authority that the logout policy was expected to withdraw. Changing the browser display or deleting its own copy of a cookie does not invalidate another copy. The appropriate repair depends on the session architecture, but the acceptance test follows the old credential to the actual protected request. Verify that it is rejected after logout while a newly authenticated user can still perform legitimate work. The visual login screen proves only the display state in that browser, which is why the server decision is the stronger evidence here.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The login screen appears after logout, but a copied old session value still accesses a protected page. Which result needs repair? A. The page title. B. The network route. C. Server-side session invalidation. D. The browser font."
+        },
+        {
+          "kind": "silence",
+          "seconds": 1
+        },
+        {
+          "kind": "spoken",
+          "text": "The correct answer is C. The service still accepts authority that the logout policy was expected to withdraw. Changing the browser display or deleting its own copy of a cookie does not invalidate another copy. The appropriate repair depends on the session architecture, but the acceptance test follows the old credential to the actual protected request. Verify that it is rejected after logout while a newly authenticated user can still perform legitimate work. The visual login screen proves only the display state in that browser, which is why the server decision is the stronger evidence here."
+        }
+      ],
+      "estimated_spoken_words": 133,
+      "notes": "Read all options before exact 48000-frame hold"
+    },
+    {
+      "id": "S40",
+      "chapter_id": "C10",
+      "chapter_title": "Eight questions",
+      "title": "Question 4: check the boundary",
+      "tags": [
+        "M11",
+        "quiz"
+      ],
+      "on_screen_copy": [],
+      "narration_en_US": "A valid session and a valid request-authenticity token accompany a request to another student's private submission. Which separate check remains necessary? A. A larger receive window. B. A new page color. C. A longer cookie name. D. Resource-level authorization. The correct answer is D. Authorization determines whether this identity may perform the requested action on this particular object. A session establishes application context, and a request-authenticity mechanism addresses a different boundary. Neither automatically grants access to another student's private submission. The negative test should preserve a valid session and valid request structure while changing only the target object to one outside the user's permission. The intended denial then provides evidence about the authorization boundary rather than a failure caused by an unrelated malformed request.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "A valid session and a valid request-authenticity token accompany a request to another student's private submission. Which separate check remains necessary? A. A larger receive window. B. A new page color. C. A longer cookie name. D. Resource-level authorization."
+        },
+        {
+          "kind": "silence",
+          "seconds": 1
+        },
+        {
+          "kind": "spoken",
+          "text": "The correct answer is D. Authorization determines whether this identity may perform the requested action on this particular object. A session establishes application context, and a request-authenticity mechanism addresses a different boundary. Neither automatically grants access to another student's private submission. The negative test should preserve a valid session and valid request structure while changing only the target object to one outside the user's permission. The intended denial then provides evidence about the authorization boundary rather than a failure caused by an unrelated malformed request."
+        }
+      ],
+      "estimated_spoken_words": 124,
+      "notes": "Read all options before exact 48000-frame hold"
+    },
+    {
+      "id": "S41",
+      "chapter_id": "C10",
+      "chapter_title": "Eight questions",
+      "title": "Question 5: check the boundary",
+      "tags": [
+        "M11",
+        "quiz"
+      ],
+      "on_screen_copy": [],
+      "narration_en_US": "Maya remains logged in after her browser establishes a new TCP connection. What best explains this? A. An application session can outlive one transport connection. B. TCP sequence numbers are student passwords. C. Every connection is permanently open. D. A new connection proves session theft. The correct answer is A. Application continuity can be maintained through session credentials across multiple transport connections. TCP maintains byte-stream state, while application identity and lifecycle are managed at a different layer. A new connection does not by itself prove a new login or an account takeover. The diagram separates the browser workflow, transport connection, and application session so the evidence is interpreted at the correct layer. Questions using the word session should be read carefully because transport state and authenticated application context are related but distinct concepts.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Maya remains logged in after her browser establishes a new TCP connection. What best explains this? A. An application session can outlive one transport connection. B. TCP sequence numbers are student passwords. C. Every connection is permanently open. D. A new connection proves session theft."
+        },
+        {
+          "kind": "silence",
+          "seconds": 1
+        },
+        {
+          "kind": "spoken",
+          "text": "The correct answer is A. Application continuity can be maintained through session credentials across multiple transport connections. TCP maintains byte-stream state, while application identity and lifecycle are managed at a different layer. A new connection does not by itself prove a new login or an account takeover. The diagram separates the browser workflow, transport connection, and application session so the evidence is interpreted at the correct layer. Questions using the word session should be read carefully because transport state and authenticated application context are related but distinct concepts."
+        }
+      ],
+      "estimated_spoken_words": 133,
+      "notes": "Read all options before exact 48000-frame hold"
+    },
+    {
+      "id": "S42",
+      "chapter_id": "C10",
+      "chapter_title": "Eight questions",
+      "title": "Question 6: check the boundary",
+      "tags": [
+        "M11",
+        "quiz"
+      ],
+      "on_screen_copy": [],
+      "narration_en_US": "A correctly protected token intended for the library service is accepted by an administrative service. Which validation is most directly implicated? A. SVG aspect ratio. B. Expected audience and token purpose. C. The student's screen resolution. D. The number of browser tabs. The correct answer is B. The recipient must validate that the token is intended for its service and use. Correct cryptographic protection does not make a token valid for every audience or purpose. The application also needs its complete issuer, time, and policy checks, but the scenario specifically identifies a token intended for a different service. Test an appropriate token as the positive case and a token with the wrong audience as a separate negative case. This keeps the evidence focused on the recipient boundary instead of treating successful decoding as complete token validation.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "A correctly protected token intended for the library service is accepted by an administrative service. Which validation is most directly implicated? A. SVG aspect ratio. B. Expected audience and token purpose. C. The student's screen resolution. D. The number of browser tabs."
+        },
+        {
+          "kind": "silence",
+          "seconds": 1
+        },
+        {
+          "kind": "spoken",
+          "text": "The correct answer is B. The recipient must validate that the token is intended for its service and use. Correct cryptographic protection does not make a token valid for every audience or purpose. The application also needs its complete issuer, time, and policy checks, but the scenario specifically identifies a token intended for a different service. Test an appropriate token as the positive case and a token with the wrong audience as a separate negative case. This keeps the evidence focused on the recipient boundary instead of treating successful decoding as complete token validation."
+        }
+      ],
+      "estimated_spoken_words": 136,
+      "notes": "Read all options before exact 48000-frame hold"
+    },
+    {
+      "id": "S43",
+      "chapter_id": "C10",
+      "chapter_title": "Eight questions",
+      "title": "Question 7: check the boundary",
+      "tags": [
+        "M11",
+        "quiz"
+      ],
+      "on_screen_copy": [],
+      "narration_en_US": "A session stays active indefinitely because every request refreshes its only inactivity timer. Which policy adds a total lifetime limit? A. A wider cookie path. B. A decorative countdown only. C. An absolute timeout. D. A larger packet buffer. The correct answer is C. An absolute timeout bounds the total permitted age of the session independently of continued activity. An idle timeout answers a different question: how long the session has been inactive. Both should be enforced by the server under the adopted policy. A browser countdown can help communicate expiry but cannot be the only authority for rejecting late requests. Test a continuously active session as well as an idle one, and preserve the clock basis and expected boundary. This demonstrates the distinction without inventing a universal timeout value for every application.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "A session stays active indefinitely because every request refreshes its only inactivity timer. Which policy adds a total lifetime limit? A. A wider cookie path. B. A decorative countdown only. C. An absolute timeout. D. A larger packet buffer."
+        },
+        {
+          "kind": "silence",
+          "seconds": 1
+        },
+        {
+          "kind": "spoken",
+          "text": "The correct answer is C. An absolute timeout bounds the total permitted age of the session independently of continued activity. An idle timeout answers a different question: how long the session has been inactive. Both should be enforced by the server under the adopted policy. A browser countdown can help communicate expiry but cannot be the only authority for rejecting late requests. Test a continuously active session as well as an idle one, and preserve the clock basis and expected boundary. This demonstrates the distinction without inventing a universal timeout value for every application."
+        }
+      ],
+      "estimated_spoken_words": 133,
+      "notes": "Read all options before exact 48000-frame hold"
+    },
+    {
+      "id": "S44",
+      "chapter_id": "C10",
+      "chapter_title": "Eight questions",
+      "title": "Question 8: check the boundary",
+      "tags": [
+        "M11",
+        "quiz"
+      ],
+      "on_screen_copy": [],
+      "narration_en_US": "A local synthetic fixture rejects the old identifier after rotation and accepts the replacement. What has been established? A. Every production service is secure. B. A real attacker has been identified. C. The learner has passed the official exam. D. The modeled rotation behavior passed its stated checks. The correct answer is D. The evidence establishes the behavior of the supplied model under the stated checks. It supports learning about rotation and provides a reusable test structure. It does not establish the behavior of an unrelated production service, identify a real person, or count as an official certification result. Preserve the implementation, command output, and acceptance condition together. The next validation layer would exercise the actual authorized application path, including its integration and concurrency behavior. Keeping the evidence boundary clear makes the result more useful rather than less valuable.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "A local synthetic fixture rejects the old identifier after rotation and accepts the replacement. What has been established? A. Every production service is secure. B. A real attacker has been identified. C. The learner has passed the official exam. D. The modeled rotation behavior passed its stated checks."
+        },
+        {
+          "kind": "silence",
+          "seconds": 1
+        },
+        {
+          "kind": "spoken",
+          "text": "The correct answer is D. The evidence establishes the behavior of the supplied model under the stated checks. It supports learning about rotation and provides a reusable test structure. It does not establish the behavior of an unrelated production service, identify a real person, or count as an official certification result. Preserve the implementation, command output, and acceptance condition together. The next validation layer would exercise the actual authorized application path, including its integration and concurrency behavior. Keeping the evidence boundary clear makes the result more useful rather than less valuable."
+        }
+      ],
+      "estimated_spoken_words": 139,
+      "notes": "Read all options before exact 48000-frame hold"
+    },
+    {
+      "id": "S45",
+      "chapter_id": "C11",
+      "chapter_title": "Synthesis and next practice",
+      "title": "Reconstruct the whole chain",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Acquire authority",
+        "Present authority",
+        "Withdraw authority"
+      ],
+      "narration_en_US": "Acquire authority is the first stage to explain. A person may authenticate legitimately, while an unauthorized party may obtain a credential through exposure, prediction, or an unsafe transition. Those mechanisms are different even if a later request carries the same kind of token. Preserve the distinction when naming the problem. Present authority is the point where the recipient evaluates the credential and the requested action. Transport protection, token validation, session lifecycle, and authorization contribute different checks. A valid signature or an encrypted channel cannot answer every question on its own. Follow the request to the decision that permits or denies the actual resource operation. Withdraw authority completes the lifecycle. Rotation, expiry, logout, and incident revocation need enforceable behavior and evidence. Tally's final diagram connects all three stages so a defense is placed where it can change the result. Use that chain to explain a new scenario in your own words, then propose one positive and one negative test for its most important boundary.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Acquire authority is the first stage to explain. A person may authenticate legitimately, while an unauthorized party may obtain a credential through exposure, prediction, or an unsafe transition. Those mechanisms are different even if a later request carries the same kind of token. Preserve the distinction when naming the problem. Present authority is the point where the recipient evaluates the credential and the requested action. Transport protection, token validation, session lifecycle, and authorization contribute different checks. A valid signature or an encrypted channel cannot answer every question on its own. Follow the request to the decision that permits or denies the actual resource operation. Withdraw authority completes the lifecycle. Rotation, expiry, logout, and incident revocation need enforceable behavior and evidence. Tally's final diagram connects all three stages so a defense is placed where it can change the result. Use that chain to explain a new scenario in your own words, then propose one positive and one negative test for its most important boundary."
+        }
+      ],
+      "estimated_spoken_words": 163,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S46",
+      "chapter_id": "C11",
+      "chapter_title": "Synthesis and next practice",
+      "title": "Read the verbs in the question",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Read",
+        "Send",
+        "Accept"
+      ],
+      "narration_en_US": "Read, send, and accept identify different security questions. If script must not read a cookie, the relevant browser attribute differs from the attribute that restricts transport. If a request must not carry credentials in a cross-site context, the browser's inclusion rules become important. Read the exact action before selecting a familiar term. Send does not imply successful use. A request can carry a credential that is expired, revoked, intended for another service, or insufficient for the requested object. Likewise, a captured packet can demonstrate observation without demonstrating a completed application action. Look for the recipient's actual decision when a question asks whether takeover succeeded. Accept also needs scope. An application can accept a session while denying access to a particular student's work. That is normal when authorization is doing its job. In your practice notes, write one sentence naming the action and one sentence naming the boundary. This small habit reduces confusion between authentication, session management, transport behavior, and resource permissions.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Read, send, and accept identify different security questions. If script must not read a cookie, the relevant browser attribute differs from the attribute that restricts transport. If a request must not carry credentials in a cross-site context, the browser's inclusion rules become important. Read the exact action before selecting a familiar term. Send does not imply successful use. A request can carry a credential that is expired, revoked, intended for another service, or insufficient for the requested object. Likewise, a captured packet can demonstrate observation without demonstrating a completed application action. Look for the recipient's actual decision when a question asks whether takeover succeeded. Accept also needs scope. An application can accept a session while denying access to a particular student's work. That is normal when authorization is doing its job. In your practice notes, write one sentence naming the action and one sentence naming the boundary. This small habit reduces confusion between authentication, session management, transport behavior, and resource permissions."
+        }
+      ],
+      "estimated_spoken_words": 161,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S47",
+      "chapter_id": "C11",
+      "chapter_title": "Synthesis and next practice",
+      "title": "A bounded practice task",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Local fixture",
+        "Explain the result",
+        "Name the limit"
+      ],
+      "narration_en_US": "The local fixture is available with this lesson's source. It models rotation, revocation, a simple transport-window distinction, and an authorization decision using symbolic values. Run it only as the documented local exercise. It requires no captured credentials, outside target, or network traffic. Explain the result before changing the model. Identify which assertion represents a legitimate request and which represents an unauthorized or expired condition. Then describe what would have to change for the negative case to be accepted. That reasoning demonstrates understanding of the model rather than memorization of a printed success message. Name the limit of the evidence. Completing the script proves that the supplied model behaved as checked in that run. It does not prove that a production application is secure, that the learner passed a certification exam, or that a real incident was resolved. Those outcomes require their own evidence. Keep your explanation, command output, and next question together in the learning record.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "The local fixture is available with this lesson's source. It models rotation, revocation, a simple transport-window distinction, and an authorization decision using symbolic values. Run it only as the documented local exercise. It requires no captured credentials, outside target, or network traffic. Explain the result before changing the model. Identify which assertion represents a legitimate request and which represents an unauthorized or expired condition. Then describe what would have to change for the negative case to be accepted. That reasoning demonstrates understanding of the model rather than memorization of a printed success message. Name the limit of the evidence. Completing the script proves that the supplied model behaved as checked in that run. It does not prove that a production application is secure, that the learner passed a certification exam, or that a real incident was resolved. Those outcomes require their own evidence. Keep your explanation, command output, and next question together in the learning record."
+        }
+      ],
+      "estimated_spoken_words": 156,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    },
+    {
+      "id": "S48",
+      "chapter_id": "C11",
+      "chapter_title": "Synthesis and next practice",
+      "title": "Close the Northstar lesson",
+      "tags": [
+        "M11",
+        "Session Hijacking",
+        "simulated"
+      ],
+      "on_screen_copy": [
+        "Protect continuity",
+        "Test the boundary",
+        "Keep useful evidence"
+      ],
+      "narration_en_US": "Protect continuity without granting unlimited trust. Northstar's students need a smooth learning experience, and the service needs a disciplined way to connect requests to the right identity. A session credential provides continuity only within the rules the server enforces. Its custody, scope, lifetime, and withdrawal all contribute to that relationship. Test the boundary that matters in the scenario. Distinguish application sessions from transport state, fixation from theft, replay from acquisition, and request authenticity from authorization. Choose controls that address the actual mechanism and retain a working authorized path. The most useful explanation connects the problem, the defense, and the observable result. Keep useful evidence with clear limits. This film's fictional cases and local assertions support learning; actual target testing, personal quiz results, and human review remain separate. Return to any question whose explanation you could not yet give without the answer key. Tally's final reminder is simple: trace the authority, check the decision, and verify when that authority must stop working.",
+      "audio_segments": [
+        {
+          "kind": "spoken",
+          "text": "Protect continuity without granting unlimited trust. Northstar's students need a smooth learning experience, and the service needs a disciplined way to connect requests to the right identity. A session credential provides continuity only within the rules the server enforces. Its custody, scope, lifetime, and withdrawal all contribute to that relationship. Test the boundary that matters in the scenario. Distinguish application sessions from transport state, fixation from theft, replay from acquisition, and request authenticity from authorization. Choose controls that address the actual mechanism and retain a working authorized path. The most useful explanation connects the problem, the defense, and the observable result. Keep useful evidence with clear limits. This film's fictional cases and local assertions support learning; actual target testing, personal quiz results, and human review remain separate. Return to any question whose explanation you could not yet give without the answer key. Tally's final reminder is simple: trace the authority, check the decision, and verify when that authority must stop working."
+        }
+      ],
+      "estimated_spoken_words": 161,
+      "notes": "Original educational scenario; final timing from measured PCM",
+      "review_requirements": [
+        "8% bottom safe area",
+        "source-bound semantics",
+        "exact narration timing"
+      ]
+    }
+  ]
+}

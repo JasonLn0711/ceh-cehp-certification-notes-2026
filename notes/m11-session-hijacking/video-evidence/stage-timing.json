@@ -1,0 +1,1594 @@
+{
+  "scope": "Selected major attempts; complete raw ledger remains local. Overlapping wall times must not be summed. Conversation/authoring labor not measured.",
+  "runs": [
+    {
+      "run_id": "20261020T160400Z-50e003e9",
+      "target": "M11:three-worker-narration",
+      "kind": "retry",
+      "status": "completed",
+      "parent_run": "20261020T154558Z-65911375",
+      "wall_seconds": 4847.360733820999,
+      "stages": [],
+      "phase_summary": {
+        "queue_wait_seconds": {},
+        "render_window_seconds": 0,
+        "last_render_node": null,
+        "single_job_tail_seconds": 0,
+        "all_started_renders_verified": true,
+        "note": "Render window/tail cover verified render completions only; failed work remains in stage totals. Wall time and overlapping summed work differ."
+      }
+    },
+    {
+      "run_id": "20261020T160524Z-e314698c",
+      "target": "M11:ready-scene-alignment",
+      "kind": "retry",
+      "status": "completed",
+      "parent_run": "20261020T160429Z-429a8fbb",
+      "wall_seconds": 4856.716365100001,
+      "stages": [
+        {
+          "node": "force_align:S05",
+          "seconds": 1.4111830299952999,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S05",
+          "seconds": 0.9509056899987627,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S01",
+          "seconds": 0.5097573910024948,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S01",
+          "seconds": 1.4577066420024494,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S04",
+          "seconds": 0.3897701280002366,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S04",
+          "seconds": 0.8504358489954029,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S02",
+          "seconds": 0.6424185469950316,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S02",
+          "seconds": 0.9747405199959758,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S03",
+          "seconds": 0.4198140769949532,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S03",
+          "seconds": 1.534925135994854,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S37",
+          "seconds": 0.4715805289961281,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S37",
+          "seconds": 1.7646847529977094,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S38",
+          "seconds": 49.73713830100314,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S38",
+          "seconds": 0.6203257410015794,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S40",
+          "seconds": 80.53345134200208,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S40",
+          "seconds": 0.6631583150010556,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S39",
+          "seconds": 65.77324591700017,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S39",
+          "seconds": 0.6766979580061161,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S42",
+          "seconds": 59.707223940000404,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S42",
+          "seconds": 0.5374895519998972,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S44",
+          "seconds": 62.97026259999984,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S44",
+          "seconds": 0.42422082900156965,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S43",
+          "seconds": 66.27759744899959,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S43",
+          "seconds": 0.687424068004475,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S12",
+          "seconds": 61.56414889900043,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S12",
+          "seconds": 0.5977620990015566,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S07",
+          "seconds": 65.58073411900114,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S07",
+          "seconds": 0.3364649100039969,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S18",
+          "seconds": 67.20727987700229,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S18",
+          "seconds": 0.724758465999912,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S09",
+          "seconds": 57.29007116599678,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S09",
+          "seconds": 0.5030693809967488,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S08",
+          "seconds": 58.03371161800169,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S08",
+          "seconds": 0.45840867399965646,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S15",
+          "seconds": 60.90649882199796,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S15",
+          "seconds": 0.9629743789992062,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S21",
+          "seconds": 48.20063659999869,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S21",
+          "seconds": 0.5982275889982702,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S36",
+          "seconds": 66.42628942600277,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S36",
+          "seconds": 0.563724377003382,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S26",
+          "seconds": 60.258566586002416,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S26",
+          "seconds": 0.684260046997224,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S25",
+          "seconds": 53.69623185799719,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S25",
+          "seconds": 1.4936499819959863,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S14",
+          "seconds": 60.58020161400054,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S14",
+          "seconds": 0.8562576600015745,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S32",
+          "seconds": 51.23488378099864,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S32",
+          "seconds": 0.5254094030024135,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S29",
+          "seconds": 72.13873524899827,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S29",
+          "seconds": 0.9411515190004138,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S30",
+          "seconds": 57.8415769380008,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S30",
+          "seconds": 0.30026657200505724,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S11",
+          "seconds": 58.42250676000549,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S11",
+          "seconds": 0.7606853880060953,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S20",
+          "seconds": 59.732404863993,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S20",
+          "seconds": 1.2479733060026774,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S13",
+          "seconds": 62.85163185700367,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S13",
+          "seconds": 0.5972102530067787,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S45",
+          "seconds": 49.12421750299836,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S45",
+          "seconds": 0.6754480179952225,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S22",
+          "seconds": 53.468528200995934,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S22",
+          "seconds": 0.6216132839981583,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S27",
+          "seconds": 55.87376097699598,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S27",
+          "seconds": 0.5539679499997874,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S10",
+          "seconds": 61.35719095799868,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S10",
+          "seconds": 1.2545951640058775,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S19",
+          "seconds": 60.55063034500199,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S19",
+          "seconds": 0.6649500839994289,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S34",
+          "seconds": 54.962068603999796,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S34",
+          "seconds": 0.9193820270011202,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S24",
+          "seconds": 53.32950958100264,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S24",
+          "seconds": 0.9357762889994774,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S46",
+          "seconds": 66.50263100199663,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S46",
+          "seconds": 0.5659200059963041,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S33",
+          "seconds": 61.510521297001105,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S33",
+          "seconds": 0.9723695009961375,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S48",
+          "seconds": 55.69695796199812,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S48",
+          "seconds": 0.6008328250027262,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S16",
+          "seconds": 58.20481986999948,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S16",
+          "seconds": 0.8989591220015427,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S17",
+          "seconds": 67.28344805199595,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S17",
+          "seconds": 0.894108430002234,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S23",
+          "seconds": 60.036516505999316,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S23",
+          "seconds": 0.42572391699650325,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S47",
+          "seconds": 64.26786192200234,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S47",
+          "seconds": 0.5401951269959682,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S35",
+          "seconds": 57.657423992000986,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S35",
+          "seconds": 0.44156641500012483,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S28",
+          "seconds": 60.10880923399964,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S28",
+          "seconds": 1.0088850769971032,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S06",
+          "seconds": 50.65726762099803,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S06",
+          "seconds": 0.39107154100202024,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S31",
+          "seconds": 50.574520549002045,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S31",
+          "seconds": 0.5341388820015709,
+          "status": "node_verified"
+        },
+        {
+          "node": "force_align:S41",
+          "seconds": 69.74193673000264,
+          "status": "node_verified"
+        },
+        {
+          "node": "build_film:S41",
+          "seconds": 0.42305686799954856,
+          "status": "node_verified"
+        }
+      ],
+      "phase_summary": {
+        "queue_wait_seconds": {},
+        "render_window_seconds": 0,
+        "last_render_node": null,
+        "single_job_tail_seconds": 0,
+        "all_started_renders_verified": true,
+        "note": "Render window/tail cover verified render completions only; failed work remains in stage totals. Wall time and overlapping summed work differ."
+      }
+    },
+    {
+      "run_id": "20261020T165311Z-b0cc22eb",
+      "target": "M11:ready-chapter-preparation",
+      "kind": "routine",
+      "status": "completed",
+      "parent_run": null,
+      "wall_seconds": 2078.461616738001,
+      "stages": [
+        {
+          "node": "prepare:C01",
+          "seconds": 1.380826350999996,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C03",
+          "seconds": 75.4484237910001,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C04",
+          "seconds": 81.42479090100096,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C05",
+          "seconds": 78.36381648600218,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C06",
+          "seconds": 72.14770477399725,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C11",
+          "seconds": 78.86181796399615,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C09",
+          "seconds": 82.46592319000047,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C07",
+          "seconds": 67.64707021999493,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C02",
+          "seconds": 61.96974887300166,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C08",
+          "seconds": 51.51721811700554,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C10",
+          "seconds": 86.11210880900035,
+          "status": "node_verified"
+        }
+      ],
+      "phase_summary": {
+        "queue_wait_seconds": {},
+        "render_window_seconds": 0,
+        "last_render_node": null,
+        "single_job_tail_seconds": 0,
+        "all_started_renders_verified": true,
+        "note": "Render window/tail cover verified render completions only; failed work remains in stage totals. Wall time and overlapping summed work differ."
+      }
+    },
+    {
+      "run_id": "20261020T173612Z-2ad30f59",
+      "target": "qa:integration:all",
+      "kind": "routine",
+      "status": "verified",
+      "parent_run": null,
+      "wall_seconds": 326.5313971509968,
+      "stages": [
+        {
+          "node": "qa-boundaries",
+          "seconds": 270.97122018200025,
+          "status": "node_verified"
+        },
+        {
+          "node": "qa-assets",
+          "seconds": 42.34042388100352,
+          "status": "node_verified"
+        },
+        {
+          "node": "qa-quiz-negative",
+          "seconds": 13.21101493199967,
+          "status": "node_verified"
+        }
+      ],
+      "phase_summary": {
+        "queue_wait_seconds": {},
+        "render_window_seconds": 0,
+        "last_render_node": null,
+        "single_job_tail_seconds": 0,
+        "all_started_renders_verified": true,
+        "note": "Render window/tail cover verified render completions only; failed work remains in stage totals. Wall time and overlapping summed work differ."
+      }
+    },
+    {
+      "run_id": "20261020T174534Z-b84ff2b7",
+      "target": "qa:full",
+      "kind": "routine",
+      "status": "completed",
+      "parent_run": null,
+      "wall_seconds": 541.0714591459982,
+      "stages": [],
+      "phase_summary": {
+        "queue_wait_seconds": {},
+        "render_window_seconds": 0,
+        "last_render_node": null,
+        "single_job_tail_seconds": 0,
+        "all_started_renders_verified": true,
+        "note": "Render window/tail cover verified render completions only; failed work remains in stage totals. Wall time and overlapping summed work differ."
+      }
+    },
+    {
+      "run_id": "20261020T175442Z-6404978f",
+      "target": "checks",
+      "kind": "routine",
+      "status": "verified",
+      "parent_run": null,
+      "wall_seconds": 4208.607354149004,
+      "stages": [
+        {
+          "node": "speech:S01",
+          "seconds": 0.23935189800249645,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S01",
+          "seconds": 0.3191110909974668,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S01",
+          "seconds": 0.27625575799902435,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S02",
+          "seconds": 0.21206052700290456,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S02",
+          "seconds": 0.3050839099960285,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S02",
+          "seconds": 0.36830816799920285,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S03",
+          "seconds": 0.7383758529977058,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S03",
+          "seconds": 0.31292179499723716,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S03",
+          "seconds": 0.23090460799721768,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S04",
+          "seconds": 0.20239608699921519,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S04",
+          "seconds": 0.3096664109980338,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S04",
+          "seconds": 0.45506686399312457,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C01",
+          "seconds": 0.7535468060013955,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S05",
+          "seconds": 0.4054398520020186,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S05",
+          "seconds": 0.1293309250031598,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S05",
+          "seconds": 0.2626903839991428,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S06",
+          "seconds": 0.5701853119971929,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S06",
+          "seconds": 0.29808647100435337,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S06",
+          "seconds": 0.4428789260055055,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S07",
+          "seconds": 0.7827096130058635,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S07",
+          "seconds": 0.30895534100272926,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S07",
+          "seconds": 0.36774124200019287,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S08",
+          "seconds": 0.7434513910047826,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S08",
+          "seconds": 0.29268534899892984,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S08",
+          "seconds": 0.4490476299979491,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C02",
+          "seconds": 0.4513238329964224,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S09",
+          "seconds": 0.20752548200107412,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S09",
+          "seconds": 0.2961521400065976,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S09",
+          "seconds": 0.25009065499762073,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S10",
+          "seconds": 0.20849933499994222,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S10",
+          "seconds": 0.29443387300125323,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S10",
+          "seconds": 0.4267953660018975,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S11",
+          "seconds": 0.20806482400075765,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S11",
+          "seconds": 0.10904840000148397,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S11",
+          "seconds": 0.42040872600045986,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S12",
+          "seconds": 0.3312084040007903,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S12",
+          "seconds": 0.11325973200291628,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S12",
+          "seconds": 0.43039234900061274,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C03",
+          "seconds": 0.463983128000109,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S13",
+          "seconds": 0.21573870800057193,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S13",
+          "seconds": 0.29176334999647224,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S13",
+          "seconds": 0.43365865999658126,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S14",
+          "seconds": 0.7610661939979764,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S14",
+          "seconds": 0.12465954499930376,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S14",
+          "seconds": 0.33959683200373547,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S15",
+          "seconds": 0.7922011880000355,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S15",
+          "seconds": 0.3071232479996979,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S15",
+          "seconds": 0.4437711790014873,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S16",
+          "seconds": 0.7683817750003072,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S16",
+          "seconds": 0.3163345529974322,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S16",
+          "seconds": 0.2557134730013786,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C04",
+          "seconds": 0.8034234309961903,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S17",
+          "seconds": 0.21258889199816622,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S17",
+          "seconds": 0.30569075600215,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S17",
+          "seconds": 0.4298039810018963,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S18",
+          "seconds": 0.2179945910029346,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S18",
+          "seconds": 0.11065711500123143,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S18",
+          "seconds": 0.4262592220038641,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S19",
+          "seconds": 0.2056355180029641,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S19",
+          "seconds": 0.10567663200345123,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S19",
+          "seconds": 0.335624920000555,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S20",
+          "seconds": 0.3359596239970415,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S20",
+          "seconds": 0.11725143499643309,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S20",
+          "seconds": 0.2459626810014015,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C05",
+          "seconds": 0.8012683320048382,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S21",
+          "seconds": 0.2156882439958281,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S21",
+          "seconds": 0.28937137299362803,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S21",
+          "seconds": 0.25184087399975397,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S22",
+          "seconds": 0.7436282839989872,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S22",
+          "seconds": 0.2916680060006911,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S22",
+          "seconds": 0.4249977530053002,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S23",
+          "seconds": 0.19742984200274805,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S23",
+          "seconds": 0.10449175399844535,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S23",
+          "seconds": 0.4169350689990097,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S24",
+          "seconds": 0.5611847879990819,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S24",
+          "seconds": 0.12476408799557248,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S24",
+          "seconds": 0.45210397300252225,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C06",
+          "seconds": 0.745896790002007,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S25",
+          "seconds": 0.20691855499899248,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S25",
+          "seconds": 0.2985471729989513,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S25",
+          "seconds": 0.4335295239943662,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S26",
+          "seconds": 0.20613607600535033,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S26",
+          "seconds": 0.41377338099846384,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S26",
+          "seconds": 0.42669830900558736,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S27",
+          "seconds": 0.2206217029961408,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S27",
+          "seconds": 0.109032414999092,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S27",
+          "seconds": 0.4347274239989929,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S28",
+          "seconds": 0.695354146999307,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S28",
+          "seconds": 0.29678498500288697,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S28",
+          "seconds": 0.4817013709980529,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C07",
+          "seconds": 0.7998329900001409,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S29",
+          "seconds": 0.6567538599992986,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S29",
+          "seconds": 0.29292438700213097,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S29",
+          "seconds": 0.44043812900054036,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S30",
+          "seconds": 0.2043131850005011,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S30",
+          "seconds": 0.29141109400370624,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S30",
+          "seconds": 0.5239378879996366,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S31",
+          "seconds": 0.20544782099750591,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S31",
+          "seconds": 0.12860227000055602,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S31",
+          "seconds": 0.2555938570003491,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S32",
+          "seconds": 0.7406835700021475,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S32",
+          "seconds": 0.12312494000070728,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S32",
+          "seconds": 0.435590813998715,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C08",
+          "seconds": 0.7637499279953772,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S33",
+          "seconds": 0.22606583399465308,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S33",
+          "seconds": 0.30182394800067414,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S33",
+          "seconds": 0.33962060599878896,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S34",
+          "seconds": 0.19624730099894805,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S34",
+          "seconds": 0.2929950590041699,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S34",
+          "seconds": 0.24900313699617982,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S35",
+          "seconds": 0.5543858440069016,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S35",
+          "seconds": 0.10935657400113996,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S35",
+          "seconds": 0.432045718000154,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S36",
+          "seconds": 0.3549798309977632,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S36",
+          "seconds": 0.30541406699921936,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S36",
+          "seconds": 0.5682791840008576,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C09",
+          "seconds": 0.7718602910026675,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S37",
+          "seconds": 0.1832617330001085,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S37",
+          "seconds": 0.10302923000563169,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S37",
+          "seconds": 0.2418785299960291,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S38",
+          "seconds": 0.5841355450029369,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S38",
+          "seconds": 0.10816881700156955,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S38",
+          "seconds": 0.2577289379987633,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S39",
+          "seconds": 0.6393560139986221,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S39",
+          "seconds": 0.28988780199870234,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S39",
+          "seconds": 0.23832092300290242,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S40",
+          "seconds": 0.17955102199630346,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S40",
+          "seconds": 0.10743633899983251,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S40",
+          "seconds": 0.4555836579966126,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S41",
+          "seconds": 0.5159076350028045,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S41",
+          "seconds": 0.29031367199786473,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S41",
+          "seconds": 0.4268878910006606,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S42",
+          "seconds": 0.5361493919990608,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S42",
+          "seconds": 0.2943542380016879,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S42",
+          "seconds": 0.4322100049976143,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S43",
+          "seconds": 0.18065175499941688,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S43",
+          "seconds": 0.11488473600184079,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S43",
+          "seconds": 0.24676946199906524,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S44",
+          "seconds": 0.1953235259934445,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S44",
+          "seconds": 0.2972901670000283,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S44",
+          "seconds": 0.42398045799927786,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C10",
+          "seconds": 0.7160174700038624,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S45",
+          "seconds": 0.215614419998019,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S45",
+          "seconds": 0.30274823299987474,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S45",
+          "seconds": 0.43893173200194724,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S46",
+          "seconds": 0.19963255600305274,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S46",
+          "seconds": 0.12059366599714849,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S46",
+          "seconds": 0.4429078980028862,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S47",
+          "seconds": 0.5961137539998163,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S47",
+          "seconds": 0.30143358100031037,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S47",
+          "seconds": 0.24572253600490512,
+          "status": "node_verified"
+        },
+        {
+          "node": "speech:S48",
+          "seconds": 0.5537137479986995,
+          "status": "node_verified"
+        },
+        {
+          "node": "align:S48",
+          "seconds": 0.2936279839996132,
+          "status": "node_verified"
+        },
+        {
+          "node": "scene:S48",
+          "seconds": 0.42088988899922697,
+          "status": "node_verified"
+        },
+        {
+          "node": "prepare:C11",
+          "seconds": 0.41512630299985176,
+          "status": "node_verified"
+        },
+        {
+          "node": "root",
+          "seconds": 116.99747939700319,
+          "status": "node_verified"
+        },
+        {
+          "node": "audio-review",
+          "seconds": 6.957374680998328,
+          "status": "node_verified"
+        },
+        {
+          "node": "render:C02",
+          "seconds": 504.847734023002,
+          "status": "node_verified"
+        },
+        {
+          "node": "render:C10",
+          "seconds": 883.2097414450036,
+          "status": "node_verified"
+        },
+        {
+          "node": "render:C07",
+          "seconds": 492.6212803160015,
+          "status": "node_verified"
+        },
+        {
+          "node": "render:C04",
+          "seconds": 486.16731599899504,
+          "status": "node_verified"
+        },
+        {
+          "node": "render:C05",
+          "seconds": 496.7111833269955,
+          "status": "node_verified"
+        },
+        {
+          "node": "render:C09",
+          "seconds": 481.9325811900053,
+          "status": "node_verified"
+        },
+        {
+          "node": "render:C01",
+          "seconds": 471.2980503009967,
+          "status": "node_verified"
+        },
+        {
+          "node": "render:C03",
+          "seconds": 490.8995821990029,
+          "status": "node_verified"
+        },
+        {
+          "node": "render:C06",
+          "seconds": 481.1849871089944,
+          "status": "node_verified"
+        },
+        {
+          "node": "render:C08",
+          "seconds": 498.07414020500437,
+          "status": "node_verified"
+        },
+        {
+          "node": "render:C11",
+          "seconds": 495.7288324359979,
+          "status": "node_verified"
+        },
+        {
+          "node": "master",
+          "seconds": 901.3655446179982,
+          "status": "node_verified"
+        },
+        {
+          "node": "checks:frames",
+          "seconds": 42.79123991699453,
+          "status": "node_verified"
+        },
+        {
+          "node": "checks:audio",
+          "seconds": 99.15328628299903,
+          "status": "node_verified"
+        },
+        {
+          "node": "checks:late",
+          "seconds": 16.977230980002787,
+          "status": "node_verified"
+        },
+        {
+          "node": "checks",
+          "seconds": 0.006150409004476387,
+          "status": "node_verified"
+        }
+      ],
+      "phase_summary": {
+        "queue_wait_seconds": {
+          "render:C10": 3.885177222000493,
+          "render:C02": 5.266788048997114,
+          "render:C07": 512.8444537870018,
+          "render:C04": 890.074924018998,
+          "render:C05": 1008.2415254480002,
+          "render:C09": 1378.9826420440004,
+          "render:C01": 1507.7118079000065,
+          "render:C03": 1863.6771787129983,
+          "render:C06": 1981.7476286300007,
+          "render:C08": 2357.361035826005,
+          "render:C11": 2465.656963741996
+        },
+        "render_window_seconds": 2957.5116187999956,
+        "last_render_node": "render:C11",
+        "single_job_tail_seconds": 105.94893910799874,
+        "all_started_renders_verified": true,
+        "note": "Render window/tail cover verified render completions only; failed work remains in stage totals. Wall time and overlapping summed work differ."
+      }
+    },
+    {
+      "run_id": "20261020T190514Z-35ba87b4",
+      "target": "package",
+      "kind": "delivery",
+      "status": "interrupted",
+      "parent_run": null,
+      "wall_seconds": 104.33144689800247,
+      "stages": [
+        {
+          "node": "delivery",
+          "seconds": 18.32250029200077,
+          "status": "node_verified"
+        },
+        {
+          "node": "package",
+          "seconds": 43.273361038001894,
+          "status": "interrupted"
+        }
+      ],
+      "phase_summary": {
+        "queue_wait_seconds": {},
+        "render_window_seconds": 0,
+        "last_render_node": null,
+        "single_job_tail_seconds": 0,
+        "all_started_renders_verified": true,
+        "note": "Render window/tail cover verified render completions only; failed work remains in stage totals. Wall time and overlapping summed work differ."
+      }
+    },
+    {
+      "run_id": "20261020T190725Z-6797fb91",
+      "target": "package",
+      "kind": "retry",
+      "status": "verified",
+      "parent_run": "20261020T190514Z-35ba87b4",
+      "wall_seconds": 202.0820362450031,
+      "stages": [
+        {
+          "node": "delivery",
+          "seconds": 18.22652551200008,
+          "status": "node_verified"
+        },
+        {
+          "node": "package",
+          "seconds": 138.84502444899408,
+          "status": "node_verified"
+        }
+      ],
+      "phase_summary": {
+        "queue_wait_seconds": {},
+        "render_window_seconds": 0,
+        "last_render_node": null,
+        "single_job_tail_seconds": 0,
+        "all_started_renders_verified": true,
+        "note": "Render window/tail cover verified render completions only; failed work remains in stage totals. Wall time and overlapping summed work differ."
+      }
+    }
+  ]
+}

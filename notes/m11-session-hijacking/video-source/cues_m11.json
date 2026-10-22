@@ -1,0 +1,202 @@
+{
+  "S01": [
+    "Welcome back to Northstar Learning Center",
+    "A session credential carries continuity between requests",
+    "This masterclass connects application sessions, browser behavior, transport connections, and defensive evidence"
+  ],
+  "S02": [
+    "Authentication establishes an identity with an acceptable level of assurance",
+    "Continuity connects later requests to the established context",
+    "Authorization decides whether that identity may perform this action on this object"
+  ],
+  "S03": [
+    "The browser ticket in our first model is an opaque random identifier",
+    "The session store is the authority for this model",
+    "The course request contains the ticket and the requested resource"
+  ],
+  "S04": [
+    "Obtaining a ticket can involve theft or prediction",
+    "Choosing a ticket before the victim authenticates describes the central idea of session fixation",
+    "Reusing a ticket describes replay"
+  ],
+  "S05": [
+    "Create session identifiers with a mature framework and a cryptographically secure random source",
+    "Validate the supplied identifier as untrusted input",
+    "Associate authentication with the correct record through an explicit transition"
+  ],
+  "S06": [
+    "Before login, Northstar gives Maya an anonymous browsing context",
+    "A new identifier separates the authenticated session from the previous context",
+    "Retire the old authority and test the transition"
+  ],
+  "S07": [
+    "Idle time measures how long a session has gone without qualifying activity",
+    "Absolute lifetime measures the total permitted age of the session",
+    "Server enforcement makes the policy meaningful"
+  ],
+  "S08": [
+    "The user signs out and sees the login screen",
+    "The session record should reflect the intended invalidation",
+    "The old request must be denied under the adopted logout policy"
+  ],
+  "S09": [
+    "A sensitive value can escape through more than one surface",
+    "The exposure path helps select the response",
+    "Later use is separate evidence"
+  ],
+  "S10": [
+    "A known old value is the starting condition in the fixation model",
+    "The login transition is where the control belongs",
+    "Fresh authority should be visible in the test outcome"
+  ],
+  "S11": [
+    "A visible pattern can make identifiers guessable",
+    "An unknown value should remain difficult to guess even when the identifier format and application behavior are public",
+    "Secure generation belongs in established cryptographic facilities and well-maintained frameworks"
+  ],
+  "S12": [
+    "A valid credential may be presented more than once during normal browsing",
+    "The repeated request in our fixture uses a symbolic ticket from a second client label",
+    "The acceptance decision depends on the design"
+  ],
+  "S13": [
+    "Cookie storage lets a browser retain name and value pairs under defined scope and policy",
+    "Request inclusion is governed by attributes and browser rules",
+    "Server meaning completes the picture"
+  ],
+  "S14": [
+    "The Secure attribute restricts a cookie to secure transport in normal browser use",
+    "HttpOnly restricts access to the cookie through script interfaces such as document dot cookie",
+    "Remaining risk determines the next control"
+  ],
+  "S15": [
+    "Site context influences whether the browser includes a cookie in cross-site situations",
+    "Browser inclusion is one layer of cross-site request protection",
+    "Action validation remains necessary at the server"
+  ],
+  "S16": [
+    "Code in the page describes the key execution context of cross-site scripting",
+    "A cross-site action can occur without the attacker reading the victim's cookie",
+    "Independent controls address these paths"
+  ],
+  "S17": [
+    "The browser workflow may continue across several network connections",
+    "A TCP connection maintains transport state for a byte stream between endpoints",
+    "Persistent login therefore does not prove that one old connection stayed open"
+  ],
+  "S18": [
+    "Byte position gives meaning to TCP sequence numbers",
+    "Acknowledgment communicates progress through the stream",
+    "The receive window helps explain why a forged segment may be rejected"
+  ],
+  "S19": [
+    "An off-path observer lacks direct visibility into the target traffic path",
+    "An on-path position can expose traffic characteristics and, when protection is missing, contents",
+    "Endpoint compromise is another boundary"
+  ],
+  "S20": [
+    "Observe and alter are distinct capabilities",
+    "Altered traffic may be rejected, disrupt a connection, or affect an application depending on several controls",
+    "Verify the outcome at the relevant boundary"
+  ],
+  "S21": [
+    "The client establishes an encrypted channel with a server whose identity it must validate",
+    "The authenticated channel protects application data in transit against relevant network threats",
+    "The server still validates the application session and request"
+  ],
+  "S22": [
+    "The browser connection is only part of a deployed path",
+    "The service boundary includes trust in the components that process credentials",
+    "Internal handling must preserve the same purpose: only the intended service components should receive the authority-bearing value"
+  ],
+  "S23": [
+    "A copied credential can be sent through a perfectly secure channel",
+    "A new secure channel may therefore carry an old session value",
+    "The validity check connects transport protection to lifecycle policy"
+  ],
+  "S24": [
+    "An existing session may be sufficient for reading an ordinary lesson but insufficient for changing a recovery address or granting administrative privileges",
+    "Fresh assurance must be connected to the intended transaction or transition",
+    "The specific action provides a useful test"
+  ],
+  "S25": [
+    "A stored record makes the session identifier a reference to server-managed state",
+    "Protected claims can let a recipient validate information carried in a token",
+    "Revocation remains a design choice that needs an operational answer"
+  ],
+  "S26": [
+    "The cryptographic check establishes whether a token's protection is valid under the intended key and algorithm policy",
+    "The intended recipient matters even when the protection is valid",
+    "Time and purpose add further constraints"
+  ],
+  "S27": [
+    "Minimal scope limits what a credential can authorize",
+    "Limited lifetime reduces how long an exposed value can remain useful",
+    "Protected custody reduces opportunities for acquisition"
+  ],
+  "S28": [
+    "The positive path confirms that an authorized student can still perform the intended task",
+    "The negative path isolates one violated condition at a time",
+    "Repeatable evidence records the input category, expected decision, actual result, and relevant implementation version"
+  ],
+  "S29": [
+    "Event order lets an analyst relate creation, authentication, use, and revocation",
+    "A session label is a correlation aid in this exercise",
+    "The decision result records allowed or denied behavior"
+  ],
+  "S30": [
+    "The old identifier is deliberately known in the flawed fixture",
+    "The authenticated state in the corrected fixture is assigned to a fresh identifier",
+    "Observed denial of the old label is the acceptance evidence for this small model"
+  ],
+  "S31": [
+    "A new address can be an anomaly without being proof of takeover",
+    "Concurrent use also requires context",
+    "Corroborating evidence can include endpoint findings, confirmed exposure, unusual resource access, and lifecycle events"
+  ],
+  "S32": [
+    "An observation is what the record directly shows: a request was accepted, a session was revoked, or a particular test assertion passed",
+    "An interpretation connects observations to a possible mechanism",
+    "The next check should resolve the most consequential uncertainty"
+  ],
+  "S33": [
+    "Scope the session before choosing the containment action",
+    "Revoke affected authority through the mechanisms the system actually supports",
+    "Protect the endpoint and repair the exposure path"
+  ],
+  "S34": [
+    "The old value should be denied after the adopted containment action",
+    "The new session should support legitimate activity under the updated policy",
+    "The exposure repair needs its own check"
+  ],
+  "S35": [
+    "The student task gives the incident meaning",
+    "Concrete impact should be separated from potential impact",
+    "Useful instructions tell affected people what to do through trusted channels"
+  ],
+  "S36": [
+    "The mechanism determines the most direct defense",
+    "The matching defense should explain its limits",
+    "The acceptance test makes the choice concrete"
+  ],
+  "S45": [
+    "Acquire authority is the first stage to explain",
+    "Present authority is the point where the recipient evaluates the credential and the requested action",
+    "Withdraw authority completes the lifecycle"
+  ],
+  "S46": [
+    "Read, send, and accept identify different security questions",
+    "Send does not imply successful use",
+    "Accept also needs scope"
+  ],
+  "S47": [
+    "The local fixture is available with this lesson's source",
+    "Explain the result before changing the model",
+    "Name the limit of the evidence"
+  ],
+  "S48": [
+    "Protect continuity without granting unlimited trust",
+    "Test the boundary that matters in the scenario",
+    "Keep useful evidence with clear limits"
+  ]
+}

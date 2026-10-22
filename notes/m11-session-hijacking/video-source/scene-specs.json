@@ -1,0 +1,1568 @@
+{
+  "S01": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Student identity",
+        "cue": 0,
+        "kind": "device",
+        "asset": "authorized_student",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Session credential",
+        "cue": 1,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Server decision",
+        "cue": 2,
+        "kind": "device",
+        "asset": "office_server",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: A lesson after login"
+  },
+  "S02": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Authentication",
+        "cue": 0,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Continuity",
+        "cue": 1,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Authorization",
+        "cue": 2,
+        "kind": "device",
+        "asset": "scope_sheet",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Identity is not permission"
+  },
+  "S03": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Browser ticket",
+        "cue": 0,
+        "kind": "device",
+        "asset": "web_window",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Session store",
+        "cue": 1,
+        "kind": "device",
+        "asset": "sealed_folder",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Course request",
+        "cue": 2,
+        "kind": "device",
+        "asset": "report_file",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: The ticket and the record"
+  },
+  "S04": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Obtain: theft / prediction",
+        "cue": 0,
+        "kind": "device",
+        "asset": "scanner_magnifier",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Choose: fixation",
+        "cue": 1,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Reuse: replay",
+        "cue": 2,
+        "kind": "device",
+        "asset": "evidence_thread",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Four mechanisms: theft, prediction, fixation and replay",
+    "provenance": "Original module-owned lesson.txt: Four different failures"
+  },
+  "S05": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Create",
+        "cue": 0,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Validate",
+        "cue": 1,
+        "kind": "device",
+        "asset": "retake_check",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Associate",
+        "cue": 2,
+        "kind": "device",
+        "asset": "authorized_student",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Issue only legitimate sessions"
+  },
+  "S06": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Before login",
+        "cue": 0,
+        "kind": "device",
+        "asset": "web_window",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "New identifier",
+        "cue": 1,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Old authority retired",
+        "cue": 2,
+        "kind": "device",
+        "asset": "sealed_folder",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Rotate at the boundary"
+  },
+  "S07": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Idle time",
+        "cue": 0,
+        "kind": "device",
+        "asset": "analog_clock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Absolute lifetime",
+        "cue": 1,
+        "kind": "device",
+        "asset": "analog_clock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Server enforcement",
+        "cue": 2,
+        "kind": "device",
+        "asset": "office_server",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Two independent lifetime limits • both enforced by the server",
+    "provenance": "Original module-owned lesson.txt: Time has two meanings"
+  },
+  "S08": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "User signs out",
+        "cue": 0,
+        "kind": "device",
+        "asset": "authorized_student",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Record revoked",
+        "cue": 1,
+        "kind": "device",
+        "asset": "sealed_folder",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Old request denied",
+        "cue": 2,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Acceptance check: fresh label allowed → logout → same label denied",
+    "provenance": "Original module-owned lesson.txt: Logout must withdraw authority"
+  },
+  "S09": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Sensitive value",
+        "cue": 0,
+        "kind": "device",
+        "asset": "sealed_folder",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Exposure path",
+        "cue": 1,
+        "kind": "device",
+        "asset": "mail_envelope",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Later use",
+        "cue": 2,
+        "kind": "device",
+        "asset": "evidence_thread",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Exposure creates opportunity"
+  },
+  "S10": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Known old value",
+        "cue": 0,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Login transition",
+        "cue": 1,
+        "kind": "device",
+        "asset": "web_window",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Fresh authority",
+        "cue": 2,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Fixation before authentication"
+  },
+  "S11": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Visible pattern",
+        "cue": 0,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Unknown value",
+        "cue": 1,
+        "kind": "device",
+        "asset": "sealed_folder",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Secure generation",
+        "cue": 2,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Prediction is about uncertainty"
+  },
+  "S12": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Valid credential",
+        "cue": 0,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Repeated request",
+        "cue": 1,
+        "kind": "device",
+        "asset": "mail_envelope",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Acceptance decision",
+        "cue": 2,
+        "kind": "device",
+        "asset": "retake_check",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Replay is a later action"
+  },
+  "S13": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Cookie storage",
+        "cue": 0,
+        "kind": "device",
+        "asset": "web_window",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Request inclusion",
+        "cue": 1,
+        "kind": "device",
+        "asset": "mail_envelope",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Server meaning",
+        "cue": 2,
+        "kind": "device",
+        "asset": "office_server",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Cookies are containers"
+  },
+  "S14": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Transport restriction",
+        "cue": 0,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Script access",
+        "cue": 1,
+        "kind": "device",
+        "asset": "web_window",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Remaining risk",
+        "cue": 2,
+        "kind": "device",
+        "asset": "scope_sheet",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Secure: transport • HttpOnly: script access • authorization: server decision",
+    "provenance": "Original module-owned lesson.txt: Secure and HttpOnly differ"
+  },
+  "S15": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Site context",
+        "cue": 0,
+        "kind": "device",
+        "asset": "school_building",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Browser inclusion",
+        "cue": 1,
+        "kind": "device",
+        "asset": "web_window",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Action validation",
+        "cue": 2,
+        "kind": "device",
+        "asset": "retake_check",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: SameSite and request intent"
+  },
+  "S16": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Code in the page",
+        "cue": 0,
+        "kind": "device",
+        "asset": "web_window",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Cross-site action",
+        "cue": 1,
+        "kind": "device",
+        "asset": "mail_envelope",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Independent controls",
+        "cue": 2,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: XSS and CSRF are different paths"
+  },
+  "S17": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Browser workflow",
+        "cue": 0,
+        "kind": "device",
+        "asset": "web_window",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "TCP connection",
+        "cue": 1,
+        "kind": "device",
+        "asset": "managed_switch",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Persistent login",
+        "cue": 2,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Application and TCP sessions"
+  },
+  "S18": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Byte position: 1100",
+        "cue": 0,
+        "kind": "device",
+        "asset": "mail_envelope",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Acknowledgment: 1000",
+        "cue": 1,
+        "kind": "device",
+        "asset": "retake_check",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Window: [1000, 2000)",
+        "cue": 2,
+        "kind": "device",
+        "asset": "managed_switch",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Toy interval [1000, 2000): 1100 inside; 3000 outside • not full TCP validation",
+    "provenance": "Original module-owned lesson.txt: Sequence numbers describe bytes"
+  },
+  "S19": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Off-path view",
+        "cue": 0,
+        "kind": "device",
+        "asset": "scanner_magnifier",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "On-path view",
+        "cue": 1,
+        "kind": "device",
+        "asset": "edge_router",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Endpoint compromise",
+        "cue": 2,
+        "kind": "device",
+        "asset": "school_laptop",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Observation changes capability"
+  },
+  "S20": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Observe",
+        "cue": 0,
+        "kind": "device",
+        "asset": "scanner_magnifier",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Alter",
+        "cue": 1,
+        "kind": "device",
+        "asset": "evidence_thread",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Verify the outcome",
+        "cue": 2,
+        "kind": "device",
+        "asset": "retake_check",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Passive observation and active changes"
+  },
+  "S21": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Client",
+        "cue": 0,
+        "kind": "device",
+        "asset": "school_laptop",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Authenticated channel",
+        "cue": 1,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Server",
+        "cue": 2,
+        "kind": "device",
+        "asset": "office_server",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: TLS protects a relationship"
+  },
+  "S22": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Browser connection",
+        "cue": 0,
+        "kind": "device",
+        "asset": "web_window",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Service boundary",
+        "cue": 1,
+        "kind": "device",
+        "asset": "edge_router",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Internal handling",
+        "cue": 2,
+        "kind": "device",
+        "asset": "sealed_folder",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Follow the credential path"
+  },
+  "S23": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Copied credential",
+        "cue": 0,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "New secure channel",
+        "cue": 1,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Validity check",
+        "cue": 2,
+        "kind": "device",
+        "asset": "retake_check",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: A secure channel is not revocation"
+  },
+  "S24": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Existing session",
+        "cue": 0,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Fresh assurance",
+        "cue": 1,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Specific action",
+        "cue": 2,
+        "kind": "device",
+        "asset": "report_file",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Reauthentication and sensitive actions"
+  },
+  "S25": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Stored record",
+        "cue": 0,
+        "kind": "device",
+        "asset": "sealed_folder",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Protected claims",
+        "cue": 1,
+        "kind": "device",
+        "asset": "report_file",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Revocation choice",
+        "cue": 2,
+        "kind": "device",
+        "asset": "analog_clock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Stateful and self-contained tokens"
+  },
+  "S26": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Cryptographic check",
+        "cue": 0,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Intended recipient",
+        "cue": 1,
+        "kind": "device",
+        "asset": "office_server",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Time and purpose",
+        "cue": 2,
+        "kind": "device",
+        "asset": "analog_clock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Independent checks: protection • issuer/audience • lifetime/purpose",
+    "provenance": "Original module-owned lesson.txt: Validate the token's meaning"
+  },
+  "S27": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Minimal scope",
+        "cue": 0,
+        "kind": "device",
+        "asset": "scope_sheet",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Limited lifetime",
+        "cue": 1,
+        "kind": "device",
+        "asset": "analog_clock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Protected custody",
+        "cue": 2,
+        "kind": "device",
+        "asset": "sealed_folder",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Reduce exposed authority"
+  },
+  "S28": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Positive path",
+        "cue": 0,
+        "kind": "device",
+        "asset": "retake_check",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Negative path",
+        "cue": 1,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Repeatable evidence",
+        "cue": 2,
+        "kind": "device",
+        "asset": "report_file",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Positive: own resource allowed • Negative: another owner denied",
+    "provenance": "Original module-owned lesson.txt: Regression tests preserve boundaries"
+  },
+  "S29": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Events 1–6",
+        "cue": 0,
+        "kind": "device",
+        "asset": "analog_clock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Symbolic session",
+        "cue": 1,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Allowed / denied",
+        "cue": 2,
+        "kind": "device",
+        "asset": "report_file",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Synthetic events: 1 login → 2 old denied → 3 fresh allowed → 5 logout → 6 denied",
+    "provenance": "Original module-owned lesson.txt: A timeline without secrets"
+  },
+  "S30": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Old identifier",
+        "cue": 0,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Authenticated state",
+        "cue": 1,
+        "kind": "device",
+        "asset": "authorized_student",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Observed denial",
+        "cue": 2,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Offline assertion: known old label allowed before repair; denied after rotation",
+    "provenance": "Original module-owned lesson.txt: Compare flawed and corrected rotation"
+  },
+  "S31": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "New address",
+        "cue": 0,
+        "kind": "device",
+        "asset": "edge_router",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Concurrent use",
+        "cue": 1,
+        "kind": "device",
+        "asset": "school_laptop",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Corroborating evidence",
+        "cue": 2,
+        "kind": "device",
+        "asset": "evidence_slip",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Interpret anomalies carefully"
+  },
+  "S32": {
+    "template": "comparison",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Observation",
+        "cue": 0,
+        "kind": "device",
+        "asset": "evidence_slip",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Interpretation",
+        "cue": 1,
+        "kind": "device",
+        "asset": "scanner_magnifier",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Next check",
+        "cue": 2,
+        "kind": "device",
+        "asset": "retake_check",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Evidence supports bounded claims"
+  },
+  "S33": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Scope the session",
+        "cue": 0,
+        "kind": "device",
+        "asset": "scope_sheet",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Revoke",
+        "cue": 1,
+        "kind": "device",
+        "asset": "sealed_folder",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Protect the endpoint",
+        "cue": 2,
+        "kind": "device",
+        "asset": "school_laptop",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Contain the affected authority"
+  },
+  "S34": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Old value denied",
+        "cue": 0,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "New session works",
+        "cue": 1,
+        "kind": "device",
+        "asset": "authorized_student",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Exposure repaired",
+        "cue": 2,
+        "kind": "device",
+        "asset": "retake_check",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Three checks: old denied • new authorized path works • exposure repaired",
+    "provenance": "Original module-owned lesson.txt: Verify containment and recovery"
+  },
+  "S35": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Student task",
+        "cue": 0,
+        "kind": "device",
+        "asset": "authorized_student",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Concrete impact",
+        "cue": 1,
+        "kind": "device",
+        "asset": "report_file",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Useful instruction",
+        "cue": 2,
+        "kind": "device",
+        "asset": "scope_sheet",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Explain the risk to people"
+  },
+  "S36": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Mechanism",
+        "cue": 0,
+        "kind": "device",
+        "asset": "evidence_thread",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Matching defense",
+        "cue": 1,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Acceptance test",
+        "cue": 2,
+        "kind": "device",
+        "asset": "retake_check",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Choose the control that matches"
+  },
+  "S45": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Acquire authority",
+        "cue": 0,
+        "kind": "device",
+        "asset": "inventory_tag",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Present authority",
+        "cue": 1,
+        "kind": "device",
+        "asset": "mail_envelope",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Withdraw authority",
+        "cue": 2,
+        "kind": "device",
+        "asset": "sealed_folder",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Reconstruct the whole chain"
+  },
+  "S46": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Read",
+        "cue": 0,
+        "kind": "device",
+        "asset": "web_window",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Send",
+        "cue": 1,
+        "kind": "device",
+        "asset": "mail_envelope",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Accept",
+        "cue": 2,
+        "kind": "device",
+        "asset": "office_server",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Read the verbs in the question"
+  },
+  "S47": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Local fixture",
+        "cue": 0,
+        "kind": "device",
+        "asset": "report_file",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Explain the result",
+        "cue": 1,
+        "kind": "device",
+        "asset": "authorized_student",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Name the limit",
+        "cue": 2,
+        "kind": "device",
+        "asset": "scope_sheet",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: A bounded practice task"
+  },
+  "S48": {
+    "template": "flow",
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Protect continuity",
+        "cue": 0,
+        "kind": "device",
+        "asset": "school_building",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n1",
+        "label": "Test the boundary",
+        "cue": 1,
+        "kind": "device",
+        "asset": "shield_lock",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      },
+      {
+        "id": "n2",
+        "label": "Keep useful evidence",
+        "cue": 2,
+        "kind": "device",
+        "asset": "evidence_slip",
+        "assetProvenance": "Approved M10 editorial prop; inherited immutable hash in production.json"
+      }
+    ],
+    "edges": [
+      {
+        "from": "n0",
+        "to": "n1",
+        "cue": 1,
+        "dashed": false
+      },
+      {
+        "from": "n1",
+        "to": "n2",
+        "cue": 2,
+        "dashed": false
+      }
+    ],
+    "note": "Fictional Northstar example • interpret the stated boundary",
+    "provenance": "Original module-owned lesson.txt: Close the Northstar lesson"
+  }
+}
