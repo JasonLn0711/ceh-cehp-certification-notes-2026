@@ -48,3 +48,9 @@ CEH＋CEHP 每週共用 240 分鐘、課日自學最多 25 分鐘的上限保持
 - [課程覆蓋](../assessment-governance/course-coverage-2026-09-18.md)：提供模組範圍，個人完成欄位保持原證據。
 - [CEH Planning locator](../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#kairos-domain-plan-2026-10-23)：容量／狀態鏡像。
 - [10/23 日誌](../../planning-everything-track/weeks/2026-W43/days/2026-10-23.md#kairos-domain-plan-2026-10-23)：決策、貢獻與下一步。
+
+## Git 文件發布
+
+本橋接已由 `5529fea` 推送至 `origin/main`，推送後 fetch 確認 divergence `0 0`。
+[既有發布阻塞的解決回執](video-production/PUBLICATION_2026-10-22.md#publication-resolved--october-23-2026)
+連接先前六筆本機提交的保留結果。此為文件 Git 發布，CEH 課程頁與公開影片仍待實作／驗收。
