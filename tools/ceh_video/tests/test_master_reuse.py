@@ -7,10 +7,16 @@ from ceh_video.common import write, sha
 
 class MasterReuseIntegration(unittest.TestCase):
     def test_same_inputs_skip_assembly_but_force_and_changes_run(self):
+        self.exercise_reuse(1)
+
+    def test_mandarin_same_inputs_force_and_changes(self):
+        self.exercise_reuse(2)
+
+    def exercise_reuse(self,schema):
         with tempfile.TemporaryDirectory() as tmp:
             base=Path(tmp);root=base/'project';qa=base/'qa';out=base/'output'
             for folder in [root/'data',root/'assets/voice',root/'assets/audio',out/'chapters',qa]:folder.mkdir(parents=True)
-            write(root/'production.json',{'title':'Fixture','master_filename':'fixture.mp4','audio_policy':'ceh-en-v1.2'})
+            write(root/'production.json',{'title':'Fixture','master_filename':'fixture.mp4','audio_policy':'ceh-en-v1.2' if schema==1 else 'zh-TW-concepts-v3-1p3','schema_version':schema})
             write(root/'data/scenes.json',{'scenes':[]});write(root/'data/questions.json',{'questions':[]})
             pcm=np.repeat((np.sin(np.arange(48000)*2*np.pi*440/48000)*4000).astype('int16')[:,None],2,axis=1)
             sf.write(root/'assets/voice/S01.wav',pcm,48000,subtype='PCM_16')

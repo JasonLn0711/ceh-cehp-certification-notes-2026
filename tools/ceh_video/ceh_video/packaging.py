@@ -8,9 +8,9 @@ import shutil
 import subprocess
 import sys
 import tempfile
-import uuid
 import zipfile
 from .common import digest, read, sha, write
+from .archive_io import partial_archive
 
 EXCLUDED = {'.venv', 'node_modules', '.production', '.hyperframes',
             '.waveform-cache', '__pycache__', '.git', 'review'}
@@ -44,6 +44,11 @@ def inventory(p):
     """Read-only. Heavy assets are referenced, never copied to a staging tree."""
     entries = dict(walk_files(p.root, 'project', {'chapters', 'assets/audio', 'vendor'}))
     entries.update(walk_files(p.root.parent/'inputs', 'inputs'))
+    if p.profile.get('package_format') == 'compact-v1':
+        # Ready-to-edit hosts restore with stdlib alone; exact duplicate PCM is
+        # represented by one object. Runtime caches remain reproducible metadata.
+        entries.update(walk_files(p.root/'chapters', 'project/chapters'))
+        entries.update(walk_files(p.root/'assets/audio', 'project/assets/audio'))
     from .delivery import export_qa
     for f in p.qa.iterdir():
         if f.is_file() and export_qa(f) and f.name not in {
@@ -97,7 +102,7 @@ def inventory(p):
             h = identities[identity] = sha(f)
         rows.append(dict(path=name, source=str(f), bytes=stat.st_size, sha256=h))
     return dict(schema=1, entries=rows, bytes=sum(r['bytes'] for r in rows),
-                files=len(rows), excluded=DERIVED,
+                files=len(rows), excluded=([r for r in DERIVED if r not in {'project/chapters/','project/assets/audio/'}] if p.profile.get('package_format')=='compact-v1' else DERIVED),
                 manifest_sha256=digest([{k:r[k] for k in ('path','bytes','sha256')} for r in rows]))
 
 
@@ -114,6 +119,12 @@ def restore_hosts(p):
 
 
 def package(p, emit):
+    archive = p.output/p.profile['editable_filename']
+    old_path = p.qa/'engine-packaging.json'
+    if archive.parent != p.output or archive.is_symlink() or old_path.is_symlink():
+        raise ValueError('Archive and receipt must be owned regular release paths')
+    if archive.exists() != old_path.exists():
+        raise RuntimeError('Incomplete closed release; preserve files and reconcile in a new workspace')
     from .delivery import audio_restore_manifest, verify_encoded_evidence, verify_golden_review_evidence
     from .review import require_encoded
     assert read(p.qa/'engine-delivery.json')['status'] == 'automated_delivery_checks_passed'
@@ -121,7 +132,7 @@ def package(p, emit):
     plan = inventory(p)
     generated = {
         'project/provenance/audio-restore.json': audio_restore_manifest(p),
-        'qa/archive-exclusions.json': {'excluded': DERIVED, 'restore': 'python -m ceh_video restore'},
+        'qa/archive-exclusions.json': {'excluded': plan['excluded'], 'restore': 'python -m ceh_video restore'},
         'project/provenance/host-restore.json': {
             str(f.relative_to(p.root)):sha(f)
             for f in sorted((p.root/'assets/audio').glob('*.wav'))
@@ -142,9 +153,7 @@ def package(p, emit):
     rows = [r for r in plan['entries'] if r['path'] not in generated_bytes]
     manifest = {r['path']:r['sha256'] for r in rows}
     manifest.update({k:hashlib.sha256(v).hexdigest() for k,v in generated_bytes.items()})
-    key = digest({'format':1, 'payloads':manifest, 'implementation':sha(Path(__file__))})
-    archive = p.output/p.profile['editable_filename']
-    old_path = p.qa/'engine-packaging.json'
+    key = digest({'format':p.profile.get('package_format',1), 'payloads':manifest, 'implementation':sha(Path(__file__))})
     if old_path.exists() and archive.is_file():
         old = read(old_path)
         if old.get('package_key') == key and old.get('sha256') == sha(archive):
@@ -153,35 +162,7 @@ def package(p, emit):
         raise RuntimeError('Closed release differs; use a new release workspace')
     write(p.qa/'package-plan.json', plan)
     generated_bytes['FILES_SHA256.json'] = (json.dumps(manifest,indent=2)+'\n').encode()
-    partial = archive.with_name(archive.name+'.partial-'+uuid.uuid4().hex[:8])
-    completed_bytes = 0
-    with zipfile.ZipFile(partial,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=1,allowZip64=True) as z:
-        for i, row in enumerate(rows,1):
-            info = zipfile.ZipInfo('engine_project_source/'+row['path'], date_time=(2026,1,1,0,0,0))
-            info.compress_type = zipfile.ZIP_DEFLATED
-            info._compresslevel = 1
-            h = hashlib.sha256()
-            with open(row['source'],'rb') as source, z.open(info,'w',force_zip64=True) as target:
-                while block := source.read(1024*1024):
-                    h.update(block);target.write(block)
-            if h.hexdigest() != row['sha256']:
-                raise RuntimeError('Source changed during packaging: '+row['path'])
-            completed_bytes += row['bytes']
-            if i%100==0 or i==len(rows):
-                emit({'phase':'package_bytes','completed':completed_bytes,'total':sum(r['bytes'] for r in rows),'files':i})
-        for name, data in sorted(generated_bytes.items()):
-            info=zipfile.ZipInfo('engine_project_source/'+name,date_time=(2026,1,1,0,0,0))
-            info.compress_type=zipfile.ZIP_DEFLATED
-            info._compresslevel=1
-            z.writestr(info,data)
-    with zipfile.ZipFile(partial) as z, tempfile.TemporaryDirectory(dir=p.qa,prefix='verify-package-') as temp:
-        extracted_bytes=sum(info.file_size for info in z.infolist())
-        # ZipExtFile checks each member's CRC at EOF during extractall.
-        # A separate testzip would inflate every heavy payload a second time.
-        z.extractall(temp)
-        base=Path(temp)/'engine_project_source'
-        for name, expected in manifest.items():
-            assert sha(base/name)==expected, name
+    def verify_restored(base):
         picture=verify_encoded_evidence(base)
         golden=verify_golden_review_evidence(base)
         env=os.environ.copy();env['PYTHONPATH']=str(base/'project/vendor')
@@ -199,11 +180,66 @@ def package(p, emit):
             assert html_identity(base/'project'/rel)==expected, 'Restored host composition differs: '+rel
         restored['hosts']['html_identities_verified']=len(generated['project/provenance/host-html-restore.json'])
         write(p.qa/'engine-extracted-reconstruction.json',restored)
-    os.replace(partial,archive)
+        return picture, golden, restored
+    if p.profile.get('package_format') == 'compact-v1':
+        from .compact_archive import write_compact
+        verification = {}
+        def check_restored(root):
+            picture, golden, restored = verify_restored(root/'engine_project_source')
+            verification.update(encoded_picture_evidence=picture, golden_review_evidence=golden,
+                                reconstruction=restored)
+        entries = [(Path(r['source']), 'engine_project_source/'+r['path']) for r in rows]
+        entries += [(data, 'engine_project_source/'+name) for name,data in generated_bytes.items()]
+        # The English zero-inference check reconstructs operational voice caches
+        # plus temporary host PCM. Reserve those bytes in addition to restoration.
+        extra = sum(2*(p.root/item['baseline']).stat().st_size +
+                    (p.root/item['processed']).stat().st_size +
+                    (p.root/item['metadata']).stat().st_size
+                    for item in generated['project/provenance/audio-restore.json']['items'])
+        extra += 2*sum((p.root/rel).stat().st_size for rel in generated['project/provenance/host-restore.json'])
+        result = write_compact(entries, archive, emit, check_restored, extra_restore_bytes=extra)
+        result.update(status='compact_restore_all_payload_hashes_passed', package_key=key,
+                      files=len(manifest)+1, archive=archive.name, storage_policy='longform-storage-v2.0.0',
+                      human_listening='pending', **verification)
+        write(old_path, result)
+        return result
+    with partial_archive(archive) as partial:
+        completed_bytes = 0
+        with zipfile.ZipFile(partial,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=1,allowZip64=True) as z:
+            for i, row in enumerate(rows,1):
+                info = zipfile.ZipInfo('engine_project_source/'+row['path'], date_time=(2026,1,1,0,0,0))
+                info.compress_type = zipfile.ZIP_DEFLATED
+                info._compresslevel = 1
+                h = hashlib.sha256()
+                with open(row['source'],'rb') as source, z.open(info,'w',force_zip64=True) as target:
+                    while block := source.read(1024*1024):
+                        h.update(block);target.write(block)
+                if h.hexdigest() != row['sha256']:
+                    raise RuntimeError('Source changed during packaging: '+row['path'])
+                completed_bytes += row['bytes']
+                if i%100==0 or i==len(rows):
+                    emit({'phase':'package_bytes','completed':completed_bytes,'total':sum(r['bytes'] for r in rows),'files':i})
+            for name, data in sorted(generated_bytes.items()):
+                info=zipfile.ZipInfo('engine_project_source/'+name,date_time=(2026,1,1,0,0,0))
+                info.compress_type=zipfile.ZIP_DEFLATED
+                info._compresslevel=1
+                z.writestr(info,data)
+        with zipfile.ZipFile(partial) as z, tempfile.TemporaryDirectory(dir=p.qa,prefix='verify-package-') as temp:
+            extracted_bytes=sum(info.file_size for info in z.infolist())
+            # ZipExtFile checks each member's CRC at EOF during extractall.
+            # A separate testzip would inflate every heavy payload a second time.
+            z.extractall(temp)
+            base=Path(temp)/'engine_project_source'
+            for name, expected in manifest.items():
+                assert sha(base/name)==expected, name
+            picture,golden,restored=verify_restored(base)
+        os.replace(partial,archive)
     receipt=dict(status='crc_extraction_hashes_verified',package_key=key,files=len(manifest)+1,
                  payload_hashes=len(manifest),bytes=archive.stat().st_size,sha256=sha(archive),
                  archive=archive.name,encoded_picture_evidence=picture,golden_review_evidence=golden,
                  human_listening='pending',source_bytes=plan['bytes'],media_staging_bytes=0)
     receipt['verification_extraction_bytes']=extracted_bytes
+    receipt['verification_workspace_retained']=False
+    receipt['storage_policy']='longform-storage-v1.0.0'
     write(old_path,receipt)
     return receipt

@@ -31,7 +31,7 @@ def metadata_lines(profile,chapters):
 def main():
  rows=[];started=time.monotonic()
  p=Project(ROOT);reuse_key=None
- if p.profile.get('audio_policy')=='ceh-en-v1.2':
+ if p.profile.get('audio_policy')=='ceh-en-v1.2' or p.profile.get('schema_version')==2:
   from ceh_video.master_reuse import identity,reusable,retain,receipt
   reuse_key=identity(p)
   if '--force' not in sys.argv and reusable(p,reuse_key):
@@ -39,9 +39,8 @@ def main():
    return
   receipt(p).unlink(missing_ok=True)
  m=json.load(open(ROOT/'data/master-timing.json'));audio=ROOT/'assets/audio/master.wav';total=0
- with sf.SoundFile(audio,'w',samplerate=48000,channels=2,subtype='PCM_16') as dest:
-  for row in m['scenes']:
-   data,sr=sf.read(ROOT/'assets/voice'/f'{row["scene"]}.wav',dtype='int16',always_2d=True);assert sr==48000 and data.shape[1]==2 and len(data)%1600==0;dest.write(data);total+=len(data)
+ from ceh_video.pcm_reuse import concatenate
+ total=concatenate(p,[ROOT/'assets/voice'/f'{row["scene"]}.wav' for row in m['scenes']],audio,force='--force' in sys.argv)
  assert total==m.get('samples',m['frames']*1600) and total==m['frames']*1600
  assert sum(c.get('duration_samples',round(c['duration']*48000)) for c in m['chapters'])==total
  rows.append({'phase':'pcm_assembly','status':'completed','elapsed_seconds':time.monotonic()-started})

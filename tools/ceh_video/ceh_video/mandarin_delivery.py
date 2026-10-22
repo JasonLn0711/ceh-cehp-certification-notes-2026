@@ -57,7 +57,12 @@ def checks(p,emit):
     assert m['duration']<=duration_limit(p.profile),'Master exceeds configured duration limit'
     assert float(probe['format']['duration'])<=duration_limit(p.profile),'Encoded master exceeds configured duration limit'
     video=next(s for s in probe['streams'] if s['codec_type']=='video');assert int(video['nb_read_frames'])==m['frames']
-    subprocess_stage(p,['ffmpeg','-v','error','-nostdin','-i',str(movie),'-f','null','-'],'master-full-decode',emit)
+    from .media_scan import require_scan,scan_master
+    try:
+        require_scan(movie,m['frames'],p.qa)
+    except (OSError,ValueError,KeyError,TypeError):
+        scan_master(movie,m['frames'],p.qa)
+    emit({'phase':'verified_master_scan','scope':'Current full-decode hash receipt; audio and visual checks follow'})
     reference,sr=sf.read(p.output/'master.reference.pcm.wav',dtype='int16',always_2d=True);assert sr==48000 and len(reference)==round(m['duration']*48000)
     cursor=0
     for scene in p.scenes:
@@ -140,26 +145,6 @@ def delivery(p,emit):
     emit({'phase':'delivery_verified',**report})
 
 def package(p,emit):
-    from .review import require_encoded
-    require_encoded(p);row=read(p.qa/'engine-delivery.json');assert row['master_sha256']==sha(p.output/p.profile['master_filename'])
-    source=Path(__file__).parents[1];vendor=p.root/'vendor/ceh_video';vendor.mkdir(parents=True,exist_ok=True)
-    shutil.copy2(source/'pyproject.toml',vendor/'pyproject.toml');shutil.copytree(source/'ceh_video',vendor/'ceh_video',dirs_exist_ok=True,ignore=shutil.ignore_patterns('__pycache__'))
-    from .mandarin_package import payload_files
-    files=payload_files(p)
-    manifest={rel:sha(f) for f,rel in files};manifest_text=''.join(f'{h}  {rel}\n' for rel,h in sorted(manifest.items()))
-    target=p.output/p.profile['editable_filename'];temp=target.with_suffix('.tmp.zip');prefix=archive_prefix(p.profile)
-    with zipfile.ZipFile(temp,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as archive:
-        for i,(f,rel) in enumerate(files,1):
-            archive.write(f,prefix+rel)
-            if i%100==0:emit({'phase':'archive_payload','completed':i,'total':len(files)})
-        archive.writestr(prefix+'FILES_SHA256.txt',manifest_text)
-    temp.replace(target)
-    verify=p.output/'archive-verification';verify.mkdir(exist_ok=True)
-    with zipfile.ZipFile(target) as archive:
-        assert archive.testzip() is None;archive.extractall(verify)
-    extracted=verify/prefix
-    for i,(rel,h) in enumerate(manifest.items(),1):
-        assert sha(extracted/rel)==h
-        if i%100==0:emit({'phase':'archive_extraction_hash','completed':i,'total':len(manifest)})
-    receipt={'status':'crc_extraction_and_all_payload_hashes_passed','zip':str(target),'zip_sha256':sha(target),'bytes':target.stat().st_size,'entries':len(files)+1,'verified_payloads':len(files),'extracted_root':str(extracted),'private_assessment_included':False,'human_acceptance':'pending'}
-    write(p.qa/'engine-packaging.json',receipt);emit(receipt)
+    # The packaging implementation has its own invalidation boundary.
+    from .mandarin_package import package as build_package
+    return build_package(p,emit)

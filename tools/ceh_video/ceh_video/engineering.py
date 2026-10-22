@@ -42,7 +42,7 @@ def migrate(reference,workspace,emit=lambda row:None,policy_id='ceh-en-v1.2'):
     from . import __version__
     profile.update(engine_version=__version__,release='motion-'+version,audio_policy=contract['id'],
                    baseline_runtime=source.profile.get('baseline_runtime','historical-runtime-unrecorded'),
-                   default_intent='iteration',
+                   default_intent='iteration', package_format='compact-v1',
                    master_filename='CEH_M10_Denial_of_Service_en-US_'+version.replace('.','_')+'_1_4x_master.mp4',
                    editable_filename='CEH_M10_motion_'+version.replace('.','_')+'_EDITABLE.zip')
     profile['voice']['atempo']=1.4

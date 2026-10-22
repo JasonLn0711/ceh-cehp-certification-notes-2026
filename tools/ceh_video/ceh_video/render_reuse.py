@@ -21,10 +21,13 @@ def identity(p, chapter):
             'environment': {k:v for k,v in env.items() if k.startswith(('PRODUCER_', 'HF_', 'HYPERFRAMES_')) and k != 'HYPERFRAMES_RUN_ID'},
             'runtime_files': {str(f.resolve()): sha(f) for f in files},
             'implementation': {f:sha(package/f) for f in
-                               ('render_reuse.py','runtime/chapter.py','common.py')}}
+                               (('render_reuse.py','mandarin.py','common.py') if p.profile.get('schema_version')==2 else ('render_reuse.py','runtime/chapter.py','common.py'))}}
 
 
 def outputs(p, chapter):
+    if p.profile.get('schema_version')==2:
+        return [p.output/'chapters'/f'{chapter}.mp4', p.qa/f'{chapter}-render.json',
+                p.qa/f'render-{chapter}.log']
     return [p.output/'chapters'/f'{chapter}.mp4',
             *[p.qa/f'{chapter}-{suffix}' for suffix in
               ('render.json','render.log','render.log.stderr')]]

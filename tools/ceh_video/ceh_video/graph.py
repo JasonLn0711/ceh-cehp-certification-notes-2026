@@ -145,6 +145,14 @@ def output_hashes(p,node):
         if (p.root/'data'/f'{sid}.audio.json').exists():
             for row in p.audio(sid)['segments']:
                 if row['kind']=='spoken': paths += [p.root/row['path'],p.root/row['path'].replace('assets/voice/','assets/voice-baseline/'),(p.root/row['path']).with_suffix('.json')]
+    if p.profile.get('schema_version')==2 and node.name=='checks':
+        audit=p.qa/'rendered-artifact-audit.json'
+        if audit.is_file():
+            for row in read(audit).get('sampled_frames',[]):
+                name=row['file']
+                if Path(name).name!=name:
+                    raise ValueError('Invalid encoded sample path')
+                paths.append(p.output/'inspection_frames'/name)
     result={}
     for f in sorted(set(paths)):
         if not f.is_file():continue
@@ -171,6 +179,25 @@ def node_key(p,node):
     return resolved_key(p,node,dependencies)
 
 
+def media_reuse_reason(p,node):
+    """Graph-cache hits must still validate live Mandarin runtime/material evidence."""
+    if p.profile.get('schema_version')!=2:
+        return None
+    try:
+        if node.name.startswith('render:'):
+            from .render_reuse import identity,reusable
+            ch=node.name.split(':')[1]
+            valid=reusable(p,ch,identity(p,ch))
+        elif node.name=='master':
+            from .master_reuse import identity,reusable
+            valid=reusable(p,identity(p))
+        else:
+            return None
+        return None if valid else 'missing or changed verified media identity'
+    except (OSError,ValueError,KeyError,TypeError):
+        return 'missing or invalid verified media evidence'
+
+
 def inspect_node(p,node):
     # Reviews are live release guards even when encoded bytes are cached.
     if node.name.startswith('render:'):
@@ -187,6 +214,9 @@ def inspect_node(p,node):
     elif r.get('key')!=key:reasons.append('declared input or dependency changed')
     elif r.get('status')!='verified':reasons.append('previous execution not verified')
     elif output_hashes(p,node)!=r['outputs'] or any(not Path(x).exists() for x in node.outputs):reasons.append('missing or changed output')
+    if not reasons:
+        reason=media_reuse_reason(p,node)
+        if reason:reasons.append(reason)
     return {'node':node.name,'key':key,'action':'run' if reasons else 'reuse','reasons':reasons or ['verified inputs and output hashes match']}
 
 
@@ -204,6 +234,9 @@ def planning(p,target):
         if old and not reasons:
             actual=output_hashes(p,node)
             if actual!=old['outputs'] or any(not Path(f).exists() for f in node.outputs): reasons.append('missing or changed output')
+        if not reasons:
+            reason=media_reuse_reason(p,node)
+            if reason:reasons.append(reason)
         changed_deps=[n for n in node.dependencies if visited[n]['action']=='run']
         if changed_deps: reasons.append('dependency requires work: '+','.join(changed_deps))
         row={'node':name,'key':key,'action':'run' if reasons else 'reuse','reasons':reasons or ['verified inputs and output hashes match']}

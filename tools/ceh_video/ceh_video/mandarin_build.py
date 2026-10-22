@@ -149,7 +149,7 @@ def build_scene(p,sid):
         content=''.join(text_svg(p,o) for o in items)
     board.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><style>text{{font-family:Noto Sans CJK TC,sans-serif}}</style><rect width="1920" height="1080" fill="{PAPER}"/>'+text_svg(p,header)+content+tally(p,sid)+'</svg>')
 
-def host(p,scenes,name,folder):
+def host(p,scenes,name,folder,force=False):
     import soundfile as sf
     folder.mkdir(parents=True,exist_ok=True);assets=folder/'assets'
     for sub in ['fonts','vendor']:
@@ -158,24 +158,23 @@ def host(p,scenes,name,folder):
             dest=assets/sub/source.name;dest.parent.mkdir(parents=True,exist_ok=True)
             if source.resolve()!=dest.resolve() and (not dest.exists() or sha(source)!=sha(dest)):shutil.copy2(source,dest)
     duration=0;slots=[];audio=assets/'audio'/f'{name}.wav';audio.parent.mkdir(parents=True,exist_ok=True)
-    with sf.SoundFile(str(audio)+'.tmp.wav','w',samplerate=48000,channels=2,subtype='PCM_16') as out:
-        for scene in scenes:
-            sid=scene['id'];a=p.audio(sid);d=a['duration']
-            slots.append(f'<div class="clip" id="slot-{sid}" data-composition-id="{sid}" data-composition-src="compositions/{sid}.html" data-start="{duration:.9f}" data-duration="{d:.9f}" data-track-index="1" data-width="1920" data-height="1080" style="position:absolute;inset:0"></div>')
-            pcm,rate=sf.read(p.root/'assets/voice'/f'{sid}.wav',dtype='int16');assert rate==48000;out.write(pcm)
-            if folder!=p.root:
-                (folder/'compositions').mkdir(exist_ok=True)
-                for suffix in ['html','motion.json']:shutil.copy2(p.root/'compositions'/f'{sid}.{suffix}',folder/'compositions'/f'{sid}.{suffix}')
-            duration+=d
-    Path(str(audio)+'.tmp.wav').replace(audio)
+    from .pcm_reuse import concatenate,copy_changed,write_changed
+    concatenate(p,[p.root/'assets/voice'/f'{scene["id"]}.wav' for scene in scenes],audio,force=force)
+    for scene in scenes:
+        sid=scene['id'];a=p.audio(sid);d=a['duration']
+        slots.append(f'<div class="clip" id="slot-{sid}" data-composition-id="{sid}" data-composition-src="compositions/{sid}.html" data-start="{duration:.9f}" data-duration="{d:.9f}" data-track-index="1" data-width="1920" data-height="1080" style="position:absolute;inset:0"></div>')
+        if folder!=p.root:
+            (folder/'compositions').mkdir(exist_ok=True)
+            for suffix in ['html','motion.json']:copy_changed(p.root/'compositions'/f'{sid}.{suffix}',folder/'compositions'/f'{sid}.{suffix}')
+        duration+=d
     slots.append(f'<audio class="clip" id="narration-{name}" src="assets/audio/{name}.wav" data-start="0" data-duration="{duration:.9f}" data-track-index="10"></audio>')
     markup=f'<!doctype html><html lang="zh-TW"><head><meta charset="utf-8"><script src="assets/vendor/gsap.min.js"></script><style>{css(p)}</style></head><body><div id="root" data-composition-id="{name}" data-width="1920" data-height="1080" data-duration="{duration:.9f}">'+''.join(slots)+f'</div><script>window.__timelines["{name}"]=gsap.timeline({{paused:true}});</script></body></html>'
-    (folder/'index.html').write_text(markup)
-    if folder!=p.root:shutil.copy2(p.root/'hyperframes.json',folder/'hyperframes.json')
+    write_changed(folder/'index.html',markup)
+    if folder!=p.root:copy_changed(p.root/'hyperframes.json',folder/'hyperframes.json')
     return duration
 
-def assemble(p):
-    duration=host(p,p.scenes,'master',p.root);offset=0;rows=[];silences=[];captions=[];chapters=[]
+def assemble(p,force=False):
+    duration=host(p,p.scenes,'master',p.root,force=force);offset=0;rows=[];silences=[];captions=[];chapters=[]
     for ch in p.chapters:
         subset=p.chapter_scenes(ch);d=sum(p.audio(s['id'])['duration'] for s in subset)
         chapters.append({'id':ch,'title':subset[0]['chapter_title'],'start':offset,'duration':d})

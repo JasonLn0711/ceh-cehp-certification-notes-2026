@@ -87,7 +87,7 @@ def action(p,node,emit,force=False):
                 assert a['audio_sha256']==row['sha256'] and ''.join(w['text'] for w in a['words'])==row['canonical']
     elif name.startswith('scene:'):build_scene(p,name.split(':')[1])
     elif name.startswith('prepare:'):
-        ch=name.split(':')[1];scenes=p.chapter_scenes(ch);folder=p.root/'chapters'/ch;duration=host(p,scenes,ch,folder);offset=0;times=[]
+        ch=name.split(':')[1];scenes=p.chapter_scenes(ch);folder=p.root/'chapters'/ch;duration=host(p,scenes,ch,folder,force=force);offset=0;times=[]
         for s in scenes:
             a=p.audio(s['id']);times.extend(offset+a['duration']*t for t in [.12,.5,.9])
             for r in a['segments']:
@@ -102,6 +102,12 @@ def action(p,node,emit,force=False):
         from .review import require_review
         ch=name.split(':')[1];require_review(p,ch);before=p.chapter_inputs(ch)
         assert read(p.qa/f'{ch}-checked-fingerprint.json')['sha256']==before
+        from .render_reuse import identity,reusable,retain,receipt
+        key=identity(p,ch)
+        if not force and reusable(p,ch,key):
+            emit({'phase':'verified_chapter_reused','chapter':ch})
+            return 'verified_media_reuse'
+        receipt(p,ch).unlink(missing_ok=True)
         target=p.output/'chapters'/f'{ch}.mp4';target.parent.mkdir(exist_ok=True);started=time.monotonic()
         command=[str(p.root/'node_modules/.bin/hyperframes'),'render',str(p.root/'chapters'/ch),'--output',str(target),'--fps','30','--quality','delivery','--workers','4','--no-best-effort','--strict']
         if p.profile['runtime'].get('gpu_encoding'):command+=['--browser-gpu','--gpu']
@@ -112,12 +118,13 @@ def action(p,node,emit,force=False):
         assert abs(float(video['duration'])-expected['duration'])<.001 and before==p.chapter_inputs(ch)
         gpu=verify_gpu(p,p.qa/('render-'+ch+'.log'),probe)
         write(p.qa/f'{ch}-render.json',{'status':'rendered_codec_verified','source_sha256':before,'output_sha256':sha(target),'elapsed_seconds':time.monotonic()-started,'probe':probe,'gpu':gpu})
+        retain(p,ch,key)
     elif name=='root':
-        info=assemble(p);m=read(p.root/'data/master-timing.json');times=[s['start']+s['duration']/2 for s in m['scenes']]+[(h['start']+h['end'])/2 for h in m['silences']]
+        info=assemble(p,force=force);m=read(p.root/'data/master-timing.json');times=[s['start']+s['duration']/2 for s in m['scenes']]+[(h['start']+h['end'])/2 for h in m['silences']]
         hf_check(p,p.root,times,'master-project-check.json',emit)
         subprocess_stage(p,['node',str(Path(__file__).parent/'mandarin_audit.mjs')],'mandarin-runtime-audit',emit)
         emit({'phase':'master_runtime_verified',**info})
-    elif name=='master':worker(p,'assemble_master',[],emit)
+    elif name=='master':worker(p,'assemble_master',['--force'] if force else [],emit)
     elif name in ['audio-review','checks','delivery','package']:
         from . import mandarin_delivery
         getattr(mandarin_delivery,name.replace('-','_'))(p,emit)

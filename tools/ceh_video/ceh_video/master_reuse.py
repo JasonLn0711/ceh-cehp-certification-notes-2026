@@ -21,7 +21,7 @@ def identity(p):
     return {'inputs':{str(f.relative_to(p.root.parent)):sha(f) for f in files},
             'runtime':decoder_identity(),
             'implementation':{rel:sha(package/rel) for rel in
-                ('master_reuse.py','master_audio_cache.py','runtime/assemble_master.py','common.py')}}
+                ('master_reuse.py','master_audio_cache.py','pcm_reuse.py','runtime/assemble_master.py','common.py')}}
 
 
 def outputs(p):
