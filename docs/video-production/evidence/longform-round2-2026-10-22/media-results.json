@@ -1,0 +1,376 @@
+{
+  "study_id": "longform-storage-round2",
+  "experiment_id": "mandarin-native-reuse-2026-10-22",
+  "created_at": "2026-10-22T12:50:39.822827+00:00",
+  "timezone": "Asia/Taipei",
+  "execution_status": "LIVE_FULL_COMPLETED",
+  "runtime_validity": "valid",
+  "gate_outcome": "passed",
+  "source_scenes": [
+    "S01",
+    "S05"
+  ],
+  "duration_seconds": 82.33333333333334,
+  "runtime": {
+    "hyperframes": "0.8.174",
+    "browser": "/home/jnlngx10/.cache/ms-playwright/chromium_headless_shell-1234/chrome-linux/headless_shell",
+    "max_chapter_renders": 2,
+    "render_workers": 4,
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5+esm15 Copyright (c) 2000-2023 the FFmpeg developers",
+    "browser_gpu_mode": "hardware",
+    "expected_gpu_renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+    "gpu_encoding": true
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "sample_rate": 48000,
+    "channels": 2,
+    "video_rate": 1.0,
+    "bgm": false
+  },
+  "voice": {
+    "provider": "edge-tts",
+    "provider_version": "7.3.1",
+    "name": "zh-TW-HsiaoChenNeural",
+    "language": "zh-TW",
+    "baseline_rate": "+0%",
+    "atempo": 1.3,
+    "speed_applications": 1
+  },
+  "source_audio_sha256": {
+    "S01": "954b1364e34dc34bc72ad442e7fdcf514cbe43c00f5e132a194cb5d97020cbc6",
+    "S05": "15498d4b7816888b560038b0cc81d67a08a7a3a30cc2e2cf80aa9447513d2870"
+  },
+  "baseline_engine": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline/ceh_video",
+  "optimized_engine": "/home/jnlngx10/phd-research/repos/ceh-cehp-certification-notes-2026/tools/ceh_video",
+  "scope": "Native two-scene excerpt; cold means absent encoded-media receipt, not OS cache flush. No full-film speed estimate.",
+  "runs": [
+    {
+      "arm": "baseline",
+      "phase": "cold",
+      "stage": "host",
+      "wall_seconds": 0.41991835899534635,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-cold-host.log",
+      "log_sha256": "bbf39cc2b3c435c337dd0143c8f22da6654bc31ee2d672ca82f10498c6ec1dab",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "cold",
+      "stage": "render:C01",
+      "wall_seconds": 196.33632150499034,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-cold-render-C01.log",
+      "log_sha256": "f2fca11dcc40704dd59f98abd05cb61aacf05b0f81fba890d67f650e55b6ef2d",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "cold",
+      "stage": "master",
+      "wall_seconds": 25.455401216007886,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-cold-master.log",
+      "log_sha256": "eeee3397197eb2a738b54ccf105a43be40dc49eea817a8d60ec3be5a20777d40",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "cold",
+      "stage": "checks",
+      "wall_seconds": 16.543848707005964,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-cold-checks.log",
+      "log_sha256": "5351421c27b3e4c2610faf1cddd41cdb75a7d9655659a16d426e798ec5ab610f",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "cold",
+      "stage": "host",
+      "wall_seconds": 0.47864013799699023,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-cold-host.log",
+      "log_sha256": "9ee4d84189c6f5990fbbca2591592b715bff272b56c877db6015cb99f7157310",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "cold",
+      "stage": "render:C01",
+      "wall_seconds": 202.90933765099908,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-cold-render-C01.log",
+      "log_sha256": "abdeec346ef67254fb591c43306fbe79a83b35e3aa2e8b5d6284d28fe2036073",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "cold",
+      "stage": "master",
+      "wall_seconds": 26.83613615599461,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-cold-master.log",
+      "log_sha256": "0e1aee14b0f72feb00100d8c4fedcf743265b8f9665fed97692b80e86462e374",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "cold",
+      "stage": "checks",
+      "wall_seconds": 10.762508432002505,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-cold-checks.log",
+      "log_sha256": "c5f2efa78e5f8c6b6d12c44d30241465f995492cc74b33792bc754e438b2f822",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-1",
+      "stage": "host",
+      "wall_seconds": 0.40596222500607837,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-1-host.log",
+      "log_sha256": "dd69b65b178a71a80f96538be80f44d9eb3558d5f1eebde1132a4a0e385b2eb8",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-1",
+      "stage": "render:C01",
+      "wall_seconds": 188.8039159720065,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-1-render-C01.log",
+      "log_sha256": "7c27698c43e3e8914181650f2445132884bb8397228d4048586970215c021a22",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-1",
+      "stage": "master",
+      "wall_seconds": 12.116048056006548,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-1-master.log",
+      "log_sha256": "162fe8d828b2f2d6ddb3871bf6d5eb156c23eb186d35765236d77499d256b240",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-1",
+      "stage": "checks",
+      "wall_seconds": 17.48514749899914,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-1-checks.log",
+      "log_sha256": "67e3c8523e7920bd2bc1b0e692b619d88b5f6cf9b8ee779633ba758b1576f997",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-1",
+      "stage": "host",
+      "wall_seconds": 0.4517342110048048,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-1-host.log",
+      "log_sha256": "c69ff3026db49c1e16eb5fe2a75791c164631eb67b39d5cd7c985fdead900bbd",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-1",
+      "stage": "render:C01",
+      "wall_seconds": 1.1991975040000398,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-1-render-C01.log",
+      "log_sha256": "1c3146780bd7a46abff1e50f45ebd2567a46dcb9e639a646f32085850082f3be",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-1",
+      "stage": "master",
+      "wall_seconds": 1.1890851780044613,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-1-master.log",
+      "log_sha256": "705728dd933cc0e86ef1e0d567b49365e8cec422f2803dc73239cd54cf193991",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-1",
+      "stage": "checks",
+      "wall_seconds": 11.86487925799156,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-1-checks.log",
+      "log_sha256": "865b00b1d17df8a5cfed06d843129be3c047e4b44e31f699d6c9ccac5ff95c24",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-2",
+      "stage": "host",
+      "wall_seconds": 0.48878813699411694,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-2-host.log",
+      "log_sha256": "6cc439ba2894e52426014e51a2e1d423a76f5932d79e9a573365e44cb213e4eb",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-2",
+      "stage": "render:C01",
+      "wall_seconds": 192.5922800529952,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-2-render-C01.log",
+      "log_sha256": "a6daafa2dd1f175eab93dd88286ee3c25e4bc944741db95a2dfa56526093e296",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-2",
+      "stage": "master",
+      "wall_seconds": 11.398414747993229,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-2-master.log",
+      "log_sha256": "27614ba7fdbc09323288c18e2f69a9aa2d5ac1d106685ab2fc50f778e23dd8c6",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-2",
+      "stage": "checks",
+      "wall_seconds": 16.512990007991903,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-2-checks.log",
+      "log_sha256": "2e647d2caff662abec45391123d69d702c78f9f34653a6bd6384b345c2ee3e86",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-2",
+      "stage": "host",
+      "wall_seconds": 0.39742708699486684,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-2-host.log",
+      "log_sha256": "5569fffccdb4200db1c630bfddb8c1b37fdc7b031232f811ed233389b9148fd7",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-2",
+      "stage": "render:C01",
+      "wall_seconds": 1.0149347779952222,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-2-render-C01.log",
+      "log_sha256": "5efcae89a4a4d4cd9a8b5552b4e1cfff22881f8506a54bf661f6f60101ea0acc",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-2",
+      "stage": "master",
+      "wall_seconds": 1.17542334398604,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-2-master.log",
+      "log_sha256": "7b03a0203acbaa95a469ab6521eb8800e0650f1dfc9070488e19884f48de7957",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-2",
+      "stage": "checks",
+      "wall_seconds": 8.636896107986104,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-2-checks.log",
+      "log_sha256": "a5a3b4c4f30fe351bd393e5e03332d6fa195cd7faa7df88c25efeecb23b76e2c",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-3",
+      "stage": "host",
+      "wall_seconds": 0.44770809198962525,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-3-host.log",
+      "log_sha256": "30f939fba6f767bfc00bd9b097d9f1f007536dac73a3994a4225bb925e955541",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-3",
+      "stage": "render:C01",
+      "wall_seconds": 169.13071108500299,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-3-render-C01.log",
+      "log_sha256": "b25119cbf7669851fb8825faa07cc672020973cb208ceeb1a9a91959e9dd400f",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-3",
+      "stage": "master",
+      "wall_seconds": 10.78922972199507,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-3-master.log",
+      "log_sha256": "ea5d6355c30d48579eabcab0508f0ab9a78c7823e6e946d4a46a41a2c6c6a3a0",
+      "exit_code": 0
+    },
+    {
+      "arm": "baseline",
+      "phase": "warm-3",
+      "stage": "checks",
+      "wall_seconds": 15.346028620013385,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline-warm-3-checks.log",
+      "log_sha256": "0a8461e5b75e494fce74dbc18c95f2b31c45b30da486f2564f5c05e3f62e212f",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-3",
+      "stage": "host",
+      "wall_seconds": 0.3794543600088218,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-3-host.log",
+      "log_sha256": "6ccae5a9798e78c76cf38ccf1ea8955928560bd7033f1e693ef0f7facf9c45a7",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-3",
+      "stage": "render:C01",
+      "wall_seconds": 1.0423637140047504,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-3-render-C01.log",
+      "log_sha256": "6dbeb61f95dfb9dd7592f0b72b8c3e208b96df7e6bdc66398447cff203235993",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-3",
+      "stage": "master",
+      "wall_seconds": 0.529491097011487,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-3-master.log",
+      "log_sha256": "02310caf7ce4ec5c28276fbb46784c8736c4a87eb72ed4293ee5f8fa7879b525",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "warm-3",
+      "stage": "checks",
+      "wall_seconds": 4.483062626008177,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-warm-3-checks.log",
+      "log_sha256": "d204a234c99cfe95f92641a835d49736bb6063142b8dc350f503a467eecafec6",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "local-change",
+      "stage": "host",
+      "wall_seconds": 0.2684307500021532,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-local-change-host.log",
+      "log_sha256": "f6d379e0276d20a3a9d368ceb2ca6159fb40bdc736100c65422c95a15a841332",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "local-change",
+      "stage": "render:C01",
+      "wall_seconds": 175.4347972500109,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-local-change-render-C01.log",
+      "log_sha256": "539bb4e5ca3bffcf301d4a89df33d0a6bc7630f4b296eb4fef477300a61737ff",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "local-change",
+      "stage": "master",
+      "wall_seconds": 0.42595231599989347,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-local-change-master.log",
+      "log_sha256": "c61601197007f35e6b20973dbfce4e28009f14a8dd0d6623e5f2c631080ba698",
+      "exit_code": 0
+    },
+    {
+      "arm": "optimized",
+      "phase": "local-change",
+      "stage": "checks",
+      "wall_seconds": 7.336680220003473,
+      "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/optimized-local-change-checks.log",
+      "log_sha256": "dd749862479f8641f5ca498d1ede61d4da2ff4405d78cbe4f9add04c11516dcb",
+      "exit_code": 0
+    }
+  ],
+  "decision": "Native excerpt reuse passed; no full-film speed or human acceptance claim"
+}

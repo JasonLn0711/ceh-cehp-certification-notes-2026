@@ -1,0 +1,125 @@
+{
+  "study_id": "longform-storage-round2",
+  "experiment_id": "compact-real-restore-2026-10-22",
+  "created_at": "2026-10-22T12:47:46.631241+00:00",
+  "timezone": "Asia/Taipei",
+  "execution_status": "LIVE_FULL_COMPLETED",
+  "runtime_validity": "valid",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "script_sha256": "292d159fd6ef083b9844e4b51c1d3795fb1ddddc88222d5ddff5a8b4c11b0eae",
+  "cases": [
+    {
+      "id": "english",
+      "source_archive": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/output/CEH_M10_efficiency_v1_2_EDITABLE.zip",
+      "original_bytes": 1818201690,
+      "status": "passed",
+      "source_extraction_seconds": 31.043328544008546,
+      "source_extraction_bytes": 2737446685,
+      "compact": {
+        "format": "compact-v1",
+        "verified_payloads": 6722,
+        "restored_bytes": 2737446685,
+        "sha256": "6429f18e3e1f463364be1c51674e1eb0792505149db381b4c15fac861ca8b175",
+        "bytes": 1762746770,
+        "source_bytes": 2737446685,
+        "unique_bytes": 2663088915,
+        "duplicate_bytes": 74357770,
+        "unique_objects": 5738,
+        "media_staging_bytes": 0,
+        "verification_extraction_bytes": 2737446685,
+        "verification_workspace_retained": false
+      },
+      "package_and_full_restore_seconds": 220.1733507089957,
+      "english_zero_inference_restore": {
+        "audio": {
+          "status": "verified_media_cache_restored",
+          "clips": 781,
+          "new_inferences": 0,
+          "tempo_passes": 0
+        },
+        "hosts": {
+          "chapters": 11,
+          "new_inferences": 0,
+          "tempo_passes": 0
+        },
+        "pictures": {
+          "status": "extracted_encoded_frames_hash_verified",
+          "frames": 165,
+          "master_sha256": "a6022560e6cd77f432461157882826b0e89c3500d8645374085740cdc8e3e281"
+        },
+        "golden": {
+          "status": "golden_candidate_and_review_hashes_verified",
+          "approval_sha256": "5fdab4ec6c2999c1134f2698a73338e42225502dbe89c18a24cc8dfc9b0a176a",
+          "candidate_sha256": "92d7624ed2ff5403d9901a28b21ccff2c2a7b066639999eea9b06e7ef8f1f689",
+          "review_receipts": {
+            "visual/agent-review-v1.2.json": "0dba072c96842f4516d70ee926eab7ad3ce6bd49e971fa0f01ada05f219e9e14"
+          }
+        },
+        "pcm_hashes_verified": 12,
+        "html_hashes_verified": 12
+      },
+      "original_sha256_preserved": "bdae800b242376b09ee4817270eaa7a3b611eda160e8a2491abb0d072934b825",
+      "saved_archive_bytes": 55454920,
+      "sampled_peak_allocated_bytes_including_source_extraction": 12154552320,
+      "peak_sampling_seconds": 0.5
+    },
+    {
+      "id": "concepts",
+      "source_archive": "/home/jnlngx10/Videos/Island_Workshop_MATLAB_Concepts_v3_images_gpu/output/Island_Workshop_MATLAB_Concepts_zh-TW_v3_images_gpu_FULL.zip",
+      "original_bytes": 1662799212,
+      "status": "passed",
+      "source_extraction_seconds": 37.58509229500487,
+      "source_extraction_bytes": 2970431414,
+      "compact": {
+        "format": "compact-v1",
+        "verified_payloads": 2374,
+        "restored_bytes": 2970431414,
+        "sha256": "dc7c73805826d39ef4da312ce55f71541fb18fd4f39dd85b32accb174b78563d",
+        "bytes": 1120162276,
+        "source_bytes": 2970431414,
+        "unique_bytes": 1830551681,
+        "duplicate_bytes": 1139879733,
+        "unique_objects": 1981,
+        "media_staging_bytes": 0,
+        "verification_extraction_bytes": 2970431414,
+        "verification_workspace_retained": false
+      },
+      "package_and_full_restore_seconds": 122.54234881099546,
+      "english_zero_inference_restore": "not_applicable",
+      "original_sha256_preserved": "a8e73b30cb609de2bd4b7b0f2a91e3cea8a46042bea8f948fb39f71cd525a22c",
+      "saved_archive_bytes": 542636936,
+      "sampled_peak_allocated_bytes_including_source_extraction": 6999830528,
+      "peak_sampling_seconds": 0.5
+    },
+    {
+      "id": "practice",
+      "source_archive": "/home/jnlngx10/Videos/island-workshop-matlab-practice-v1/output/third-video-DELIVERY.zip",
+      "original_bytes": 870162406,
+      "status": "passed",
+      "source_extraction_seconds": 13.009545736989821,
+      "source_extraction_bytes": 1347400935,
+      "compact": {
+        "format": "compact-v1",
+        "verified_payloads": 1036,
+        "restored_bytes": 1347400935,
+        "sha256": "b2add592d8d015c7ac91f34600a3799a631d3229eea4b3aea2f598fd4814df32",
+        "bytes": 669052765,
+        "source_bytes": 1347400935,
+        "unique_bytes": 1033331748,
+        "duplicate_bytes": 314069187,
+        "unique_objects": 946,
+        "media_staging_bytes": 0,
+        "verification_extraction_bytes": 1347400935,
+        "verification_workspace_retained": false
+      },
+      "package_and_full_restore_seconds": 64.7060877430049,
+      "english_zero_inference_restore": "not_applicable",
+      "original_sha256_preserved": "5e00d214288022e4af7e8c43735ca91bb8bf0bb84186dcd424b191b9b64cbc82",
+      "saved_archive_bytes": 201109641,
+      "sampled_peak_allocated_bytes_including_source_extraction": 3302277120,
+      "peak_sampling_seconds": 0.5
+    }
+  ],
+  "gate_outcome": "passed",
+  "decision": "compact format validated for exact historical payloads; original releases preserved"
+}

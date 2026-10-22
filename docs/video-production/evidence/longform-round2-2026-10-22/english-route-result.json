@@ -1,0 +1,56 @@
+{
+  "format": "compact-v1",
+  "verified_payloads": 7831,
+  "restored_bytes": 6230469881,
+  "sha256": "c6770e42ec1ccfa8f474e9b528facc1aa8b0bb9ec3b1f9b6f9ac08cf6585f8c7",
+  "bytes": 2671067191,
+  "source_bytes": 6230469881,
+  "unique_bytes": 4389826949,
+  "duplicate_bytes": 1840642932,
+  "unique_objects": 5804,
+  "media_staging_bytes": 0,
+  "verification_extraction_bytes": 6230469881,
+  "verification_workspace_retained": false,
+  "status": "compact_restore_all_payload_hashes_passed",
+  "package_key": "5a4eb851916f9994d7b13757af62c9b6aeee29702f2be99f18f42d67d0679802",
+  "files": 7831,
+  "archive": "english-route-compact.zip",
+  "storage_policy": "longform-storage-v2.0.0",
+  "human_listening": "pending",
+  "encoded_picture_evidence": {
+    "status": "extracted_encoded_frames_hash_verified",
+    "frames": 165,
+    "master_sha256": "a6022560e6cd77f432461157882826b0e89c3500d8645374085740cdc8e3e281"
+  },
+  "golden_review_evidence": {
+    "status": "golden_candidate_and_review_hashes_verified",
+    "approval_sha256": "5fdab4ec6c2999c1134f2698a73338e42225502dbe89c18a24cc8dfc9b0a176a",
+    "candidate_sha256": "92d7624ed2ff5403d9901a28b21ccff2c2a7b066639999eea9b06e7ef8f1f689",
+    "review_receipts": {
+      "visual/agent-review-v1.2.json": "0dba072c96842f4516d70ee926eab7ad3ce6bd49e971fa0f01ada05f219e9e14"
+    }
+  },
+  "reconstruction": {
+    "audio": {
+      "status": "verified_media_cache_restored",
+      "clips": 781,
+      "new_inferences": 0,
+      "tempo_passes": 0
+    },
+    "hosts": {
+      "chapters": 11,
+      "new_inferences": 0,
+      "tempo_passes": 0,
+      "pcm_hashes_verified": 12,
+      "html_identities_verified": 12
+    }
+  },
+  "execution_status": "LIVE_FULL_COMPLETED",
+  "runtime_validity": "valid",
+  "gate_outcome": "passed",
+  "route": "current English packaging.package",
+  "elapsed_seconds": 290.6129546640004,
+  "source_project": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/project",
+  "profile_override": "package_format and editable_filename in memory; original production.json preserved",
+  "scratch_qa_and_media_copies": "Isolated harness copies; producer inventory references original sources read-only"
+}

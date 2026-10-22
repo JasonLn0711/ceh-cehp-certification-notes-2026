@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-10-22T13:14:09.293822+00:00",
+  "timezone": "Asia/Taipei",
+  "engine_version": "0.6.0",
+  "standard_version": "2.0.0",
+  "status": "passed",
+  "unit_tests": {
+    "count": 190,
+    "status": "passed",
+    "log_sha256": "badd70323719c34c573495bb56f96c4ff7c38b2430511331586104fd6e6dd949",
+    "note": "Existing force_align ResourceWarnings remain in log"
+  },
+  "native_run_log_hashes_verified": 36,
+  "current_native_chapter_and_master_identities": "passed",
+  "current_graph_media_guards": "passed",
+  "original_source_audio_hashes": "passed",
+  "encoded_sample_png_equality": {
+    "S01-midpoint.png": true,
+    "S01-source-1.png": true,
+    "S05-midpoint.png": true,
+    "S05-quiz-answer.png": true,
+    "S05-quiz-hold.png": true,
+    "S05-late.png": true,
+    "S01-late.png": true
+  },
+  "historical_M11_partial_sha256_preserved": "d596a598ea8152b49ec59e6a49112cdff0035b7a08c059ec52b2bfaa8d4a6d8a",
+  "verification_scratch_remaining": [],
+  "retained_experiment_allocated_bytes_including_directories": 6679531520,
+  "filesystem_free_bytes_at_closeout": 324963975168,
+  "artifact_scope": "Experimental ZIPs, native excerpt outputs, baseline engine snapshot and logs retained; original releases untouched; not published releases"
+}

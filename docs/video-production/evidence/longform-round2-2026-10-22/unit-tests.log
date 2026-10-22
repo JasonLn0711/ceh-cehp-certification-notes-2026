@@ -1,0 +1,23 @@
+/home/jnlngx10/phd-research/repos/ceh-cehp-certification-notes-2026/tools/ceh_video/ceh_video/runtime/force_align.py:15: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpkvh5rkk3/data/scenes.json' mode='r' encoding='UTF-8'>
+  for scene in json.load(open(ROOT/'data/scenes.json'))['scenes']:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/jnlngx10/phd-research/repos/ceh-cehp-certification-notes-2026/tools/ceh_video/ceh_video/runtime/force_align.py:24: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpkvh5rkk3/data/S01.audio.json' mode='r' encoding='UTF-8'>
+  for r in json.load(open(tf))['segments']:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/jnlngx10/phd-research/repos/ceh-cehp-certification-notes-2026/tools/ceh_video/ceh_video/runtime/force_align.py:29: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpkvh5rkk3/data/forced-alignment/S01-000.json' mode='r' encoding='UTF-8'>
+  old=json.load(open(out))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+..........................................................................................................{"phase": "full_decode_start", "expected_frames": 30, "progress_file": "/tmp/tmpkljpac2z/master-full-decode.progress"}
+.{"phase": "full_decode_start", "expected_frames": 30, "progress_file": "/tmp/tmpqxvada5l/master-full-decode.progress"}
+{"phase": "full_decode_passed", "decoded_frames": 30, "elapsed_seconds": 0.6964065640058834}
+.{"phase": "full_decode_start", "expected_frames": 30, "progress_file": "/tmp/tmp7q867n1f/master-full-decode.progress"}
+{"phase": "full_decode_passed", "decoded_frames": 30, "elapsed_seconds": 0.6899275300092995}
+{"phase": "full_decode_start", "expected_frames": 31, "progress_file": "/tmp/tmp7q867n1f/master-full-decode.progress"}
+.{"phase": "full_decode_start", "expected_frames": 31, "progress_file": "/tmp/tmp9d2ug6rh/master-full-decode.progress"}
+.{"phase": "full_decode_start", "expected_frames": 30, "progress_file": "/tmp/tmpudw_d2uf/master-full-decode.progress"}
+{"phase": "full_decode_passed", "decoded_frames": 30, "elapsed_seconds": 0.979010441005812}
+................................................................................
+----------------------------------------------------------------------
+Ran 190 tests in 51.156s
+
+OK

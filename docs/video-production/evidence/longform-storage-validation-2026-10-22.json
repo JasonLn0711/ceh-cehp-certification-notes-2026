@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "date": "2026-10-22",
+  "timezone": "Asia/Taipei",
+  "recorded_at": "2026-10-22T10:26:00.808058+00:00",
+  "policy_version": "longform-storage-v1.0.0",
+  "engine_version": "0.5.5",
+  "status": "implemented_and_regression_validated",
+  "tests": [
+    {
+      "command": "PYTHONPATH=tools/ceh_video /home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/project/.venv/bin/python -m unittest discover -s tools/ceh_video/tests -p 'test_*.py'",
+      "exit_code": 0,
+      "tests": 171,
+      "elapsed_seconds": 9.024,
+      "result": "OK",
+      "included_storage_tests": 18,
+      "warnings": "Existing ResourceWarning for unclosed reads in runtime/force_align.py; test suite passed."
+    },
+    {
+      "command": "python3 scripts/validate_knowledge.py",
+      "cwd": "../planning-everything-track",
+      "exit_code": 0,
+      "result": "181 metadata notes, 181 catalog entries passed"
+    },
+    {
+      "command": "git diff --check",
+      "cwd": "CEH and Planning repositories",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 ../nycu-115-1-coursework/cscm30018/review-video-03/scripts/package_delivery.py --help",
+      "exit_code": 0
+    }
+  ],
+  "read_only_inventory": {
+    "file": "longform-storage-inventory-2026-10-22.json",
+    "workspaces": 23,
+    "errors": 0,
+    "scope": "22 Videos workspaces plus coursework review-video-03 source directory"
+  },
+  "real_mandarin_inventory": {
+    "workspace": "Island_Workshop_MATLAB_Concepts_v3_images_gpu",
+    "files": 2383,
+    "bytes": 2970274990,
+    "excluded_verification_tree": true,
+    "scope": "Final source read-only release_files enumeration; no packaging or rendering"
+  },
+  "boundaries": {
+    "historical_files_deleted": 0,
+    "historical_archives_repacked": 0,
+    "films_rendered": 0,
+    "tts_calls": 0,
+    "git_commits": 0,
+    "git_pushes": 0,
+    "reclaimed_bytes": "not_measured",
+    "full_film_peak_storage": "not_measured",
+    "full_film_speedup": "not_measured",
+    "human_acceptance": "unchanged"
+  },
+  "files_sha256": {
+    "tools/ceh_video/ceh_video/archive_io.py": "071a86ac51dafff6df7280b077fe77a21e172247d8b01605919626180058482d",
+    "tools/ceh_video/ceh_video/storage.py": "df5efa603dc30343578f435d837c0c7eda80ec7162cfd8d24b07ab45be1ae20f",
+    "tools/ceh_video/ceh_video/packaging.py": "803956befa05cfa6eaaac0514eeb88c79b91a1763b8d72a9fd2af0515d97ba5e",
+    "tools/ceh_video/ceh_video/mandarin_package.py": "1db0ef5f03d7d896056e0c2b539a5726c0b620821379aa86b7fce380fde5ade2",
+    "tools/ceh_video/ceh_video/mandarin_delivery.py": "8fc8ece2e8bfe97be42e8b8f42ac9594e8efae14e0c089e12a67d5d440340e1b",
+    "tools/ceh_video/ceh_video/mandarin_graph.py": "5ed47a56ca9c572e31b2584322baba7576a41fc3dd889f67c6593baf0b723df9",
+    "tools/ceh_video/ceh_video/practice_package.py": "1946297232ab185f608cb0eaf99426db0777c02898b8a392620228f215b5cc00",
+    "tools/ceh_video/tests/test_storage.py": "e96419b46a54c735a3b6358a83ebd1757590767e7fb6446f8d3fd19bdb41d074",
+    "tools/ceh_video/ceh_video/__init__.py": "428d361067fce0acb8a429c41c3171887a629ca1f449a59fb33c9f504f69329c",
+    "tools/ceh_video/pyproject.toml": "38e38f87462786404f674cd4a6b7afeccd5baebc5b72ba0f8b8d2c2945311ce5",
+    "docs/video-production/LONGFORM_STORAGE_STANDARD_v1.0.0.md": "65e9144b48c5c25d5bc97cadb7b0bdec7e268e24014437efb2db212727c1bdba",
+    "../nycu-115-1-coursework/cscm30018/review-video-03/scripts/package_delivery.py": "b7ab3253d810323c43d91d4500ec725677c169f03f9cb53ec884c084b95f2c4a"
+  },
+  "document_links": {
+    "new_source_and_standard_links_checked": 11,
+    "missing": 0
+  }
+}

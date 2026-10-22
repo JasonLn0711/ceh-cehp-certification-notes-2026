@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "policy_version": "longform-storage-v1.0.0",
+  "cleanup_id": "longform-cleanup-2026-10-22",
+  "created_at": "2026-10-22T10:44:30.438478+00:00",
+  "authorization": "User selected verification copies and temporary files, then said Implement the plan.",
+  "script_sha256": "7f4c608101f9d10658676a8239f6cdf10c84b05c00747e4506674f0a720e7f45",
+  "status": "completed",
+  "items": [
+    {
+      "workspace": "Digital_Everyday_Masterclass_v1",
+      "target": "/home/jnlngx10/Videos/Digital_Everyday_Masterclass_v1/output/archive-verification",
+      "allocated_bytes_including_directories": 2713825280,
+      "payloads": 3010,
+      "usage_check": {
+        "open_handles_observed": false,
+        "exit_code": 1,
+        "other_filesystem_warnings": "lsof: WARNING: can't stat() tracefs file system /sys/kernel/debug/tracing\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/overlay2/e58d44b02f5540666e9096a84d7795162d044587d7b7715d96a0205a760b7501/merged\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/overlay2/78320c6c81da4c362b662c4d64452bcc136cae4632b81e441c17a70afaa1cc68/merged\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/e1e8c2aeec45\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/2c507c8f7990\n      Output information may be incomplete.",
+        "scope": "Target lsof scan plus exclusive engine run lock; unrelated namespace visibility is not asserted"
+      },
+      "status": "removed_and_protected_outputs_verified",
+      "protected_hashes": 136,
+      "disk_free_after": 312274837504
+    },
+    {
+      "workspace": "Island_Workshop_MATLAB_Concepts_v1",
+      "target": "/home/jnlngx10/Videos/Island_Workshop_MATLAB_Concepts_v1/output/archive-verification",
+      "allocated_bytes_including_directories": 2711347200,
+      "payloads": 2257,
+      "usage_check": {
+        "open_handles_observed": false,
+        "exit_code": 1,
+        "other_filesystem_warnings": "lsof: WARNING: can't stat() tracefs file system /sys/kernel/debug/tracing\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/overlay2/e58d44b02f5540666e9096a84d7795162d044587d7b7715d96a0205a760b7501/merged\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/overlay2/78320c6c81da4c362b662c4d64452bcc136cae4632b81e441c17a70afaa1cc68/merged\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/e1e8c2aeec45\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/2c507c8f7990\n      Output information may be incomplete.",
+        "scope": "Target lsof scan plus exclusive engine run lock; unrelated namespace visibility is not asserted"
+      },
+      "status": "removed_and_protected_outputs_verified",
+      "protected_hashes": 125,
+      "disk_free_after": 314979598336
+    },
+    {
+      "workspace": "Island_Workshop_MATLAB_Concepts_v2_1p3",
+      "target": "/home/jnlngx10/Videos/Island_Workshop_MATLAB_Concepts_v2_1p3/output/archive-verification",
+      "allocated_bytes_including_directories": 2898231296,
+      "payloads": 2205,
+      "usage_check": {
+        "open_handles_observed": false,
+        "exit_code": 1,
+        "other_filesystem_warnings": "lsof: WARNING: can't stat() tracefs file system /sys/kernel/debug/tracing\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/overlay2/e58d44b02f5540666e9096a84d7795162d044587d7b7715d96a0205a760b7501/merged\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/overlay2/78320c6c81da4c362b662c4d64452bcc136cae4632b81e441c17a70afaa1cc68/merged\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/e1e8c2aeec45\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/2c507c8f7990\n      Output information may be incomplete.",
+        "scope": "Target lsof scan plus exclusive engine run lock; unrelated namespace visibility is not asserted"
+      },
+      "status": "removed_and_protected_outputs_verified",
+      "protected_hashes": 125,
+      "disk_free_after": 317889118208
+    },
+    {
+      "workspace": "Island_Workshop_MATLAB_Concepts_v3_images_gpu",
+      "target": "/home/jnlngx10/Videos/Island_Workshop_MATLAB_Concepts_v3_images_gpu/output/archive-verification",
+      "allocated_bytes_including_directories": 2976772096,
+      "payloads": 2373,
+      "usage_check": {
+        "open_handles_observed": false,
+        "exit_code": 1,
+        "other_filesystem_warnings": "lsof: WARNING: can't stat() tracefs file system /sys/kernel/debug/tracing\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/overlay2/e58d44b02f5540666e9096a84d7795162d044587d7b7715d96a0205a760b7501/merged\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/overlay2/78320c6c81da4c362b662c4d64452bcc136cae4632b81e441c17a70afaa1cc68/merged\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/e1e8c2aeec45\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/2c507c8f7990\n      Output information may be incomplete.",
+        "scope": "Target lsof scan plus exclusive engine run lock; unrelated namespace visibility is not asserted"
+      },
+      "status": "removed_and_protected_outputs_verified",
+      "protected_hashes": 178,
+      "disk_free_after": 320851050496
+    }
+  ],
+  "disk_before": {
+    "total": 982819848192,
+    "used": 623252783104,
+    "free": 309567029248
+  },
+  "excluded_history_verified": true,
+  "disk_after": {
+    "total": 982819848192,
+    "used": 611958112256,
+    "free": 320861700096
+  },
+  "observed_free_bytes_increase": 11294670848,
+  "removed_allocated_bytes_including_directories": 11300175872,
+  "measurement_note": "Filesystem free-space delta includes concurrent activity; removed inode allocation is recorded separately."
+}

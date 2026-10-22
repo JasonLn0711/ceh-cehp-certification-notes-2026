@@ -1,0 +1,11 @@
+{"phase": "child_start", "node": "C01-check", "command": ["/home/jnlngx10/Videos/longform-round2-2026-10-22/media-optimized/project/.venv/bin/python", "-c", "import subprocess,sys;f=open(sys.argv[1],\"w\");r=subprocess.run(sys.argv[2:],stdout=f);f.close();raise SystemExit(r.returncode)", "/home/jnlngx10/Videos/longform-round2-2026-10-22/media-optimized/qa/C01-check.json"], "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/media-optimized/qa/C01-check.log"}
+{"phase": "child_start", "node": "prepare:C01-captures", "command": ["node", "/home/jnlngx10/phd-research/repos/ceh-cehp-certification-notes-2026/tools/ceh_video/ceh_video/capture.mjs", "C01"], "log": "/home/jnlngx10/Videos/longform-round2-2026-10-22/media-optimized/qa/prepare--C01-captures.log"}
+Traceback (most recent call last):
+  File "/tmp/prepare_round2_media.py", line 30, in <module>
+    action(p,SimpleNamespace(name='prepare:C01'),Progress(plain=True))
+  File "/home/jnlngx10/phd-research/repos/ceh-cehp-certification-notes-2026/tools/ceh_video/ceh_video/mandarin.py", line 98, in action
+    subprocess_stage(p,['node',str(Path(__file__).parent/'capture.mjs'),ch],name+'-captures',emit)
+  File "/home/jnlngx10/phd-research/repos/ceh-cehp-certification-notes-2026/tools/ceh_video/ceh_video/runner.py", line 73, in subprocess_stage
+    if code:raise StageFailure(name,code,log)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ceh_video.runner.StageFailure: prepare:C01-captures exited 1; inspect /home/jnlngx10/Videos/longform-round2-2026-10-22/media-optimized/qa/prepare--C01-captures.log

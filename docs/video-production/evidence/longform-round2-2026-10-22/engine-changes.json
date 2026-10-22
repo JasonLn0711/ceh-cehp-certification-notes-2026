@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-10-22T13:15:04.372306+00:00",
+  "baseline": "/home/jnlngx10/Videos/longform-round2-2026-10-22/baseline/ceh_video",
+  "version": "0.6.0",
+  "files": [
+    {
+      "path": "README.md",
+      "before_sha256": "de7d6773c66637f6bb978e3840253a9c4988a36909757109a6e92c6bda58f231",
+      "after_sha256": "eb809654f74fd56f189dfc0b6051e5ec9d35347ad06242e57f262c1355ff88da"
+    },
+    {
+      "path": "ceh_video/__init__.py",
+      "before_sha256": "428d361067fce0acb8a429c41c3171887a629ca1f449a59fb33c9f504f69329c",
+      "after_sha256": "661a5deb8510b864bb7c9300ed90a80baad4351524f4653b5c7a51d90bf5c4a1"
+    },
+    {
+      "path": "ceh_video/compact_archive.py",
+      "before_sha256": null,
+      "after_sha256": "d238beec157a6f823e63ecbb9f95c171df1813ea077616971ff52e1e22ebce45"
+    },
+    {
+      "path": "ceh_video/compact_restore.py",
+      "before_sha256": null,
+      "after_sha256": "c991bf94c01bb12c19d7ad1b0a2265358930db4cf23ff219425f280ffcec02d6"
+    },
+    {
+      "path": "ceh_video/engineering.py",
+      "before_sha256": "6fc785c3d79406a7afb35d512f059fd97d03d657cab4aa6239d931bc95df3b9e",
+      "after_sha256": "1bd54f66f67f24a534b0ab7586837625a3b521c182b55e737414f5d54f6f363a"
+    },
+    {
+      "path": "ceh_video/graph.py",
+      "before_sha256": "a264d784574dd8614e95217037b69f1b13709cffa6ff30aa5706f36e7c916ca5",
+      "after_sha256": "e474c9d969d8aec1fb543ce5aa88b63db120593533c1893eb02c5241f71bb170"
+    },
+    {
+      "path": "ceh_video/mandarin.py",
+      "before_sha256": "70094e3717d3f5eafd722b7727368a9c689cba3aca74dc5f79ccebccd1caeaf7",
+      "after_sha256": "2530e1b961ce73e1b9a03e36a724d3ea97cb04151b2bfcd890d51049256e7957"
+    },
+    {
+      "path": "ceh_video/mandarin_build.py",
+      "before_sha256": "b53aa2fa5a57f2b2b53a600843cdce94e70fc499db5ad318e4abfb83bd795471",
+      "after_sha256": "15cdcbc43a9327bd8b84740962464cc2d3559fe4fdd480ef1904bd58d574e7de"
+    },
+    {
+      "path": "ceh_video/mandarin_delivery.py",
+      "before_sha256": "8fc8ece2e8bfe97be42e8b8f42ac9594e8efae14e0c089e12a67d5d440340e1b",
+      "after_sha256": "d450814ef3cff4e0ec9edfe9d5f87e1581908fc06a34cb8dff96d61523c4d2d2"
+    },
+    {
+      "path": "ceh_video/mandarin_graph.py",
+      "before_sha256": "5ed47a56ca9c572e31b2584322baba7576a41fc3dd889f67c6593baf0b723df9",
+      "after_sha256": "a2946166bab614d1a400c5069fea71d20cc6eeddd98d821bb1a40b7050bb31d4"
+    },
+    {
+      "path": "ceh_video/mandarin_package.py",
+      "before_sha256": "1db0ef5f03d7d896056e0c2b539a5726c0b620821379aa86b7fce380fde5ade2",
+      "after_sha256": "5aebfec55e693f4367435c6cf179b41d36c53ba1df99bffe99d30667e2040532"
+    },
+    {
+      "path": "ceh_video/master_reuse.py",
+      "before_sha256": "579f971cc1bb878f65735e47c7d977657c188436f720687675ebdc7b2d26a53b",
+      "after_sha256": "4ce93a4ccdd2b995b8dbd272f8e2dbaefeb10dbcf0f1f2f444cb4ae560103650"
+    },
+    {
+      "path": "ceh_video/packaging.py",
+      "before_sha256": "803956befa05cfa6eaaac0514eeb88c79b91a1763b8d72a9fd2af0515d97ba5e",
+      "after_sha256": "61de53eee5b69d0ef7c7052d02e7dc3f0cc4bf2e321cbdd8f53008e551e81b55"
+    },
+    {
+      "path": "ceh_video/pcm_reuse.py",
+      "before_sha256": null,
+      "after_sha256": "bb4b46cffc347352dba52a280c5b9c265c3b39dc2b5349dfe5e0706ae8172abe"
+    },
+    {
+      "path": "ceh_video/practice_package.py",
+      "before_sha256": "1946297232ab185f608cb0eaf99426db0777c02898b8a392620228f215b5cc00",
+      "after_sha256": "15bf7787070d09e003f89e6de1ea32f3f26bb9ae21d7d08c614717a7e9f47047"
+    },
+    {
+      "path": "ceh_video/qa_inputs.py",
+      "before_sha256": "6bf2deae1e573cfe3fd94b7ca439bcac85ff43ba8f21abb9b9e5892d4ccc1fbc",
+      "after_sha256": "4d3a1c4ff32dde2bf0a153dc7648dca83e9d0746faf7ca6fa69c5b8dcc37b368"
+    },
+    {
+      "path": "ceh_video/render_reuse.py",
+      "before_sha256": "fe49933fc639454e337e5e923b801d10b4335a69df8ceaf63fca33fc9ff9b96d",
+      "after_sha256": "02f52c43290132e4c14ef48604ed1131785fe1363787ae98c06fa573daf38bd0"
+    },
+    {
+      "path": "ceh_video/runtime/assemble_master.py",
+      "before_sha256": "d968a03dc32510778ebed853a72720bf0b6cf2c793588c37d4c40d6840b3e4ea",
+      "after_sha256": "8a29776ca32b612179ab8ebe9533258b458744f03c4f41ba794739b833763f00"
+    },
+    {
+      "path": "pyproject.toml",
+      "before_sha256": "38e38f87462786404f674cd4a6b7afeccd5baebc5b72ba0f8b8d2c2945311ce5",
+      "after_sha256": "68b47130abc245e907e4f81ee25f2d4e612af27a77c722d69993ba7f49428ad6"
+    },
+    {
+      "path": "tests/test_compact.py",
+      "before_sha256": null,
+      "after_sha256": "7fd3f25ff28d0274c0bb90bdc1771db3481212fde555a6017c4b0758ffdf12e7"
+    },
+    {
+      "path": "tests/test_mandarin_reuse.py",
+      "before_sha256": null,
+      "after_sha256": "941eea1e84fa134f6f8908b4bf14d95d8b0f6a8095c13988f660da130bd7c68b"
+    },
+    {
+      "path": "tests/test_master_reuse.py",
+      "before_sha256": "711323f70cb616d383d61b6271cf6312cc365a0c518d92671d582e788afe3f72",
+      "after_sha256": "110541a96ce1a14394525274f8685b7a8a23530cf4811e17bc726047c3f8641f"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-22",
+  "scope": "isolated publication checkout; unrelated M11/director/practice authoring excluded",
+  "engine_version": "0.6.0",
+  "unit_tests": {
+    "passed": 170,
+    "seconds": 19.362,
+    "log": "publication-tests.txt",
+    "sha256": "5d5021c37b78ace4d8bff37b0f841c4d1e8017e134ba7516bad56cec3e11c614"
+  },
+  "historical_working_tree_tests": 190,
+  "planning_validation": "181 metadata notes / 181 catalog entries passed",
+  "added_or_new_relative_links_checked": 87,
+  "link_errors": 0,
+  "original_worktrees": "preserved; publication prepared in isolated worktrees",
+  "coursework": "no Git repository; local references only"
+}

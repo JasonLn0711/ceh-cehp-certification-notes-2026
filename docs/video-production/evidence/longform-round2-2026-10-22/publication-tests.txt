@@ -1,0 +1,23 @@
+/tmp/ceh-longform-publish/tools/ceh_video/ceh_video/runtime/force_align.py:15: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmplq1d4gu3/data/scenes.json' mode='r' encoding='UTF-8'>
+  for scene in json.load(open(ROOT/'data/scenes.json'))['scenes']:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/ceh-longform-publish/tools/ceh_video/ceh_video/runtime/force_align.py:24: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmplq1d4gu3/data/S01.audio.json' mode='r' encoding='UTF-8'>
+  for r in json.load(open(tf))['segments']:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/tmp/ceh-longform-publish/tools/ceh_video/ceh_video/runtime/force_align.py:29: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmplq1d4gu3/data/forced-alignment/S01-000.json' mode='r' encoding='UTF-8'>
+  old=json.load(open(out))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+..........................................................................................................{"phase": "full_decode_start", "expected_frames": 30, "progress_file": "/tmp/tmpjgdavo3b/master-full-decode.progress"}
+.{"phase": "full_decode_start", "expected_frames": 30, "progress_file": "/tmp/tmp7n_wp1qu/master-full-decode.progress"}
+{"phase": "full_decode_passed", "decoded_frames": 30, "elapsed_seconds": 0.3153280539991101}
+.{"phase": "full_decode_start", "expected_frames": 30, "progress_file": "/tmp/tmplizejbiz/master-full-decode.progress"}
+{"phase": "full_decode_passed", "decoded_frames": 30, "elapsed_seconds": 0.17673870299768168}
+{"phase": "full_decode_start", "expected_frames": 31, "progress_file": "/tmp/tmplizejbiz/master-full-decode.progress"}
+.{"phase": "full_decode_start", "expected_frames": 31, "progress_file": "/tmp/tmplraatx0l/master-full-decode.progress"}
+.{"phase": "full_decode_start", "expected_frames": 30, "progress_file": "/tmp/tmpt7c_fn2c/master-full-decode.progress"}
+{"phase": "full_decode_passed", "decoded_frames": 30, "elapsed_seconds": 0.17056114299339242}
+............................................................
+----------------------------------------------------------------------
+Ran 170 tests in 19.362s
+
+OK

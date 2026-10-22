@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "source_project": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/project",
+  "host_payloads": 1054,
+  "combined_audio_payloads": 24,
+  "excluded": [
+    "project/review/",
+    "qa/remaster-boundaries/hosts/"
+  ],
+  "source_bytes": 6226469553,
+  "inventory_sha256": "71800caa44b759310230b849d32014b73f2001da28a5eaa2691d39b16422b485",
+  "scope": "Final current inventory metadata and inclusion contract; original profile unchanged"
+}

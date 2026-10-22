@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-10-22T13:01:42.109832+00:00",
+  "reviewer_type": "agent",
+  "scope": "Seven sampled encoded frames from the two-scene native excerpt; no full-film or human listening acceptance",
+  "master_sha256": "ab8b6d207c47f6d0270d8198a2f1f6a3010213f24457bade4046ffaac970f43c",
+  "contact_sheet": "/home/jnlngx10/Videos/longform-round2-2026-10-22/media-optimized/output/inspection_frames/encoded-contact-01.jpg",
+  "contact_sheet_sha256": "96475db7c87e09d5ed394d2d7def2cc2fd8f1de6ead77993ba0dd5ca3f1f447b",
+  "findings": "S01 source image, headings and captions are separated and legible in sampled states. S05 hold shows four unhighlighted choices and 0.45 timer; answer and late states highlight C and show the explanation only after the hold.",
+  "decision": "sampled_encoded_states_passed"
+}

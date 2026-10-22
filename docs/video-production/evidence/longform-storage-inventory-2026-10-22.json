@@ -1,0 +1,1040 @@
+{
+  "policy_version": "longform-storage-v1.0.0",
+  "scope": "CEH and coursework long-film workspaces; read-only; per-workspace inode accounting",
+  "workspaces": [
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:05.732015+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M04",
+      "status": "completed",
+      "read_only": true,
+      "files": 14105,
+      "symlinks_skipped": 39,
+      "hardlink_entries_not_recounted": 0,
+      "errors": [],
+      "categories": {
+        "preserve_source_and_other": {
+          "files": 1792,
+          "logical_bytes": 3478971940,
+          "allocated_bytes": 3483123712
+        },
+        "preserve_validation_evidence": {
+          "files": 364,
+          "logical_bytes": 32091909,
+          "allocated_bytes": 33058816
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 2873,
+          "logical_bytes": 717604215,
+          "allocated_bytes": 726519808
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 398,
+          "logical_bytes": 1940733013,
+          "allocated_bytes": 1941766144
+        },
+        "runtime_dependencies": {
+          "files": 8678,
+          "logical_bytes": 451042606,
+          "allocated_bytes": 473804800
+        }
+      },
+      "logical_bytes": 6620443683,
+      "allocated_bytes": 6658273280,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:06.606106+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M04_v3",
+      "status": "completed",
+      "read_only": true,
+      "files": 15645,
+      "symlinks_skipped": 14,
+      "hardlink_entries_not_recounted": 5156,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 7,
+          "logical_bytes": 207555374,
+          "allocated_bytes": 207577088
+        },
+        "preserve_source_and_other": {
+          "files": 3137,
+          "logical_bytes": 1059549906,
+          "allocated_bytes": 1067020288
+        },
+        "preserve_validation_evidence": {
+          "files": 557,
+          "logical_bytes": 48630972,
+          "allocated_bytes": 49934336
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 3184,
+          "logical_bytes": 1020526272,
+          "allocated_bytes": 1030561792
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 258,
+          "logical_bytes": 1291792078,
+          "allocated_bytes": 1292414976
+        },
+        "runtime_dependencies": {
+          "files": 8502,
+          "logical_bytes": 463814103,
+          "allocated_bytes": 486170624
+        }
+      },
+      "logical_bytes": 4091868705,
+      "allocated_bytes": 4133679104,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:07.678552+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M05_v1",
+      "status": "completed",
+      "read_only": true,
+      "files": 19226,
+      "symlinks_skipped": 19,
+      "hardlink_entries_not_recounted": 5509,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 7,
+          "logical_bytes": 135391285,
+          "allocated_bytes": 135413760
+        },
+        "preserve_source_and_other": {
+          "files": 5074,
+          "logical_bytes": 1490042298,
+          "allocated_bytes": 1502228480
+        },
+        "preserve_validation_evidence": {
+          "files": 736,
+          "logical_bytes": 545113978,
+          "allocated_bytes": 546885632
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 3058,
+          "logical_bytes": 745102836,
+          "allocated_bytes": 753721344
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 1248,
+          "logical_bytes": 972381355,
+          "allocated_bytes": 975982592
+        },
+        "runtime_dependencies": {
+          "files": 9103,
+          "logical_bytes": 481938974,
+          "allocated_bytes": 505606144
+        }
+      },
+      "logical_bytes": 4369970726,
+      "allocated_bytes": 4419837952,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:08.924929+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M05_v1_1",
+      "status": "completed",
+      "read_only": true,
+      "files": 18782,
+      "symlinks_skipped": 14,
+      "hardlink_entries_not_recounted": 5509,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 7,
+          "logical_bytes": 133883400,
+          "allocated_bytes": 133898240
+        },
+        "preserve_source_and_other": {
+          "files": 5006,
+          "logical_bytes": 1486737705,
+          "allocated_bytes": 1498804224
+        },
+        "preserve_validation_evidence": {
+          "files": 349,
+          "logical_bytes": 8354932,
+          "allocated_bytes": 9281536
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 3058,
+          "logical_bytes": 732430836,
+          "allocated_bytes": 741064704
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 1249,
+          "logical_bytes": 949762112,
+          "allocated_bytes": 953368576
+        },
+        "runtime_dependencies": {
+          "files": 9113,
+          "logical_bytes": 482533851,
+          "allocated_bytes": 506224640
+        }
+      },
+      "logical_bytes": 3793702836,
+      "allocated_bytes": 3842641920,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:09.578815+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M06_v1_1",
+      "status": "completed",
+      "read_only": true,
+      "files": 10456,
+      "symlinks_skipped": 2,
+      "hardlink_entries_not_recounted": 7082,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 9,
+          "logical_bytes": 3572713041,
+          "allocated_bytes": 3572740096
+        },
+        "preserve_source_and_other": {
+          "files": 5265,
+          "logical_bytes": 1547585383,
+          "allocated_bytes": 1560162304
+        },
+        "preserve_validation_evidence": {
+          "files": 711,
+          "logical_bytes": 38389932,
+          "allocated_bytes": 40132608
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 2976,
+          "logical_bytes": 3380677788,
+          "allocated_bytes": 3388940288
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 1495,
+          "logical_bytes": 3554448060,
+          "allocated_bytes": 3558969344
+        }
+      },
+      "logical_bytes": 12093814204,
+      "allocated_bytes": 12120944640,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:10.481566+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M07_v1_0",
+      "status": "completed",
+      "read_only": true,
+      "files": 16230,
+      "symlinks_skipped": 11,
+      "hardlink_entries_not_recounted": 5923,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 11,
+          "logical_bytes": 3971828420,
+          "allocated_bytes": 3971866624
+        },
+        "preserve_source_and_other": {
+          "files": 5830,
+          "logical_bytes": 1685530521,
+          "allocated_bytes": 1698742272
+        },
+        "preserve_validation_evidence": {
+          "files": 924,
+          "logical_bytes": 46509542,
+          "allocated_bytes": 48627712
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 3046,
+          "logical_bytes": 3599201928,
+          "allocated_bytes": 3607416832
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 1309,
+          "logical_bytes": 3942038355,
+          "allocated_bytes": 3945963520
+        },
+        "runtime_dependencies": {
+          "files": 5110,
+          "logical_bytes": 101977718,
+          "allocated_bytes": 115863552
+        }
+      },
+      "logical_bytes": 13347086484,
+      "allocated_bytes": 13388480512,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:11.996873+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M08_v1_0",
+      "status": "completed",
+      "read_only": true,
+      "files": 27082,
+      "symlinks_skipped": 33,
+      "hardlink_entries_not_recounted": 5923,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 11,
+          "logical_bytes": 4054228918,
+          "allocated_bytes": 4054265856
+        },
+        "preserve_source_and_other": {
+          "files": 5774,
+          "logical_bytes": 1697427757,
+          "allocated_bytes": 1710260224
+        },
+        "preserve_validation_evidence": {
+          "files": 1056,
+          "logical_bytes": 58349874,
+          "allocated_bytes": 60751872
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 2858,
+          "logical_bytes": 3677715860,
+          "allocated_bytes": 3685277696
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 1313,
+          "logical_bytes": 4027145391,
+          "allocated_bytes": 4031102976
+        },
+        "runtime_dependencies": {
+          "files": 16070,
+          "logical_bytes": 286997592,
+          "allocated_bytes": 330731520
+        }
+      },
+      "logical_bytes": 13801865392,
+      "allocated_bytes": 13872390144,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:13.456296+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M09_v1_0",
+      "status": "completed",
+      "read_only": true,
+      "files": 22362,
+      "symlinks_skipped": 23,
+      "hardlink_entries_not_recounted": 5440,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 11,
+          "logical_bytes": 4247502115,
+          "allocated_bytes": 4247531520
+        },
+        "preserve_source_and_other": {
+          "files": 6107,
+          "logical_bytes": 1744771780,
+          "allocated_bytes": 1758367744
+        },
+        "preserve_validation_evidence": {
+          "files": 1050,
+          "logical_bytes": 67973156,
+          "allocated_bytes": 70344704
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 3006,
+          "logical_bytes": 3875168674,
+          "allocated_bytes": 3883266048
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 1228,
+          "logical_bytes": 4238629514,
+          "allocated_bytes": 4242276352
+        },
+        "runtime_dependencies": {
+          "files": 10960,
+          "logical_bytes": 185047943,
+          "allocated_bytes": 214896640
+        }
+      },
+      "logical_bytes": 14359093182,
+      "allocated_bytes": 14416683008,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:13.464687+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M10_decode_tuning_20261020",
+      "status": "completed",
+      "read_only": true,
+      "files": 60,
+      "symlinks_skipped": 0,
+      "hardlink_entries_not_recounted": 0,
+      "errors": [],
+      "categories": {
+        "preserve_source_and_other": {
+          "files": 60,
+          "logical_bytes": 235213,
+          "allocated_bytes": 339968
+        }
+      },
+      "logical_bytes": 235213,
+      "allocated_bytes": 339968,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:15.697537+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M10_editorial_remaster_v1_1",
+      "status": "completed",
+      "read_only": true,
+      "files": 38164,
+      "symlinks_skipped": 143,
+      "hardlink_entries_not_recounted": 5313,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 10,
+          "logical_bytes": 4764153550,
+          "allocated_bytes": 4764180480
+        },
+        "preserve_source_and_other": {
+          "files": 5258,
+          "logical_bytes": 1167487702,
+          "allocated_bytes": 1180397568
+        },
+        "preserve_validation_evidence": {
+          "files": 7198,
+          "logical_bytes": 607185200,
+          "allocated_bytes": 623022080
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 4786,
+          "logical_bytes": 3608648656,
+          "allocated_bytes": 3618381824
+        },
+        "review_duplicate_workspaces": {
+          "files": 8369,
+          "logical_bytes": 6218251907,
+          "allocated_bytes": 6237208576
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 218,
+          "logical_bytes": 1910429274,
+          "allocated_bytes": 1911021568
+        },
+        "runtime_dependencies": {
+          "files": 12325,
+          "logical_bytes": 873616738,
+          "allocated_bytes": 905281536
+        }
+      },
+      "logical_bytes": 19149773027,
+      "allocated_bytes": 19239493632,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:16.436654+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M10_efficiency_v1_2",
+      "status": "completed",
+      "read_only": true,
+      "files": 13621,
+      "symlinks_skipped": 31,
+      "hardlink_entries_not_recounted": 5440,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 8,
+          "logical_bytes": 2889778803,
+          "allocated_bytes": 2889805824
+        },
+        "preserve_source_and_other": {
+          "files": 5307,
+          "logical_bytes": 1167348592,
+          "allocated_bytes": 1180372992
+        },
+        "preserve_validation_evidence": {
+          "files": 3371,
+          "logical_bytes": 295796241,
+          "allocated_bytes": 303456256
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 4728,
+          "logical_bytes": 2772920527,
+          "allocated_bytes": 2782547968
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 207,
+          "logical_bytes": 1938427014,
+          "allocated_bytes": 1938976768
+        }
+      },
+      "logical_bytes": 9064271177,
+      "allocated_bytes": 9095159808,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:17.930516+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M10_motion_v1_1",
+      "status": "completed",
+      "read_only": true,
+      "files": 21441,
+      "symlinks_skipped": 10,
+      "hardlink_entries_not_recounted": 5371,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 9,
+          "logical_bytes": 856898016,
+          "allocated_bytes": 856920064
+        },
+        "preserve_source_and_other": {
+          "files": 3882,
+          "logical_bytes": 1090771486,
+          "allocated_bytes": 1100271616
+        },
+        "preserve_validation_evidence": {
+          "files": 422,
+          "logical_bytes": 185833861,
+          "allocated_bytes": 186859520
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 4728,
+          "logical_bytes": 2759193304,
+          "allocated_bytes": 2768809984
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 162,
+          "logical_bytes": 1701612815,
+          "allocated_bytes": 1702039552
+        },
+        "runtime_dependencies": {
+          "files": 12238,
+          "logical_bytes": 872519363,
+          "allocated_bytes": 903983104
+        }
+      },
+      "logical_bytes": 7466828845,
+      "allocated_bytes": 7518883840,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:21.181515+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M10_optimization_v1",
+      "status": "completed",
+      "read_only": true,
+      "files": 39615,
+      "symlinks_skipped": 29,
+      "hardlink_entries_not_recounted": 5334,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 8,
+          "logical_bytes": 4356583495,
+          "allocated_bytes": 4356612096
+        },
+        "preserve_source_and_other": {
+          "files": 3925,
+          "logical_bytes": 899312282,
+          "allocated_bytes": 908775424
+        },
+        "preserve_validation_evidence": {
+          "files": 1098,
+          "logical_bytes": 58801766,
+          "allocated_bytes": 61349888
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 4954,
+          "logical_bytes": 3525862128,
+          "allocated_bytes": 3539116032
+        },
+        "review_duplicate_workspaces": {
+          "files": 19458,
+          "logical_bytes": 12495128791,
+          "allocated_bytes": 12545351680
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 1054,
+          "logical_bytes": 1889293913,
+          "allocated_bytes": 1892581376
+        },
+        "runtime_dependencies": {
+          "files": 9118,
+          "logical_bytes": 482633722,
+          "allocated_bytes": 506335232
+        }
+      },
+      "logical_bytes": 23707616097,
+      "allocated_bytes": 23810121728,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:21.248756+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M10_perf_fix_20261020",
+      "status": "completed",
+      "read_only": true,
+      "files": 828,
+      "symlinks_skipped": 10,
+      "hardlink_entries_not_recounted": 0,
+      "errors": [],
+      "categories": {
+        "preserve_source_and_other": {
+          "files": 795,
+          "logical_bytes": 1563871946,
+          "allocated_bytes": 1565732864
+        },
+        "preserve_validation_evidence": {
+          "files": 31,
+          "logical_bytes": 303846,
+          "allocated_bytes": 380928
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 2,
+          "logical_bytes": 1726361688,
+          "allocated_bytes": 1726373888
+        }
+      },
+      "logical_bytes": 3290537480,
+      "allocated_bytes": 3292487680,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:21.257255+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M10_retry_capture_20261020",
+      "status": "completed",
+      "read_only": true,
+      "files": 121,
+      "symlinks_skipped": 0,
+      "hardlink_entries_not_recounted": 0,
+      "errors": [],
+      "categories": {
+        "preserve_source_and_other": {
+          "files": 96,
+          "logical_bytes": 28711925,
+          "allocated_bytes": 28966912
+        },
+        "preserve_validation_evidence": {
+          "files": 19,
+          "logical_bytes": 34068,
+          "allocated_bytes": 90112
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 2,
+          "logical_bytes": 23040088,
+          "allocated_bytes": 23044096
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 4,
+          "logical_bytes": 26929642,
+          "allocated_bytes": 26939392
+        }
+      },
+      "logical_bytes": 78715723,
+      "allocated_bytes": 79040512,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:22.114927+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M10_v1_0",
+      "status": "completed",
+      "read_only": true,
+      "files": 11703,
+      "symlinks_skipped": 3,
+      "hardlink_entries_not_recounted": 5371,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 11,
+          "logical_bytes": 4355761375,
+          "allocated_bytes": 4355801088
+        },
+        "preserve_source_and_other": {
+          "files": 6113,
+          "logical_bytes": 1762350195,
+          "allocated_bytes": 1776369664
+        },
+        "preserve_validation_evidence": {
+          "files": 1058,
+          "logical_bytes": 76421295,
+          "allocated_bytes": 78757888
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 3298,
+          "logical_bytes": 3982746526,
+          "allocated_bytes": 3991535616
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 1223,
+          "logical_bytes": 4360651153,
+          "allocated_bytes": 4364357632
+        }
+      },
+      "logical_bytes": 14537930544,
+      "allocated_bytes": 14566821888,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:22.919292+00:00",
+      "workspace": "/home/jnlngx10/Videos/CEH_M11_initial_v1",
+      "status": "completed",
+      "read_only": true,
+      "files": 10461,
+      "symlinks_skipped": 25,
+      "hardlink_entries_not_recounted": 4602,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 9,
+          "logical_bytes": 2245239879,
+          "allocated_bytes": 2245271552
+        },
+        "preserve_source_and_other": {
+          "files": 3971,
+          "logical_bytes": 1053125851,
+          "allocated_bytes": 1063186432
+        },
+        "preserve_validation_evidence": {
+          "files": 2666,
+          "logical_bytes": 170843239,
+          "allocated_bytes": 177352704
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 3626,
+          "logical_bytes": 2735097666,
+          "allocated_bytes": 2742693888
+        },
+        "review_interrupted_temporary_files": {
+          "files": 1,
+          "logical_bytes": 645628728,
+          "allocated_bytes": 645636096
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 188,
+          "logical_bytes": 1448333340,
+          "allocated_bytes": 1448861696
+        }
+      },
+      "logical_bytes": 8298268703,
+      "allocated_bytes": 8323002368,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:24.310474+00:00",
+      "workspace": "/home/jnlngx10/Videos/Digital_Everyday_Masterclass_v1",
+      "status": "completed",
+      "read_only": true,
+      "files": 19933,
+      "symlinks_skipped": 30,
+      "hardlink_entries_not_recounted": 2129,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 7,
+          "logical_bytes": 1854949731,
+          "allocated_bytes": 1854971904
+        },
+        "preserve_source_and_other": {
+          "files": 1310,
+          "logical_bytes": 498361983,
+          "allocated_bytes": 501428224
+        },
+        "preserve_validation_evidence": {
+          "files": 1148,
+          "logical_bytes": 468886173,
+          "allocated_bytes": 471560192
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 1235,
+          "logical_bytes": 1363491681,
+          "allocated_bytes": 1366290432
+        },
+        "review_duplicate_workspaces": {
+          "files": 3011,
+          "logical_bytes": 2705854233,
+          "allocated_bytes": 2712670208
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 205,
+          "logical_bytes": 989098262,
+          "allocated_bytes": 989630464
+        },
+        "runtime_dependencies": {
+          "files": 13017,
+          "logical_bytes": 347278427,
+          "allocated_bytes": 381689856
+        }
+      },
+      "logical_bytes": 8227920490,
+      "allocated_bytes": 8278241280,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:24.904631+00:00",
+      "workspace": "/home/jnlngx10/Videos/Island_Workshop_MATLAB_Concepts_v1",
+      "status": "completed",
+      "read_only": true,
+      "files": 9621,
+      "symlinks_skipped": 2,
+      "hardlink_entries_not_recounted": 0,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 9,
+          "logical_bytes": 1856720697,
+          "allocated_bytes": 1856741376
+        },
+        "preserve_source_and_other": {
+          "files": 1168,
+          "logical_bytes": 554766573,
+          "allocated_bytes": 557428736
+        },
+        "preserve_validation_evidence": {
+          "files": 610,
+          "logical_bytes": 347258020,
+          "allocated_bytes": 348725248
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 1055,
+          "logical_bytes": 1386132463,
+          "allocated_bytes": 1388457984
+        },
+        "review_duplicate_workspaces": {
+          "files": 2258,
+          "logical_bytes": 2705391800,
+          "allocated_bytes": 2710339584
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 208,
+          "logical_bytes": 962725183,
+          "allocated_bytes": 963244032
+        },
+        "runtime_dependencies": {
+          "files": 4313,
+          "logical_bytes": 109473823,
+          "allocated_bytes": 120582144
+        }
+      },
+      "logical_bytes": 7922468559,
+      "allocated_bytes": 7945519104,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:25.774887+00:00",
+      "workspace": "/home/jnlngx10/Videos/Island_Workshop_MATLAB_Concepts_v2_1p3",
+      "status": "completed",
+      "read_only": true,
+      "files": 14542,
+      "symlinks_skipped": 11,
+      "hardlink_entries_not_recounted": 0,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 9,
+          "logical_bytes": 2024797919,
+          "allocated_bytes": 2024824832
+        },
+        "preserve_source_and_other": {
+          "files": 1173,
+          "logical_bytes": 563001614,
+          "allocated_bytes": 565661696
+        },
+        "preserve_validation_evidence": {
+          "files": 536,
+          "logical_bytes": 381977098,
+          "allocated_bytes": 383315968
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 1048,
+          "logical_bytes": 1486444499,
+          "allocated_bytes": 1488846848
+        },
+        "review_duplicate_workspaces": {
+          "files": 2206,
+          "logical_bytes": 2892323121,
+          "allocated_bytes": 2897244160
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 194,
+          "logical_bytes": 1043172941,
+          "allocated_bytes": 1043640320
+        },
+        "runtime_dependencies": {
+          "files": 9376,
+          "logical_bytes": 201146356,
+          "allocated_bytes": 226033664
+        }
+      },
+      "logical_bytes": 8592863548,
+      "allocated_bytes": 8629567488,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:17:26.408900+00:00",
+      "workspace": "/home/jnlngx10/Videos/Island_Workshop_MATLAB_Concepts_v3_images_gpu",
+      "status": "completed",
+      "read_only": true,
+      "files": 9867,
+      "symlinks_skipped": 2,
+      "hardlink_entries_not_recounted": 0,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 10,
+          "logical_bytes": 2109111174,
+          "allocated_bytes": 2109136896
+        },
+        "preserve_source_and_other": {
+          "files": 1282,
+          "logical_bytes": 583950285,
+          "allocated_bytes": 586891264
+        },
+        "preserve_validation_evidence": {
+          "files": 646,
+          "logical_bytes": 452387416,
+          "allocated_bytes": 453963776
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 1048,
+          "logical_bytes": 1486444499,
+          "allocated_bytes": 1488846848
+        },
+        "review_duplicate_workspaces": {
+          "files": 2374,
+          "logical_bytes": 2970431414,
+          "allocated_bytes": 2975764480
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 194,
+          "logical_bytes": 1066594872,
+          "allocated_bytes": 1067089920
+        },
+        "runtime_dependencies": {
+          "files": 4313,
+          "logical_bytes": 109473823,
+          "allocated_bytes": 120582144
+        }
+      },
+      "logical_bytes": 8778393483,
+      "allocated_bytes": 8802275328,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:20:11.565071+00:00",
+      "workspace": "/home/jnlngx10/Videos/island-workshop-matlab-practice-v1",
+      "status": "completed",
+      "read_only": true,
+      "files": 9672,
+      "symlinks_skipped": 15,
+      "hardlink_entries_not_recounted": 5,
+      "errors": [],
+      "categories": {
+        "preserve_delivery_outputs": {
+          "files": 15,
+          "logical_bytes": 1702418625,
+          "allocated_bytes": 1702465536
+        },
+        "preserve_source_and_other": {
+          "files": 262,
+          "logical_bytes": 59108691,
+          "allocated_bytes": 59744256
+        },
+        "preserve_voice_and_reconstruction": {
+          "files": 696,
+          "logical_bytes": 1062096645,
+          "allocated_bytes": 1063649280
+        },
+        "review_rebuildable_hosts_and_chapters": {
+          "files": 1,
+          "logical_bytes": 406,
+          "allocated_bytes": 4096
+        },
+        "runtime_dependencies": {
+          "files": 8698,
+          "logical_bytes": 232997491,
+          "allocated_bytes": 255250432
+        }
+      },
+      "logical_bytes": 3056621858,
+      "allocated_bytes": 3081113600,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    },
+    {
+      "schema": 1,
+      "policy_version": "longform-storage-v1.0.0",
+      "created_at": "2026-10-22T10:20:11.571962+00:00",
+      "workspace": "/home/jnlngx10/phd-research/repos/nycu-115-1-coursework/cscm30018/review-video-03",
+      "status": "completed",
+      "read_only": true,
+      "files": 104,
+      "symlinks_skipped": 0,
+      "hardlink_entries_not_recounted": 0,
+      "errors": [],
+      "categories": {
+        "preserve_source_and_other": {
+          "files": 104,
+          "logical_bytes": 9194067,
+          "allocated_bytes": 9400320
+        }
+      },
+      "logical_bytes": 9194067,
+      "allocated_bytes": 9400320,
+      "reclaimable_bytes": null,
+      "measurement_scope": "Unique regular-file inodes within this workspace; no content deduplication, directory blocks, symlink targets or reflink extent accounting. Review categories are not deletion approval."
+    }
+  ]
+}
