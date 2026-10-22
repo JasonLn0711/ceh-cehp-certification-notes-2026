@@ -41,6 +41,10 @@ FIRST PRINCIPLE：稀缺資源是持續理解所需的注意力、可用時間�
 
 ## 下一次與關聯
 
+2026-10-23 的[公開雙語教材橋接](../docs/public-teaching-bridge-2026-10-23.md)接續
+M01 起的概念文章與 Q&A 規劃；公開編輯順序與本頁的個人閱讀順序各自維持。
+每篇完整中英文的要求屬公開教材，不增加本閱讀路線的檢核數或完成條件。
+
 下一次：M04-01 Enumeration Concepts，理解偵察、掃描、列舉與存取權限的差異；一個具體例子、一個小檢核。這次只建置計畫，尚未開始閱讀或測驗。
 
 [教學入口](professor-prompt-uuu-aligned-2026-09-18.md) · [準備度](../assessment-governance/readiness_dashboard.md) · [覆蓋紀錄](../assessment-governance/course-coverage-2026-09-18.md) · [Planning 專案](../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#ceh-concept-reading-2026-10-22) · [當日日誌](../../planning-everything-track/weeks/2026-W43/days/2026-10-22.md#ceh-concept-reading-2026-10-22)。
