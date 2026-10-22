@@ -63,6 +63,16 @@ The change targets repeated assembly and validation after upstream QA updates.
 Full native first-run production speed remains a separate measurement; completed
 v1.2 media and all historical receipts remain preserved.
 
+## Initial series baseline and M11
+
+The user adopted the [initial series baseline](INITIAL_SERIES_STANDARD.md) for current production. It retains v1.2 timing and 0.5.3 verified reuse while separating module-specific content counts. [M11 production](../../notes/m11-session-hijacking/video-production-2026-10-20.md) owns the next film and its evidence; historical M10 deliveries remain unchanged.
+
+## Director-led authoring — October 21
+
+[Workflow](DIRECTOR_LED_WORKFLOW.md) · [Copy-ready prompts](DIRECTOR_PROMPTS.md) · [Content brief](templates/director-led/BRIEF.template.md) · [Storyboard](templates/director-led/STORYBOARD.template.md) · [Review/change record](templates/director-led/REVIEW.template.md) · [M11 S06 example](templates/director-led/M11_S06.example.md) · [Adoption and validation](DIRECTOR_LED_ADOPTION.md).
+
+The user owns content and script; the assistant proposes visuals and camera direction. Review the whole film together, recording decisions per scene. This release provides documents/templates only; current media and engine remain unchanged.
+
 ## Long-film production and storage — October 22
 
 [Versioned standard v1.0.0](LONGFORM_STORAGE_STANDARD_v1.0.0.md) · [Source request](../../source/2026-10-22-longform-storage-policy/source.md) · [Capacity inventory](evidence/longform-storage-inventory-2026-10-22.json) · [Validation](evidence/longform-storage-validation-2026-10-22.json).
@@ -76,3 +86,5 @@ Engine 0.5.5 improves temporary archive cleanup and verified promotion across CE
 ## Long-form storage v2 — 2026-10-22
 
 [Current standard v2.0.0](LONGFORM_STORAGE_STANDARD_v2.0.0.md) specifies engine 0.6.0, exact-byte compact archives, standalone offline restoration, verified Mandarin media reuse, and dependency-aware cleanup. [Round-two execution evidence](evidence/longform-round2-2026-10-22/README.md) separates real restoration, native excerpt comparisons and actual removals. Existing release archives retain their original formats and receipts.
+
+[October 22 publication closeout](PUBLICATION_2026-10-22.md) connects M11, director workflow, storage history and Planning status.

@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-21",
+  "scope": "Director-led documentation and templates only",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "markdown:docs/video-production/DIRECTOR_LED_WORKFLOW.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "markdown:docs/video-production/DIRECTOR_PROMPTS.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "markdown:docs/video-production/DIRECTOR_LED_ADOPTION.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "markdown:docs/video-production/INITIAL_SERIES_STANDARD.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "markdown:docs/video-production/MOTION_DESIGN_SYSTEM.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "markdown:docs/video-production/VISUAL_QA_STANDARD.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "markdown:docs/video-production/README.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "markdown:docs/video-production/templates/director-led/BRIEF.template.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "markdown:docs/video-production/templates/director-led/M11_S06.example.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "markdown:docs/video-production/templates/director-led/REVIEW.template.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "markdown:docs/video-production/templates/director-led/STORYBOARD.template.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "markdown:notes/m11-session-hijacking/video-production-2026-10-20.md",
+      "status": "passed",
+      "detail": "Balanced fenced blocks and no trailing whitespace"
+    },
+    {
+      "name": "local_link_targets",
+      "status": "passed",
+      "detail": {
+        "checked": 106,
+        "missing": []
+      }
+    },
+    {
+      "name": "engine_and_m11_sources_preserved",
+      "status": "passed",
+      "detail": {
+        "files": 189,
+        "changed": []
+      }
+    },
+    {
+      "name": "example_source_binding",
+      "status": "passed",
+      "detail": "S06 canonical title and exact lesson.txt SHA-256"
+    },
+    {
+      "name": "document_contract_coverage",
+      "status": "passed",
+      "detail": "Required fields and preserved constants present; this is documentation coverage, not runtime validation"
+    },
+    {
+      "name": "example_not_approved_or_rendered",
+      "status": "passed",
+      "detail": "Example labels creative review and new media as pending/not produced"
+    },
+    {
+      "name": "preserved_media:CEH_M11_Session_Hijacking_en-US_Editorial_v1_master.mp4",
+      "status": "passed",
+      "detail": {
+        "path": "/home/jnlngx10/Videos/CEH_M11_initial_v1/output/CEH_M11_Session_Hijacking_en-US_Editorial_v1_master.mp4",
+        "bytes": 145516716,
+        "sha256": "3e47e52251bad57998473807177ebdb86c57d266fe2654553122634e41ca7743",
+        "expected_sha256": "3e47e52251bad57998473807177ebdb86c57d266fe2654553122634e41ca7743"
+      }
+    },
+    {
+      "name": "preserved_media:CEH_M11_English_Masterclass_v1_EDITABLE.zip",
+      "status": "passed",
+      "detail": {
+        "path": "/home/jnlngx10/Videos/CEH_M11_initial_v1/output/CEH_M11_English_Masterclass_v1_EDITABLE.zip",
+        "bytes": 1449652005,
+        "sha256": "57b208874881f4f09e8d8388ee06a1eb1e951ea622b458a6da2de3d84dad240d",
+        "expected_sha256": "57b208874881f4f09e8d8388ee06a1eb1e951ea622b458a6da2de3d84dad240d"
+      }
+    },
+    {
+      "name": "git_diff_check",
+      "status": "passed",
+      "detail": ""
+    }
+  ],
+  "documents": [
+    {
+      "path": "docs/video-production/DIRECTOR_LED_WORKFLOW.md",
+      "sha256": "2bb5011b375825bfbba8e1cfe1532d5301648ef0ef5f1a7d9a06536e87be4780"
+    },
+    {
+      "path": "docs/video-production/DIRECTOR_PROMPTS.md",
+      "sha256": "a2ad2bc840cc0d413ff8cfc2517cf2ed579c853b52d30a59bf2a883f3eaf9fa7"
+    },
+    {
+      "path": "docs/video-production/DIRECTOR_LED_ADOPTION.md",
+      "sha256": "a1de5ba424c7d1170a380e35ab128dfe77058f79ae3978c28c37031ad08724c0"
+    },
+    {
+      "path": "docs/video-production/INITIAL_SERIES_STANDARD.md",
+      "sha256": "5d287390d90f16db391ea4ce73c06932535956b9814f3e2a9ea7c48def7016b9"
+    },
+    {
+      "path": "docs/video-production/MOTION_DESIGN_SYSTEM.md",
+      "sha256": "bfdebb6e203c0ad626725b846c345cba6c545341477eee03ccbb5879a6ac30af"
+    },
+    {
+      "path": "docs/video-production/VISUAL_QA_STANDARD.md",
+      "sha256": "2ce57f77102e6947412c09db909eb8080da467560d02a3ac50424ebb021b627d"
+    },
+    {
+      "path": "docs/video-production/README.md",
+      "sha256": "d4368198eca307935160e4226adc72d3690b77d06bb0c74215f2bb8ba19f5d7e"
+    },
+    {
+      "path": "docs/video-production/templates/director-led/BRIEF.template.md",
+      "sha256": "97172290edb6e15115a7efd41fa7cbd18198b7789c9da200e1990b0f8758f6c0"
+    },
+    {
+      "path": "docs/video-production/templates/director-led/M11_S06.example.md",
+      "sha256": "81d0ca0861b10008fefdeb6b3aa47d9942b0bf7816eeff5d8f0cf63344bcef2e"
+    },
+    {
+      "path": "docs/video-production/templates/director-led/REVIEW.template.md",
+      "sha256": "d3fa51ca22cf7e228155a54d85dc3410afee9a965afa72818396fcec3f14ec20"
+    },
+    {
+      "path": "docs/video-production/templates/director-led/STORYBOARD.template.md",
+      "sha256": "c1ee0e59cf6edd376c9febd37a9aa0f8b2c4d2e758eca8317e5efc8345c45a63"
+    },
+    {
+      "path": "notes/m11-session-hijacking/video-production-2026-10-20.md",
+      "sha256": "e1cea48748f54e288bde4104a58192f73deef743486411550cdf3fe768bf822b"
+    }
+  ],
+  "limitations": [
+    "No new engine code, camera runtime, previews or media generated",
+    "No new screenshot, seek, audio or rendering tests run; prior evidence is preserved",
+    "No user creative approval of S06 example inferred",
+    "No commit or push performed"
+  ],
+  "preserved_media": [
+    {
+      "path": "/home/jnlngx10/Videos/CEH_M11_initial_v1/output/CEH_M11_Session_Hijacking_en-US_Editorial_v1_master.mp4",
+      "bytes": 145516716,
+      "sha256": "3e47e52251bad57998473807177ebdb86c57d266fe2654553122634e41ca7743",
+      "expected_sha256": "3e47e52251bad57998473807177ebdb86c57d266fe2654553122634e41ca7743"
+    },
+    {
+      "path": "/home/jnlngx10/Videos/CEH_M11_initial_v1/output/CEH_M11_English_Masterclass_v1_EDITABLE.zip",
+      "bytes": 1449652005,
+      "sha256": "57b208874881f4f09e8d8388ee06a1eb1e951ea622b458a6da2de3d84dad240d",
+      "expected_sha256": "57b208874881f4f09e8d8388ee06a1eb1e951ea622b458a6da2de3d84dad240d"
+    }
+  ]
+}
