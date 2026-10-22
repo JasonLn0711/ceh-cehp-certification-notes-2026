@@ -152,3 +152,5 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 [Complete supplied M04 source, exact clarification and approved plan](2026-10-22-concept-reading/README.md) establish one whole core concept per reading task. [Current rule](../study-plan/concept-reading-2026-10-22.md) and [M04 reading order](../notes/m04-enumeration/reading-route.md) own execution; no learner result follows from this capture.
 
 - [2026-10-22 long-form storage requests and publication scope](2026-10-22-longform-storage-policy/source.md): versioned rules, implementation and audited cleanup for CEH/coursework videos.
+
+- [M11 initial-series request and source](2026-10-20-ceh-m11-video-production/README.md): links the adopted baseline, authored lesson and production evidence.
