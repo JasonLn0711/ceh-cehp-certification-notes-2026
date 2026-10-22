@@ -142,3 +142,7 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 ## M10 English Masterclass source
 
 [Source record](2026-10-19-ceh-m10-video-production/README.md) preserves the authored lesson, evidence, recovery code and actual source checks. [Production status](../notes/m10-denial-of-service/video-production-2026-10-19.md) distinguishes source, runtime, render and human acceptance.
+
+## September 17 M05 source recovered — October 22
+
+[Verbatim teaching source](../notes/m05-vulnerability-analysis/2026-09-17-teaching.source.md) and [historical analysis with reconciliation](../notes/m05-vulnerability-analysis/2026-09-17-teaching-notes.md) preserve the previously uncommitted capture. Source SHA-256: `51830db88cf48eaffedf62fd5a36f49eb073d7292916536153af164f6408b3e4`. The existing September 15 source remains intact; current course decisions retain precedence.
