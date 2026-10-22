@@ -146,3 +146,7 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 ## September 17 M05 source recovered — October 22
 
 [Verbatim teaching source](../notes/m05-vulnerability-analysis/2026-09-17-teaching.source.md) and [historical analysis with reconciliation](../notes/m05-vulnerability-analysis/2026-09-17-teaching-notes.md) preserve the previously uncommitted capture. Source SHA-256: `51830db88cf48eaffedf62fd5a36f49eb073d7292916536153af164f6408b3e4`. The existing September 15 source remains intact; current course decisions retain precedence.
+
+## October 22 concept-reading decision
+
+[Complete supplied M04 source, exact clarification and approved plan](2026-10-22-concept-reading/README.md) establish one whole core concept per reading task. [Current rule](../study-plan/concept-reading-2026-10-22.md) and [M04 reading order](../notes/m04-enumeration/reading-route.md) own execution; no learner result follows from this capture.
