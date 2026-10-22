@@ -59,3 +59,7 @@ work. Historical timebox overruns are not evidence of measured focused minutes.
 ## September 11 learner-session update
 
 [September 11 partial attempt](../assessments/attempts/2026-09-11-evidence-review.md) supersedes the earlier not-started snapshot: offline block agreed, content answers not directly visible, daily comparison incomplete. No score or module pass added. Historical scope remains evidenced; current permission expired. Jason requests exam-only preparation; revised scope/schedule and an exam-mapped progress check remain pending. Actual focus is unknown.
+
+## October 22 historical-source reconciliation
+
+[Recovered September 17 M05 receipt](../assessments/attempts/2026-09-17-m05-teaching.md) records teaching captured, 0/10 answered, Q1 unanswered and no retests as of that source. This is a historical snapshot, not today's learner state. Current readiness and the course-aligned learning route remain unchanged.
