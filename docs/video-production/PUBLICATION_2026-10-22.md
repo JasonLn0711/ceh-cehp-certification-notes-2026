@@ -21,3 +21,11 @@ Next production activation requires a named release and Jason's content/storyboa
 The full working-tree suite passed 190 tests before reconciliation. Publication checks are recorded below after checking the integrated tree. Historical no-commit/no-push statements describe their original task snapshots; this record owns the later publication state.
 
 Integrated publication validation passed: 190 engine tests (`PYTHONPATH=tools/ceh_video /home/jnlngx10/Videos/CEH_M10_efficiency_v1_2/project/.venv/bin/python -m unittest discover -s tools/ceh_video/tests -p 'test_*.py'`), 181 Planning metadata notes/catalog entries (`python3 scripts/validate_knowledge.py`), and both `git diff --check` checks. The existing `force_align.py` unclosed-read ResourceWarnings remain. All 242 checked CEH Markdown path targets and 12 added Planning targets resolve. Thirteen older Planning links point to unavailable local files; those predate this change.
+
+## Git result
+
+Local commits: `540c232` source capture, `c9fcdba` module-owned scene validation, `b18a538` practical adapter, `4b93ad7` M11 source/evidence, and `2d30413` director documents/closeout. Planning commits: `d4654988` project locator and `580b1fa1` day/week records.
+
+Status: committed locally; this publication is blocked. `git push origin HEAD:main` failed in both repositories with `fatal: could not read Username for 'https://github.com': No such device or address`. CEH SSH push and Planning SSH fetch failed with `Host key verification failed.` No force push, credential change or remote rewrite occurred. CEH's public fetch succeeded before integration; Planning's current remote state remains unverified.
+
+Next gate: restore the existing GitHub authentication and SSH trust configuration through its owner, fetch `origin main`, inspect any new divergence, preserve both histories, rerun affected checks if integration changes files, and retry `git push origin HEAD:main`. Recovery stashes named `publication-reconcile-2026-10-22` remain in both repositories.
