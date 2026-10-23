@@ -60,3 +60,7 @@ M04 先完成交付 12 個核心，再接 M05、M06，依序往下。M04 另外 
 公開 [M04 概念目錄](https://learn.cs-kairos.com/courses/ceh/v13/m04/#one-concept) 與 [M04-01](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-01/) 只提供教材及匿名教學版 Q&A。私人進度、原始筆記、訊息識別與個資不寫入本公開 repo。私有 Planning 的 `data/projects/2026-07-ceh-cehp-certification-training/sources/concept-learning/` 已採用為私人來源位置；`progress.json` 保存五項狀態正本，原始筆記與逐字 Q&A 按概念 ID 保存在同目錄。Planning 日誌只放薄索引，公開 CEH 保存教學與匿名整理版。
 
 公開完整教學來源：[M04-01 教學原文](../source/2026-10-23-one-concept/M04-01-teaching.md)。收到問題後，先保存原文到已確認私人的來源位置，再編輯匿名教學版，更新概念頁、版本與發布證據。尚無 Q&A 時維持待補。
+
+### 教學、測驗與 Q&A 分類補充
+
+詳細教材與考題解析屬教學／測驗；Q&A 保留給本人後續提供的實際問題與討論。收到教材不等於收到測驗作答，展開答案不等於理解確認。M04-01 深化版保留三題教材測驗，交談仍按一次一個小檢核進行。技術校訂與覆蓋見[revision 2 審核](../docs/m04-01-revision-2-review.md)。

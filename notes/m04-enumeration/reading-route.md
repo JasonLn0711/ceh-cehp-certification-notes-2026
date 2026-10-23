@@ -36,3 +36,7 @@
 本公開 repo 保留完整教學與匿名整理內容。五項個人狀態及實際回答請在確認私人的紀錄中追蹤，依[現行規則](../../study-plan/concept-reading-2026-10-22.md#每日核心概念與公開頁--2026-10-23-採用)更新。既有歷史證據保留於 Git，不從教材存在推定個人學會。
 
 [M04-01 教學原文](../../source/2026-10-23-one-concept/M04-01-teaching.md) · [公開概念頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-01/)。教材交付與理解確認各自前進；本人指定補強優先。
+
+## M04-01 深化教材
+
+[同一概念頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-01/)深化為七節教學，提供合成SMB案例、授權實驗步驟、證據矩陣與三題測驗。教材解析與實際Q&A分開；Q&A等收到實際討論後整理。原第一版教學來源保留，下一概念仍M04-02 DNS，AD為相關延伸。[技術校訂與覆蓋對照](../../docs/m04-01-revision-2-review.md)。
