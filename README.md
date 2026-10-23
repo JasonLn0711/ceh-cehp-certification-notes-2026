@@ -214,3 +214,7 @@ The [current production route](docs/video-production/README.md#ceh-m10-efficienc
 ## Long-form production and storage — October 22
 
 Long-form production and storage now follow [standard v2.0.0](docs/video-production/LONGFORM_STORAGE_STANDARD_v2.0.0.md), dated 2026-10-22: compact offline restoration, verified Mandarin reuse and audited cleanup. [Execution evidence](docs/video-production/evidence/longform-round2-2026-10-22/README.md) records the actual results separately from film acceptance.
+
+## M05–M07 one-concept planning — October 23
+
+[Integrated plan](study-plan/m05-m07-concept-plan-2026-10-23.md) adopts 47 planned core topics and 12 optional extensions: [M05](notes/m05-vulnerability-analysis/reading-route.md), [M06](notes/m06-system-hacking/reading-route.md), [M07](notes/m07-malware-threats/reading-route.md). Each has stable IDs, prerequisites, outcomes, examples, defenses/evidence and one small check. This extends the existing reading route without asserting delivery or understanding.

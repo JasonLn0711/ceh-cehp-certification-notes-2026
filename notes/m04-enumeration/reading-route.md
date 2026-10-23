@@ -9,7 +9,7 @@
 | ID | 重要概念 | 理解目標 | 第一輪深度 | 教材整理 |
 | --- | --- | --- | --- | --- |
 | M04-01 | Enumeration Concepts／列舉原理 | 區分偵察、掃描、列舉與存取權限 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-23-one-concept/M04-01-teaching.md) |
-| M04-02 | DNS Enumeration／DNS 列舉 | 常見記錄、查詢結果、AXFR、Cache Snooping 與 DNSSEC 的界線 | 核心：用途、條件、證據與防護 | 待整理 |
+| M04-02 | DNS Enumeration／DNS 列舉 | 常見記錄、查詢結果、AXFR、Cache Snooping 與 DNSSEC 的界線 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-23-one-concept/M04-02-teaching.md) |
 | M04-03 | FTP Enumeration／FTP 列舉 | 服務回應、匿名登入與檔案權限各自能證明什麼 | 核心：用途、條件、證據與防護 | 待整理 |
 | M04-04 | SMB Enumeration／SMB 列舉 | 共享、驗證、授權與 TCP 445 的判讀界線 | 核心：用途、條件、證據與防護 | 待整理 |
 | M04-05 | NetBIOS Enumeration／NetBIOS 列舉 | 名稱資訊、137–139 與現代 SMB 的關係 | 核心：用途、條件、證據與防護 | 待整理 |
@@ -44,3 +44,5 @@
 M04-01 v3 改為具體故事、短句與原生圖解；[改寫說明](../../docs/m04-01-revision-3-review.md)。沿用相同公開網址、七節與三題，屬同概念深化。
 
 M04-02 DNS：[公開概念頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-02/) · [送出原文與網頁補充邊界](../../docs/m04-02-publication.md)。一題小檢核，Q&A待提供；下一核心為FTP。
+
+十二核心之後接[M05路線](../m05-vulnerability-analysis/reading-route.md)，再接M06與M07；[47核心總規劃](../../study-plan/m05-m07-concept-plan-2026-10-23.md)。
