@@ -1,0 +1,744 @@
+# M04-02 DNS：補充教材校訂版 v2
+
+本版整合後續提供的詳細教材；原交付教學見 [M04-02-teaching.md](M04-02-teaching.md)，保持原文。以下為公開校訂教學與測驗，非學員回答或實際 Q&A。技術差異見[校訂紀錄](../../docs/m04-02-revision-2-review.md)。
+
+## 繁體中文
+
+DNS 像網路聯絡簿：查名稱、找位址，也查看郵件與名稱伺服器的設定。把查到的設定和服務實際運作分開，就能寫出清楚的盤點紀錄。
+
+### 一、找到網站地址，接著確認什麼？
+
+想像你要找一家店。聯絡簿寫著地址，能幫你找到位置；店有沒有營業，還要另外確認。DNS 也很像：它回答名稱對應的資料，網站能否開啟、誰能登入，則要各自查核。
+
+下面是自建實驗室的合成資料，沒有執行真實查詢。example.test 是示範名稱，192.0.2.10 是文件用位址；練習時換成你獲准的實驗資料。
+
+網域名稱是方便人閱讀的名稱，例如 www.example.test；IP 位址則用於網路通訊。DNS 是分散式查詢系統：資料由不同管理者分工維護，查詢時再找出相關記錄。
+
+讀完後，試著說明查詢經過誰、選對記錄類型、讀懂完整回應，並把 DNS 設定與網站測試分開記錄。
+
+#### 先讀三筆設定
+
+A 告訴你 www 的 IPv4 位址；CNAME 表示 shop 是指向 www 的別名；MX 指定收信主機 mail，10 是優先順序，數字較小的優先。
+
+這些結果可以列入 DNS 資產盤點。要確認網頁或郵件真的可用，再做獲准的服務測試；管理權限也另行確認。
+
+```text
+www.example.test.   A       192.0.2.10
+shop.example.test.  CNAME   www.example.test.
+example.test.       MX      10 mail.example.test.
+```
+
+### 二、誰替你查？誰管理正式資料？
+
+DNS 列舉就是查詢不同類型的記錄，把名稱、位址與伺服器線索整理出來。查詢的對象與時間要一起記下，才能比較結果。
+
+遞迴解析器像代查人員：替你找答案，也把結果暫存為快取。權威伺服器則管理某個區域的正式資料。區域（zone）是一份由同一組權威管理的 DNS 資料範圍，可能只是網域的一部分。
+
+傳統 DNS 使用 UDP 或 TCP 53；TCP 也支援一般查詢。這裡描述傳統傳輸，實際環境也可能採其他 DNS 傳輸方式。[DNS 概念](https://www.rfc-editor.org/rfc/rfc1034) · [訊息與記錄](https://www.rfc-editor.org/rfc/rfc1035)
+
+根伺服器協助找到 .com、.org、.tw 等頂級網域的管理方向；它不是所有網站 IP 的總表。遞迴與權威是角色，實際伺服器可依設定提供不同功能。
+
+#### 解析器如何找到答案？
+
+一般公開 DNS 的簡化流程；有適用快取或轉送設定時，路徑會縮短或改變。example.test 是自建實驗區域，需由實驗解析器設定提供，不會沿公開根查到本課資料。
+
+- 你的電腦：把名稱與想查的類型交給遞迴解析器。
+- 遞迴解析器：先檢查適用快取；需要時再向其他伺服器詢問。
+- 根與頂級網域（TLD）：根提供頂級網域方向；TLD 再提供相關委派資訊。
+- 權威伺服器：回答自己管理的區域資料；解析器整理回覆，並依規則快取。
+
+#### 一次查詢，留下四個重點
+
+這是判讀順序；回應可能來自快取，也可能需要繼續查詢。
+
+- 選對象：記下要問哪台 DNS、查詢名稱和類型。
+- 看回應：先看狀態，再看 Answer 與 Authority 區段。
+- 記設定：保存回傳的位址、別名或其他欄位。
+- 分開驗證：網站連線、郵件投遞及登入權限各自測試。
+
+### 三、聯絡簿裡有哪些欄位？
+
+同一個名稱可以有不同類型的記錄。先選你要回答的問題，再選記錄類型。A 和 AAAA 分別查 IPv4 與 IPv6 位址。[AAAA 規格](https://www.rfc-editor.org/rfc/rfc3596)
+
+列舉從已知名稱、資產清單及獲准來源開始；一次記錄查詢只回答指定問題，完整盤點還要核對其他名稱與管理紀錄。
+
+#### 常用 DNS 記錄
+
+類型 | 用來查什麼
+--- | ---
+A／AAAA | 名稱對應的 IPv4／IPv6 位址。
+CNAME | 別名指向哪個名稱；沿著別名繼續查。
+MX | 網域的收信主機與優先順序，內容是主機名稱。
+NS | 區域的權威名稱伺服器。
+TXT | 文字資料，例如網域驗證與郵件政策。
+SOA | 區域管理資訊，例如序號及同步時間設定。
+PTR | 反向查 IP 對應的名稱，再與正向記錄交叉核對。
+
+#### 把記錄接成一個例子
+
+一個名稱可有多個 A／AAAA，也可能指向 CDN 或反向代理。這是 DNS 指向的端點，後端主機還要查資產紀錄。
+
+shop 的 CNAME 讓解析繼續找 www；它是名稱別名，與改變瀏覽器網址的 HTTP 重新導向不同。MX 的 10 是收信主機的優先順序，較小數字優先；收信帳號另由郵件系統管理。
+
+```text
+www.example.test.   A      192.0.2.10
+www.example.test.   AAAA   2001:db8::10
+shop.example.test.  CNAME  www.example.test.
+example.test.       MX     10 mail.example.test.
+```
+
+#### 選讀：區域、SOA 與反向查詢
+
+例如 dept.example.test 可以委派給另一組管理者，形成獨立區域。父區域保留必要的委派資訊，子區域完整資料由子區域管理。
+
+SOA 包含主要名稱伺服器、DNS 格式的聯絡信箱、serial 序號與 refresh／retry 等同步參數。TXT 可放網域驗證或 SPF 郵件政策。
+
+PTR 是反向 DNS 中的名稱指標；再查該名稱的 A／AAAA 才能核對正反向是否一致。這種一致性是設定線索，身分驗證另有流程。IPv6 範例 2001:db8::10 使用文件保留範圍。[IPv6 文件位址](https://www.rfc-editor.org/rfc/rfc3849)
+
+### 四、答案是空的，要怎麼讀？
+
+查不到資料時，先看完整回應，再寫結論。NOERROR 表示 DNS 回應沒有回報該類錯誤；答案區空白時，仍要查看 Authority（權威資訊）與別名，確認是沒有這種資料，還是請你轉問其他伺服器。
+
+SERVFAIL 的可能原因包含權威伺服器問題、解析路徑異常或 DNSSEC 驗證失敗。可在授權範圍比較解析器、查管理日誌與設定；Timeout 則先記「等待期間未收到回覆」，再定位網路與伺服器。
+
+#### 回應與後續確認
+
+回應 | 這次可以怎麼記
+--- | ---
+NOERROR | 回應碼表示沒有 DNS 處理錯誤；再讀內容判斷答案、轉介或無資料。
+NXDOMAIN | 回應指出名稱不存在。若經過 CNAME，要核對指的是哪個名稱。
+NODATA | 一般 NODATA 表示所問類型沒有資料、名稱存在；先確認完整回應，進階 DNSSEC 情況見下方選讀。
+SERVFAIL | 伺服器處理解析時發生問題，保留回應再找原因。
+Timeout | 等待期間沒有收到回覆；連線、伺服器或其他原因待查。
+
+#### 選讀：NOERROR＋空 Answer，也可能是轉介
+
+NODATA 常見表現是 NOERROR 且沒有所問類型的答案。Authority 中的 SOA 與其他內容可協助判讀。若回應是 referral（轉介），Authority 可能列出下一組 NS，要繼續詢問才能取得答案。
+
+因此要一起看狀態、Answer、Authority、別名鏈及查詢對象。某些情況需再查一次才能確定。[RFC 2308](https://datatracker.ietf.org/doc/html/rfc2308)
+
+#### 同一名稱，為什麼查到不同答案？
+
+TTL 是回應記錄允許快取的時間，單位秒；快取回覆通常呈現剩餘時間，權威回覆則通常是設定值。快取尚未更新、內外網分流（Split-Horizon）、CDN／地理位置策略或不同 DNS，都可能讓答案不同。TTL 描述快取，不是網站可用時間。
+
+每筆保存時間、伺服器、名稱、類型與完整回應；換網路或伺服器時另記一筆。這樣能比較條件，而不是只留下最後一個 IP。
+
+#### 選讀：新版 DNSSEC 的特殊否定回應
+
+Compact Denial of Existence 可用較小的否定證明減少名稱線索。部分不存在的名稱會以類似 NODATA 的 NOERROR 回覆，並在 NSEC／NSEC3 的類型位圖帶 NXNAME。此時要看 DNSSEC 證明及解析器處理，不能只由空答案推定名稱存在。
+
+本課 A 已回覆位址、AAAA 無資料的合成案例，仍可依兩筆完整回應判讀。這個例外提醒我們：保留原始回應，將進階線索交給支援該機制的工具核對。[RFC 9824](https://www.rfc-editor.org/info/rfc9824/)
+
+### 五、在自己的實驗環境查一筆
+
+網頁補充：以下是可選的練習指令，與上方合成結果分開。準備安裝 dig 的電腦，以及獲准查詢的 DNS 實驗伺服器與 example.test 區域。先約定目標、記錄類型、時段、查詢量與停止條件。
+
+192.0.2.53 只是示範 DNS 位址，請替換成獲准的主機。這裡沒有執行指令，也不預填你的查詢結果。
+
+#### 準備：先確認工具
+
+在 Linux 終端機輸入下方指令，看到版本資訊即可開始。工具尚未安裝時，依自己的作業系統套件管理流程安裝；受管理的電腦先交由管理者處理。
+
+所有範例 IP 與 .test 名稱都要替換為已設定、獲准查詢的實驗資料；這裡沒有建立 DNS 實驗機，也沒有執行查詢。[IPv4 文件位址](https://www.rfc-editor.org/rfc/rfc5737) · [保留示範名稱](https://datatracker.ietf.org/doc/html/rfc2606)
+
+```text
+dig -v
+```
+
+#### 在本機終端機，一次查一種類型
+
+@ 後面指定詢問的伺服器；名稱後面指定 A 或 AAAA。每一行執行完先保存完整回應，再繼續。
+
+```text
+dig @192.0.2.53 www.example.test A
+dig @192.0.2.53 www.example.test AAAA
+```
+
+#### 先讀一份合成輸出
+
+以下是教學節錄，省略部分標頭，並非實測回應。QUESTION 是問題；ANSWER 是回傳資料；SERVER 是這次詢問的伺服器。實際練習請保存完整輸出。
+
+```text
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR
+;; QUESTION SECTION:
+;www.example.test. IN A
+;; ANSWER SECTION:
+www.example.test. 300 IN A 192.0.2.10
+;; SERVER: 192.0.2.53#53
+```
+
+#### 一行答案怎麼讀
+
+欄位 | 例子與意義
+--- | ---
+NAME | www.example.test.：記錄名稱，結尾的點表示完整名稱。
+TTL | 300：本回應允許快取的秒數。
+CLASS | IN：Internet 類別。
+TYPE | A：IPv4 位址記錄。
+DATA | 192.0.2.10：合成範例位址。
+
+#### 看完回應，再填觀察
+
+先找 status，再看 QUESTION 是否問對名稱與類型；查看 ANSWER、AUTHORITY、SERVER、查詢時間和 TTL。這裡保留完整輸出，比只看短答案更方便辨別轉介與無資料。
+
+如果 A 回傳位址，而 AAAA 經完整判讀為 NODATA，可以記「這台 DNS 在這次查詢提供 IPv4 位址，沒有提供該名稱的 AAAA 資料」。要知道網站是否可用，再於授權範圍測試對應的網頁服務。
+
+完成後保留去識別的紀錄；本練習只查詢，不需要修改 DNS 設定。
+
+#### 換一個問題，再換記錄類型
+
+逐行執行並判讀；NS／MX／TXT／SOA 查區域名稱，CNAME 查別名，-x 用 IP 做反向查詢。答案沒有出現時，回到完整回應判讀流程。
+
+省略 @ 時，dig 使用本機設定的 DNS 伺服器；保留 @ 可以明確選擇實驗伺服器。+noall +answer 只保留答案區，適合看已確認的資料；調查錯誤時用原本完整輸出。[ISC dig 手冊](https://bind9.readthedocs.io/en/stable/manpages.html#dig-dns-lookup-utility)
+
+```text
+dig @192.0.2.53 shop.example.test CNAME
+dig @192.0.2.53 example.test NS
+dig @192.0.2.53 example.test MX
+dig @192.0.2.53 example.test TXT
+dig @192.0.2.53 example.test SOA
+dig @192.0.2.53 -x 192.0.2.10
+```
+
+#### Windows：指定同一台實驗 DNS
+
+在 PowerShell 使用 Resolve-DnsName，或在命令提示字元／PowerShell 使用 nslookup。下方是兩種替代工具，不要求全部重做；-Server 或最後一個位址指定 DNS 伺服器。工具輸出格式不同，仍記同樣的查詢條件。[Microsoft 文件](https://learn.microsoft.com/en-us/powershell/module/dnsclient/resolve-dnsname)
+
+```text
+Resolve-DnsName -Name www.example.test -Type A -Server 192.0.2.53 -DnsOnly
+nslookup -type=A www.example.test 192.0.2.53
+nslookup -type=MX example.test 192.0.2.53
+```
+
+### 六、一筆查詢與整區複製，分別管理
+
+AXFR 是區域傳送，用來把一個區域的完整資料同步給另一台 DNS。它像複製一份區域聯絡簿；已委派出去的下層區域，其完整資料由另一份區域管理。[AXFR](https://www.rfc-editor.org/rfc/rfc5936)
+
+一般記錄查詢與 AXFR 測試分別確認許可。本課保留區域傳送概念，不執行第三方探測。防護時限制接收區域傳送的對象、使用適當驗證，也限制誰能使用遞迴與快取查詢。
+
+AXFR 是正常管理功能，通常以 TCP 傳送一個區域的資料。若接收對象限制過寬，dev、backup 等內部名稱可能一次曝光；名稱線索、實際可連線性與漏洞仍分別查核。
+
+#### 選讀：BIND 的設定檢查方向
+
+可檢查 allow-transfer、allow-recursion、allow-query-cache 等設定，並依部署需求使用 TSIG 等驗證機制。要看實際版本、套用層級與設定內容，再判斷有效政策；這裡不假設所有版本有相同預設值。[ISC BIND 參考](https://bind9.readthedocs.io/en/stable/reference.html)
+
+#### 選讀：快取線索與 DNSSEC
+
+Cache Snooping 是從快取回應推測哪些名稱曾被查過。共用快取、預先載入等因素都會影響結果，對某個人的行為判斷需要其他證據。
+
+DNSSEC 用簽章支援資料來源驗證與完整性檢查；查詢內容的保密由其他機制處理。使用 NSEC 的簽署區域也可能透露名稱間的線索。公開記錄與資源存取權限仍分別管理。[DNSSEC](https://www.rfc-editor.org/rfc/rfc4033)
+
+### 七、資料可信與傳輸保密，各解決什麼？
+
+DNSSEC 讓驗證端以簽章檢查資料來源與完整性。DoH／DoT 保護 DNS 通訊通道；HTTPS 保護 HTTP 通訊。先看你想保護的是哪一段。
+
+#### 不同安全機制的工作
+
+機制 | 用途與常見傳輸
+--- | ---
+DNSSEC | 驗證 DNS 資料來源與完整性；資料加密由其他機制處理。
+DoH | 透過 HTTPS 傳送 DNS；常用 443，保護所連線的 DNS 端點間通訊。
+DoT | 透過 TLS 傳送 DNS；預設 TCP 853，保護該段傳輸。
+HTTPS | 保護瀏覽器與網站／代理之間的 HTTP 通訊；網站權限另由服務判定。
+
+#### 選讀：名稱線索與保密邊界
+
+傳統 NSEC 提供相鄰名稱與類型線索，可能被用來推知區域名稱（Zone Walking）。實際揭露程度取決於簽署方式；Compact Denial 等方法可減少線索，不宜推定所有 DNSSEC 區域都能列出完整清單。[NSEC](https://datatracker.ietf.org/doc/html/rfc4034) · [Compact Denial](https://www.rfc-editor.org/info/rfc9824/)
+
+DoH／DoT 保護連到 DNS 端點的傳輸；端點仍處理查詢，後續連線與網站權限各有自己的保護方式。[DoH](https://datatracker.ietf.org/doc/html/rfc8484) · [DoT](https://datatracker.ietf.org/doc/html/rfc7858)
+
+### 八、把觀察放回正確的階段
+
+查到位址後，下一步依問題決定。以下是排查順序；工具可能跨越多個階段，DNS 快取或代理也會改變實際路徑。
+
+#### 從名稱到存取
+
+各階段保留自己的結果，查詢成功只完成名稱解析這一步。
+
+- DNS：名稱對應哪些記錄？用 dig／nslookup。
+- 網路：能否連到指定 IP 與埠？在授權範圍檢查連線。
+- TLS：能否完成 TLS 協商與憑證驗證？
+- HTTP：特定請求回覆什麼狀態與內容？
+- 存取控制：指定身分對指定資源能做什麼？
+
+#### 選做：比較 DNS 查詢與網頁請求
+
+第一行只查 DNS；第二行在本機終端機以 HTTPS 發送 HEAD 請求，涉及名稱解析、連線、TLS 與 HTTP。前提是實驗網站已設定、憑證受信任、本機解析能找到它，且網頁測試也在授權範圍。
+
+curl 使用自己的解析流程；它不會繼承上一行 dig 指定的 @ 伺服器。網站可能限制 HEAD；回覆只代表這次請求。保留錯誤與狀態，依失敗階段查原因，維持憑證驗證。[curl 手冊](https://curl.se/docs/manpage.html)
+
+```text
+dig @192.0.2.53 www.example.test A
+curl -I https://www.example.test
+```
+
+#### 一筆可追溯的紀錄
+
+欄位 | 記錄內容
+--- | ---
+條件 | 時間與時區、網路位置、工具版本、DNS 伺服器、名稱與類型。
+觀察 | 完整回應、狀態碼、各區段與 TTL；合成教材和實測分開。
+結論 | 本次回應支持的設定結論，以及尚待服務測試的問題。
+
+### 九、依需要分段閱讀
+
+先完成一次查詢與判讀，再按需要展開管理及安全細節。P0／P1／P2 是本課教學安排；原補充資料的 25–35 分鐘是閱讀估計，可按可用時間續讀，不增加每日配額。
+
+#### 本課優先順序（非官方考試比重）
+
+順序 | 內容
+--- | ---
+P0 | 解析分工、A／AAAA／CNAME／MX／NS、查詢工具、回應判讀。
+P1 | Zone／AXFR、TTL／SOA／PTR／TXT、證據與防護。
+P2 | DNSSEC、NSEC、Cache Snooping 與傳輸保護。
+
+### 十、教材測驗：先想，再展開解析
+
+情境題 Q5（延續原小檢核）：同一台 DNS 回覆 www.example.test 的 A 是 192.0.2.10，查 AAAA 經完整判讀為一般 NODATA。請用一兩句話說明：目前確認了什麼？要知道網站能否開啟，還要查什麼？
+
+以下四題選擇題與上方情境題都屬教材測驗。展開的是教材解析；網站不會送出答案或更新理解狀態。Q&A 等收到實際問題與討論再整理。下一個核心仍是 M04-03 FTP 列舉。
+
+#### 展開 Q5 教材解析
+
+可以記錄：這台 DNS 在這次查詢提供該名稱的 IPv4 位址，AAAA 查詢沒有對應資料。網站是否可用，接著在授權環境核對連線、TLS 與實際 HTTP 請求；登入與操作權限再各自查核。
+
+這是參考解析，不是學員已提交的回答。
+
+#### Q1 DNS 查詢獲得一個 A 記錄，最合理的結論是？
+
+A. 已證明網站可以正常開啟
+B. 已取得某個名稱對應的 IPv4 位址
+C. 已確認網站的登入權限
+D. 已取得伺服器管理權限
+
+<details><summary>教材答案解析</summary>
+
+A：網站可用性由連線與應用程式測試確認。
+B：正確，A 記錄提供名稱對應的 IPv4 位址。
+C：登入權限由身分驗證與授權流程確認。
+D：管理權限需要另有帳號與授權證據。
+
+</details>
+
+#### Q2 完整回應已確認為一般 NODATA（排除轉介及 Compact Denial 例外），查詢的是 AAAA。怎麼解讀？
+
+A. 這個網域必定不存在
+B. DNS 伺服器一定當機
+C. 該名稱存在，但沒有符合本次查詢類型的資料
+D. 這個網站已被入侵
+
+<details><summary>教材答案解析</summary>
+
+A：一般 NODATA 與表示名稱不存在的 NXDOMAIN 要分開。
+B：伺服器已回覆；運作狀態再依其他證據判斷。
+C：正確，題目前提已確認為一般無該類型資料。
+D：這筆回應描述 DNS 資料；入侵判斷需要其他證據。
+
+</details>
+
+#### Q3 為什麼 AXFR 需要存取控制？
+
+A. 因為任何 DNS 查詢都會修改資料
+B. 因為 AXFR 可能傳送整個區域的資料
+C. 因為它能直接取得使用者密碼
+D. 因為它會自動開啟網站管理介面
+
+<details><summary>教材答案解析</summary>
+
+A：本課一般查詢是讀取；動態更新是不同操作。
+B：正確，需限定接收區域資料的對象並驗證授權。
+C：AXFR 傳送區域記錄；密碼應保存在適當的秘密管理系統。
+D：網站管理介面與其權限屬另一層服務。
+
+</details>
+
+#### Q4 DNSSEC 的核心安全功能是哪一項？
+
+A. 隱藏所有 DNS 名稱
+B. 加密所有網站的 HTTPS 流量
+C. 驗證 DNS 資料來源與完整性
+D. 阻止任何人查詢公開的 A 記錄
+
+<details><summary>教材答案解析</summary>
+
+A：DNSSEC 處理可驗證性；名稱揭露另有設計考量。
+B：HTTPS 流量由 TLS 等機制保護。
+C：正確，驗證端使用 DNSSEC 簽章與信任鏈檢查資料。
+D：公開查詢政策與 DNSSEC 簽署分開管理。
+
+</details>
+
+### Q&A
+
+待補：收到實際問題與討論後整理。
+
+## English
+
+DNS works like a network address book. It tells you about names, addresses, and mail or name servers. Keep those settings separate from tests of whether a service actually works.
+
+### 1. You found the address. What should you check next?
+
+An address book can tell you where a store is. Checking whether it is open takes another step. DNS works much the same way: it returns data about a name. Website availability and sign-in permissions need their own checks.
+
+The example below is made-up lab data, not a query we ran. example.test is an example name and 192.0.2.10 is a documentation address. Use your authorized lab data when practicing.
+
+A domain name, such as www.example.test, is a name people can remember. An IP address is used for network communication. DNS is a distributed lookup system: different operators maintain different portions of its data.
+
+Practice explaining who handles a lookup, choosing a record type, reading the full reply, and keeping DNS settings separate from website tests.
+
+#### Read three settings first
+
+A gives the IPv4 address for www. CNAME makes shop an alias for www. MX names mail as a mail server; 10 is its preference value, with lower numbers preferred.
+
+Record these as DNS settings. Test web access, mail delivery, and administrative rights separately within the agreed boundaries.
+
+```text
+www.example.test.   A       192.0.2.10
+shop.example.test.  CNAME   www.example.test.
+example.test.       MX      10 mail.example.test.
+```
+
+### 2. Who looks up the answer? Who maintains it?
+
+DNS enumeration means querying different record types and organizing the names, addresses, and server clues you receive. Record who you asked and when so you can compare results.
+
+A recursive resolver looks up answers for you and may cache them. An authoritative server maintains the official data for a zone. A zone is a portion of DNS data managed by a set of authoritative servers; it may cover only part of a domain.
+
+Traditional DNS uses UDP or TCP port 53. TCP also carries ordinary queries. Other DNS transports may be used in a particular environment. [DNS concepts](https://www.rfc-editor.org/rfc/rfc1034) · [Messages and records](https://www.rfc-editor.org/rfc/rfc1035)
+
+Root servers help locate top-level domains such as .com, .org, and .tw. They are not a master list of website IP addresses. Recursive and authoritative describe roles; a server’s configuration determines which roles it provides.
+
+#### How does a resolver find an answer?
+
+A simplified public DNS lookup. Cached answers or forwarding can change this path. Our example.test zone must be configured in a lab; public root servers will not lead you to this lesson’s data.
+
+- Your computer：Asks a recursive resolver for a name and record type.
+- Recursive resolver：Checks its cache, then asks other servers if needed.
+- Root and top-level domain (TLD)：The root points toward a TLD; the TLD supplies the relevant delegation.
+- Authoritative server：Answers for its zone. The resolver returns the result and caches it as allowed.
+
+#### Four things to keep with a lookup
+
+This is a guide to reading a response. An answer may come from cache, or you may need another query.
+
+- Choose the target：Record the DNS server, name, and record type.
+- Read the response：Check the status, then the Answer and Authority sections.
+- Record the setting：Save the returned address, alias, or other fields.
+- Test services separately：Check web access, mail delivery, and sign-in rights separately.
+
+### 3. Which field answers your question?
+
+A name can have several record types. Choose the type that answers your question. A asks for IPv4 addresses; AAAA asks for IPv6 addresses. [AAAA specification](https://www.rfc-editor.org/rfc/rfc3596)
+
+Start with known names, asset inventories, and approved sources. A record query answers the question you asked; a fuller inventory also requires other names and management records.
+
+#### Common DNS record types
+
+Type | What it tells you
+--- | ---
+A / AAAA | IPv4 / IPv6 addresses for a name.
+CNAME | An alias pointing to another name; follow that name to continue.
+MX | Mail server hostnames and preference values, rather than personal mailboxes.
+NS | Authoritative name servers for a zone.
+TXT | Text such as domain verification data or mail policy.
+SOA | Zone management data, including a serial number and synchronization timers.
+PTR | A name for a reverse IP lookup; cross-check it with forward records.
+
+#### Connect the records to one example
+
+One name may have several A or AAAA records. An address may belong to a CDN or reverse proxy; use asset records to identify the backend.
+
+The CNAME for shop tells resolution to continue with www. It is a DNS alias, unlike an HTTP redirect that can change the browser’s URL. The MX value 10 is a mail-server preference; lower values come first. Mailbox accounts are managed separately.
+
+```text
+www.example.test.   A      192.0.2.10
+www.example.test.   AAAA   2001:db8::10
+shop.example.test.  CNAME  www.example.test.
+example.test.       MX     10 mail.example.test.
+```
+
+#### Optional: zones, SOA, and reverse lookups
+
+For example, dept.example.test can be delegated to another operator as its own zone. The parent keeps delegation information; the child zone maintains its complete data.
+
+SOA includes a primary name server, a contact mailbox encoded in DNS form, a serial number, and synchronization timers such as refresh and retry. TXT can carry domain-verification data or SPF mail policy.
+
+A PTR record points to a name in reverse DNS. Look up that name’s A or AAAA records to compare the forward and reverse settings. Agreement is a configuration clue; identity authentication is a separate process. The IPv6 example 2001:db8::10 uses the documentation range. [IPv6 documentation addresses](https://www.rfc-editor.org/rfc/rfc3849)
+
+### 4. What does an empty answer mean?
+
+Read the whole response before deciding what is missing. NOERROR is a response status. An empty Answer section still requires a look at Authority and any aliases: the response may mean that the requested data is absent, or it may point you to another server.
+
+SERVFAIL can result from authoritative-server trouble, a resolution-path problem, or DNSSEC validation failure. Within your authorization, compare resolvers and inspect configuration and logs. For a timeout, first record that no reply arrived during the wait, then investigate the network and server.
+
+#### Responses and useful notes
+
+Response | What to record
+--- | ---
+NOERROR | The response code reports no DNS processing error. Read the contents to distinguish an answer, referral, or missing data.
+NXDOMAIN | The response says a name does not exist. With a CNAME chain, check which name it refers to.
+NODATA | Ordinary NODATA means the name exists but has no data of the requested type. Confirm the full reply; see the DNSSEC exception below.
+SERVFAIL | The server had a problem completing resolution. Save the response and investigate.
+Timeout | No response arrived within the wait period. The cause still needs investigation.
+
+#### Optional: an empty NOERROR answer may be a referral
+
+NODATA often appears as NOERROR without an answer of the requested type. An SOA in Authority and the rest of the response help you identify it. A referral may instead list NS records for servers to ask next.
+
+Check the status, Answer, Authority, alias chain, and server together. Sometimes another query is needed to tell which situation applies. [RFC 2308](https://datatracker.ietf.org/doc/html/rfc2308)
+
+#### Why can the same name return different answers?
+
+TTL is the caching lifetime advertised for a record, in seconds. A cached reply normally shows the remaining lifetime; an authoritative reply normally shows the configured value. Cache state, internal/external views (split-horizon DNS), CDN or geographic policy, and the server you ask can change the answer. TTL describes caching, not website uptime.
+
+Save the time, server, name, type, and full response. Use a new record when you change networks or servers so that the conditions stay clear.
+
+#### Optional: a newer DNSSEC negative-response case
+
+Compact Denial of Existence can reduce name disclosure with smaller denial proofs. Some nonexistent names receive a NODATA-like NOERROR reply with NXNAME in the NSEC or NSEC3 type bitmap. Read the DNSSEC proof and resolver behavior before deciding that the name exists.
+
+In our example, the A reply already supplies an address, while the complete AAAA reply shows missing AAAA data. Keep both replies. For advanced cases, preserve the raw response and check it with tools that understand the mechanism. [RFC 9824](https://www.rfc-editor.org/info/rfc9824/)
+
+### 5. Try one lookup in your own lab
+
+Website supplement: these optional commands are separate from the made-up output above. Use a computer with dig and an authorized DNS lab server hosting your test zone. Agree on the target, record types, time, query volume, and stop conditions first.
+
+192.0.2.53 is only an example DNS address. Replace it with your authorized host. These commands have not been run here, and your results are left for you to record.
+
+#### Preparation: check the tool
+
+Run this in a Linux terminal. A version response confirms that dig is available. If it is missing, use your operating system’s package-management process; ask the administrator of a managed computer to handle installation.
+
+Replace every sample IP and .test name with configured, authorized lab data. This page does not create a lab server, and no query was run here. [IPv4 documentation addresses](https://www.rfc-editor.org/rfc/rfc5737) · [Reserved example names](https://datatracker.ietf.org/doc/html/rfc2606)
+
+```text
+dig -v
+```
+
+#### In your local terminal, ask for one type at a time
+
+The value after @ selects the server. A or AAAA selects the record type. Save the full response after each command before continuing.
+
+```text
+dig @192.0.2.53 www.example.test A
+dig @192.0.2.53 www.example.test AAAA
+```
+
+#### Read a made-up response first
+
+This is a teaching excerpt with some header fields omitted, not a measured result. QUESTION is what was asked, ANSWER contains the data, and SERVER identifies the server queried. Save the full output in your own exercise.
+
+```text
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR
+;; QUESTION SECTION:
+;www.example.test. IN A
+;; ANSWER SECTION:
+www.example.test. 300 IN A 192.0.2.10
+;; SERVER: 192.0.2.53#53
+```
+
+#### Read one answer line
+
+Field | Example and meaning
+--- | ---
+NAME | www.example.test.: the record name; the final dot marks a fully qualified name.
+TTL | 300: the caching lifetime advertised in this reply, in seconds.
+CLASS | IN: the Internet class.
+TYPE | A: an IPv4 address record.
+DATA | 192.0.2.10: a made-up documentation address.
+
+#### Read the response, then write your observation
+
+Find status and check that QUESTION contains the intended name and type. Review ANSWER, AUTHORITY, SERVER, query time, and TTL. Full output helps distinguish referrals from missing data.
+
+If A returns an address and a complete reading of the AAAA response shows NODATA, record: “This server returned an IPv4 address and no AAAA data for this name in these queries.” To check website availability, test the corresponding web service within your authorization.
+
+Keep a de-identified record when you finish. This exercise queries DNS; it requires no DNS configuration changes.
+
+#### Change the type to ask another question
+
+Run and read one line at a time. Ask for NS, MX, TXT, and SOA at the zone name; ask for CNAME at an alias. Use -x for a reverse IP lookup. If data is absent, return to the full-response checks.
+
+Without @, dig uses your computer’s configured DNS server. Keeping @ makes the lab server explicit. +noall +answer shows only the Answer section, which is useful after you have checked the full reply. Use full output when investigating failures. [ISC dig manual](https://bind9.readthedocs.io/en/stable/manpages.html#dig-dns-lookup-utility)
+
+```text
+dig @192.0.2.53 shop.example.test CNAME
+dig @192.0.2.53 example.test NS
+dig @192.0.2.53 example.test MX
+dig @192.0.2.53 example.test TXT
+dig @192.0.2.53 example.test SOA
+dig @192.0.2.53 -x 192.0.2.10
+```
+
+#### Windows: query the same lab DNS server
+
+Use Resolve-DnsName in PowerShell, or nslookup in Command Prompt or PowerShell. These are alternative tools; you do not need to repeat every query. -Server or the final address selects the DNS server. Record the same conditions despite the different output formats. [Microsoft documentation](https://learn.microsoft.com/en-us/powershell/module/dnsclient/resolve-dnsname)
+
+```text
+Resolve-DnsName -Name www.example.test -Type A -Server 192.0.2.53 -DnsOnly
+nslookup -type=A www.example.test 192.0.2.53
+nslookup -type=MX example.test 192.0.2.53
+```
+
+### 6. Manage a lookup and a zone copy separately
+
+AXFR transfers the complete contents of one zone to another DNS server. Think of copying one zone’s address book. The full data of a delegated child zone is managed separately. [AXFR](https://www.rfc-editor.org/rfc/rfc5936)
+
+Confirm authorization separately for ordinary queries and AXFR tests. This lesson explains transfers without probing third parties. Restrict transfer recipients, use appropriate authentication, and limit access to recursion and cached answers.
+
+AXFR is a normal administrative function that transfers one zone over TCP. Broad access can expose names such as dev and backup in one response. Record those clues separately from reachability and vulnerability findings.
+
+#### Optional: settings to review in BIND
+
+Review allow-transfer, allow-recursion, and allow-query-cache, and use authentication such as TSIG where appropriate. Check the installed version, configuration level, and effective settings. This lesson assumes no common default across all versions. [ISC BIND reference](https://bind9.readthedocs.io/en/stable/reference.html)
+
+#### Optional: cache clues and DNSSEC
+
+Cache snooping uses cached responses to infer which names may have been queried. Shared caches and preloading affect those clues; attributing activity to a person requires other evidence.
+
+DNSSEC uses signatures to support origin authentication and integrity checks. Keeping query contents private is a separate job. Signed zones using NSEC may also reveal relationships between names. Manage public records and access to resources separately. [DNSSEC](https://www.rfc-editor.org/rfc/rfc4033)
+
+### 7. Authentic data and private transport solve different problems
+
+DNSSEC lets validators check data origin and integrity using signatures. DoH and DoT protect a DNS transport connection; HTTPS protects HTTP traffic. Start by identifying which connection or data you need to protect.
+
+#### What each mechanism protects
+
+Mechanism | Purpose and common transport
+--- | ---
+DNSSEC | Authenticates DNS data and checks integrity. Encryption is handled separately.
+DoH | Carries DNS over HTTPS, commonly on port 443, protecting the connection to the DNS endpoint.
+DoT | Carries DNS over TLS, using TCP 853 by default, protecting that connection.
+HTTPS | Protects HTTP traffic between a browser and a website or proxy. The service handles access rights.
+
+#### Optional: name clues and privacy limits
+
+Traditional NSEC records reveal neighboring names and record types, which can support zone walking. Disclosure depends on how a zone is signed. Compact Denial can reduce those clues; a complete name list is not a universal DNSSEC property. [NSEC](https://datatracker.ietf.org/doc/html/rfc4034) · [Compact Denial](https://www.rfc-editor.org/info/rfc9824/)
+
+DoH and DoT protect the transport to a DNS endpoint. That endpoint still processes the query; later connections and website permissions have their own protections. [DoH](https://datatracker.ietf.org/doc/html/rfc8484) · [DoT](https://datatracker.ietf.org/doc/html/rfc7858)
+
+### 8. Match each observation to the step you tested
+
+After finding an address, choose the next test based on your question. This is a troubleshooting guide; one tool can cover several steps, and caches or proxies can change the actual path.
+
+#### From a name to access
+
+Keep separate results for each step. A successful DNS lookup completes the name-resolution check.
+
+- DNS：Which records are returned? Use dig or nslookup.
+- Network：Can you connect to the specified IP and port within the agreed test scope?
+- TLS：Does TLS negotiation and certificate validation succeed?
+- HTTP：What status and content does the particular request return?
+- Access control：What can this identity do with this resource?
+
+#### Optional: compare DNS and a web request
+
+The first line queries DNS. The second sends an HTTPS HEAD request from your terminal, involving resolution, a connection, TLS, and HTTP. Use a configured lab website with a trusted certificate, working local name resolution, and separate authorization for web testing.
+
+curl uses its own resolution path; it does not inherit the @ server from dig. A site may restrict HEAD. Record the result for this request and investigate the stage that failed, keeping certificate verification enabled. [curl manual](https://curl.se/docs/manpage.html)
+
+```text
+dig @192.0.2.53 www.example.test A
+curl -I https://www.example.test
+```
+
+#### A record someone else can follow
+
+Field | What to save
+--- | ---
+Conditions | Time and timezone, network location, tool version, DNS server, name, and type.
+Observation | Full response, status, sections, and TTL. Keep made-up examples separate from measured results.
+Conclusion | The settings supported by this reply and questions that need a service test.
+
+### 9. Read in manageable parts
+
+Start with one lookup you can explain, then explore management and security details as needed. P0/P1/P2 are teaching priorities for this lesson. The supplement’s 25–35 minute estimate is flexible; pause and resume within your available study time.
+
+#### Lesson priorities, not official exam weights
+
+Priority | Topics
+--- | ---
+P0 | Resolver roles; A, AAAA, CNAME, MX, NS; query tools; response interpretation.
+P1 | Zones and AXFR; TTL, SOA, PTR, TXT; evidence and controls.
+P2 | DNSSEC, NSEC, cache snooping, and transport protection.
+
+### 10. Teaching checks: answer before opening the explanation
+
+Scenario Q5 (the original short check): the same DNS server returns 192.0.2.10 for www.example.test A, and a complete reading of its AAAA reply confirms ordinary NODATA. In one or two sentences, what have you confirmed, and what would you check to find out whether the website opens?
+
+The four multiple-choice questions below and the scenario above are teaching exercises. Opening an explanation does not submit an answer or update your understanding status. Q&A awaits actual questions and discussion. The next core concept remains M04-03 FTP enumeration.
+
+#### Show the teaching explanation for Q5
+
+Record that this DNS server returned an IPv4 address for the name and no AAAA data in these queries. To check the website, test the connection, TLS, and an actual HTTP request in the authorized lab. Check sign-in and action permissions separately.
+
+This is a teaching explanation, not a submitted learner answer.
+
+#### Q1 A DNS lookup returns an A record. What does that tell you?
+
+A. The website is working.
+B. An IPv4 address was returned for a name.
+C. Website sign-in permissions are confirmed.
+D. You have server administrator access.
+
+<details><summary>Teaching answer explanation</summary>
+
+A: Website availability needs connection and application tests.
+B: Correct. An A record supplies an IPv4 address for a name.
+C: Sign-in rights require authentication and authorization checks.
+D: Administrative access requires separate account and permission evidence.
+
+</details>
+
+#### Q2 The full AAAA reply is confirmed as ordinary NODATA, excluding referrals and the Compact Denial exception. How do you read it?
+
+A. The domain must not exist.
+B. The DNS server must be down.
+C. The name exists, but this record type has no data.
+D. The website has been compromised.
+
+<details><summary>Teaching answer explanation</summary>
+
+A: Ordinary NODATA differs from NXDOMAIN, which indicates a nonexistent name.
+B: A reply arrived. Broader server health needs other evidence.
+C: Correct. The question establishes the ordinary missing-type case.
+D: This reply describes DNS data. Compromise requires other evidence.
+
+</details>
+
+#### Q3 Why does AXFR need access control?
+
+A. Every DNS query modifies data.
+B. AXFR can transfer an entire zone.
+C. It directly retrieves user passwords.
+D. It automatically opens a website administration panel.
+
+<details><summary>Teaching answer explanation</summary>
+
+A: The ordinary queries here read data; dynamic updates are separate operations.
+B: Correct. Limit and authenticate the recipients of zone data.
+C: AXFR transfers zone records; passwords belong in appropriate secret storage.
+D: Website administration and its permissions are a separate service layer.
+
+</details>
+
+#### Q4 What is the core security function of DNSSEC?
+
+A. Hide all DNS names.
+B. Encrypt every website’s HTTPS traffic.
+C. Authenticate DNS data origin and check integrity.
+D. Block everyone from querying public A records.
+
+<details><summary>Teaching answer explanation</summary>
+
+A: DNSSEC provides verifiability; name disclosure is a separate design concern.
+B: TLS protects HTTPS traffic.
+C: Correct. Validators use DNSSEC signatures and a chain of trust to check data.
+D: Public query policy is managed separately from DNSSEC signing.
+
+</details>
+
+### Q&A
+
+Pending actual questions and discussion.
+

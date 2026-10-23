@@ -46,3 +46,5 @@ M04-01 v3 改為具體故事、短句與原生圖解；[改寫說明](../../docs
 M04-02 DNS：[公開概念頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-02/) · [送出原文與網頁補充邊界](../../docs/m04-02-publication.md)。一題小檢核，Q&A待提供；下一核心為FTP。
 
 十二核心之後接[M05路線](../m05-vulnerability-analysis/reading-route.md)，再接M06與M07；[47核心總規劃](../../study-plan/m05-m07-concept-plan-2026-10-23.md)。
+
+DNS 補充：[M04-02 v2 校訂教材](../../source/2026-10-23-one-concept/M04-02-supplement-v2.md)與[來源差異](../../docs/m04-02-revision-2-review.md)，沿用原 ID；教學與測驗分開呈現，Q&A 待補。
