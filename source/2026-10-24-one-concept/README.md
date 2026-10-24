@@ -5,3 +5,5 @@
 [M04路線](../../notes/m04-enumeration/reading-route.md) · [發布紀錄](../../docs/m04-03-publication.md)。
 
 [M04-04 SMB完整交付原文](M04-04-teaching.md) · [公開頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-04/)。網頁另附英文、流程圖及平行操作卡，均屬教材；Q&A待實際討論。
+
+[M04-05 NetBIOS完整教學](M04-05-teaching.md) · [公開概念頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-05/) · [來源與發布說明](../../docs/m04-05-publication.md)。
