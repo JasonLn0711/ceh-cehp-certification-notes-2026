@@ -9,3 +9,7 @@
 官方核對Nmap埠狀態/服務辨識、Microsoft NetShareEnum/Test-NetConnection/net view/Get-Content/5140/5145/Audit File System與Samba smbclient。精確連結隨教材保留。net view可能省略$ shares且身分依現有SMB連線；NTFS稽核需相符SACL；無事件不等於無操作。192.168.56.10只是合成私人實驗網路位址，操作仍需確認授權。
 
 版本屬教材修訂，不新增概念交付或本人理解證據，Q&A等待實際討論。部署驗證回執在既有私人Planning M04-01/revision-4-deployment.json。
+
+## 後續授權範圍補充
+
+CEH概念Q&A改用可展開呈現，完整答案及來源留在HTML與搜尋索引，問題錨點自動展開。此共用UI另行提交，測驗不改分類。現有六個正式概念均無實際Q&A，維持待補；測試fixture在建置後移除。
