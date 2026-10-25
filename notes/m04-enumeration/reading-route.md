@@ -13,7 +13,7 @@
 | M04-03 | FTP Enumeration／FTP 列舉 | 服務回應、匿名登入與檔案權限各自能證明什麼 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-24-one-concept/M04-03-teaching.md) |
 | M04-04 | SMB Enumeration／SMB 列舉 | 共享、驗證、授權與 TCP 445 的判讀界線 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-24-one-concept/M04-04-teaching.md) |
 | M04-05 | NetBIOS Enumeration／NetBIOS 列舉 | 名稱資訊、137–139 與現代 SMB 的關係 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-24-one-concept/M04-05-teaching.md) |
-| M04-06 | SMTP Enumeration／SMTP 列舉 | 郵件服務回應與帳號資訊揭露的條件 | 核心：用途、條件、證據與防護 | 待整理 |
+| M04-06 | SMTP Enumeration／SMTP 列舉 | 郵件服務回應與帳號資訊揭露的條件 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-25-one-concept/M04-06-teaching.md) |
 | M04-07 | Unix/Linux User Enumeration／Unix/Linux 使用者列舉 | 使用者、群組、UID/GID 與權限 | 核心：用途、條件、證據與防護 | 待整理 |
 | M04-08 | NFS Enumeration／NFS 列舉 | Export、掛載、身分對應與共享權限 | 核心：用途、條件、證據與防護 | 待整理 |
 | M04-09 | SNMP Enumeration／SNMP 列舉 | MIB、OID、Community String、版本與驗證／加密設定 | 核心：用途、條件、證據與防護 | 待整理 |
@@ -54,3 +54,5 @@ DNS 補充：[M04-02 v2 校訂教材](../../source/2026-10-23-one-concept/M04-02
 [M04-04 SMB頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-04/) · [發布紀錄](../../docs/m04-04-publication.md)。完整教學與一題待回答小檢核，下一核心為M04-05 NetBIOS。
 
 [M04-05 NetBIOS頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-05/) · [發布與來源說明](../../docs/m04-05-publication.md)。一題待回答小檢核，下一核心為M04-06 SMTP。
+
+[M04-06 SMTP頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-06/) · [發布與來源說明](../../docs/m04-06-publication.md)。一題待回答小檢核，下一核心為M04-07 Unix/Linux使用者列舉。
