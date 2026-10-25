@@ -60,3 +60,14 @@ CEH＋CEHP 每週共用 240 分鐘、課日自學最多 25 分鐘的上限保持
 本橋接已由 `5529fea` 推送至 `origin/main`，推送後 fetch 確認 divergence `0 0`。
 [既有發布阻塞的解決回執](video-production/PUBLICATION_2026-10-22.md#publication-resolved--october-23-2026)
 連接先前六筆本機提交的保留結果。這是較早的文件 Git 發布快照；課程上線更新見本頁現行回執，公開影片仍依原驗收規則。
+
+<a id="responsive-teaching-diagrams"></a>
+## 響應式教學圖解 — 2026-10-25 採用
+
+後續教材需要圖解時，沿用 M04-01 v6 的輕量響應式呈現；正式設計與驗收規格集中於網站既有[內容編修指南](https://github.com/JasonLn0711/kairos-learning/blob/main/docs/content-authoring.md#responsive-teaching-diagrams--adopted-october-25)，本橋接僅保存學習端的採用關係。
+
+依概念選擇流程、平行權限卡或資源／結果示意；保留正文原句與順序、避免重複文字，提供完整替代文字與小於 100,000 bytes 的可檢查圖檔。M04-01 的 [Public／Finance SVG](https://learn.cs-kairos.com/images/ceh/m04-01-access-results.svg)為 1,855 bytes，實作與原文保留關係見[第六版紀錄](m04-01-revision-6-review.md)。具體框架、320／390／1280、對比、鍵盤、搜尋、下載及正式讀回要求以網站規格為準，不另建平行規範。
+
+這是視覺呈現偏好；按內容需要採用，不要求每段作圖或重製全部舊課。統計圖須有真實且相關資料。測試授權、既有發布授權、排程、交付與理解狀態保持原規則。
+
+M04-01 的兩份實際問答、原文保留與獨立校訂見[10/25 問答紀錄](m04-01-qa-2026-10-25.md)；教材測驗與個人作答仍分開。
