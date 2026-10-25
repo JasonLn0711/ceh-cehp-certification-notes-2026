@@ -14,7 +14,7 @@
 | M04-04 | SMB Enumeration／SMB 列舉 | 共享、驗證、授權與 TCP 445 的判讀界線 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-24-one-concept/M04-04-teaching.md) |
 | M04-05 | NetBIOS Enumeration／NetBIOS 列舉 | 名稱資訊、137–139 與現代 SMB 的關係 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-24-one-concept/M04-05-teaching.md) |
 | M04-06 | SMTP Enumeration／SMTP 列舉 | 郵件服務回應與帳號資訊揭露的條件 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-25-one-concept/M04-06-teaching.md) |
-| M04-07 | Unix/Linux User Enumeration／Unix/Linux 使用者列舉 | 使用者、群組、UID/GID 與權限 | 核心：用途、條件、證據與防護 | 待整理 |
+| M04-07 | Unix/Linux User Enumeration／Unix/Linux 使用者列舉 | 使用者、群組、UID/GID 與權限 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-25-one-concept/M04-07-teaching.md) |
 | M04-08 | NFS Enumeration／NFS 列舉 | Export、掛載、身分對應與共享權限 | 核心：用途、條件、證據與防護 | 待整理 |
 | M04-09 | SNMP Enumeration／SNMP 列舉 | MIB、OID、Community String、版本與驗證／加密設定 | 核心：用途、條件、證據與防護 | 待整理 |
 | M04-10 | LDAP Enumeration／LDAP 列舉 | 目錄、DN、物件、屬性、群組與查詢權限 | 核心：用途、條件、證據與防護 | 待整理 |
@@ -62,3 +62,5 @@ DNS 補充：[M04-02 v2 校訂教材](../../source/2026-10-23-one-concept/M04-02
 M04-01 [v4繁中七節改寫](../../docs/m04-01-revision-4-review.md)保留既有版型與三題，僅此繁中頁程式碼改淺色；交付序列不變。
 
 2026-10-25：M04-01 v6 主正文保留；現已收到並整理[兩份實際 SMB／Kafka 問答](../../docs/m04-01-qa-2026-10-25.md)，獨立收合、原文與校訂分區。兩題為教材測驗，尚無本人作答；其他概念的 Q&A 狀態各自保留。
+
+[M04-07 Unix/Linux 使用者列舉](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-07/) · [原文與網頁補充邊界](../../docs/m04-07-publication.md)。一題待回答小檢核；下一核心為 M04-08 NFS。
