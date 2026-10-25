@@ -1,0 +1,403 @@
+[
+  {
+    "kind": "heading",
+    "text": "概念導入",
+    "id": "definition"
+  },
+  {
+    "kind": "paragraph",
+    "text": "這一課最重要的觀念：發現某個資源存在，不代表你有權限使用它。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "例如，你在公司網路中發現一台檔案伺服器，還查到了名為 Finance（財務部）的共用資料夾。這只能證明你取得了某些資源資訊，不能證明你能開啟資料夾、閱讀薪資資料，或修改任何檔案。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "這就是 CEH M04「列舉」最需要建立的判斷能力。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "想像你是一名受公司委託的資安工程師，要檢查一棟辦公大樓。"
+  },
+  {
+    "kind": "heading",
+    "text": "從發現目標到確認權限",
+    "id": "connections"
+  },
+  {
+    "kind": "paragraph",
+    "text": "這是概念上的學習流程，不是所有工具操作都必須遵守的固定順序。某些服務需要先登入，才能進行列舉。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "你要區分五個不同問題："
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "階段",
+      "想知道什麼？",
+      "典型結果"
+    ],
+    "rows": [
+      [
+        "偵察",
+        "目標在哪裡？",
+        "找到 IP、網域名稱"
+      ],
+      [
+        "掃描",
+        "有哪些服務入口？",
+        "TCP 445 開放"
+      ],
+      [
+        "列舉",
+        "服務提供哪些具體資訊？",
+        "找到 Public、Finance"
+      ],
+      [
+        "身分驗證",
+        "你是誰？",
+        "測試帳號登入成功"
+      ],
+      [
+        "存取授權",
+        "你可以做什麼？",
+        "能讀 Public、不能讀 Finance"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "注意： 公司允許你進行資安測試的「測試授權」，與系統授予測試帳號的「存取權限」是兩回事。即使系統允許連線，也不代表你獲准進行測試。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "我們先建立三個基本概念。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "IP 位址（IP Address）：用來定位網路上的設備，就像大樓地址。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "通訊埠（Port）：用來區分設備上的網路服務入口，就像大樓內不同的服務櫃檯。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "SMB（Server Message Block）：一種常見的網路檔案共用協定，Windows 常用它來讓其他電腦存取共用資料夾與印表機等資源。現代 SMB 通常使用 TCP 445。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "假設你用 Nmap 掃描練習伺服器："
+  },
+  {
+    "kind": "code",
+    "text": "nmap -p 445 192.168.56.10"
+  },
+  {
+    "kind": "paragraph",
+    "text": "假設得到："
+  },
+  {
+    "kind": "code",
+    "text": "PORT      STATE   SERVICE\n445/tcp   open    microsoft-ds"
+  },
+  {
+    "kind": "paragraph",
+    "text": "這代表什麼？"
+  },
+  {
+    "kind": "paragraph",
+    "text": "445/tcp 是偵測的通訊埠；open 表示從此次掃描位置觀察到該通訊埠接受連線。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "但是 SERVICE 欄位的 microsoft-ds 可能只是 Nmap 根據埠號的服務名稱對照，而不是已經完成 SMB 協定驗證。必須進一步確認服務的實際回應。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "[Nmap Network Scanning](https://nmap.org/book/man-version-detection.html)"
+  },
+  {
+    "kind": "paragraph",
+    "text": "因此："
+  },
+  {
+    "kind": "paragraph",
+    "text": "TCP 445 開放 ≠ 確認有 SMB 服務 ≠ 確認能存取檔案"
+  },
+  {
+    "kind": "paragraph",
+    "text": "假設系統已確認提供 SMB 服務，而且公司提供了合法測試帳號 labuser。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "你向服務提出查詢："
+  },
+  {
+    "kind": "paragraph",
+    "text": "「這台伺服器有哪些共用資源？」"
+  },
+  {
+    "kind": "paragraph",
+    "text": "伺服器可能回應："
+  },
+  {
+    "kind": "code",
+    "text": "Sharename    Type\n---------    ----\nPublic       Disk\nFinance      Disk"
+  },
+  {
+    "kind": "paragraph",
+    "text": "這一步就是列舉。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "我們沒有要求伺服器交出 Finance 裡的檔案，只是要求列出共用資源的名稱。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "Windows 提供的 NetShareEnum 函式正是此類查詢的例子。它可取得伺服器上的 SMB 共用資源資訊，而且分成不同資訊層級：例如 Level 0 回傳名稱、Level 1 可包含類型與說明，較高層級的資訊可能要求額外權限。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "[Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/api/lmshare/nf-lmshare-netshareenum)"
+  },
+  {
+    "kind": "paragraph",
+    "text": "這裡就可以理解一項重要觀念："
+  },
+  {
+    "kind": "paragraph",
+    "text": "資訊揭露程度與操作權限不是同一個維度。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "伺服器可能允許某個帳號知道有 Finance，但不允許它閱讀其中的內容。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "我們繼續模擬："
+  },
+  {
+    "kind": "accessDiagram",
+    "src": "/images/ceh/m04-01-access-results.svg",
+    "texts": [
+      "檔案伺服器",
+      "192.168.56.10 · SMB",
+      "已確認服務",
+      "Public",
+      "測試讀取成功",
+      "Finance",
+      "測試讀取遭拒",
+      "這是模擬結果，代表同一個測試帳號對兩個資源有不同的存取結果。"
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "要解釋原因，先認識兩種 Windows 權限。"
+  },
+  {
+    "kind": "heading",
+    "text": "第一種：Share Permissions（共用權限）",
+    "id": "permissions"
+  },
+  {
+    "kind": "paragraph",
+    "text": "它控制使用者透過網路共用服務，可以對這個共用資源做哪些操作。"
+  },
+  {
+    "kind": "heading",
+    "text": "第二種：NTFS Permissions（NTFS 檔案系統權限）",
+    "id": "ntfs"
+  },
+  {
+    "kind": "paragraph",
+    "text": "它控制檔案系統中的資料夾與檔案，允許哪些身分讀取、寫入或修改。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "經由 SMB 存取 Windows NTFS 檔案時，通常兩種權限都會影響最後結果。不能只看其中一種就下結論。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "[Microsoft Learn](https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/access-denied-access-smb-file-share)"
+  },
+  {
+    "kind": "paragraph",
+    "text": "例如，某帳號具有共用資料夾的讀取權限，但 NTFS 拒絕它讀取某份機密檔案，最終讀取仍可能失敗。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "反過來說，即使 NTFS 允許讀取，若共用層級拒絕，透過該 SMB 共用路徑的存取也會被阻擋。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "因此，當你看到 Access Denied，你目前只確認了這次操作遭到拒絕。你尚未證明拒絕的確切原因，也不能推論其他使用者一樣無法存取。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "以下使用 Windows PowerShell，假設 192.168.56.10 是已經配置好的授權練習主機，且你有適當的測試帳號。"
+  },
+  {
+    "kind": "heading",
+    "text": "第一步：確認通訊埠",
+    "id": "practice"
+  },
+  {
+    "kind": "code",
+    "text": "Test-NetConnection 192.168.56.10 -Port 445"
+  },
+  {
+    "kind": "paragraph",
+    "text": "如果看到："
+  },
+  {
+    "kind": "code",
+    "text": "TcpTestSucceeded : True"
+  },
+  {
+    "kind": "paragraph",
+    "text": "代表這次 TCP 連線測試成功，不代表已經登入檔案伺服器。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "[Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/nettcpip/test-netconnection)"
+  },
+  {
+    "kind": "heading",
+    "text": "第二步：列出共用資源",
+    "id": "shares"
+  },
+  {
+    "kind": "code",
+    "text": "net view \\\\192.168.56.10"
+  },
+  {
+    "kind": "paragraph",
+    "text": "假設取得："
+  },
+  {
+    "kind": "code",
+    "text": "Share name\n----------\nPublic\nFinance"
+  },
+  {
+    "kind": "paragraph",
+    "text": "這就完成了一次共用資源列舉。指令會依照目前使用的身分及伺服器設定取得結果，因此不一定每次都能列出資源。"
+  },
+  {
+    "kind": "heading",
+    "text": "第三步：測試指定檔案的讀取權限",
+    "id": "read-file"
+  },
+  {
+    "kind": "code",
+    "text": "Get-Content '\\\\192.168.56.10\\Public\\demo.txt'"
+  },
+  {
+    "kind": "paragraph",
+    "text": "如果成功顯示檔案內容，就能確認目前使用的身分，在這次測試條件下，可以讀取該檔案。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "再測試預先約定的另一個檔案："
+  },
+  {
+    "kind": "code",
+    "text": "Get-Content '\\\\192.168.56.10\\Finance\\demo.txt'"
+  },
+  {
+    "kind": "paragraph",
+    "text": "如果回覆 Access is denied，記錄這次遭拒即可，不要因此就擅自更換帳號或嘗試繞過權限。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "如果你使用 Ubuntu/Linux，也可以利用 Samba 的 smbclient 指令進行共用名稱列舉："
+  },
+  {
+    "kind": "code",
+    "text": "smbclient -L 192.168.56.10 -U labuser"
+  },
+  {
+    "kind": "paragraph",
+    "text": "指令會要求輸入該測試帳號的密碼。-L 代表列出伺服器提供的資源，它本身不是讀取檔案內容的操作。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "[Samba](https://www.samba.org/samba/docs/current/man-html/smbclient.1.html)"
+  },
+  {
+    "kind": "paragraph",
+    "text": "列舉的結果需要放進安全性脈絡中解讀。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "假設一個普通員工帳號可以列出整家公司所有部門共用資料夾的名稱，這可能暴露一些組織資訊，但不一定構成嚴重漏洞。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "真正應該調查的是：這些名稱是否敏感、業務是否需要揭露、其他未授權使用者是否也能取得，以及系統是否有不必要的檔案存取權限。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "從防護角度，可採用三個層次："
+  },
+  {
+    "kind": "list",
+    "items": [
+      "網路限制：僅允許需要使用 SMB 的設備與使用者網段連線。",
+      "最小權限：對帳號、共用資料夾與實際檔案分別設定必要的權限。",
+      "安全稽核：在適當配置的 Windows 系統中，可利用事件 ID 5140 觀察共用存取，利用 5145 觀察共用層級的詳細存取檢查；但 NTFS 層級的拒絕還需要對應的檔案系統稽核，不能只依賴 5145。"
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "[Microsoft Learn](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-5145)"
+  },
+  {
+    "kind": "paragraph",
+    "text": "最後，資安報告至少要記錄測試時間、來源與目標、使用帳號、查詢指令、實際結果，以及測試限制。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "要避免直接寫「Finance 已被攻破」這種沒有證據支持的結論。"
+  },
+  {
+    "kind": "paragraph",
+    "text": "現在學的是列舉的共同原理。接下來你會在不同服務看到同樣的概念："
+  },
+  {
+    "kind": "table",
+    "headers": [
+      "技術",
+      "想列舉的資訊"
+    ],
+    "rows": [
+      [
+        "DNS Enumeration",
+        "主機名稱、DNS 記錄"
+      ],
+      [
+        "SMB Enumeration",
+        "共用資料夾、部分伺服器資訊"
+      ],
+      [
+        "LDAP Enumeration",
+        "目錄服務中的帳號、群組、物件"
+      ],
+      [
+        "SNMP Enumeration",
+        "設備資訊、介面與管理資料"
+      ],
+      [
+        "SMTP Enumeration",
+        "郵件服務允許查詢的資訊"
+      ]
+    ]
+  },
+  {
+    "kind": "paragraph",
+    "text": "它們使用不同協定，但問題本質相同：服務會向什麼身分透露哪些資訊？這些資訊是否超過業務需要？"
+  }
+]
