@@ -15,7 +15,7 @@
 | M04-05 | NetBIOS Enumeration／NetBIOS 列舉 | 名稱資訊、137–139 與現代 SMB 的關係 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-24-one-concept/M04-05-teaching.md) |
 | M04-06 | SMTP Enumeration／SMTP 列舉 | 郵件服務回應與帳號資訊揭露的條件 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-25-one-concept/M04-06-teaching.md) |
 | M04-07 | Unix/Linux User Enumeration／Unix/Linux 使用者列舉 | 使用者、群組、UID/GID 與權限 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-25-one-concept/M04-07-teaching.md) |
-| M04-08 | NFS Enumeration／NFS 列舉 | Export、掛載、身分對應與共享權限 | 核心：用途、條件、證據與防護 | 待整理 |
+| M04-08 | NFS Enumeration／NFS 列舉 | Export、掛載、身分對應與共享權限 | 核心：用途、條件、證據與防護 | [教學原文](../../source/2026-10-25-one-concept/M04-08-teaching.md) |
 | M04-09 | SNMP Enumeration／SNMP 列舉 | MIB、OID、Community String、版本與驗證／加密設定 | 核心：用途、條件、證據與防護 | 待整理 |
 | M04-10 | LDAP Enumeration／LDAP 列舉 | 目錄、DN、物件、屬性、群組與查詢權限 | 核心：用途、條件、證據與防護 | 待整理 |
 | M04-11 | RPC Enumeration／RPC 列舉 | 遠端程序呼叫、介面與端點，辨識 Windows RPC 與 ONC RPC 的不同 | 核心：用途、條件、證據與防護 | 待整理 |
