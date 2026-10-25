@@ -37,9 +37,11 @@
 
 [M04-01 教學原文](../../source/2026-10-23-one-concept/M04-01-teaching.md) · [公開概念頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-01/)。教材交付與理解確認各自前進；本人指定補強優先。
 
-## M04-01 深化教材
+## M04-01 深化教材（版本歷史）
 
-[同一概念頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-01/)深化為七節教學，提供合成SMB案例、授權實驗步驟、證據矩陣與三題測驗。教材解析與實際Q&A分開；Q&A等收到實際討論後整理。原第一版教學來源保留，下一概念仍M04-02 DNS，AD為相關延伸。[技術校訂與覆蓋對照](../../docs/m04-01-revision-2-review.md)。
+以下為各次修訂當時的紀錄；「下一概念」描述當時位置，現行交付順序以私人進度正本為準。
+
+[同一概念頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-01/)在 revision 2 深化為七節教學，提供合成SMB案例、授權實驗步驟、證據矩陣與三題測驗。教材解析與實際Q&A分開；Q&A等收到實際討論後整理。原第一版教學來源保留，下一概念仍M04-02 DNS，AD為相關延伸。[技術校訂與覆蓋對照](../../docs/m04-01-revision-2-review.md)。
 
 M04-01 v3 改為具體故事、短句與原生圖解；[改寫說明](../../docs/m04-01-revision-3-review.md)。沿用相同公開網址、七節與三題，屬同概念深化。
 
@@ -58,3 +60,5 @@ DNS 補充：[M04-02 v2 校訂教材](../../source/2026-10-23-one-concept/M04-02
 [M04-06 SMTP頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-06/) · [發布與來源說明](../../docs/m04-06-publication.md)。一題待回答小檢核，下一核心為M04-07 Unix/Linux使用者列舉。
 
 M04-01 [v4繁中七節改寫](../../docs/m04-01-revision-4-review.md)保留既有版型與三題，僅此繁中頁程式碼改淺色；交付序列不變。
+
+2026-10-25：M04-01 v6 主正文保留；現已收到並整理[兩份實際 SMB／Kafka 問答](../../docs/m04-01-qa-2026-10-25.md)，獨立收合、原文與校訂分區。兩題為教材測驗，尚無本人作答；其他概念的 Q&A 狀態各自保留。
