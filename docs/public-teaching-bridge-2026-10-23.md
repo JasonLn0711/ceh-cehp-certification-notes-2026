@@ -71,3 +71,7 @@ CEH＋CEHP 每週共用 240 分鐘、課日自學最多 25 分鐘的上限保持
 這是視覺呈現偏好；按內容需要採用，不要求每段作圖或重製全部舊課。統計圖須有真實且相關資料。測試授權、既有發布授權、排程、交付與理解狀態保持原規則。
 
 M04-01 的兩份實際問答、原文保留與獨立校訂見[10/25 問答紀錄](m04-01-qa-2026-10-25.md)；教材測驗與個人作答仍分開。
+
+## Content edition migration — October 25 approval
+
+M04-01 adopts public content version **v2.0.0** as the explicit naming baseline for legacy revision 8. The [approved website policy](https://github.com/JasonLn0711/kairos-learning/blob/main/docs/proposals/concept-content-versioning-2026-10-25.md) owns definitions and the legacy history. Integer revision 8, previous text/receipts, URLs, diagrams and learning states remain intact. Both language pages change metadata only; neither body is rewritten. Other concepts retain their existing labels. Presentation-only diagrams are patch changes; added teaching is minor. Actual publication is confirmed separately in the private deployment receipt.
