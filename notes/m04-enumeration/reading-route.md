@@ -56,3 +56,5 @@ DNS 補充：[M04-02 v2 校訂教材](../../source/2026-10-23-one-concept/M04-02
 [M04-05 NetBIOS頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-05/) · [發布與來源說明](../../docs/m04-05-publication.md)。一題待回答小檢核，下一核心為M04-06 SMTP。
 
 [M04-06 SMTP頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-06/) · [發布與來源說明](../../docs/m04-06-publication.md)。一題待回答小檢核，下一核心為M04-07 Unix/Linux使用者列舉。
+
+M04-01 [v4繁中七節改寫](../../docs/m04-01-revision-4-review.md)保留既有版型與三題，僅此繁中頁程式碼改淺色；交付序列不變。
