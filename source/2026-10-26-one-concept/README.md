@@ -5,3 +5,5 @@
 [初版發布回執](../../docs/m04-09-publication.md)：雙語正式頁、CI、GX10 Brave 與來源正規化核對。
 
 [M04-10 LDAP 教學](M04-10-teaching.md)：保留實際技術正文與順序；私人交付／理解狀態句只存私人來源庫。
+
+[初版發布回執](../../docs/m04-10-publication.md)：雙語正式頁、CI、GX10 Brave 與來源正規化核對。
