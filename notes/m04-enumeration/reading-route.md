@@ -66,3 +66,5 @@ M04-01 [v4繁中七節改寫](../../docs/m04-01-revision-4-review.md)保留既�
 [M04-07 Unix/Linux 使用者列舉](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-07/) · [原文與網頁補充邊界](../../docs/m04-07-publication.md)。一題待回答小檢核；下一核心為 M04-08 NFS。
 
 [M04-08 NFS 頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-08/) · [來源與發布驗證](../../docs/m04-08-publication.md)。初版 v1.0.0，原文六節與一題小檢核；下一核心為 M04-09 SNMP。
+
+[M04-09 SNMP 正式頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-09/) · [來源與發布驗證](../../docs/m04-09-publication.md)，初版 v1.0.0；下一核心 M04-10 LDAP。
