@@ -9,3 +9,5 @@
 [初版發布回執](../../docs/m04-10-publication.md)：雙語正式頁、CI、GX10 Brave 與來源正規化核對。
 
 [M04-11 RPC 教學](M04-11-teaching.md)：技術原文與順序完整；私人交付／理解狀態句保存在私人來源庫。
+
+[初版發布回執](../../docs/m04-11-publication.md)：雙語正式頁、CI、GX10 Brave 與來源正規化核對。
