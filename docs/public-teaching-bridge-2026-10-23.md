@@ -77,3 +77,17 @@ M04-01 的兩份實際問答、原文保留與獨立校訂見[10/25 問答紀錄
 ## Content edition migration — October 25 approval
 
 M04-01 adopts public content version **v2.0.0** as the explicit naming baseline for legacy revision 8. The [approved website policy](https://github.com/JasonLn0711/kairos-learning/blob/main/docs/proposals/concept-content-versioning-2026-10-25.md) owns definitions and the legacy history. Integer revision 8, previous text/receipts, URLs, diagrams and learning states remain intact. Both language pages change metadata only; neither body is rewritten. Other concepts retain their existing labels. Presentation-only diagrams are patch changes; added teaching is minor. Actual publication is confirmed separately in the private deployment receipt.
+
+
+<a id="ceh-answer-presentation-2026-10-27"></a>
+## CEH 解答與程式碼呈現 — 2026-10-27 採用
+
+後續 CEH 概念教材固定採用下列編修方式；網站的[內容編修指南](https://github.com/JasonLn0711/kairos-learning/blob/main/docs/content-authoring.md)持有元件與驗收細節，本頁保存學習端採用關係。
+
+- 正文、圖表、流程、實作步驟與程式碼直接呈現；程式碼／命令／輸出使用**淺色背景、深色文字**，保持可選取與可複製。
+- 教材理解測驗附上**台灣慣用語的白話繁體中文參考解答**，預設收合，供讀者先自行思考再展開對照；配對英文頁提供語意一致解答。
+- 參考解答是編輯提供的教學內容，不是假造的學員提問或作答。實際 Q&A 仍獨立保留；沒有收到實際問題時，不新增個人問答紀錄。
+- 「答案已公布」、「本人已回答」與「理解已驗證」分別記錄。展開答案、網頁測試、網站發布與教材修訂都不自動增加學習完成或考試準備度。
+- 本項**取代較早「普通小檢核解答一律直接顯示」的呈現規則**，並補充「僅 Q&A 收合」：可收合的是問答／參考解答，正文與圖解維持直接閱讀。既有互動選擇題的提交及回饋流程另依其設計，不據此更動分數。
+
+本次套用於 [M01-02 詳細版](m01-02-publication.md#detailed-revision-2026-10-27)，沿用 [M01-01](m01-01-publication.md)的完整概念編排與雙語來源追溯。概念 ID、網址、舊版教學、路線順序與既有閱讀容量不變；這是往後必要的呈現要求，沒有建立新排程或要求一次重製全部歷史教材。
