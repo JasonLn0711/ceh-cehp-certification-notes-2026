@@ -1,3 +1,5 @@
+> **2026-10-27 現行路線：** [20 章 161 單元新順序](study-plan/core-route-2026-10-27.md)已取代舊自動選題順序；既有 ID／教材／Q&A 全部保留。早午晚按新單元，已交付映射項採複習／診斷。下方舊順序為歷史，不再用來選下一篇。
+
 # CEH / CEHP Certification Notes 2026
 
 > **Current CEH reading rule — October 22:** [One concept per reading task](study-plan/concept-reading-2026-10-22.md) governs reading scope and completion: explanation, one example and one small check; resume the same topic when time ends. The 600-item/November 29 target awaits reassessment. Blog and practical work are separately chosen activities. Existing scores and formal practice rules remain intact; older requirements below are historical where they conflict.
