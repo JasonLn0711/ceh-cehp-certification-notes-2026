@@ -1,5 +1,7 @@
 # CEH 20 章必讀路線 — 2026-10-27 採用
 
+[完整逐列序號、重要性／難度與理由](core-reading-order-2026-10-27.md)
+
 `scope change`：本路線取代舊 M04→M05→M06 的自動教材選題順序。每時段一個完整表列單元，章內保留附件順序；複合列連貫說明，不拆成原子名詞任務。共 **161 單元**，是附件教學設計，不是官方固定概念數。
 
 [全章概念編號索引](core-concept-index-2026-10-27.md) · [機器可讀正本](core-route-2026-10-27.json) · [來源與缺漏](../source/2026-10-27-core-route/README.md) · [章後補充檢查清單](core-route-2026-10-27-supplements.md) · [穩定 ID 對照](core-route-2026-10-27-crosswalk.md) · [閱讀規則](concept-reading-2026-10-22.md) · [公開教材橋接](../docs/public-teaching-bridge-2026-10-23.md)
