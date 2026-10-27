@@ -1,3 +1,5 @@
+> **2026-10-27 現行路線：** [20 章 161 單元新順序](study-plan/core-route-2026-10-27.md)已取代舊自動選題順序；既有 ID／教材／Q&A 全部保留。早午晚按新單元，已交付映射項採複習／診斷。下方舊順序為歷史，不再用來選下一篇。
+
 # AGENTS.md
 
 ## Current CEH reading exception — October 22
