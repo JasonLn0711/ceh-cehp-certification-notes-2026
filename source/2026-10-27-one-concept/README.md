@@ -24,3 +24,11 @@
 - [M01-05 Cyber Kill Chain 與 MITRE ATT&CK](M01-05-teaching.md)：[英文](M01-05-teaching-en.md)、[參考解答](M01-05-reference-answer.md)、[英文解答](M01-05-reference-answer-en.md)；[發布與核驗](../../docs/m01-05-publication.md)。
 
 以上教材來源與參考答案分開保存，發布狀態以各回執為準，不由檔案存在推論本人已作答或理解。
+
+- [M01-04 使用者原文完整快照](M01-04-user-source-2026-10-27.md)：本次詳細修訂的主要來源；[修訂與核驗紀錄](../../docs/m01-04-publication.md#user-source-revision-2026-10-27)分開保存原文、編修與發布狀態，既有初版仍可追溯。
+
+- [M01-04 v1.1.0 詳細教學正規化稿](M01-04-detailed-teaching.md)：完整七節與三題參考答案，原文及補充可追溯；發布狀態見上述修訂紀錄。
+
+- [M01-05 使用者原文完整快照](M01-05-user-source-2026-10-27.md)：本次詳細修訂的主要來源；[修訂與核驗紀錄](../../docs/m01-05-publication.md#user-source-revision-2026-10-27)分開保存來源、編修與正式發布狀態，初版歷史保留。
+
+- [M01-05 v1.1.0 詳細教學正規化稿](M01-05-detailed-teaching.md)：從網站本輪 JSON 轉譯，與原始快照及局部補充分開追溯；正式核驗見上述修訂紀錄。
