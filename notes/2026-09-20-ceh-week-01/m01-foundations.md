@@ -282,3 +282,8 @@ The law/standards comparison supports jurisdiction and obligation literacy. The 
 ## Reuse within the current course
 
 [M01 questions](../../assessments/practice-bank/m01.md) support the existing learning route. The [ROE notes](../../source/2026-09-04-antisyphon-roe-101/source.md) deepen the scope example; the [M05 lesson](../m05-vulnerability-analysis/lesson-01-weakness-to-harm.md) deepens vulnerability/risk distinctions. This capture adds no answers, confidence, retests or personal practical evidence.
+
+
+## 2026-10-27 concept-reading connection
+
+The existing authorization section connects to [CEH M01-03: Ethical Hacking, Authorization and Rules of Engagement](../../source/2026-10-27-one-concept/M01-03-teaching.md), unit 3 in the [adopted concept route](../../study-plan/core-route-2026-10-27.md). [Publication evidence](../../docs/m01-03-publication.md) records this concept's actual release status separately. This bridge adds no parallel M01 route and does not change the historical September source claims or establish learner completion.
