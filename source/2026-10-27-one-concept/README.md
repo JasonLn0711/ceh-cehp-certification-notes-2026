@@ -16,3 +16,11 @@
 - [M01-03 使用者原文完整快照](M01-03-user-source-2026-10-27.md)：本輪修訂的主要來源，原始文字與原有引文網址完整保留；[修訂與核驗紀錄](../../docs/m01-03-publication.md#user-source-revision-2026-10-27)區分來源保存、編修與實際發布。
 
 - [M01-03 v1.1.0 詳細教學正規化稿](M01-03-detailed-teaching.md)：對照上述原文快照，補充與參考答案分開可辨；[本輪發布狀態](../../docs/m01-03-publication.md#user-source-revision-2026-10-27)已完成本輪正式部署與雙語讀回。
+
+
+## 後續完整概念教材
+
+- [M01-04 攻擊面與攻擊向量](M01-04-teaching.md)：[英文](M01-04-teaching-en.md)、[參考解答](M01-04-reference-answer.md)、[英文解答](M01-04-reference-answer-en.md)；[發布與核驗](../../docs/m01-04-publication.md)。
+- [M01-05 Cyber Kill Chain 與 MITRE ATT&CK](M01-05-teaching.md)：[英文](M01-05-teaching-en.md)、[參考解答](M01-05-reference-answer.md)、[英文解答](M01-05-reference-answer-en.md)；[發布與核驗](../../docs/m01-05-publication.md)。
+
+以上教材來源與參考答案分開保存，發布狀態以各回執為準，不由檔案存在推論本人已作答或理解。
