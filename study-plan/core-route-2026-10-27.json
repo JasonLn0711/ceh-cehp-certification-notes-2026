@@ -1,0 +1,3884 @@
+{
+  "route_id": "CEH26-20261027",
+  "timezone": "Asia/Taipei",
+  "effective_from": "2026-10-27T08:00:00+08:00",
+  "module_order": [
+    "M01",
+    "M09",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M20",
+    "M06",
+    "M07",
+    "M08",
+    "M13",
+    "M14",
+    "M11",
+    "M15",
+    "M12",
+    "M10",
+    "M19",
+    "M16",
+    "M17",
+    "M18"
+  ],
+  "unit_count": 161,
+  "count_basis": "One source table row is one complete learning unit; compound rows are not atomic terms. Teaching design, not official fixed concept count.",
+  "times": [
+    "08:00",
+    "13:00",
+    "19:00"
+  ],
+  "history_policy": "Keep all legacy IDs, URLs, delivery and QA evidence. Review/diagnose already delivered mapped topics; add missing scope only. Never infer mastery.",
+  "units": [
+    {
+      "unit_id": "CEH26-M01-C01",
+      "module": "M01",
+      "module_order": 1,
+      "source_row": 1,
+      "title": "CIA Triad：機密性、完整性、可用性",
+      "importance": 5,
+      "difficulty": 1,
+      "reason": "資安的三個基本保護目標，也是辨識損害種類的基礎。",
+      "planned_at": "2026-10-27T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M01",
+      "concept_ids": [
+        "M01-01"
+      ],
+      "display_ids": [
+        "CEH M01-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M01-C02",
+      "module": "M01",
+      "module_order": 1,
+      "source_row": 2,
+      "title": "Asset、Threat、Vulnerability、Risk",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "必須區分資產、威脅、弱點與風險，否則無法正確評估安全問題。",
+      "planned_at": "2026-10-27T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M01",
+      "concept_ids": [
+        "M01-02"
+      ],
+      "display_ids": [
+        "CEH M01-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M01-C03",
+      "module": "M01",
+      "module_order": 1,
+      "source_row": 3,
+      "title": "Ethical Hacking、Authorization、Rules of Engagement",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "了解合法授權、檢測範圍、停止條件與專業倫理。",
+      "planned_at": "2026-10-27T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M01",
+      "concept_ids": [
+        "M01-03"
+      ],
+      "display_ids": [
+        "CEH M01-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M01-C04",
+      "module": "M01",
+      "module_order": 1,
+      "source_row": 4,
+      "title": "Attack Surface、Attack Vector",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "學會辨識攻擊入口、信任邊界及潛在暴露面。",
+      "planned_at": "2026-10-28T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M01",
+      "concept_ids": [
+        "M01-04"
+      ],
+      "display_ids": [
+        "CEH M01-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M01-C05",
+      "module": "M01",
+      "module_order": 1,
+      "source_row": 5,
+      "title": "Cyber Kill Chain、MITRE ATT&CK",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "建立攻擊活動的分類與分析框架，讓不同章節能互相連結。",
+      "planned_at": "2026-10-28T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M01",
+      "concept_ids": [
+        "M01-05"
+      ],
+      "display_ids": [
+        "CEH M01-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M01-C06",
+      "module": "M01",
+      "module_order": 1,
+      "source_row": 6,
+      "title": "Security Controls、Defense in Depth",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "分辨預防、偵測、矯正措施及多層防禦的作用。",
+      "planned_at": "2026-10-28T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M01",
+      "concept_ids": [
+        "M01-06"
+      ],
+      "display_ids": [
+        "CEH M01-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M01-C07",
+      "module": "M01",
+      "module_order": 1,
+      "source_row": 7,
+      "title": "Risk Management、Incident Response、Laws and Standards",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "將技術發現轉成正式評估、處置、報告及法遵要求。",
+      "planned_at": "2026-10-29T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M01",
+      "concept_ids": [
+        "M01-07"
+      ],
+      "display_ids": [
+        "CEH M01-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M09-C01",
+      "module": "M09",
+      "module_order": 2,
+      "source_row": 1,
+      "title": "Social Engineering & Human Trust",
+      "importance": 5,
+      "difficulty": 1,
+      "reason": "理解攻擊者如何利用人的信任與決策習慣。",
+      "planned_at": "2026-10-29T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M09",
+      "concept_ids": [
+        "M09-01"
+      ],
+      "display_ids": [
+        "CEH M09-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M09-C02",
+      "module": "M09",
+      "module_order": 2,
+      "source_row": 2,
+      "title": "Phishing、Spear Phishing、Whaling",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "分辨一般、定向及高階人員釣魚攻擊。",
+      "planned_at": "2026-10-29T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M09",
+      "concept_ids": [
+        "M09-02"
+      ],
+      "display_ids": [
+        "CEH M09-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M09-C03",
+      "module": "M09",
+      "module_order": 2,
+      "source_row": 3,
+      "title": "Vishing、Smishing、Impersonation",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解電話、簡訊及身分冒充的驗證問題。",
+      "planned_at": "2026-10-30T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M09",
+      "concept_ids": [
+        "M09-03"
+      ],
+      "display_ids": [
+        "CEH M09-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M09-C04",
+      "module": "M09",
+      "module_order": 2,
+      "source_row": 4,
+      "title": "Pretexting、Baiting、Tailgating",
+      "importance": 4,
+      "difficulty": 2,
+      "reason": "認識實體環境、人際互動及情境欺騙。",
+      "planned_at": "2026-10-30T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M09",
+      "concept_ids": [
+        "M09-04"
+      ],
+      "display_ids": [
+        "CEH M09-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M09-C05",
+      "module": "M09",
+      "module_order": 2,
+      "source_row": 5,
+      "title": "Insider Threats & Identity Theft",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解內部人員風險及身分資料遭濫用。",
+      "planned_at": "2026-10-30T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M09",
+      "concept_ids": [
+        "M09-05"
+      ],
+      "display_ids": [
+        "CEH M09-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M09-C06",
+      "module": "M09",
+      "module_order": 2,
+      "source_row": 6,
+      "title": "Independent Verification & Anti-Phishing Controls",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "建立獨立查證、最小權限、抗釣魚 MFA 與通報機制。",
+      "planned_at": "2026-10-31T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M09",
+      "concept_ids": [
+        "M09-06"
+      ],
+      "display_ids": [
+        "CEH M09-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M02-C01",
+      "module": "M02",
+      "module_order": 3,
+      "source_row": 1,
+      "title": "Passive vs. Active Reconnaissance",
+      "importance": 5,
+      "difficulty": 1,
+      "reason": "分辨公開資訊蒐集與直接向目標互動探查。",
+      "planned_at": "2026-10-31T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M02",
+      "concept_ids": [
+        "M02-01"
+      ],
+      "display_ids": [
+        "CEH M02-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M02-C02",
+      "module": "M02",
+      "module_order": 3,
+      "source_row": 2,
+      "title": "OSINT Sources & Source Validation",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "學會判斷網路公開資料的真實性、時效性及使用限制。",
+      "planned_at": "2026-10-31T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M02",
+      "concept_ids": [
+        "M02-02"
+      ],
+      "display_ids": [
+        "CEH M02-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M02-C03",
+      "module": "M02",
+      "module_order": 3,
+      "source_row": 3,
+      "title": "Search Engine & Website Footprinting",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "搜尋引擎、網站原始碼及公開文件可能揭露系統資訊。",
+      "planned_at": "2026-11-01T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M02",
+      "concept_ids": [
+        "M02-03"
+      ],
+      "display_ids": [
+        "CEH M02-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M02-C04",
+      "module": "M02",
+      "module_order": 3,
+      "source_row": 4,
+      "title": "DNS、WHOIS / RDAP Footprinting",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "從網域、DNS 記錄與註冊資料理解公開資產。",
+      "planned_at": "2026-11-01T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M02",
+      "concept_ids": [
+        "M02-04"
+      ],
+      "display_ids": [
+        "CEH M02-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M02-C05",
+      "module": "M02",
+      "module_order": 3,
+      "source_row": 5,
+      "title": "Email Footprinting",
+      "importance": 4,
+      "difficulty": 2,
+      "reason": "理解公開郵件地址、郵件標頭及郵件服務可能揭露的資訊。",
+      "planned_at": "2026-11-01T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M02",
+      "concept_ids": [
+        "M02-05"
+      ],
+      "display_ids": [
+        "CEH M02-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M02-C06",
+      "module": "M02",
+      "module_order": 3,
+      "source_row": 6,
+      "title": "IP、ASN、Traceroute、Network Footprinting",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解公開網路位址與路由線索，但不能從一條路徑推論完整拓樸。",
+      "planned_at": "2026-11-02T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M02",
+      "concept_ids": [
+        "M02-06"
+      ],
+      "display_ids": [
+        "CEH M02-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M02-C07",
+      "module": "M02",
+      "module_order": 3,
+      "source_row": 7,
+      "title": "Social Media、People Search、Dark Web Sources",
+      "importance": 4,
+      "difficulty": 3,
+      "reason": "理解人員與外洩資訊風險，並注意合法性及資料可信度。",
+      "planned_at": "2026-11-02T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M02",
+      "concept_ids": [
+        "M02-07"
+      ],
+      "display_ids": [
+        "CEH M02-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M02-C08",
+      "module": "M02",
+      "module_order": 3,
+      "source_row": 8,
+      "title": "Footprinting Countermeasures & Evidence Records",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "學會減少非必要資訊揭露，並記錄資訊來源及觀測時間。",
+      "planned_at": "2026-11-02T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M02",
+      "concept_ids": [
+        "M02-08"
+      ],
+      "display_ids": [
+        "CEH M02-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M03-C01",
+      "module": "M03",
+      "module_order": 4,
+      "source_row": 1,
+      "title": "IP、TCP、UDP、Port、Service",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解網路服務如何在不同協定與連接埠運作。",
+      "planned_at": "2026-11-03T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M03",
+      "concept_ids": [
+        "M03-01"
+      ],
+      "display_ids": [
+        "CEH M03-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M03-C02",
+      "module": "M03",
+      "module_order": 4,
+      "source_row": 2,
+      "title": "Host Discovery：ICMP、ARP",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "分辨主機存活探測、ICMP 回應與 ARP 鄰近節點辨識。",
+      "planned_at": "2026-11-03T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M03",
+      "concept_ids": [
+        "M03-02"
+      ],
+      "display_ids": [
+        "CEH M03-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M03-C03",
+      "module": "M03",
+      "module_order": 4,
+      "source_row": 3,
+      "title": "TCP Connect、SYN、UDP Scanning",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解不同掃描方式觀察到的網路回應及限制。",
+      "planned_at": "2026-11-03T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M03",
+      "concept_ids": [
+        "M03-03"
+      ],
+      "display_ids": [
+        "CEH M03-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M03-C04",
+      "module": "M03",
+      "module_order": 4,
+      "source_row": 4,
+      "title": "Open、Closed、Filtered States",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "掃描結果反映探測觀察，不等於絕對的服務可用性或漏洞證明。",
+      "planned_at": "2026-11-04T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M03",
+      "concept_ids": [
+        "M03-04"
+      ],
+      "display_ids": [
+        "CEH M03-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M03-C05",
+      "module": "M03",
+      "module_order": 4,
+      "source_row": 5,
+      "title": "Service Version & Banner Grabbing",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "從服務回應推測軟體資訊，並認識偽裝、代理和版本誤判。",
+      "planned_at": "2026-11-04T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M03",
+      "concept_ids": [
+        "M03-05"
+      ],
+      "display_ids": [
+        "CEH M03-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M03-C06",
+      "module": "M03",
+      "module_order": 4,
+      "source_row": 6,
+      "title": "OS Fingerprinting",
+      "importance": 4,
+      "difficulty": 3,
+      "reason": "理解作業系統辨識的原理、指紋特徵與不確定性。",
+      "planned_at": "2026-11-04T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M03",
+      "concept_ids": [
+        "M03-06"
+      ],
+      "display_ids": [
+        "CEH M03-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M03-C07",
+      "module": "M03",
+      "module_order": 4,
+      "source_row": 7,
+      "title": "Nmap、掃描設定與結果判讀",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "能建立授權掃描、保存結果並解釋證據。",
+      "planned_at": "2026-11-05T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M03",
+      "concept_ids": [
+        "M03-07"
+      ],
+      "display_ids": [
+        "CEH M03-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M03-C08",
+      "module": "M03",
+      "module_order": 4,
+      "source_row": 8,
+      "title": "IDS / Firewall Influence & Scan Countermeasures",
+      "importance": 4,
+      "difficulty": 4,
+      "reason": "學習網路防護如何影響掃描，以及如何偵測未授權探查。",
+      "planned_at": "2026-11-05T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M03",
+      "concept_ids": [
+        "M03-08"
+      ],
+      "display_ids": [
+        "CEH M03-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M04-C01",
+      "module": "M04",
+      "module_order": 5,
+      "source_row": 1,
+      "title": "Enumeration vs. Scanning",
+      "importance": 5,
+      "difficulty": 1,
+      "reason": "學會區分服務入口與具體帳號、群組、目錄、設定資訊。",
+      "planned_at": "2026-11-05T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M04-01"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "review_diagnostic",
+      "planned_state": "planned",
+      "source_section": "三/M04",
+      "concept_ids": [
+        "M04-01"
+      ],
+      "display_ids": [
+        "CEH M04-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M04-C02",
+      "module": "M04",
+      "module_order": 5,
+      "source_row": 2,
+      "title": "DNS Enumeration",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "了解 DNS 記錄、Zone Transfer、DNS 資訊揭露。",
+      "planned_at": "2026-11-06T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M04-02"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "review_diagnostic",
+      "planned_state": "planned",
+      "source_section": "三/M04",
+      "concept_ids": [
+        "M04-02"
+      ],
+      "display_ids": [
+        "CEH M04-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M04-C03",
+      "module": "M04",
+      "module_order": 5,
+      "source_row": 3,
+      "title": "FTP / SMTP Enumeration",
+      "importance": 4,
+      "difficulty": 2,
+      "reason": "分辨服務回應、登入、列目錄、帳號資訊及真實授權。",
+      "planned_at": "2026-11-06T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M04-03",
+        "M04-06"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "review_diagnostic",
+      "planned_state": "planned",
+      "source_section": "三/M04",
+      "concept_ids": [
+        "M04-03",
+        "M04-06"
+      ],
+      "display_ids": [
+        "CEH M04-03",
+        "CEH M04-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M04-C04",
+      "module": "M04",
+      "module_order": 5,
+      "source_row": 4,
+      "title": "SMB Enumeration",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解 Windows 共享資源、共享權限、檔案權限。",
+      "planned_at": "2026-11-06T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M04-04"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "review_diagnostic",
+      "planned_state": "planned",
+      "source_section": "三/M04",
+      "concept_ids": [
+        "M04-04"
+      ],
+      "display_ids": [
+        "CEH M04-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M04-C05",
+      "module": "M04",
+      "module_order": 5,
+      "source_row": 5,
+      "title": "NetBIOS / RPC Enumeration",
+      "importance": 4,
+      "difficulty": 3,
+      "reason": "理解 Windows 名稱、傳統服務及遠端程序介面。",
+      "planned_at": "2026-11-07T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M04-05",
+        "M04-11"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "review_diagnostic",
+      "planned_state": "planned",
+      "source_section": "三/M04",
+      "concept_ids": [
+        "M04-05",
+        "M04-11"
+      ],
+      "display_ids": [
+        "CEH M04-05",
+        "CEH M04-11"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M04-C06",
+      "module": "M04",
+      "module_order": 5,
+      "source_row": 6,
+      "title": "Unix/Linux Users / NFS Enumeration",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解 UID、GID、群組及網路檔案共享權限。",
+      "planned_at": "2026-11-07T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M04-07",
+        "M04-08"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "review_diagnostic",
+      "planned_state": "planned",
+      "source_section": "三/M04",
+      "concept_ids": [
+        "M04-07",
+        "M04-08"
+      ],
+      "display_ids": [
+        "CEH M04-07",
+        "CEH M04-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M04-C07",
+      "module": "M04",
+      "module_order": 5,
+      "source_row": 7,
+      "title": "SNMP Enumeration",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解 MIB、OID、Community String 及管理介面資訊揭露。",
+      "planned_at": "2026-11-07T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M04-09"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "review_diagnostic",
+      "planned_state": "planned",
+      "source_section": "三/M04",
+      "concept_ids": [
+        "M04-09"
+      ],
+      "display_ids": [
+        "CEH M04-09"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M04-C08",
+      "module": "M04",
+      "module_order": 5,
+      "source_row": 8,
+      "title": "LDAP / Active Directory Enumeration",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解 Directory、Object、Group、OU 及身分權限關係。",
+      "planned_at": "2026-11-08T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M04-10"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "review_diagnostic",
+      "planned_state": "planned",
+      "source_section": "三/M04",
+      "concept_ids": [
+        "M04-10"
+      ],
+      "display_ids": [
+        "CEH M04-10"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M04-C09",
+      "module": "M04",
+      "module_order": 5,
+      "source_row": 9,
+      "title": "NTP、IPsec、VoIP、IPv6、BGP 等其他列舉",
+      "importance": 4,
+      "difficulty": 4,
+      "reason": "涵蓋官方其他協定的用途、資訊揭露與安全條件。",
+      "planned_at": "2026-11-08T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M04-13",
+        "M04-14",
+        "M04-15",
+        "M04-16",
+        "M04-17",
+        "M04-18",
+        "M04-19"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M04",
+      "concept_ids": [
+        "M04-13",
+        "M04-14",
+        "M04-15",
+        "M04-16",
+        "M04-17",
+        "M04-18",
+        "M04-19"
+      ],
+      "display_ids": [
+        "CEH M04-13",
+        "CEH M04-14",
+        "CEH M04-15",
+        "CEH M04-16",
+        "CEH M04-17",
+        "CEH M04-18",
+        "CEH M04-19"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M04-C10",
+      "module": "M04",
+      "module_order": 5,
+      "source_row": 10,
+      "title": "Enumeration Countermeasures",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "將可見資訊與存取權限對照，檢查最小權限及組態。",
+      "planned_at": "2026-11-08T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M04-12"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "review_diagnostic",
+      "planned_state": "planned",
+      "source_section": "三/M04",
+      "concept_ids": [
+        "M04-12"
+      ],
+      "display_ids": [
+        "CEH M04-12"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M05-C01",
+      "module": "M05",
+      "module_order": 6,
+      "source_row": 1,
+      "title": "Vulnerability Assessment vs. Penetration Testing",
+      "importance": 5,
+      "difficulty": 1,
+      "reason": "分辨發現與評估弱點，以及驗證可利用性的工作目標。",
+      "planned_at": "2026-11-09T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M05-01"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M05",
+      "concept_ids": [
+        "M05-01"
+      ],
+      "display_ids": [
+        "CEH M05-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M05-C02",
+      "module": "M05",
+      "module_order": 6,
+      "source_row": 2,
+      "title": "Asset Inventory & Assessment Scope",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "沒有資產和環境資訊，難以判斷漏洞是否適用。",
+      "planned_at": "2026-11-09T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M05-03"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M05",
+      "concept_ids": [
+        "M05-03"
+      ],
+      "display_ids": [
+        "CEH M05-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M05-C03",
+      "module": "M05",
+      "module_order": 6,
+      "source_row": 3,
+      "title": "Vulnerability Classification & Assessment Types",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解軟體缺陷、設定錯誤及各種檢測方式。",
+      "planned_at": "2026-11-09T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M05-02",
+        "M05-04"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M05",
+      "concept_ids": [
+        "M05-02",
+        "M05-04"
+      ],
+      "display_ids": [
+        "CEH M05-02",
+        "CEH M05-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M05-C04",
+      "module": "M05",
+      "module_order": 6,
+      "source_row": 4,
+      "title": "CVE、CWE、CPE & Vulnerability Databases",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "分辨漏洞編號、缺陷類型、產品識別及弱點資料庫。",
+      "planned_at": "2026-11-10T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M05-05",
+        "M05-06"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M05",
+      "concept_ids": [
+        "M05-05",
+        "M05-06"
+      ],
+      "display_ids": [
+        "CEH M05-05",
+        "CEH M05-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M05-C05",
+      "module": "M05",
+      "module_order": 6,
+      "source_row": 5,
+      "title": "CVSS、KEV、EPSS",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "區分技術嚴重度、已知利用證據與利用可能性預測。",
+      "planned_at": "2026-11-10T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M05-07"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M05",
+      "concept_ids": [
+        "M05-07"
+      ],
+      "display_ids": [
+        "CEH M05-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M05-C06",
+      "module": "M05",
+      "module_order": 6,
+      "source_row": 6,
+      "title": "Authenticated vs. Unauthenticated Scanning",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解掃描可見性與帳號權限的關係。",
+      "planned_at": "2026-11-10T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M05-10"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M05",
+      "concept_ids": [
+        "M05-10"
+      ],
+      "display_ids": [
+        "CEH M05-10"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M05-C07",
+      "module": "M05",
+      "module_order": 6,
+      "source_row": 7,
+      "title": "False Positive / False Negative & Validation",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "學會驗證掃描結果、誤報、漏報與實際適用條件。",
+      "planned_at": "2026-11-11T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M05-11"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M05",
+      "concept_ids": [
+        "M05-11"
+      ],
+      "display_ids": [
+        "CEH M05-11"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M05-C08",
+      "module": "M05",
+      "module_order": 6,
+      "source_row": 8,
+      "title": "Risk Prioritization、Remediation、Reporting",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "能將弱點發現轉為處置順序、改善措施與複驗報告。",
+      "planned_at": "2026-11-11T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M05-12",
+        "M05-13",
+        "M05-14"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M05",
+      "concept_ids": [
+        "M05-12",
+        "M05-13",
+        "M05-14"
+      ],
+      "display_ids": [
+        "CEH M05-12",
+        "CEH M05-13",
+        "CEH M05-14"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M20-C01",
+      "module": "M20",
+      "module_order": 7,
+      "source_row": 1,
+      "title": "Cryptographic Security Goals",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "分辨機密性、完整性、身分驗證與簽章目的。",
+      "planned_at": "2026-11-11T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M20",
+      "concept_ids": [
+        "M20-01"
+      ],
+      "display_ids": [
+        "CEH M20-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M20-C02",
+      "module": "M20",
+      "module_order": 7,
+      "source_row": 2,
+      "title": "Symmetric Encryption、AES、AEAD",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解對稱金鑰、Nonce、IV 和完整性保護。",
+      "planned_at": "2026-11-12T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M20",
+      "concept_ids": [
+        "M20-02"
+      ],
+      "display_ids": [
+        "CEH M20-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M20-C03",
+      "module": "M20",
+      "module_order": 7,
+      "source_row": 3,
+      "title": "Asymmetric Cryptography、RSA、ECC",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解公私鑰、非對稱加密及金鑰建立。",
+      "planned_at": "2026-11-12T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M20",
+      "concept_ids": [
+        "M20-03"
+      ],
+      "display_ids": [
+        "CEH M20-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M20-C04",
+      "module": "M20",
+      "module_order": 7,
+      "source_row": 4,
+      "title": "Hash、HMAC、Salt、Password KDF",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "區分資料雜湊、訊息驗證與密碼安全儲存。",
+      "planned_at": "2026-11-12T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M20",
+      "concept_ids": [
+        "M20-04"
+      ],
+      "display_ids": [
+        "CEH M20-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M20-C05",
+      "module": "M20",
+      "module_order": 7,
+      "source_row": 5,
+      "title": "Digital Signature",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解資料完整性與簽署者身分驗證的原理。",
+      "planned_at": "2026-11-13T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M20",
+      "concept_ids": [
+        "M20-05"
+      ],
+      "display_ids": [
+        "CEH M20-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M20-C06",
+      "module": "M20",
+      "module_order": 7,
+      "source_row": 6,
+      "title": "PKI、CA、Certificates、TLS",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "了解 HTTPS 如何建立受驗證的加密通訊。",
+      "planned_at": "2026-11-13T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M20",
+      "concept_ids": [
+        "M20-06"
+      ],
+      "display_ids": [
+        "CEH M20-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M20-C07",
+      "module": "M20",
+      "module_order": 7,
+      "source_row": 7,
+      "title": "Email Encryption / Disk Encryption",
+      "importance": 4,
+      "difficulty": 3,
+      "reason": "分辨傳輸、電子郵件內容及儲存資料的保護方式。",
+      "planned_at": "2026-11-13T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M20",
+      "concept_ids": [
+        "M20-07"
+      ],
+      "display_ids": [
+        "CEH M20-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M20-C08",
+      "module": "M20",
+      "module_order": 7,
+      "source_row": 8,
+      "title": "Cryptanalysis、Weak Keys、Nonce Misuse",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解金鑰管理、演算法誤用及攻擊成立條件。",
+      "planned_at": "2026-11-14T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M20",
+      "concept_ids": [
+        "M20-08"
+      ],
+      "display_ids": [
+        "CEH M20-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M20-C09",
+      "module": "M20",
+      "module_order": 7,
+      "source_row": 9,
+      "title": "Quantum & Post-Quantum Cryptography",
+      "importance": 4,
+      "difficulty": 5,
+      "reason": "認識量子計算帶來的密碼遷移需求及相關技術分類。",
+      "planned_at": "2026-11-14T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M20",
+      "concept_ids": [
+        "M20-09"
+      ],
+      "display_ids": [
+        "CEH M20-09"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M06-C01",
+      "module": "M06",
+      "module_order": 8,
+      "source_row": 1,
+      "title": "Authentication、Authorization、Privileges",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解身分、驗證、授權與權限邊界，是整章最重要的先修知識。",
+      "planned_at": "2026-11-14T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M06-02"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M06",
+      "concept_ids": [
+        "M06-02"
+      ],
+      "display_ids": [
+        "CEH M06-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M06-C02",
+      "module": "M06",
+      "module_order": 8,
+      "source_row": 2,
+      "title": "Password Attacks、Hashing & Credential Security",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "分辨線上嘗試、離線密碼破解、Hash、Salt 與憑證防護。",
+      "planned_at": "2026-11-15T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M06-03",
+        "M06-04"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M06",
+      "concept_ids": [
+        "M06-03",
+        "M06-04"
+      ],
+      "display_ids": [
+        "CEH M06-03",
+        "CEH M06-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M06-C03",
+      "module": "M06",
+      "module_order": 8,
+      "source_row": 3,
+      "title": "Gaining Access & Exploitation",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "了解弱點利用、取得存取權、Session 和 Payload 的差異。",
+      "planned_at": "2026-11-15T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M06-05",
+        "M06-06"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M06",
+      "concept_ids": [
+        "M06-05",
+        "M06-06"
+      ],
+      "display_ids": [
+        "CEH M06-05",
+        "CEH M06-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M06-C04",
+      "module": "M06",
+      "module_order": 8,
+      "source_row": 4,
+      "title": "Process、Shell、Execution Context",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解程式以什麼身分、什麼權限執行。",
+      "planned_at": "2026-11-15T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M06-07"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M06",
+      "concept_ids": [
+        "M06-07"
+      ],
+      "display_ids": [
+        "CEH M06-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M06-C05",
+      "module": "M06",
+      "module_order": 8,
+      "source_row": 5,
+      "title": "Windows Privilege Escalation",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "掌握 Access Token、SID、ACL、UAC、服務權限。",
+      "planned_at": "2026-11-16T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M06-08"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M06",
+      "concept_ids": [
+        "M06-08"
+      ],
+      "display_ids": [
+        "CEH M06-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M06-C06",
+      "module": "M06",
+      "module_order": 8,
+      "source_row": 6,
+      "title": "Linux Privilege Escalation",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "掌握 UID/GID、sudo、SUID/SGID、Capabilities。",
+      "planned_at": "2026-11-16T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M06-09"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M06",
+      "concept_ids": [
+        "M06-09"
+      ],
+      "display_ids": [
+        "CEH M06-09"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M06-C07",
+      "module": "M06",
+      "module_order": 8,
+      "source_row": 7,
+      "title": "Active Directory Privilege Relationships",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解本機權限、網域權限、群組與委派關係。",
+      "planned_at": "2026-11-16T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M06-10"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M06",
+      "concept_ids": [
+        "M06-10"
+      ],
+      "display_ids": [
+        "CEH M06-10"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M06-C08",
+      "module": "M06",
+      "module_order": 8,
+      "source_row": 8,
+      "title": "Maintaining Access vs. Persistence",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "分辨維持既有工作階段與建立未來可恢復的存取機制。",
+      "planned_at": "2026-11-17T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M06-12",
+        "M06-13"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M06",
+      "concept_ids": [
+        "M06-12",
+        "M06-13"
+      ],
+      "display_ids": [
+        "CEH M06-12",
+        "CEH M06-13"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M06-C09",
+      "module": "M06",
+      "module_order": 8,
+      "source_row": 9,
+      "title": "Hiding Files、Covering Tracks、Log Evidence",
+      "importance": 4,
+      "difficulty": 3,
+      "reason": "理解資訊隱藏、日誌變更與數位鑑識證據。",
+      "planned_at": "2026-11-17T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M06-14",
+        "M06-15"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M06",
+      "concept_ids": [
+        "M06-14",
+        "M06-15"
+      ],
+      "display_ids": [
+        "CEH M06-14",
+        "CEH M06-15"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M06-C10",
+      "module": "M06",
+      "module_order": 8,
+      "source_row": 10,
+      "title": "Buffer Overflow & Memory Safety",
+      "importance": 5,
+      "difficulty": 5,
+      "reason": "理解程式記憶體錯誤如何破壞控制流程及安全邊界。",
+      "planned_at": "2026-11-17T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M06-16"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M06",
+      "concept_ids": [
+        "M06-16"
+      ],
+      "display_ids": [
+        "CEH M06-16"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M07-C01",
+      "module": "M07",
+      "module_order": 9,
+      "source_row": 1,
+      "title": "Virus、Worm、Trojan",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "學會區分感染宿主、自主傳播和偽裝行為。",
+      "planned_at": "2026-11-18T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M07-02",
+        "M07-03",
+        "M07-04"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M07",
+      "concept_ids": [
+        "M07-02",
+        "M07-03",
+        "M07-04"
+      ],
+      "display_ids": [
+        "CEH M07-02",
+        "CEH M07-03",
+        "CEH M07-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M07-C02",
+      "module": "M07",
+      "module_order": 9,
+      "source_row": 2,
+      "title": "Ransomware、Spyware、Botnet",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "認識惡意程式的目標、功能與不同分類方式。",
+      "planned_at": "2026-11-18T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M07-08"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M07",
+      "concept_ids": [
+        "M07-08"
+      ],
+      "display_ids": [
+        "CEH M07-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M07-C03",
+      "module": "M07",
+      "module_order": 9,
+      "source_row": 3,
+      "title": "Malware Lifecycle、Loader、Payload",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "將惡意程式進入系統、執行及後續活動連結。",
+      "planned_at": "2026-11-18T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M07-05",
+        "M07-06"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M07",
+      "concept_ids": [
+        "M07-05",
+        "M07-06"
+      ],
+      "display_ids": [
+        "CEH M07-05",
+        "CEH M07-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M07-C04",
+      "module": "M07",
+      "module_order": 9,
+      "source_row": 4,
+      "title": "APT Concepts",
+      "importance": 4,
+      "difficulty": 3,
+      "reason": "分辨單一惡意程式與長期、具目標性的威脅活動。",
+      "planned_at": "2026-11-19T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M07-10"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M07",
+      "concept_ids": [
+        "M07-10"
+      ],
+      "display_ids": [
+        "CEH M07-10"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M07-C05",
+      "module": "M07",
+      "module_order": 9,
+      "source_row": 5,
+      "title": "Process、File、Memory、Fileless Malware",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解惡意程式可能存在與執行的位置，不能只靠檔案判斷。",
+      "planned_at": "2026-11-19T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M07-07",
+        "M07-09"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M07",
+      "concept_ids": [
+        "M07-07",
+        "M07-09"
+      ],
+      "display_ids": [
+        "CEH M07-07",
+        "CEH M07-09"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M07-C06",
+      "module": "M07",
+      "module_order": 9,
+      "source_row": 6,
+      "title": "Static Malware Analysis",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "能用 Hash、Strings、PE Metadata 等靜態證據分析程式。",
+      "planned_at": "2026-11-19T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M07-11"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M07",
+      "concept_ids": [
+        "M07-11"
+      ],
+      "display_ids": [
+        "CEH M07-11"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M07-C07",
+      "module": "M07",
+      "module_order": 9,
+      "source_row": 7,
+      "title": "Dynamic Malware Analysis",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "能在隔離環境觀察程序、檔案、記憶體及網路行為。",
+      "planned_at": "2026-11-20T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [
+        "M07-12"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M07",
+      "concept_ids": [
+        "M07-12"
+      ],
+      "display_ids": [
+        "CEH M07-12"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M07-C08",
+      "module": "M07",
+      "module_order": 9,
+      "source_row": 8,
+      "title": "C2、IOC、Behavioral Evidence",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "辨識遠端控制與安全事件證據，避免單一連線造成誤判。",
+      "planned_at": "2026-11-20T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [
+        "M07-13"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M07",
+      "concept_ids": [
+        "M07-13"
+      ],
+      "display_ids": [
+        "CEH M07-13"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M07-C09",
+      "module": "M07",
+      "module_order": 9,
+      "source_row": 9,
+      "title": "Antivirus、EDR、Malware Countermeasures",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解特徵碼、行為偵測、防護、隔離、調查及復原。",
+      "planned_at": "2026-11-20T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [
+        "M07-14",
+        "M07-15",
+        "M07-16"
+      ],
+      "legacy_relation": "related_or_combined_scope_not_identity_equivalence",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M07",
+      "concept_ids": [
+        "M07-14",
+        "M07-15",
+        "M07-16"
+      ],
+      "display_ids": [
+        "CEH M07-14",
+        "CEH M07-15",
+        "CEH M07-16"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M08-C01",
+      "module": "M08",
+      "module_order": 10,
+      "source_row": 1,
+      "title": "Ethernet、MAC、Switch、VLAN",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解封包在區域網路如何轉送。",
+      "planned_at": "2026-11-21T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M08",
+      "concept_ids": [
+        "M08-01"
+      ],
+      "display_ids": [
+        "CEH M08-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M08-C02",
+      "module": "M08",
+      "module_order": 10,
+      "source_row": 2,
+      "title": "Passive vs. Active Sniffing",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "區分被動觀察與主動影響流量路徑。",
+      "planned_at": "2026-11-21T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M08",
+      "concept_ids": [
+        "M08-02"
+      ],
+      "display_ids": [
+        "CEH M08-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M08-C03",
+      "module": "M08",
+      "module_order": 10,
+      "source_row": 3,
+      "title": "Wireshark、PCAP、Capture / Display Filters",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "建立封包擷取、過濾與分析的實際能力。",
+      "planned_at": "2026-11-21T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M08",
+      "concept_ids": [
+        "M08-03"
+      ],
+      "display_ids": [
+        "CEH M08-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M08-C04",
+      "module": "M08",
+      "module_order": 10,
+      "source_row": 4,
+      "title": "ARP & ARP Poisoning",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解 IPv4–MAC 位址對應為何可能遭到污染。",
+      "planned_at": "2026-11-22T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M08",
+      "concept_ids": [
+        "M08-04"
+      ],
+      "display_ids": [
+        "CEH M08-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M08-C05",
+      "module": "M08",
+      "module_order": 10,
+      "source_row": 5,
+      "title": "MAC Spoofing / Flooding",
+      "importance": 4,
+      "difficulty": 3,
+      "reason": "區分位址偽裝與交換器學習表干擾。",
+      "planned_at": "2026-11-22T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M08",
+      "concept_ids": [
+        "M08-05"
+      ],
+      "display_ids": [
+        "CEH M08-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M08-C06",
+      "module": "M08",
+      "module_order": 10,
+      "source_row": 6,
+      "title": "DHCP Starvation / Rogue DHCP",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解 IP 配發資源耗盡及錯誤網路設定的風險。",
+      "planned_at": "2026-11-22T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M08",
+      "concept_ids": [
+        "M08-06"
+      ],
+      "display_ids": [
+        "CEH M08-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M08-C07",
+      "module": "M08",
+      "module_order": 10,
+      "source_row": 7,
+      "title": "DNS Spoofing / Poisoning",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "了解 DNS 查詢結果遭竄改時如何改變目的地。",
+      "planned_at": "2026-11-23T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M08",
+      "concept_ids": [
+        "M08-07"
+      ],
+      "display_ids": [
+        "CEH M08-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M08-C08",
+      "module": "M08",
+      "module_order": 10,
+      "source_row": 8,
+      "title": "TLS、DAI、DHCP Snooping、Sniffer Detection",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "學習如何偵測異常對應與降低封包攔截風險。",
+      "planned_at": "2026-11-23T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M08",
+      "concept_ids": [
+        "M08-08"
+      ],
+      "display_ids": [
+        "CEH M08-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M13-C01",
+      "module": "M13",
+      "module_order": 11,
+      "source_row": 1,
+      "title": "Web Server Architecture",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "分辨 DNS、Reverse Proxy、Web Server、應用程式及資料庫。",
+      "planned_at": "2026-11-23T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M13",
+      "concept_ids": [
+        "M13-01"
+      ],
+      "display_ids": [
+        "CEH M13-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M13-C02",
+      "module": "M13",
+      "module_order": 11,
+      "source_row": 2,
+      "title": "HTTP / HTTPS、Host、TLS",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解 HTTP 請求、路由、憑證與通訊安全。",
+      "planned_at": "2026-11-24T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M13",
+      "concept_ids": [
+        "M13-02"
+      ],
+      "display_ids": [
+        "CEH M13-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M13-C03",
+      "module": "M13",
+      "module_order": 11,
+      "source_row": 3,
+      "title": "Web Server Footprinting & Enumeration",
+      "importance": 4,
+      "difficulty": 2,
+      "reason": "學會查核公開的版本、服務和設定資訊。",
+      "planned_at": "2026-11-24T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M13",
+      "concept_ids": [
+        "M13-03"
+      ],
+      "display_ids": [
+        "CEH M13-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M13-C04",
+      "module": "M13",
+      "module_order": 11,
+      "source_row": 4,
+      "title": "Misconfiguration & Directory Listing",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解目錄、檔案、管理介面與設定錯誤造成的暴露。",
+      "planned_at": "2026-11-24T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M13",
+      "concept_ids": [
+        "M13-04"
+      ],
+      "display_ids": [
+        "CEH M13-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M13-C05",
+      "module": "M13",
+      "module_order": 11,
+      "source_row": 5,
+      "title": "Server Vulnerabilities & Attack Methodology",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解主機、Web Server 軟體與模組的弱點評估方法。",
+      "planned_at": "2026-11-25T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M13",
+      "concept_ids": [
+        "M13-05"
+      ],
+      "display_ids": [
+        "CEH M13-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M13-C06",
+      "module": "M13",
+      "module_order": 11,
+      "source_row": 6,
+      "title": "Virtual Hosts、Reverse Proxy & Trust Boundaries",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解多層代理與後端之間的身分、來源及路由信任。",
+      "planned_at": "2026-11-25T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M13",
+      "concept_ids": [
+        "M13-06"
+      ],
+      "display_ids": [
+        "CEH M13-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M13-C07",
+      "module": "M13",
+      "module_order": 11,
+      "source_row": 7,
+      "title": "Patch Management、Hardening、Logging",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "能提出伺服器更新、權限限制與日誌保護措施。",
+      "planned_at": "2026-11-25T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M13",
+      "concept_ids": [
+        "M13-07"
+      ],
+      "display_ids": [
+        "CEH M13-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M14-C01",
+      "module": "M14",
+      "module_order": 12,
+      "source_row": 1,
+      "title": "HTTP Request / Response & Trust Boundaries",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解不可信輸入如何進入應用程式。",
+      "planned_at": "2026-11-26T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M14",
+      "concept_ids": [
+        "M14-01"
+      ],
+      "display_ids": [
+        "CEH M14-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M14-C02",
+      "module": "M14",
+      "module_order": 12,
+      "source_row": 2,
+      "title": "OWASP Top 10 & Web Threat Modeling",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "建立 Web 常見風險與攻擊面的全貌。",
+      "planned_at": "2026-11-26T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M14",
+      "concept_ids": [
+        "M14-02"
+      ],
+      "display_ids": [
+        "CEH M14-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M14-C03",
+      "module": "M14",
+      "module_order": 12,
+      "source_row": 3,
+      "title": "Authentication vs. Authorization",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "分辨「你是誰」與「你有權做什麼」。",
+      "planned_at": "2026-11-26T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M14",
+      "concept_ids": [
+        "M14-03"
+      ],
+      "display_ids": [
+        "CEH M14-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M14-C04",
+      "module": "M14",
+      "module_order": 12,
+      "source_row": 4,
+      "title": "Broken Access Control、IDOR、BOLA",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解已登入使用者為何仍可能越權讀取資料。",
+      "planned_at": "2026-11-27T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M14",
+      "concept_ids": [
+        "M14-04"
+      ],
+      "display_ids": [
+        "CEH M14-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M14-C05",
+      "module": "M14",
+      "module_order": 12,
+      "source_row": 5,
+      "title": "Session Management、CSRF、CORS",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解 Cookie、瀏覽器跨來源政策及請求授權。",
+      "planned_at": "2026-11-27T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M14",
+      "concept_ids": [
+        "M14-05"
+      ],
+      "display_ids": [
+        "CEH M14-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M14-C06",
+      "module": "M14",
+      "module_order": 12,
+      "source_row": 6,
+      "title": "Cross-Site Scripting（XSS）",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解不可信輸出如何在瀏覽器成為可執行程式碼。",
+      "planned_at": "2026-11-27T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M14",
+      "concept_ids": [
+        "M14-06"
+      ],
+      "display_ids": [
+        "CEH M14-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M14-C07",
+      "module": "M14",
+      "module_order": 12,
+      "source_row": 7,
+      "title": "Input Validation、Injection、SSRF",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解資料跨越 SQL、命令或網路存取邊界的風險。",
+      "planned_at": "2026-11-28T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M14",
+      "concept_ids": [
+        "M14-07"
+      ],
+      "display_ids": [
+        "CEH M14-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M14-C08",
+      "module": "M14",
+      "module_order": 12,
+      "source_row": 8,
+      "title": "API、Webhooks、Web Services Security",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "API、Webhook 都需要獨立的身分、授權與輸入檢查。",
+      "planned_at": "2026-11-28T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M14",
+      "concept_ids": [
+        "M14-08"
+      ],
+      "display_ids": [
+        "CEH M14-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M14-C09",
+      "module": "M14",
+      "module_order": 12,
+      "source_row": 9,
+      "title": "Business Logic Flaws",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "發現不一定能靠掃描器辨識的業務規則漏洞。",
+      "planned_at": "2026-11-28T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M14",
+      "concept_ids": [
+        "M14-09"
+      ],
+      "display_ids": [
+        "CEH M14-09"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M14-C10",
+      "module": "M14",
+      "module_order": 12,
+      "source_row": 10,
+      "title": "Web Testing、Fuzzing、Security Controls",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "學會以系統化測試驗證弱點與修補結果。",
+      "planned_at": "2026-11-29T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M14",
+      "concept_ids": [
+        "M14-10"
+      ],
+      "display_ids": [
+        "CEH M14-10"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M11-C01",
+      "module": "M11",
+      "module_order": 13,
+      "source_row": 1,
+      "title": "HTTP Sessions & Cookies",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解網站如何在多次請求中維持登入狀態。",
+      "planned_at": "2026-11-29T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M11",
+      "concept_ids": [
+        "M11-01"
+      ],
+      "display_ids": [
+        "CEH M11-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M11-C02",
+      "module": "M11",
+      "module_order": 13,
+      "source_row": 2,
+      "title": "Session Token & Lifecycle",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "掌握 Token 產生、更新、到期及失效。",
+      "planned_at": "2026-11-29T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M11",
+      "concept_ids": [
+        "M11-02"
+      ],
+      "display_ids": [
+        "CEH M11-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M11-C03",
+      "module": "M11",
+      "module_order": 13,
+      "source_row": 3,
+      "title": "Session Theft vs. Session Fixation",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "區分竊取既有憑證與誘導使用預設 Session。",
+      "planned_at": "2026-11-30T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M11",
+      "concept_ids": [
+        "M11-03"
+      ],
+      "display_ids": [
+        "CEH M11-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M11-C04",
+      "module": "M11",
+      "module_order": 13,
+      "source_row": 4,
+      "title": "Application-Level Session Hijacking",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解 Cookie 外洩、XSS 與工作階段濫用。",
+      "planned_at": "2026-11-30T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M11",
+      "concept_ids": [
+        "M11-04"
+      ],
+      "display_ids": [
+        "CEH M11-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M11-C05",
+      "module": "M11",
+      "module_order": 13,
+      "source_row": 5,
+      "title": "Network-Level / TCP Hijacking",
+      "importance": 4,
+      "difficulty": 4,
+      "reason": "分辨 TCP 連線控制與應用程式 Session 憑證。",
+      "planned_at": "2026-11-30T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M11",
+      "concept_ids": [
+        "M11-05"
+      ],
+      "display_ids": [
+        "CEH M11-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M11-C06",
+      "module": "M11",
+      "module_order": 13,
+      "source_row": 6,
+      "title": "Secure Session Management",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解 TLS、HttpOnly、Secure、SameSite、Session Rotation。",
+      "planned_at": "2026-12-01T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M11",
+      "concept_ids": [
+        "M11-06"
+      ],
+      "display_ids": [
+        "CEH M11-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M11-C07",
+      "module": "M11",
+      "module_order": 13,
+      "source_row": 7,
+      "title": "Session Monitoring & Revocation",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "能偵測異常 Session 並在伺服器端使其失效。",
+      "planned_at": "2026-12-01T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M11",
+      "concept_ids": [
+        "M11-07"
+      ],
+      "display_ids": [
+        "CEH M11-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M15-C01",
+      "module": "M15",
+      "module_order": 14,
+      "source_row": 1,
+      "title": "SQL Injection Concepts",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解使用者資料為何可能被解讀成資料庫指令。",
+      "planned_at": "2026-12-01T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M15",
+      "concept_ids": [
+        "M15-01"
+      ],
+      "display_ids": [
+        "CEH M15-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M15-C02",
+      "module": "M15",
+      "module_order": 14,
+      "source_row": 2,
+      "title": "SQL Query Construction & Parameterization",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "學會區分字串拼接與參數化查詢。",
+      "planned_at": "2026-12-02T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M15",
+      "concept_ids": [
+        "M15-02"
+      ],
+      "display_ids": [
+        "CEH M15-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M15-C03",
+      "module": "M15",
+      "module_order": 14,
+      "source_row": 3,
+      "title": "Error-based / UNION-based SQLi",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解直接回應型資料外洩的基本機制。",
+      "planned_at": "2026-12-02T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M15",
+      "concept_ids": [
+        "M15-03"
+      ],
+      "display_ids": [
+        "CEH M15-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M15-C04",
+      "module": "M15",
+      "module_order": 14,
+      "source_row": 4,
+      "title": "Boolean-based / Time-based Blind SQLi",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解沒有直接顯示資料時，回應差異仍可能提供資訊。",
+      "planned_at": "2026-12-02T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M15",
+      "concept_ids": [
+        "M15-04"
+      ],
+      "display_ids": [
+        "CEH M15-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M15-C05",
+      "module": "M15",
+      "module_order": 14,
+      "source_row": 5,
+      "title": "SQLi Detection、Validation、Tool Results",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "能檢查程式與測試結果，而非全盤相信掃描器。",
+      "planned_at": "2026-12-03T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M15",
+      "concept_ids": [
+        "M15-05"
+      ],
+      "display_ids": [
+        "CEH M15-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M15-C06",
+      "module": "M15",
+      "module_order": 14,
+      "source_row": 6,
+      "title": "Prepared Statements & Least Privilege",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "掌握最核心的 SQLi 防禦方法。",
+      "planned_at": "2026-12-03T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M15",
+      "concept_ids": [
+        "M15-06"
+      ],
+      "display_ids": [
+        "CEH M15-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M15-C07",
+      "module": "M15",
+      "module_order": 14,
+      "source_row": 7,
+      "title": "Advanced SQLi / Evasion / Database Security",
+      "importance": 4,
+      "difficulty": 4,
+      "reason": "理解其他利用方式、不同資料庫限制與防禦深度。",
+      "planned_at": "2026-12-03T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M15",
+      "concept_ids": [
+        "M15-07"
+      ],
+      "display_ids": [
+        "CEH M15-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M12-C01",
+      "module": "M12",
+      "module_order": 15,
+      "source_row": 1,
+      "title": "Firewall、ACL、Stateful Inspection",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解安全政策如何決定流量是否可以通過。",
+      "planned_at": "2026-12-04T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M12",
+      "concept_ids": [
+        "M12-01"
+      ],
+      "display_ids": [
+        "CEH M12-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M12-C02",
+      "module": "M12",
+      "module_order": 15,
+      "source_row": 2,
+      "title": "IDS vs. IPS",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "分辨監測、告警與主動阻擋。",
+      "planned_at": "2026-12-04T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M12",
+      "concept_ids": [
+        "M12-02"
+      ],
+      "display_ids": [
+        "CEH M12-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M12-C03",
+      "module": "M12",
+      "module_order": 15,
+      "source_row": 3,
+      "title": "Signature / Anomaly / Behavior Detection",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解不同偵測原理及誤報、漏報。",
+      "planned_at": "2026-12-04T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M12",
+      "concept_ids": [
+        "M12-03"
+      ],
+      "display_ids": [
+        "CEH M12-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M12-C04",
+      "module": "M12",
+      "module_order": 15,
+      "source_row": 4,
+      "title": "Packet Fragmentation & Protocol Ambiguity",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解網路資料解析方式不同，可能造成偵測落差。",
+      "planned_at": "2026-12-05T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M12",
+      "concept_ids": [
+        "M12-04"
+      ],
+      "display_ids": [
+        "CEH M12-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M12-C05",
+      "module": "M12",
+      "module_order": 15,
+      "source_row": 5,
+      "title": "Tunneling、Encryption & Visibility",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解安全設備在不同觀測位置能看到哪些資訊。",
+      "planned_at": "2026-12-05T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M12",
+      "concept_ids": [
+        "M12-05"
+      ],
+      "display_ids": [
+        "CEH M12-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M12-C06",
+      "module": "M12",
+      "module_order": 15,
+      "source_row": 6,
+      "title": "NAC & Endpoint Security",
+      "importance": 4,
+      "difficulty": 3,
+      "reason": "理解網路準入、端點防護與防火牆的職責。",
+      "planned_at": "2026-12-05T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M12",
+      "concept_ids": [
+        "M12-06"
+      ],
+      "display_ids": [
+        "CEH M12-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M12-C07",
+      "module": "M12",
+      "module_order": 15,
+      "source_row": 7,
+      "title": "Honeypot / Honeynet",
+      "importance": 4,
+      "difficulty": 3,
+      "reason": "理解如何以受控環境收集異常行為資訊。",
+      "planned_at": "2026-12-06T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M12",
+      "concept_ids": [
+        "M12-07"
+      ],
+      "display_ids": [
+        "CEH M12-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M12-C08",
+      "module": "M12",
+      "module_order": 15,
+      "source_row": 8,
+      "title": "Detection Engineering & Evasion Countermeasures",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "學會建立規則、驗證告警並修正防禦缺口。",
+      "planned_at": "2026-12-06T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M12",
+      "concept_ids": [
+        "M12-08"
+      ],
+      "display_ids": [
+        "CEH M12-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M10-C01",
+      "module": "M10",
+      "module_order": 16,
+      "source_row": 1,
+      "title": "DoS vs. DDoS",
+      "importance": 5,
+      "difficulty": 1,
+      "reason": "分辨單一來源與分散式攻擊，理解可用性風險。",
+      "planned_at": "2026-12-06T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M10",
+      "concept_ids": [
+        "M10-01"
+      ],
+      "display_ids": [
+        "CEH M10-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M10-C02",
+      "module": "M10",
+      "module_order": 16,
+      "source_row": 2,
+      "title": "Network / Protocol / Application Resource Exhaustion",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "學會找出頻寬、連線狀態、CPU 或資料庫的瓶頸。",
+      "planned_at": "2026-12-07T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M10",
+      "concept_ids": [
+        "M10-02"
+      ],
+      "display_ids": [
+        "CEH M10-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M10-C03",
+      "module": "M10",
+      "module_order": 16,
+      "source_row": 3,
+      "title": "SYN Flood、UDP Flood、HTTP Flood",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "辨識不同協定層級的資源耗盡機制。",
+      "planned_at": "2026-12-07T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M10",
+      "concept_ids": [
+        "M10-03"
+      ],
+      "display_ids": [
+        "CEH M10-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M10-C04",
+      "module": "M10",
+      "module_order": 16,
+      "source_row": 4,
+      "title": "Botnet、Reflection、Amplification",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解分散式流量來源及反射放大效應。",
+      "planned_at": "2026-12-07T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M10",
+      "concept_ids": [
+        "M10-04"
+      ],
+      "display_ids": [
+        "CEH M10-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M10-C05",
+      "module": "M10",
+      "module_order": 16,
+      "source_row": 5,
+      "title": "DDoS Detection、Baseline & Telemetry",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "能從流量、錯誤率、延遲及使用量判斷異常。",
+      "planned_at": "2026-12-08T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M10",
+      "concept_ids": [
+        "M10-05"
+      ],
+      "display_ids": [
+        "CEH M10-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M10-C06",
+      "module": "M10",
+      "module_order": 16,
+      "source_row": 6,
+      "title": "Rate Limiting、CDN、Anycast、Mitigation",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "能區分網路層、邊緣節點與應用程式層防護。",
+      "planned_at": "2026-12-08T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M10",
+      "concept_ids": [
+        "M10-06"
+      ],
+      "display_ids": [
+        "CEH M10-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M19-C01",
+      "module": "M19",
+      "module_order": 17,
+      "source_row": 1,
+      "title": "IaaS、PaaS、SaaS、Shared Responsibility",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解哪些安全責任由雲端服務商承擔，哪些仍由使用者負責。",
+      "planned_at": "2026-12-08T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M19",
+      "concept_ids": [
+        "M19-01"
+      ],
+      "display_ids": [
+        "CEH M19-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M19-C02",
+      "module": "M19",
+      "module_order": 17,
+      "source_row": 2,
+      "title": "Cloud IAM、Roles、Policies",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解雲端帳號、服務身分、授權與權限提升風險。",
+      "planned_at": "2026-12-09T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M19",
+      "concept_ids": [
+        "M19-02"
+      ],
+      "display_ids": [
+        "CEH M19-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M19-C03",
+      "module": "M19",
+      "module_order": 17,
+      "source_row": 3,
+      "title": "Cloud Storage & Bucket Exposure",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解儲存物件的公開存取、加密、授權與資料外洩。",
+      "planned_at": "2026-12-09T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M19",
+      "concept_ids": [
+        "M19-03"
+      ],
+      "display_ids": [
+        "CEH M19-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M19-C04",
+      "module": "M19",
+      "module_order": 17,
+      "source_row": 4,
+      "title": "VPC、Security Groups、Network Controls",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "掌握雲端網路隔離及對外服務暴露問題。",
+      "planned_at": "2026-12-09T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M19",
+      "concept_ids": [
+        "M19-04"
+      ],
+      "display_ids": [
+        "CEH M19-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M19-C05",
+      "module": "M19",
+      "module_order": 17,
+      "source_row": 5,
+      "title": "Container、Docker、Image Security",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "學會檢查映像、套件、Secrets 與容器執行權限。",
+      "planned_at": "2026-12-10T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M19",
+      "concept_ids": [
+        "M19-05"
+      ],
+      "display_ids": [
+        "CEH M19-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M19-C06",
+      "module": "M19",
+      "module_order": 17,
+      "source_row": 6,
+      "title": "Kubernetes、RBAC、Service Accounts",
+      "importance": 5,
+      "difficulty": 5,
+      "reason": "理解容器協作平台的工作負載身分與存取控制。",
+      "planned_at": "2026-12-10T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M19",
+      "concept_ids": [
+        "M19-06"
+      ],
+      "display_ids": [
+        "CEH M19-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M19-C07",
+      "module": "M19",
+      "module_order": 17,
+      "source_row": 7,
+      "title": "Serverless Security",
+      "importance": 4,
+      "difficulty": 4,
+      "reason": "理解事件觸發、雲端 Function 及其執行權限。",
+      "planned_at": "2026-12-10T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M19",
+      "concept_ids": [
+        "M19-07"
+      ],
+      "display_ids": [
+        "CEH M19-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M19-C08",
+      "module": "M19",
+      "module_order": 17,
+      "source_row": 8,
+      "title": "Cloud Logging、CSPM、Security Controls",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "學會辨識錯誤組態、追蹤雲端事件並驗證防護。",
+      "planned_at": "2026-12-11T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M19",
+      "concept_ids": [
+        "M19-08"
+      ],
+      "display_ids": [
+        "CEH M19-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M16-C01",
+      "module": "M16",
+      "module_order": 18,
+      "source_row": 1,
+      "title": "IEEE 802.11、AP、SSID、BSSID",
+      "importance": 5,
+      "difficulty": 2,
+      "reason": "理解無線網路與其基本訊框、連線架構。",
+      "planned_at": "2026-12-11T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M16",
+      "concept_ids": [
+        "M16-01"
+      ],
+      "display_ids": [
+        "CEH M16-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M16-C02",
+      "module": "M16",
+      "module_order": 18,
+      "source_row": 2,
+      "title": "WEP、WPA、WPA2、WPA3",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "分辨無線網路不同世代的加密與驗證機制。",
+      "planned_at": "2026-12-11T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M16",
+      "concept_ids": [
+        "M16-02"
+      ],
+      "display_ids": [
+        "CEH M16-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M16-C03",
+      "module": "M16",
+      "module_order": 18,
+      "source_row": 3,
+      "title": "Personal vs. Enterprise、802.1X、EAP",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解個人密碼與企業身分驗證之間的差異。",
+      "planned_at": "2026-12-12T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M16",
+      "concept_ids": [
+        "M16-03"
+      ],
+      "display_ids": [
+        "CEH M16-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M16-C04",
+      "module": "M16",
+      "module_order": 18,
+      "source_row": 4,
+      "title": "WPA2 4-Way Handshake、WPA3 SAE",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解無線工作階段的金鑰建立與安全性。",
+      "planned_at": "2026-12-12T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M16",
+      "concept_ids": [
+        "M16-04"
+      ],
+      "display_ids": [
+        "CEH M16-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M16-C05",
+      "module": "M16",
+      "module_order": 18,
+      "source_row": 5,
+      "title": "Rogue AP、Evil Twin、Deauthentication",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解基地台冒充、連線中斷與未授權存取的不同風險。",
+      "planned_at": "2026-12-12T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M16",
+      "concept_ids": [
+        "M16-05"
+      ],
+      "display_ids": [
+        "CEH M16-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M16-C06",
+      "module": "M16",
+      "module_order": 18,
+      "source_row": 6,
+      "title": "Bluetooth / BLE、Pairing、GATT",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解短距離無線連線、配對、服務與資料權限。",
+      "planned_at": "2026-12-13T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M16",
+      "concept_ids": [
+        "M16-06"
+      ],
+      "display_ids": [
+        "CEH M16-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M16-C07",
+      "module": "M16",
+      "module_order": 18,
+      "source_row": 7,
+      "title": "Wireless Traffic Analysis & Security Tools",
+      "importance": 4,
+      "difficulty": 4,
+      "reason": "能分析無線訊框與工具輸出，理解可觀測性限制。",
+      "planned_at": "2026-12-13T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M16",
+      "concept_ids": [
+        "M16-07"
+      ],
+      "display_ids": [
+        "CEH M16-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M16-C08",
+      "module": "M16",
+      "module_order": 18,
+      "source_row": 8,
+      "title": "PMF、Wireless Security Controls",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "學會保護管理訊框、驗證無線設備及偵測異常。",
+      "planned_at": "2026-12-13T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M16",
+      "concept_ids": [
+        "M16-08"
+      ],
+      "display_ids": [
+        "CEH M16-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M17-C01",
+      "module": "M17",
+      "module_order": 19,
+      "source_row": 1,
+      "title": "Android / iOS Security Architecture",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解手機作業系統的沙箱、程序隔離與安全模型。",
+      "planned_at": "2026-12-14T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M17",
+      "concept_ids": [
+        "M17-01"
+      ],
+      "display_ids": [
+        "CEH M17-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M17-C02",
+      "module": "M17",
+      "module_order": 19,
+      "source_row": 2,
+      "title": "Android Permissions / Exported Components",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解 App 權限、Activity、Service 與跨 App 互動風險。",
+      "planned_at": "2026-12-14T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M17",
+      "concept_ids": [
+        "M17-02"
+      ],
+      "display_ids": [
+        "CEH M17-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M17-C03",
+      "module": "M17",
+      "module_order": 19,
+      "source_row": 3,
+      "title": "iOS Entitlements / App Sandbox",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解 iOS App 能力限制與敏感資源存取機制。",
+      "planned_at": "2026-12-14T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M17",
+      "concept_ids": [
+        "M17-03"
+      ],
+      "display_ids": [
+        "CEH M17-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M17-C04",
+      "module": "M17",
+      "module_order": 19,
+      "source_row": 4,
+      "title": "App Signing & Binary Integrity",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "分辨程式簽章、完整性與實際執行安全。",
+      "planned_at": "2026-12-15T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M17",
+      "concept_ids": [
+        "M17-04"
+      ],
+      "display_ids": [
+        "CEH M17-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M17-C05",
+      "module": "M17",
+      "module_order": 19,
+      "source_row": 5,
+      "title": "Android Keystore / Apple Keychain",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "學會保護金鑰、Token 與其他敏感資料。",
+      "planned_at": "2026-12-15T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M17",
+      "concept_ids": [
+        "M17-05"
+      ],
+      "display_ids": [
+        "CEH M17-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M17-C06",
+      "module": "M17",
+      "module_order": 19,
+      "source_row": 6,
+      "title": "Mobile API、WebView、Deep Links",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解 App、瀏覽器與後端服務之間的信任邊界。",
+      "planned_at": "2026-12-15T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M17",
+      "concept_ids": [
+        "M17-06"
+      ],
+      "display_ids": [
+        "CEH M17-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M17-C07",
+      "module": "M17",
+      "module_order": 19,
+      "source_row": 7,
+      "title": "Rooting、Jailbreaking、Mobile Malware",
+      "importance": 4,
+      "difficulty": 4,
+      "reason": "理解裝置安全模型改變與行動平台威脅。",
+      "planned_at": "2026-12-16T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M17",
+      "concept_ids": [
+        "M17-07"
+      ],
+      "display_ids": [
+        "CEH M17-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M17-C08",
+      "module": "M17",
+      "module_order": 19,
+      "source_row": 8,
+      "title": "MDM、OWASP Mobile Top 10、Mobile Testing",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "掌握企業裝置管理、常見風險與安全測試方法。",
+      "planned_at": "2026-12-16T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M17",
+      "concept_ids": [
+        "M17-08"
+      ],
+      "display_ids": [
+        "CEH M17-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M18-C01",
+      "module": "M18",
+      "module_order": 20,
+      "source_row": 1,
+      "title": "IoT vs. OT Architecture",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "分辨物聯網裝置與管理實體程序的營運技術系統。",
+      "planned_at": "2026-12-16T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M18",
+      "concept_ids": [
+        "M18-01"
+      ],
+      "display_ids": [
+        "CEH M18-01"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M18-C02",
+      "module": "M18",
+      "module_order": 20,
+      "source_row": 2,
+      "title": "Device Identity、Authentication、Secrets",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "理解設備如何辨識身分、保存金鑰與建立可信連線。",
+      "planned_at": "2026-12-17T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M18",
+      "concept_ids": [
+        "M18-02"
+      ],
+      "display_ids": [
+        "CEH M18-02"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M18-C03",
+      "module": "M18",
+      "module_order": 20,
+      "source_row": 3,
+      "title": "MQTT、CoAP、BLE、Modbus、OPC UA",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解 IoT 與 OT 通訊協定的用途與安全差異。",
+      "planned_at": "2026-12-17T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M18",
+      "concept_ids": [
+        "M18-03"
+      ],
+      "display_ids": [
+        "CEH M18-03"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M18-C04",
+      "module": "M18",
+      "module_order": 20,
+      "source_row": 4,
+      "title": "Firmware Security、Secure Boot、Signed OTA",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "學會驗證韌體完整性及安全更新機制。",
+      "planned_at": "2026-12-17T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M18",
+      "concept_ids": [
+        "M18-04"
+      ],
+      "display_ids": [
+        "CEH M18-04"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M18-C05",
+      "module": "M18",
+      "module_order": 20,
+      "source_row": 5,
+      "title": "IoT Vulnerabilities & Attack Surfaces",
+      "importance": 5,
+      "difficulty": 3,
+      "reason": "辨識預設憑證、未授權服務、設備組態與供應鏈風險。",
+      "planned_at": "2026-12-18T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M18",
+      "concept_ids": [
+        "M18-05"
+      ],
+      "display_ids": [
+        "CEH M18-05"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M18-C06",
+      "module": "M18",
+      "module_order": 20,
+      "source_row": 6,
+      "title": "ICS、SCADA、PLC & OT Safety",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "理解 OT 的實體控制、可靠性與安全要求。",
+      "planned_at": "2026-12-18T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M18",
+      "concept_ids": [
+        "M18-06"
+      ],
+      "display_ids": [
+        "CEH M18-06"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M18-C07",
+      "module": "M18",
+      "module_order": 20,
+      "source_row": 7,
+      "title": "Firmware Interfaces、UART、JTAG",
+      "importance": 4,
+      "difficulty": 5,
+      "reason": "了解實體除錯介面與硬體存取風險。",
+      "planned_at": "2026-12-18T19:00:00+08:00",
+      "slot": "晚間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M18",
+      "concept_ids": [
+        "M18-07"
+      ],
+      "display_ids": [
+        "CEH M18-07"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M18-C08",
+      "module": "M18",
+      "module_order": 20,
+      "source_row": 8,
+      "title": "IoT / OT Assessment Methodology",
+      "importance": 5,
+      "difficulty": 5,
+      "reason": "建立低干擾、受控、可驗證的設備安全評估程序。",
+      "planned_at": "2026-12-19T08:00:00+08:00",
+      "slot": "早間",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M18",
+      "concept_ids": [
+        "M18-08"
+      ],
+      "display_ids": [
+        "CEH M18-08"
+      ]
+    },
+    {
+      "unit_id": "CEH26-M18-C09",
+      "module": "M18",
+      "module_order": 20,
+      "source_row": 9,
+      "title": "Network Segmentation、Monitoring、Countermeasures",
+      "importance": 5,
+      "difficulty": 4,
+      "reason": "能規劃設備分區、身分保護、更新與監控。",
+      "planned_at": "2026-12-19T13:00:00+08:00",
+      "slot": "下午",
+      "legacy_ids": [],
+      "legacy_relation": "new_scope",
+      "delivery_mode": "new_teaching",
+      "planned_state": "planned",
+      "source_section": "三/M18",
+      "concept_ids": [
+        "M18-09"
+      ],
+      "display_ids": [
+        "CEH M18-09"
+      ]
+    }
+  ],
+  "concept_index": "core-concept-index-2026-10-27.md"
+}
