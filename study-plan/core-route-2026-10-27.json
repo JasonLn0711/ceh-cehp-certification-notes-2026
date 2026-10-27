@@ -54,7 +54,8 @@
       ],
       "display_ids": [
         "CEH M01-01"
-      ]
+      ],
+      "reading_order": 1
     },
     {
       "unit_id": "CEH26-M01-C02",
@@ -77,7 +78,8 @@
       ],
       "display_ids": [
         "CEH M01-02"
-      ]
+      ],
+      "reading_order": 2
     },
     {
       "unit_id": "CEH26-M01-C03",
@@ -100,7 +102,8 @@
       ],
       "display_ids": [
         "CEH M01-03"
-      ]
+      ],
+      "reading_order": 3
     },
     {
       "unit_id": "CEH26-M01-C04",
@@ -123,7 +126,8 @@
       ],
       "display_ids": [
         "CEH M01-04"
-      ]
+      ],
+      "reading_order": 4
     },
     {
       "unit_id": "CEH26-M01-C05",
@@ -146,7 +150,8 @@
       ],
       "display_ids": [
         "CEH M01-05"
-      ]
+      ],
+      "reading_order": 5
     },
     {
       "unit_id": "CEH26-M01-C06",
@@ -169,7 +174,8 @@
       ],
       "display_ids": [
         "CEH M01-06"
-      ]
+      ],
+      "reading_order": 6
     },
     {
       "unit_id": "CEH26-M01-C07",
@@ -192,7 +198,8 @@
       ],
       "display_ids": [
         "CEH M01-07"
-      ]
+      ],
+      "reading_order": 7
     },
     {
       "unit_id": "CEH26-M09-C01",
@@ -215,7 +222,8 @@
       ],
       "display_ids": [
         "CEH M09-01"
-      ]
+      ],
+      "reading_order": 8
     },
     {
       "unit_id": "CEH26-M09-C02",
@@ -238,7 +246,8 @@
       ],
       "display_ids": [
         "CEH M09-02"
-      ]
+      ],
+      "reading_order": 9
     },
     {
       "unit_id": "CEH26-M09-C03",
@@ -261,7 +270,8 @@
       ],
       "display_ids": [
         "CEH M09-03"
-      ]
+      ],
+      "reading_order": 10
     },
     {
       "unit_id": "CEH26-M09-C04",
@@ -284,7 +294,8 @@
       ],
       "display_ids": [
         "CEH M09-04"
-      ]
+      ],
+      "reading_order": 11
     },
     {
       "unit_id": "CEH26-M09-C05",
@@ -307,7 +318,8 @@
       ],
       "display_ids": [
         "CEH M09-05"
-      ]
+      ],
+      "reading_order": 12
     },
     {
       "unit_id": "CEH26-M09-C06",
@@ -330,7 +342,8 @@
       ],
       "display_ids": [
         "CEH M09-06"
-      ]
+      ],
+      "reading_order": 13
     },
     {
       "unit_id": "CEH26-M02-C01",
@@ -353,7 +366,8 @@
       ],
       "display_ids": [
         "CEH M02-01"
-      ]
+      ],
+      "reading_order": 14
     },
     {
       "unit_id": "CEH26-M02-C02",
@@ -376,7 +390,8 @@
       ],
       "display_ids": [
         "CEH M02-02"
-      ]
+      ],
+      "reading_order": 15
     },
     {
       "unit_id": "CEH26-M02-C03",
@@ -399,7 +414,8 @@
       ],
       "display_ids": [
         "CEH M02-03"
-      ]
+      ],
+      "reading_order": 16
     },
     {
       "unit_id": "CEH26-M02-C04",
@@ -422,7 +438,8 @@
       ],
       "display_ids": [
         "CEH M02-04"
-      ]
+      ],
+      "reading_order": 17
     },
     {
       "unit_id": "CEH26-M02-C05",
@@ -445,7 +462,8 @@
       ],
       "display_ids": [
         "CEH M02-05"
-      ]
+      ],
+      "reading_order": 18
     },
     {
       "unit_id": "CEH26-M02-C06",
@@ -468,7 +486,8 @@
       ],
       "display_ids": [
         "CEH M02-06"
-      ]
+      ],
+      "reading_order": 19
     },
     {
       "unit_id": "CEH26-M02-C07",
@@ -491,7 +510,8 @@
       ],
       "display_ids": [
         "CEH M02-07"
-      ]
+      ],
+      "reading_order": 20
     },
     {
       "unit_id": "CEH26-M02-C08",
@@ -514,7 +534,8 @@
       ],
       "display_ids": [
         "CEH M02-08"
-      ]
+      ],
+      "reading_order": 21
     },
     {
       "unit_id": "CEH26-M03-C01",
@@ -537,7 +558,8 @@
       ],
       "display_ids": [
         "CEH M03-01"
-      ]
+      ],
+      "reading_order": 22
     },
     {
       "unit_id": "CEH26-M03-C02",
@@ -560,7 +582,8 @@
       ],
       "display_ids": [
         "CEH M03-02"
-      ]
+      ],
+      "reading_order": 23
     },
     {
       "unit_id": "CEH26-M03-C03",
@@ -583,7 +606,8 @@
       ],
       "display_ids": [
         "CEH M03-03"
-      ]
+      ],
+      "reading_order": 24
     },
     {
       "unit_id": "CEH26-M03-C04",
@@ -606,7 +630,8 @@
       ],
       "display_ids": [
         "CEH M03-04"
-      ]
+      ],
+      "reading_order": 25
     },
     {
       "unit_id": "CEH26-M03-C05",
@@ -629,7 +654,8 @@
       ],
       "display_ids": [
         "CEH M03-05"
-      ]
+      ],
+      "reading_order": 26
     },
     {
       "unit_id": "CEH26-M03-C06",
@@ -652,7 +678,8 @@
       ],
       "display_ids": [
         "CEH M03-06"
-      ]
+      ],
+      "reading_order": 27
     },
     {
       "unit_id": "CEH26-M03-C07",
@@ -675,7 +702,8 @@
       ],
       "display_ids": [
         "CEH M03-07"
-      ]
+      ],
+      "reading_order": 28
     },
     {
       "unit_id": "CEH26-M03-C08",
@@ -698,7 +726,8 @@
       ],
       "display_ids": [
         "CEH M03-08"
-      ]
+      ],
+      "reading_order": 29
     },
     {
       "unit_id": "CEH26-M04-C01",
@@ -723,7 +752,8 @@
       ],
       "display_ids": [
         "CEH M04-01"
-      ]
+      ],
+      "reading_order": 30
     },
     {
       "unit_id": "CEH26-M04-C02",
@@ -748,7 +778,8 @@
       ],
       "display_ids": [
         "CEH M04-02"
-      ]
+      ],
+      "reading_order": 31
     },
     {
       "unit_id": "CEH26-M04-C03",
@@ -776,7 +807,8 @@
       "display_ids": [
         "CEH M04-03",
         "CEH M04-06"
-      ]
+      ],
+      "reading_order": 32
     },
     {
       "unit_id": "CEH26-M04-C04",
@@ -801,7 +833,8 @@
       ],
       "display_ids": [
         "CEH M04-04"
-      ]
+      ],
+      "reading_order": 33
     },
     {
       "unit_id": "CEH26-M04-C05",
@@ -829,7 +862,8 @@
       "display_ids": [
         "CEH M04-05",
         "CEH M04-11"
-      ]
+      ],
+      "reading_order": 34
     },
     {
       "unit_id": "CEH26-M04-C06",
@@ -857,7 +891,8 @@
       "display_ids": [
         "CEH M04-07",
         "CEH M04-08"
-      ]
+      ],
+      "reading_order": 35
     },
     {
       "unit_id": "CEH26-M04-C07",
@@ -882,7 +917,8 @@
       ],
       "display_ids": [
         "CEH M04-09"
-      ]
+      ],
+      "reading_order": 36
     },
     {
       "unit_id": "CEH26-M04-C08",
@@ -907,7 +943,8 @@
       ],
       "display_ids": [
         "CEH M04-10"
-      ]
+      ],
+      "reading_order": 37
     },
     {
       "unit_id": "CEH26-M04-C09",
@@ -950,7 +987,8 @@
         "CEH M04-17",
         "CEH M04-18",
         "CEH M04-19"
-      ]
+      ],
+      "reading_order": 38
     },
     {
       "unit_id": "CEH26-M04-C10",
@@ -975,7 +1013,8 @@
       ],
       "display_ids": [
         "CEH M04-12"
-      ]
+      ],
+      "reading_order": 39
     },
     {
       "unit_id": "CEH26-M05-C01",
@@ -1000,7 +1039,8 @@
       ],
       "display_ids": [
         "CEH M05-01"
-      ]
+      ],
+      "reading_order": 40
     },
     {
       "unit_id": "CEH26-M05-C02",
@@ -1025,7 +1065,8 @@
       ],
       "display_ids": [
         "CEH M05-03"
-      ]
+      ],
+      "reading_order": 41
     },
     {
       "unit_id": "CEH26-M05-C03",
@@ -1053,7 +1094,8 @@
       "display_ids": [
         "CEH M05-02",
         "CEH M05-04"
-      ]
+      ],
+      "reading_order": 42
     },
     {
       "unit_id": "CEH26-M05-C04",
@@ -1081,7 +1123,8 @@
       "display_ids": [
         "CEH M05-05",
         "CEH M05-06"
-      ]
+      ],
+      "reading_order": 43
     },
     {
       "unit_id": "CEH26-M05-C05",
@@ -1106,7 +1149,8 @@
       ],
       "display_ids": [
         "CEH M05-07"
-      ]
+      ],
+      "reading_order": 44
     },
     {
       "unit_id": "CEH26-M05-C06",
@@ -1131,7 +1175,8 @@
       ],
       "display_ids": [
         "CEH M05-10"
-      ]
+      ],
+      "reading_order": 45
     },
     {
       "unit_id": "CEH26-M05-C07",
@@ -1156,7 +1201,8 @@
       ],
       "display_ids": [
         "CEH M05-11"
-      ]
+      ],
+      "reading_order": 46
     },
     {
       "unit_id": "CEH26-M05-C08",
@@ -1187,7 +1233,8 @@
         "CEH M05-12",
         "CEH M05-13",
         "CEH M05-14"
-      ]
+      ],
+      "reading_order": 47
     },
     {
       "unit_id": "CEH26-M20-C01",
@@ -1210,7 +1257,8 @@
       ],
       "display_ids": [
         "CEH M20-01"
-      ]
+      ],
+      "reading_order": 48
     },
     {
       "unit_id": "CEH26-M20-C02",
@@ -1233,7 +1281,8 @@
       ],
       "display_ids": [
         "CEH M20-02"
-      ]
+      ],
+      "reading_order": 49
     },
     {
       "unit_id": "CEH26-M20-C03",
@@ -1256,7 +1305,8 @@
       ],
       "display_ids": [
         "CEH M20-03"
-      ]
+      ],
+      "reading_order": 50
     },
     {
       "unit_id": "CEH26-M20-C04",
@@ -1279,7 +1329,8 @@
       ],
       "display_ids": [
         "CEH M20-04"
-      ]
+      ],
+      "reading_order": 51
     },
     {
       "unit_id": "CEH26-M20-C05",
@@ -1302,7 +1353,8 @@
       ],
       "display_ids": [
         "CEH M20-05"
-      ]
+      ],
+      "reading_order": 52
     },
     {
       "unit_id": "CEH26-M20-C06",
@@ -1325,7 +1377,8 @@
       ],
       "display_ids": [
         "CEH M20-06"
-      ]
+      ],
+      "reading_order": 53
     },
     {
       "unit_id": "CEH26-M20-C07",
@@ -1348,7 +1401,8 @@
       ],
       "display_ids": [
         "CEH M20-07"
-      ]
+      ],
+      "reading_order": 54
     },
     {
       "unit_id": "CEH26-M20-C08",
@@ -1371,7 +1425,8 @@
       ],
       "display_ids": [
         "CEH M20-08"
-      ]
+      ],
+      "reading_order": 55
     },
     {
       "unit_id": "CEH26-M20-C09",
@@ -1394,7 +1449,8 @@
       ],
       "display_ids": [
         "CEH M20-09"
-      ]
+      ],
+      "reading_order": 56
     },
     {
       "unit_id": "CEH26-M06-C01",
@@ -1419,7 +1475,8 @@
       ],
       "display_ids": [
         "CEH M06-02"
-      ]
+      ],
+      "reading_order": 57
     },
     {
       "unit_id": "CEH26-M06-C02",
@@ -1447,7 +1504,8 @@
       "display_ids": [
         "CEH M06-03",
         "CEH M06-04"
-      ]
+      ],
+      "reading_order": 58
     },
     {
       "unit_id": "CEH26-M06-C03",
@@ -1475,7 +1533,8 @@
       "display_ids": [
         "CEH M06-05",
         "CEH M06-06"
-      ]
+      ],
+      "reading_order": 59
     },
     {
       "unit_id": "CEH26-M06-C04",
@@ -1500,7 +1559,8 @@
       ],
       "display_ids": [
         "CEH M06-07"
-      ]
+      ],
+      "reading_order": 60
     },
     {
       "unit_id": "CEH26-M06-C05",
@@ -1525,7 +1585,8 @@
       ],
       "display_ids": [
         "CEH M06-08"
-      ]
+      ],
+      "reading_order": 61
     },
     {
       "unit_id": "CEH26-M06-C06",
@@ -1550,7 +1611,8 @@
       ],
       "display_ids": [
         "CEH M06-09"
-      ]
+      ],
+      "reading_order": 62
     },
     {
       "unit_id": "CEH26-M06-C07",
@@ -1575,7 +1637,8 @@
       ],
       "display_ids": [
         "CEH M06-10"
-      ]
+      ],
+      "reading_order": 63
     },
     {
       "unit_id": "CEH26-M06-C08",
@@ -1603,7 +1666,8 @@
       "display_ids": [
         "CEH M06-12",
         "CEH M06-13"
-      ]
+      ],
+      "reading_order": 64
     },
     {
       "unit_id": "CEH26-M06-C09",
@@ -1631,7 +1695,8 @@
       "display_ids": [
         "CEH M06-14",
         "CEH M06-15"
-      ]
+      ],
+      "reading_order": 65
     },
     {
       "unit_id": "CEH26-M06-C10",
@@ -1656,7 +1721,8 @@
       ],
       "display_ids": [
         "CEH M06-16"
-      ]
+      ],
+      "reading_order": 66
     },
     {
       "unit_id": "CEH26-M07-C01",
@@ -1687,7 +1753,8 @@
         "CEH M07-02",
         "CEH M07-03",
         "CEH M07-04"
-      ]
+      ],
+      "reading_order": 67
     },
     {
       "unit_id": "CEH26-M07-C02",
@@ -1712,7 +1779,8 @@
       ],
       "display_ids": [
         "CEH M07-08"
-      ]
+      ],
+      "reading_order": 68
     },
     {
       "unit_id": "CEH26-M07-C03",
@@ -1740,7 +1808,8 @@
       "display_ids": [
         "CEH M07-05",
         "CEH M07-06"
-      ]
+      ],
+      "reading_order": 69
     },
     {
       "unit_id": "CEH26-M07-C04",
@@ -1765,7 +1834,8 @@
       ],
       "display_ids": [
         "CEH M07-10"
-      ]
+      ],
+      "reading_order": 70
     },
     {
       "unit_id": "CEH26-M07-C05",
@@ -1793,7 +1863,8 @@
       "display_ids": [
         "CEH M07-07",
         "CEH M07-09"
-      ]
+      ],
+      "reading_order": 71
     },
     {
       "unit_id": "CEH26-M07-C06",
@@ -1818,7 +1889,8 @@
       ],
       "display_ids": [
         "CEH M07-11"
-      ]
+      ],
+      "reading_order": 72
     },
     {
       "unit_id": "CEH26-M07-C07",
@@ -1843,7 +1915,8 @@
       ],
       "display_ids": [
         "CEH M07-12"
-      ]
+      ],
+      "reading_order": 73
     },
     {
       "unit_id": "CEH26-M07-C08",
@@ -1868,7 +1941,8 @@
       ],
       "display_ids": [
         "CEH M07-13"
-      ]
+      ],
+      "reading_order": 74
     },
     {
       "unit_id": "CEH26-M07-C09",
@@ -1899,7 +1973,8 @@
         "CEH M07-14",
         "CEH M07-15",
         "CEH M07-16"
-      ]
+      ],
+      "reading_order": 75
     },
     {
       "unit_id": "CEH26-M08-C01",
@@ -1922,7 +1997,8 @@
       ],
       "display_ids": [
         "CEH M08-01"
-      ]
+      ],
+      "reading_order": 76
     },
     {
       "unit_id": "CEH26-M08-C02",
@@ -1945,7 +2021,8 @@
       ],
       "display_ids": [
         "CEH M08-02"
-      ]
+      ],
+      "reading_order": 77
     },
     {
       "unit_id": "CEH26-M08-C03",
@@ -1968,7 +2045,8 @@
       ],
       "display_ids": [
         "CEH M08-03"
-      ]
+      ],
+      "reading_order": 78
     },
     {
       "unit_id": "CEH26-M08-C04",
@@ -1991,7 +2069,8 @@
       ],
       "display_ids": [
         "CEH M08-04"
-      ]
+      ],
+      "reading_order": 79
     },
     {
       "unit_id": "CEH26-M08-C05",
@@ -2014,7 +2093,8 @@
       ],
       "display_ids": [
         "CEH M08-05"
-      ]
+      ],
+      "reading_order": 80
     },
     {
       "unit_id": "CEH26-M08-C06",
@@ -2037,7 +2117,8 @@
       ],
       "display_ids": [
         "CEH M08-06"
-      ]
+      ],
+      "reading_order": 81
     },
     {
       "unit_id": "CEH26-M08-C07",
@@ -2060,7 +2141,8 @@
       ],
       "display_ids": [
         "CEH M08-07"
-      ]
+      ],
+      "reading_order": 82
     },
     {
       "unit_id": "CEH26-M08-C08",
@@ -2083,7 +2165,8 @@
       ],
       "display_ids": [
         "CEH M08-08"
-      ]
+      ],
+      "reading_order": 83
     },
     {
       "unit_id": "CEH26-M13-C01",
@@ -2106,7 +2189,8 @@
       ],
       "display_ids": [
         "CEH M13-01"
-      ]
+      ],
+      "reading_order": 84
     },
     {
       "unit_id": "CEH26-M13-C02",
@@ -2129,7 +2213,8 @@
       ],
       "display_ids": [
         "CEH M13-02"
-      ]
+      ],
+      "reading_order": 85
     },
     {
       "unit_id": "CEH26-M13-C03",
@@ -2152,7 +2237,8 @@
       ],
       "display_ids": [
         "CEH M13-03"
-      ]
+      ],
+      "reading_order": 86
     },
     {
       "unit_id": "CEH26-M13-C04",
@@ -2175,7 +2261,8 @@
       ],
       "display_ids": [
         "CEH M13-04"
-      ]
+      ],
+      "reading_order": 87
     },
     {
       "unit_id": "CEH26-M13-C05",
@@ -2198,7 +2285,8 @@
       ],
       "display_ids": [
         "CEH M13-05"
-      ]
+      ],
+      "reading_order": 88
     },
     {
       "unit_id": "CEH26-M13-C06",
@@ -2221,7 +2309,8 @@
       ],
       "display_ids": [
         "CEH M13-06"
-      ]
+      ],
+      "reading_order": 89
     },
     {
       "unit_id": "CEH26-M13-C07",
@@ -2244,7 +2333,8 @@
       ],
       "display_ids": [
         "CEH M13-07"
-      ]
+      ],
+      "reading_order": 90
     },
     {
       "unit_id": "CEH26-M14-C01",
@@ -2267,7 +2357,8 @@
       ],
       "display_ids": [
         "CEH M14-01"
-      ]
+      ],
+      "reading_order": 91
     },
     {
       "unit_id": "CEH26-M14-C02",
@@ -2290,7 +2381,8 @@
       ],
       "display_ids": [
         "CEH M14-02"
-      ]
+      ],
+      "reading_order": 92
     },
     {
       "unit_id": "CEH26-M14-C03",
@@ -2313,7 +2405,8 @@
       ],
       "display_ids": [
         "CEH M14-03"
-      ]
+      ],
+      "reading_order": 93
     },
     {
       "unit_id": "CEH26-M14-C04",
@@ -2336,7 +2429,8 @@
       ],
       "display_ids": [
         "CEH M14-04"
-      ]
+      ],
+      "reading_order": 94
     },
     {
       "unit_id": "CEH26-M14-C05",
@@ -2359,7 +2453,8 @@
       ],
       "display_ids": [
         "CEH M14-05"
-      ]
+      ],
+      "reading_order": 95
     },
     {
       "unit_id": "CEH26-M14-C06",
@@ -2382,7 +2477,8 @@
       ],
       "display_ids": [
         "CEH M14-06"
-      ]
+      ],
+      "reading_order": 96
     },
     {
       "unit_id": "CEH26-M14-C07",
@@ -2405,7 +2501,8 @@
       ],
       "display_ids": [
         "CEH M14-07"
-      ]
+      ],
+      "reading_order": 97
     },
     {
       "unit_id": "CEH26-M14-C08",
@@ -2428,7 +2525,8 @@
       ],
       "display_ids": [
         "CEH M14-08"
-      ]
+      ],
+      "reading_order": 98
     },
     {
       "unit_id": "CEH26-M14-C09",
@@ -2451,7 +2549,8 @@
       ],
       "display_ids": [
         "CEH M14-09"
-      ]
+      ],
+      "reading_order": 99
     },
     {
       "unit_id": "CEH26-M14-C10",
@@ -2474,7 +2573,8 @@
       ],
       "display_ids": [
         "CEH M14-10"
-      ]
+      ],
+      "reading_order": 100
     },
     {
       "unit_id": "CEH26-M11-C01",
@@ -2497,7 +2597,8 @@
       ],
       "display_ids": [
         "CEH M11-01"
-      ]
+      ],
+      "reading_order": 101
     },
     {
       "unit_id": "CEH26-M11-C02",
@@ -2520,7 +2621,8 @@
       ],
       "display_ids": [
         "CEH M11-02"
-      ]
+      ],
+      "reading_order": 102
     },
     {
       "unit_id": "CEH26-M11-C03",
@@ -2543,7 +2645,8 @@
       ],
       "display_ids": [
         "CEH M11-03"
-      ]
+      ],
+      "reading_order": 103
     },
     {
       "unit_id": "CEH26-M11-C04",
@@ -2566,7 +2669,8 @@
       ],
       "display_ids": [
         "CEH M11-04"
-      ]
+      ],
+      "reading_order": 104
     },
     {
       "unit_id": "CEH26-M11-C05",
@@ -2589,7 +2693,8 @@
       ],
       "display_ids": [
         "CEH M11-05"
-      ]
+      ],
+      "reading_order": 105
     },
     {
       "unit_id": "CEH26-M11-C06",
@@ -2612,7 +2717,8 @@
       ],
       "display_ids": [
         "CEH M11-06"
-      ]
+      ],
+      "reading_order": 106
     },
     {
       "unit_id": "CEH26-M11-C07",
@@ -2635,7 +2741,8 @@
       ],
       "display_ids": [
         "CEH M11-07"
-      ]
+      ],
+      "reading_order": 107
     },
     {
       "unit_id": "CEH26-M15-C01",
@@ -2658,7 +2765,8 @@
       ],
       "display_ids": [
         "CEH M15-01"
-      ]
+      ],
+      "reading_order": 108
     },
     {
       "unit_id": "CEH26-M15-C02",
@@ -2681,7 +2789,8 @@
       ],
       "display_ids": [
         "CEH M15-02"
-      ]
+      ],
+      "reading_order": 109
     },
     {
       "unit_id": "CEH26-M15-C03",
@@ -2704,7 +2813,8 @@
       ],
       "display_ids": [
         "CEH M15-03"
-      ]
+      ],
+      "reading_order": 110
     },
     {
       "unit_id": "CEH26-M15-C04",
@@ -2727,7 +2837,8 @@
       ],
       "display_ids": [
         "CEH M15-04"
-      ]
+      ],
+      "reading_order": 111
     },
     {
       "unit_id": "CEH26-M15-C05",
@@ -2750,7 +2861,8 @@
       ],
       "display_ids": [
         "CEH M15-05"
-      ]
+      ],
+      "reading_order": 112
     },
     {
       "unit_id": "CEH26-M15-C06",
@@ -2773,7 +2885,8 @@
       ],
       "display_ids": [
         "CEH M15-06"
-      ]
+      ],
+      "reading_order": 113
     },
     {
       "unit_id": "CEH26-M15-C07",
@@ -2796,7 +2909,8 @@
       ],
       "display_ids": [
         "CEH M15-07"
-      ]
+      ],
+      "reading_order": 114
     },
     {
       "unit_id": "CEH26-M12-C01",
@@ -2819,7 +2933,8 @@
       ],
       "display_ids": [
         "CEH M12-01"
-      ]
+      ],
+      "reading_order": 115
     },
     {
       "unit_id": "CEH26-M12-C02",
@@ -2842,7 +2957,8 @@
       ],
       "display_ids": [
         "CEH M12-02"
-      ]
+      ],
+      "reading_order": 116
     },
     {
       "unit_id": "CEH26-M12-C03",
@@ -2865,7 +2981,8 @@
       ],
       "display_ids": [
         "CEH M12-03"
-      ]
+      ],
+      "reading_order": 117
     },
     {
       "unit_id": "CEH26-M12-C04",
@@ -2888,7 +3005,8 @@
       ],
       "display_ids": [
         "CEH M12-04"
-      ]
+      ],
+      "reading_order": 118
     },
     {
       "unit_id": "CEH26-M12-C05",
@@ -2911,7 +3029,8 @@
       ],
       "display_ids": [
         "CEH M12-05"
-      ]
+      ],
+      "reading_order": 119
     },
     {
       "unit_id": "CEH26-M12-C06",
@@ -2934,7 +3053,8 @@
       ],
       "display_ids": [
         "CEH M12-06"
-      ]
+      ],
+      "reading_order": 120
     },
     {
       "unit_id": "CEH26-M12-C07",
@@ -2957,7 +3077,8 @@
       ],
       "display_ids": [
         "CEH M12-07"
-      ]
+      ],
+      "reading_order": 121
     },
     {
       "unit_id": "CEH26-M12-C08",
@@ -2980,7 +3101,8 @@
       ],
       "display_ids": [
         "CEH M12-08"
-      ]
+      ],
+      "reading_order": 122
     },
     {
       "unit_id": "CEH26-M10-C01",
@@ -3003,7 +3125,8 @@
       ],
       "display_ids": [
         "CEH M10-01"
-      ]
+      ],
+      "reading_order": 123
     },
     {
       "unit_id": "CEH26-M10-C02",
@@ -3026,7 +3149,8 @@
       ],
       "display_ids": [
         "CEH M10-02"
-      ]
+      ],
+      "reading_order": 124
     },
     {
       "unit_id": "CEH26-M10-C03",
@@ -3049,7 +3173,8 @@
       ],
       "display_ids": [
         "CEH M10-03"
-      ]
+      ],
+      "reading_order": 125
     },
     {
       "unit_id": "CEH26-M10-C04",
@@ -3072,7 +3197,8 @@
       ],
       "display_ids": [
         "CEH M10-04"
-      ]
+      ],
+      "reading_order": 126
     },
     {
       "unit_id": "CEH26-M10-C05",
@@ -3095,7 +3221,8 @@
       ],
       "display_ids": [
         "CEH M10-05"
-      ]
+      ],
+      "reading_order": 127
     },
     {
       "unit_id": "CEH26-M10-C06",
@@ -3118,7 +3245,8 @@
       ],
       "display_ids": [
         "CEH M10-06"
-      ]
+      ],
+      "reading_order": 128
     },
     {
       "unit_id": "CEH26-M19-C01",
@@ -3141,7 +3269,8 @@
       ],
       "display_ids": [
         "CEH M19-01"
-      ]
+      ],
+      "reading_order": 129
     },
     {
       "unit_id": "CEH26-M19-C02",
@@ -3164,7 +3293,8 @@
       ],
       "display_ids": [
         "CEH M19-02"
-      ]
+      ],
+      "reading_order": 130
     },
     {
       "unit_id": "CEH26-M19-C03",
@@ -3187,7 +3317,8 @@
       ],
       "display_ids": [
         "CEH M19-03"
-      ]
+      ],
+      "reading_order": 131
     },
     {
       "unit_id": "CEH26-M19-C04",
@@ -3210,7 +3341,8 @@
       ],
       "display_ids": [
         "CEH M19-04"
-      ]
+      ],
+      "reading_order": 132
     },
     {
       "unit_id": "CEH26-M19-C05",
@@ -3233,7 +3365,8 @@
       ],
       "display_ids": [
         "CEH M19-05"
-      ]
+      ],
+      "reading_order": 133
     },
     {
       "unit_id": "CEH26-M19-C06",
@@ -3256,7 +3389,8 @@
       ],
       "display_ids": [
         "CEH M19-06"
-      ]
+      ],
+      "reading_order": 134
     },
     {
       "unit_id": "CEH26-M19-C07",
@@ -3279,7 +3413,8 @@
       ],
       "display_ids": [
         "CEH M19-07"
-      ]
+      ],
+      "reading_order": 135
     },
     {
       "unit_id": "CEH26-M19-C08",
@@ -3302,7 +3437,8 @@
       ],
       "display_ids": [
         "CEH M19-08"
-      ]
+      ],
+      "reading_order": 136
     },
     {
       "unit_id": "CEH26-M16-C01",
@@ -3325,7 +3461,8 @@
       ],
       "display_ids": [
         "CEH M16-01"
-      ]
+      ],
+      "reading_order": 137
     },
     {
       "unit_id": "CEH26-M16-C02",
@@ -3348,7 +3485,8 @@
       ],
       "display_ids": [
         "CEH M16-02"
-      ]
+      ],
+      "reading_order": 138
     },
     {
       "unit_id": "CEH26-M16-C03",
@@ -3371,7 +3509,8 @@
       ],
       "display_ids": [
         "CEH M16-03"
-      ]
+      ],
+      "reading_order": 139
     },
     {
       "unit_id": "CEH26-M16-C04",
@@ -3394,7 +3533,8 @@
       ],
       "display_ids": [
         "CEH M16-04"
-      ]
+      ],
+      "reading_order": 140
     },
     {
       "unit_id": "CEH26-M16-C05",
@@ -3417,7 +3557,8 @@
       ],
       "display_ids": [
         "CEH M16-05"
-      ]
+      ],
+      "reading_order": 141
     },
     {
       "unit_id": "CEH26-M16-C06",
@@ -3440,7 +3581,8 @@
       ],
       "display_ids": [
         "CEH M16-06"
-      ]
+      ],
+      "reading_order": 142
     },
     {
       "unit_id": "CEH26-M16-C07",
@@ -3463,7 +3605,8 @@
       ],
       "display_ids": [
         "CEH M16-07"
-      ]
+      ],
+      "reading_order": 143
     },
     {
       "unit_id": "CEH26-M16-C08",
@@ -3486,7 +3629,8 @@
       ],
       "display_ids": [
         "CEH M16-08"
-      ]
+      ],
+      "reading_order": 144
     },
     {
       "unit_id": "CEH26-M17-C01",
@@ -3509,7 +3653,8 @@
       ],
       "display_ids": [
         "CEH M17-01"
-      ]
+      ],
+      "reading_order": 145
     },
     {
       "unit_id": "CEH26-M17-C02",
@@ -3532,7 +3677,8 @@
       ],
       "display_ids": [
         "CEH M17-02"
-      ]
+      ],
+      "reading_order": 146
     },
     {
       "unit_id": "CEH26-M17-C03",
@@ -3555,7 +3701,8 @@
       ],
       "display_ids": [
         "CEH M17-03"
-      ]
+      ],
+      "reading_order": 147
     },
     {
       "unit_id": "CEH26-M17-C04",
@@ -3578,7 +3725,8 @@
       ],
       "display_ids": [
         "CEH M17-04"
-      ]
+      ],
+      "reading_order": 148
     },
     {
       "unit_id": "CEH26-M17-C05",
@@ -3601,7 +3749,8 @@
       ],
       "display_ids": [
         "CEH M17-05"
-      ]
+      ],
+      "reading_order": 149
     },
     {
       "unit_id": "CEH26-M17-C06",
@@ -3624,7 +3773,8 @@
       ],
       "display_ids": [
         "CEH M17-06"
-      ]
+      ],
+      "reading_order": 150
     },
     {
       "unit_id": "CEH26-M17-C07",
@@ -3647,7 +3797,8 @@
       ],
       "display_ids": [
         "CEH M17-07"
-      ]
+      ],
+      "reading_order": 151
     },
     {
       "unit_id": "CEH26-M17-C08",
@@ -3670,7 +3821,8 @@
       ],
       "display_ids": [
         "CEH M17-08"
-      ]
+      ],
+      "reading_order": 152
     },
     {
       "unit_id": "CEH26-M18-C01",
@@ -3693,7 +3845,8 @@
       ],
       "display_ids": [
         "CEH M18-01"
-      ]
+      ],
+      "reading_order": 153
     },
     {
       "unit_id": "CEH26-M18-C02",
@@ -3716,7 +3869,8 @@
       ],
       "display_ids": [
         "CEH M18-02"
-      ]
+      ],
+      "reading_order": 154
     },
     {
       "unit_id": "CEH26-M18-C03",
@@ -3739,7 +3893,8 @@
       ],
       "display_ids": [
         "CEH M18-03"
-      ]
+      ],
+      "reading_order": 155
     },
     {
       "unit_id": "CEH26-M18-C04",
@@ -3762,7 +3917,8 @@
       ],
       "display_ids": [
         "CEH M18-04"
-      ]
+      ],
+      "reading_order": 156
     },
     {
       "unit_id": "CEH26-M18-C05",
@@ -3785,7 +3941,8 @@
       ],
       "display_ids": [
         "CEH M18-05"
-      ]
+      ],
+      "reading_order": 157
     },
     {
       "unit_id": "CEH26-M18-C06",
@@ -3808,7 +3965,8 @@
       ],
       "display_ids": [
         "CEH M18-06"
-      ]
+      ],
+      "reading_order": 158
     },
     {
       "unit_id": "CEH26-M18-C07",
@@ -3831,7 +3989,8 @@
       ],
       "display_ids": [
         "CEH M18-07"
-      ]
+      ],
+      "reading_order": 159
     },
     {
       "unit_id": "CEH26-M18-C08",
@@ -3854,7 +4013,8 @@
       ],
       "display_ids": [
         "CEH M18-08"
-      ]
+      ],
+      "reading_order": 160
     },
     {
       "unit_id": "CEH26-M18-C09",
@@ -3877,7 +4037,8 @@
       ],
       "display_ids": [
         "CEH M18-09"
-      ]
+      ],
+      "reading_order": 161
     }
   ],
   "concept_index": "core-concept-index-2026-10-27.md"
