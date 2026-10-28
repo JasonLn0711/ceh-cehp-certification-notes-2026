@@ -598,4 +598,3 @@ Q2 | MFA does not guarantee that an authenticated session cannot be abused. An a
 Q3 | A successful backup notification reports job completion. It does not establish file integrity, freedom from encryption, availability of decryption keys or timely service recovery. Protect backups, test restoration, verify correct data and functioning applications and dependencies, and retain the test evidence.
 
 </details>
-
