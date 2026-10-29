@@ -38,3 +38,19 @@
 本機 39 項測試、型別檢查、發布邊界、完整靜態 release／本單元 verifier、歷史下載 checksum 通過；套件稽核無高／重大風險，仍有 5 個 low 項目。8 張產出 SVG 已實際渲染檢查，英文緊密標籤作等義簡化。上述不代表正式手機／瀏覽器或網站上線已核驗。
 
 **狀態仍為草稿；精確 head 的 CI、後續共用 responsive 修訂整合、使用者批准、合併部署及正式讀回未在本節確認。** 不以 PR 建立或本機測試通過宣稱發布。後續若 sanitizer 變更，須重新生成本課 SVG bundle 並重新核驗。
+
+
+<a id="m09-04-publication-1-0-0-2026-10-29"></a>
+## 2026-10-29｜M09-04 v1.0.0 已部署；正式讀回待核
+
+**[PR #50](https://github.com/JasonLn0711/kairos-learning/pull/50) 已於 10:11:28 UTC 合併；merge SHA `1f6db6817d0ef0098ef1ab9137cdff175aab0e0f`。[Pages 40855575160](https://github.com/JasonLn0711/kairos-learning/actions/runs/40855575160) completed／success，部署完成於 10:12:18 UTC（台灣 18:12:18）。** PR 合併狀態與全部部署步驟已重新讀回；精確 merge-SHA 與完成時間由發布流程核實。
+
+本課先整合已部署的 [PR #51](https://github.com/JasonLn0711/kairos-learning/pull/51)（`505534eb29cc8b7b051bb7c44adc090dc701a15e`），重新產生全部 8 張 SVG、inline bundle 與 ZIP。SVG 以 `viewBox`／`preserveAspectRatio` 等比例適應欄寬，不保留固定根節點寬高；沿用已核准的安全 SVG serializer／共用顯示元件。
+
+- [繁中教材](https://learn.cs-kairos.com/courses/ceh/v13/m09/concepts/m09-04/) · [英文教材](https://learn.cs-kairos.com/en/courses/ceh/v13/m09/concepts/m09-04/)
+- 中英各 **78 個內容區塊、4 張 inline SVG、3 段預設收合參考解答**；正文與圖表直接呈現，實際 Q&A 維持獨立。
+- 最終 head `0f4a1a3282c73dc1f124a0d1e1252f081ab7a5bd` 的 [CI 40855355914](https://github.com/JasonLn0711/kairos-learning/actions/runs/40855355914) 通過；發布流程核實 tree `2aec766f1efca7c0c70d24005899c2f6e0cf37f2` 與本機已測試版本相同。
+- 41 項測試、型別、內容、發布邊界、完整靜態 release、下載 checksum 檢查通過；audit 無 high／critical，保留 5 個既有 low 項目，不宣稱零風險。Pages 的 `deploy-pages` 步驟亦為 success。
+- **正式網站正文／下載內容讀回、瀏覽器／手機呈現與鍵盤操作仍未完成驗證。** 未重試受限路徑；部署成功不等同全部呈現與互動驗收通過。先前 Inkscape 圖形幾何檢查不冒充正式瀏覽器測試。
+
+上方草稿及 76 區塊為較早快照；本節為最新發布狀態。穩定概念 ID、既有主稿來源與前後課連結保持；M09-05 仍是待交付導覽而非已發布教材。
