@@ -33,3 +33,18 @@
 [閱讀規則](../study-plan/concept-reading-2026-10-22.md) · [M09 索引](../study-plan/core-concept-index-2026-10-27.md) · [前課 M09-02](m09-02-publication.md) · [公開教學橋接](public-teaching-bridge-2026-10-23.md#m09-03-2026-10-29)。後續單元為 M09-04 Pretexting／Baiting／Tailgating；M09-06 再深入獨立驗證與防釣魚控制。
 
 私人聊天識別、原始交付與個人作答／理解狀態沿用已確認私人的 Planning 正本，本公開文件只保存教學與發布邊界。既有教材、穩定 ID、M04 歷史與容量規則保持。
+
+
+<a id="m09-03-publication-1-1-0-2026-10-29"></a>
+## 2026-10-29 最新主稿 v1.1.0｜部署成功，正式頁驗證待補
+
+**[PR #48](https://github.com/JasonLn0711/kairos-learning/pull/48) 已合併；[Pages 40840001516](https://github.com/JasonLn0711/kairos-learning/actions/runs/40840001516) 為 completed／success，對應 merge SHA `a7ffb6b846e5a9e82c87058832cea63a776100ff`。** 合併與部署的精確 SHA 已由 GitHub 讀回核對。
+
+本次以最新提供的完整主稿為主要內容，公開內容版 **v1.1.0／revision 2**。遠端該版 [concept JSON](https://github.com/JasonLn0711/kairos-learning/blob/a7ffb6b846e5a9e82c87058832cea63a776100ff/content/concepts/m09-03.json) 讀回確認：繁中、英文各 **143 個內容區塊、3 張表格、7 組圖解、4 段預設收合參考解答**；14 份簡潔設計的中英文 SVG 配對呈現。實際 Q&A 欄位維持獨立，編輯參考解答不作為學員問答。
+
+- [繁中教材](https://learn.cs-kairos.com/courses/ceh/v13/m09/concepts/m09-03/) · [英文教材](https://learn.cs-kairos.com/en/courses/ceh/v13/m09/concepts/m09-03/)
+- [雙語 SVG 圖檔包](https://learn.cs-kairos.com/downloads/ceh-m09-03-bilingual-svg.zip)：此為建置內容的正式目標連結，正式下載內容尚未讀回核實。
+- CI 的內容驗證、測試、型別檢查、發布邊界、release 驗證、既有下載 checksum 及 deploy-pages 步驟均為 success。這些是工程證據，不取代瀏覽器實際操作。
+- **正式 HTML 正文、正式下載、手機版與鍵盤操作仍未完成核驗。** 受限制的讀取路徑未重試；本紀錄不將「部署成功」改寫成「正式內容與互動全部驗收通過」。
+
+上方 12 節／5 表／3 解答與待部署描述保留為較早準備快照；本節為現行公開版本。這是 M09-03 同單元主稿修訂，既有教學來源、穩定 ID 與後續 M09-04 路線維持，不新增單元。
