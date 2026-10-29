@@ -107,3 +107,10 @@ M04-01 adopts public content version **v2.0.0** as the explicit naming baseline 
 ## M09-02 雙語教材 — 2026-10-29
 
 [釣魚、魚叉式釣魚與鯨釣](m09-02-publication.md)沿用完整初學者格式與新路線第 9 單元。中英全文、合成案例及參考解答已備妥，正式網站發布仍待獨立核驗。私人交付識別與理解狀態留私人正本；既有 M04 歷史及容量不變。
+
+
+### 2026-10-29 發布進度更新
+
+**部署成功，正式內容讀回待核。** [PR #43](https://github.com/JasonLn0711/kairos-learning/pull/43) 已合併，merge SHA `252bca4d8d21d266cdd4cabfb198590e046d4be5`；[Pages 40799676058](https://github.com/JasonLn0711/kairos-learning/actions/runs/40799676058) 為 completed／success，已由 GitHub 讀回核實。正式解答錨點為 `#answer-reference`。
+
+正式 HTML 讀回遭 HTTP 403，正常 web.open 亦回報 not accessible；已停止，不重試被拒的網站讀取。正式正文比對及瀏覽器／手機版 QA 尚未完成，因此部署成功不等同正式內容已核驗。上方待部署描述保留為較早快照，以此進度為準。

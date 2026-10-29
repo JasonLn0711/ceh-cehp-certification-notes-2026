@@ -24,3 +24,10 @@
 ## Connections
 
 [公開教學橋接](public-teaching-bridge-2026-10-23.md#m09-02-2026-10-29) · [一概念規則](../study-plan/concept-reading-2026-10-22.md) · [章節補充考點](../study-plan/core-route-2026-10-27-supplements.md)。既有 M04 原 ID、網址及歷史不變。
+
+
+### 2026-10-29 發布進度更新
+
+**部署成功，正式內容讀回待核。** [PR #43](https://github.com/JasonLn0711/kairos-learning/pull/43) 已合併，merge SHA `252bca4d8d21d266cdd4cabfb198590e046d4be5`；[Pages 40799676058](https://github.com/JasonLn0711/kairos-learning/actions/runs/40799676058) 為 completed／success，已由 GitHub 讀回核實。正式解答錨點為 `#answer-reference`。
+
+正式 HTML 讀回遭 HTTP 403，正常 web.open 亦回報 not accessible；已停止，不重試被拒的網站讀取。正式正文比對及瀏覽器／手機版 QA 尚未完成，因此部署成功不等同正式內容已核驗。上方待部署描述保留為較早快照，以此進度為準。
