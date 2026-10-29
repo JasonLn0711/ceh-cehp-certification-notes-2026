@@ -29,3 +29,12 @@
 [閱讀規則](../study-plan/concept-reading-2026-10-22.md) · [現行路線](../study-plan/core-route-2026-10-27.md) · [前課 M09-03](m09-03-publication.md) · [公開教學橋接](public-teaching-bridge-2026-10-23.md#m09-04-2026-10-29)。本課連結 M01 資產、CIA、授權與安全控制；下一單元 M09-05 聚焦內部威脅與身分竊盜。
 
 目標頁（尚未據此宣稱上線）：[繁中](https://learn.cs-kairos.com/courses/ceh/v13/m09/concepts/m09-04/) · [English](https://learn.cs-kairos.com/en/courses/ceh/v13/m09/concepts/m09-04/)。私人聊天識別、交付回執、作答與理解狀態只留私人正本。
+
+
+## 2026-10-29｜網站草稿 PR #50
+
+[Draft PR #50](https://github.com/JasonLn0711/kairos-learning/pull/50)已建立，初始 head `fe21a1554035731d7618875020210b32f74397c8`，基於已合併的 M09-03 安全 inline SVG 共用元件。中英各 76 個內容區塊、4 張 inline SVG、3 段參考解答；只有問答預設收合。新單元 M09-05 只補齊待交付導覽，不建立空白教材頁。
+
+本機 39 項測試、型別檢查、發布邊界、完整靜態 release／本單元 verifier、歷史下載 checksum 通過；套件稽核無高／重大風險，仍有 5 個 low 項目。8 張產出 SVG 已實際渲染檢查，英文緊密標籤作等義簡化。上述不代表正式手機／瀏覽器或網站上線已核驗。
+
+**狀態仍為草稿；精確 head 的 CI、後續共用 responsive 修訂整合、使用者批准、合併部署及正式讀回未在本節確認。** 不以 PR 建立或本機測試通過宣稱發布。後續若 sanitizer 變更，須重新生成本課 SVG bundle 並重新核驗。
