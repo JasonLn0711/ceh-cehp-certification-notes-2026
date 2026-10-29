@@ -33,3 +33,17 @@
 [閱讀規則](../study-plan/concept-reading-2026-10-22.md) · [前課 M09-04](m09-04-publication.md) · [教學橋接](public-teaching-bridge-2026-10-23.md#m09-05-2026-10-29) · [章後補充](../study-plan/core-route-2026-10-27-supplements.md#m09)。連結 M01 的 CIA、風險、授權與縱深防禦；下一單元 M09-06 為 Independent Verification & Anti-Phishing Controls。
 
 目標頁：[繁中](https://learn.cs-kairos.com/courses/ceh/v13/m09/concepts/m09-05/) · [English](https://learn.cs-kairos.com/en/courses/ceh/v13/m09/concepts/m09-05/)。**目前為教材準備／網站整合階段，非已上線宣告。** 精確 PR、CI、合併、部署與正式讀回須分層核實；原生 SVG 320／680 px 渲染不是瀏覽器／手機互動驗證。私人聊天識別、交付回執、個人作答與理解狀態不放公開 repo。
+
+
+<a id="m09-05-publication-1-0-0-2026-10-29"></a>
+## 2026-10-29｜M09-05 v1.0.0 已部署；正式頁讀回待核
+
+**[PR #52](https://github.com/JasonLn0711/kairos-learning/pull/52) 已合併，merge SHA `ab8161538a4442863ae22da898f6e7f4df35ec03`。[Pages 40867362334](https://github.com/JasonLn0711/kairos-learning/actions/runs/40867362334) 為 completed／success，完成時間 11:43:04 UTC（台灣 19:43:04）；對應的精確 merge SHA 已讀回核對。** 發布流程亦核實 deploy-pages 步驟成功。
+
+- [繁中教材](https://learn.cs-kairos.com/courses/ceh/v13/m09/concepts/m09-05/) · [英文教材](https://learn.cs-kairos.com/en/courses/ceh/v13/m09/concepts/m09-05/)
+- 中英各 66 個內容區塊、4 張原生 inline SVG、3 段預設收合參考解答；正文與圖形直接呈現，使用 responsive 共用元件按欄寬等比例縮放。
+- 精確 head `21876227dca19cce7ac1322071753264d6da68be` 的 [CI 40864414266](https://github.com/JasonLn0711/kairos-learning/actions/runs/40864414266) 通過；整合流程核實正式 main tree `53f9d2a20c05f8eaecda095dfb06f6142dc214e5` 與已測試 tree 相同。
+- 44 項測試與完整靜態 release 檢查通過。教材來源、雙語文字與安全 SVG 序列化分離，原生圖形渲染不代替瀏覽器實測。
+- **正式網站正文、下載、瀏覽器／手機與鍵盤操作尚未讀回核驗；受限路徑未重試。** 部署成功不宣稱所有互動與呈現驗收完成。
+
+上方準備／未發布敘述保留為歷史快照；本節為最新發布進度。穩定 ID 與單元順序不變，編輯參考答案不視為實際學員作答或理解證據。
