@@ -41,3 +41,17 @@
 [閱讀規則](../study-plan/concept-reading-2026-10-22.md) · [前課 M09-05](m09-05-publication.md) · [教學橋接](public-teaching-bridge-2026-10-23.md#m09-06-2026-10-30) · [M09 章後補充](../study-plan/core-route-2026-10-27-supplements.md#m09)。本課收束 M09 信任不能取代驗證的核心，連結 M01 的授權、縱深防禦與事件應變；下一個路線單元是 [M02-01：Passive vs. Active Reconnaissance](../study-plan/core-route-2026-10-27.md#ceh26-m02-c01)。
 
 目標頁：[繁中](https://learn.cs-kairos.com/courses/ceh/v13/m09/concepts/m09-06/) · [English](https://learn.cs-kairos.com/en/courses/ceh/v13/m09/concepts/m09-06/)。**[草稿 PR #53](https://github.com/JasonLn0711/kairos-learning/pull/53) 已建立，head `16e62084278e2ecf715c3f938e06088d8dbf060c`；[CI 40978442982](https://github.com/JasonLn0711/kairos-learning/actions/runs/40978442982) 已 completed／success，核對同一 head，未轉為可審查、未合併、未部署。目標連結不是已上線宣告。** 本機 47 項測試、Svelte 0 錯誤／0 警告、內容驗證、發布邊界及雙語完整靜態輸出核驗通過；已測 tree `80a2a16f983645bf34992a782678ab779c5a1d01` 與遠端 PR tree 一致。M02 八個單元只加入待教目錄，未新增教材，以維持 M09-06 後正確導向 M02-01。私人聊天識別、交付回執、個人筆記與理解狀態不置於公開紀錄。
+
+
+## 2026-10-30｜M09-06 v1.0.0 發布核驗
+
+已依批准將 [PR #53](https://github.com/JasonLn0711/kairos-learning/pull/53) 轉為可審查並合併。合併前再次核實 head `16e62084278e2ecf715c3f938e06088d8dbf060c` 與 [CI 40978442982](https://github.com/JasonLn0711/kairos-learning/actions/runs/40978442982) 的 completed／success 一致；merge SHA 為 `8d7fe8fc44a1f2814a7422c444649607a9199609`。
+
+[Pages 40981473221](https://github.com/JasonLn0711/kairos-learning/actions/runs/40981473221) 已 completed／success，精確對應上述 merge SHA；部署步驟於 00:44:18 UTC（台灣 08:44:18）成功，工作流程於 00:44:21 UTC 更新為成功。main tree `80a2a16f983645bf34992a782678ab779c5a1d01` 與已核驗的 PR／本機 tree 完全相同。
+
+- [繁中教材](https://learn.cs-kairos.com/courses/ceh/v13/m09/concepts/m09-06/) · [英文教材](https://learn.cs-kairos.com/en/courses/ceh/v13/m09/concepts/m09-06/)
+- 中英各 4 張原生 SVG 與 3 項預設收合參考解答；正文及表格直接呈現，圖形依欄寬等比例縮放。
+- 47 項測試、Svelte 0 錯誤／0 警告、內容、發布邊界、靜態 release 及既有下載 checksum 均通過；audit high gate 通過，既有 5 項 low 提醒未以強制升級消除。
+- **正式網站正文與下載內容讀回、瀏覽器／手機呈現及鍵盤互動仍未核驗。** 既有受限路徑未重試或繞過；Pages 部署成功不等於這些驗收已完成。
+
+上方草稿與未部署敘述保留為歷史快照；本節為最新發布狀態。後續仍接 M02-01，M02 的八個目錄項目不代表已交付教材。公開參考解答不代表實際學員作答或理解。
