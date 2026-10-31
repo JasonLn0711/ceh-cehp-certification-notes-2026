@@ -14,8 +14,8 @@ This revision expands the existing Search Engine & Website Footprinting topic. S
 
 - M02-03: crawling, indexing, serving, robots.txt, HTML meta, X-Robots-Tag, and Search Console verification.
 - [M01-06 security controls](https://learn.cs-kairos.com/courses/ceh/v13/m01/concepts/m01-06/): match each control to its purpose and evidence.
-- [M13 server hardening](https://learn.cs-kairos.com/courses/ceh/v13/m13/): manage the public deployment surface and resource responses.
-- [M14 object authorization](https://learn.cs-kairos.com/courses/ceh/v13/m14/): authenticate and authorize each private-file request.
+- [M13 server hardening](https://learn.cs-kairos.com/courses/ceh/v13/m13/web-server-exposure-and-hardening/): manage the public deployment surface and resource responses.
+- [M14 object authorization](https://learn.cs-kairos.com/courses/ceh/v13/m14/object-level-authorization/): authenticate and authorize each private-file request.
 
 Public teaching uses synthetic examples. Reference answers explain the scenario; personal responses and learning records remain in their private homes. Website publication follows the existing review and deployment process.
 
