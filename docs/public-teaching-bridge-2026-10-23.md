@@ -183,3 +183,9 @@ M04-01 adopts public content version **v2.0.0** as the explicit naming baseline 
 ## M09-06 雙語教材 — 2026-10-30
 
 [獨立驗證與反釣魚控制](m09-06-publication.md)以完整初學者繁中、配對英文、4 組雙語原生 SVG 與 3 項圖形推理參考解答，收束 M09 的信任、身分、要求及授權邊界。從既有可信來源核實特定行動，並以郵件驗證、抗釣魚登入、最小權限與通報提供互補保護。DMARC 的對齊 SPF 或 DKIM 條件、WebAuthn 的登入保護範圍，以及未觀測到告警仍須查產生／收集／傳遞，已進行技術核對。正文與圖直接呈現，僅參考解答預設收合；圖形按欄寬等比例縮放。教材與原生圖形已備妥，[草稿 PR #53](https://github.com/JasonLn0711/kairos-learning/pull/53) 已建立，本機 47 項測試與完整靜態核驗通過；[CI 40978442982](https://github.com/JasonLn0711/kairos-learning/actions/runs/40978442982) 已 completed／success（head `16e62084278e2ecf715c3f938e06088d8dbf060c`），合併部署及正式頁讀回仍待分層核實，未把準備當發布。前課 M09-05 與後續 M02-01 保持現行路線，私人交付及理解紀錄不置於公開 repo。
+
+
+<a id="m03-02-03-04-combined-candidate"></a>
+## M03-02–M03-04 雙語教材整合候選 — 2026-11-02
+
+三個完整單元依序涵蓋 ICMP／ARP 主機探索、TCP Connect／SYN／UDP 掃描，以及 Open／Closed／Filtered 狀態判讀。[整合審查紀錄](m03-02-03-04-integration-review.md)連接十二份雙語主稿與參考解答、二十四份原始 SVG、各篇來源核對及發布驗收。主稿與原圖逐位元組保留，既有教材內容不變。正式部署、頁面與下載讀回各自等待證據，不將候選整合或 Git 合併記成正式上線；個人交付及理解狀態留在私人紀錄。
