@@ -1,0 +1,11 @@
+{
+  "algorithm": "SHA-256",
+  "checkedOn": "2026-11-07",
+  "files": {
+    "teaching.zh-TW.md": "cbe2bcc1b505a98fed8e9b81a2ff131bcc59b349e7960c44742cef4b1237ead4",
+    "article.zh-TW.md": "fac84acc0597842f5d50451270e7ff47b8afbd6f85573637c305a17f469949fa",
+    "teaching.en.md": "54d19f9c625ca32c0928ab72af6a4cb6797976b8c0dc65bf188e9eb6bcdf51c9",
+    "README.md": "d3d00df01d5252d4c6ecf54a85c1e9fc9b3626ff27f669a0b1e960b1fa9c3429",
+    "source-review.md": "715b6ae9dd02aaa3f1fbaa785d8f210327fcaf9b1693dff1bbe6d703393fcace"
+  }
+}
