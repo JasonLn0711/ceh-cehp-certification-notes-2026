@@ -30,6 +30,15 @@ def check(graph_path, corpus):
         errors.append("duplicate node IDs")
     id_set = set(ids)
     covered = set()
+    source_views = {}
+
+    def source_view(path):
+        if path not in source_views:
+            lines = path.read_text(encoding="utf-8").splitlines()
+            headings = {line.lstrip("# ").strip() for line in lines if line.startswith("#")}
+            source_views[path] = (lines, headings)
+        return source_views[path]
+
     for kind, items in (("node", nodes), ("edge", edges)):
         for i, item in enumerate(items):
             source = item.get("source_file")
@@ -48,12 +57,12 @@ def check(graph_path, corpus):
             elif not re.fullmatch(r"L\d+(?:[-–]L?\d+)?", str(location)):
                 # Section names are directly checkable against Markdown headings.
                 section = str(location).lstrip("# ")
-                headings = [line.lstrip("# ").strip() for line in path.read_text(encoding="utf-8").splitlines() if line.startswith("#")]
+                _, headings = source_view(path)
                 if section not in headings:
                     errors.append(f"{kind} {i}: section not found: {location}")
             else:
                 last_line = int(re.findall(r"\d+", str(location))[-1])
-                if not 1 <= last_line <= len(path.read_text(encoding="utf-8").splitlines()):
+                if not 1 <= last_line <= len(source_view(path)[0]):
                     errors.append(f"{kind} {i}: line location out of range")
     for i, edge in enumerate(edges):
         if edge.get("source") not in id_set or edge.get("target") not in id_set:

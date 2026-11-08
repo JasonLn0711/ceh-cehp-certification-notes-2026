@@ -110,3 +110,26 @@ The [Planning locator](../../../planning-everything-track/data/projects/2026-10-
 connects the installation to the October 14 day receipt, W42 capacity and host
 integration registry. This lab owns technical details and learner evidence;
 Planning owns status and available time. Start from the existing course budget.
+
+## Validator ownership and read reuse — 2026-11-08
+
+The lab keeps its directed-graph, confidence-tag, canonical-node and reachability
+rules in `check_graph.py`. Generic source text is shared within each invocation:
+line and heading checks reuse one parsed view per resolved source file. The cache
+is discarded between calls, so edits are seen by the next validation.
+
+On the existing 25-node/34-edge graph, the old and new return values match exactly
+with zero findings. Instrumented corpus reads decreased from 59 to 5 (five unique
+notes). The focused regression test verifies one read for repeated references and
+that later heading/line changes remain detectable:
+
+```sh
+python3 -m unittest discover -s projects/graphify-ceh-lab -p 'test_*.py'
+python3 projects/graphify-ceh-lab/check_graph.py
+```
+
+This is measured I/O reuse, not measured wall-clock, energy or LLM-token savings.
+No Rust subprocess is added for this fragment. It belongs to the broader
+[shared-tool ownership review](https://github.com/JasonLn0711/kairos-rust-tools/blob/main/docs/rule-ownership.md);
+shared JSON syntax alone cannot replace the graph rules. Lab materials and learner
+results are unchanged; a passing validator is not completed learning evidence.
