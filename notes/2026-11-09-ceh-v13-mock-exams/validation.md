@@ -31,7 +31,7 @@ The focused verification independently reads the ZIP, source headings and keys, 
 
 Six pre-existing progress/assessment files remain byte-identical, including the private concept-progress metadata and existing attempt/form/readiness/coverage records. The next undelivered concept remains **CEH26-M05-C04**. Existing question forms and learner IDs retain their own versions. The practice-bank check's local fixtures are material validation, not learner execution.
 
-The archive and technical detail stay in CEH. Planning mirrors the locator, source-preparation outcome, unchanged capacity boundary and next gate. No personal minutes, first answers, understanding, concept delivery, new quota, accepted practical work or official readiness is inferred. Local changes have not been committed or pushed; unrelated worktree changes were preserved.
+The archive and technical detail stay in CEH. Planning mirrors the locator, source-preparation outcome, unchanged capacity boundary and next gate. No personal minutes, first answers, understanding, concept delivery, new quota, accepted practical work or official readiness is inferred. At the initial validation, changes were local. The [November 9 integration and publication receipt](../../docs/2026-11-09-first-principle-closeout.md) records subsequent commits, remote-history preservation and fresh checks.
 
 ## What this evidence establishes
 

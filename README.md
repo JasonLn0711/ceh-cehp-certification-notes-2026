@@ -225,3 +225,5 @@ Long-form production and storage now follow [standard v2.0.0](docs/video-product
 ## November 9 — supplied mock-exam notes
 
 Every supplied entry now has a source-linked study note: 916 numbered questions plus one embedded repeat, with twenty module guides. [full study notes](notes/2026-11-09-ceh-v13-mock-exams/README.md) · [source receipt](source/2026-11-09-ceh-v13-mock-exams/README.md) · [key/content audit](notes/2026-11-09-ceh-v13-mock-exams/quality-audit.md). Printed keys retain their original markings and disputed entries are held from scoring. This is prepared reference material; learner scores, the saved concept route and practical acceptance remain in their existing records.
+
+[November 9 source/tooling closeout](docs/2026-11-09-first-principle-closeout.md) records remote-history integration, pnpm validation and the separate learner/film acceptance gates.

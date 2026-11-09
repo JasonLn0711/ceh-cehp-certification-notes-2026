@@ -217,3 +217,5 @@ Mandarin chapter and master reuse now bind actual sources, runtime, implementati
 See the [v2 standard](../../docs/video-production/LONGFORM_STORAGE_STANDARD_v2.0.0.md) and [measured execution record](../../docs/video-production/evidence/longform-round2-2026-10-22/README.md). Historical ZIPs and unique evidence are preserved; cleanup uses a separately audited fixed allowlist.
 
 Node dependencies use `pnpm@12.15.0` and the shared host store. Restore with `pnpm install --frozen-lockfile`; keep the production renderer and visual QA locks separate. Prior npm-based receipts remain historical evidence and do not satisfy current lockfile checks.
+
+[November 9 source/tooling closeout](../../docs/2026-11-09-first-principle-closeout.md) records remote-history integration, pnpm validation and the separate learner/film acceptance gates.

@@ -88,3 +88,5 @@ Engine 0.5.5 improves temporary archive cleanup and verified promotion across CE
 [Current standard v2.0.0](LONGFORM_STORAGE_STANDARD_v2.0.0.md) specifies engine 0.6.0, exact-byte compact archives, standalone offline restoration, verified Mandarin media reuse, and dependency-aware cleanup. [Round-two execution evidence](evidence/longform-round2-2026-10-22/README.md) separates real restoration, native excerpt comparisons and actual removals. Existing release archives retain their original formats and receipts.
 
 [October 22 publication closeout](PUBLICATION_2026-10-22.md) connects M11, director workflow, storage history and Planning status.
+
+[November 9 source/tooling closeout](../2026-11-09-first-principle-closeout.md) records remote-history integration, pnpm validation and the separate learner/film acceptance gates.
