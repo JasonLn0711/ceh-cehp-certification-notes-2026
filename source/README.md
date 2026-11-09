@@ -154,3 +154,8 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 - [2026-10-22 long-form storage requests and publication scope](2026-10-22-longform-storage-policy/source.md): versioned rules, implementation and audited cleanup for CEH/coursework videos.
 
 - [M11 initial-series request and source](2026-10-20-ceh-m11-video-production/README.md): links the adopted baseline, authored lesson and production evidence.
+
+<a id="ceh-mock-notes-2026-11-09"></a>
+## November 9 — four supplied CEH v13 mock files
+
+[full study notes](../notes/2026-11-09-ceh-v13-mock-exams/README.md) · [source receipt](2026-11-09-ceh-v13-mock-exams/README.md) · [key/content audit](../notes/2026-11-09-ceh-v13-mock-exams/quality-audit.md). Four renamed exact-byte Markdown files and the original PNG are preserved with a SHA-256 manifest. Mock 02 skips Q110; an additional BYOD fragment appears inside Bank Q517. Underlying PDFs and official authenticity remain unverified.

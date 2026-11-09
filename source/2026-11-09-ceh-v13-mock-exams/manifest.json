@@ -1,0 +1,43 @@
+{
+  "captured_on": "2026-11-09",
+  "timezone": "Asia/Taipei",
+  "archive_name": "CEH-v13-four-markdown-files.zip",
+  "archive_bytes": 1006246,
+  "archive_sha256": "b8d512a0c6c55aed44a2f2ba0c224676e29bfec8066190ab7becc8b5b50d05d3",
+  "original_location": "Downloads/CEH-v13-four-markdown-files.zip",
+  "files": [
+    {
+      "archive_member": "ECCouncil-312-50v13-2026.md",
+      "preserved_path": "bank-542.source.md",
+      "bytes": 1064397,
+      "sha256": "3ada478db6fe7f9def66244cc55f77943dca8254a123c674e08eede5442dd088"
+    },
+    {
+      "archive_member": "ceh13-01.md",
+      "preserved_path": "mock-01-125.source.md",
+      "bytes": 87759,
+      "sha256": "d0d203988c08b26798d112fd25af0475e0bb81b60e931bde61fe892ffd4e491d"
+    },
+    {
+      "archive_member": "ceh13-02.md",
+      "preserved_path": "mock-02-124.source.md",
+      "bytes": 111306,
+      "sha256": "01ce59163a2077dea8f1b1d3b6bea7e85d1c53fd8e3d1e9e86f3c751e8ad2bd7"
+    },
+    {
+      "archive_member": "ceh13-03.md",
+      "preserved_path": "mock-03-125.source.md",
+      "bytes": 37731,
+      "sha256": "743cba2bdc8675f61d30ac9a9fa7cf4b7fd041b72b0033e85a92d6c2560ed4cb"
+    },
+    {
+      "archive_member": "ceh13-03_assets/zero-trust-security.png",
+      "preserved_path": "ceh13-03_assets/zero-trust-security.png",
+      "bytes": 598781,
+      "sha256": "528cc08e9495be29d28ff42ca2098796ccfd83a7d03311d897fc33b911dd42eb"
+    }
+  ],
+  "source_integrity": "exact bytes from supplied ZIP; original archive retained",
+  "source_authority": "user-supplied third-party practice/transcription; authenticity and printed answer correctness unverified",
+  "pdf_custody": "PDFs mentioned inside Markdown were not supplied in this archive"
+}
