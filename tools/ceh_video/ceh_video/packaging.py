@@ -12,7 +12,7 @@ import zipfile
 from .common import digest, read, sha, write
 from .archive_io import partial_archive
 
-EXCLUDED = {'.venv', 'node_modules', '.production', '.hyperframes',
+EXCLUDED = {'.local', '.venv', 'node_modules', '.production', '.hyperframes',
             '.waveform-cache', '__pycache__', '.git', 'review'}
 DERIVED = ['project/chapters/', 'project/review/', 'project/assets/audio/',
            'qa/remaster-boundaries/hosts/']

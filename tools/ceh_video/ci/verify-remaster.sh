@@ -6,8 +6,8 @@ set -euo pipefail
 [[ "$CEH_CI_ISOLATED" == 1 ]]
 export PYTHONPATH=tools/ceh_video
 "$CEH_PY" -m unittest discover -s tools/ceh_video/tests -v
-npm ci --prefix tools/ceh_video/ceh_video/visual --ignore-scripts --no-audit --no-fund
-npm test --prefix tools/ceh_video/ceh_video/visual
+pnpm --dir tools/ceh_video/ceh_video/visual install --frozen-lockfile --ignore-scripts
+pnpm --dir tools/ceh_video/ceh_video/visual test
 "$CEH_PY" -c 'import os; from ceh_video.common import Project; from ceh_video.engineering import verify_audio; verify_audio(Project(os.environ["CEH_PROJECT"]),False)'
 "$CEH_PY" -m ceh_video --project "$CEH_PROJECT" --plain engineering --stage build
 node tools/ceh_video/ceh_video/visual/remaster-qa.mjs "$CEH_PROJECT" --precheck

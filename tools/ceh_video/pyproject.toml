@@ -12,4 +12,4 @@ requires-python = ">=3.12"
 ceh-video = "ceh_video.__main__:main"
 
 [tool.setuptools.package-data]
-ceh_video = ["runtime/*.py", "runtime/*.mjs", "*.mjs", "visual/*.mjs", "visual/*.js", "visual/*.json", "visual/*.md"]
+ceh_video = ["runtime/*.py", "runtime/*.mjs", "*.mjs", "visual/*.mjs", "visual/*.js", "visual/*.json", "visual/*.yaml", "visual/*.md"]

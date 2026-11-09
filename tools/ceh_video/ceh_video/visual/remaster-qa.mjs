@@ -32,7 +32,7 @@ const rows=[],failures=[],sources={},audioSources={},layoutSources={},sceneSpecS
 fs.mkdirSync(out,{recursive:true});
 const goldenManifest=!precheck&&fs.existsSync(path.join(baseline,'manifest.json'))?read(path.join(baseline,'manifest.json')):null;
 const browser=await chromium.launch({executablePath:profile.runtime.browser,args:['--no-sandbox','--allow-file-access-from-files','--enable-unsafe-swiftshader']});
-const environment={browser:browser.version(),viewport:[1920,1080],dpr:1,seed:0,hyperframes:profile.runtime.hyperframes,gsap:'3.14.2',playwright:'1.62.1',tokens:fileHash(tokenFile),lock:fileHash(path.join(here,'package-lock.json')),fontHashes:tokens.fontHashes};
+const environment={browser:browser.version(),viewport:[1920,1080],dpr:1,seed:0,hyperframes:profile.runtime.hyperframes,gsap:'3.14.2',playwright:'1.62.1',tokens:fileHash(tokenFile),lock:fileHash(path.join(here,'pnpm-lock.yaml')),fontHashes:tokens.fontHashes};
 
 async function seek(page,frame){
  await page.evaluate(async frame=>{

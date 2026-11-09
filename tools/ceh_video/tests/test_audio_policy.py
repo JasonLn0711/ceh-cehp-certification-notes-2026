@@ -78,7 +78,7 @@ class VisualGateTests(unittest.TestCase):
             with self.assertRaises(RuntimeError):require_visual(p,['S23'])
             (root/'data').mkdir();write(root/'data/S23.audio.json',{})
             visual=Path(__file__).parents[1]/'ceh_video/visual'
-            report=dict(geometrySha256=sha(visual/'geometry.mjs'),qaScriptSha256=sha(visual/'qa.mjs'),environment={'tokens':sha(visual/'tokens.v1.1.json'),'lock':sha(visual/'package-lock.json')},audioSources={'S23':sha(root/'data/S23.audio.json')},status='passed',failures=[],exceptions=[],sources={'S23':sha(f)},rows=[dict(name='S23-0',golden_pixels=0,seek_pixels=0)])
+            report=dict(geometrySha256=sha(visual/'geometry.mjs'),qaScriptSha256=sha(visual/'qa.mjs'),environment={'tokens':sha(visual/'tokens.v1.1.json'),'lock':sha(visual/'pnpm-lock.yaml')},audioSources={'S23':sha(root/'data/S23.audio.json')},status='passed',failures=[],exceptions=[],sources={'S23':sha(f)},rows=[dict(name='S23-0',golden_pixels=0,seek_pixels=0)])
             write(p.qa/'visual/scenes/manifest.json',report)
             write(p.qa/'all-text-geometry/report.json',dict(geometrySha256=sha(visual/'geometry.mjs'),validatorSha256=sha(visual/'all-text-geometry.mjs'),tokensSha256=sha(visual/'tokens.v1.1.json'),status='passed',rows=[dict(scene='S23',errors=[],exceptions=[],source_sha256=sha(f))]))
             require_visual(p,['S23'])

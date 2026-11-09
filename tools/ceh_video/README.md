@@ -60,8 +60,8 @@ Use the project's declared Python environment, Node lockfile, FFmpeg and Chromiu
 # From an extracted engine_project_source/project/ directory on the pinned host:
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements-lock.txt
-npm ci
-npm ci --prefix vendor/ceh_video/visual --ignore-scripts
+pnpm install --frozen-lockfile
+pnpm --dir vendor/ceh_video/visual install --frozen-lockfile --ignore-scripts
 export PYTHONPATH="$PWD/vendor"
 export CEH_VIDEO_PROJECT="$PWD"
 # Remaster only: restore verified cache; performs no inference or tempo processing.
@@ -137,7 +137,7 @@ The Mandarin profile uses `edge-tts==7.3.1`, `zh-TW-HsiaoChenNeural`, baseline `
 
 The v2 graph reuses the common planner, child-process lifecycle, locks, output fingerprints and artifact-bound review guards. Speech and artwork are separate dependencies. New diagrams use editable geometry shared by SVG, HTML animation and native PowerPoint shapes. Captions preserve canonical punctuation and use measured CJK text width. Locale-v2 archives include the verified speech cache for offline reuse; fresh or changed narration requires the declared online provider. English v1 archives keep their original import behavior and package layout.
 
-In an extracted schema-2 project, set `PYTHONPATH="$PWD/vendor/ceh_video"` (the schema-1 example above uses its original vendor layout). Recreate Python from `requirements.lock` and Node from `package-lock.json`, and set the local Chromium path. Run the same CLI against the v2 `production.json`: `preflight`, `run --target root`, native review, `run --target checks`, encoded review and `run --target package`. The first implementation adds fifteen Mandarin regression cases to the existing thirty-five engine cases. Live film evidence and any remaining limitations belong to the course's own validation packet, linked from the [production index](../../docs/video-production/README.md).
+In an extracted schema-2 project, set `PYTHONPATH="$PWD/vendor/ceh_video"` (the schema-1 example above uses its original vendor layout). Recreate Python from `requirements.lock` and Node from `pnpm-lock.yaml`, and set the local Chromium path. Run the same CLI against the v2 `production.json`: `preflight`, `run --target root`, native review, `run --target checks`, encoded review and `run --target package`. The first implementation adds fifteen Mandarin regression cases to the existing thirty-five engine cases. Live film evidence and any remaining limitations belong to the course's own validation packet, linked from the [production index](../../docs/video-production/README.md).
 
 ## English v1.1 engineering migration (engine 0.3.0)
 
@@ -215,3 +215,5 @@ The destination must not exist. Restoration validates every original path, lengt
 Mandarin chapter and master reuse now bind actual sources, runtime, implementation and output hashes. Current visual gates still run. PCM concatenation and identical host assets avoid unnecessary rewrites; valid full-decode receipts avoid a second video decode in Mandarin QA. Actual audio, quiz and frame checks remain required. `--force` bypasses the selected stage's reuse, and failed attempts cannot retain its success receipt.
 
 See the [v2 standard](../../docs/video-production/LONGFORM_STORAGE_STANDARD_v2.0.0.md) and [measured execution record](../../docs/video-production/evidence/longform-round2-2026-10-22/README.md). Historical ZIPs and unique evidence are preserved; cleanup uses a separately audited fixed allowlist.
+
+Node dependencies use `pnpm@12.15.0` and the shared host store. Restore with `pnpm install --frozen-lockfile`; keep the production renderer and visual QA locks separate. Prior npm-based receipts remain historical evidence and do not satisfy current lockfile checks.

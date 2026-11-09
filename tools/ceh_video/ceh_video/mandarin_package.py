@@ -43,7 +43,7 @@ def source_inputs(p):
     from .common import sha
     root = p.root
     paths = set(root.glob('*.md')) | set(root.glob('*.lock'))
-    paths.update(root/f for f in ['package.json','package-lock.json','production.json','pronunciation.json'])
+    paths.update(root/f for f in ['package.json','pnpm-lock.yaml','production.json','pronunciation.json'])
     paths.update(root/'data'/f for f in ['scenes.json','questions.json','chapters.json','coverage.json','coverage-contract.json'])
     if getattr(p,'profile',{}).get('teaching_panels'):
         paths.update([root/p.profile['teaching_panels'],root/'data/teaching-assets.json'])

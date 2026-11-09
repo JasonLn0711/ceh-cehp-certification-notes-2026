@@ -49,7 +49,7 @@ class RemasterDeliveryTests(unittest.TestCase):
             manifest=bundle_engine(target)
             self.assertFalse((target/'stale.py').exists())
             self.assertEqual((target/'delivery.py').read_bytes(),(ROOT/'delivery.py').read_bytes())
-            self.assertIn('visual/package-lock.json',manifest)
+            self.assertIn('visual/pnpm-lock.yaml',manifest)
             self.assertFalse(any('node_modules' in name or '__pycache__' in name for name in manifest))
     def test_portable_cache_restoration_checks_provenance_and_never_transforms(self):
         from types import SimpleNamespace

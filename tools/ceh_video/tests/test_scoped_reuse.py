@@ -13,7 +13,7 @@ class ScopedReuseTests(unittest.TestCase):
         root=Path(self.tmp.name)/'project'
         for rel in ('node_modules/.bin','node_modules/hyperframes/dist','.production','assets'):
             (root/rel).mkdir(parents=True,exist_ok=True)
-        for rel in ('package-lock.json','node_modules/.bin/hyperframes','browser','assets/scene'):
+        for rel in ('pnpm-lock.yaml','node_modules/.bin/hyperframes','browser','assets/scene'):
             (root/rel).write_text('fixture')
         self.p=SimpleNamespace(root=root,qa=root.parent/'qa',output=root.parent/'output',state=root/'.production',
             profile={'schema_version':1,'audio_policy':'ceh-en-v1.2','runtime':{'browser':str(root/'browser')},'output':{}},
@@ -38,7 +38,7 @@ class ScopedReuseTests(unittest.TestCase):
 
     def test_source_renderer_environment_and_log_invalidate(self):
         key=identity(self.p,self.ch);self.render();retain(self.p,self.ch,key)
-        for rel in ('assets/scene','browser','package-lock.json'):
+        for rel in ('assets/scene','browser','pnpm-lock.yaml'):
             f=self.p.root/rel;before=f.read_bytes();f.write_bytes(b'changed')
             self.assertFalse(reusable(self.p,self.ch,identity(self.p,self.ch)));f.write_bytes(before)
         self.p.environment=lambda:{'PRODUCER_FORCE_SCREENSHOT':'true'}

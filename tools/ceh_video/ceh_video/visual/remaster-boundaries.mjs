@@ -31,7 +31,7 @@ const report = {
   sampleRate:48000, fps:30, audioFramesPerVideoFrame:1600,
   expectedBoundaries:scenes.length-1, expectedStates:3*(scenes.length-1), rows, errors, hosts, sources,
   script_sha256:hash(fs.readFileSync(fileURLToPath(import.meta.url))),
-  lock_sha256:hash(fs.readFileSync(new URL('./package-lock.json',import.meta.url))),
+  lock_sha256:hash(fs.readFileSync(new URL('./pnpm-lock.yaml',import.meta.url))),
   geometryTolerance:'Pixel threshold 0.05; antialias pixels excluded; zero unexplained differences',
 };
 function stripAudio(html) {

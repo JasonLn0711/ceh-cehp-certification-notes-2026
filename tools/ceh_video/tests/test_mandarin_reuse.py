@@ -17,7 +17,7 @@ class MandarinReuseTests(unittest.TestCase):
     def test_evidence_input_runtime_implementation_invalidates(self):
         p=self.fixture();key=identity(p,'C1');retain(p,'C1',key)
         self.assertTrue(reusable(p,'C1',key))
-        for file in [p.root/'assets/scene',p.root/'browser',p.root/'package-lock.json',p.qa/'render-C1.log',p.output/'chapters/C1.mp4']:
+        for file in [p.root/'assets/scene',p.root/'browser',p.root/'pnpm-lock.yaml',p.qa/'render-C1.log',p.output/'chapters/C1.mp4']:
             original=file.read_bytes();file.write_bytes(b'changed')
             self.assertFalse(reusable(p,'C1',identity(p,'C1')));file.write_bytes(original)
         with patch('ceh_video.render_reuse.sha',side_effect=lambda f:'changed' if Path(f).name=='mandarin.py' else sha(f)):

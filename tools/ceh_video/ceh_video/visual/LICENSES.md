@@ -1,6 +1,6 @@
 # Engineering dependency licenses
 
-Pinned by `package-lock.json`; production runtime remains separately pinned.
+Pinned by `pnpm-lock.yaml`; production runtime remains separately pinned.
 
 | Package | Version | License / installed source |
 |---|---|---|

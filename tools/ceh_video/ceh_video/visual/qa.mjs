@@ -9,7 +9,7 @@ const profile=JSON.parse(fs.readFileSync(path.join(project,'production.json'))),
 const baseline=path.resolve(process.argv[4]||path.join(out,'golden'));fs.mkdirSync(out,{recursive:true});
 const hash=b=>crypto.createHash('sha256').update(b).digest('hex');const rows=[],failures=[],sources={},audioSources={};
 const browser=await chromium.launch({executablePath:profile.runtime.browser,args:['--no-sandbox','--allow-file-access-from-files','--enable-unsafe-swiftshader']});
-const environment={browser:browser.version(),viewport:[1920,1080],dpr:1,seed:0,hyperframes:profile.runtime.hyperframes,gsap:'3.14.2',playwright:'1.62.1',tokens:hash(fs.readFileSync(path.join(here,'tokens.v1.1.json'))),lock:hash(fs.readFileSync(path.join(here,'package-lock.json')))};
+const environment={browser:browser.version(),viewport:[1920,1080],dpr:1,seed:0,hyperframes:profile.runtime.hyperframes,gsap:'3.14.2',playwright:'1.62.1',tokens:hash(fs.readFileSync(path.join(here,'tokens.v1.1.json'))),lock:hash(fs.readFileSync(path.join(here,'pnpm-lock.yaml')))};
 async function seek(page,t){await page.evaluate(async t=>{if(!window.__player?.renderSeek)throw Error('Actual HyperFrames runtime required');window.__player.renderSeek(t,{exact:true});await window.__hfWaitForSeekCompletion?.();await document.fonts.ready;},t);}
 function diff(a,b,file){const x=PNG.sync.read(a),y=PNG.sync.read(b);if(x.width!==y.width||x.height!==y.height)throw Error('Image dimensions changed');const d=new PNG({width:x.width,height:x.height});const count=pixelmatch(x.data,y.data,d.data,x.width,x.height,{threshold:.05,includeAA:false});if(count)fs.writeFileSync(file,PNG.sync.write(d));return count;}
 async function capture(page,name,t){

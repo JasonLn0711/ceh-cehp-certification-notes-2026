@@ -22,7 +22,7 @@ def require_visual(p,scene_ids):
     if report.get('geometrySha256')!=sha(visual/'geometry.mjs'):raise RuntimeError('Stale geometry implementation evidence')
     if report.get('qaScriptSha256')!=sha(visual/'qa.mjs') or report.get('environment',{}).get('tokens')!=sha(visual/'tokens.v1.1.json'):
         raise RuntimeError('Stale visual harness or token evidence')
-    if report.get('environment',{}).get('lock')!=sha(visual/'package-lock.json'):raise RuntimeError('Dependency lock changed since visual QA')
+    if report.get('environment',{}).get('lock')!=sha(visual/'pnpm-lock.yaml'):raise RuntimeError('Dependency lock changed since visual QA')
     runtime=p.profile.get('runtime',{}).get('hyperframes')
     if runtime and (report['environment'].get('hyperframes')!=runtime or read(p.root/'node_modules/hyperframes/package.json')['version']!=runtime):raise RuntimeError('HyperFrames dependency mismatch')
     for rel,expected in p.profile.get('locked_assets',{}).items():
@@ -106,7 +106,7 @@ def require_remaster_visual(p,scene_ids):
     }.items():_hash_matches(path,report.get(field),field)
     environment=report.get('environment',{})
     _hash_matches(token_path,environment.get('tokens'),'design tokens')
-    _hash_matches(visual/'package-lock.json',environment.get('lock'),'QA dependency lock')
+    _hash_matches(visual/'pnpm-lock.yaml',environment.get('lock'),'QA dependency lock')
     runtime=p.profile['runtime']['hyperframes']
     if environment.get('hyperframes')!=runtime or read(p.root/'node_modules/hyperframes/package.json')['version']!=runtime:
         raise RuntimeError('HyperFrames version mismatch')
@@ -160,7 +160,7 @@ def require_remaster_visual(p,scene_ids):
     boundary_folder=p.qa/'remaster-boundaries';boundary=read(boundary_folder/'report.json')
     if boundary.get('status')!='passed' or boundary.get('errors')!=[]:raise RuntimeError('Nested boundary QA failed')
     _hash_matches(visual/'remaster-boundaries.mjs',boundary.get('script_sha256'),'boundary harness')
-    _hash_matches(visual/'package-lock.json',boundary.get('lock_sha256'),'boundary dependency lock')
+    _hash_matches(visual/'pnpm-lock.yaml',boundary.get('lock_sha256'),'boundary dependency lock')
     ordered=[s['id'] for s in p.scenes]
     expected_boundaries={(f'{a}->{b}',d) for a,b in zip(ordered,ordered[1:]) for d in (-1,0,1)}
     states=boundary.get('rows',[])

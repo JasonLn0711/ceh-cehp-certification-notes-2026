@@ -11,7 +11,7 @@ from .common import read, sha, write
 def identity(p, chapter):
     package = Path(__file__).parent
     env = p.environment()
-    files = [p.root/'package-lock.json', p.root/'node_modules/.bin/hyperframes',
+    files = [p.root/'pnpm-lock.yaml', p.root/'node_modules/.bin/hyperframes',
              Path(p.profile['runtime']['browser']), Path(shutil.which('ffmpeg'))]
     # Bind installed renderer code as well as the lockfile; shared runtime may change.
     native = (p.root/'node_modules/hyperframes/dist')

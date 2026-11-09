@@ -30,7 +30,7 @@ def bundle_engine(target):
     """Bundle the running maintained engine, never a stale project's vendor tree."""
     source=Path(__file__).resolve().parent
     if target.exists():shutil.rmtree(target)
-    shutil.copytree(source,target,ignore=shutil.ignore_patterns('__pycache__','*.pyc','node_modules'))
+    shutil.copytree(source,target,ignore=shutil.ignore_patterns('.local','__pycache__','*.pyc','node_modules'))
     return {str(f.relative_to(target)):sha(f) for f in sorted(target.rglob('*')) if f.is_file()}
 
 

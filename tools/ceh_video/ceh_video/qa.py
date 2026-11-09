@@ -24,7 +24,7 @@ def changed_scenes(p, report):
         return list(p.by_id)
     if report.get('environment',{}).get('tokens')!=sha(p.root/p.profile['token_manifest']):
         return list(p.by_id)
-    if report.get('environment',{}).get('lock')!=sha(visual/'package-lock.json'):
+    if report.get('environment',{}).get('lock')!=sha(visual/'pnpm-lock.yaml'):
         return list(p.by_id)
     selected=[]
     for sid in p.by_id:
