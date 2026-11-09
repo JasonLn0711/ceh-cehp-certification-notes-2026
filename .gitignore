@@ -20,3 +20,6 @@ tools/ceh_video/ceh_video/visual/node_modules/
 
 tools/ceh_video/build/
 tools/ceh_video/*.egg-info/
+
+# Independent local third-party checkout; upstream history stays in btop/.git.
+/btop/
