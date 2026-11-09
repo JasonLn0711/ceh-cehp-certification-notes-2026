@@ -220,3 +220,8 @@ Long-form production and storage now follow [standard v2.0.0](docs/video-product
 ## M05–M07 one-concept planning — October 23
 
 [Integrated plan](study-plan/m05-m07-concept-plan-2026-10-23.md) adopts 47 planned core topics and 12 optional extensions: [M05](notes/m05-vulnerability-analysis/reading-route.md), [M06](notes/m06-system-hacking/reading-route.md), [M07](notes/m07-malware-threats/reading-route.md). Each has stable IDs, prerequisites, outcomes, examples, defenses/evidence and one small check. This extends the existing reading route without asserting delivery or understanding.
+
+<a id="ceh-mock-notes-2026-11-09"></a>
+## November 9 — supplied mock-exam notes
+
+Every supplied entry now has a source-linked study note: 916 numbered questions plus one embedded repeat, with twenty module guides. [full study notes](notes/2026-11-09-ceh-v13-mock-exams/README.md) · [source receipt](source/2026-11-09-ceh-v13-mock-exams/README.md) · [key/content audit](notes/2026-11-09-ceh-v13-mock-exams/quality-audit.md). Printed keys retain their original markings and disputed entries are held from scoring. This is prepared reference material; learner scores, the saved concept route and practical acceptance remain in their existing records.

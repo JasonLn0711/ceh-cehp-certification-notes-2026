@@ -41,3 +41,7 @@ The final image-steganography exercise was assigned; independent completion rema
 
 Shared self-study ceiling remains 240 minutes per week and at most 25 minutes on course days. This index creates no new quota, accepted result or publication of private course evidence.
 
+<a id="ceh-mock-notes-2026-11-09"></a>
+## November 9 — M04–M06 mock-study reference
+
+[Enumeration](../2026-11-09-ceh-v13-mock-exams/modules/m04.md) → [vulnerability applicability](../2026-11-09-ceh-v13-mock-exams/modules/m05.md) → [credentials and privilege](../2026-11-09-ceh-v13-mock-exams/modules/m06.md) add source-linked examples and qualifications. This is an optional reference connection; it changes no course attendance, learner answers or accepted practical result.

@@ -76,3 +76,8 @@ M04-01 [v4繁中七節改寫](../../docs/m04-01-revision-4-review.md)保留既�
 [M04-11 RPC 正式頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-11/) · [來源與發布驗證](../../docs/m04-11-publication.md)，初版 v1.0.0；下一核心 M04-12 列舉防護。
 
 [M04-12 列舉防護正式頁](https://learn.cs-kairos.com/courses/ceh/v13/m04/concepts/m04-12/) · [來源與發布驗證](../../docs/m04-12-publication.md)，初版 v1.0.0；下一核心 M05-01，7 個辨識選讀不阻擋接續。
+
+<a id="ceh-mock-notes-2026-11-09"></a>
+## November 9 — service-enumeration reference
+
+[Mock-study enumeration guide](../2026-11-09-ceh-v13-mock-exams/modules/m04.md) and [protocol/command comparisons](../2026-11-09-ceh-v13-mock-exams/comparisons.md) distinguish service responses, permissions and inference limits for DNS, LDAP, SNMP, NTP, NetBIOS and SMB. Use the current saved learning metadata for sequencing; this reference does not reset the route to the older M04 starting point.

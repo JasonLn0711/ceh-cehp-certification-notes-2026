@@ -47,3 +47,8 @@ The existing CSV schemas stay unchanged. Record categorical confidence and assis
 ## Supporting Lesson 1 material
 
 [Lesson 1: How a weakness can lead to harm](../notes/m05-vulnerability-analysis/lesson-01-weakness-to-harm.md). Maps to CEH-M05-L2, CEH-M06-L2 and CEH-M14-L2. The supplied explain-back is unanswered. Keep actual responses and confidence separate from prepared notes; no item-bank, attempt-log or readiness result is added.
+
+<a id="ceh-mock-notes-2026-11-09"></a>
+## November 9 — supplied-key review boundary
+
+[Mock-source key/content audit](../notes/2026-11-09-ceh-v13-mock-exams/quality-audit.md) identifies 102 held and 139 qualified entries among 917 prepared reference records. The [complete register](../notes/2026-11-09-ceh-v13-mock-exams/items.csv) supplies original identity, interpretation and exact source destination. Capture adds no item-bank/form version, attempt-log row, learner score or readiness claim. Repair and version a selected held item before future scoring; preserve actual exposure and original/retest separation.

@@ -67,3 +67,8 @@ Jason subsequently requested a local download of all 27 PDFs. [Planning records 
 ## Week 1 supplied audits and primary-source checks
 
 [Source receipt](../source/2026-09-20-ceh-week-01/README.md) preserves the two user-supplied verified Markdown files with exact hashes. Treat their audit status as supplied evidence with explicit limits; the receipt separately records this capture's selected fresh primary-source checks. [Connected English notes](../notes/2026-09-20-ceh-week-01/README.md) preserve claim anchors and distinguish official documentation, provider arrangements, editorial synthesis and unresolved anecdotes.
+
+<a id="ceh-mock-notes-2026-11-09"></a>
+## November 9 — user-supplied mock transcriptions
+
+[full study notes](../notes/2026-11-09-ceh-v13-mock-exams/README.md) · [source receipt](../source/2026-11-09-ceh-v13-mock-exams/README.md) · [key/content audit](../notes/2026-11-09-ceh-v13-mock-exams/quality-audit.md). Classification for this capture: user-supplied, unverified third-party transcriptions. Exact-byte custody is confirmed; official item authenticity, PDF fidelity and later public-distribution authority are separate. Selected primary checks correct mechanisms while the supplied keys remain inspectable.

@@ -218,3 +218,8 @@ M04-01 adopts public content version **v2.0.0** as the explicit naming baseline 
 ## M04-08｜LDAP／Active Directory 列舉 — 2026-11-06
 
 [完整雙語稿與來源](../source/2026-11-06-m04-08/README.md)連結必要回顧、新合成完整性案例與獨立單題參考答案；[發布候選回執](m04-08-2026-11-06-publication.md)區分準備、驗證與正式發布。舊 M04-10 原稿與歷史保留，私人原始記錄不進公開 repo。下一單元 M04-09，未新增其正文。
+
+<a id="ceh-mock-notes-2026-11-09"></a>
+## November 9 — supplied-source study connection
+
+[Mock-note connection map](../notes/2026-11-09-ceh-v13-mock-exams/connections.md) links twenty module guides, existing private learner-state ownership and current Kairos M05-C04 authored material. This task organizes local study references; Kairos retains public content/release ownership and no supplied exam questions are published by this capture.

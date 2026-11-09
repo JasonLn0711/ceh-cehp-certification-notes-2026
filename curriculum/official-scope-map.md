@@ -145,3 +145,8 @@ The [M09 Social Engineering film and sources](../notes/m09-social-engineering/vi
 ## M10 Denial-of-Service Masterclass
 
 [M10 production record](../notes/m10-denial-of-service/video-production-2026-10-19.md) connects official availability mechanisms, detection, mitigation, escalation and recovery to four offline resource cases. P4 remains the official scope mapping; the existing P3 saved-packet task retains its own M08/M10 evidence connection. Prepared source and film content establish no learner execution.
+
+<a id="ceh-mock-notes-2026-11-09"></a>
+## November 9 — question-to-module reference
+
+[Twenty-module mock-study map](../notes/2026-11-09-ceh-v13-mock-exams/README.md) routes every supplied entry to an editorial primary module and the corresponding existing practice form. The supplied category counts are source metadata; official scope and exam-domain weighting retain their own evidence. [Connections](../notes/2026-11-09-ceh-v13-mock-exams/connections.md) identifies P1–P5 reuse without assigning new tasks or changing learner status.

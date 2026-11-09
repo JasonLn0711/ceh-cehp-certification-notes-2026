@@ -100,3 +100,8 @@ The [M09 English Masterclass](../../notes/m09-social-engineering/video-productio
 ## M10 prepared film questions
 
 [M10 production](../../notes/m10-denial-of-service/video-production-2026-10-19.md) adds eight original graded questions in M10-film-v1 and separate prepared pre/post materials. Existing [M10 questions](m10.md), [key](m10-key.md), original first-answer totals and [practical families](practical.md) retain their identities and acceptance checks.
+
+<a id="ceh-mock-notes-2026-11-09"></a>
+## November 9 — separate supplied reference collection
+
+[Supplied mock-study collection](../../notes/2026-11-09-ceh-v13-mock-exams/README.md) adds 917 reference records, with 916 numbered entries and one embedded repeat. These CEH13 source IDs are separate from the 600 CEH26 core IDs and authored Mock A/B; question versions, keys and attempt counts here remain unchanged. [Held/qualified source keys](../../notes/2026-11-09-ceh-v13-mock-exams/quality-audit.md) must be considered before any separately activated practice; record prior key exposure in the existing attempt workflow.

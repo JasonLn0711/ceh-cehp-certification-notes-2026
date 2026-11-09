@@ -77,3 +77,8 @@ M04 先完成交付 12 個核心，再接 M05、M06，依序往下。M04 另外 
 ## 2026-10-27 呈現補充：白話解答與淺色程式碼
 
 後續依[公開教材橋接的現行呈現規範](../docs/public-teaching-bridge-2026-10-23.md#ceh-answer-presentation-2026-10-27)：正文與圖表直接閱讀，程式碼採淺底深字；理解測驗的白話繁中參考解答預設收合，配對英文語意一致。參考解答與實際 Q&A 分開，公布答案不等於本人回答或理解通過。本補充取代較早普通小檢核解答直接顯示的呈現方式，不更改已交付序列、穩定 ID 或預排日程。
+
+<a id="ceh-mock-notes-2026-11-09"></a>
+## November 9 — optional source reference
+
+[Full mock-study notes](../notes/2026-11-09-ceh-v13-mock-exams/README.md) supply examples for already-budgeted concepts. The saved next concept is CEH26-M05-C04 as checked on November 9; the private metadata remains authoritative. Prepared keys, notes and module mappings add no delivery/understanding/600-item count and no deadline; choose a matching example only within the existing reading block.

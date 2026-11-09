@@ -1,0 +1,65 @@
+{
+  "checked_on": "2026-11-09",
+  "timezone": "Asia/Taipei",
+  "status": "passed",
+  "checks": {
+    "archive_and_member_integrity": "original ZIP and all 5 members match recorded SHA-256 and exact ZIP bytes",
+    "item_coverage": {
+      "numbered": 916,
+      "embedded": 1,
+      "register_rows": 917,
+      "question_note_files": 9,
+      "module_guides": 20,
+      "mock03_bold_keys_checked": 125,
+      "mock02_q110": "absent with preserved placeholder"
+    },
+    "editorial_labels": {
+      "study-note": 676,
+      "qualified": 139,
+      "hold": 102
+    },
+    "duplicate_coverage": {
+      "groups": 114,
+      "extra_entries": 114,
+      "distinct_normalized_stems": 803
+    },
+    "existing_learning_state": {
+      "files_unchanged": 6,
+      "next_concept": "CEH26-M05-C04"
+    },
+    "link_integrity": {
+      "local_links_checked": 3459,
+      "new_markdown_files": 40,
+      "existing_backlink_sections": 17
+    },
+    "generated_whitespace": "checked all generated Markdown/CSV/JSON; immutable supplied bytes retained as-is"
+  },
+  "errors": [],
+  "repository_checks": [
+    {
+      "repo": "ceh-cehp-certification-notes-2026",
+      "command": "python3 assessments/practice-bank/check.py",
+      "exit_code": 0,
+      "summary": "600 existing practice and 250 authored mock MCQs, keys/registry, 25 practical tasks, blueprint allocations and 5 local fixtures passed; no learner result recorded."
+    },
+    {
+      "repo": "planning-everything-track",
+      "command": "python3 scripts/validate_knowledge.py",
+      "exit_code": 0,
+      "summary": "186 metadata notes and 186 catalog entries passed."
+    },
+    {
+      "repo": "planning-everything-track",
+      "command": "python3 scripts/validate_repository.py",
+      "exit_code": 0,
+      "summary": "Passed; 44 grandfathered warnings, 0 new, 0 resolved."
+    },
+    {
+      "repo": "both touched repositories",
+      "command": "git diff --check",
+      "exit_code": 0,
+      "summary": "Passed for tracked edits; generated new-note whitespace was checked separately."
+    }
+  ],
+  "scope": "Local source capture, complete study annotation and purposeful connections. Selected primary checks do not certify all supplied keys or establish learner acceptance/publication."
+}

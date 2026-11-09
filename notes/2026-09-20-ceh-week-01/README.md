@@ -63,3 +63,8 @@ The subsequent user-authorized [Planning day closeout and publication record](..
 ## Personal delivery confirmation — September 22
 
 Jason now reports attending the first class and covering M01–M03. [The new source receipt](../../source/2026-09-22-course-synced-review/README.md) supplies that personal confirmation; it does not independently authenticate the earlier recording date or establish full subtopic coverage/mastery. [The current C1 plan](../../study-plan/course-synced-review-2026-09-22.md) reuses these notes for consolidation and M04 preview. Earlier unconfirmed attendance wording describes the state at source capture.
+
+<a id="ceh-mock-notes-2026-11-09"></a>
+## November 9 — question-driven M01–M03 connections
+
+[M01 governance](../2026-11-09-ceh-v13-mock-exams/modules/m01.md) · [M02 reconnaissance](../2026-11-09-ceh-v13-mock-exams/modules/m02.md) · [M03 scan interpretation](../2026-11-09-ceh-v13-mock-exams/modules/m03.md) connect the supplied mock cases to this earlier course record. [Audit](../2026-11-09-ceh-v13-mock-exams/quality-audit.md) retains key conflicts and corrections; the original course-source coverage and learner evidence keep their own status.
