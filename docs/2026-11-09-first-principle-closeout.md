@@ -1,6 +1,6 @@
 # CEH source and tooling closeout — November 9, 2026
 
-Status: **validated**. Git publication is recorded separately below after remote verification.
+Status: **validated / published** for the implementation and Planning commits listed below. Git publication and learning/film acceptance retain separate evidence.
 
 ## Request and ownership
 
@@ -49,3 +49,11 @@ System Python initially failed six tests/imports because NumPy was unavailable. 
 [Source-to-learning map](../notes/2026-11-09-ceh-v13-mock-exams/connections.md) ↔ [video operator guide](../tools/ceh_video/README.md) ↔ [production index](video-production/README.md) ↔ [Planning day](../../planning-everything-track/weeks/2026-W46/days/2026-11-09.md#ceh-git-closeout-2026-11-09) ↔ [project locator](../../planning-everything-track/data/projects/2026-07-ceh-cehp-certification-training.md#ceh-git-closeout-2026-11-09) ↔ [W46](../../planning-everything-track/weeks/2026-W46/weekly-plan.md#ceh-git-closeout-2026-11-09).
 
 Resume saved CEH26-M05-C04 during an already-authorized reading block. Formal use of a held item requires its specific review and actual answer/exposure record. Capacity remains Unknown, with shared 240-minute weekly and 25-minute course-day ceilings. Prepared references, engineering tests and Git publication add no learner answers, understanding, study minutes, accepted practical result or official readiness.
+
+
+## Verified Git publication
+
+- CEH source, annotation, build, local-checkout boundary and validation commits (`5aacb8d`, `67bfb7a`, `7b1e98d`, `6404c9b`, `fc3b87c`) were pushed with `git push origin HEAD:main`. Fetch and `git ls-remote origin refs/heads/main` agreed at `fc3b87c381716b88f39ca5c57168707184675327`; divergence was `0 0`.
+- Planning mirror `77d2bacd` was pushed with the same refspec. Fetch and live remote agreed at `77d2bacd85ec10641d974050513e65e7fdcc2519`; divergence was `0 0`.
+- Nineteen closeout links/anchors across owner, day, project and week passed. Full day-note link scanning encountered a pre-existing missing coursework target (`nycu-115-1-coursework/mgmt30096/lectures/2026-09-14-ai-literacy/notes.md`); it remains outside the CEH edits. Planning's repository/knowledge checks and day/week agenda rendering passed.
+- This receipt update is a subsequent documentation commit. Its final tip is checked after push; the hashes above identify the already verified payloads. No force push, credential change, history rewrite or learner-state update was used.
