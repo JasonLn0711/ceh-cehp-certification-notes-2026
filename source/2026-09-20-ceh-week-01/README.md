@@ -104,3 +104,12 @@ Jason supplied two additional Chinese teaching handouts in conversation. [Comple
 ## Merged plain-English edition — September 21
 
 The later [English source receipt](../2026-09-21-ceh-merged-plain-english/README.md) preserves a separate, unchanged merged translation of the two teaching handouts. [Complete reading notes and crosswalk](../../notes/2026-09-20-ceh-week-01/plain-english/README.md) connect all sections back to this audit layer. The translation does not replace either audited source or establish independent corroboration.
+
+## 本機檔案新位置 — 2026-11-09
+
+原始檔名與封存副本保留其來源意義；本次 Desktop／Downloads 工作副本的查找位置如下：
+
+- `live-ceh-w1-260920-01.verified.md` → [2026-09-20_CEH_W01_逐字稿核對版_01.md](file:///Users/iKev/Desktop/01_Courses_and_Study/CEH/2026-09-20_CEH_W01_%E9%80%90%E5%AD%97%E7%A8%BF%E6%A0%B8%E5%B0%8D%E7%89%88_01.md)
+- `live-ceh-w1-260920-02.verified.md` → [2026-09-20_CEH_W01_逐字稿核對版_02.md](file:///Users/iKev/Desktop/01_Courses_and_Study/CEH/2026-09-20_CEH_W01_%E9%80%90%E5%AD%97%E7%A8%BF%E6%A0%B8%E5%B0%8D%E7%89%88_02.md)
+
+[11/10 定位查核與來源差異](../../docs/local-material-locators-2026-11-10.md)保存本機適用範圍、逐位元比對結果與 Planning 回鏈。

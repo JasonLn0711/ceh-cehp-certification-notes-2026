@@ -109,3 +109,11 @@ Rows are ordered by first appearance. Original inline citations remain attached 
 ## Capture acceptance
 
 Verified original/copy equality at the SHA-256 above; complete ordered text preservation in the four reading regions; 178 source-heading intervals covering all 1,850 lines; 41 main-section routes; unchanged citation multiplicities, command examples and 34 bold correction labels. Local link/anchor validation and both repositories' whitespace checks passed. The pre-existing two audited source copies retain their recorded hashes. No learner attempt, answer, score or practical result was edited.
+
+## 本機檔案新位置 — 2026-11-09
+
+原始檔名與封存副本保留其來源意義；本次 Desktop／Downloads 工作副本的查找位置如下：
+
+- `CEH_Full_Merged_Plain_English.md` → [CEH_完整合併教材_白話英文版.md](file:///Users/iKev/Desktop/01_Courses_and_Study/CEH/CEH_%E5%AE%8C%E6%95%B4%E5%90%88%E4%BD%B5%E6%95%99%E6%9D%90_%E7%99%BD%E8%A9%B1%E8%8B%B1%E6%96%87%E7%89%88.md)
+
+[11/10 定位查核與來源差異](../../docs/local-material-locators-2026-11-10.md)保存本機適用範圍、逐位元比對結果與 Planning 回鏈。

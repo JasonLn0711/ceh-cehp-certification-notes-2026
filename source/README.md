@@ -164,3 +164,11 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 ## November 10 — 30-day spiral review source
 
 [Source receipt](2026-11-10-spiral-review/README.md) preserves the complete supplied passage and two accessible account-page snapshots in ignored local custody. [Detailed plan record](../study-plan/spiral-review-2026-11-10.md) connects 916 first-pass dates, 1,294 chapter allocations, 60 cards, the existing teaching route and November 9 question notes. Schedule consistency is checked; the Library attachments, learner performance and adoption of the proposed intensive capacity retain their own gates.
+
+## 本機檔案新位置 — 2026-11-09
+
+原始檔名與封存副本保留其來源意義；本次 Desktop／Downloads 工作副本的查找位置如下：
+
+- `CEH_Full_Merged_Plain_English.md` → [CEH_完整合併教材_白話英文版.md](file:///Users/iKev/Desktop/01_Courses_and_Study/CEH/CEH_%E5%AE%8C%E6%95%B4%E5%90%88%E4%BD%B5%E6%95%99%E6%9D%90_%E7%99%BD%E8%A9%B1%E8%8B%B1%E6%96%87%E7%89%88.md)
+
+[11/10 定位查核與來源差異](../docs/local-material-locators-2026-11-10.md)保存本機適用範圍、逐位元比對結果與 Planning 回鏈。
