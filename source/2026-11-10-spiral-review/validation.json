@@ -1,0 +1,101 @@
+{
+  "captured_on": "2026-11-10",
+  "checked_at": "2026-11-10T13:27:54+08:00",
+  "status": "validated_source_consistency",
+  "check_count": 4514,
+  "source_files": {
+    "user-provided.txt": {
+      "bytes": 24464,
+      "sha256": "40dfefd0a4302be78f5baa54ceb481c08b6d8780e6cd8d8b05f8f5fb4ab76bbb"
+    },
+    "spiral-plan-page.json": {
+      "bytes": 134947,
+      "sha256": "bab6b393cfb98e05a4b4ddc66d8df5254093261ec0310239a78d2c3e38a815c2"
+    },
+    "spiral-plan-page.md": {
+      "bytes": 68367,
+      "sha256": "b10a11b3dd3132f4d75918477f5066f4fad3add61bf6db746065e25b67cafb9f"
+    },
+    "chapter-question-map-page.json": {
+      "bytes": 62730,
+      "sha256": "f0c0a24fe1006ff580c7c0cfc6298d895b5c011aad30fc19386637b610dd59ac"
+    },
+    "chapter-question-map-page.md": {
+      "bytes": 52847,
+      "sha256": "45b64e15e430d4b47259a1079172aca03555b5f73bb5738ed4ae787dcd43f75f"
+    },
+    "daily-schedule.json": {
+      "bytes": 28829,
+      "sha256": "cef179de3be8cdc434992c61966910933d7d91f3aedf50ab9f70e85298d8baf2"
+    },
+    "verify_capture.py": {
+      "bytes": 7882,
+      "sha256": "22017520494d8f3ba4bce6a1737af6e746a734744e4927e9d466bf16a62c1629"
+    }
+  },
+  "pages": [
+    {
+      "page_id": "page_a4dd5704358c81918afc57eaefcc651a",
+      "title": "CEH 30天三輪螺旋與間隔提取：11/10–12/9",
+      "url": "https://chatgpt.com/space/page_a4dd5704358c81918afc57eaefcc651a",
+      "upstream_updated_at": "2026-11-10T04:20:11.875646Z"
+    },
+    {
+      "page_id": "page_2d0d95e84f3881918b62c19f80ca0e32",
+      "title": "CEH v13 章節與建議新增複習單元字典",
+      "url": "https://chatgpt.com/space/page_2d0d95e84f3881918b62c19f80ca0e32",
+      "upstream_updated_at": "2026-11-10T03:43:08.170075Z"
+    }
+  ],
+  "question_counts": {
+    "EC": 542,
+    "P1": 125,
+    "P3": 125,
+    "P2": 124
+  },
+  "first_pass_questions": 916,
+  "chapter_allocations": 1294,
+  "chapter_units": 149,
+  "chapter_page_labels": {
+    "已發布": 45,
+    "建議新增複習單元（非網站既有章節）": 65,
+    "目錄規劃，正文未發布": 39
+  },
+  "round_first_pass_counts": [
+    306,
+    301,
+    309
+  ],
+  "round_effective_minutes": [
+    1185,
+    1330,
+    1495
+  ],
+  "final_six_effective_minutes": 805,
+  "total_effective_minutes": 4815,
+  "total_rest_minutes": 360,
+  "iso_week_effective_minutes": {
+    "46": 885,
+    "47": 1140,
+    "48": 1235,
+    "49": 1275,
+    "50": 280
+  },
+  "core_cards": 60,
+  "baseline_cross_day_visits": 300,
+  "timed_mock_question_ids": 125,
+  "not_evaluated": [
+    "xlsx_bytes_and_nine_sheets",
+    "library_md_html_zip_png_bytes",
+    "html_browser_interaction",
+    "original_question_answer_fidelity",
+    "six_answer_conflict_groups",
+    "174_round_three_flagged_questions",
+    "803_normalized_stem_groups",
+    "mock_distinct_stems_and_flag_exclusion",
+    "live_chapter_publication_states",
+    "primary_research_claims",
+    "learner_capacity_answers_retention_transfer_readiness"
+  ],
+  "scope": "Page snapshots and supplied source only; no learner attempt, adoption of new capacity, Git publication or deployment"
+}
