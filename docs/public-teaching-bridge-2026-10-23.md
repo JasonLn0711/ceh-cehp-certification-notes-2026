@@ -223,3 +223,7 @@ M04-01 adopts public content version **v2.0.0** as the explicit naming baseline 
 ## November 9 — supplied-source study connection
 
 [Mock-note connection map](../notes/2026-11-09-ceh-v13-mock-exams/connections.md) links twenty module guides, existing private learner-state ownership and current Kairos M05-C04 authored material. This task organizes local study references; Kairos retains public content/release ownership and no supplied exam questions are published by this capture.
+
+## M05-08 風險排序／修正／報告草稿（2026-11-10）
+
+[完整公開來源、雙語稿與驗收定位](ceh26-m05-c08-draft.md)保存八節及原題，網站對應 CEH26-M05-C08（M05-08），一單元承接舊M05-12／13／14。原生收合參考答案區分入口限制、更新回報與未完成驗證；沒有私人作答或學習狀態。本次只保存草稿分支，沒有PR、合併或部署。
