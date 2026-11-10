@@ -150,3 +150,8 @@ The [M09 Social Engineering film and sources](../notes/m09-social-engineering/vi
 ## November 9 — question-to-module reference
 
 [Twenty-module mock-study map](../notes/2026-11-09-ceh-v13-mock-exams/README.md) routes every supplied entry to an editorial primary module and the corresponding existing practice form. The supplied category counts are source metadata; official scope and exam-domain weighting retain their own evidence. [Connections](../notes/2026-11-09-ceh-v13-mock-exams/connections.md) identifies P1–P5 reuse without assigning new tasks or changing learner status.
+
+<a id="spiral-review-2026-11-10"></a>
+## November 10 — source question-to-unit mapping
+
+[The spiral-review record](../study-plan/spiral-review-2026-11-10.md#題庫章節與既有紀錄的強連結) connects all twenty course modules to the captured 149-unit reverse map. [Source checks](../source/2026-11-10-spiral-review/validation.json) confirm 916 scheduled IDs and 1,294 allocations, each question totaling 100%. Percentages describe the source author's knowledge allocation; official blueprint weights retain their own meaning. The page labels 45 units published, 39 planned and 65 proposed R units; these label counts were checked, while live publication and source-answer correctness remain separate. Stable course IDs and the official scope are preserved.

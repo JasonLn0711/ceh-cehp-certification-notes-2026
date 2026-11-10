@@ -159,3 +159,8 @@ This folder stores privacy-controlled source copies for CEH / CEHP preparation.
 ## November 9 — four supplied CEH v13 mock files
 
 [full study notes](../notes/2026-11-09-ceh-v13-mock-exams/README.md) · [source receipt](2026-11-09-ceh-v13-mock-exams/README.md) · [key/content audit](../notes/2026-11-09-ceh-v13-mock-exams/quality-audit.md). Four renamed exact-byte Markdown files and the original PNG are preserved with a SHA-256 manifest. Mock 02 skips Q110; an additional BYOD fragment appears inside Bank Q517. Underlying PDFs and official authenticity remain unverified.
+
+<a id="spiral-review-2026-11-10"></a>
+## November 10 — 30-day spiral review source
+
+[Source receipt](2026-11-10-spiral-review/README.md) preserves the complete supplied passage and two accessible account-page snapshots in ignored local custody. [Detailed plan record](../study-plan/spiral-review-2026-11-10.md) connects 916 first-pass dates, 1,294 chapter allocations, 60 cards, the existing teaching route and November 9 question notes. Schedule consistency is checked; the Library attachments, learner performance and adoption of the proposed intensive capacity retain their own gates.

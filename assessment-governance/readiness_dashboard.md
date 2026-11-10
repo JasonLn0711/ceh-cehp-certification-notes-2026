@@ -65,3 +65,8 @@ work. Historical timebox overruns are not evidence of measured focused minutes.
 ## October 22 historical-source reconciliation
 
 [Recovered September 17 M05 receipt](../assessments/attempts/2026-09-17-m05-teaching.md) records teaching captured, 0/10 answered, Q1 unanswered and no retests as of that source. This is a historical snapshot, not today's learner state. Current readiness and the course-aligned learning route remain unchanged.
+
+<a id="spiral-review-2026-11-10"></a>
+## November 10 — plan coverage recorded; learner evidence pending
+
+[Three-round review record](../study-plan/spiral-review-2026-11-10.md) connects the supplied November 10–December 9 plan to the existing learner-state owner. [Source checks](../source/2026-11-10-spiral-review/validation.json) confirm 916 unique scheduled first passes by December 3, 60 cards and 300 baseline cross-day visits. These are schedule checks; completed first passes, original answers, correction/retests, actual minutes, delayed retention, transfer and readiness remain unreported for this plan. December 6 contains 125 distinct scheduled IDs from previously seen material; score interpretation also requires the original stems and quality flags. No attempt or historical score is changed, and intensive capacity remains pending.
